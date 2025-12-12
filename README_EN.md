@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="存在与知|nolebase">
+  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="在与知|nolebase">
 </p>
 
 <p align="center">
@@ -28,11 +28,11 @@
 </p>
 
 
-# 存在与知
+# 在与知
 
 **A place to record memories, knowledge and ideas**
 
-The name 存在与知, pronounced as nole-base, comes from the Quenya word nólë, which means "knowledge", and the English word base, which means "foundation", i.e. "knowledge base".
+The name 在与知, pronounced as nole-base, comes from the Quenya word nólë, which means "knowledge", and the English word base, which means "foundation", i.e. "knowledge base".
 
 ## Features
 
@@ -45,18 +45,18 @@ The name 存在与知, pronounced as nole-base, comes from the Quenya word nól�
 - 🗃 Powered by [Obsidian](https://obsidian.md):
   - A robust knowledge base management tool that supports a wide range of extensions and plugins, making knowledge management much simpler.
 
-## Want to Deploy 存在与知 Locally, or Have Your Own Copy?
+## Want to Deploy 在与知 Locally, or Have Your Own Copy?
 
-We're thrilled that you're interested in [存在与知](https://nolebase.ayaka.io)!
+We're thrilled that you're interested in [在与知](https://nolebase.ayaka.io)!
 
 ### Background Information
 
 
-First, [存在与知](https://nolebase.ayaka.io) is fully functional in offline environments without a network connection! You can follow the guide [How to Download to Your Computer](#how-to-download-to-your-computer) to download or clone this repository and open it using knowledge base tools like [Obsidian](https://obsidian.md) or [Logseq](https://logseq.com/) locally. Alternatively, you can also browse or edit the contents locally using Markdown editors like [Typora](https://typora.io/), which means that even if you have no programming skills, you can still use or draw inspiration from our methods of categorizing and organizing knowledge.
+First, [在与知](https://nolebase.ayaka.io) is fully functional in offline environments without a network connection! You can follow the guide [How to Download to Your Computer](#how-to-download-to-your-computer) to download or clone this repository and open it using knowledge base tools like [Obsidian](https://obsidian.md) or [Logseq](https://logseq.com/) locally. Alternatively, you can also browse or edit the contents locally using Markdown editors like [Typora](https://typora.io/), which means that even if you have no programming skills, you can still use or draw inspiration from our methods of categorizing and organizing knowledge.
 
 Before we proceed, allow me to give an introduction to the technologies and architecture used in this project.
 
-Similar to other blogs and static website generators like [Hexo](https://hexo.io), [存在与知](https://nolebase.ayaka.io) is powered by a static site generator [VitePress](https://vitepress.dev). Tools like [VitePress](https://vitepress.dev) support embedding [Vue](https://vuejs.org/) components directly into Markdown files to enhance the reading experience. Both [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are part of the [Node.js](https://nodejs.org/en) ecosystem, which belongs to the broader category of "frontend technologies."
+Similar to other blogs and static website generators like [Hexo](https://hexo.io), [在与知](https://nolebase.ayaka.io) is powered by a static site generator [VitePress](https://vitepress.dev). Tools like [VitePress](https://vitepress.dev) support embedding [Vue](https://vuejs.org/) components directly into Markdown files to enhance the reading experience. Both [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are part of the [Node.js](https://nodejs.org/en) ecosystem, which belongs to the broader category of "frontend technologies."
 
 For hosting and deployment, we use the free service [Netlify](https://www.netlify.com/) to host the website. Meanwhile, [GitHub Actions](https://github.com/features/actions) (an automated workflow triggered whenever we update our notes and content in the GitHub repository) automatically builds and deploys our notes and knowledge base to [Netlify](https://www.netlify.com/).
 
@@ -68,7 +68,7 @@ Good question! As an [Obsidian](https://obsidian.md) user, maybe you are aware t
 
 1. **[Obsidian Publish](https://obsidian.md/publish) is a paid service.** However, for static websites, as previously mentioned, we can utilize free hosting services like [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/) and [Cloudflare Pages](https://pages.cloudflare.com/), which provide free, ready-to-use infrastructure.
 
-2. **[Obsidian Publish](https://obsidian.md/publish) does not support [Obsidian](https://obsidian.md)'s built-in plugins.** The static pages deployed through [Obsidian Publish](https://obsidian.md/publish) lack support for [Obsidian](https://obsidian.md)'s built-in plugin functionalities. This means that many documents written locally using plugin-supported syntax will render and preview correctly in [Obsidian](https://obsidian.md) but may become unusable once deployed via [Obsidian Publish](https://obsidian.md/publish). This is a critical issue because many users (myself included) heavily rely on [Obsidian](https://obsidian.md)'s plugin ecosystem. Unfortunately, this problem doesn’t have a perfect solution yet. However, we've created a project called [存在与知 Integrations](https://github.com/nolebase/integrations) to provide alternatives for common and widely used [Obsidian](https://obsidian.md) plugins in the [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) environment. While these alternatives can't fully replicate the functionality of [Obsidian](https://obsidian.md) plugins, they offer similar features to some extent. You might want to check it out!
+2. **[Obsidian Publish](https://obsidian.md/publish) does not support [Obsidian](https://obsidian.md)'s built-in plugins.** The static pages deployed through [Obsidian Publish](https://obsidian.md/publish) lack support for [Obsidian](https://obsidian.md)'s built-in plugin functionalities. This means that many documents written locally using plugin-supported syntax will render and preview correctly in [Obsidian](https://obsidian.md) but may become unusable once deployed via [Obsidian Publish](https://obsidian.md/publish). This is a critical issue because many users (myself included) heavily rely on [Obsidian](https://obsidian.md)'s plugin ecosystem. Unfortunately, this problem doesn’t have a perfect solution yet. However, we've created a project called [在与知 Integrations](https://github.com/nolebase/integrations) to provide alternatives for common and widely used [Obsidian](https://obsidian.md) plugins in the [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) environment. While these alternatives can't fully replicate the functionality of [Obsidian](https://obsidian.md) plugins, they offer similar features to some extent. You might want to check it out!
 
 #### When Should You Use [Obsidian Publish](https://obsidian.md/publish)
 
@@ -76,7 +76,7 @@ Good question! As an [Obsidian](https://obsidian.md) user, maybe you are aware t
 
 1. It can be challenging to find suitable Markdown plugins for [VitePress](https://vitepress.dev). [Obsidian Publish](https://obsidian.md/publish) supports all syntax and plugins that [Obsidian](https://obsidian.md) supports natively. This means you can deploy the documents you write in [Obsidian](https://obsidian.md) directly online without additional research or trial and error.
 
-2. Deploying and running a static website like [存在与知](https://nolebase.ayaka.io) can be much more difficult for authors without coding knowledge. However, [Obsidian Publish](https://obsidian.md/publish) requires no coding skills, and you don’t need to worry about technical details. Similar to sharing in Notion, deployment is as simple as a few clicks.
+2. Deploying and running a static website like [在与知](https://nolebase.ayaka.io) can be much more difficult for authors without coding knowledge. However, [Obsidian Publish](https://obsidian.md/publish) requires no coding skills, and you don’t need to worry about technical details. Similar to sharing in Notion, deployment is as simple as a few clicks.
 
 So if you don't have the necessary coding skills or don't want to invest time in learning them, [Obsidian Publish](https://obsidian.md/publish) might be a better choice for you.
 
@@ -91,7 +91,7 @@ Here are some projects we found on GitHub that use [VitePress](https://vitepress
 - [maomao1996/mm-notes: 茂茂物语: 各种笔记记录（想到啥写啥系列）](https://github.com/maomao1996/mm-notes)
 - [ATQQ/sugar-blog: ✍️📚我写博客的地方🤪🤪🤪记录随笔与学习笔记](https://github.com/ATQQ/sugar-blog)
 - [chodocs/chodocs: 一站式前端内容网站，包括学习路线、知识体系。](https://github.com/chodocs/chodocs)
-- [cangzihan/knolls-think-tank: 基于存在与知的个人知识库](https://github.com/cangzihan/knolls-think-tank)
+- [cangzihan/knolls-think-tank: 基于在与知的个人知识库](https://github.com/cangzihan/knolls-think-tank)
 - [CHENJIAMIAN/Blog: Obsidian笔记库 | 我的笔记分bei享fen | 根据GitHub工作流自动构建vitepress博客 | http://chenjiamian.me/Blog/](https://github.com/CHENJIAMIAN/Blog)
 - [realzhengyiming/YiMingBlog: a... new blog again, hhhh](https://github.com/realzhengyiming/YiMingBlog)
 - [nikitavoloboev/knowledge: Everything I know](https://github.com/nikitavoloboev/knowledge?tab=readme-ov-file)
@@ -144,7 +144,7 @@ Finished downloading? Great! Congratulations on completing one of the hardest st
 
 As previously mentioned:
 
-> [存在与知](https://nolebase.ayaka.io) is powered by a static site generator [VitePress](https://vitepress.dev).
+> [在与知](https://nolebase.ayaka.io) is powered by a static site generator [VitePress](https://vitepress.dev).
 >
 > Both [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are part of the [Node.js](https://nodejs.org/en) ecosystem, which belongs to the broader category of "frontend technologies."
 
@@ -212,13 +212,13 @@ pnpm setup
 
 to set up the directories for [pnpm](https://pnpm.io/). Once completed, close the current PowerShell window and open a new one.
 
-You're almost ready! Now, let's navigate to the directory where the 存在与知 knowledge base is located. Use the following command to move to the directory:
+You're almost ready! Now, let's navigate to the directory where the 在与知 knowledge base is located. Use the following command to move to the directory:
 
 ```shell
 cd
 ```
 
-Add an extra space, then open File Explorer and drag the extracted 存在与知 knowledge base folder into the terminal window. Finally, press the <kbd data-keyboard-key="enter">Enter</kbd> key to let PowerShell navigate to the directory of the 存在与知 knowledge base.
+Add an extra space, then open File Explorer and drag the extracted 在与知 knowledge base folder into the terminal window. Finally, press the <kbd data-keyboard-key="enter">Enter</kbd> key to let PowerShell navigate to the directory of the 在与知 knowledge base.
 
 ##### For macOS User
 
@@ -262,13 +262,13 @@ pnpm setup
 
 to set up the directories for [pnpm](https://pnpm.io/). Once completed, close the current terminal window and open a new one.
 
-Almost ready! Let’s navigate to the directory of the 存在与知 knowledge base. Use the following command to go to the directory of the 存在与知 knowledge base:
+Almost ready! Let’s navigate to the directory of the 在与知 knowledge base. Use the following command to go to the directory of the 在与知 knowledge base:
 
 ```shell
 cd
 ```
 
-Add an extra space, then open Finder. Drag the unzipped 存在与知 knowledge base folder into the terminal window, and then press <kbd data-keyboard-key="return">return</kbd> key to tell the terminal to go to the directory of the 存在与知 knowledge base.
+Add an extra space, then open Finder. Drag the unzipped 在与知 knowledge base folder into the terminal window, and then press <kbd data-keyboard-key="return">return</kbd> key to tell the terminal to go to the directory of the 在与知 knowledge base.
 
 ##### For Linux User
 
@@ -276,13 +276,13 @@ Since you're already using Linux, you must know what to do, right?
 
 #### Installing Dependencies and Running the Development Server
 
-In the second-to-last step, we need to install the dependencies, so that [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are downloaded to the `node_modules` directory within the local [存在与知](https://nolebase.ayaka.io) directory.
+In the second-to-last step, we need to install the dependencies, so that [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are downloaded to the `node_modules` directory within the local [在与知](https://nolebase.ayaka.io) directory.
 
 ```shell
 pnpm install
 ```
 
-Next, you can directly run the following command to start a locally hosted [存在与知](https://nolebase.ayaka.io) knowledge base frontend server. Typically, we refer to this as a "development server." With this server, you can use a browser to access the rendered pages locally:
+Next, you can directly run the following command to start a locally hosted [在与知](https://nolebase.ayaka.io) knowledge base frontend server. Typically, we refer to this as a "development server." With this server, you can use a browser to access the rendered pages locally:
 
 ```shell
 pnpm docs:dev
@@ -302,7 +302,7 @@ $ pnpm docs:dev
 
 Once you see the message above, you can go to [http://localhost:5173](http://localhost:5173) locally to view the rendered page.
 
-With the locally running 存在与知 knowledge base frontend server active, any changes you make to Markdown files, style files, or configuration files will be reflected in real time on the webpage.
+With the locally running 在与知 knowledge base frontend server active, any changes you make to Markdown files, style files, or configuration files will be reflected in real time on the webpage.
 
 If the refresh is delayed or there are any update issues, you can also try to press <kbd data-macos-keyboard-key="command">command</kbd> + <kbd>R</kbd> (For macOS) <kbd>Ctrl</kbd> + <kbd>R</kbd> (For Windows and Linux)to force a refresh.
 
@@ -314,11 +314,11 @@ To deploy the pages, first make sure you have already completed the steps for [I
 pnpm docs:build
 ```
 
-After the build is completed, the rendered HTML and various resources will be stored in the `.vitepress/dist` directory, You can deploy the 存在与知 knowledge base by uploading the `.vitepress/dist` directory.
+After the build is completed, the rendered HTML and various resources will be stored in the `.vitepress/dist` directory, You can deploy the 在与知 knowledge base by uploading the `.vitepress/dist` directory.
 
 #### Deploying Pages Using Static Website Hosting Services
 
-存在与知 knowledge base uses the VitePress static website generator to drive and generate static pages, making it possible for deployment to the following well-known **static website hosting services**:
+在与知 knowledge base uses the VitePress static website generator to drive and generate static pages, making it possible for deployment to the following well-known **static website hosting services**:
 
 - [Netlify](https://netlify.com/)
 - [Vercel](https://vercel.com/)
@@ -333,7 +333,7 @@ After the build is completed, the rendered HTML and various resources will be st
 >
 > Let's focus our energy on writing! ❤️
 
-Please refer to the [Deploy Your VitePress Site](https://vitepress.dev/guide/deploy) page in the official VitePress documentation to learn how to deploy your own 存在与知 knowledge base using popular static website hosting services.
+Please refer to the [Deploy Your VitePress Site](https://vitepress.dev/guide/deploy) page in the official VitePress documentation to learn how to deploy your own 在与知 knowledge base using popular static website hosting services.
 
 ##### Deploy on Vercel
 
@@ -367,7 +367,7 @@ After completing the configuration, it should look like this:
 ![](/public/obsidian-screenshot-1-EN.png)
 
 > [!TIP]
-> By default, the [Bi-Directional Links (for markdown-it)](https://nolebase-integrations.ayaka.io/pages/en/integrations/markdown-it-bi-directional-links/) included with 存在与知 will automatically handle all [[link]] and ![[link]] bi-directional links supported by Obsidian.
+> By default, the [Bi-Directional Links (for markdown-it)](https://nolebase-integrations.ayaka.io/pages/en/integrations/markdown-it-bi-directional-links/) included with 在与知 will automatically handle all [[link]] and ![[link]] bi-directional links supported by Obsidian.
 > However, there are situations where you might want to avoid the appearance or usage of bi-directional links, such as:
 >
 > 1. Compatibility in Markdown: This allows the document to be properly rendered on GitHub (since GitHub cannot parse `[[wikilinks]]`).
@@ -396,7 +396,7 @@ Configuration steps:
 
 1. Visit the [Giscus website](https://giscus.app/)
 2. Follow the instructions on the website step by step. In the end, you will get the configuration information for Giscus.
-3. In the 存在与知 repository, execute:
+3. In the 在与知 repository, execute:
 
 ```sh
 pnpm add -D vitepress-plugin-comment-with-giscus
@@ -539,7 +539,7 @@ The title is generally the same as the filename, making it easy to locate and re
 
 Tags make the document easier to search and link together. They also make it more convenient to find related documents after reading one, enabling readers to continue exploring related topics more easily.
 
-In the past, [存在与知](https://nolebase.ayaka.io) used [Obsidian](https://obsidian.md)'s [basic tag](https://help.obsidian.md/Editing+and+formatting/Tags) `#tag`(which I call "plain tags")to mark pages. However, plain tags embedded in the main text are not conducive to programmatic processing, and using [structured tags (or nested tags)](https://help.obsidian.md/Editing+and+formatting/Tags#Nested+tags)directly in the body of the text can cause confusion. To better integrate with [存在与知 Integrations](https://nolebase-integrations.ayaka.io) for fully automated tag processing and to optimize the overall reading experience, now [存在与知](https://nolebase.ayaka.io) adds a `tags` field to the [frontmatter](https://github.com/jonschlinkert/gray-matter) of Markdown, which is compatible with [Obsidian](https://obsidian.md), for configuring page tags.
+In the past, [在与知](https://nolebase.ayaka.io) used [Obsidian](https://obsidian.md)'s [basic tag](https://help.obsidian.md/Editing+and+formatting/Tags) `#tag`(which I call "plain tags")to mark pages. However, plain tags embedded in the main text are not conducive to programmatic processing, and using [structured tags (or nested tags)](https://help.obsidian.md/Editing+and+formatting/Tags#Nested+tags)directly in the body of the text can cause confusion. To better integrate with [在与知 Integrations](https://nolebase-integrations.ayaka.io) for fully automated tag processing and to optimize the overall reading experience, now [在与知](https://nolebase.ayaka.io) adds a `tags` field to the [frontmatter](https://github.com/jonschlinkert/gray-matter) of Markdown, which is compatible with [Obsidian](https://obsidian.md), for configuring page tags.
 
 ##### Markdown Writing Example
 

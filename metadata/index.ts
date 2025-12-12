@@ -2,8 +2,8 @@ import type { Creator } from '../scripts/types/metadata'
 import { getAvatarUrlByGithubName } from '../scripts/utils'
 
 /** 文本 */
-export const siteName = '存在与知'
-export const siteShortName = '存在与知'
+export const siteName = '在与知'
+export const siteShortName = '在与知'
 export const siteDescription = '记录回忆，知识和畅想的地方'
 
 /** 文档所在目录 */
@@ -25,7 +25,7 @@ export const creators: Creator[] = [
     name: 'Ontology',
     avatar: '',
     username: 'Ontology',
-    title: '存在与知 原始创作者',
+    title: '在与知 原始创作者',
     desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/Ontology' },
@@ -38,7 +38,7 @@ export const creators: Creator[] = [
     name: 'Epistemology',
     avatar: '',
     username: 'Epistemology',
-    title: '存在与知 原始创作者',
+    title: '在与知 原始创作者',
     desc: '开源开发者，专注于前端，以及前端相关工具库和工具链开发',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/Epistemology' },
