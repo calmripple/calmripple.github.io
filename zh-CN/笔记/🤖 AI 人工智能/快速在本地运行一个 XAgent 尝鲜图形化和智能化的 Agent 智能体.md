@@ -7,7 +7,7 @@ tags:
 # 快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体
 
 ```shell
-git clone Ontology.git:OpenBMB/XAgent.git
+git clone beingknowing.git:OpenBMB/XAgent.git
 ```
 
 ```shell

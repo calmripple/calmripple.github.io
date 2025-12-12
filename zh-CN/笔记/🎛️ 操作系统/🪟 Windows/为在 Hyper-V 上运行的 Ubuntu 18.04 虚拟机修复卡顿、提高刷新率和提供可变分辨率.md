@@ -34,7 +34,7 @@ tags:
 
 ## 前言
 
-昨天开始帮小音 @Epistemology 在家里的 Homelab 上配置 [GAMES101 课程](https://games-cn.org/intro-graphics/)需要用到的 Ubuntu 虚拟机环境（因为 opencv@2 在小音所使用的 Apple Silicon macOS 上不再被支持[^2]，而且上游有 python2.7 的引用[^1]，更别提，其实在这片文档撰写的时候，python2 已经离我们远去好几年了），配置的时候就发现了好几个问题：
+昨天开始帮小音 @beknowing 在家里的 Homelab 上配置 [GAMES101 课程](https://games-cn.org/intro-graphics/)需要用到的 Ubuntu 虚拟机环境（因为 opencv@2 在小音所使用的 Apple Silicon macOS 上不再被支持[^2]，而且上游有 python2.7 的引用[^1]，更别提，其实在这片文档撰写的时候，python2 已经离我们远去好几年了），配置的时候就发现了好几个问题：
 
 1. 下载下来的 Ubuntu 18.04 是 VDI（VirtualBox 的虚拟磁盘镜像文件）格式的文件，需要进行转换，在 Homelab 的 Host Server（即 Windows Server）上进行操作的时候就发现这个需要安装 VirtualBox 后才能通过 VirtualBox 附带的 vbmanage 命令转换为 VHD，然而 VirtualBox 又需要 Python Core 和 Python 的 win32api 库，原本用 `scoope` 命令给安装的 python 也没用上，折腾了好一会儿；
 2. 转换得到的 VHD 在创建为 Hyper-V Gen 2 虚拟机的时候又被提示不支持，通过 Hyper-V 自带的硬盘转换工具向导转换之后能创建但还是会提示 `SCSI disk (0,0) the boot loader did not load an operating system` 错误，说明转换之后需要连带着转换分区，但没那么多时间折腾，就又换回了 Hyper-V Gen 1 的虚拟机了；

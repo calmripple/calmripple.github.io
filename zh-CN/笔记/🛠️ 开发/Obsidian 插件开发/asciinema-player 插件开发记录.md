@@ -30,7 +30,7 @@ git clone github.com/<用户名>/<仓库名> <知识库路径>/.obsidian/plugins
 以我的为例：
 
 ```shell
-git clone Ontology.git:Ontology/obsidian-asciinema-player.git
+git clone beingknowing.git:beingknowing/obsidian-asciinema-player.git
 ```
 
 ### 安装依赖
@@ -51,7 +51,7 @@ pnpm i
  "minAppVersion": "0.9.12", # 要求的 Obsidian 最小版本号
  "description": "", # 简介
  "author": "Ayaka Neko", # 作者
- "authorUrl": "https://github.com/Ontology", # 作者地址
+ "authorUrl": "https://github.com/beingknowing", # 作者地址
  "isDesktopOnly": false # 决定了使用的是 Node API（跨平台） 还是 Electron API（桌面端）
 }
 ```

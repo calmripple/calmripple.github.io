@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useClipboard } from '@vueuse/core'
-import { ref, watch } from 'vue'
 import { useRoute } from 'vitepress'
+import { ref, watch } from 'vue'
 import { plainTargetDomain } from '../../../metadata'
 
 interface HyphenResp<T> {
@@ -54,7 +54,9 @@ async function getShareLink(): Promise<string> {
   if (
     window.location.hostname !== plainTargetDomain
     || window.location.pathname.length <= 20
-  ) return window.location.href
+  ) {
+    return window.location.href
+  }
 
   const url = window.location.href
 

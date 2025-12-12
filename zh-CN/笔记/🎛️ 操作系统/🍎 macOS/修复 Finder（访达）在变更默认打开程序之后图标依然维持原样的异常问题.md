@@ -17,7 +17,7 @@ tags:
 
 ## 说明
 
-前两天小音 @Epistemology 的 macOS 中的 Finder、Visual Studio Code 中的 TypeScript 文件（拓展名为 `.ts`）的文件预览图标都莫名其妙地变成了哔哩哔哩的客户端的模样：
+前两天小音 @beknowing 的 macOS 中的 Finder、Visual Studio Code 中的 TypeScript 文件（拓展名为 `.ts`）的文件预览图标都莫名其妙地变成了哔哩哔哩的客户端的模样：
 
 ![](assets/twitter-status-1690198922210189312-image.png)
 

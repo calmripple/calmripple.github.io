@@ -2,8 +2,8 @@ import type { Creator } from '../scripts/types/metadata'
 import { getAvatarUrlByGithubName } from '../scripts/utils'
 
 /** 文本 */
-export const siteName = '在与知'
-export const siteShortName = '在与知'
+export const siteName = '知与在'
+export const siteShortName = '知与在'
 export const siteDescription = '记录回忆，知识和畅想的地方'
 
 /** 文档所在目录 */
@@ -24,14 +24,14 @@ export const creators: Creator[] = [
   {
     name: '存在',
     avatar: '',
-    username: 'Ontology',
-    title: '在与知 原始创作者',
+    username: 'beingknowing',
+    title: '知与在 原始创作者',
     desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
     links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/Ontology' },
+      { type: 'github', icon: 'github', link: 'https://github.com/beingknowing' },
       { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
     ],
-    nameAliases: ['Ontology', '绚香猫', '存在', 'Neko Ayaka', 'Ayaka Neko'],
+    nameAliases: ['beingknowing', '绚香猫', '存在', 'Neko Ayaka', 'Ayaka Neko'],
     emailAliases: ['neko@ayaka.moe'],
   },
 ].map<Creator>((c) => {

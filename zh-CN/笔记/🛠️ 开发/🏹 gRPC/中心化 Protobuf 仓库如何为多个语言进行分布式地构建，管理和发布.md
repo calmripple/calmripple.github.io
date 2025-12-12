@@ -31,7 +31,7 @@ status: 尚未完成
 
 ## 如何组织文件呢？
 
-我们假设我们有一个中心化仓库叫做：`<命名空间>-protobuf` （比如我自己的项目中会用到的 Protobuf 所存放的仓库就可以叫做 `Ontology-protobuf`），以及我们有如下的文件结构：
+我们假设我们有一个中心化仓库叫做：`<命名空间>-protobuf` （比如我自己的项目中会用到的 Protobuf 所存放的仓库就可以叫做 `beingknowing-protobuf`），以及我们有如下的文件结构：
 
 ```shell
 $ tree
@@ -43,7 +43,7 @@ $ tree
             └── helloworld.proto
 ```
 
-以及一个需要构建的目标仓库 `<命名空间>-protobuf-<语言/SDK/环境>`（比如给 Golang 进行构建的话就是 `Ontology-protobuf-go`）：
+以及一个需要构建的目标仓库 `<命名空间>-protobuf-<语言/SDK/环境>`（比如给 Golang 进行构建的话就是 `beingknowing-protobuf-go`）：
 
 ```shell
 $ tree

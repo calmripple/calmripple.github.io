@@ -218,7 +218,7 @@ Host <连接时在输入 ssh 命令时引用的域名别名>
     IdentityFile <公钥所在的路径>
 ```
 
-1. **Host**：域，等同于别名，比如我们可以在这个字段中填写 `gh`，下面的 `HostName` 填写 `github.com`，则连接的时候我们输入并执行 `ssh gh` 就可以自动指向到 `github.com`，这个地方选择自己喜欢的方式命名即可，比如我喜欢 `<用户名>.git` 这样（`Ontology.git`），这样多用户的时候可以方便配置
+1. **Host**：域，等同于别名，比如我们可以在这个字段中填写 `gh`，下面的 `HostName` 填写 `github.com`，则连接的时候我们输入并执行 `ssh gh` 就可以自动指向到 `github.com`，这个地方选择自己喜欢的方式命名即可，比如我喜欢 `<用户名>.git` 这样（`beingknowing.git`），这样多用户的时候可以方便配置
 2. **HostName**：域名，需要连接的远程服务器域名或是 IP 地址，GitHub 的 SSH 需要填写 github.com，GitLab 则填写 gitlab.com，如果是自建的 GitLab 实例，则需要填写对应的实例域名或是 IP
 3. **User**：用户，连接时使用的用户，对于 GitHub SSH 而言，默认填写 git，不用写为自己的用户名，服务器那边会通过你的公钥自动判断的
 4. **IdentityFile**：身份文件，一般是 RSA 密钥的私钥文件，格式不限，只要是复合 OpenSSH 规范的即可
@@ -257,7 +257,7 @@ Host gitlab.com
 当然你也可以参考我的配置：
 
 ```ssh-config
-Host Ontology.git
+Host beingknowing.git
     HostName ssh.github.com
     User git
     Port 443
@@ -307,8 +307,8 @@ ssh -T github.com
 正常情况下的测试结果：
 
 ```shell
-ssh -T Ontology.git
-Hi Ontology! You've successfully authenticated, but GitHub does not provide shell access.
+ssh -T beingknowing.git
+Hi beingknowing! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 出现这样的字样就说明配置完成了，可以在 Git 命令行工具中使用了。
@@ -328,11 +328,11 @@ Host github.com
 Git 克隆命令：
 
 ```shell
-git clone Ontology.git:Ontology/repo.git
+git clone beingknowing.git:beingknowing/repo.git
 ```
 
 为老的仓库设定使用 SSH 连接：
 
 ```shell
-git remote set-url origin Ontology.git:Ontology/repo.git
+git remote set-url origin beingknowing.git:beingknowing/repo.git
 ```

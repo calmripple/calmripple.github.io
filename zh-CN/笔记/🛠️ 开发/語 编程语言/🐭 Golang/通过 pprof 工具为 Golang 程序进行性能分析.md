@@ -115,7 +115,7 @@ go tool pprof "localhost:8080/debug/pprof/profile?seconds=60"
 >
 > 因此，如果你想要通过 `pprof` 去细致入微地测量每个函数的调用的话，是行不通的，因为他们对于 `pprof` 而言不够显眼，换句话说，是占用的计算资源不如别的函数，这个时候 `pprof` 接口所返回的 Profiling 数据中是不会包含这些信息的。
 >
-> 对于精确测量函数调用的需求，请使用 Jeager 或者我撰写的 [Ontology/elapsing](https://github.com/Ontology/elapsing) 库来对逐个函数和调用栈进行可观测分析。
+> 对于精确测量函数调用的需求，请使用 Jeager 或者我撰写的 [beingknowing/elapsing](https://github.com/beingknowing/elapsing) 库来对逐个函数和调用栈进行可观测分析。
 
 如果有二进制文件，或者想看 `pprof` 的源代码映射的话，也可以在第二个参数中指定正在 `pprof` 的二进制文件：
 

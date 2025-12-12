@@ -22,7 +22,7 @@ status: 尚未完成
 
 ## 说明
 
-最近小音 @Epistemology 在 Home Assistant 和 Homekit 上给从 Home Assistant 从米家接入的[子擎的人在传感器](https://zhuanlan.zhihu.com/p/592187536)做了一些关于自动开关灯的场景的自动化，然后发现从设备的状态更新，到触发 Home Assistant 的自动化，到 Homekit 灯具开关的流程耗时非常长，可能有 5s 到 10s 不等的延迟。
+最近小音 @beknowing 在 Home Assistant 和 Homekit 上给从 Home Assistant 从米家接入的[子擎的人在传感器](https://zhuanlan.zhihu.com/p/592187536)做了一些关于自动开关灯的场景的自动化，然后发现从设备的状态更新，到触发 Home Assistant 的自动化，到 Homekit 灯具开关的流程耗时非常长，可能有 5s 到 10s 不等的延迟。
 
 ## 哪里来的延迟
 

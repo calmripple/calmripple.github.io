@@ -2,13 +2,13 @@
 layout: home
 sidebar: false
 
-title: 在与知
+title: 知与在
 titleTemplate: 记录回忆，知识和畅想的地方
 
 hero:
   name: ရှိသိမြင်​
   text: 回忆，知识和畅想
-  tagline: 以 在与知 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+  tagline: 以 知与在 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
 
   image:
     src: /logo.svg

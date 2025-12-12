@@ -10,7 +10,7 @@ tags:
 
 ## 背景
 
-对于 在与知 这样的使用 Git 作为版本管理和协作的知识库和其他众多的文档站点（比如 Kubernetes 文档站 [kubernetes/website](https://github.com/kubernetes/website)），默认配置的情况下，GitHub 可能会把仓库内的代码占比展示为下面这样：
+对于 知与在 这样的使用 Git 作为版本管理和协作的知识库和其他众多的文档站点（比如 Kubernetes 文档站 [kubernetes/website](https://github.com/kubernetes/website)），默认配置的情况下，GitHub 可能会把仓库内的代码占比展示为下面这样：
 
 ![](./assets/how-to-include-markdown-in-stats-for-github-screenshot-1.png)
 
@@ -22,7 +22,7 @@ tags:
 
 ![](./assets/how-to-include-markdown-in-stats-for-github-screenshot-2.png)
 
-上图是 在与知 的主要仓库 [nolebase/nolebase](https://github.com/calmripple/nolebase) 的代码占比统计信息，可以看到在调整配置之后，在与知 中的巨量 Markdown 文件就能被统计到占比中了。
+上图是 知与在 的主要仓库 [nolebase/nolebase](https://github.com/calmripple/nolebase) 的代码占比统计信息，可以看到在调整配置之后，知与在 中的巨量 Markdown 文件就能被统计到占比中了。
 
 ## 如何实现
 

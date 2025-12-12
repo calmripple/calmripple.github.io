@@ -4,18 +4,18 @@ tags:
   - 知识领域/个人知识管理/PKM
   - 软件/Obsidian
   - 开发/前端/VitePress
-  - 项目/在与知
+  - 项目/知与在
   - 个人知识管理/知识库
 status: 尚未完成
 ---
-# 在与知（beknowing） 和我们所使用的 Obsidian 以及 VitePress 所处的困境
+# 知与在（beknowing） 和我们所使用的 Obsidian 以及 VitePress 所处的困境
 
 > [!WARNING]
 > ⚠️ 该文档尚未完成，仍在编写中...
 
 ## 前言
 
-距离 [[Nolebase|Nólëbase]] 从建立到现在已经过去了快 2 年多的时间了，[[Nolebase|Nólëbase]] 给我和小音 @Epistemology 带来了什么？
+距离 [[Nolebase|Nólëbase]] 从建立到现在已经过去了快 2 年多的时间了，[[Nolebase|Nólëbase]] 给我和小音 @beknowing 带来了什么？
 
 **我没有办法给出一个答案。** 再加上小音在 [[VitePress]] 项目中有过不好的经历，她现在使用的也很少了，很多地方的用户体验设计我不清楚是否做到位了，但是我知道这里面有非常多的问题亟待解决。这很多时候和 [[Nolebase|Nólëbase]] 底层所使用的 [[Obsidian]]，[[VitePress]]，以及我目前学习到的这些「知识库方法论」息息相关。
 
@@ -60,7 +60,7 @@ Obsidian 的绝大多数知识，往往都是在我花费大量的时间解决�
 
 ![](assets/obsidian-vitepress-and-nolebase-problems-ideas-vault-01.png.png)
 
-但这些点子并非加入到点子库之后就能够直接被实现和完成，对于「[[Obsidian]] 集成 [Hexo](https://hexo.io)/[Hugo](https://gohugo.io/)/[Gatsby](https://www.gatsbyjs.com/) 支持网页生成」这样的点子和想法在当今的 2023 年也依然不是很好解决，不过感谢小音 @Epistemology 在 2022 年底的建议和行动，借助于 [[VitePress]] 这样超快速的先进静态页面生成器，[[Nolebase|Nólëbase]] 现在能够很方便的进行分享和拓展了，当然除此以外也有很多别的工具和生态能够利用起来，你感兴趣的话，也可以去看看：
+但这些点子并非加入到点子库之后就能够直接被实现和完成，对于「[[Obsidian]] 集成 [Hexo](https://hexo.io)/[Hugo](https://gohugo.io/)/[Gatsby](https://www.gatsbyjs.com/) 支持网页生成」这样的点子和想法在当今的 2023 年也依然不是很好解决，不过感谢小音 @beknowing 在 2022 年底的建议和行动，借助于 [[VitePress]] 这样超快速的先进静态页面生成器，[[Nolebase|Nólëbase]] 现在能够很方便的进行分享和拓展了，当然除此以外也有很多别的工具和生态能够利用起来，你感兴趣的话，也可以去看看：
 
 1. 基于 [Nuxt 3](https://nuxt.com/) 的文档生成器 [Docus](https://docus.dev/)
 2. 现在最新最热的 [Astro](https://astro.build/)
@@ -87,7 +87,7 @@ Obsidian 的绝大多数知识，往往都是在我花费大量的时间解决�
 
 不过这些问题在 Obsidian Publish 中解决了吗？答案是不能。Obsidian Publish 甚至是会忽略支持插件的，这使得情况会变的更糟，用了也等于没用，对于 [[VitePress]] 而言也是解决了等于没解决。
 
-我试图通过在 在与知 中撰写大量的插件来解决这个问题，但事实是它并不好解决，借鉴于 VueUse，UnoCSS，Vite 和 Vue 文档的插件穿插在文档项目中难以维护，然后就可能会遇到你不得不为了更新脚本和插件而整个推送文档项目的情况，他们耦合在了一起，十分不方便。
+我试图通过在 知与在 中撰写大量的插件来解决这个问题，但事实是它并不好解决，借鉴于 VueUse，UnoCSS，Vite 和 Vue 文档的插件穿插在文档项目中难以维护，然后就可能会遇到你不得不为了更新脚本和插件而整个推送文档项目的情况，他们耦合在了一起，十分不方便。
 
 ## 怎么办呢
 

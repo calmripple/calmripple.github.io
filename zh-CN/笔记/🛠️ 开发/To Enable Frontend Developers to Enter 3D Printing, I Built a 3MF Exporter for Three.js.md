@@ -3,7 +3,7 @@
 
 ## Introduction
 
-As web technologies continue to evolve, the line between digital and physical creation is becoming increasingly blurred. When I started working on [Bekuto3D](https://github.com/Epistemology/bekuto3d), a tool for converting SVG files to 3D models, I discovered a significant gap in the Three.js ecosystem: the lack of a reliable 3MF exporter.
+As web technologies continue to evolve, the line between digital and physical creation is becoming increasingly blurred. When I started working on [Bekuto3D](https://github.com/beknowing/bekuto3d), a tool for converting SVG files to 3D models, I discovered a significant gap in the Three.js ecosystem: the lack of a reliable 3MF exporter.
 
 ## The Problem
 
@@ -82,6 +82,6 @@ By bridging the gap between Three.js and 3D printing with this 3MF exporter, I h
 
 If you're working on a project that could benefit from this exporter, please give it a try. And if you encounter any issues or have suggestions for improvements, contributions to the project are always welcome.
 
-Check out the full project at [three-3mf-exporter](https://github.com/Epistemology/bekuto3d/tree/main/packages/three-3mf-exporter) or install it via npm: `npm install three-3mf-exporter`.
+Check out the full project at [three-3mf-exporter](https://github.com/beknowing/bekuto3d/tree/main/packages/three-3mf-exporter) or install it via npm: `npm install three-3mf-exporter`.
 
 Happy printing!

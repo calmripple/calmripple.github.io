@@ -53,12 +53,12 @@ tags:
 
 ### Fork 并克隆目标项目
 
-1. 在 GitHub 上找到自己想要贡献的项目仓库，点击右上角的 Fork 按钮，创建一个基于项目的 Fork。比如我在这里创建了 [Ontology/truenas-webui](https://github.com/Ontology/truenas-webui)
+1. 在 GitHub 上找到自己想要贡献的项目仓库，点击右上角的 Fork 按钮，创建一个基于项目的 Fork。比如我在这里创建了 [beingknowing/truenas-webui](https://github.com/beingknowing/truenas-webui)
 2. 创建完成后克隆自己 Fork 过的代码仓库到本地
 3. 记得在本地的 git 仓库中添加 Fork 的时候原本的仓库，因为我使用 SSH 进行 git 的操作，所以我应该会这样输入一个命令：
 
 ```shell
-git remote add upstream Ontology.git:Ontology/truenas-webui.git
+git remote add upstream beingknowing.git:beingknowing/truenas-webui.git
 ```
 
 有关给 git 配置 SSH 的教学和说明，可以参考 [[Git 客户端配置 SSH 验证]] 的文档说明。
@@ -90,5 +90,5 @@ git push -u origin <分支名>
 
 我给 TrueNAS 提交了两个 PR，都已经合入了 👏，感谢 TrueNAS 团队帮忙审阅！
 
-- [NAS-127275: Update Development requirements section of README.md along with formatting by Ontology · Pull Request #9645 · truenas/webui](https://github.com/truenas/webui/pull/9645)，Jira 在 [https://ixsystems.atlassian.net/browse/NAS-127275](https://ixsystems.atlassian.net/browse/NAS-127275)
-- [NAS-127276 / 24.10 / guard user.privilege access when processing login results to prevent undefined property read by Ontology · Pull Request #9646 · truenas/webui](https://github.com/truenas/webui/pull/9646)，Jira 在 [https://ixsystems.atlassian.net/browse/NAS-127276](https://ixsystems.atlassian.net/browse/NAS-127276)
+- [NAS-127275: Update Development requirements section of README.md along with formatting by beingknowing · Pull Request #9645 · truenas/webui](https://github.com/truenas/webui/pull/9645)，Jira 在 [https://ixsystems.atlassian.net/browse/NAS-127275](https://ixsystems.atlassian.net/browse/NAS-127275)
+- [NAS-127276 / 24.10 / guard user.privilege access when processing login results to prevent undefined property read by beingknowing · Pull Request #9646 · truenas/webui](https://github.com/truenas/webui/pull/9646)，Jira 在 [https://ixsystems.atlassian.net/browse/NAS-127276](https://ixsystems.atlassian.net/browse/NAS-127276)

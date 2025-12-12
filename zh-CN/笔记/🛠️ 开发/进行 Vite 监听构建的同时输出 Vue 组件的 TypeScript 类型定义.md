@@ -25,4 +25,4 @@ tags:
 }
 ```
 
-当然，除去 [`concurrently`](https://www.npmjs.com/package/concurrently) 还有很多种方式，在 [`slimeform`](https://github.com/Epistemology/slimeform) 中使用的 [`run-p`](https://www.npmjs.com/package/run-p)，你可以使用 `run-p`，它工作的很好，但 `run-p` 其实有一些古早了，而且好久没有再发布过更新了，上一次发布已经是 7 年前，所以根据喜好和需求来选择就好了。
+当然，除去 [`concurrently`](https://www.npmjs.com/package/concurrently) 还有很多种方式，在 [`slimeform`](https://github.com/beknowing/slimeform) 中使用的 [`run-p`](https://www.npmjs.com/package/run-p)，你可以使用 `run-p`，它工作的很好，但 `run-p` 其实有一些古早了，而且好久没有再发布过更新了，上一次发布已经是 7 年前，所以根据喜好和需求来选择就好了。

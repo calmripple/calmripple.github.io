@@ -28,8 +28,8 @@ import { creators, siteName } from '../../../metadata'
               你也可以访问我们的 Sponsors 页面来加入其中：
             </p>
             <p flex justify-center gap-4>
-              <a href="https://github.com/sponsors/Epistemology" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge"></a>
-              <a href="https://github.com/sponsors/Ontology" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Neko&logo=GitHub&color=%23fe8e86&style=for-the-badge"></a>
+              <a href="https://github.com/sponsors/beknowing" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge"></a>
+              <a href="https://github.com/sponsors/beingknowing" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Neko&logo=GitHub&color=%23fe8e86&style=for-the-badge"></a>
             </p>
 
             <h2 text="center lg" my-5 font-bold>

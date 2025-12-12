@@ -12,7 +12,7 @@ tags:
 下面所有的案例都假定我的 SSH 配置文件是这样撰写的：
 
 ```ssh-config
-Host Ontology.git
+Host beingknowing.git
     HostName ssh.github.com
     User git
     Port 443
@@ -50,7 +50,7 @@ git config --local -e
 
 ```shell
 # For performing go get ./... or go mod download with private go packages
-[url "git@Ontology.git:"]
+[url "git@beingknowing.git:"]
   insteadOf = https://example.com/
 ```
 
@@ -66,7 +66,7 @@ git config --local -e
 
 ```shell
 # For performing go get ./... or go mod download with private go packages
-[url "git@Ontology.git:myorg"]
+[url "git@beingknowing.git:myorg"]
   insteadOf = https://github.com/myorg/
 ```
 
@@ -82,7 +82,7 @@ git config --local -e
 
 ```shell
 # For performing go get ./... or go mod download with private go packages
-[url "git@Ontology.git:myorg/mypackage"]
+[url "git@beingknowing.git:myorg/mypackage"]
   insteadOf = https://github.com/myorg/mypackage
 ```
 
