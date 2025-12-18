@@ -73,7 +73,6 @@ jobs:
           BASE_URL: ${{ env.PRODUCT_BASE_URL }}
         run: |
           pnpm install --no-frozen-lockfile
-          pnpm buildlib
           pnpm build
 
       - name: Setup Pages

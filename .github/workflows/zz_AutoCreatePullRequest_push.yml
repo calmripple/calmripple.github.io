@@ -215,7 +215,6 @@ jobs:
           BASE_URL: ${{ steps.baseurl.outputs.PREVIEW_URL }}
         run: |
           pnpm install --no-frozen-lockfile
-          pnpm buildlib
           pnpm build
 
       # This will trigger the action. Make sure to change the build_dir input to the correct directory
@@ -337,7 +336,6 @@ jobs:
           BASE_URL: ${{ env.PRODUCT_BASE_URL }}
         run: |
           pnpm install --no-frozen-lockfile
-          pnpm buildlib
           pnpm build
 
       - name: Setup Pages

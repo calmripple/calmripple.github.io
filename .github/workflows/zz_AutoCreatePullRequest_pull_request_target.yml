@@ -158,8 +158,7 @@ jobs:
           RELATIVE_URL: ${{ steps.baseurl.outputs.RELATIVE_URL }}
           BASE_URL: ${{ steps.baseurl.outputs.PREVIEW_URL }}
         run: |
-          pnpm install --no-frozen-lockfile
-          pnpm buildlib
+          pnpm install --no-frozen-lockfile          
           pnpm build
 
       # This will trigger the action. Make sure to change the build_dir input to the correct directory
@@ -280,8 +279,7 @@ jobs:
           RELATIVE_URL: ''
           BASE_URL: ${{ env.PRODUCT_BASE_URL }}
         run: |
-          pnpm install --no-frozen-lockfile
-          pnpm buildlib
+          pnpm install --no-frozen-lockfile          
           pnpm build
 
       - name: Setup Pages
