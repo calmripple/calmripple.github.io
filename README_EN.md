@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nolebase/sponsors">
+  <a href="https://calmripple.github.io/sponsors">
     <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.svg"/>
   </a>
 </p>
@@ -68,7 +68,7 @@ Good question! As an [Obsidian](https://obsidian.md) user, maybe you are aware t
 
 1. **[Obsidian Publish](https://obsidian.md/publish) is a paid service.** However, for static websites, as previously mentioned, we can utilize free hosting services like [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/) and [Cloudflare Pages](https://pages.cloudflare.com/), which provide free, ready-to-use infrastructure.
 
-2. **[Obsidian Publish](https://obsidian.md/publish) does not support [Obsidian](https://obsidian.md)'s built-in plugins.** The static pages deployed through [Obsidian Publish](https://obsidian.md/publish) lack support for [Obsidian](https://obsidian.md)'s built-in plugin functionalities. This means that many documents written locally using plugin-supported syntax will render and preview correctly in [Obsidian](https://obsidian.md) but may become unusable once deployed via [Obsidian Publish](https://obsidian.md/publish). This is a critical issue because many users (myself included) heavily rely on [Obsidian](https://obsidian.md)'s plugin ecosystem. Unfortunately, this problem doesn’t have a perfect solution yet. However, we've created a project called [知在 Integrations](https://github.com/nolebase/integrations) to provide alternatives for common and widely used [Obsidian](https://obsidian.md) plugins in the [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) environment. While these alternatives can't fully replicate the functionality of [Obsidian](https://obsidian.md) plugins, they offer similar features to some extent. You might want to check it out!
+2. **[Obsidian Publish](https://obsidian.md/publish) does not support [Obsidian](https://obsidian.md)'s built-in plugins.** The static pages deployed through [Obsidian Publish](https://obsidian.md/publish) lack support for [Obsidian](https://obsidian.md)'s built-in plugin functionalities. This means that many documents written locally using plugin-supported syntax will render and preview correctly in [Obsidian](https://obsidian.md) but may become unusable once deployed via [Obsidian Publish](https://obsidian.md/publish). This is a critical issue because many users (myself included) heavily rely on [Obsidian](https://obsidian.md)'s plugin ecosystem. Unfortunately, this problem doesn’t have a perfect solution yet. However, we've created a project called [知在 Integrations](https://calmripple.github.io/integrations) to provide alternatives for common and widely used [Obsidian](https://obsidian.md) plugins in the [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) environment. While these alternatives can't fully replicate the functionality of [Obsidian](https://obsidian.md) plugins, they offer similar features to some extent. You might want to check it out!
 
 #### When Should You Use [Obsidian Publish](https://obsidian.md/publish)
 

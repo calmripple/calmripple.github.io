@@ -357,7 +357,7 @@ export async function evaluateUserConfig<U = UserConfig>(configCode: string): Pr
 }
 ```
 
-> [完整源代码](https://github.com/nolebase/obsidian-plugin-unocss/blob/32e050cb73f7d5e1e8c989087d61e351667e4a67/src/config.ts)。
+> [完整源代码](https://calmripple.github.io/obsidian-plugin-unocss/blob/32e050cb73f7d5e1e8c989087d61e351667e4a67/src/config.ts)。
 
 不过如果我们直接这样使用是不行的，因为编译的代码：
 

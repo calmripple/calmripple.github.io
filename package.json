@@ -2,11 +2,10 @@
   "name": "nolebase",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.24.0",
   "author": {
     "name": "知在",
-    "email": "nolebase@ayaka.moe",
-    "url": "https://github.com/nolebase"
+    "email": "zz@dmsrs.org",
+    "url": "https://calmripple.github.io"
   },
   "license": "MIT",
   "keywords": [
