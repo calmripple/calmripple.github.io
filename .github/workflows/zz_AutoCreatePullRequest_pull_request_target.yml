@@ -45,18 +45,18 @@ env:
   PRODUCT_BASE_URL: ${{ vars.PRODUCT_BASE_URL || 'https://calmripple.github.io' }}
   REVIEWERS: ${{ vars.REVIEWERS || 'calmripple' }}
   IS_DEBUG: ${{ vars.IS_DEBUG || 'false' }}
-
 concurrency:
   # 针对远程部署库，无法同时部署多个preview 添加并行限制
   # group: preview-${{ github.event_name }}-${{ github.event.number || github.ref_name }}
   # group: ${{ github.ref }}
   # cancel-in-progress: true
-  group: preview
-  cancel-in-progress: false
+  group: pages-deployment
+  cancel-in-progress: true
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    if: vars.ENABLE_PREVIEW != ''
     outputs:
       # is_not_target_branch: ${{ steps.check_target_branch.outputs.is_not_target_branch }}
       # is_contain_wip: ${{ steps.check_target_branch.outputs.is_contain_wip }}
@@ -223,7 +223,6 @@ jobs:
     outputs:
       commit: ${{ steps.merge.outputs.commit }}
     steps:
-
       - name: merge
         if: ${{ contains(env.REVIEWERS, github.event.sender.login)}}
         id: merge
@@ -232,8 +231,8 @@ jobs:
           pull_request: ${{github.event.pull_request.number}}
           token: ${{ secrets.GITHUB_TOKEN }}
           method: merge
-          title: 'chore: auto-merge pr -${{github.event.pull_request.number }}'
-          message: 'auto-merge: ${{github.event.pull_request.url}}'
+          title: "chore: auto-merge pr -${{github.event.pull_request.number }}"
+          message: "auto-merge: ${{github.event.pull_request.url}}"
       - name: output
         run: |
           echo 'commit = ${{ steps.merge.outputs.commit   }}'
@@ -276,7 +275,7 @@ jobs:
 
       - name: Install Dependencies & Build
         env:
-          RELATIVE_URL: ''
+          RELATIVE_URL: ""
           BASE_URL: ${{ env.PRODUCT_BASE_URL }}
         run: |
           pnpm install --no-frozen-lockfile          
@@ -294,6 +293,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+
 
   # enable-automerge:
   #   if: ${{!contains(github.event.head_commit.message, 'wip') && needs.create-pr.outputs.pull-request-operation != 'closed'}}

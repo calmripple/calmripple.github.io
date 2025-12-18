@@ -48,12 +48,13 @@ concurrency:
   # group: preview-${{ github.event_name }}-${{ github.event.number || github.ref_name }}
   # group: ${{ github.ref }}
   # cancel-in-progress: true
-  group: preview
-  cancel-in-progress: false
+  group: pages-deployment
+  cancel-in-progress: true
 
 jobs:
   check:
     runs-on: ubuntu-latest
+    if: vars.ENABLE_PREVIEW != ''
     outputs:
       is_not_target_branch: ${{ steps.check_target_branch.outputs.is_not_target_branch }}
       is_not_contain_wip: ${{ steps.check_target_branch.outputs.is_not_contain_wip }}
