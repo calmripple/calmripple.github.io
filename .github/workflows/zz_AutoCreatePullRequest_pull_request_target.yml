@@ -212,8 +212,8 @@ jobs:
           #     preview_branch: gh-pages
 
           #     # The name of the workflow file that contains the comment workflow in the preview repo
-          #     # Default: preview.yml
-          #     preview_workflow_file_name: preview.yml
+          # Default: preview.yml
+          preview_workflow_file_name: preview.yml
 
   merge:
     needs: [preview, check]
