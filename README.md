@@ -21,6 +21,7 @@
 <p align="center">
   这个项目得以实现，要感谢所有支持我们的 Sponsors<br>
   你也可以访问我们的 Sponsors 页面来加入其中：
+
 </p>
 <p align="center">
 <a href="https://github.com/sponsors/beknowing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
