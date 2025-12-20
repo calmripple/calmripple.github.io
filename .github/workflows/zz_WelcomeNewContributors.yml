@@ -2,12 +2,9 @@ name: WelcomeNewContributors
 
 on:
   issues:
-    types: [opened]
+    # types: [opened, transferred, reopened]
   pull_request_target:
-    types: [opened]
-# permissions:
-#   contents: write
-#   actions: write
+    # types: [opened]
 
 permissions: write-all
 jobs:
