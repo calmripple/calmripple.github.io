@@ -41,7 +41,7 @@ env:
   PREVIEW_BASE_URL: ${{ vars.PREVIEW_BASE_URL || 'https://preview.dmsrs.org' }}
   PRODUCT_BASE_URL: ${{ vars.PRODUCT_BASE_URL || 'https://www.dmsrs.org' }}
   REVIEWERS: ${{ vars.REVIEWERS || 'calmripple' }}
-  IS_DEBUG: ${{ vars.IS_DEBUG || 'false' }}
+  IS_DEBUG: ${{ vars.IS_DEBUG || 'true' }}
 
 concurrency:
   # 针对远程部署库，无法同时部署多个preview 添加并行限制
