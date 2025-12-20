@@ -19,7 +19,7 @@
   </g>
 
   <defs>
-    <circle id="c1" r="20" fill-opacity="1" />
+    <circle id="c1" r="15" fill-opacity="1" />
   </defs>
   <use href="#c1" fill="#ffffff" x="100" y="150" />
   <use href="#c1" fill="#000000" x="100" y="50" />

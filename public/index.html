@@ -6,7 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirecting...</title>
 
-  <meta http-equiv="refresh" content="0; url=zh-CN/">
+  <script>
+    setTimeout(() => {
+      if (window.location.href.includes("zh-CN")) return;
+      window.location.href = window.location.href + "/zh-CN/";
+    }, 500);
+  </script>
 </head>
 
 <body>
