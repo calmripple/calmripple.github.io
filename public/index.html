@@ -8,7 +8,7 @@
 
   <script>
     setTimeout(() => {
-      if (window.location.href.includes("zh-CN")) return;
+      if (window.location.href.toLocaleLowerCase().includes("zh-cn")) return;
       window.location.href = window.location.href + "zh-CN/";
     }, 500);
   </script>
