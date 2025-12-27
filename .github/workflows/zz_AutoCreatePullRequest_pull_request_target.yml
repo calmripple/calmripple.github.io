@@ -229,7 +229,7 @@ jobs:
         with:
           pull_request: ${{github.event.pull_request.number}}
           token: ${{ secrets.GITHUB_TOKEN }}
-          method: merge
+          method: squash
           title: "chore: auto-merge pr -${{github.event.pull_request.number }}"
           message: "auto-merge: ${{github.event.pull_request.url}}"
       - name: output

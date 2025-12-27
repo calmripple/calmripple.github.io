@@ -286,7 +286,7 @@ jobs:
         with:
           pull_request: ${{needs.create-pr.outputs.pull-request-number }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          method: merge
+          method: squash
           title: "chore: auto-merge pr -${{needs.create-pr.outputs.pull-request-number }}"
           message: "auto-merge: ${{needs.create-pr.outputs.pull-request-url}}"
       - name: output
