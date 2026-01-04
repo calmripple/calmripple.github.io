@@ -25,7 +25,14 @@
     "docs:build": "vitepress build",
     "docs:serve": "vitepress serve",
     "update": "tsx scripts/update.ts",
+    "i18n:extract": "voerkai18n extract -p \"**/*.vue\" -p \"**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@voerkai18n/cli": "^3.0.16",
+    "@voerkai18n/formatters": "^3.0.16",
+    "@voerkai18n/runtime": "^3.0.16",
+    "@voerkai18n/vue": "^3.0.16"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.0",
@@ -58,6 +65,7 @@
     "@types/node-fetch": "^2.6.13",
     "@unocss/eslint-config": "^66.5.10",
     "@unocss/reset": "^66.5.10",
+    "@voerkai18n/plugins": "^3.0.16",
     "@vueuse/core": "^14.1.0",
     "@vueuse/shared": "^14.1.0",
     "emoji-regex": "^10.6.0",
@@ -82,5 +90,16 @@
     "vite-plugin-inspect": "^11.3.3",
     "vitepress": "2.0.0-alpha.15",
     "vue": "^3.5.25"
+  },
+  "voerkai18n": {
+    "entry": "",
+    "namespaces": {
+      "default": "messages"
+    },
+    "patterns": [
+      "**/*.ts",
+      "**/*.vue",
+      "**/*.md"
+    ]
   }
 }

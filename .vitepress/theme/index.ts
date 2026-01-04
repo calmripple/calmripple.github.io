@@ -1,14 +1,15 @@
 import type { Theme } from 'vitepress'
 
 import { presetClient } from '@nolebase/integrations/vitepress/client'
+import { i18nPlugin } from '@voerkai18n/vue'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-
+import { i18nScope } from './../../languages'
 import AppContainer from './components/AppContainer.vue'
+import ChangeLocal from './components/ChangeLocal.vue'
 import DocFooter from './components/DocFooter.vue'
 import HomePage from './components/HomePage.vue'
 import Share from './components/Share.vue'
-
 import 'virtual:uno.css'
 import '../styles/main.css'
 import '../styles/vars.css'
@@ -44,9 +45,11 @@ const ExtendedTheme: Theme = {
         h(DocFooter),
       ],
       'nav-bar-content-after': () => [
+        h(ChangeLocal),
         h(Share),
         ...slots['nav-bar-content-after'].map(slot => slot()),
       ],
+
       'nav-screen-content-after': () => [
         ...slots['nav-screen-content-after'].map(slot => slot()),
       ],
@@ -67,7 +70,11 @@ const ExtendedTheme: Theme = {
     app.component('HomePage', HomePage)
     app.component('DocFooter', DocFooter)
     app.component('Share', Share)
+    app.component('ChangeLocal', ChangeLocal)
     app.component('AppContainer', AppContainer)
+    app.use(i18nPlugin, {
+      i18nScope,
+    })
   },
 }
 

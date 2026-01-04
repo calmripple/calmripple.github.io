@@ -47,3 +47,9 @@ components.d.ts
 # Logs
 
 *.log
+
+languages/api.json
+languages/translates/*/*.bak.*.json
+**/*.wrapped.*
+src/languages/api.json
+src/languages/translates/*/*.bak.*.json

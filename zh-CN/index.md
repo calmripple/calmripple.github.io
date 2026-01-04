@@ -6,8 +6,8 @@ title: 知在
 titleTemplate: 记录回忆，知识和畅想的地方
 
 hero:
-  name: 知在
-  text: 知识和畅想
+  name: <Translate>知在</Translate>
+  text: <Translate>知识和畅想</Translate>
   tagline: “在”即此在（being-there），此刻的存在情境和实际展开的生活世界；“知”即知识与觉知，是我们与“在”建立关联的方式。没有“知”，存在对我们而言是未被显现的潜在；有了“知”，存在被分节、被命名、被理解，从而成为我们生活的一部分。“知在”即我们通过知识与觉知，参与并理解我们所处的存在情境和生活世界的过程。
 
   image:
