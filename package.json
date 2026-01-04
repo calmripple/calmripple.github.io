@@ -30,8 +30,10 @@
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.0",
     "@hedgedoc/markdown-it-plugins": "^2.1.4",
+    "@iconify-json/carbon": "^1.2.15",
     "@iconify-json/eos-icons": "^1.2.4",
     "@iconify-json/ic": "^1.2.4",
+    "@iconify-json/icon-park-outline": "^1.2.4",
     "@iconify-json/octicon": "^1.2.19",
     "@iconify-json/svg-spinners": "^1.2.4",
     "@netlify/functions": "^5.1.1",

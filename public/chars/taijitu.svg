@@ -1,9 +1,0 @@
-<svg id="svg" width="600px" height="600px">
-  <circle cx="100" cy="100" r="100" fill="black" stroke="black"></circle>
-  <polygon points="100,0 200,0 200,200 100,200 100,0" stroke="white" fill="white"></polygon>
-  <circle cx="100" cy="100" r="100" fill="none" id="circle2" stroke="black"></circle>
-  <circle cx="100" cy="50" r="50" fill="white" stroke="none"></circle>
-  <circle cx="100" cy="150" r="50" fill="black" stroke="none"></circle>
-  <circle cx="100" cy="50" r="20" fill="black" stroke="black"></circle>
-  <circle cx="100" cy="150" r="20" fill="white" stroke="black"></circle>
-</svg>
