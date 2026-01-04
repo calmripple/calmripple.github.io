@@ -8,14 +8,17 @@
 
   <script>
     setTimeout(() => {
-      if (window.location.href.toLocaleLowerCase().includes("zh-cn")) return;
-      window.location.href = window.location.href + "zh-CN/";
-    }, 500);
+      const href = window.location.href.toLowerCase();
+      if (href.includes("zh-cn")) return;
+
+      const target = href.replace(window.location.origin,`${window.location.origin}/zh-CN`);
+      window.location.replace(target);
+    }, 1);
   </script>
 </head>
 
 <body>
-  <p>Redirecting to <a href="zh-CN/">zh-CN/</a>...</p>
+  <p>Redirecting to <a href="/zh-CN/">/zh-CN/</a>...</p>
 </body>
 
 </html>
