@@ -84,5 +84,6 @@
   "svgPreview.autoOpen": false,
   "svg.preview.showCrossLine": true,
   "svg.preview.showRuler": true,
-  "svg.preview.translateExternalAddress": true
+  "svg.preview.translateExternalAddress": true,
+  "explorer.excludeGitIgnore": true
 }
