@@ -14,6 +14,7 @@ import defaultMessages from "./messages/zh-CN"
 const messages = { 
     'zh-CN'    : defaultMessages,
     'en-US'    : ()=>import("./messages/en-US"),
+    'ja-JP'    : ()=>import("./messages/ja-JP"),
     'ko-KR'    : ()=>import("./messages/ko-KR"),
 }
 

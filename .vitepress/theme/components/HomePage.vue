@@ -17,7 +17,9 @@ import { creators, siteName } from '../../../metadata'
 
           <div>
             <h2 mt-11 pb-2 text-center>
-              Sponsors
+              <Translate id="test">
+                赞助者
+              </Translate>
             </h2>
             <div flex justify-center>
               <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.wide.svg">
