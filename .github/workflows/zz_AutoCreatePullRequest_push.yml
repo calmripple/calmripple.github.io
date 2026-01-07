@@ -58,7 +58,7 @@ jobs:
       is_not_target_branch: ${{ steps.check_target_branch.outputs.is_not_target_branch }}
       is_not_contain_wip: ${{ steps.check_target_branch.outputs.is_not_contain_wip }}
       able_create_pr: ${{ steps.check_target_branch.outputs.is_not_target_branch && steps.check_target_branch.outputs.is_push }}
-      able_start_merge: ${{ steps.check_target_branch.outputs.is_not_target_branch && !steps.check_target_branch.outputs.is_contain_wip && contains(env.REVIEWERS, github.event.sender.login) }}
+      able_start_merge: ${{ steps.check_target_branch.outputs.is_not_target_branch && steps.check_target_branch.outputs.is_not_contain_wip && contains(env.REVIEWERS, github.event.sender.login) }}
     steps:
       - name: show debug info
         if: ${{ env.IS_DEBUG == 'true' }}

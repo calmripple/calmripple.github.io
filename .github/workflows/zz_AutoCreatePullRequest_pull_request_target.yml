@@ -58,11 +58,11 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       # is_not_target_branch: ${{ steps.check_target_branch.outputs.is_not_target_branch }}
-      # is_contain_wip: ${{ steps.check_target_branch.outputs.is_contain_wip }}
+      is_not_contain_wip: ${{ steps.check_target_branch.outputs.is_not_contain_wip }}
       # is_pull_request_target: ${{ steps.check_target_branch.outputs.is_pull_request_target }}
 
       able_create_pr: ${{ steps.check_target_branch.outputs.is_not_target_branch && steps.check_target_branch.outputs.is_push }}
-      able_start_merge: ${{ steps.check_target_branch.outputs.is_not_target_branch && !steps.check_target_branch.outputs.is_contain_wip && contains(env.REVIEWERS, github.event.sender.login) }}
+      able_start_merge: ${{ steps.check_target_branch.outputs.is_not_target_branch && steps.check_target_branch.outputs.is_not_contain_wip && contains(env.REVIEWERS, github.event.sender.login) }}
     steps:
       - name: show debug info
         if: ${{ env.IS_DEBUG == 'true' }}
@@ -90,6 +90,9 @@ jobs:
           echo "is_pull_request_target=${{ contains(github.event_name, 'pull_request_target') }}" >> $GITHUB_OUTPUT
           echo "is_push=${{ contains(github.event_name, 'push') }}" >> $GITHUB_OUTPUT
           echo "login user:${{ github.event.sender.login}}"
+          echo "is_not_target_branch=${{ !contains(github.ref, env.TARGET_BRANCH) }}" >> $GITHUB_OUTPUT
+          echo "is_not_contain_wip=${{ !contains(github.event.head_commit.message, 'wip') }}" >> $GITHUB_OUTPUT
+          echo "${{ github.event.head_commit.committer.username}}"
 
         shell: bash
 
@@ -292,7 +295,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4.0.5
-
 
   # enable-automerge:
   #   if: ${{!contains(github.event.head_commit.message, 'wip') && needs.create-pr.outputs.pull-request-operation != 'closed'}}
