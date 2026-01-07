@@ -84,6 +84,7 @@
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "unocss": "^66.5.10",
+    "unplugin-auto-import": "^20.3.0",
     "unplugin-vue-components": "^30.0.0",
     "uuid": "^13.0.0",
     "vite": "^7.2.7",
@@ -92,6 +93,7 @@
     "vue": "^3.5.25"
   },
   "voerkai18n": {
+    "debug": true,
     "entry": "",
     "namespaces": {
       "default": "messages"
@@ -99,7 +101,9 @@
     "patterns": [
       "**/*.ts",
       "**/*.vue",
-      "**/*.md"
+      "**/*.md",
+      ".vitepress/**/*.vue"
     ]
+
   }
 }
