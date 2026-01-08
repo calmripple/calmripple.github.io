@@ -33,9 +33,9 @@ function handleClickOutside(event) {
 
     <ul v-show="isOpen" class="language-dropdown">
       <li
-v-for="lang in languages" :key="lang.name" class="language-item"
-          :class="{ active: activeLanguage === lang.name }" @click="selectLanguage(lang.name)"
->
+        v-for="lang in languages" :key="lang.name" class="language-item"
+        :class="{ active: activeLanguage === lang.name }" @click="selectLanguage(lang.name)"
+      >
         {{ lang.nativeTitle || lang.title || lang.name }}
       </li>
     </ul>
