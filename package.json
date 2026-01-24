@@ -74,7 +74,7 @@
     "fs-extra": "^11.3.2",
     "gray-matter": "^4.0.3",
     "less": "^4.4.2",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "markdown-it": "^14.1.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-mathjax3": "^5.2.0",
