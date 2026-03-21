@@ -67,13 +67,13 @@
     "fs-extra": "^11.3.2",
     "gray-matter": "^4.0.3",
     "less": "^4.4.2",
-    "lodash": "^4.17.21",
-    "markdown-it": "^14.1.0",
+    "lodash": "^4.17.23",
+    "markdown-it": "^14.1.1",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-mathjax3": "^5.2.0",
     "node-fetch": "^3.3.2",
     "sharp": "^0.34.5",
-    "simple-git": "^3.30.0",
+    "simple-git": "^3.32.3",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "unocss": "^66.5.10",
@@ -84,5 +84,15 @@
     "vite-plugin-inspect": "^11.3.3",
     "vitepress": "2.0.0-alpha.15",
     "vue": "^3.5.25"
+  },
+  "pnpm": {
+    "overrides": {
+      "ajv": ">=6.14.0",
+      "axios": ">=1.13.5",
+      "flatted": ">=3.4.2",
+      "minimatch@<3.1.4": "3.1.4",
+      "minimatch@>=9.0.0 <9.0.7": "9.0.7",
+      "rollup": ">=4.59.0"
+    }
   }
 }

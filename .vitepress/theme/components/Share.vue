@@ -100,8 +100,8 @@ function copyShareLink() {
     h-full ws-nowrap px3 text-sm font-medium
     text="$vp-c-text-1"
     :class="[
-      shareSuccess ? '!text-green-400' : '',
-      shareLink ? 'hover:sm:text-$vp-c-brand' : '!cursor-wait',
+      shareSuccess ? 'text-green-400!' : '',
+      shareLink ? 'hover:sm:text-$vp-c-brand' : 'cursor-wait!',
     ]"
     :disabled="!shareLink || shareSuccess"
     @click="copyShareLink()"

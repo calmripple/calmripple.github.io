@@ -40,6 +40,20 @@ export default defineConfig(async () => {
     assetsInclude: [
       '**/*.mov',
     ],
+    server: {
+      proxy: {
+        '/assets/page-external-data/js': {
+          target: 'https://plausible.io/js',
+          changeOrigin: true,
+          rewrite: (path: string) => path.replace('/assets/page-external-data/js', ''),
+        },
+        '/api/v1/page-external-data': {
+          target: 'https://plausible.io/api',
+          changeOrigin: true,
+          rewrite: (path: string) => path.replace('/api/v1/page-external-data', ''),
+        },
+      },
+    },
     optimizeDeps: {
       // vitepress is aliased with replacement `join(DIST_CLIENT_PATH, '/index')`
       // This needs to be excluded from optimization

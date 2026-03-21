@@ -1,20 +1,132 @@
+import type { DefaultTheme } from 'vitepress'
+import { join } from 'node:path'
 import process from 'node:process'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
+import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
+import UnoCSS from 'unocss/vite'
+import Components from 'unplugin-vue-components/vite'
 
+import Inspect from 'vite-plugin-inspect'
 import { defineConfig } from 'vitepress'
-import { discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
+import { creators, discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
 import head from './head'
 
-const nolebase = presetMarkdownIt()
+const nolebase = presetMarkdownIt({
+  unlazyImages: false,
+})
+const sidebarTargets = [
+  { folderName: 'zh-CN/笔记', separate: true },
+  { folderName: 'zh-CN/编目 Catalog', separate: true },
+]
+
+function rewriteSidebarPath(path: string) {
+  return path.replace(/^\/zh-CN(?=\/|$)/, '') || '/'
+}
+
+function rewriteSidebarItems(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarItem[] {
+  return items.map(item => ({
+    ...item,
+    link: item.link ? rewriteSidebarPath(item.link) : item.link,
+    items: item.items ? rewriteSidebarItems(item.items) : item.items,
+  }))
+}
+
+function buildSidebar(): DefaultTheme.Sidebar {
+  const rawSidebar = calculateSidebar(sidebarTargets, 'zh-CN')
+
+  if (Array.isArray(rawSidebar))
+    return rewriteSidebarItems(rawSidebar)
+
+  return Object.fromEntries(
+    Object.entries(rawSidebar).map(([key, section]) => {
+      const normalizedSection = Array.isArray(section)
+        ? rewriteSidebarItems(section)
+        : {
+            ...section,
+            items: rewriteSidebarItems(section.items),
+          }
+
+      return [rewriteSidebarPath(key), normalizedSection]
+    }),
+  ) as DefaultTheme.SidebarMulti
+}
+
+const nolebaseVite = presetVite({
+  thumbnailHashImages: false,
+  gitChangelog: {
+    options: {
+      gitChangelog: {
+        repoURL: () => githubRepoLink,
+        mapAuthors: creators,
+      },
+      markdownSection: {
+        excludes: [
+          join('toc.md'),
+          join('index.md'),
+        ],
+      },
+    },
+  },
+  pageProperties: {
+    options: {
+      markdownSection: {
+        excludes: [
+          join('toc.md'),
+          join('index.md'),
+        ],
+      },
+    },
+  },
+})
 const relativeUrl = process.env.RELATIVE_URL ?? ''
 
 export default defineConfig({
   base: relativeUrl,
+  srcDir: 'zh-CN',
+  vite: {
+    publicDir: '../public',
+    server: {
+      proxy: {
+        '/assets/page-external-data/js': {
+          target: 'https://plausible.io/js',
+          changeOrigin: true,
+          rewrite: path => path.replace('/assets/page-external-data/js', ''),
+        },
+        '/api/v1/page-external-data': {
+          target: 'https://plausible.io/api',
+          changeOrigin: true,
+          rewrite: path => path.replace('/api/v1/page-external-data', ''),
+        },
+      },
+    },
+    assetsInclude: [
+      '**/*.mov',
+    ],
+    optimizeDeps: {
+      exclude: [
+        'vitepress',
+        '@nolebase/vitepress-plugin-git-changelog',
+        '@nolebase/vitepress-plugin-index',
+        'virtual:nolebase-git-changelog',
+      ],
+    },
+    plugins: [
+      Inspect(),
+      Components({
+        include: [/\.vue$/, /\.md$/],
+        dirs: '.vitepress/theme/components',
+        dts: '.vitepress/components.d.ts',
+      }),
+      UnoCSS(),
+      nolebaseVite,
+      ...nolebaseVite.plugins(),
+    ],
+  },
   vue: {
     template: {
       transformAssetUrls: {
@@ -103,14 +215,14 @@ export default defineConfig({
     root: {
       lang: 'zh-CN',
       label: '中文',
-      dir: '/zh-CN',
-      link: '/zh-CN',
+      dir: '/',
+      link: '/',
       themeConfig: {
         nav: [
-          { text: '主页', link: '/zh-CN/' },
-          { text: '笔记', link: '/zh-CN/笔记/' },
-          { text: '编目 Catalog', link: '/zh-CN/编目 Catalog/' },
-          { text: '最近更新', link: '/zh-CN/toc' },
+          { text: '主页', link: '/' },
+          { text: '笔记', link: '/笔记/' },
+          { text: '编目 Catalog', link: '/编目 Catalog/' },
+          { text: '最近更新', link: '/toc' },
         ],
         socialLinks: [
           { icon: 'github', link: githubRepoLink },
@@ -122,10 +234,7 @@ export default defineConfig({
           pattern: `${githubRepoLink}/tree/main/:path`,
           text: '编辑本页面',
         },
-        sidebar: calculateSidebar([
-          { folderName: 'zh-CN/笔记', separate: true },
-          { folderName: 'zh-CN/编目 Catalog', separate: true },
-        ], 'zh-CN'),
+        sidebar: buildSidebar(),
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
           copyright:

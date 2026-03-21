@@ -2,7 +2,7 @@ import type { Theme } from 'vitepress'
 
 import { presetClient } from '@nolebase/integrations/vitepress/client'
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
+import { defineComponent, h } from 'vue'
 import AppContainer from './components/AppContainer.vue'
 import DocFooter from './components/DocFooter.vue'
 import HomePage from './components/HomePage.vue'
@@ -11,10 +11,18 @@ import 'virtual:uno.css'
 import '../styles/main.css'
 import '../styles/vars.css'
 
+const Translate = defineComponent({
+  name: 'Translate',
+  setup(_, { slots }) {
+    return () => slots.default?.()
+  },
+})
+
 const nolebase = presetClient<{
   tags: string[]
   progress: number
 }>({
+  thumbnailHash: false,
   enhancedReadabilities: {
     options: {
       layoutSwitch: {
@@ -67,6 +75,7 @@ const ExtendedTheme: Theme = {
     app.component('DocFooter', DocFooter)
     app.component('Share', Share)
     app.component('AppContainer', AppContainer)
+    app.component('Translate', Translate)
   },
 }
 

@@ -67,7 +67,7 @@ tags:
 			- 饥饿：9/9
 	- 然后 LLM 会被要求输出接下来期望的状态，由对应的代码执行
 
-![[Pasted image 20240710155310.png]]
+![Voyager flow](./assets/Pasted%20image%2020240710155310.png)
 
 - [How Large Language Models play video games - YouTube](https://www.youtube.com/watch?v=cXfnNoMgCio)
 
