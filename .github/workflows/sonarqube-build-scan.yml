@@ -21,11 +21,29 @@ jobs:
         uses: actions/checkout@v6.0.1
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+
+      - id: validate_sonar_env
+        name: Validate Sonar Configuration
+        shell: bash
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL || 'https://sonarcloud.io' }}
+        run: |
+          if [ -z "$SONAR_TOKEN" ]; then
+            echo "::error::Missing SONAR_TOKEN secret. Configure it in repository secrets before running this workflow."
+            exit 1
+          fi
+
+          if [[ ! "$SONAR_HOST_URL" =~ ^https?:// ]]; then
+            echo "::error::SONAR_HOST_URL must start with http:// or https://. Current value: '$SONAR_HOST_URL'"
+            exit 1
+          fi
+
       - id: run_sonarqube_scan
         uses: SonarSource/sonarqube-scan-action@v7.0.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL || 'https://sonarcloud.io' }}
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
       # - uses: SonarSource/sonarqube-quality-gate-action@v1
