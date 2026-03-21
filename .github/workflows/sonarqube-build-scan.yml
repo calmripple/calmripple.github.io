@@ -1,22 +1,28 @@
-name: Build
+name: SonarQube Build Scan
 
 on:
+  # 仅在主干分支触发静态分析。
   push:
     branches:
       - master
       - main
 
+permissions:
+  # 扫描任务只需要源码只读权限。
+  contents: read
 
 jobs:
-  build:
-    name: Build and analyze
+  scan_with_sonarqube:
+    name: Scan With SonarQube
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6.0.1
+      - id: checkout_source
+        uses: actions/checkout@v6.0.1
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
-      - uses: SonarSource/sonarqube-scan-action@v7.0.0
+      - id: run_sonarqube_scan
+        uses: SonarSource/sonarqube-scan-action@v7.0.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}

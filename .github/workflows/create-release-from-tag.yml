@@ -1,20 +1,24 @@
-name: CreateReleaseTag
+name: Create Release From Tag
 
 on:
+  # 推送语义化版本标签时创建草稿 Release。
   push:
     tags:
       - 'v*' # Push events to matching @sugarat/theme*
-permissions: write-all
+permissions:
+  # 创建 Release 需要仓库内容写权限。
+  contents: write
 jobs:
-  build:
-    name: Create Release
+  create_release:
+    name: Create Draft Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
+        id: checkout_source
         uses: actions/checkout@v6.0.1 # v4
 
       - name: Create Release for Tag
-        id: release_tag
+        id: create_release_for_tag
         uses: ncipollo/release-action@v1.20.0
         with:
           generateReleaseNotes: true

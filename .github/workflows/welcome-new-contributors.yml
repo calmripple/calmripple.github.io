@@ -1,19 +1,25 @@
-name: WelcomeNewContributors
+name: Welcome New Contributors
 
 on:
+  # 仅在新建 issue/PR 时发送欢迎消息。
   issues:
-    # types: [opened, transferred, reopened]
+    types: [opened]
   pull_request_target:
-    # types: [opened]
+    types: [opened]
 
-permissions: write-all
+permissions:
+  # 需要 issue 与 PR 的评论写权限。
+  issues: write
+  pull-requests: write
 jobs:
-  welcome:
+  post_welcome_messages:
+    name: Post Welcome Messages
     runs-on: ubuntu-latest
     steps:
       - name: Welcome Issue
+        id: welcome_issue_author
         if: github.event_name == 'issues'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         with:
           script: |
             const issue = context.issue;
@@ -29,8 +35,9 @@ jobs:
               body: welcomeMessage
             });
       - name: Welcome Pull Request
+        id: welcome_pr_author
         if: github.event_name == 'pull_request_target'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         with:
           script: |
             const pr = context.issue;

@@ -1,4 +1,4 @@
-name: DeleteOldWorkflows
+name: Cleanup Workflow Runs
 
 on:
   # push:
@@ -26,17 +26,21 @@ on:
         required: false
 
   schedule:
+    # 每晚执行清理，控制工作流历史体量。
     - cron: '0 0 * * *'
 
-permissions: write-all
+permissions:
+  # 该工作流会删除历史运行记录，因此需要 actions:write。
+  actions: write
+  contents: read
 
 jobs:
-  deleteworkflow:
-    name: delete all logs
+  cleanup_runs:
+    name: Cleanup Old Workflow Logs
     runs-on: ubuntu-latest
     steps:
       - name: Delete Workflow Runs
-        id: del_workflows
+        id: cleanup_workflow_runs
         uses: Mattraks/delete-workflow-runs@v2.1.0
         with:
           token: ${{ github.token }}
@@ -48,7 +52,7 @@ jobs:
           dry_run: ${{ github.event.inputs.dry_run }}
 
       - name: Delete self
-        id: delself
+        id: cleanup_self_runs
         uses: Mattraks/delete-workflow-runs@v2.1.0
         with:
           token: ${{ github.token }}
