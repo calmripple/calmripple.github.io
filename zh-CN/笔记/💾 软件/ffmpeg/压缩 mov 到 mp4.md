@@ -14,7 +14,7 @@ tags:
 ffmpeg -i {in-video}.mov -vcodec h264 -acodec aac {out-video}.mp4
 ```
 
-![[Pasted image 20240731163214.png]]
+![ffmpeg mov to mp4](./assets/Pasted%20image%2020240731163214.png)
 
 ## 参考资料
 

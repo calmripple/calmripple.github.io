@@ -1,5 +1,9 @@
 import type { HeadConfig } from 'vitepress'
+import process from 'node:process'
 import { creatorNames, creatorUsernames, siteDescription, siteName, targetDomain } from '../metadata'
+
+const isProduction = process.env.NODE_ENV === 'production'
+const plausibleScript: HeadConfig = ['script', { 'defer': 'true', 'data-domain': 'nolebase.ayaka.io', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }]
 
 export default [
   ['meta', {
@@ -96,7 +100,11 @@ export default [
     name: 'msapplication-TileColor',
     content: '#603cba',
   }],
-  // Proxying Plausible through Netlify | Plausible docs
-  // https://plausible.io/docs/proxy/guides/netlify
-  ['script', { 'defer': 'true', 'data-domain': 'nolebase.ayaka.io', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }],
+  ...(isProduction
+    ? [
+        // Proxying Plausible through Netlify | Plausible docs
+        // https://plausible.io/docs/proxy/guides/netlify
+        plausibleScript,
+      ]
+    : []),
 ] satisfies HeadConfig[]
