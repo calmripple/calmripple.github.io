@@ -1,0 +1,204 @@
+name: Preview Publish Workflow Run
+on:
+  # 仅在非信任 PR 构建工作流完成后执行预览发布或清理。
+  workflow_run:
+    workflows:
+      - Preview Build Pull Request
+    types:
+      - completed
+
+permissions:
+  # 读取工作流产物并写入 PR 评论；不需要源码写权限。
+  actions: read
+  contents: read
+  pull-requests: write
+
+env:
+  PREVIEW_REPO: ${{ vars.PREVIEW_REPO || 'ripplejourney/ripplejourney.github.io' }}
+  PREVIEW_BASE_URL: ${{ vars.PREVIEW_BASE_URL || 'https://preview.dmsrs.org' }}
+
+concurrency:
+  # 以上游 workflow_run id 维度保证单次发布执行。
+  group: preview-publish-${{ github.event.workflow_run.id || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  publish_or_cleanup_preview:
+    name: Publish Or Cleanup Preview
+    # 仅处理成功且来源于 pull_request 事件的 workflow_run。
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Resolve PR metadata
+        id: resolve_pr_metadata
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // workflow_run 可能关联多个 PR，这里使用第一个关联 PR。
+            const prs = context.payload.workflow_run.pull_requests || []
+            if (!prs.length) {
+              core.setOutput('should_publish', 'false')
+              return
+            }
+
+            const prNumber = String(prs[0].number)
+            const sourceRepo = context.payload.workflow_run.head_repository?.full_name || ''
+            const targetRepo = `${context.repo.owner}/${context.repo.repo}`
+            // 在高权限工作流中，禁止为 fork 来源运行发布预览。
+            const shouldPublish = sourceRepo === targetRepo
+
+            let prState = 'unknown'
+            if (shouldPublish) {
+              const pr = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: Number(prNumber),
+              })
+              prState = pr.data.state
+            }
+
+            core.setOutput('pr_number', prNumber)
+            core.setOutput('should_publish', shouldPublish ? 'true' : 'false')
+            core.setOutput('pr_state', prState)
+
+      - name: Stop for fork PRs
+        id: stop_for_fork_prs
+        if: ${{ steps.resolve_pr_metadata.outputs.should_publish != 'true' }}
+        run: |
+          echo "Skip publish because workflow_run source repository is not this repository."
+
+      - name: Download build artifact from pull_request workflow
+        # PR 关闭时构建工作流不会产出制品，因此跳过下载。
+        id: download_preview_artifact
+        if: ${{ steps.resolve_pr_metadata.outputs.should_publish == 'true' && steps.resolve_pr_metadata.outputs.pr_state != 'closed' }}
+        uses: dawidd6/action-download-artifact@v11
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: ${{ github.repository }}
+          run_id: ${{ github.event.workflow_run.id }}
+          name: preview-dist-pr-${{ steps.resolve_pr_metadata.outputs.pr_number }}
+          path: preview-artifact
+
+      - name: Ensure preview branch exists
+        id: ensure_preview_branch_exists
+        if: ${{ steps.resolve_pr_metadata.outputs.should_publish == 'true' }}
+        shell: bash
+        env:
+          PREVIEW_TOKEN: ${{ secrets.PREVIEW_TOKEN }}
+        run: |
+          set -euo pipefail
+          remote_url="https://x-access-token:${PREVIEW_TOKEN}@github.com/${PREVIEW_REPO}.git"
+
+          if git ls-remote --exit-code --heads "$remote_url" gh-pages > /dev/null; then
+            echo "gh-pages already exists in ${PREVIEW_REPO}"
+            exit 0
+          fi
+
+          echo "gh-pages does not exist in ${PREVIEW_REPO}; creating it"
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          git clone --depth 1 "$remote_url" "$tmp_dir"
+          cd "$tmp_dir"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git rm -rf . > /dev/null 2>&1 || true
+          printf "# Preview branch\n" > README.md
+          touch .nojekyll
+          git add README.md .nojekyll
+          git commit -m "chore: initialize gh-pages branch for previews"
+          git push origin gh-pages
+
+      - name: Publish preview files
+        # 对 opened/reopened/synchronize 的 PR，用最新构建结果覆盖预览内容。
+        id: publish_preview_files
+        if: ${{ steps.resolve_pr_metadata.outputs.should_publish == 'true' && steps.resolve_pr_metadata.outputs.pr_state != 'closed' }}
+        shell: bash
+        env:
+          PREVIEW_TOKEN: ${{ secrets.PREVIEW_TOKEN }}
+          PR_NUMBER: ${{ steps.resolve_pr_metadata.outputs.pr_number }}
+        run: |
+          set -euo pipefail
+          remote_url="https://x-access-token:${PREVIEW_TOKEN}@github.com/${PREVIEW_REPO}.git"
+          work_dir="$(mktemp -d)"
+          trap 'rm -rf "$work_dir"' EXIT
+
+          git clone --depth 1 --branch gh-pages "$remote_url" "$work_dir"
+          preview_path="$work_dir/${GITHUB_REPOSITORY}/pr/${PR_NUMBER}"
+
+          rm -rf "$preview_path"
+          mkdir -p "$preview_path"
+          cp -R preview-artifact/* "$preview_path/"
+          touch "$work_dir/.nojekyll"
+
+          cd "$work_dir"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+
+          if git diff --staged --quiet; then
+            echo "No preview changes to publish"
+            exit 0
+          fi
+
+          git commit -m "chore(preview): publish PR #${PR_NUMBER} from workflow_run ${{ github.event.workflow_run.id }}"
+          git push origin gh-pages
+
+      - name: Remove preview for closed PR
+        # PR 关闭后，删除 gh-pages 中对应的预览目录。
+        id: cleanup_closed_pr_preview
+        if: ${{ steps.resolve_pr_metadata.outputs.should_publish == 'true' && steps.resolve_pr_metadata.outputs.pr_state == 'closed' }}
+        shell: bash
+        env:
+          PREVIEW_TOKEN: ${{ secrets.PREVIEW_TOKEN }}
+          PR_NUMBER: ${{ steps.resolve_pr_metadata.outputs.pr_number }}
+        run: |
+          set -euo pipefail
+          remote_url="https://x-access-token:${PREVIEW_TOKEN}@github.com/${PREVIEW_REPO}.git"
+          work_dir="$(mktemp -d)"
+          trap 'rm -rf "$work_dir"' EXIT
+
+          git clone --depth 1 --branch gh-pages "$remote_url" "$work_dir"
+          preview_path="$work_dir/${GITHUB_REPOSITORY}/pr/${PR_NUMBER}"
+
+          if [ ! -d "$preview_path" ]; then
+            echo "No preview path found for PR #${PR_NUMBER}; nothing to remove"
+            exit 0
+          fi
+
+          rm -rf "$preview_path"
+          cd "$work_dir"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+
+          if git diff --staged --quiet; then
+            echo "No changes after cleanup"
+            exit 0
+          fi
+
+          git commit -m "chore(preview): cleanup PR #${PR_NUMBER} from workflow_run ${{ github.event.workflow_run.id }}"
+          git push origin gh-pages
+
+      - name: Comment preview URL
+        # 仅对活跃 PR 发表评论并附上预览地址。
+        id: comment_preview_url
+        if: ${{ steps.resolve_pr_metadata.outputs.should_publish == 'true' && steps.resolve_pr_metadata.outputs.pr_state != 'closed' }}
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ env.PREVIEW_BASE_URL }}/${{ github.repository }}/pr/${{ steps.resolve_pr_metadata.outputs.pr_number }}
+        with:
+          script: |
+            const issue_number = Number('${{ steps.resolve_pr_metadata.outputs.pr_number }}')
+            const body = `Preview deployed: ${process.env.PREVIEW_URL}`
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              body,
+            })
