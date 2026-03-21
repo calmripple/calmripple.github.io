@@ -163,6 +163,35 @@ jobs:
           pnpm install --no-frozen-lockfile
           pnpm build
 
+      - name: Ensure preview branch exists
+        shell: bash
+        env:
+          PREVIEW_TOKEN: ${{ secrets.PREVIEW_TOKEN }}
+        run: |
+          set -euo pipefail
+          remote_url="https://x-access-token:${PREVIEW_TOKEN}@github.com/${PREVIEW_REPO}.git"
+
+          if git ls-remote --exit-code --heads "$remote_url" gh-pages > /dev/null; then
+            echo "gh-pages already exists in ${PREVIEW_REPO}"
+            exit 0
+          fi
+
+          echo "gh-pages does not exist in ${PREVIEW_REPO}; creating it"
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          git clone --depth 1 "$remote_url" "$tmp_dir"
+          cd "$tmp_dir"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git rm -rf . > /dev/null 2>&1 || true
+          printf "# Preview branch\n" > README.md
+          touch .nojekyll
+          git add README.md .nojekyll
+          git commit -m "chore: initialize gh-pages branch for previews"
+          git push origin gh-pages
+
       # This will trigger the action. Make sure to change the build_dir input to the correct directory
       - uses: EndBug/pages-preview@v1.1.2
         # env:
