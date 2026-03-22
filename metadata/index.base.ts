@@ -22,16 +22,16 @@ export const targetDomain = `https://${plainTargetDomain}`
 /** 创作者 */
 export const creators: Creator[] = [
   {
-    name: '存在',
+    name: '知在',
     avatar: '',
     username: 'beingknowing',
     title: '知在 原始创作者',
-    desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
+    desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发。通过知识与觉知，参与并理解所处的存在情境。',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/beingknowing' },
       { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
     ],
-    nameAliases: ['beingknowing', '绚香猫', '存在', 'Neko Ayaka', 'Ayaka Neko'],
+    nameAliases: ['beingknowing', '绚香猫', '存在', 'Neko Ayaka', 'Ayaka Neko', '知在'],
     emailAliases: ['neko@ayaka.moe'],
   },
 ].map<Creator>((c) => {

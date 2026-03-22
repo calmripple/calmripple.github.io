@@ -47,9 +47,9 @@ function buildSidebar(): DefaultTheme.Sidebar {
       const normalizedSection = Array.isArray(section)
         ? rewriteSidebarItems(section)
         : {
-            ...section,
-            items: rewriteSidebarItems(section.items),
-          }
+          ...section,
+          items: rewriteSidebarItems(section.items),
+        }
 
       return [rewriteSidebarPath(key), normalizedSection]
     }),
@@ -89,6 +89,7 @@ export default defineConfig({
   base: relativeUrl,
   srcDir: 'zh-CN',
   vite: {
+    clearScreen: false,
     publicDir: '../public',
     server: {
       proxy: {
@@ -238,7 +239,7 @@ export default defineConfig({
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
           copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 知在 的创作者们',
+            '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 知在 的创作者们',
         },
       },
     },
@@ -253,6 +254,23 @@ export default defineConfig({
       await nolebase.install(md)
     },
     config: (md) => {
+      const originalFence = md.renderer.rules.fence
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const info = token.info?.trim()
+
+        // Dataview is an Obsidian query language. Map it to nearby syntaxes
+        // so VitePress/Shiki can highlight without warning.
+        if (info === 'dataview')
+          token.info = 'sql'
+        else if (info === 'dataviewjs')
+          token.info = 'javascript'
+
+        if (originalFence)
+          return originalFence(tokens, idx, options, env, self)
+        return self.renderToken(tokens, idx, options)
+      }
+
       md.use(MarkdownItFootnote)
       md.use(MarkdownItMathjax3)
     },
