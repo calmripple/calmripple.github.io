@@ -2,21 +2,12 @@ import type { Theme } from 'vitepress'
 
 import { presetClient } from '@nolebase/integrations/vitepress/client'
 import DefaultTheme from 'vitepress/theme'
-import { defineComponent, h } from 'vue'
-import AppContainer from './components/AppContainer.vue'
+import { h } from 'vue'
 import DocFooter from './components/DocFooter.vue'
-import HomePage from './components/HomePage.vue'
 import Share from './components/Share.vue'
 import 'virtual:uno.css'
 import '../styles/main.css'
 import '../styles/vars.css'
-
-const Translate = defineComponent({
-  name: 'Translate',
-  setup(_, { slots }) {
-    return () => slots.default?.()
-  },
-})
 
 const nolebase = presetClient<{
   tags: string[]
@@ -60,22 +51,7 @@ const ExtendedTheme: Theme = {
     })
   },
   async enhanceApp(ctx) {
-    const { app } = ctx
-
-    /**
-     * Have to manually import and register the essential components that needed during build globally.
-     *
-     * Learn more at: Warn `Hydration completed but contains mismatches.` and Custom components are not rendered · Issue #1918 · vuejs/vitepress
-     * https://github.com/vuejs/vitepress/issues/1918
-     */
-
     await nolebase?.enhanceApp?.(ctx)
-
-    app.component('HomePage', HomePage)
-    app.component('DocFooter', DocFooter)
-    app.component('Share', Share)
-    app.component('AppContainer', AppContainer)
-    app.component('Translate', Translate)
   },
 }
 
