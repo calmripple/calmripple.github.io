@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress'
-import { join } from 'node:path'
+import { resolve } from 'node:path'
 import process from 'node:process'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
@@ -9,12 +9,22 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 
 import Inspect from 'vite-plugin-inspect'
 import { defineConfig } from 'vitepress'
 import { creators, discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
 import head from './head'
+
+const workspaceRoot = process.cwd()
+const docsRoot = resolve(workspaceRoot, 'zh-CN')
+const publicRoot = resolve(workspaceRoot, 'public')
+const tocFilePath = resolve(docsRoot, 'toc.md')
+const indexFilePath = resolve(docsRoot, 'index.md')
+const componentsDirPath = resolve(workspaceRoot, '.vitepress/theme/components')
+const componentsDtsPath = resolve(workspaceRoot, '.vitepress/components.d.ts')
+const autoImportsDtsPath = resolve(workspaceRoot, '.vitepress/auto-imports.d.ts')
 
 const nolebase = presetMarkdownIt({
   unlazyImages: false,
@@ -66,8 +76,8 @@ const nolebaseVite = presetVite({
       },
       markdownSection: {
         excludes: [
-          join('toc.md'),
-          join('index.md'),
+          tocFilePath,
+          indexFilePath,
         ],
       },
     },
@@ -76,8 +86,8 @@ const nolebaseVite = presetVite({
     options: {
       markdownSection: {
         excludes: [
-          join('toc.md'),
-          join('index.md'),
+          tocFilePath,
+          indexFilePath,
         ],
       },
     },
@@ -87,9 +97,9 @@ const relativeUrl = process.env.RELATIVE_URL ?? ''
 
 export default defineConfig({
   base: relativeUrl,
-  srcDir: 'zh-CN',
+  srcDir: docsRoot,
   vite: {
-    publicDir: '../public',
+    publicDir: publicRoot,
     server: {
       proxy: {
         '/assets/page-external-data/js': {
@@ -117,10 +127,24 @@ export default defineConfig({
     },
     plugins: [
       Inspect(),
+      AutoImport({
+        include: [
+          /\.[tj]sx?$/,
+          /\.vue$/,
+          /\.vue\?vue/,
+          /\.md$/,
+        ],
+        imports: [
+          'vue',
+          '@vueuse/core',
+        ],
+        dts: autoImportsDtsPath,
+        vueTemplate: true,
+      }),
       Components({
         include: [/\.vue$/, /\.md$/],
-        dirs: '.vitepress/theme/components',
-        dts: '.vitepress/components.d.ts',
+        dirs: [componentsDirPath],
+        dts: componentsDtsPath,
       }),
       UnoCSS(),
       nolebaseVite,
@@ -255,6 +279,15 @@ export default defineConfig({
     config: (md) => {
       md.use(MarkdownItFootnote)
       md.use(MarkdownItMathjax3)
+      md.core.ruler.after('block', 'normalize-dataview-fence', (state) => {
+        for (const token of state.tokens) {
+          if (token.type !== 'fence')
+            continue
+
+          if (token.info.trim().toLowerCase() === 'dataview')
+            token.info = 'txt'
+        }
+      })
     },
   },
   async transformHead(context) {
