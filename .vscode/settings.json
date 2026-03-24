@@ -29,7 +29,7 @@
     "source.organizeImports": "never"
   },
   // Enable the ESlint flat config support
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   // The following is optional.
   // It's better to put under project setting `.vscode/settings.json`
   // to avoid conflicts with working with different eslint configs
@@ -49,7 +49,7 @@
   "unocss.root": [
     "."
   ],
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
   "files.exclude": {
     "**/.git": false,
     "**/.svn": false,
@@ -85,5 +85,7 @@
   "svg.preview.showCrossLine": true,
   "svg.preview.showRuler": true,
   "svg.preview.translateExternalAddress": true,
-  "explorer.excludeGitIgnore": false
+  "explorer.excludeGitIgnore": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.tabs.title": "${profile}"
 }
