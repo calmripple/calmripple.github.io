@@ -74,7 +74,7 @@ jobs:
         # 4、安装 Node 环境
         uses: actions/setup-node@v6.1.0 # v4.4.0
         with:
-          node-version: 21
+          node-version: lts/*
           registry-url: https://registry.npmjs.org
           cache: pnpm
 
@@ -84,7 +84,7 @@ jobs:
           RELATIVE_URL: ''
           BASE_URL: ${{ env.PRODUCT_BASE_URL }}
         run: |
-          pnpm install --no-frozen-lockfile
+          pnpm install --no-frozen-lockfile --unsafe-perm
           pnpm build
 
       - name: Setup Pages

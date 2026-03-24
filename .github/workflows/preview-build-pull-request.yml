@@ -62,7 +62,7 @@ jobs:
         id: setup_node
         uses: actions/setup-node@v6.1.0
         with:
-          node-version: 21
+          node-version: lts/*
           cache: pnpm
 
       - name: Build website
@@ -71,7 +71,7 @@ jobs:
           RELATIVE_URL: ${{ steps.compute_preview_url.outputs.RELATIVE_URL }}
           BASE_URL: ${{ steps.compute_preview_url.outputs.PREVIEW_URL }}
         run: |
-          pnpm install --no-frozen-lockfile
+          pnpm install --no-frozen-lockfile --unsafe-perm
           pnpm build
 
       - name: Upload preview artifact
