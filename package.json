@@ -28,7 +28,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.7.3",
+    "@antfu/eslint-config": "^7.7.3",
     "@hedgedoc/markdown-it-plugins": "^2.1.4",
     "@iconify-json/carbon": "^1.2.19",
     "@iconify-json/eos-icons": "^1.2.4",
@@ -61,7 +61,7 @@
     "@vueuse/core": "^14.2.1",
     "@vueuse/shared": "^14.2.1",
     "emoji-regex": "^10.6.0",
-    "eslint": "^9.39.4",
+    "eslint": "^10.1.0",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.4",
     "gray-matter": "^4.0.3",
@@ -86,7 +86,7 @@
   },
   "pnpm": {
     "overrides": {
-      "ajv": ">=6.14.0",
+      "ajv": "6.12.6",
       "axios": ">=1.13.5",
       "flatted": ">=3.4.2",
       "minimatch@<3.1.4": "3.1.4",

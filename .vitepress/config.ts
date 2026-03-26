@@ -5,17 +5,18 @@ import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
-// import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
+// import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
-
 import Inspect from 'vite-plugin-inspect'
 import { defineConfig } from 'vitepress'
 import { creators, discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
 import head from './head'
+
+const headingRegex = /^# .*/m
 
 const workspaceRoot = process.cwd()
 const docsRoot = resolve(workspaceRoot, 'zh-CN')
@@ -34,8 +35,9 @@ const sidebarTargets = [
   { folderName: 'zh-CN/编目 Catalog', separate: true },
 ]
 
+const zhCNPathRegex = /^\/zh-CN(?=\/|$)/
 function rewriteSidebarPath(path: string) {
-  return path.replace(/^\/zh-CN(?=\/|$)/, '') || '/'
+  return path.replace(zhCNPathRegex, '') || '/'
 }
 
 function rewriteSidebarItems(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarItem[] {
@@ -210,7 +212,7 @@ export default defineConfig({
 
           contentPart = content ||= src
 
-          const headingMatch = content.match(/^# .*/m)
+          const headingMatch = content.match(headingRegex)
           const hasHeading = !!(headingMatch && headingMatch[0] && headingMatch.index !== undefined)
 
           if (hasHeading) {
