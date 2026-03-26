@@ -30,6 +30,12 @@
   },
   // Enable the ESlint flat config support
   "eslint.useFlatConfig": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": ".",
+      "changeProcessCWD": true
+    }
+  ],
   // The following is optional.
   // It's better to put under project setting `.vscode/settings.json`
   // to avoid conflicts with working with different eslint configs
@@ -49,7 +55,8 @@
   "unocss.root": [
     "."
   ],
-  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.disableAutomaticTypeAcquisition": true,
   "files.exclude": {
     "**/.git": false,
     "**/.svn": false,
@@ -66,13 +73,13 @@
   "svg.preview.background": "transparent",
   "github.copilot.chat.agent.autoFix": true,
   "github.copilot.chat.newWorkspaceCreation.enabled": false,
-  "github.copilot.chat.reviewAgent.enabled": false,
-  "github.copilot.chat.reviewSelection.enabled": false,
+  "github.copilot.chat.reviewAgent.enabled": true,
+  "github.copilot.chat.reviewSelection.enabled": true,
   "github.copilot.chat.setupTests.enabled": false,
   "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
   "github.copilot.chat.useProjectTemplates": false,
   "github.copilot.chat.useResponsesApi": false,
-  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.editor.enableCodeActions": true,
   "github.copilot.renameSuggestions.triggerAutomatically": false,
   "github.copilot.nextEditSuggestions.fixes": false,
   "github.copilot.nextEditSuggestions.enabled": true,
@@ -87,5 +94,6 @@
   "svg.preview.translateExternalAddress": true,
   "explorer.excludeGitIgnore": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.tabs.title": "${profile}"
+  "terminal.integrated.tabs.title": "${profile}",
+  "github.copilot.chat.rateLimitAutoSwitchToAuto": true
 }

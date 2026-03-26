@@ -2,6 +2,8 @@ import type { Handler, HandlerEvent } from '@netlify/functions'
 import fetch from 'node-fetch'
 import { plainTargetDomain } from '../../metadata'
 
+const leadingSlashRegex = /^\//
+
 const TargetDomain = plainTargetDomain
 const FunctionEndpoint = '/.netlify/functions/to'
 const HyphenQueryShortURLEndpoint = 'https://api.ayaka.io/hyphen/api/v1/url/short'
@@ -19,7 +21,7 @@ const handler: Handler = async (event: HandlerEvent) => {
     // 获取短链接
     const shortUrl = event.path
       .replace(FunctionEndpoint, '') // 去除函数路径
-      .replace(/^\//, '') // 去除开头的斜杠
+      .replace(leadingSlashRegex, '') // 去除开头的斜杠
 
     // 获取短链接对应的长链接
     const requestUri = `${HyphenQueryShortURLEndpoint}?url=${shortUrl}`
