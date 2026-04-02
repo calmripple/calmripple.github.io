@@ -6,5 +6,7 @@ tags:
 <Translate>
 # 知在 集成
 
-是在 2023 年 7 月由我主动发起的，从 [[Nolebase|Nólëbase]] 的插件实现中分离、解耦若干插件，优化用户体验和阅读体验，以及实现 Obsidian 和 VitePress 双向可用的项目。
+知在 集成是从项目早期插件能力中逐步拆分、沉淀出来的一组集成与增强能力，重点在于优化阅读体验、内容处理流程，以及实现 Obsidian 和 VitePress 的双向可用。
+
+关于知在与 nolebase 的项目沿革、命名来源和致谢，统一见 [[Nolebase|知在]]；本文只介绍「知在 集成」本身。
 </Translate>

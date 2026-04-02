@@ -34,6 +34,11 @@
 
 The name 知在, pronounced as nole-base, comes from the Quenya word nólë, which means "knowledge", and the English word base, which means "foundation", i.e. "knowledge base".
 
+> [!NOTE]
+> The current project is maintained by beingknowing and beknowing. The current repository is https://github.com/calmripple/calmripple.github.io.
+>
+> Parts of this project's structure, naming history, and early ideas continue from the original nolebase project. The original repository is https://github.com/nolebase/nolebase, and the original authors are 絢香音 and 絢香猫, also known as "Xiaoyin" and "Maomao". While this repository continues to reorganize, rewrite, and expand the content, it preserves and respects the copyright and contributions of the original authors and related contributors.
+
 ## Features
 
 - 🌈 Diverse Topics and Content:
@@ -47,16 +52,16 @@ The name 知在, pronounced as nole-base, comes from the Quenya word nólë, whi
 
 ## Want to Deploy 知在 Locally, or Have Your Own Copy?
 
-We're thrilled that you're interested in [知在](https://nolebase.ayaka.io)!
+We're thrilled that you're interested in [知在](https://www.dmsrs.org)!
 
 ### Background Information
 
 
-First, [知在](https://nolebase.ayaka.io) is fully functional in offline environments without a network connection! You can follow the guide [How to Download to Your Computer](#how-to-download-to-your-computer) to download or clone this repository and open it using knowledge base tools like [Obsidian](https://obsidian.md) or [Logseq](https://logseq.com/) locally. Alternatively, you can also browse or edit the contents locally using Markdown editors like [Typora](https://typora.io/), which means that even if you have no programming skills, you can still use or draw inspiration from our methods of categorizing and organizing knowledge.
+First, [知在](https://www.dmsrs.org) is fully functional in offline environments without a network connection! You can follow the guide [How to Download to Your Computer](#how-to-download-to-your-computer) to download or clone this repository and open it using knowledge base tools like [Obsidian](https://obsidian.md) or [Logseq](https://logseq.com/) locally. Alternatively, you can also browse or edit the contents locally using Markdown editors like [Typora](https://typora.io/), which means that even if you have no programming skills, you can still use or draw inspiration from our methods of categorizing and organizing knowledge.
 
 Before we proceed, allow me to give an introduction to the technologies and architecture used in this project.
 
-Similar to other blogs and static website generators like [Hexo](https://hexo.io), [知在](https://nolebase.ayaka.io) is powered by a static site generator [VitePress](https://vitepress.dev). Tools like [VitePress](https://vitepress.dev) support embedding [Vue](https://vuejs.org/) components directly into Markdown files to enhance the reading experience. Both [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are part of the [Node.js](https://nodejs.org/en) ecosystem, which belongs to the broader category of "frontend technologies."
+Similar to other blogs and static website generators like [Hexo](https://hexo.io), [知在](https://www.dmsrs.org) is powered by a static site generator [VitePress](https://vitepress.dev). Tools like [VitePress](https://vitepress.dev) support embedding [Vue](https://vuejs.org/) components directly into Markdown files to enhance the reading experience. Both [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are part of the [Node.js](https://nodejs.org/en) ecosystem, which belongs to the broader category of "frontend technologies."
 
 For hosting and deployment, we use the free service [Netlify](https://www.netlify.com/) to host the website. Meanwhile, [GitHub Actions](https://github.com/features/actions) (an automated workflow triggered whenever we update our notes and content in the GitHub repository) automatically builds and deploys our notes and knowledge base to [Netlify](https://www.netlify.com/).
 
@@ -76,7 +81,7 @@ Good question! As an [Obsidian](https://obsidian.md) user, maybe you are aware t
 
 1. It can be challenging to find suitable Markdown plugins for [VitePress](https://vitepress.dev). [Obsidian Publish](https://obsidian.md/publish) supports all syntax and plugins that [Obsidian](https://obsidian.md) supports natively. This means you can deploy the documents you write in [Obsidian](https://obsidian.md) directly online without additional research or trial and error.
 
-2. Deploying and running a static website like [知在](https://nolebase.ayaka.io) can be much more difficult for authors without coding knowledge. However, [Obsidian Publish](https://obsidian.md/publish) requires no coding skills, and you don’t need to worry about technical details. Similar to sharing in Notion, deployment is as simple as a few clicks.
+2. Deploying and running a static website like [知在](https://www.dmsrs.org) can be much more difficult for authors without coding knowledge. However, [Obsidian Publish](https://obsidian.md/publish) requires no coding skills, and you don’t need to worry about technical details. Similar to sharing in Notion, deployment is as simple as a few clicks.
 
 So if you don't have the necessary coding skills or don't want to invest time in learning them, [Obsidian Publish](https://obsidian.md/publish) might be a better choice for you.
 
@@ -114,7 +119,7 @@ If you are not familiar with using tools like the command line or [Git](https://
 If you're comfortable with the command line and [Git](https://git-scm.com/), you can clone the project repository into a directory named `nolebase` using the following command:
 
 ```shell
-git clone https://github.com/calmripple/nolebase
+git clone https://github.com/calmripple/calmripple.github.io
 ```
 
 #### For Windows User
@@ -122,7 +127,7 @@ git clone https://github.com/calmripple/nolebase
 > [!IMPORTANT]
 > If you are using [Git for Windows](https://gitforwindows.org/), you may see an error like this when executing the command mentioned above:
 > ```PowerShell
-> PS D:\> git clone https://github.com/calmripple/nolebase
+> PS D:\> git clone https://github.com/calmripple/calmripple.github.io
 > ...
 > error: invalid path 'x: xxx.md'
 > fatal: unable to checkout working tree
@@ -144,7 +149,7 @@ Finished downloading? Great! Congratulations on completing one of the hardest st
 
 As previously mentioned:
 
-> [知在](https://nolebase.ayaka.io) is powered by a static site generator [VitePress](https://vitepress.dev).
+> [知在](https://www.dmsrs.org) is powered by a static site generator [VitePress](https://vitepress.dev).
 >
 > Both [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are part of the [Node.js](https://nodejs.org/en) ecosystem, which belongs to the broader category of "frontend technologies."
 
@@ -276,13 +281,13 @@ Since you're already using Linux, you must know what to do, right?
 
 #### Installing Dependencies and Running the Development Server
 
-In the second-to-last step, we need to install the dependencies, so that [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are downloaded to the `node_modules` directory within the local [知在](https://nolebase.ayaka.io) directory.
+In the second-to-last step, we need to install the dependencies, so that [VitePress](https://vitepress.dev) and [Vue](https://vuejs.org/) are downloaded to the `node_modules` directory within the local [知在](https://www.dmsrs.org) directory.
 
 ```shell
 pnpm install
 ```
 
-Next, you can directly run the following command to start a locally hosted [知在](https://nolebase.ayaka.io) knowledge base frontend server. Typically, we refer to this as a "development server." With this server, you can use a browser to access the rendered pages locally:
+Next, you can directly run the following command to start a locally hosted [知在](https://www.dmsrs.org) knowledge base frontend server. Typically, we refer to this as a "development server." With this server, you can use a browser to access the rendered pages locally:
 
 ```shell
 pnpm docs:dev

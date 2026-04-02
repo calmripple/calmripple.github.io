@@ -22,7 +22,7 @@ hero:
       link: https://discord.gg/XuNFDcDZGj
     - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/calmripple/nolebase
+      link: https://github.com/calmripple/calmripple.github.io
 
 features:
   - title: 多样的主题和内容

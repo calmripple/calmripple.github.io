@@ -10,29 +10,42 @@ export const siteDescription = '记录回忆，知识和畅想的地方'
 export const include = ['笔记', '生活']
 
 /** Repo */
-export const githubRepoLink = 'https://github.com/calmripple/nolebase'
+export const githubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
 /** Discord */
 export const discordLink = 'https://discord.gg/XuNFDcDZGj'
 
 /** 无协议前缀域名 */
-export const plainTargetDomain = 'nolebase.ayaka.io'
+export const plainTargetDomain = 'www.dmsrs.org'
 /** 完整域名 */
 export const targetDomain = `https://${plainTargetDomain}`
 
 /** 创作者 */
 export const creators: Creator[] = [
   {
-    name: '存在',
+    name: 'beingknowing',
     avatar: '',
     username: 'beingknowing',
-    title: '知在 原始创作者',
+    title: '知在 作者',
     desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/beingknowing' },
       { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
     ],
-    nameAliases: ['beingknowing', '绚香猫', '存在', 'Neko Ayaka', 'Ayaka Neko'],
+    nameAliases: ['beingknowing', '存在', 'Neko Ayaka', 'Ayaka Neko'],
     emailAliases: ['neko@ayaka.moe'],
+  },
+  {
+    name: 'beknowing',
+    avatar: '',
+    username: 'beknowing',
+    title: '知在 作者',
+    desc: '开源开发者，专注于前端，以及前端相关工具库和工具链开发',
+    links: [
+      { type: 'github', icon: 'github', link: 'https://github.com/beknowing' },
+      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/OikawaRizumu' },
+    ],
+    nameAliases: ['beknowing', 'Knowing', 'Rizumu Oikawa', 'Rizumu Ayaka', 'Ayaka Rizumu', 'Rizumu'],
+    emailAliases: ['rizumu@ayaka.moe', 'rizumu@oqo.moe'],
   },
 ].map<Creator>((c) => {
   c.avatar = c.avatar || getAvatarUrlByGithubName(c.username)
