@@ -16,7 +16,7 @@ author: jimbo
 # pnpm install 在github actions中运行的问题
 
 > ## Excerpt
-> :octocat: pnpm install在CI环境中 `GitHub Action` 的默认参数，用于为拉取请求（PR）和分支创建GitHub Pages预览 —— EndBug/pages-preview
+> pnpm install 在 CI 环境中的默认行为与本地不同，尤其是在 GitHub Actions 里经常会额外带上冻结锁文件等约束，需要根据场景显式指定参数。
 
 ## Table of contents
 

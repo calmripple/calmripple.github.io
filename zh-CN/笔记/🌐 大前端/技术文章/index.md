@@ -7,6 +7,7 @@ hidden: true
 记录一些开发实践
 
 ## 目录
+* [开源协议选择指南（含 Mermaid 决策图）](./开源协议选择指南.md)
 * [pnpm install 在github actions中运行的问题](./pnpm-issue-githubactions.md)
 * [在提交pr请求后自动部署preview github pages](./deploy-preview-pr.md)
 * [实践：利用ArrayBuffer实现预览指定目录下的所有文件的内容](./array-buffer.md)
