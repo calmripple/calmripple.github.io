@@ -11,8 +11,8 @@ export const include = ['笔记', '生活']
 
 /** Repo */
 export const githubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
-/** Discord */
-export const discordLink = 'https://discord.gg/XuNFDcDZGj'
+/** Mastodon */
+export const mastodonLink = 'https://mas.to/@cnjimbo'
 
 /** 无协议前缀域名 */
 export const plainTargetDomain = 'www.dmsrs.org'

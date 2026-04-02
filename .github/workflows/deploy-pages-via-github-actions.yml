@@ -23,16 +23,10 @@ permissions:
   id-token: write
 env:
   MAIN_BRANCH: ${{ vars.MAIN_BRANCH || github.event.repository.default_branch }} # 主分支名称
-  PREVIEW_REPO: ${{ vars.PREVIEW_REPO || 'ripplejourney/ripplejourney.github.io' }}
-  PREVIEW_BASE_URL: ${{ vars.PREVIEW_BASE_URL || 'https://preview.dmsrs.org' }}
   PRODUCT_BASE_URL: ${{ vars.PRODUCT_BASE_URL || 'https://www.dmsrs.org' }}
 # 生产部署串行执行，避免部署互相覆盖。
 # 不取消进行中的发布，确保当前生产发布可以完整结束。
 concurrency:
-  # 针对远程部署库，无法同时部署多个preview 添加并行限制
-  # group: preview-${{ github.event_name }}-${{ github.event.number || github.ref_name }}
-  # group: ${{ github.ref }}
-  # cancel-in-progress: true
   group: pages-deployment
   # 保留正在进行的生产部署；新任务排队等待而不是中断。
   cancel-in-progress: false

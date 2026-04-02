@@ -18,8 +18,8 @@ hero:
       text: 开始阅读
       link: /zh-CN/笔记/index
     - theme: alt
-      text: 加入 Discord 服务器
-      link: https://discord.gg/XuNFDcDZGj
+      text: 在 Mastodon 联系
+      link: https://mas.to/@cnjimbo
     - theme: alt
       text: GitHub 上浏览
       link: https://github.com/calmripple/calmripple.github.io
