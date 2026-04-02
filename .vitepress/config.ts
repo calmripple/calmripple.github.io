@@ -19,13 +19,14 @@ import head from './head'
 const headingRegex = /^# .*/m
 
 const workspaceRoot = process.cwd()
+const vitepressRoot = resolve(workspaceRoot, '.vitepress')
 const docsRoot = resolve(workspaceRoot, 'zh-CN')
 const publicRoot = resolve(workspaceRoot, 'public')
 const tocFilePath = resolve(docsRoot, 'toc.md')
 const indexFilePath = resolve(docsRoot, 'index.md')
-const componentsDirPath = resolve(workspaceRoot, '.vitepress/theme/components')
-const componentsDtsPath = resolve(workspaceRoot, '.vitepress/components.d.ts')
-const autoImportsDtsPath = resolve(workspaceRoot, '.vitepress/auto-imports.d.ts')
+const componentsDirPath = resolve(vitepressRoot, 'theme/components')
+const componentsDtsPath = resolve(vitepressRoot, 'components.d.ts')
+const autoImportsDtsPath = resolve(vitepressRoot, 'auto-imports.d.ts')
 
 const nolebase = presetMarkdownIt({
   unlazyImages: false,
@@ -102,6 +103,12 @@ export default defineConfig({
   srcDir: docsRoot,
   vite: {
     publicDir: publicRoot,
+    resolve: {
+      alias: {
+        '@': vitepressRoot,
+        '@metadata': resolve(workspaceRoot, 'metadata'),
+      },
+    },
     server: {
       proxy: {
         '/assets/page-external-data/js': {

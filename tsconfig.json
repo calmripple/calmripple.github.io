@@ -10,6 +10,17 @@
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "paths": {
+      "@/*": [
+        ".vitepress/*"
+      ],
+      "@metadata": [
+        "metadata/index.ts"
+      ],
+      "@metadata/*": [
+        "metadata/*"
+      ]
+    },
     "resolveJsonModule": true,
     "types": [
       "vite/client"

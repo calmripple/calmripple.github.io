@@ -1,8 +1,8 @@
 <script lang="ts" setup>
+import { plainTargetDomain } from '@metadata'
 import { useClipboard } from '@vueuse/core'
 import { useRoute } from 'vitepress'
 import { ref, watch } from 'vue'
-import { plainTargetDomain } from '../../../metadata'
 
 interface HyphenResp<T> {
   data: T
