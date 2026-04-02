@@ -6,7 +6,6 @@ tags:
   - Python
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # Debug Anaconda 的包和镜像
 
@@ -255,3 +254,4 @@ opendiff nb_conda_kernels-2.5.1-pyh707e725_2/info/info/index.json nb_conda_kerne
 直接进行 diff 对比：
 
 ![](./assets/Pasted-image-20241108174435.png)
+

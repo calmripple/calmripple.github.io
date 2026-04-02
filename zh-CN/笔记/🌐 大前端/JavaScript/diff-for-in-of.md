@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # for-of与for-in的区别
 ## for-of
@@ -64,4 +63,5 @@ for (const k in data) {
 * 为普通对象设计的，遍历顺序是任意的,数组索引顺序很重要,不适用于数组遍历
 * 遍历出来的key是string类型
 * 可以遍历到原型上的属性 
+
 

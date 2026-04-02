@@ -13,7 +13,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 判断是否为对称二叉树
 
@@ -102,4 +101,5 @@ var isSymmetric = function (root) {
 
 ## 层序遍历
 ...未完待续
+
 

@@ -13,7 +13,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 单链表转置
 
@@ -129,4 +128,5 @@ var reverseList = function (head) {
     return newHead
 };
 ```
+
 

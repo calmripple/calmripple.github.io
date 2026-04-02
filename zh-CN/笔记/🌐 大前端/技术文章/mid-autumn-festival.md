@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 马上中秋了，把鼠标指针变为小玉兔
 
@@ -260,4 +259,5 @@ window.addEventListener('touchmove', function (e) {
 后续准备把这个设置指针样式的脚本抽成一个通用的js sdk和大家分享，这样想怎么改指针样式就怎么改
 
 大家有更好的方案可以评论区交流一波
+
 

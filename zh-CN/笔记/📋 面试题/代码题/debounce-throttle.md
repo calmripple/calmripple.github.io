@@ -11,7 +11,6 @@ tags:
 categories:
   - 面试题
   - 代码题
-titleTemplate: ':title | 知在'
 ---
 # 防抖与节流实现
 
@@ -93,3 +92,4 @@ function superThrottle(fn, delay) {
   }
 }
 ```
+

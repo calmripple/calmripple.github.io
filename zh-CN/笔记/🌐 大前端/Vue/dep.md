@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # 响应式系统的依赖收集追踪原理
 
@@ -111,4 +110,5 @@ app._data.name = 1 // 更新视图
 app._data.friends.name1 = 2 // 更新视图
 app._data.friends.name2 = 3
 ```
+
 

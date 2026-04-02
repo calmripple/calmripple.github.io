@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # ServerLess之云函数实践-天气API
 
@@ -342,3 +341,4 @@ exports.main_handler = async (event, context) => {
 * [FaaS 给前端带来了什么？](https://cloud.tencent.com/developer/article/1666644)
 * [三分钟给女票写个“彩虹屁”bot | 🏆 技术专题第七期征文](https://juejin.cn/post/6897509349246107661)
 :::
+

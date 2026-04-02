@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 实现一个Web UI检测(视觉走查)工具ing
 
@@ -63,4 +62,5 @@ titleTemplate: ':title | 知在'
 ## 功能实现
 
 ## 其它
+
 

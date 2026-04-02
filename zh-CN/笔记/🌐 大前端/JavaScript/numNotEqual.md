@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 为什么0.1+0.2!=0.3
 
@@ -42,4 +41,5 @@ function compareNum(num1,num2){
 }
 console.log(compareNum(0.1+0.2,0.3)) // true
 ```
+
 

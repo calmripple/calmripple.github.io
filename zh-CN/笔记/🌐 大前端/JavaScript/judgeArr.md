@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 如何判断数组
 ## 1.Array.isArray
@@ -47,3 +46,4 @@ function isArray(arr) {
 }
 console.log(isArray([]))
 ```
+

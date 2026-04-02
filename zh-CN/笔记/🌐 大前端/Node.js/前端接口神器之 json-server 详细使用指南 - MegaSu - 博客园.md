@@ -9,7 +9,6 @@ author: Megasu
 categories:
   - 大前端
   - Node.js
-titleTemplate: ':title | 知在'
 ---
 
 # 前端接口神器之 json-server 详细使用指南
@@ -524,3 +523,4 @@ server.use('/api', router)
 1.  json-server 入门简单，30 秒出效果，零编码实现 REST API 风格接口，实属前端接口神器。👍👍👍
 2.  路由进阶操作还支持分页，排序等操作，简直强大。💪
 3.  感谢点赞与支持💕💕💕
+

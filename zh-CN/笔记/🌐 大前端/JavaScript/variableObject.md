@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 变量对象
 每个执行上下文，都有三个重要属性：
@@ -182,4 +181,5 @@ var foo = 1;
 :::tip 参考
 [JavaScript深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
 :::
+
 

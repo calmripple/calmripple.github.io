@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现async/await
 
@@ -483,4 +482,5 @@ hello world
 catch err
 TypeError: Assignment to constant variable.
 ```
+
 

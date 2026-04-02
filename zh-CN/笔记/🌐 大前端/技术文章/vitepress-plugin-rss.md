@@ -13,7 +13,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 实现自动为 VitePress 网站添加 RSS 订阅的插件
 
@@ -268,3 +267,4 @@ writeFileSync(RSSFilepath, feed.rss2())
 ## 参考
 * [jpmonette/feed](https://www.npmjs.com/package/feed)
 * [vuejs/blog](https://github.com/vuejs/blog/tree/main)
+

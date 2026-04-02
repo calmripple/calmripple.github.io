@@ -8,7 +8,6 @@ tags:
 categories:
   - AI 人工智能
   - AI 领域应用
-titleTemplate: ':title | 知在'
 ---
 ## 环境准备
 
@@ -141,3 +140,4 @@ $PYTHON_CMD fish_speech/webui/manage.py
 chmod +x ./start.sh
 ./start.sh
 ```
+

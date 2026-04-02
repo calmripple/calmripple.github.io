@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 代码题
-titleTemplate: ':title | 知在'
 ---
 # 居中
 
@@ -109,3 +108,4 @@ titleTemplate: ':title | 知在'
   transform: translate(-50%, -50%);
 }
 ```
+

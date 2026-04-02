@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # computed 与 watch
 * ``computed`` 是计算属性，依赖其他属性计算值，并且 computed 的值有缓存，只有当计算值变化才会返回内容。
@@ -70,4 +69,5 @@ export default{
 }
 </script>
 ```
+
 

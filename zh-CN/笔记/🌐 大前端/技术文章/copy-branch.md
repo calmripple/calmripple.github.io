@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 如何优雅的复制当前项目分支名
 
@@ -181,3 +180,4 @@ ncp.copy(branch)
 如果你有更好的实现方式，欢迎留言讨论
 
 源码地址：[bcy](https://github.com/ATQQ/tools/tree/main/packages/cli/bcy)
+

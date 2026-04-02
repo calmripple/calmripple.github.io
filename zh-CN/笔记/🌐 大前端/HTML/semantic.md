@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - HTML
-titleTemplate: ':title | 知在'
 ---
 # 语义化标签
 
@@ -34,4 +33,5 @@ titleTemplate: ':title | 知在'
 * 有利于SEO:搜索引擎会根据标签来确定关键字的权重
 * 便于开发与维护:提高代码可读性,能让它人快速理解你的代码
 * 方便一些特殊设备的解析
+
 

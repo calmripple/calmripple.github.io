@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # eslint插件开发教程
 
@@ -408,4 +407,5 @@ Add `comments-key` to the plugins section of your `.eslintrc` configuration file
 
 
 因笔者水平有限，内容上如有阐述不明白之处，还请斧正
+
 

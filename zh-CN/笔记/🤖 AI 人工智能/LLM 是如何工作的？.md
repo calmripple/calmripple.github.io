@@ -8,7 +8,6 @@ tags:
 categories:
   - AI 人工智能
   - LLM
-titleTemplate: ':title | 知在'
 ---
 # LLM 是如何工作的？
 
@@ -513,3 +512,4 @@ https://www.cnbeta.com.tw/articles/tech/1404741.htm
 - [The Illustrated Transformer – Jay Alammar – Visualizing machine learning one concept at a time.](https://jalammar.github.io/illustrated-transformer/)
 - [Solving Transformer by Hand: A Step-by-Step Math Example | by Fareed Khan | Dec, 2023 | Level Up Coding](https://levelup.gitconnected.com/understanding-transformers-from-start-to-end-a-step-by-step-math-example-16d4e64e6eb1)
 - [Normcore LLM Reads](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e)
+

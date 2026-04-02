@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # 设计模式-结构型模式
 
@@ -254,4 +253,5 @@ r.hello3('456')
 
 ### 参考
 * [TypeScript-decorators](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
+
 

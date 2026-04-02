@@ -13,7 +13,6 @@ tags:
 categories:
   - 大前端
   - CSS
-titleTemplate: ':title | 知在'
 ---
 # 弹性布局
 flex布局是css3中的新布局模块,为盒模型提供了最大的灵活性,可以改进容器中的项目对齐,方向和顺序,flex可以自动调节子元素的高度或者宽度
@@ -460,3 +459,4 @@ flex:flex-grow flex-shrink flex-basis
 }
 ```
 ![图片](./flex/MTU4MzExOTQ3MzkxOA==583119473918.png)
+

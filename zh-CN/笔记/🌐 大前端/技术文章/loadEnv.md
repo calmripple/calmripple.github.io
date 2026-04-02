@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 封装dotenv库实现类似Vite加载环境变量的行为
 
@@ -262,4 +261,5 @@ loadEnv({prefix:'xx'})
 
 ## TODO
 下一次分享一下Vite中这部分的源码实现逻辑
+
 

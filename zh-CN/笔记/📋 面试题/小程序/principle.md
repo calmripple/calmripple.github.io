@@ -10,7 +10,6 @@ tags:
 categories:
   - 面试题
   - 小程序
-titleTemplate: ':title | 知在'
 ---
 # 小程序的原理?
 **微信小程序为例**
@@ -46,3 +45,4 @@ titleTemplate: ':title | 知在'
 [微信小程序框架文档](https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html)<br>
 [博客园:小程序工作原理浅析](https://www.cnblogs.com/SophiaLees/p/11409339.html)
 :::
+

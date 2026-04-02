@@ -10,7 +10,6 @@ tags:
 categories:
   - 面试题
   - 小程序
-titleTemplate: ':title | 知在'
 ---
 # 小程序特点
 ## 引流能力强
@@ -36,3 +35,4 @@ titleTemplate: ':title | 知在'
 :::tip 参考
 [百度知道:小程序的特点](https://zhidao.baidu.com/question/461407080721331845.html)
 :::
+

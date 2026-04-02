@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # ESCheck工具原理解析及增强实现
 > 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载，侵权必究！
@@ -637,4 +636,5 @@ escheck es5 testProject/**/*.js testProject/**/*.html --out
 ## 参考
 * [es-check](https://github.com/yowainwright/es-check)：社区出品
 * [mpx-es-check](https://github.com/mpx-ecology/mpx-es-check)：滴滴出品 [MPX](https://mpxjs.cn/) 框架的配套工具
+
 

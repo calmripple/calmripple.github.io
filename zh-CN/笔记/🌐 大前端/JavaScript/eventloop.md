@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # Event Loop
 
@@ -369,4 +368,5 @@ process.nextTick(() => {
 [什么是Event Loop](http://www.ruanyifeng.com/blog/2013/10/event_loop.html)<br>
 [彻底弄得Event Loop](https://segmentfault.com/a/1190000016278115)
 :::
+
 

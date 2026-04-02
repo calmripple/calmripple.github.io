@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 计算机网络
-titleTemplate: ':title | 知在'
 ---
 # UDP协议
 
@@ -63,4 +62,5 @@ UDP 头部包含了:
 :::tip 参考
 [网络-UDP](https://yuchengkai.cn/docs/cs/#udp)
 :::
+
 

@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 计算机网络
-titleTemplate: ':title | 知在'
 ---
 # http协议
 > 超文本传输协议(HyperText Transfer Protocol）),基于TCP实现的应用层协议
@@ -392,4 +391,5 @@ QUIC 原生实现了这个功能，并且传输的单个数据流可以保证有
 [http](https://yuchengkai.cn/docs/cs/#post-%E5%92%8C-get-%E7%9A%84%E5%8C%BA%E5%88%AB)<br>
 [CSDN:QUIC（Quick UDP Internet Connections）协议：全新的基于UDP的web开发协议](https://blog.csdn.net/coloriy/article/details/88418258)
 :::
+
 

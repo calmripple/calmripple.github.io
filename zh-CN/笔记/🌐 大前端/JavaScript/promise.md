@@ -13,7 +13,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # Promise
 
@@ -240,4 +239,5 @@ new myPromise((resolve, reject) => {
     console.log('err:' + err)
 })I
 ```
+
 

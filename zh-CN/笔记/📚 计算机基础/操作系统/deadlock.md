@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 操作系统
-titleTemplate: ':title | 知在'
 ---
 # 死锁
 ## 概念
@@ -38,3 +37,4 @@ titleTemplate: ':title | 知在'
 
 ## 解决办法
 只要打破四个必要条件之一就能有效预防死锁的发生
+

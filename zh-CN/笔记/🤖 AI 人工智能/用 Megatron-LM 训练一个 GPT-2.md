@@ -7,7 +7,6 @@ tags:
   - GPT
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # 用 Megatron-LM 训练一个 GPT-2
 
@@ -1750,3 +1749,4 @@ saving checkpoint at iteration       4 to ./checkpoints/gpt-2
 ## 参考资料
 
 [如何训练 GPT-2 模型并生成文本 云服务器 ECS（ECS） - 阿里云帮助中心](https://help.aliyun.com/zh/ecs/use-cases/use-the-megatron-deepspeed-training-gpt-2-and-generate-text)
+

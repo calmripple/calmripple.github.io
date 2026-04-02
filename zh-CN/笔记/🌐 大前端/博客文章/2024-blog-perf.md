@@ -5,7 +5,6 @@ tags:
 categories:
   - 大前端
   - 博客文章
-titleTemplate: ':title | 知在'
 ---
 # 博客性能优化笔记 | 99分
 
@@ -181,3 +180,4 @@ lighthouse 检测结果
 2. 网络：HTTPS + HTTP2/3，OSS + CDN
 3. 布局：减少回流重绘范围与次数
 4. 资源：移除无用代码，无用的第三方资源加载
+

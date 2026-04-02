@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 其他
-titleTemplate: ':title | 知在'
 ---
 # typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
 ## typeof
@@ -62,3 +61,4 @@ function myInstanceof(target, origin) {
   }
 }
 ```
+

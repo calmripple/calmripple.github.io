@@ -10,7 +10,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 一款检测代码中TODO的eslint插件
 
@@ -284,4 +283,5 @@ if (errMsg) {
 * [vs code插件 todo-tree](https://github.com/Gruntfuggly/todo-tree)也很棒哟
 
 >[本文](https://juejin.cn/post/6939877553582637069)正在参与「掘金 2021 春招闯关活动」, 点击查看 [活动详情](https://juejin.cn/post/6939329638506168334)
+
 

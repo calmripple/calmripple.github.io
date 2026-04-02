@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 如何正确判断 this？箭头函数的 this 是什么？
 ```js
@@ -272,4 +271,5 @@ obj.say6()
 'obj2'
 ```
 </my-details>
+
 

@@ -4,7 +4,6 @@ tags:
   - 人工智能
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 
 # Rust 社区的 AI 生态
@@ -23,3 +22,4 @@ https://github.com/huggingface/candle
 
 coreylowman/dfdx: Deep learning in Rust, with shape checked tensors and neural networks
 https://github.com/coreylowman/dfdx
+

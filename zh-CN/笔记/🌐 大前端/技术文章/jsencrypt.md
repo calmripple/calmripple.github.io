@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 实践：使用jsencrypt配合axios实现非对称加密传输的数据
 
@@ -339,4 +338,5 @@ function updateReceive(data){
 大工告成,接入十分简单
 
 [完整的示例代码仓库](https://github.com/ATQQ/demos/tree/main/asymmetric-encryption)
+
 

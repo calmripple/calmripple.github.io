@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # 设计模式-设计原则
 
@@ -62,4 +61,5 @@ titleTemplate: ':title | 知在'
 
 ## TODO
 吸收知识后补充上述内容的示例
+
 

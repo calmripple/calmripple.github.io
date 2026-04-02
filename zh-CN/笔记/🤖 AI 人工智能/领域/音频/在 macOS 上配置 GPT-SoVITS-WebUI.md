@@ -10,7 +10,6 @@ tags:
 categories:
   - AI 人工智能
   - AI 领域应用
-titleTemplate: ':title | 知在'
 ---
 
 # 在 macOS 上配置 GPT-SoVITS-WebUI
@@ -73,3 +72,4 @@ mamba install ffmpeg
 https://www.bilibili.com/video/BV1P541117yn
 https://www.bilibili.com/video/BV12g4y1m7Uw
 https://www.bilibili.com/video/BV1QY4y1n7h1
+

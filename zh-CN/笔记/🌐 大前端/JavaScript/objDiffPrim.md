@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 对象类型和原始类型的不同之处
 ## 对象
@@ -24,4 +23,5 @@ console.log(o1.a) // 2
 
 ## 原始值
 1. 赋值的时候拷贝的一个新的值,不会影响原来的
+
 

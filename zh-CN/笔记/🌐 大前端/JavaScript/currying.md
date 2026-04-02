@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 柯里化(Currying)
 
@@ -104,4 +103,5 @@ function fn(a, b, c, d) {
 fn = curry(fn)
 fn(1)(2)(3, 4) // 10
 ```
+
 

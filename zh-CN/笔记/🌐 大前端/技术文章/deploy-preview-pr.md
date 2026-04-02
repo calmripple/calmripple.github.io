@@ -13,7 +13,6 @@ categories:
 created: '2024-06-18T20:04:04 (UTC +08:00)'
 source: null
 author: EndBug
-titleTemplate: ':title | 知在'
 ---
 # 在提交pr请求后自动部署preview github pages
 
@@ -154,3 +153,4 @@ All done! You're now ready to use the action 🎉
     # Default: preview.yml
     preview_workflow_file_name: custom_workflow.yml
 ```
+

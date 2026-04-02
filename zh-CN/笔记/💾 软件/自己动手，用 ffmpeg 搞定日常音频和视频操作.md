@@ -7,10 +7,10 @@ tags:
   - 命令行
 categories:
   - 软件工具
-titleTemplate: ':title | 知在'
 ---
 # 自己动手，用 ffmpeg 搞定日常音频和视频操作
 
 ## 索引
 
 - [[压缩 mov 到 mp4]]
+

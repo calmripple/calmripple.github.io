@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现instanceOf
 
@@ -68,4 +67,5 @@ console.log(instanceOf(/^$/, RegExp));
 console.log(instanceOf(function () { }, Function));
 console.log(instanceOf([], Function));
 ```
+
 

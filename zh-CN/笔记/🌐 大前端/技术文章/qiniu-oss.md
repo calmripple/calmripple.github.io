@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 分享封装的一些七牛云OSS操作方法
 
@@ -370,4 +369,5 @@ function checkFopTaskStatus(persistentId){
 
 ## 参考
 * [七牛云-Node.js SDK](https://developer.qiniu.com/kodo/1289/nodejs)
+
 

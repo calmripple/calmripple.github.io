@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # ESM中使用CJS模块特有的变量和方法
 
@@ -149,4 +148,5 @@ const resolveAlias = {
 ## 总结
 
 综上，在 ESM 中也是可以优雅的使用CJS里的`require`, `__dirname`, `__filename` 的
+
 

@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 内联JS处理(ES语法降级&内容压缩)
 
@@ -430,4 +429,5 @@ ijs transform __test__/test.html --minify
 文章中涉及示例代码以及工具完整源码见 [GitHub](https://github.com/ATQQ/tools/tree/main/packages/cli/inlinejs-transform)
 
 如内容有误还请评论区斧正，读者有其它💡想法可评论&私信交流探讨。
+
 

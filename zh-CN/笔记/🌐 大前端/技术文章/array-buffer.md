@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 实践：利用ArrayBuffer实现预览指定目录下的所有文件的内容
 
@@ -257,4 +256,5 @@ $lists.addEventListener('click', function (e) {
 ArrayBuffer的内容还是比较多，本文只简单讲了利用其获取文件内容
 
 本文主要内容还是实践生成目录的树形结构，由于时间仓促，代码还有很多的优化空间
+
 

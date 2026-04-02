@@ -7,7 +7,6 @@ tags:
 categories:
   - 编程开发
   - 源码分析
-titleTemplate: ':title | 知在'
 ---
 # 优秀装饰器源码学习（三）
 
@@ -175,4 +174,5 @@ export default function lazyInitialize(initializer): any {
 下一篇将学习:
 * `@debounce`：防抖
 * `@throttle`：节流
+
 

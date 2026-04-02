@@ -6,7 +6,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # javascript
 记录面试所遇的与javascript相关的代码题
@@ -27,3 +26,4 @@ titleTemplate: ':title | 知在'
 * [实现call](./myCall.md)
 * [实现一下new](./myNew.md)
 * [实现promiseAll](./promiseAll.md)
+

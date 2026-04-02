@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # extend API
 扩展组件生成一个构造器，通常会与 $mount 一起使用
@@ -48,4 +47,5 @@ titleTemplate: ':title | 知在'
     new SuperComponent().$mount('#app')
 </script>
 ```
+
 

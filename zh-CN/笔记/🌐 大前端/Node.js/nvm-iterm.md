@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - Node.js
-titleTemplate: ':title | 知在'
 ---
 
 # 安装nvm后终端启动变慢,更快的Node版本管理工具推荐
@@ -102,3 +101,4 @@ pnpm env use --global 16
 功能非常的多（比如 根据项目里Node版本要求，自动切换）
 
 ![](./nvm-iterm/MTY3NjE4OTM5MTk2Mg==676189391962.png)
+

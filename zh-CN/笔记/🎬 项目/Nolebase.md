@@ -5,7 +5,6 @@ tags:
   - 知识库
 categories:
   - 项目
-titleTemplate: ':title | 知在'
 ---
 
 # 知在
@@ -36,3 +35,4 @@ titleTemplate: ':title | 知在'
 
 > [!NOTE] 引用与改编声明
 > 当前仓库中的部分工程结构、概念命名、文档组织方式与相关说明，基于原始 nolebase 项目的公开内容继续演进。当前版本由 beingknowing 与 beknowing 维护；凡涉及原始 nolebase 项目的来源说明与历史内容，应明确尊重原始作者絢香音、絢香猫及相关贡献者的版权与贡献。
+

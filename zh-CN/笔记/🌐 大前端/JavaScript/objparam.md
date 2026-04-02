@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 函数参数是对象会发生什么问题
 1. 函数传参是传递对象指针副本
@@ -24,4 +23,5 @@ titleTemplate: ':title | 知在'
 * 基本类型按值传递
 * 引用类型按共享传递
 * 拷贝副本也是一种值的拷贝
+
 

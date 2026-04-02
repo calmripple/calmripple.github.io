@@ -13,7 +13,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 
 # 大数相加&数字字符串相加
@@ -172,3 +171,4 @@ var addStrings = function (num1, num2) {
   return res;
 };
 ```
+

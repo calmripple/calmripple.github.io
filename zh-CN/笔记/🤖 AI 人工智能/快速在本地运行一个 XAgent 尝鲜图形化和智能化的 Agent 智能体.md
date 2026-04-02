@@ -6,7 +6,6 @@ tags:
   - 自主 Agent
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # 快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体
 
@@ -61,3 +60,4 @@ Traceback (most recent call last):
     import yaml
 ModuleNotFoundError: No module named 'yaml'
 ```
+

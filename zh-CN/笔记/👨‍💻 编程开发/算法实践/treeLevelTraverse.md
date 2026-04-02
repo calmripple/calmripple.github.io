@@ -13,7 +13,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 层序遍历二叉树
 
@@ -83,4 +82,5 @@ var levelOrder = function (root) {
     return res
 };
 ```
+
 

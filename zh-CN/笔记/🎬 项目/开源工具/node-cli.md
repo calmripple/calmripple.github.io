@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # Node CLI工具原理解析
 
@@ -345,5 +344,6 @@ inquirer
 如内容有不妥之处，可以评论区交流；有感兴趣希望深入了解的知识点也可评论区@。
 
 完整示例代码移步=>[Github](https://github.com/ATQQ/tools/tree/main/packages/demos/diy-cli)
+
 
 

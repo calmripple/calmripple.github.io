@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现bind
 
@@ -59,4 +58,5 @@ print1() // print1
 const print2 = print.mybind({ name: 'print2' }).mybind({ name: 'print22' })
 print2() // print2
 ```
+
 

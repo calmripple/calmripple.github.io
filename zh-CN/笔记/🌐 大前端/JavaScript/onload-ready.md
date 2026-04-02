@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # window.onload与document.ready执行顺序
 
@@ -29,4 +28,5 @@ titleTemplate: ':title | 知在'
 :::tip 参考
 [博客园:细说document.ready和window.onload](https://www.cnblogs.com/shcrk/p/9256308.html)
 :::
+
 

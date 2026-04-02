@@ -15,7 +15,6 @@ tags:
 categories:
   - 云原生与运维
   - DevOps
-titleTemplate: ':title | 知在'
 ---
 ## 准备
 > 安装wsl以及Ubuntu请参考 [wsl中安装docker 1panel k8s](./install_docker_k8s_1panel_in_WSL)
@@ -171,3 +170,4 @@ p10k configure
           zsh-autosuggestions
           zsh-syntax-highlighting)
   ```
+

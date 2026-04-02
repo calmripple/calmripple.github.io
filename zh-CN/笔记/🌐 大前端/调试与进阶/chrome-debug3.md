@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # Chrome 调试技巧-Network
 
@@ -52,3 +51,4 @@ Ctrl + 鼠标左键选择要添加的类目
 ## 重新发送请求
 
 ![图片](./chrome-debug3/MTYyMTIxODc3NTE2MQ==621218775161.png)
+

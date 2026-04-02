@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 服务端渲染
 
@@ -38,4 +37,5 @@ titleTemplate: ':title | 知在'
 
 ### Vue SSR
 ...wait
+
 

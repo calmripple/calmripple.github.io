@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # 组件通信
 ## 父子通信
@@ -208,4 +207,5 @@ export default{
 
 ## 示例
 [CodePen:示例](https://codepen.io/sugarInSoup/pen/wvapBYB)
+
 

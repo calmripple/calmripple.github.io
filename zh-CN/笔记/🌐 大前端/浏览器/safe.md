@@ -13,7 +13,6 @@ tags:
 categories:
   - 大前端
   - 浏览器
-titleTemplate: ':title | 知在'
 ---
 # 安全
 在现代网络中，安全相关的问题是非常繁杂的，种类颇多
@@ -374,3 +373,4 @@ X-FRAME-OPTIONS 是一个 HTTP 响应头
 * [MDN:Content-Security-Policy](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Security-Policy)
 * [阮一峰:CSP](http://www.ruanyifeng.com/blog/2016/09/csp.html)
 :::
+

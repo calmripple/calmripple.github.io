@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 纯前端实现 PNG 图片压缩 | UPNG.js
 
@@ -199,3 +198,4 @@ UPNG.encode
 
 ## 最后
 后续将继续学习&探索一下其它格式的**纯前端压缩实现**（JPG，GIF，MP4转GIF）。
+

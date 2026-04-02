@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # Vite插件开发纪实：vite-plugin-monitor（下）
 
@@ -260,4 +259,5 @@ vite --debug
 目前已经能够完全拦截到debug下的所有内容，但内容由于有彩色打印相关的字符，提取信息比较麻烦
 
 下一步将对日志的提取再做一些格式化，确保能够解析出完整的日志内容
+
 

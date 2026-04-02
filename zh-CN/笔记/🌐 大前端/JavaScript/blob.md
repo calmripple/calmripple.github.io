@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # blob与file
 
@@ -79,4 +78,5 @@ File 实例对象是一个特殊的 Blob 实例，增加了``name``(文件名称
 :::tip 参考
 [网道JavaScript](http://wangdoc.com/javascript/bom/file.html#file-%E5%AF%B9%E8%B1%A1)
 :::
+
 

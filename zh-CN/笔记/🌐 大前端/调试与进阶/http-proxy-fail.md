@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 
 # 使用http-proxy-agent出现ECONNRESET error
@@ -37,4 +36,5 @@ efst https://updates.tdesktop.com/tmac/tsetup.4.5.3.dmg -o -p http://127.0.0.1:7
 添加请求头`Connection: 'keep-alive'`即可
 
 ![图片](./http-proxy-fail/MTY3NDQwNDgxMjIzMA==674404812230.png)
+
 

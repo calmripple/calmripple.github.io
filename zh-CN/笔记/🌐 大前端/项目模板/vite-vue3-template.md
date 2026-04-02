@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - 项目模板
-titleTemplate: ':title | 知在'
 ---
 # 开箱即用的Vite-Vue3工程化模板
 ## 前言
@@ -550,4 +549,5 @@ import mountElementUI from './utils/elementUI'
 
 mountElementUI(app)
 ```
+
 

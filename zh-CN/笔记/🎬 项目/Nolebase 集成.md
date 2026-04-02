@@ -5,7 +5,6 @@ tags:
   - 知识库
 categories:
   - 项目
-titleTemplate: ':title | 知在'
 ---
 <Translate>
 # 知在 集成
@@ -14,3 +13,4 @@ titleTemplate: ':title | 知在'
 
 关于知在与 nolebase 的项目沿革、命名来源和致谢，统一见 [[Nolebase|知在]]；本文只介绍「知在 集成」本身。
 </Translate>
+

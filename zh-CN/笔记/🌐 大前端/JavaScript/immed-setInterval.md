@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现调用就执行一次的定时器
 
@@ -59,5 +58,6 @@ function setImmInterval(func, delay = 0, ...args){
     return setInterval(func, delay, ...args)
 }
 ```
+
 
 

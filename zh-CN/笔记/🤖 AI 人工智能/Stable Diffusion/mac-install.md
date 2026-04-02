@@ -16,7 +16,6 @@ tags:
 categories:
   - AI 人工智能
   - Stable Diffusion
-titleTemplate: ':title | 知在'
 ---
 # Mac 安装 stable-diffusion
 
@@ -211,3 +210,4 @@ DPM++ SDE Karras
 ![](./mac-install/MTY4ODMxMTAyMTY2Ng==688311021666.png)
 
 ![](./mac-install/MTY4ODMxMTI1MTEzNw==688311251137.png)
+

@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 代码题
-titleTemplate: ':title | 知在'
 ---
 # 模式串匹配
 
@@ -63,3 +62,4 @@ function kmp(origin, target) {
   return j === tLen ? i - j : -1
 }
 ```
+

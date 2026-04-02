@@ -6,7 +6,6 @@ tags:
   - 编辑器
 categories:
   - 软件工具
-titleTemplate: ':title | 知在'
 ---
 # 解决 VS Code 不能在只读卷上更新
 
@@ -31,3 +30,4 @@ xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 `xattr` —— 操作文件的扩展信息，这里用来删除文件和子文件的扩展信息
 
 **然后彻底关闭 VS Code 后重新打开即可解决问题。**
+

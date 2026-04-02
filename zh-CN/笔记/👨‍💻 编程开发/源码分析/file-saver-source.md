@@ -7,7 +7,6 @@ tags:
 categories:
   - 编程开发
   - 源码分析
-titleTemplate: ':title | 知在'
 ---
 
 # FileSaver.js源码学习，纯前端实现文件下载，防止浏览器直接打开预览
@@ -158,4 +157,5 @@ download('./file-saver-source/MTYyMzA3NjA4NDQ4NA==desktop.jpg?s1=https%3A//img.c
 * 针对比较大的资源，可以改造一下，反馈下载进度，提升用户体验
 
 偶尔遇到一些工具库，源代码不多的话，可以花些时间看看，精炼精炼，然后变成自己的东西
+
 

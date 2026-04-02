@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 小技巧：for of中获取index
 
@@ -71,4 +70,5 @@ for (const idx of data.keys()) {
     console.log(idx, v);
 }
 ```
+
 

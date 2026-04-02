@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # typeof能否正常判断类型
 * 不能正确的判断所有的类型
@@ -20,4 +19,5 @@ titleTemplate: ':title | 知在'
 :::tip 更多参考
 [js类型判断](./../../bigWeb/js/p4.md)
 :::
+
 

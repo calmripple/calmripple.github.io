@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 页面预渲染
 
@@ -19,4 +18,5 @@ titleTemplate: ':title | 知在'
 ```html
 <link rel="prerender" href="//sugarat.top"> 
 ```
+
 

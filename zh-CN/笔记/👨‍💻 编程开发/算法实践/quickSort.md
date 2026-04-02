@@ -14,7 +14,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 快速排序
 
@@ -110,4 +109,5 @@ function quickSort(data) {
     return data
 }
 ```
+
 

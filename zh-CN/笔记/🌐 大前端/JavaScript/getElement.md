@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 获取dom元素的几种方式
 * 按使用频率排序
@@ -120,3 +119,4 @@ nodeList = document.getElementsByTagNameNS(namespace, name)
 
 [CSDN-HTML元素之间的继承关系](https://blog.csdn.net/ppwwp/article/details/88169145)
 :::
+

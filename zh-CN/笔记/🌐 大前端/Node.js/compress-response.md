@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - Node.js
-titleTemplate: ':title | 知在'
 ---
 # Node侧实现内容压缩(gzip/br/deflate)介绍与实践
 
@@ -339,4 +338,5 @@ app.listen(3000)
 * [美团技术团队:速度与压缩比如何兼得？压缩算法在构建部署中的优化](https://tech.meituan.com/2021/01/07/pack-gzip-zstd-lz4.html)
 * [Node.js v16.14.0 文档:zlib](http://nodejs.cn/api/zlib.html#zlib)
 * [Github:ayqy/string-to-file-stream](https://github.com/ayqy/string-to-file-stream/blob/2f43145ca9515345fb0b9b697414bcfd0effe276/index.js)
+
 

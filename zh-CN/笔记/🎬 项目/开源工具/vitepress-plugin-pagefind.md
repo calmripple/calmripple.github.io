@@ -13,7 +13,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 
 # 使用Pagefind为VitePress文档添加离线全文搜索能力
@@ -247,3 +246,4 @@ onBeforeMount(() => {
 * ...
 
 欢迎各位在评论区交流想法
+

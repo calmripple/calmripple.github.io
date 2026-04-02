@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 
 # 纯前端实现 JPG 图片压缩 | canvas
@@ -371,3 +370,4 @@ function dataURItoFile(dataURI, fileName) {
 
 ## 最后
 后续将继续学习&探索一下 `GIF`，`MP4 转 GIF` 等常用的动图前端处理实现的方式。
+

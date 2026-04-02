@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 组装个支持记笔记的CodePen
 ## 前言
@@ -382,5 +381,6 @@ export function formatCSS(css: string) {
 成签约作者了，后面几个月输出可能会稍微频繁一点了，到时候就打扰了，大家不要吝啬3连
 
 ![图片](./codeNote/MTY2MjE3MTI4OTg5OA==662171289898.png)
+
 
 

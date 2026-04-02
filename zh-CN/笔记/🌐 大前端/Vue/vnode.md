@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # 实现 VNode 节点
 ## VNode?
@@ -120,4 +119,5 @@ function cloneVNode(node){
 
 * VNode 就是一个 JavaScript 对象,用 JavaScript 对象的属性来描述当前节点的一些状态
 * 用 VNode 节点的形式来模拟一棵 Virtual DOM 树
+
 

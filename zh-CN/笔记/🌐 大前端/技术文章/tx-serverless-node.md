@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 腾讯云Serverless实践-Node.js服务部署
 
@@ -499,4 +498,5 @@ sls deploy
 * 补全原生Node使用HTTP模块开发的应用部署
 * 补全koa项目的部署
 * 探究一下终端如何展示二维码的，展示图片的可能性
+
 

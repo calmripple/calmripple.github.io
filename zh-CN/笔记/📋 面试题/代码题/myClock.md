@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 代码题
-titleTemplate: ':title | 知在'
 ---
 # 定时器实现
 >借助requestAnimationFrame实现,精度更高
@@ -45,3 +44,4 @@ function mySetInterval(callback, delay) {
   return timer
 }
 ```
+

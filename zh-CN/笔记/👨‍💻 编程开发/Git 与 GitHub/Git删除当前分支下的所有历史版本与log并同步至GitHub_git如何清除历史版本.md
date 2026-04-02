@@ -15,7 +15,6 @@ tags:
 categories:
   - 编程开发
   - Git
-titleTemplate: ':title | 知在'
 ---
 
 # 1. Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本-CSDN博客
@@ -142,3 +141,4 @@ git add * git commit -am 'message'
 git push -f origin master
 
 ```
+

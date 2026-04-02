@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 操作系统
-titleTemplate: ':title | 知在'
 ---
 # 进程和线程怎么通信
 ## 进程
@@ -38,3 +37,4 @@ titleTemplate: ':title | 知在'
 * 一个进程至少有一个线程
 * 资源分配给进程,线程共享其中的资源
 * 处理机分配给线程
+

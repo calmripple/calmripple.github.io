@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - CSS
-titleTemplate: ':title | 知在'
 ---
 # CSS层级关系
 
@@ -77,3 +76,4 @@ div .class2 span#id3{font-size:18px}
     </p>
 </div>
 ```
+

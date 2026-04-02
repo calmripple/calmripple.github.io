@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # 学习笔记：TypeScript装饰器
 使用装饰器可以装饰一个类或类中的属性
@@ -300,4 +299,5 @@ hello world
 ## 参考
 * [TypeScript-decorators](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
 * [core-decorators源码](https://github.com/jayphelps/core-decorators)
+
 

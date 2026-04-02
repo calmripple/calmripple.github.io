@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 30行代码实现合并指定目录下的所有文件的内容
 
@@ -236,3 +235,4 @@ function getDirFiles(dir, exclude = []) {
   return result
 }
 ```
+

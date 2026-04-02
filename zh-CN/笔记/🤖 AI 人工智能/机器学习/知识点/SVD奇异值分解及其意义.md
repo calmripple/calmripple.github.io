@@ -8,7 +8,6 @@ tags:
 categories:
   - AI 人工智能
   - 机器学习
-titleTemplate: ':title | 知在'
 ---
 
 # 深度学习基础：SVD奇异值分解及其意义
@@ -377,3 +376,4 @@ $$
 ![水平变换效果](./assets/SVD奇异值分解及其意义-svd19.jpeg)
 
 就保留主要样本数据来看，该过程跟PCA( principal component analysis)技术有一些联系，PCA也使用了SVD去检测数据间依赖和冗余信息.
+

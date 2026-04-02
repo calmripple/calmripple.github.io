@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # ES6+的一些新语法糖和方法整理
 **只列举了比较实用的而又鲜为人知的一些，并不绝对全面**
@@ -347,5 +346,6 @@ console.log(arr.includes('hello')); // true
 * [String padding](https://www.digitalocean.com/community/tutorials?q=String+padding)
 * [Object.getOwnPropertyDescriptor()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor)
 * [compat-table/es2016plus/](https://kangax.github.io/compat-table/es2016plus/)
+
 
 

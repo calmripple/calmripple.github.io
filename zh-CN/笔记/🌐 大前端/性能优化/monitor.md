@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 监控
 一般分为三种:
@@ -66,4 +65,5 @@ titleTemplate: ':title | 知在'
 
 ### 接口异常上报
 * 可以通过img 标签的 src 发起一个请求
+
 

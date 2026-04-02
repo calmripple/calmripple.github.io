@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 事件的触发过程是怎么样的？知道什么是事件代理嘛？
 
@@ -41,4 +40,5 @@ titleTemplate: ':title | 知在'
 **优点**
 * 节省内存,不需要给每个子节点注册一次
 * 不需要给子节点注销事件
+
 

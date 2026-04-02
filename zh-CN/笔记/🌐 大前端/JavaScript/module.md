@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 为什么要使用模块化？有哪几种方式可以实现模块化，各有什么特点？
 ## 为什么要使用模块化？
@@ -70,4 +69,5 @@ import { XXX } from './a.js'
 export function a() {}
 export default function() {}
 ```
+
 

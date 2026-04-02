@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - 浏览器
-titleTemplate: ':title | 知在'
 ---
 # 阻塞
 ## CSS
@@ -303,3 +302,4 @@ console.log('render success')
 :::tip 参考
 * [developers-关键路径渲染](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css)
 :::
+

@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 作用域链
 
@@ -125,4 +124,5 @@ ECstack = [
     globalcontext
 ]
 ```
+
 

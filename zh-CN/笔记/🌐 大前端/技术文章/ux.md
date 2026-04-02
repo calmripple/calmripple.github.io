@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 为什么'\x1B'.length === 1？\x与\u知识延伸
 
@@ -152,4 +151,5 @@ console.log(resetChalkStr(`${chalk.green('green')} ${chalk.greenBright('greenBri
 重拾了一下`\x`与`\u`相关的内容，突然额外想到一个点，使用\u去做字符串的加解密(下来再捋一捋)
 
 解决了一个`chalk`相关的问题“还原终端中的彩色内容”
+
 

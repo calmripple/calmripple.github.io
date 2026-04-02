@@ -10,7 +10,6 @@ tags:
 categories:
   - 面试题
   - 代码题
-titleTemplate: ':title | 知在'
 ---
 # 二叉树的遍历
 ## 前序遍历
@@ -62,3 +61,4 @@ function sequenceTraversal(root) {
   }
 }
 ```
+

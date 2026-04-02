@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 懒加载与执行
 ## 懒执行
@@ -82,4 +81,5 @@ document.onscroll = throttle(loadImg, 200)
 ```
 
 [CodePen:示例](https://codepen.io/sugarInSoup/pen/WNvZEap)
+
 

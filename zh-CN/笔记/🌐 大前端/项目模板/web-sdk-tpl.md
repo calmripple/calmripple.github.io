@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 项目模板
-titleTemplate: ':title | 知在'
 ---
 # 模板工程搭建：Web-SDK/Library
 
@@ -532,5 +531,6 @@ new libName()
 经过一些思考（文章篇幅与相关性），关于一些工程通用的能力，如`eslint`，`api-extractor`，`prettier`，`jest`，`husky`等等将会在后续文章中专门介绍
 
 >文中所涉及[源码仓库](https://github.com/ATQQ/web-lib-template)地址：https://github.com/ATQQ/web-lib-template
+
 
 

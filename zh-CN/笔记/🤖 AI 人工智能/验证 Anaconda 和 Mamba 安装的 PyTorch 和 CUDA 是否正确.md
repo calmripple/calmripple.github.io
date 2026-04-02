@@ -7,7 +7,6 @@ tags:
   - Python
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确
 
@@ -80,4 +79,5 @@ Build cuda_11.6.r11.6/compiler.30794723_0
 >>> import torch.utils.cpp_extension
 >>> torch.utils.cpp_extension.CUDA_HOME
 ```
+
 

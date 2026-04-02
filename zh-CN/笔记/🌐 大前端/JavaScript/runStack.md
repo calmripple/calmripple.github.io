@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 执行上下文栈
 JavaScript 引擎并非一行一行地分析和执行程序，而是一段一段地分析执行。当执行一段代码的时候，会进行一个“准备工作”(执行上下文)
@@ -90,4 +89,5 @@ stack.pop() // f()
 :::tip 参考
 [JavaScript深入之执行上下文栈](https://github.com/mqyqingfeng/Blog/issues/4)
 :::
+
 

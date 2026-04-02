@@ -13,7 +13,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 斐波拉契数列I
 
@@ -58,4 +57,5 @@ function fib(index) {
     return fib(index - 1) + fib(index - 2)
 };
 ```
+
 

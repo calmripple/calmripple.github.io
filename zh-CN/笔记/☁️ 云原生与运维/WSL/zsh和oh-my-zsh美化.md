@@ -13,7 +13,6 @@ tags:
 categories:
   - 云原生与运维
   - WSL
-titleTemplate: ':title | 知在'
 ---
 ## 准备
 - window 11
@@ -172,3 +171,4 @@ p10k configure
           zsh-autosuggestions
           zsh-syntax-highlighting)
   ```
+

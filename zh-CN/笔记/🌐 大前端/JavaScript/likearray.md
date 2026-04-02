@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 类数组与arguments
 ## 类数组
@@ -116,4 +115,5 @@ console.log(foo(1,2)) // 3
 :::tip 参考
 [JavaScript深入之类数组对象与arguments](https://github.com/mqyqingfeng/Blog/issues/14)
 :::
+
 

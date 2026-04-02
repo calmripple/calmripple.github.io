@@ -9,7 +9,6 @@ tags:
 categories:
   - 编程开发
   - 源码分析
-titleTemplate: ':title | 知在'
 ---
 # 源码学习：Vite中加载环境变量（loadEnv）的实现
 
@@ -345,4 +344,5 @@ module.exports = {
 ## 最后
 * 这部分源码还是不复杂，有很多可借鉴的写法
 * 如果自己的node项目需要读取环境变量文件，可以根据此配置做迁移
+
 

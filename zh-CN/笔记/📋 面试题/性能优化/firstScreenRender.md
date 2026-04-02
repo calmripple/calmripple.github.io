@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 如何加快首屏渲染?
 
@@ -33,3 +32,4 @@ titleTemplate: ':title | 知在'
 * css优化
 * 合理的加载顺序
 * 服务端渲染
+

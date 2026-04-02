@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 将任意类型转为Boolean的方案
 
@@ -22,4 +21,5 @@ Boolean(1) // true
 ```js
 !!'' // false
 ```
+
 

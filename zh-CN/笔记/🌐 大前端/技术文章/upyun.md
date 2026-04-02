@@ -6,7 +6,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 使用又拍云极速搭建图床
 
@@ -222,3 +221,4 @@ UPYUN_SCOPE=default
 后续准备提供一个图床的 Docker 镜像，这样部署起来也更加方便。
 
 大家有其它可白嫖的图床也可推荐推荐一下。
+

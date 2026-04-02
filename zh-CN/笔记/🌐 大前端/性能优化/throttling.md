@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 节流与防抖
 
@@ -179,4 +178,5 @@ function throttle(fn, delay) {
     }
 }
 ```
+
 

@@ -9,7 +9,6 @@ tags:
 categories:
   - AI 人工智能
   - 机器学习
-titleTemplate: ':title | 知在'
 ---
 
 # 1 从用 PyTorch 运行一个模型训练开始
@@ -233,3 +232,4 @@ Test set: Average loss: 0.0381, Accuracy: 9869/10000 (99%)
 训练完成之后就能看到 `mnist_cnn.pt` 的模型文件了：
 
 ![](./assets/start-from-running-a-pytorch-example-screenshot-4.png)
+

@@ -10,7 +10,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 
 # 一个简约风的vitepress博客主题
@@ -128,3 +127,4 @@ pnpm dev
 * 主题地址：https://theme.sugarat.top/
 * 主题包：[@sugarat/theme](https://www.npmjs.com/package/@sugarat/theme)
 * 项目地址：https://github.com/ripplejourney/ripplejourney.github.io/tree/master/packages/theme
+

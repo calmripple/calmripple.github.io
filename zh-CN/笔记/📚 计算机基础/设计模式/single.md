@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 设计模式
-titleTemplate: ':title | 知在'
 ---
 # 单例模式
 保证一个类仅有一个实例，并提供一个访问它的全局访问点，这样的模式就叫做单例模式
@@ -285,3 +284,4 @@ document.getElementById('close').addEventListener('click', () => {
   b.hide()
 })
 ```
+

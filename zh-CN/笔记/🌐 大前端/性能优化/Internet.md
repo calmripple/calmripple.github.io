@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 网络层面优化
 
@@ -100,4 +99,5 @@ module.exports = {
 accept-encoding:gzip
 ```
 压缩后通常能帮我们减少响应 70% 左右的大小
+
 

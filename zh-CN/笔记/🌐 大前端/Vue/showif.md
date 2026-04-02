@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # v-show 与 v-if
 
@@ -26,4 +25,5 @@ titleTemplate: ':title | 知在'
 * 条件为 true时渲染出来，并且切换条件时会触发销毁/挂载组件
   * 切换时开销更高
   * 适合不经常切换的场景。
+
 

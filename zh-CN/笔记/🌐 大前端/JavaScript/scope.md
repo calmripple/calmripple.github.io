@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 作用域
 * 作用域指程序源代码中定义变量的区域
@@ -100,4 +99,5 @@ checkscope()();
 :::tip 参考
 [JavaScript深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
 :::
+
 

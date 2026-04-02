@@ -7,7 +7,6 @@ tags:
 categories:
   - AI 人工智能
   - LLM
-titleTemplate: ':title | 知在'
 ---
 # LLM 社区
 
@@ -16,3 +15,4 @@ https://llmops.space/
 
 Discord
 https://discord.com/invite/openai
+

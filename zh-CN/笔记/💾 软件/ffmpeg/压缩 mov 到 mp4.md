@@ -7,7 +7,6 @@ tags:
   - 命令行
 categories:
   - 软件工具
-titleTemplate: ':title | 知在'
 ---
 # 压缩 `.mov` 到 `.mp4`
 
@@ -20,3 +19,4 @@ ffmpeg -i {in-video}.mov -vcodec h264 -acodec aac {out-video}.mp4
 ## 参考资料
 
 - [macos - convert .mov video to .mp4 with ffmpeg - Super User](https://superuser.com/questions/1155186/convert-mov-video-to-mp4-with-ffmpeg)
+

@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # 设计模式-创建型模式
 ## 工厂模式
@@ -435,4 +434,5 @@ Total Cost: 28
 JS创建对象的方式就是原型引用：
 * [模拟new实现](./../../coding/js/myNew.md)
 * [原型与原型链](./../../bigWeb/js/prototype.md)
+
 

@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 向页面注入js实现为图片和文字元素添加透明蒙层
 
@@ -223,4 +222,5 @@ function getAllTextEls() {
 上述方式肯定还有考虑不周到的地方，留给感兴趣的同学继续探索
 
 [完整源码地址](https://github.com/ATQQ/demos/blob/main/test-script/index.js)
+
 

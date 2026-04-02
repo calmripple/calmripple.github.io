@@ -7,7 +7,6 @@ tags:
 categories:
   - 编程开发
   - 源码分析
-titleTemplate: ':title | 知在'
 ---
 # 优秀装饰器源码学习（二）
 
@@ -254,5 +253,6 @@ export default function nonconfigurable(target, key, descriptor) {
 * `@lazyInitialize`：在使用的时候才初始化目标属性
 * `@debounce`：防抖
 * `@throttle`：节流
+
 
 

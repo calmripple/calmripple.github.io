@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 浅拷贝与深拷贝
 
@@ -122,4 +121,5 @@ function deepClone1(obj) {
 #### 3. 手动实现一个较完整的深拷贝
 
 戳→ [实现深拷贝](./../../coding/js/deepClone.md) ←文章
+
 

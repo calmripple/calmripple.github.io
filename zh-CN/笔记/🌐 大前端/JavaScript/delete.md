@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # delete
 delete命令用于删除对象的属性，删除成功后返回true。
@@ -78,4 +77,5 @@ console.log(a.name) // undefined
 :::tip 参考
 [MDN-delete](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/delete)
 :::
+
 

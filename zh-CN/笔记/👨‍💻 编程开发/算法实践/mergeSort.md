@@ -14,7 +14,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 归并排序
 <company value="牛客网,几种常见时间复杂度比较低的排序算法之一"></company>
@@ -81,3 +80,4 @@ function merge(left, right) {
 ```js
 //TODO： ... 未完待续
 ```
+

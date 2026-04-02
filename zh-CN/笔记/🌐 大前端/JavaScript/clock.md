@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 定时器
 ## setTimeout
@@ -94,4 +93,5 @@ mySetInterval(timer => {
     }
 }, 1000)
 ```
+
 

@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - Node.js
-titleTemplate: ':title | 知在'
 ---
 # 译：使用现代的 Node.js 构建简单的CLI工具
 >原文地址： https://evertpot.com/node-changelog-cli-tool/
@@ -322,3 +321,4 @@ ok 1 - /home/evert/src/changelog-tool/test/parse.mjs
 [Github 上的 changelog-tool 项目](https://github.com/evert/changelog-tool)。
 
 *最后一句话确实挺值得思考的，现在好像无论做什么项目，都想先找个模板然后才开始🤔*
+

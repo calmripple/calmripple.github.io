@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 
 # 实现自动扫描工作区npm包并同步cnpm
@@ -135,3 +134,4 @@ function CnpmSync(...names) {
 ---
 
 完整源码见：[GitHub](https://github.com/ATQQ/tools/blob/main/packages/cli/sync-cnpm/README.md)
+

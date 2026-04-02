@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # nvm ls-remote 只有iojs列表
 
@@ -57,3 +56,4 @@ ESC
 ```
 
 ④ 重启终端
+

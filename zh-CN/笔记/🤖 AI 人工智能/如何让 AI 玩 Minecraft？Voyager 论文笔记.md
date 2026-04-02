@@ -6,7 +6,6 @@ tags:
   - 游戏 AI
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # 如何让 AI 玩 Minecraft？
 
@@ -92,3 +91,4 @@ titleTemplate: ':title | 知在'
 ## 数据集
 
 - [MineDojo/MineCLIP: Foundation Model for MineDojo](https://github.com/MineDojo/MineCLIP)
+

@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 性能优化
-titleTemplate: ':title | 知在'
 ---
 # 资源预加载
 某些资源不需要马上用到，但是希望尽早获取，这时候就可以使用预加载。
@@ -30,4 +29,5 @@ titleTemplate: ':title | 知在'
 <img src="xxx.png" style="display:none"/>
 ```
 加载完成后通过js脚本展示
+
 

@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # async 及 await 的特点，它们的优点和缺点分别是什么？await 原理是什么？
 
@@ -22,4 +21,5 @@ titleTemplate: ':title | 知在'
 * 因为await将异步代码变成了同步代码,如果多个异步之间没有关系,会导致性能降低
 ## 原理
 * await 就是 generator 加上 Promise 的语法糖，且内部实现了自动执行 generator
+
 

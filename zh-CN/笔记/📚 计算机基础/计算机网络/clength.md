@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 计算机网络
-titleTemplate: ':title | 知在'
 ---
 # Content-Length
 
@@ -30,4 +29,5 @@ titleTemplate: ':title | 知在'
 :::tip 参考
 [简书:用了这么久HTTP, 你是否了解Content-Length?](https://www.jianshu.com/p/ea12be063b2e)
 :::
+
 

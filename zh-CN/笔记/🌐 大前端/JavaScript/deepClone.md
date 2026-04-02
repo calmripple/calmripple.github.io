@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现深拷贝
 
@@ -379,4 +378,5 @@ fn3(2, 3) // string 5
 更详细的内容大家可以细品一下这篇[文章](https://stackoverflow.com/questions/1833588/javascript-clone-a-function)
 
 关于深拷贝完整实现 可以研究一下 [lodash.cloneDeep](https://www.lodashjs.com/docs/lodash.cloneDeep)，[源码](https://github.com/lodash/lodash/blob/master/.internal/baseClone.js)
+
 

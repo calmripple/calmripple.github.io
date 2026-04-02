@@ -13,7 +13,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 最长公共子序列长度
 
@@ -22,4 +21,5 @@ titleTemplate: ':title | 知在'
 leetCode：给定两个字符串 text1 和 text2，返回这两个字符串的最长公共子序列的长度
 
 TODO：未完待续
+
 

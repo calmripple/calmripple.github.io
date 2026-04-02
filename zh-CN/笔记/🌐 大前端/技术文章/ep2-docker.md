@@ -7,6 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 🚧 搭建 easypicker2 docker 镜像实践
+

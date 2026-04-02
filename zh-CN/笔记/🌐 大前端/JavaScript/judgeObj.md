@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 如何判断变量类型是对象
 >指广义上的对象这里，Array,RegExp,function。。。。等等
@@ -31,4 +30,5 @@ function isObject(obj) {
 其余方案,编写`isObject`函数稍许麻烦
 * constructor
 * Object.prototype.toString.call
+
 

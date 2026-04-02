@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # mixin 与 mixins
 ## mixin
@@ -57,4 +56,5 @@ var Component = Vue.extend({
 new Component().$mount("#app")
 </script>
 ```
+
 

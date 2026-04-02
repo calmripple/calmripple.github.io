@@ -7,7 +7,6 @@ tags:
 categories:
   - 编程开发
   - 源码分析
-titleTemplate: ':title | 知在'
 ---
 # 优秀装饰器源码学习（一）：time
 
@@ -215,4 +214,5 @@ export default function time(prefix: null | string = null, console = defaultCons
 本文主要介绍了测试环境的搭建，跟着源码一起重现了`time`函数
 
 后续文章将直接对源码进行分析与学习
+
 

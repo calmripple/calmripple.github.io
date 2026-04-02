@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - CSS
-titleTemplate: ':title | 知在'
 ---
 # 伪类
 >伪类是添加到选择器的关键字，指定要选择的元素的特殊状态
@@ -36,4 +35,5 @@ selector:pseudo-class {
 <codepen title="pseudo-classes" src="https://codepen.io/sugarInSoup/embed/JjXOgVw?height=310&theme-id=dark&default-tab=css,result"></codepen>
 
 其它更多的伪类 [MDN:CSS伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
+
 

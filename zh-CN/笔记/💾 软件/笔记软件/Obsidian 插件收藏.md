@@ -7,7 +7,6 @@ tags:
   - 知识管理
 categories:
   - 软件工具
-titleTemplate: ':title | 知在'
 ---
 ### 待办事项清单
 
@@ -128,3 +127,4 @@ GitHub 仓库地址： [https://github.com/blacksmithgu/obsidian-dataview](https
 项目名称：lynchjames/obsidian-mind-map
 项目介绍：An Obsidian plugin for displaying markdown notes as mind maps using Markmap.
 GitHub 仓库地址：[https://github.com/lynchjames/obsidian-mind-map](https://github.com/lynchjames/obsidian-mind-map)
+

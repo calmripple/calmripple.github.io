@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # instanceof能正确判断对象的原因是什么
 * 通过原型链进行判断的
@@ -32,4 +31,5 @@ console.log('ss' instanceof myString); // true
 [js类型判断](./../../bigWeb/js/p4.md)<br>
 [原型与原型链](./../../bigWeb/js/prototype.md)
 :::
+
 

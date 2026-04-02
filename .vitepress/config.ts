@@ -178,6 +178,7 @@ export default defineConfig({
     },
   },
   title: siteName,
+  titleTemplate: ':title | 知在',
   description: siteDescription,
   ignoreDeadLinks: true,
   head,

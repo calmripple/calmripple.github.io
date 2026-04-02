@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 
 # 腾讯云Serverless实践-静态网站托管
@@ -390,3 +389,4 @@ git push
 ![图片](./tx-serverless-static/MTYyMTQyNjI3MjYzNg==621426272636.png)
 ## 参考资料
 * [文档:云开发 CloudBase](https://cloud.tencent.com/document/product/876)
+

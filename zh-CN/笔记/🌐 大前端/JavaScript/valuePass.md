@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 参数按值传递
 ## 定义
@@ -62,4 +61,5 @@ console.log(obj) // {a:1}
 * 基本类型按**值传递**
 * 引用类型按**共享传递**
 * 拷贝副本也是一种值的拷贝
+
 

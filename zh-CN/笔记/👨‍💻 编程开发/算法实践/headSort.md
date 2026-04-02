@@ -14,7 +14,6 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 堆排序
 
@@ -29,4 +28,5 @@ titleTemplate: ':title | 知在'
 
 ## 实现
 。。。未完待续
+
 

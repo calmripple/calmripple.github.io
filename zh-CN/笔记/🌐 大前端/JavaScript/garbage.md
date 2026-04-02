@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 垃圾回收机制
 
@@ -121,4 +120,5 @@ a = null
 :::tip 参考
 [前端面试：谈谈 JS 垃圾回收机制](https://segmentfault.com/a/1190000018605776?utm_source=tag-newest#item-1)
 :::
+
 

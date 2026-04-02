@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # Chrome 调试技巧-workspace
 
@@ -20,4 +19,5 @@ titleTemplate: ':title | 知在'
 ## 编辑支持样式同步
 
 ![图片](./chrome-debug6/MTYyMTIyODM3ODQzMQ==621228378431.png)
+
 

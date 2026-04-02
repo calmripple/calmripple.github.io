@@ -13,9 +13,9 @@ tags:
 categories:
   - 编程开发
   - 算法
-titleTemplate: ':title | 知在'
 ---
 # 最长公共子串
 
 TODO：未完待续
+
 

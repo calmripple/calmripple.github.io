@@ -13,7 +13,6 @@ tags:
 categories:
   - 计算机基础
   - 设计模式
-titleTemplate: ':title | 知在'
 ---
 # 简单工厂模式
 将创建对象的过程单独封装
@@ -94,4 +93,5 @@ class Factory {
     }
 }
 ```
+
 

@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 项目模板
-titleTemplate: ':title | 知在'
 ---
 # 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(下)
 
@@ -147,4 +146,5 @@ module.exports = {
 * [uni-vue3-ts：模板仓库](https://github.com/ATQQ/uni-vue3-ts-template)
 * [PostCSS 7 compatibility build](https://tailwindcss.com/docs/installation#post-css-7-compatibility-build)
 * [uni-app 使用 tailwindcss](https://wyz.xyz/d/150-uni-app-tailwindcss)
+
 

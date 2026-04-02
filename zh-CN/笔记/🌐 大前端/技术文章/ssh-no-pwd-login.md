@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 本地配置SSH免密远程登录服务器
 最近服务器从阿里云换到了腾讯云，需要把服务进行一次整体的迁移
@@ -65,4 +64,5 @@ ssh -p22 root@$host "service sshd restart"
 ```sh
 ssh root@$host
 ```
+
 

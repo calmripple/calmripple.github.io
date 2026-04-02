@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 其他
-titleTemplate: ':title | 知在'
 ---
 # 前端工程化
 
@@ -106,3 +105,4 @@ titleTemplate: ':title | 知在'
 :::tip 参考
 [前端工程化的理解](https://www.jianshu.com/p/88ed70476adb)
 :::
+

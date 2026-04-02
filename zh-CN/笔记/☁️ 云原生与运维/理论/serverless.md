@@ -9,7 +9,6 @@ tags:
   - 云原生理论
 categories:
   - 云原生与运维
-titleTemplate: ':title | 知在'
 ---
 # Serverless
 
@@ -160,4 +159,5 @@ Serverless能够让依赖Node服务的前端极大减低成本，开发者只需
 * [什么是 Serverless 架构](https://www.phodal.com/blog/Serverless-architecture-what-is-Serverless-architecture/)
 * [掘金· 分享狼叔关于《大前端工程化的实践与思考》](https://juejin.im/post/6844903887091023885)
 :::
+
 

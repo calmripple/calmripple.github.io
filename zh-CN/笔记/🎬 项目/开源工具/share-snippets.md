@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 助你轻松编写与分享snippet的VsCode插件
 
@@ -126,4 +125,5 @@ titleTemplate: ':title | 知在'
 * 插件目前还没有logo,希望对插件感兴趣的朋友赶紧pr个logo来嘿嘿
 
 >[本文](https://juejin.cn/post/6940258156232736798)正在参与「掘金 2021 春招闯关活动」, 点击查看 [活动详情](https://juejin.cn/post/6939329638506168334)
+
 

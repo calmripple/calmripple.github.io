@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 我打造的在线简历生成应用
 
@@ -1199,4 +1198,5 @@ document.getElementById('page').contentDocument.body.addEventListener('click', f
    3. 美化界面
 4. 加入自动生成代码模板指令
 5. 接入更多的模板
+
 

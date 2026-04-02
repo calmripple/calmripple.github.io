@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # Vite插件开发纪实：vite-plugin-monitor（上）
 
@@ -179,4 +178,5 @@ export default defineConfig({
 [下一篇文章](./vite-plugin-monitor2.md)将详细介绍功能的实现
 
 查看：[仓库源码](https://github.com/ATQQ/vite-plugin-monitor)
+
 

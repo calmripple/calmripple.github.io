@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 工具方法汇总
 >部分内容来源于搜索引擎
@@ -120,4 +119,5 @@ export function copyRes(text) {
 ```
 
 <codepen src="https://codepen.io/sugarInSoup/embed/rNjZzLx?height=265&theme-id=dark&default-tab=js,result"></codepen>
+
 

@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # Chrome 调试技巧-基础
 
@@ -224,4 +223,5 @@ tips: 默认打开Command会有一个 `>` 记得先删除
 ![图片](./chrome-debug1/MTYxNzc5ODUyMzQ3Ng==617798523476.png)
 
 这个用来写 **一键评教** 脚本贼方便
+
 

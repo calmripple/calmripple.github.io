@@ -10,7 +10,6 @@ tags:
 categories:
   - AI 人工智能
   - MarsCode
-titleTemplate: ':title | 知在'
 ---
 # 使用豆包 MarsCode IDE 搭建 VitePress博客并使用 GitHub 部署
 
@@ -195,3 +194,4 @@ git push
 再次访问页面就是新的内容了。
 
 ![](https://cdn.upyun.sugarat.top/mdImg/sugar/c37c9ca0f405eb1d0646a4753e37bbfc)
+

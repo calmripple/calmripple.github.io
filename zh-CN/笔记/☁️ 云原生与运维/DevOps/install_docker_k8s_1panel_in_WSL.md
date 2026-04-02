@@ -16,7 +16,6 @@ tags:
 categories:
   - 云原生与运维
   - DevOps
-titleTemplate: ':title | 知在'
 ---
 # wsl中安装docker 1panel k8s
 
@@ -202,3 +201,4 @@ service docker restart
 # 安装1panel
 bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)"
 ```
+

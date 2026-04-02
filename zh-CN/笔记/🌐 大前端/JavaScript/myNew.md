@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现一下new
 ## new命令原理
@@ -139,3 +138,4 @@ a1.__proto__ === a2.__proto__ // true
 :::tip 参考
 [网道JavaScript-new 命令的原理](https://wangdoc.com/javascript/oop/new.html#new-%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8E%9F%E7%90%86)
 :::
+

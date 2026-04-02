@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - Bun
-titleTemplate: ':title | 知在'
 ---
 
 # 译：使用 Bun 执行 Shell 脚本
@@ -237,3 +236,4 @@ bun test.ts
 [运行结果](https://app.warp.dev/block/VLbnk6T4x6rCSVZT2uwWs7) 如下
 
 ![](./bun-shell/1ad4e2f3727b32803ee4ce3b458ee21f.png)
+

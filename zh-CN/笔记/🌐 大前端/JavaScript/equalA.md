@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 如何实现变量a同时等于多个值
 
@@ -53,5 +52,6 @@ let a = {
     }
 }
 ```
+
 
 

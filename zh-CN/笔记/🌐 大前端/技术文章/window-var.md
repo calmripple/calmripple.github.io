@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 优雅的处理挂载window上的函数可能不存在的情况
 
@@ -165,3 +164,4 @@ function patchWindowFun(
 目前的方法实现仅适用于，**调用的方法相对独立**不影响正常的交互
 
 如果业务代码依赖方法的返回值，那么异步通过`script`加载的方法方式将不太适用
+

@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # JavaScript中的类型转换规则
 先上两张有趣的网图:
@@ -373,4 +372,5 @@ false - []
 
 [freeCodeCamp-Javascript 隐式类型转换，一篇就够了](https://chinese.freecodecamp.org/news/javascript-implicit-type-conversion/)
 :::
+
 

@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # Chrome 调试技巧-Elements
 
@@ -42,4 +41,5 @@ Ctrl+方向键
 ![图片](./chrome-debug4/MTYyMTIyMDUzMTI1Mw==621220531253.png)
 
 通过文字的color属性打开的面板可以看到字体颜色与背景色的对比度评分
+
 

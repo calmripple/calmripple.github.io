@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # 响应式的基本原理
 Vue3.0 中将会通过 Proxy 来替换原本的 Object.defineProperty 来实现数据响应式
@@ -488,4 +487,5 @@ delete rData.name
 [阮一峰:ECMAScript 6 入门](https://es6.ruanyifeng.com/#docs/proxy#Proxy-%E5%AE%9E%E4%BE%8B%E7%9A%84%E6%96%B9%E6%B3%95)
 [vue-next:reactive.ts](https://github.com/vuejs/vue-next/blob/master/packages/reactivity/src/reactive.ts)
 :::
+
 

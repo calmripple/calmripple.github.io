@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # Promise 的特点是什么，分别有什么优缺点？什么是 Promise 链？Promise 构造函数执行和 then 函数执行有什么区别？
 
@@ -36,4 +35,5 @@ titleTemplate: ':title | 知在'
 ## Promise 构造函数执行和 then 函数执行有什么区别
 * 构造 Promise 的时候，构造函数内部的代码是立即执行的
 * then函数在promise.resolve()执行后执行
+
 

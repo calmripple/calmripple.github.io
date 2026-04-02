@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # Node中require与fs.readFile读取JSON文件的对比
 
@@ -117,4 +116,5 @@ console.log(d2); // { name: 'xm' }
 本文内容比较精简，对于兼职学Node的同学可能会漏掉此部分知识
 
 后续将继续更新`时间管理工具`的实践内容
+
 

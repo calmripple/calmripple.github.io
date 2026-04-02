@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - CSS
-titleTemplate: ':title | 知在'
 ---
 # 盒模型
 浏览器展现一个元素时，这个元素会占据一定的空间,这个元素可以看做是一个盒子，封装周围的HTML元素。这个空间由四部分组成。
@@ -68,3 +67,4 @@ html{
     box-sizing:inherit;
 }
 ```
+

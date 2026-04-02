@@ -6,7 +6,6 @@ description: 记录分享在小程序中使用 lottie 播放AE动画的方法，
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 小程序中使用 lottie 动画 | 踩坑经验分享
 
@@ -383,3 +382,4 @@ vconsole 打印结果如下：
 `demo` 完整源码见 [GitHub：lottie-demo](https://github.com/ATQQ/demos/tree/main/miniprogram/lottie-demo)
 
 ![](./mini-lottie/c5a59914529f4b50a969ec7f1caadc36.png)
+

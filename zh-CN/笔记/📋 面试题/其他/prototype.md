@@ -10,7 +10,6 @@ tags:
 categories:
   - 面试题
   - 其他
-titleTemplate: ':title | 知在'
 ---
 # 如何理解原型？如何理解原型链？
 ## 原型
@@ -33,3 +32,4 @@ titleTemplate: ':title | 知在'
 [冴羽:JavaScript深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)<br/>
 [KieSun:深度解析原型中的各个难点](https://github.com/KieSun/Dream/issues/2)
 :::
+

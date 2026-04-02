@@ -10,7 +10,6 @@ tags:
 categories:
   - 大前端
   - Node.js
-titleTemplate: ':title | 知在'
 ---
 # 使用TS封装操作MongoDB数据库的工具方法
 ## 前言
@@ -173,4 +172,5 @@ function deleteUser(userId: number) {
 
 ## 最后
 完整源码地址移步[这里](https://github.com/ATQQ/node-server/blob/master/src/lib/dbConnect/mongodb.ts)
+
 

@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - Vue
-titleTemplate: ':title | 知在'
 ---
 # 路由原理
 * hash模式
@@ -39,4 +38,5 @@ history采用HTML5的新特性,且提供了两个新方法:`pushState()`,`replac
 [简书:vue路由的实现原理](https://www.jianshu.com/p/f660804d8592)<br>
 [简书:vue路由的两种模式，hash与history原理](https://www.jianshu.com/p/e8bffc26293f)
 :::
+
 

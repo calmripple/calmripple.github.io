@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - 浏览器
-titleTemplate: ':title | 知在'
 ---
 # 本地存储
 在目前的现代浏览器中主要有以下几种存储方案
@@ -191,3 +190,4 @@ window.localStorage.getItem()
 * [Chrome Platform Status](https://www.chromestatus.com/feature/5088147346030592)
 * [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 :::
+

@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 原型与原型链
 
@@ -118,4 +117,5 @@ console.log(Object.prototype.__proto__ === null) // true
 :::tip 参考
 [JavaScript深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
 :::
+
 

@@ -5,7 +5,6 @@ tags:
   - PyTorch
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度
 
@@ -500,3 +499,4 @@ spec:
 
 - [Pytorch Lightning 和 HuggingFace 的 Trainer 哪个好用？ - 知乎](https://www.zhihu.com/question/521501258)
 - [Tensorboard incorrect logging with DataParallel training · Issue #9839 · Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning/issues/9839)
+

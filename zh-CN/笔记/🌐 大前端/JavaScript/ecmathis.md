@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # ECMAScript规范解读this(未完待续)
 >ECMAScript 的类型分为语言类型和规范类型。
@@ -61,4 +60,5 @@ var barReference = {
 [JavaScript深入之从ECMAScript规范解读this](https://github.com/mqyqingfeng/Blog/issues/7)
 [ ECMAScript 5.1 ](http://yanhaijing.com/es5/#115)
 :::
+
 

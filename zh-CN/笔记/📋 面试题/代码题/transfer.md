@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 代码题
-titleTemplate: ':title | 知在'
 ---
 # 任意进制转换
 ```js
@@ -66,3 +65,4 @@ function tenToOther(num, n) {
 console.log(otherToTen('1001011', 2)) // 75
 console.log(tenToOther('9999', 16)) // 270f
 ```
+

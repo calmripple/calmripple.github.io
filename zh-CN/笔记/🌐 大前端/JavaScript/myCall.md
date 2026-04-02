@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现call
 
@@ -51,3 +50,4 @@ print(1, 2) // undefined 3
 
 print.mycall({ name: 'print' }, 6, 5) // print 11
 ```
+

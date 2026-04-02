@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 【免费】Node.js 入门教程
 掘金小册「Node.js 入门教程」课程地址：[<<Node.js 入门教程>>](https://juejin.cn/book/7304230207953567755) 👍🏻
@@ -47,3 +46,4 @@ titleTemplate: ':title | 知在'
 ---
 
 当下，`JavaScript` 已经成为了前端开发的标配，并且随着 `Node.js` 的出现，`JavaScript` 也逐渐成为了全栈开发的标配，希望本教程能够帮助读者更好地理解和掌握全栈开发所需的 `Node.js` 相关的基础技术，从而更好地完成实际开发工作。
+

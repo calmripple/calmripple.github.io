@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 从0-1实现文件下载CLI工具
 > 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载，侵权必究！
@@ -792,5 +791,6 @@ registerConfigCommand(program,'.efstrc')
 内容有不妥的之处，还请评论区斧正。
 
 CLI完整源码见[GitHub](https://github.com/ATQQ/tools/tree/main/packages/cli/efst)
+
 
 

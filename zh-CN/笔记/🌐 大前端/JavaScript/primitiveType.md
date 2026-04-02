@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 原始类型有哪些
 * ES5
@@ -36,4 +35,5 @@ function compareNum(num1,num2){
 }
 console.log(compareNum(0.1+0.2,0.3)) // true
 ```
+
 

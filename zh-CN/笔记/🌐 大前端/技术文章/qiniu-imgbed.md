@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 使用免费的七牛云OSS(10G)搭建个人的在线图床
 [代码](https://github.com/ATQQ/image-bed-qiniu)已经提前给大伙儿**码好了**(原生三大件，无框架代码),大伙儿只需要注册个七牛云账号,**改4行**代码即可
@@ -175,6 +174,7 @@ function copyRes(text) {
     document.body.removeChild(input);
 }
 ```
+
 
 
 

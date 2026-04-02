@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 闭包调用
 
@@ -41,4 +40,5 @@ console.log(func()); // -> 1
 console.log(func()); // -> 2
 console.log(func()); // -> 3
 ```
+
 

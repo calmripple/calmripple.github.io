@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # Git常用的一些基本操作
 
@@ -279,4 +278,5 @@ git tag
 ```sh
 git push --tag
 ```
+
 

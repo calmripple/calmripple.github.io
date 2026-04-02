@@ -8,7 +8,6 @@ tags:
 categories:
   - 项目
   - 开源工具
-titleTemplate: ':title | 知在'
 ---
 # 一个通过NPM包共(分)享代码块的解决方案
 ## 前言
@@ -109,5 +108,6 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 
 * [插件源码](https://github.com/ATQQ/ShareSnippet)
 * [插件体验](https://marketplace.visualstudio.com/items?itemName=sugar.snippet)
+
 
 

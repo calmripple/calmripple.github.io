@@ -7,7 +7,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用
 
@@ -105,4 +104,5 @@ deepin-wine5 wemeetapp.exe
 ## 参考
 * [Github:zq1997/deepin-wine](https://github.com/zq1997/deepin-wine)
 * [简书:记录完整的在Ubuntu 20.04下使用deepin-wine5安装微信3.0的过程](https://www.jianshu.com/p/6740f6c73033)
+
 

@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - 浏览器
-titleTemplate: ':title | 知在'
 ---
 # 跨域与跨站
 
@@ -750,3 +749,4 @@ targetOrigin值示例:
 * [浏览器同源政策及其规避方法](https://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
 * [前端常见跨域解决方案](https://segmentfault.com/a/1190000011145364)
 * [WebSocket-Node](https://github.com/theturtle32/WebSocket-Node)
+

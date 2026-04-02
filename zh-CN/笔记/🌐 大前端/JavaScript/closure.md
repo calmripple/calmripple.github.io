@@ -12,7 +12,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 闭包
 
@@ -210,4 +209,5 @@ data[0]Context = {
 :::tip 参考
 [JavaScript深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 :::
+
 

@@ -7,7 +7,6 @@ tags:
 categories:
   - 编程开发
   - 源码分析
-titleTemplate: ':title | 知在'
 ---
 # 源码学习：MongoDB-ObjectId生成原理
 
@@ -365,4 +364,5 @@ console.log(new MyObjectId().toHexString());
 * 位运算符虽在开发中用得不多，但很多优秀的库中都有，提醒自己下来还是多熟悉一下，看看能否用在计算场景中，提升计算效率
 
 * TODO：搞一篇位运算的文章，学习一下优秀开源库中的用法
+
 

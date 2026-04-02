@@ -9,7 +9,6 @@ tags:
 categories:
   - 面试题
   - 其他
-titleTemplate: ':title | 知在'
 ---
 # 什么是提升？什么是暂时性死区？var、let 及 const 区别？
 ## 什么是提升？
@@ -27,3 +26,4 @@ titleTemplate: ':title | 知在'
 * var定义变量会提升,let,const不会
 * 同一作用域中var允许重复声明,let,const不可以
 * const 声明必须赋初值,且声明后不能改变
+

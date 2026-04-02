@@ -8,7 +8,6 @@ tags:
   - UI
 categories:
   - 软件工具
-titleTemplate: ':title | 知在'
 ---
 ## Figma
 
@@ -25,3 +24,4 @@ titleTemplate: ':title | 知在'
 ### 学习使用 Figma
 
 [Figma 官方文档中文版](https://www.figma.cool/official-docs)
+

@@ -13,7 +13,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 实现promiseAll
 
@@ -75,4 +74,5 @@ const p3 = createPromise(2000,false)
 PromiseAll([p1, p2, p3]).then(console.log).catch(console.error)
 // [1000,3000,2000]
 ```
+
 

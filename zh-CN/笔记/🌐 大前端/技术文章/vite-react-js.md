@@ -9,7 +9,6 @@ tags:
 categories:
   - 大前端
   - 技术文章
-titleTemplate: ':title | 知在'
 ---
 # 解决Vite-React项目中js使用jsx语法报错的问题
 
@@ -136,4 +135,5 @@ import React,{ useState } from 'react'
 欢迎大家在评论区共享/交流在开发过程中接入Vite时遇到的一些问题与总结的经验
 
 * [源码地址](https://github.com/ATQQ/demos/tree/main/vite-react-js)
+
 

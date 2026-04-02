@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # Symbol 的用法
 
@@ -144,4 +143,5 @@ console.log(u1.name) // xm
 console.log(u1.age) // undefined
 u1.printAge() // 18
 ```
+
 

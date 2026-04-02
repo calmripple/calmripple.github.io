@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # 继承实现
 
@@ -113,4 +112,5 @@ extends(B, A)
 let a = new B('123', 0)
 a.printName() // 123
 ```
+
 

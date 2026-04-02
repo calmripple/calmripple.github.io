@@ -7,7 +7,6 @@ tags:
   - LLM
 categories:
   - AI 人工智能
-titleTemplate: ':title | 知在'
 ---
 # 将 chatGPT 与文档结合
 
@@ -47,3 +46,4 @@ titleTemplate: ':title | 知在'
 [hwchase17/langchain: ⚡ Building applications with LLMs through composability ⚡](https://github.com/hwchase17/langchain)
 
 [asg017/sqlite-vss: A SQLite extension for efficient vector search, based on Faiss!](https://github.com/asg017/sqlite-vss)
+

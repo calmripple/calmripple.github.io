@@ -8,7 +8,6 @@ tags:
 categories:
   - 大前端
   - 调试与进阶
-titleTemplate: ':title | 知在'
 ---
 # Chrome 调试技巧-Console
 
@@ -150,4 +149,5 @@ console.log("%cred%cblue","color:red;","color:blue")
 ![](./chrome-debug2/live-expression.gif?s1=https%3A//wingman-1300536089.file.myqcloud.com//chrome/C03/live-expression.gif)
 
 ![图片](./chrome-debug2/MTYxNzgwNDAwMjcyMg==617804002722.png)
+
 

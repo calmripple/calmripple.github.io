@@ -11,7 +11,6 @@ tags:
 categories:
   - 大前端
   - JavaScript
-titleTemplate: ':title | 知在'
 ---
 # apply,call,bind 的异同
 
@@ -134,4 +133,5 @@ Function.prototype.mybind = function (thisArg) {
 
 test.mybind('123', 4, 5)() // [String: '123'] 9
 ```
+
 
