@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: keep-alive
- step: 7
+  title: keep-alive
+  step: 7
 isTimeLine: true
 title: keep-alive
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # keep-alive
 

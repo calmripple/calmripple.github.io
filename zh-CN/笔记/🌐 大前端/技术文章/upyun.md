@@ -1,5 +1,12 @@
 ---
 description: 分享一下又拍云的简单用法，以及使用它搭建图床。
+tags:
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 使用又拍云极速搭建图床
 

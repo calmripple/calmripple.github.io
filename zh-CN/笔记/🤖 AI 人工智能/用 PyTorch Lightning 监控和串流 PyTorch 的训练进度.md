@@ -1,19 +1,11 @@
 ---
 tags:
   - AI
-  - 开发/云原生/Kubernetes
-  - 开发/Python/Notebook
-  - 开发/Python/PyTorch
-  - 开发/Python/PyTorchLightning
-  - AI/PyTorch
-  - AI/训练
-  - AI/Tensorflow
-  - AI/TensorBoard
-  - 开发/Python/TensorBoard
-  - 开发/Python/HuggingFace
-  - AI/Trainer
-  - AI/HuggingFace
-  - AI/数据集/MNIST
+  - 人工智能
+  - PyTorch
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度
 

@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: 为什么要使用模块化？有哪几种方式可以实现模块化，各有什么特点？
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 为什么要使用模块化？有哪几种方式可以实现模块化，各有什么特点？
 ## 为什么要使用模块化？

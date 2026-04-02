@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: CDN的缓存与回源机制
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - 性能优化
+  - 前端
+  - 性能优化
+  - 前端工程
 categories:
- - 大前端
+  - 大前端
+  - 性能优化
+titleTemplate: ':title | 知在'
 ---
 # CDN的缓存与回源机制
 >CDN （Content Delivery Network，即内容分发网络）指的是一组分布在各个地区的服务器。这些服务器存储着数据的副本，因此服务器可以根据哪些服务器与用户距离最近，来满足数据的请求。 CDN 提供快速服务，较少受高流量影响。

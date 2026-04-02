@@ -1,11 +1,13 @@
 ---
 title: 实践：利用ArrayBuffer实现预览指定目录下的所有文件的内容
-date: 2021-06-09
+date: 2021-06-09T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 实践：利用ArrayBuffer实现预览指定目录下的所有文件的内容
 

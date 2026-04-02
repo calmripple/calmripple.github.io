@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 数据状态更新时的差异diff及patch机制
-date: 2020-04-21
+date: 2020-04-21T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 数据状态更新时的差异 diff 及 patch 机制
 

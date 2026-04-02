@@ -1,12 +1,16 @@
 ---
 isTimeLine: true
 title: 浏览器-事件循环机制
-date: 2021-02-02
+date: 2021-02-02T00:00:00.000Z
 tags:
- - 大前端
- - 浏览器
+  - 前端
+  - 浏览器
+  - 渲染原理
+  - 事件循环
 categories:
- - 大前端
+  - 大前端
+  - 浏览器
+titleTemplate: ':title | 知在'
 ---
 # 浏览器中的Event loop
 ## 前言

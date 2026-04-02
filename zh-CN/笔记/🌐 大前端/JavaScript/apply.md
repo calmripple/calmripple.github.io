@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: apply,call,bind
- step: 10
+  title: 'apply,call,bind'
+  step: 10
 isTimeLine: true
-title: apply,call,bind的异同
-date: 2020-04-14
+title: 'apply,call,bind的异同'
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # apply,call,bind 的异同
 

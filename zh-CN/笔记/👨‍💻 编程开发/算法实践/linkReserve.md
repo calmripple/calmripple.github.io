@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 链表--转置
- step: 0
+  title: 链表--转置
+  step: 0
 isTimeLine: true
 title: 单链表转置
-date: 2020-08-02
+date: 2020-08-02T00:00:00.000Z
 tags:
- - 手撕代码
- - 算法与数据结构
+  - 编程
+  - 算法
+  - 数据结构
+  - 编程实践
 categories:
- - 手撕代码
+  - 编程开发
+  - 算法
+titleTemplate: ':title | 知在'
 ---
 # 单链表转置
 

@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 如何加快首屏渲染?
-date: 2020-03-31
+date: 2020-03-31T00:00:00.000Z
 tags:
- - 面试
- - 性能优化
+  - 面试题
+  - 性能优化
+  - 前端
 categories:
- - 面试
+  - 面试题
+  - 性能优化
+titleTemplate: ':title | 知在'
 ---
 # 如何加快首屏渲染?
 

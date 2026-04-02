@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 作用域
- step: 16
+  title: 作用域
+  step: 16
 isTimeLine: true
 title: 作用域
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 作用域
 * 作用域指程序源代码中定义变量的区域

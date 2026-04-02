@@ -1,11 +1,13 @@
 ---
 tags:
   - AI
-  - AI/硬件/GPU/NVIDIA
-  - AI/硬件/GPU/NVIDIA/GPU
-  - 开发/Python/PyTorch
-  - AI/算法/CUDA
-  - 开发/AI/CUDA
+  - 人工智能
+  - PyTorch
+  - Anaconda
+  - Python
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确
 

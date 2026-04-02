@@ -1,11 +1,15 @@
 ---
 title: webpack项目接入Vite的通用方案介绍-草稿
-date: 2021-11-14
+date: 2021-11-14T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
+  - Vite
+  - 构建工具
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # webpack 项目接入Vite的通用方案介绍-草稿
 

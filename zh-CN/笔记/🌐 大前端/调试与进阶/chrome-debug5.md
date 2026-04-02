@@ -1,11 +1,14 @@
 ---
 title: Chrome调试技巧-Drawer
-date: 2021-05-17
+date: 2021-05-17T00:00:00.000Z
 tags:
- - 技术笔记
- - 学习笔记
+  - 前端
+  - 调试
+  - 进阶
 categories:
- - 技术笔记
+  - 大前端
+  - 调试与进阶
+titleTemplate: ':title | 知在'
 ---
 # Chrome 调试技巧-Drawer
 

@@ -1,10 +1,15 @@
 ---
 tags:
-  - AI/大语言模型/GPT
-  - AI/提示词/Prompt
-  - AI/大语言模型/ChatGPT
-  - AI/大语言模型/ChatGPT/自定义指令
-  - 分类/收集箱
+  - AI
+  - 人工智能
+  - 提示工程
+  - LLM
+  - Prompt Engineering
+  - GPT
+categories:
+  - AI 人工智能
+  - 提示工程
+titleTemplate: ':title | 知在'
 ---
 # 终极 ChatGPT 自定义指令
 

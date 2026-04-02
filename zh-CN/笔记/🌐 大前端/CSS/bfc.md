@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: BFC
- step: 9
+  title: BFC
+  step: 9
 isTimeLine: true
 title: BFC
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - CSS
+  - 前端
+  - CSS
+  - 样式布局
+  - 格式化上下文
 categories:
- - 大前端
+  - 大前端
+  - CSS
+titleTemplate: ':title | 知在'
 ---
 # BFC
 

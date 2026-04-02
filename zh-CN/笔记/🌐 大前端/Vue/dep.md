@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: ❤响应式系统的依赖收集追踪原理
- step: 10
+  title: ❤响应式系统的依赖收集追踪原理
+  step: 10
 isTimeLine: true
 title: 响应式系统的依赖收集追踪原理
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 响应式系统的依赖收集追踪原理
 

@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 简单-闭包调用
- step: 8
+  title: 简单-闭包调用
+  step: 8
 isTimeLine: true
 title: 闭包调用
-date: 2020-10-18
+date: 2020-10-18T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
+  - 闭包
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 闭包调用
 

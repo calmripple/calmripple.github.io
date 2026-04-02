@@ -1,8 +1,19 @@
 ---
-outline: [2,3]
+outline:
+  - 2
+  - 3
 description: PostgreSQL 容器启动失败：WSL 配置终极解决方案
-date: 2025-09-011 16:00:00
+date: '2025-09-011 16:00:00'
 tag: AI
+tags:
+  - AI
+  - 人工智能
+  - Dify
+  - AI 工具
+categories:
+  - AI 人工智能
+  - Dify
+titleTemplate: ':title | 知在'
 ---
 
 

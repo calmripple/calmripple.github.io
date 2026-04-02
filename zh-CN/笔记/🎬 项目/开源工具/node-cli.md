@@ -1,11 +1,14 @@
 ---
 title: NodeCLI工具原理解析
-date: 2022-10-17
+date: 2022-10-17T00:00:00.000Z
 tags:
- - 技术笔记
- - 个人作品
+  - 项目实践
+  - 开源
+  - 工具
 categories:
- - 技术笔记
+  - 项目
+  - 开源工具
+titleTemplate: ':title | 知在'
 ---
 # Node CLI工具原理解析
 

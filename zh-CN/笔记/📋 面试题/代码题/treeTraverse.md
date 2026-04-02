@@ -1,12 +1,16 @@
 ---
 isTimeLine: true
 title: 二叉树的遍历
-date: 2020-05-03
+date: 2020-05-03T00:00:00.000Z
 tags:
- - 面试
- - 手撕代码
+  - 面试题
+  - 算法
+  - 代码题
+  - 数据结构
 categories:
- - 面试
+  - 面试题
+  - 代码题
+titleTemplate: ':title | 知在'
 ---
 # 二叉树的遍历
 ## 前序遍历

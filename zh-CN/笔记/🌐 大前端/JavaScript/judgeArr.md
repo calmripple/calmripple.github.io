@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: 如何判断数组
-date: 2020-09-05
+date: 2020-09-05T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 如何判断数组
 ## 1.Array.isArray

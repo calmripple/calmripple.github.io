@@ -1,12 +1,10 @@
 ---
 tags:
-  - 开发/语言/Rust
   - AI
-  - 网站/GitHub
-  - 分类/收集箱
-  - 开源/社区
-  - 开源/库
-  - 开源/软件
+  - 人工智能
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 
 # Rust 社区的 AI 生态

@@ -1,6 +1,14 @@
 ---
 tags:
-  - 艺术/模型/Live2D
+  - AI
+  - 人工智能
+  - Neuro
+  - VTuber
+  - 虚拟主播
+categories:
+  - AI 人工智能
+  - Neuro
+titleTemplate: ':title | 知在'
 ---
 # Live2D 测试模型
 

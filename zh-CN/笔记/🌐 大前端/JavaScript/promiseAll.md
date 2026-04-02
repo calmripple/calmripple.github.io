@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 简单-实现promiseAll
- step: 0
+  title: 简单-实现promiseAll
+  step: 0
 isTimeLine: true
 title: 实现promiseAll
-date: 2020-09-01
+date: 2020-09-01T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
+  - Promise
+  - 异步编程
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 实现promiseAll
 

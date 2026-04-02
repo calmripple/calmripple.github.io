@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 简单-a同时等于多个值
- step: 7
+  title: 简单-a同时等于多个值
+  step: 7
 isTimeLine: true
 title: 如何实现变量a同时等于多个值
-date: 2020-09-11
+date: 2020-09-11T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 如何实现变量a同时等于多个值
 

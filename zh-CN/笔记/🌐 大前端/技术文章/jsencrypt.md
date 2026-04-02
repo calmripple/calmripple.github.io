@@ -1,11 +1,13 @@
 ---
 title: 实践：使用jsencrypt配合axios实现非对称加密传输的数据
-date: 2021-06-08
+date: 2021-06-08T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 实践：使用jsencrypt配合axios实现非对称加密传输的数据
 

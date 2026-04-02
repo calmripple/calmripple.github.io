@@ -1,12 +1,13 @@
 ---
 tags:
-  - 软件/macOS
-  - 命令行/终端
-  - 软件/ffmpeg
-  - 软件/视频编辑
-  - 软件/音频编辑
-  - 软件/视频转码
-  - 软件/音频转码
+  - 软件
+  - 工具
+  - ffmpeg
+  - 音视频
+  - 命令行
+categories:
+  - 软件工具
+titleTemplate: ':title | 知在'
 ---
 # 压缩 `.mov` 到 `.mp4`
 

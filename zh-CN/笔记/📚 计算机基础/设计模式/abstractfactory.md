@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 抽象工厂模式
- step: 1
+  title: 抽象工厂模式
+  step: 1
 isTimeLine: true
 title: 抽象工厂模式
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 设计模式
+  - 计算机基础
+  - 设计模式
+  - OOP
+  - 架构
 categories:
- - 计算机基础
+  - 计算机基础
+  - 设计模式
+titleTemplate: ':title | 知在'
 ---
 # 抽象工厂模式
 围绕一个超级工厂创建其他工厂

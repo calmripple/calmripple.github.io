@@ -1,8 +1,12 @@
 ---
 tags:
   - AI
-  - AI/智能体/Agent
-  - 开源/软件/XAgent
+  - 人工智能
+  - AI Agent
+  - 自主 Agent
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体
 

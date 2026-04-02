@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: v-show 与 v-if
- step: 8
+  title: v-show 与 v-if
+  step: 8
 isTimeLine: true
 title: v-show与v-if
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # v-show 与 v-if
 

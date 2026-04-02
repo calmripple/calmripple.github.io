@@ -1,10 +1,11 @@
 ---
 tags:
   - AI
-  - AI/PyTorch
-  - 开发/Python/PyTorch
-  - 开发/Python/PyTorchLightning
-  - 开发/Python
+  - 人工智能
+  - PyTorch
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # PyTorch Lightning 恢复训练进度
 

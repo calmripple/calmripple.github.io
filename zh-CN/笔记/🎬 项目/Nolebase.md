@@ -1,13 +1,11 @@
 ---
 tags:
-  - 项目/知在
-  - 知识领域/个人知识管理/PKM
-  - 个人知识管理/知识库
-  - 开发/前端/VitePress
-  - 开发/标记语言/Markdown
-  - 软件/Obsidian
-  - 软件/Notion
-  - 开发/Nodejs/Vite
+  - 项目实践
+  - VitePress
+  - 知识库
+categories:
+  - 项目
+titleTemplate: ':title | 知在'
 ---
 
 # 知在

@@ -1,12 +1,14 @@
 ---
-created: 2022-05-02T23:26:50 (UTC +08:00)
-source: https://shartoo.github.io/2016/10/25/SVD-decomponent/
+created: '2022-05-02T23:26:50 (UTC +08:00)'
+source: 'https://shartoo.github.io/2016/10/25/SVD-decomponent/'
 tags:
-  - 数学/线性代数
-  - 数学/高等数学/高数
-  - 计算机科学/算法
-  - AI/机器学习/ML/Machine-Learning
-  - AI/深度学习/DL/Deep-Learning
+  - AI
+  - 人工智能
+  - 机器学习
+categories:
+  - AI 人工智能
+  - 机器学习
+titleTemplate: ':title | 知在'
 ---
 
 # 深度学习基础：SVD奇异值分解及其意义

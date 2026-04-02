@@ -1,15 +1,20 @@
 ---
 sidebar:
- title: 缓存机制
- step: 3
+  title: 缓存机制
+  step: 3
 isTimeLine: true
 title: 浏览器-缓存机制
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - 浏览器
+  - 前端
+  - 浏览器
+  - 渲染原理
+  - 缓存
+  - HTTP
 categories:
- - 大前端
+  - 大前端
+  - 浏览器
+titleTemplate: ':title | 知在'
 ---
 # 缓存机制
 ## 缓存定义

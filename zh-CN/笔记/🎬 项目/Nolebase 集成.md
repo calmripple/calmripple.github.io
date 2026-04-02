@@ -1,7 +1,11 @@
 ---
 tags:
-  - 项目/知在-集成
-  - 项目/知在-集成/知在-Integrations
+  - 项目实践
+  - VitePress
+  - 知识库
+categories:
+  - 项目
+titleTemplate: ':title | 知在'
 ---
 <Translate>
 # 知在 集成

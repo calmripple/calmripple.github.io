@@ -1,15 +1,15 @@
 ---
 tags:
   - AI
-  - 开发/Python/PyTorch
-  - 开发/Python
-  - AI/教程
-  - 操作系统/macOS
-  - 操作系统/Linux
-  - 操作系统/Windows
-  - 软件/Visual-Studio-Code/vscode
-  - 开发/Git
-  - 命令行/git
+  - 人工智能
+  - 机器学习
+  - PyTorch
+  - 深度学习
+  - 教程
+categories:
+  - AI 人工智能
+  - 机器学习
+titleTemplate: ':title | 知在'
 ---
 
 # 1 从用 PyTorch 运行一个模型训练开始

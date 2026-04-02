@@ -1,7 +1,13 @@
 ---
 cover: ./nodejs-getting-started/MTY4NTIwMTQwMTAzNg==685201401036.png
-# top: 1
 sticky: 1000
+tags:
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 【免费】Node.js 入门教程
 掘金小册「Node.js 入门教程」课程地址：[<<Node.js 入门教程>>](https://juejin.cn/book/7304230207953567755) 👍🏻

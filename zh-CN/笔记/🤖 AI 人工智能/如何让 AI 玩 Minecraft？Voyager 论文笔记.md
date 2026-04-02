@@ -1,11 +1,12 @@
 ---
 tags:
   - AI
-  - 游戏/Minecraft
-  - AI/大语言模型/LLM
-  - AI/强化学习/Reinforcement-learning/RL
-  - AI/多模态/Code-as-policies
-  - 笔记/论文
+  - 人工智能
+  - 强化学习
+  - 游戏 AI
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 如何让 AI 玩 Minecraft？
 

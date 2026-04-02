@@ -1,11 +1,16 @@
 ---
 title: 使用TS封装操作MongoDB数据库的工具方法
-date: 2021-05-16
+date: 2021-05-16T00:00:00.000Z
 tags:
- - 大前端
- - node.js
+  - 前端
+  - Node.js
+  - JavaScript
+  - MongoDB
+  - 数据库
 categories:
- - 大前端
+  - 大前端
+  - Node.js
+titleTemplate: ':title | 知在'
 ---
 # 使用TS封装操作MongoDB数据库的工具方法
 ## 前言

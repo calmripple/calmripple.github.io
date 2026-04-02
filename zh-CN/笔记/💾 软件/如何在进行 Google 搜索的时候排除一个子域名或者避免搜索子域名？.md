@@ -1,9 +1,10 @@
 ---
 tags:
-  - 软件/搜索引擎/Google
-  - 软件/技巧
-  - 网站/Google
-  - 开发/搜索
+  - 软件
+  - 工具
+categories:
+  - 软件工具
+titleTemplate: ':title | 知在'
 ---
 # 如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？
 

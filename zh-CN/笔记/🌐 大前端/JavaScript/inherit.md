@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 简单-继承实现
- step: 4
+  title: 简单-继承实现
+  step: 4
 isTimeLine: true
 title: 继承实现
-date: 2020-09-05
+date: 2020-09-05T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 继承实现
 

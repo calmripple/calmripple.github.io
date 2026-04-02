@@ -1,5 +1,14 @@
 ---
-outline: [2,3]
+outline:
+  - 2
+  - 3
+tags:
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # ESM中使用CJS模块特有的变量和方法
 

@@ -1,11 +1,14 @@
 ---
 title: 助你轻松编写与分享snippet的VsCode插件
-date: 2021-03-16
+date: 2021-03-16T00:00:00.000Z
 tags:
- - 技术笔记
- - 个人作品
+  - 项目实践
+  - 开源
+  - 工具
 categories:
- - 技术笔记
+  - 项目
+  - 开源工具
+titleTemplate: ':title | 知在'
 ---
 # 助你轻松编写与分享snippet的VsCode插件
 

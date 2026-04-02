@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: extend API
- step: 4
+  title: extend API
+  step: 4
 isTimeLine: true
 title: extendAP
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # extend API
 扩展组件生成一个构造器，通常会与 $mount 一起使用

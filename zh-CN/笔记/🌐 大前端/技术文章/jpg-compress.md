@@ -1,6 +1,13 @@
 ---
 tag: 技术笔记
 description: 在迭代图床应用时，需要用到图片压缩，在之前分享了使用UPNG.js 处理 PNG 图片，这里记录分享一下如何处理JPG图片，并附上完整 Demo。
+tags:
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 
 # 纯前端实现 JPG 图片压缩 | canvas

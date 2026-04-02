@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 盒模型
- step: 6
+  title: 盒模型
+  step: 6
 isTimeLine: true
 title: 盒模型
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - CSS
+  - 前端
+  - CSS
+  - 样式布局
 categories:
- - 大前端
+  - 大前端
+  - CSS
+titleTemplate: ':title | 知在'
 ---
 # 盒模型
 浏览器展现一个元素时，这个元素会占据一定的空间,这个元素可以看做是一个盒子，封装周围的HTML元素。这个空间由四部分组成。

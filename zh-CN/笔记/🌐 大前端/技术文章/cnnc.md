@@ -1,9 +1,18 @@
 ---
-outline: [2,3]
+outline:
+  - 2
+  - 3
 description: 批量且自动的做cnpm的同步，如果你是一个多npm包的项目，那么这个工具非常适合你
 tag:
- - CLI
- - 技术笔记
+  - CLI
+  - 技术笔记
+tags:
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 
 # 实现自动扫描工作区npm包并同步cnpm

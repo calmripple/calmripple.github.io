@@ -1,11 +1,15 @@
 ---
 title: 源码学习：Vite中加载环境变量（loadEnv）的实现
-date: 2021-06-21
+date: 2021-06-21T00:00:00.000Z
 tags:
- - 技术笔记
- - 源码学习
+  - 编程
+  - 源码分析
+  - Vite
+  - 构建工具
 categories:
- - 技术笔记
+  - 编程开发
+  - 源码分析
+titleTemplate: ':title | 知在'
 ---
 # 源码学习：Vite中加载环境变量（loadEnv）的实现
 

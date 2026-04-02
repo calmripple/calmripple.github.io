@@ -1,13 +1,10 @@
 ---
 tags:
   - AI
-  - AI/大语言模型/Diffusion/StableDiffusion
-  - 索引/资源列表
-  - 分类/收集箱
-  - AI/绘画/工具/ComfyUI/插件/AnimateDiff
-  - AI/绘画
-  - AI/视频
-  - AI/AIGC
+  - 人工智能
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # AI 视频工作流工具和相关 SOTA
 

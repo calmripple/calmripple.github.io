@@ -1,6 +1,15 @@
 ---
 tag:
- - 技术笔记
+  - 技术笔记
+tags:
+  - 前端
+  - 调试
+  - 进阶
+  - HTTP
+categories:
+  - 大前端
+  - 调试与进阶
+titleTemplate: ':title | 知在'
 ---
 
 # 使用http-proxy-agent出现ECONNRESET error

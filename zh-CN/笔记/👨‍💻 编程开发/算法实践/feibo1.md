@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 简单--斐波拉契数列1
- step: 9
+  title: 简单--斐波拉契数列1
+  step: 9
 isTimeLine: true
 title: 斐波拉契数列
-date: 2020-10-02
+date: 2020-10-02T00:00:00.000Z
 tags:
- - 手撕代码
- - 算法与数据结构
+  - 编程
+  - 算法
+  - 数据结构
+  - 编程实践
 categories:
- - 手撕代码
+  - 编程开发
+  - 算法
+titleTemplate: ':title | 知在'
 ---
 # 斐波拉契数列I
 

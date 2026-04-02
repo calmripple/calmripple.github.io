@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 闭包
- step: 6
+  title: 闭包
+  step: 6
 isTimeLine: true
 title: 闭包
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
+  - 闭包
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 闭包
 

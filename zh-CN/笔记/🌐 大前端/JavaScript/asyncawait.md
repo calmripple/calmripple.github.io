@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: async及await的特点，它们的优点和缺点分别是什么？await原理是什么？
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
+  - 异步编程
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # async 及 await 的特点，它们的优点和缺点分别是什么？await 原理是什么？
 

@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 弹性布局
- step: 7
+  title: 弹性布局
+  step: 7
 isTimeLine: true
 title: 弹性布局
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - CSS
+  - 前端
+  - CSS
+  - 样式布局
+  - Flexbox
 categories:
- - 大前端
+  - 大前端
+  - CSS
+titleTemplate: ':title | 知在'
 ---
 # 弹性布局
 flex布局是css3中的新布局模块,为盒模型提供了最大的灵活性,可以改进容器中的项目对齐,方向和顺序,flex可以自动调节子元素的高度或者宽度

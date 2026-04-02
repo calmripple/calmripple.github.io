@@ -1,13 +1,13 @@
 ---
 tags:
   - AI
-  - AI/大语言模型/LLM
-  - AI/大语言模型/GPT4
-  - AI/大语言模型/Llama/Llama2
-  - AI/大语言模型/Llama/Llama3
-  - 分类/收集箱
-  - 网站/工具
-  - 网站/工具/索引
+  - 人工智能
+  - LLM
+  - 大语言模型
+categories:
+  - AI 人工智能
+  - LLM
+titleTemplate: ':title | 知在'
 ---
 # LLM 天梯榜
 

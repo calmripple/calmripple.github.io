@@ -1,11 +1,14 @@
 ---
 title: 腾讯云Serverless实践-Node.js服务部署
-date: 2021-06-16
+date: 2021-06-16T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
+  - Serverless
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 腾讯云Serverless实践-Node.js服务部署
 

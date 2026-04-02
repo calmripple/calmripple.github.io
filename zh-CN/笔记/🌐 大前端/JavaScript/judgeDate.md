@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 中等-判断两个日期是否同一周
- step: 10
+  title: 中等-判断两个日期是否同一周
+  step: 10
 isTimeLine: true
 title: 判断两个时间是否在同一周
-date: 2021-06-12
+date: 2021-06-12T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 判断两个时间是否在同一周
 

@@ -1,11 +1,10 @@
 ---
 tags:
-  - AI/硬件/GPU/NVIDIA
-  - AI/硬件/GPU/NVIDIA/GPU
   - AI
-  - 索引
-  - 索引/资源列表
-  - 分类/收集箱
+  - 人工智能
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # NVIDIA 生态
 

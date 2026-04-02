@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 响应式基本原理
- step: 0
+  title: 响应式基本原理
+  step: 0
 isTimeLine: true
 title: 响应式的基本原理
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 响应式的基本原理
 Vue3.0 中将会通过 Proxy 来替换原本的 Object.defineProperty 来实现数据响应式

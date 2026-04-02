@@ -1,11 +1,13 @@
 ---
 title: 小技巧：for of中获取index
-date: 2022-01-17
+date: 2022-01-17T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 小技巧：for of中获取index
 

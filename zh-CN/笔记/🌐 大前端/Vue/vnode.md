@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: ❤VNode实现
- step: 11
+  title: ❤VNode实现
+  step: 11
 isTimeLine: true
 title: 实现VNode节点
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 实现 VNode 节点
 ## VNode?

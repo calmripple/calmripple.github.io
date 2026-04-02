@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 线程
- step: 1
+  title: 线程
+  step: 1
 isTimeLine: true
 title: 线程
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 操作系统
+  - 计算机基础
+  - 操作系统
+  - 进程
+  - 线程
 categories:
- - 计算机基础
+  - 计算机基础
+  - 操作系统
+titleTemplate: ':title | 知在'
 ---
 # 线程
 >线程是进程内的一个执行单元，是比进程更小的能独立运行的基本单位

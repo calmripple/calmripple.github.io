@@ -1,11 +1,14 @@
 ---
 title: 实现一个幽灵依赖扫描工具
-date: 2022-05-15
+date: 2022-05-15T00:00:00.000Z
 tags:
- - 大前端
- - node.js
+  - 前端
+  - Node.js
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Node.js
+titleTemplate: ':title | 知在'
 ---
 # 实现一个幽灵依赖扫描工具
 

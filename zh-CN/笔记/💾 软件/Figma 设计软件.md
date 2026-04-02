@@ -1,5 +1,14 @@
 ---
 status: 尚未完成
+tags:
+  - 软件
+  - 工具
+  - Figma
+  - 设计
+  - UI
+categories:
+  - 软件工具
+titleTemplate: ':title | 知在'
 ---
 ## Figma
 

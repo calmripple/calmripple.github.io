@@ -1,22 +1,19 @@
 ---
 title: 在提交pr请求后自动部署preview github pages
-date: 2024-06-18
+date: 2024-06-18T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
- - github
- - actions
- - deploy
- - preview
+  - 前端
+  - 技术笔记
+  - GitHub Pages
+  - 部署
+  - 预览
 categories:
- - github
- - actions
- - deploy
- - preview
-created: 2024-06-18T20:04:04 (UTC +08:00)
-
-source:
+  - 大前端
+  - 技术文章
+created: '2024-06-18T20:04:04 (UTC +08:00)'
+source: null
 author: EndBug
+titleTemplate: ':title | 知在'
 ---
 # 在提交pr请求后自动部署preview github pages
 

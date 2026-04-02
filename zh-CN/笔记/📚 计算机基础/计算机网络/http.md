@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: HTTP协议
- step: 3
+  title: HTTP协议
+  step: 3
 isTimeLine: true
 title: http协议
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 计算机网络
+  - 计算机基础
+  - 计算机网络
+  - HTTP
+  - TCP/IP
 categories:
- - 计算机基础
+  - 计算机基础
+  - 计算机网络
+titleTemplate: ':title | 知在'
 ---
 # http协议
 > 超文本传输协议(HyperText Transfer Protocol）),基于TCP实现的应用层协议

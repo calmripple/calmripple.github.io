@@ -1,9 +1,14 @@
 ---
 tags:
-  - AI/大语言模型/GPT
-  - AI/提示词/Prompt
-  - AI/企业/OpenAI
-  - AI/提示词/Prompt/特殊角色扮演
+  - AI
+  - 人工智能
+  - 提示工程
+  - LLM
+  - Prompt Engineering
+categories:
+  - AI 人工智能
+  - 提示工程
+titleTemplate: ':title | 知在'
 ---
 
 # 嘴臭锐评 Prompt

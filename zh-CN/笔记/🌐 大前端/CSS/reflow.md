@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 回流与重绘
- step: 5
+  title: 回流与重绘
+  step: 5
 isTimeLine: true
 title: 回流与重绘
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - CSS
+  - 前端
+  - CSS
+  - 样式布局
 categories:
- - 大前端
+  - 大前端
+  - CSS
+titleTemplate: ':title | 知在'
 ---
 # 回流与重绘
 

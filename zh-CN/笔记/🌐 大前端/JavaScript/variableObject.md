@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 变量对象
- step: 18
+  title: 变量对象
+  step: 18
 isTimeLine: true
 title: 变量对象
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 变量对象
 每个执行上下文，都有三个重要属性：

@@ -1,12 +1,18 @@
 ---
 isTimeLine: true
 title: 浏览器-跨域与跨站
-date: 2020-12-19
+date: 2020-12-19T00:00:00.000Z
 tags:
- - 大前端
- - 浏览器
+  - 前端
+  - 浏览器
+  - 渲染原理
+  - CORS
+  - 浏览器安全
+  - 跨域
 categories:
- - 大前端
+  - 大前端
+  - 浏览器
+titleTemplate: ':title | 知在'
 ---
 # 跨域与跨站
 

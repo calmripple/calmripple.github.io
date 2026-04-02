@@ -1,7 +1,13 @@
 ---
 tags:
-  - 软件/Obsidian/插件
-  - 软件/Obsidian
+  - 软件
+  - 工具
+  - 笔记软件
+  - Obsidian
+  - 知识管理
+categories:
+  - 软件工具
+titleTemplate: ':title | 知在'
 ---
 ### 待办事项清单
 

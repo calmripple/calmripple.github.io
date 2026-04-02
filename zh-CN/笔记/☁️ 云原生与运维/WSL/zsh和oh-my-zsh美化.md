@@ -1,8 +1,19 @@
 ---
-sidebar: false
-date: 2025-10-28 20:00:00
+sidebar: true
+date: 2025-10-28T20:00:00.000Z
 title: zsh和oh-my-zsh美化
 tag: cloud
+tags:
+  - 云原生
+  - 运维
+  - WSL
+  - Linux
+  - Zsh
+  - 终端美化
+categories:
+  - 云原生与运维
+  - WSL
+titleTemplate: ':title | 知在'
 ---
 ## 准备
 - window 11

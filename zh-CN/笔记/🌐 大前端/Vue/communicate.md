@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 组件通信
- step: 3
+  title: 组件通信
+  step: 3
 isTimeLine: true
 title: 组件通信
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 组件通信
 ## 父子通信

@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 进程与线程的区别
- step: 2
+  title: 进程与线程的区别
+  step: 2
 isTimeLine: true
 title: 进程与线程的区别
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 操作系统
+  - 计算机基础
+  - 操作系统
+  - 进程
+  - 线程
 categories:
- - 计算机基础
+  - 计算机基础
+  - 操作系统
+titleTemplate: ':title | 知在'
 ---
 # 进程与线程的区别
 ## 定义

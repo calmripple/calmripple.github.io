@@ -1,8 +1,21 @@
 ---
 sidebar: true
-date: 2025-10-28 20:00:00
+date: 2025-10-28T20:00:00.000Z
 title: zsh和oh-my-zsh美化
 tag: cloud
+tags:
+  - 云原生
+  - 运维
+  - DevOps
+  - CI/CD
+  - 部署
+  - Zsh
+  - 终端美化
+  - Linux
+categories:
+  - 云原生与运维
+  - DevOps
+titleTemplate: ':title | 知在'
 ---
 ## 准备
 > 安装wsl以及Ubuntu请参考 [wsl中安装docker 1panel k8s](./install_docker_k8s_1panel_in_WSL)

@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 网络层面优化
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - 性能优化
+  - 前端
+  - 性能优化
+  - 前端工程
 categories:
- - 大前端
+  - 大前端
+  - 性能优化
+titleTemplate: ':title | 知在'
 ---
 # 网络层面优化
 

@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: blob与file
- step: 11
+  title: blob与file
+  step: 11
 isTimeLine: true
 title: blob与file
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # blob与file
 

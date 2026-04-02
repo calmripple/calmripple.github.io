@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: ES6面试问题
-date: 2020-03-22
+date: 2020-03-22T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # ES6面试问题
 

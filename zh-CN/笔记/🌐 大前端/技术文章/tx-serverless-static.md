@@ -1,11 +1,14 @@
 ---
 title: 腾讯云Serverless实践-静态网站托管
-date: 2021-05-19
+date: 2021-05-19T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
+  - Serverless
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 
 # 腾讯云Serverless实践-静态网站托管

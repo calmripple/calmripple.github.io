@@ -1,11 +1,15 @@
 ---
 title: Vite插件开发纪实：vite-plugin-monitor（中）
-date: 2021-09-27
+date: 2021-09-27T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
+  - Vite
+  - 构建工具
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # Vite插件开发纪实：vite-plugin-monitor（中）
 

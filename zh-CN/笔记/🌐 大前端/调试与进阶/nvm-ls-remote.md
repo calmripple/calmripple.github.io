@@ -1,6 +1,16 @@
 ---
 tag:
- - 技术笔记
+  - 技术笔记
+tags:
+  - 前端
+  - 调试
+  - 进阶
+  - Node.js
+  - 版本管理
+categories:
+  - 大前端
+  - 调试与进阶
+titleTemplate: ':title | 知在'
 ---
 # nvm ls-remote 只有iojs列表
 

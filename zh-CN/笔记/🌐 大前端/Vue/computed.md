@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: computed与watch
- step: 6
+  title: computed与watch
+  step: 6
 isTimeLine: true
 title: computed与watch
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # computed 与 watch
 * ``computed`` 是计算属性，依赖其他属性计算值，并且 computed 的值有缓存，只有当计算值变化才会返回内容。

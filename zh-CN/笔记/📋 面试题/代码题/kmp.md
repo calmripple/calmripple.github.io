@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 模式串匹配
-date: 2020-05-05
+date: 2020-05-05T00:00:00.000Z
 tags:
- - 面试
- - 手撕代码
+  - 面试题
+  - 算法
+  - 代码题
 categories:
- - 面试
+  - 面试题
+  - 代码题
+titleTemplate: ':title | 知在'
 ---
 # 模式串匹配
 

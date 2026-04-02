@@ -1,7 +1,19 @@
 ---
 cover: ./vitepress-plugin-pagefind/MTY3OTgzOTgxMjU3NQ==679839812575.png
 description: Pagefind是基于Rust实现的离线搜索库，检索生成后的HTML页面内容，然后自动构建索引文件，提供搜索使用的API和组件
-outline: [2,3]
+outline:
+  - 2
+  - 3
+tags:
+  - 项目实践
+  - 开源
+  - 工具
+  - Vite
+  - 构建工具
+categories:
+  - 项目
+  - 开源工具
+titleTemplate: ':title | 知在'
 ---
 
 # 使用Pagefind为VitePress文档添加离线全文搜索能力

@@ -2,7 +2,16 @@
 description: 终端启动时总会卡顿一下，没去探究原因，看到咲奈的分享才知道是nvm在作祟
 cover: ./nvm-iterm/MTY3NjE4NTM2MDkyOQ==676185360929.png
 tag:
- - 技术笔记
+  - 技术笔记
+tags:
+  - 前端
+  - Node.js
+  - JavaScript
+  - 版本管理
+categories:
+  - 大前端
+  - Node.js
+titleTemplate: ':title | 知在'
 ---
 
 # 安装nvm后终端启动变慢,更快的Node版本管理工具推荐

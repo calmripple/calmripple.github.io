@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: window.onload与document.ready执行顺序
-date: 2020-05-03
+date: 2020-05-03T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # window.onload与document.ready执行顺序
 

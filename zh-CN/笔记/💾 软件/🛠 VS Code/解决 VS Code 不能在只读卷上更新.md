@@ -1,10 +1,12 @@
 ---
 tags:
-  - 软件/Visual-Studio-Code/vscode
-  - 操作系统/macOS
-  - 命令行/xattr
-  - 命令行/chown
-  - 软件/Visual-Studio-Code
+  - 软件
+  - 工具
+  - VS Code
+  - 编辑器
+categories:
+  - 软件工具
+titleTemplate: ':title | 知在'
 ---
 # 解决 VS Code 不能在只读卷上更新
 

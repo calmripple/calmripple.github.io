@@ -1,9 +1,13 @@
 ---
 tags:
-  - 软件/Obsidian
-  - 知识领域/个人知识管理
-  - 个人知识管理/知识库
-  - 软件/编辑器
+  - 软件
+  - 工具
+  - 笔记软件
+  - Obsidian
+  - 知识管理
+categories:
+  - 软件工具
+titleTemplate: ':title | 知在'
 ---
 # Obsidian
 

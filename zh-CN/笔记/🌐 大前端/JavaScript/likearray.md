@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 类数组与arguments
- step: 23
+  title: 类数组与arguments
+  step: 23
 isTimeLine: true
 title: 类数组与arguments
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 类数组与arguments
 ## 类数组

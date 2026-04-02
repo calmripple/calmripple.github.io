@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 进程
- step: 0
+  title: 进程
+  step: 0
 isTimeLine: true
 title: 进程
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 操作系统
+  - 计算机基础
+  - 操作系统
+  - 进程
+  - 线程
 categories:
- - 计算机基础
+  - 计算机基础
+  - 操作系统
+titleTemplate: ':title | 知在'
 ---
 # 进程
 >系统进行资源分配和调度的一个独立单位。

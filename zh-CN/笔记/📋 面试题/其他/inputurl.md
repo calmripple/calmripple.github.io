@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 在浏览器中输入URL到页面渲染的整个过程
-date: 2020-03-03
+date: 2020-03-03T00:00:00.000Z
 tags:
- - 面试
- - 其它
+  - 面试题
+  - 工程化
+  - 前端基础
 categories:
- - 面试
+  - 面试题
+  - 其他
+titleTemplate: ':title | 知在'
 ---
 # 在浏览器中输入URL到页面渲染的整个过程
 

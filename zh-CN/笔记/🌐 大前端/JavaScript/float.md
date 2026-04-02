@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 浮点数
- step: 24
+  title: 浮点数
+  step: 24
 isTimeLine: true
 title: 浮点数
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 浮点数
 

@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 本地存储
- step: 4
+  title: 本地存储
+  step: 4
 isTimeLine: true
 title: 浏览器-本地存储
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - 浏览器
+  - 前端
+  - 浏览器
+  - 渲染原理
 categories:
- - 大前端
+  - 大前端
+  - 浏览器
+titleTemplate: ':title | 知在'
 ---
 # 本地存储
 在目前的现代浏览器中主要有以下几种存储方案

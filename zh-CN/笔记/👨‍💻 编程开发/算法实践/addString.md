@@ -4,12 +4,16 @@ sidebar:
   step: 6
 isTimeLine: true
 title: 大数相加&数字字符串相加
-date: 2020-09-14
+date: 2020-09-14T00:00:00.000Z
 tags:
-  - 手撕代码
-  - 算法与数据结构
+  - 编程
+  - 算法
+  - 数据结构
+  - 编程实践
 categories:
-  - 手撕代码
+  - 编程开发
+  - 算法
+titleTemplate: ':title | 知在'
 ---
 
 # 大数相加&数字字符串相加

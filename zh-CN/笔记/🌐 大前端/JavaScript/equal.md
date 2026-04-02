@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
-title: ==和===有什么区别
-date: 2020-04-14
+title: '==和===有什么区别'
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # == 和 === 有什么区别
 

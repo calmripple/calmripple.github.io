@@ -1,11 +1,14 @@
 ---
 title: 组装个支持记笔记的CodePen
-date: 2022-08-28
+date: 2022-08-28T00:00:00.000Z
 tags:
- - 技术笔记
- - 个人作品
+  - 项目实践
+  - 开源
+  - 工具
 categories:
- - 技术笔记
+  - 项目
+  - 开源工具
+titleTemplate: ':title | 知在'
 ---
 # 组装个支持记笔记的CodePen
 ## 前言

@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 浅拷贝与深拷贝
- step: 29
+  title: 浅拷贝与深拷贝
+  step: 29
 isTimeLine: true
 title: 浅拷贝与深拷贝
-date: 2020-10-02
+date: 2020-10-02T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 浅拷贝与深拷贝
 

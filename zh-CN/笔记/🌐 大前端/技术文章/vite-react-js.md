@@ -1,11 +1,15 @@
 ---
 title: 解决Vite-React项目中js使用jsx语法报错的问题
-date: 2021-10-12
+date: 2021-10-12T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
+  - Vite
+  - 构建工具
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 解决Vite-React项目中js使用jsx语法报错的问题
 

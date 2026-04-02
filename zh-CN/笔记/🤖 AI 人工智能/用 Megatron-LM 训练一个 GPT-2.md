@@ -1,13 +1,13 @@
 ---
 tags:
   - AI
-  - AI/大语言模型
-  - AI/大语言模型/GPT-2
-  - AI/训练/Megatron-LM
-  - AI/PyTorch
-  - AI/硬件/GPU/NVIDIA/GPU
-  - AI/数据集/OSCAR
-  - AI/算法/CUDA
+  - 人工智能
+  - 大模型训练
+  - LLM
+  - GPT
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 用 Megatron-LM 训练一个 GPT-2
 

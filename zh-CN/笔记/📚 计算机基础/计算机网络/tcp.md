@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: TCP协议
- step: 1
+  title: TCP协议
+  step: 1
 isTimeLine: true
 title: TCP协议
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 计算机网络
+  - 计算机基础
+  - 计算机网络
+  - HTTP
+  - TCP/IP
 categories:
- - 计算机基础
+  - 计算机基础
+  - 计算机网络
+titleTemplate: ':title | 知在'
 ---
 # TCP协议
 

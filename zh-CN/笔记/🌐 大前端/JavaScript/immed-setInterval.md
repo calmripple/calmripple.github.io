@@ -1,14 +1,16 @@
 ---
 sidebar:
- title: 简单-立即执行的定时器
- step: 9
+  title: 简单-立即执行的定时器
+  step: 9
 title: 实现调用就执行一次的定时器
-date: 2021-08-29
+date: 2021-08-29T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 实现调用就执行一次的定时器
 

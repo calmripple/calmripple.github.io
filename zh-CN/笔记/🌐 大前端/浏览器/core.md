@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 内核
- step: 0
+  title: 内核
+  step: 0
 isTimeLine: true
 title: 浏览器-内核
-date: 2020-10-26
+date: 2020-10-26T00:00:00.000Z
 tags:
- - 大前端
- - 浏览器
+  - 前端
+  - 浏览器
+  - 渲染原理
 categories:
- - 大前端
+  - 大前端
+  - 浏览器
+titleTemplate: ':title | 知在'
 ---
 # 内核
 

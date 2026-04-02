@@ -1,17 +1,20 @@
 ---
 title: pnpm install 在github actions中运行的问题
-date: 2024-06-18
+date: 2024-06-18T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
- - github
- - actions
- - pnpm
+  - 前端
+  - 技术笔记
+  - GitHub Actions
+  - CI/CD
+  - 包管理器
+  - Node.js
+  - pnpm
 categories:
- - pnpm
- - 技术笔记
-source:
+  - 大前端
+  - 技术文章
+source: null
 author: jimbo
+titleTemplate: ':title | 知在'
 ---
 # pnpm install 在github actions中运行的问题
 

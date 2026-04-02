@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: 对象类型和原始类型的不同之处
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 对象类型和原始类型的不同之处
 ## 对象

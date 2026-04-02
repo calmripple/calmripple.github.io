@@ -1,6 +1,17 @@
 ---
 sidebar: false
-description: JavaScript 是世界上最流行的脚本语言。那么为什么在 `JavaScript` 中执行 `Shell` 脚本很困难呢？Bun 又是怎么解决这个问题的？
+description: >-
+  JavaScript 是世界上最流行的脚本语言。那么为什么在 `JavaScript` 中执行 `Shell` 脚本很困难呢？Bun
+  又是怎么解决这个问题的？
+tags:
+  - 前端
+  - Bun
+  - JavaScript
+  - 运行时
+categories:
+  - 大前端
+  - Bun
+titleTemplate: ':title | 知在'
 ---
 
 # 译：使用 Bun 执行 Shell 脚本

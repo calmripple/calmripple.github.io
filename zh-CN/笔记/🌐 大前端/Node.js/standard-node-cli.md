@@ -1,6 +1,14 @@
 ---
 sidebar: false
 description: 只使用 Node.js 的标准库，不安装任何外部依赖，写一个命令行工具
+tags:
+  - 前端
+  - Node.js
+  - JavaScript
+categories:
+  - 大前端
+  - Node.js
+titleTemplate: ':title | 知在'
 ---
 # 译：使用现代的 Node.js 构建简单的CLI工具
 >原文地址： https://evertpot.com/node-changelog-cli-tool/

@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: ES6+的新语法糖和方法整理
- step: 30
+  title: ES6+的新语法糖和方法整理
+  step: 30
 isTimeLine: true
 title: ES6+的一些新语法糖和方法整理
-date: 2021-10-13
+date: 2021-10-13T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # ES6+的一些新语法糖和方法整理
 **只列举了比较实用的而又鲜为人知的一些，并不绝对全面**

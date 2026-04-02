@@ -1,12 +1,16 @@
 ---
 isTimeLine: true
 title: 与传统移动web的异同
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 面试
- - 小程序
+  - 面试题
+  - 小程序
+  - 微信
+  - 前端
 categories:
- - 面试
+  - 面试题
+  - 小程序
+titleTemplate: ':title | 知在'
 ---
 # 与传统移动web的异同
 ## 相似

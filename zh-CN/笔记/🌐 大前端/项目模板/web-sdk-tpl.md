@@ -1,11 +1,14 @@
 ---
 title: 模板工程搭建：Web-SDK/Library
-date: 2021-10-05
+date: 2021-10-05T00:00:00.000Z
 tags:
- - 技术笔记
- - 工程模板
+  - 前端
+  - 项目模板
+  - 工程化
 categories:
- - 技术笔记
+  - 大前端
+  - 项目模板
+titleTemplate: ':title | 知在'
 ---
 # 模板工程搭建：Web-SDK/Library
 

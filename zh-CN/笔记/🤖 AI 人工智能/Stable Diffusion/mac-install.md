@@ -1,9 +1,22 @@
 ---
-outline: [2,3]
+outline:
+  - 2
+  - 3
 description: Mac 实操安装 stable-diffusion，包含环境配置，sd插件安装，模型安装等内容
-cover: https://img.cdn.sugarat.top/mdImg/MTY4ODMwOTEzMzUzNA==688309133534
-date: 2023-07-02 23:26:00
+cover: 'https://img.cdn.sugarat.top/mdImg/MTY4ODMwOTEzMzUzNA==688309133534'
+date: 2023-07-02T23:26:00.000Z
 tag: AI
+tags:
+  - AI
+  - 人工智能
+  - Stable Diffusion
+  - AIGC
+  - 图像生成
+  - 文生图
+categories:
+  - AI 人工智能
+  - Stable Diffusion
+titleTemplate: ':title | 知在'
 ---
 # Mac 安装 stable-diffusion
 

@@ -1,6 +1,15 @@
 ---
-date: 2024-02-27 13:51:00
+date: 2024-02-27T13:51:00.000Z
 tag: AI
+tags:
+  - AI
+  - 人工智能
+  - Coze
+  - AI 工具
+categories:
+  - AI 人工智能
+  - Coze
+titleTemplate: ':title | 知在'
 ---
 # 我如何使用Coze来分析掘金热榜数据 | Coze插件开发
 

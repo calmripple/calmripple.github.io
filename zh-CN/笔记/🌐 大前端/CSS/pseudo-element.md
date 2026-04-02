@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 伪元素
- step: 0
+  title: 伪元素
+  step: 0
 isTimeLine: true
 title: 伪元素
-date: 2020-09-05
+date: 2020-09-05T00:00:00.000Z
 tags:
- - 大前端
- - CSS
+  - 前端
+  - CSS
+  - 样式布局
 categories:
- - 大前端
+  - 大前端
+  - CSS
+titleTemplate: ':title | 知在'
 ---
 # 伪元素
 >伪元素是一个附加至选择器末的关键词，允许你对被选择元素的特定部分修改样式

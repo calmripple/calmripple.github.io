@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 进程和线程怎么通信
- step: 3
+  title: 进程和线程怎么通信
+  step: 3
 isTimeLine: true
 title: 进程和线程怎么通信
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 操作系统
+  - 计算机基础
+  - 操作系统
+  - 进程
+  - 线程
 categories:
- - 计算机基础
+  - 计算机基础
+  - 操作系统
+titleTemplate: ':title | 知在'
 ---
 # 进程和线程怎么通信
 ## 进程

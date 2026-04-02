@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 前端工程化
-date: 2020-03-02
+date: 2020-03-02T00:00:00.000Z
 tags:
- - 面试
- - 其它
+  - 面试题
+  - 工程化
+  - 前端基础
 categories:
- - 面试
+  - 面试题
+  - 其他
+titleTemplate: ':title | 知在'
 ---
 # 前端工程化
 

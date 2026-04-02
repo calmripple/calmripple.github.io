@@ -1,6 +1,19 @@
 ---
-outline: [2,3]
-description: 使用 VitePress 作为个人博客的站点越来越多，RSS支持也是博客上的一个功能点，方便读者订阅，本文将介绍如何通过Vite 插件为 VitePress 站点一键添加RSS支持
+outline:
+  - 2
+  - 3
+description: >-
+  使用 VitePress 作为个人博客的站点越来越多，RSS支持也是博客上的一个功能点，方便读者订阅，本文将介绍如何通过Vite 插件为 VitePress
+  站点一键添加RSS支持
+tags:
+  - 前端
+  - 技术笔记
+  - Vite
+  - 构建工具
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 实现自动为 VitePress 网站添加 RSS 订阅的插件
 

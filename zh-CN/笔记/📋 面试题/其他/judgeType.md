@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: typeof是否能正确判断类型？instanceof能正确判断对象的原理是什么？
-date: 2020-03-10
+date: 2020-03-10T00:00:00.000Z
 tags:
- - 面试
- - 其它
+  - 面试题
+  - 工程化
+  - 前端基础
 categories:
- - 面试
+  - 面试题
+  - 其他
+titleTemplate: ':title | 知在'
 ---
 # typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
 ## typeof

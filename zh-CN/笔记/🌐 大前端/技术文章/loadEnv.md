@@ -1,11 +1,13 @@
 ---
 title: 封装dotenv库实现类似Vite加载环境变量的行为
-date: 2021-06-20
+date: 2021-06-20T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 封装dotenv库实现类似Vite加载环境变量的行为
 

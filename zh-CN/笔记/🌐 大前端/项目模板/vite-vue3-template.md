@@ -1,11 +1,16 @@
 ---
 title: 模板工程搭建：Vite-Vue3工程化模板
-date: 2021-05-16
+date: 2021-05-16T00:00:00.000Z
 tags:
- - 技术笔记
- - 工程模板
+  - 前端
+  - 项目模板
+  - 工程化
+  - Vite
+  - 构建工具
 categories:
- - 技术笔记
+  - 大前端
+  - 项目模板
+titleTemplate: ':title | 知在'
 ---
 # 开箱即用的Vite-Vue3工程化模板
 ## 前言

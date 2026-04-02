@@ -1,10 +1,16 @@
 ---
-outline: [2,3]
+outline:
+  - 2
+  - 3
 cover: ./copy-branch/MTY5MTMxNzA1MDQ0OA==691317050448.png
 description: 本文简单介绍了如何通过`Shell`和`Node.js`实现复制当前分支名到剪贴板
 tags:
- - CLI
- - 技术笔记
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 如何优雅的复制当前项目分支名
 

@@ -1,11 +1,13 @@
 ---
 title: 在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用
-date: 2021-05-20
+date: 2021-05-20T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用
 

@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 执行上下文栈
- step: 17
+  title: 执行上下文栈
+  step: 17
 isTimeLine: true
 title: 执行上下文栈
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 执行上下文栈
 JavaScript 引擎并非一行一行地分析和执行程序，而是一段一段地分析执行。当执行一段代码的时候，会进行一个“准备工作”(执行上下文)

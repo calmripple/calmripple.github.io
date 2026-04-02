@@ -1,8 +1,22 @@
 ---
 sidebar: true
-date: 2025-10-27 18:00:00
+date: 2025-10-27T18:00:00.000Z
 title: wsl中安装docker 1panel k8s
 tag: cloud
+tags:
+  - 云原生
+  - 运维
+  - DevOps
+  - CI/CD
+  - 部署
+  - Docker
+  - Kubernetes
+  - 1Panel
+  - 运维面板
+categories:
+  - 云原生与运维
+  - DevOps
+titleTemplate: ':title | 知在'
 ---
 # wsl中安装docker 1panel k8s
 

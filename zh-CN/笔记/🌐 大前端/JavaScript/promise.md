@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: Promise
- step: 13
+  title: Promise
+  step: 13
 isTimeLine: true
 title: Promise
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
+  - Promise
+  - 异步编程
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # Promise
 

@@ -1,7 +1,16 @@
 ---
 sidebar: false
-date: 2024-07-05 18:00:00
+date: 2024-07-05T18:00:00.000Z
 tag: AI
+tags:
+  - AI
+  - 人工智能
+  - 豆包 MarsCode
+  - AI 代码辅助
+categories:
+  - AI 人工智能
+  - MarsCode
+titleTemplate: ':title | 知在'
 ---
 # 使用豆包 MarsCode IDE 搭建 VitePress博客并使用 GitHub 部署
 

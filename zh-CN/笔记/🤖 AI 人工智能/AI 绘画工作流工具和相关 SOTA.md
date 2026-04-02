@@ -1,13 +1,10 @@
 ---
 tags:
-  - 索引
-  - 分类/收集箱
-  - AI/绘画
-  - AI/大语言模型/Diffusion/StableDiffusion
-  - AI/绘画/工具/ComfyUI
-  - AI/微调/LoRA
-  - AI/绘画/工具/ComfyUI/插件
-  - AI/AIGC
+  - AI
+  - 人工智能
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # AI 绘画工作流
 

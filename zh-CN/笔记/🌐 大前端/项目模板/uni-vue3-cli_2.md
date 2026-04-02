@@ -1,11 +1,14 @@
 ---
 title: 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(中)
-date: 2021-06-23
+date: 2021-06-23T00:00:00.000Z
 tags:
- - 技术笔记
- - 工程模板
+  - 前端
+  - 项目模板
+  - 工程化
 categories:
- - 技术笔记
+  - 大前端
+  - 项目模板
+titleTemplate: ':title | 知在'
 ---
 # 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(中)
 

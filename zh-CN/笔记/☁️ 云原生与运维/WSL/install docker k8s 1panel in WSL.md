@@ -1,7 +1,20 @@
 ---
-sidebar: false
-date: 2025-10-27 18:00:00
+sidebar: true
+date: 2025-10-27T18:00:00.000Z
 tag: cloud
+tags:
+  - 云原生
+  - 运维
+  - WSL
+  - Linux
+  - Docker
+  - Kubernetes
+  - 1Panel
+  - 运维面板
+categories:
+  - 云原生与运维
+  - WSL
+titleTemplate: ':title | 知在'
 ---
 # wsl中安装docker 1panel k8s
 

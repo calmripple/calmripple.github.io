@@ -1,8 +1,15 @@
 ---
-created: 2024-07-16T15:57:13 (UTC +08:00)
-tags: [干货分享,🔥干货分享]
-source: https://www.cnblogs.com/Megasu/p/15782353.html
+created: '2024-07-16T15:57:13 (UTC +08:00)'
+tags:
+  - 前端
+  - Node.js
+  - JavaScript
+source: 'https://www.cnblogs.com/Megasu/p/15782353.html'
 author: Megasu
+categories:
+  - 大前端
+  - Node.js
+titleTemplate: ':title | 知在'
 ---
 
 # 前端接口神器之 json-server 详细使用指南

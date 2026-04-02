@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 箭头函数
- step: 26
+  title: 箭头函数
+  step: 26
 isTimeLine: true
 title: 箭头函数?
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 箭头函数?
 ## 简单使用

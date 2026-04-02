@@ -1,8 +1,10 @@
 ---
 tags:
-  - 知识领域/化学
-  - 知识领域/材料化学
-  - 开发/Python
+  - AI
+  - 人工智能
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 材料化学相关的 Python 计算库
 

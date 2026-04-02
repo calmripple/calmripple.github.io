@@ -1,7 +1,15 @@
 ---
 tags:
   - AI
-  - AI/教程
+  - 人工智能
+  - 机器学习
+  - PyTorch
+  - 深度学习
+  - 教程
+categories:
+  - AI 人工智能
+  - 机器学习
+titleTemplate: ':title | 知在'
 ---
 
 # 学习和使用 PyTorch

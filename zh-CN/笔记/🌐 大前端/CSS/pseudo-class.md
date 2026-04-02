@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 伪类
- step: 1
+  title: 伪类
+  step: 1
 isTimeLine: true
 title: 伪类
-date: 2020-09-05
+date: 2020-09-05T00:00:00.000Z
 tags:
- - 大前端
- - CSS
+  - 前端
+  - CSS
+  - 样式布局
 categories:
- - 大前端
+  - 大前端
+  - CSS
+titleTemplate: ':title | 知在'
 ---
 # 伪类
 >伪类是添加到选择器的关键字，指定要选择的元素的特殊状态

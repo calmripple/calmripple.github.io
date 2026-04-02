@@ -1,12 +1,14 @@
 ---
 tags:
   - AI
-  - AI/大语言模型/LLM
-  - AI/音频/文本转语音/TTS/语音合成/SpeechSynthesis
-  - AI/音频/文本转语音模型/fish-speech
-  - AI/企业/fish-audio
-  - 操作系统/macOS
-  - 命令行/终端
+  - 人工智能
+  - 语音合成
+  - TTS
+  - 音频处理
+categories:
+  - AI 人工智能
+  - AI 领域应用
+titleTemplate: ':title | 知在'
 ---
 ## 环境准备
 

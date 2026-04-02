@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 中等-实现深拷贝
- step: 12
+  title: 中等-实现深拷贝
+  step: 12
 isTimeLine: true
 title: 实现深拷贝
-date: 2020-09-01
+date: 2020-09-01T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 实现深拷贝
 

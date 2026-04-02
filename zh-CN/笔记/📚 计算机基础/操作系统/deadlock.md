@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 死锁
- step: 4
+  title: 死锁
+  step: 4
 isTimeLine: true
 title: 死锁
-date: 2020-04-29
+date: 2020-04-29T00:00:00.000Z
 tags:
- - 计算机基础
- - 操作系统
+  - 计算机基础
+  - 操作系统
+  - 进程
+  - 线程
 categories:
- - 计算机基础
+  - 计算机基础
+  - 操作系统
+titleTemplate: ':title | 知在'
 ---
 # 死锁
 ## 概念

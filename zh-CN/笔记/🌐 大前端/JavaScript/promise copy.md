@@ -1,12 +1,16 @@
 ---
 isTimeLine: true
 title: Promise的特点是什么，分别有什么优缺点？什么是Promise链？Promise构造函数执行和then函数执行有什么区别？
-date: 2020-03-08
+date: 2020-03-08T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
+  - Promise
+  - 异步编程
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # Promise 的特点是什么，分别有什么优缺点？什么是 Promise 链？Promise 构造函数执行和 then 函数执行有什么区别？
 

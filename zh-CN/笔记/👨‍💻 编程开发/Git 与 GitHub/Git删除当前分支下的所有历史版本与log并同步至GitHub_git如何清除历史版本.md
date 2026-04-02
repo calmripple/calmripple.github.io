@@ -1,18 +1,21 @@
 ---
-created: 2024-06-21T00:14:35 (UTC +08:00)
+created: '2024-06-21T00:14:35 (UTC +08:00)'
 author: calmripple
-
 sidebar:
- title: Git删除当前分支下的所有历史版本与log并同步至GitHub
- step: 1
+  title: Git删除当前分支下的所有历史版本与log并同步至GitHub
+  step: 1
 isTimeLine: true
 title: git如何清除历史版本
-date: 2024-06-21
+date: 2024-06-21T00:00:00.000Z
 tags:
- - github
-
+  - 编程
+  - Git
+  - GitHub
+  - 版本控制
 categories:
- - github
+  - 编程开发
+  - Git
+titleTemplate: ':title | 知在'
 ---
 
 # 1. Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本-CSDN博客

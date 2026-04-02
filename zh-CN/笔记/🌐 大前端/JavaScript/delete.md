@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: delete
- step: 7
+  title: delete
+  step: 7
 isTimeLine: true
 title: delete
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # delete
 delete命令用于删除对象的属性，删除成功后返回true。

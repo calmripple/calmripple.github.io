@@ -1,11 +1,15 @@
 ---
 title: 学习笔记：TypeScript装饰器
-date: 2021-06-24
+date: 2021-06-24T00:00:00.000Z
 tags:
- - 技术笔记
- - 学习笔记
+  - 前端
+  - 调试
+  - 进阶
+  - TypeScript
 categories:
- - 技术笔记
+  - 大前端
+  - 调试与进阶
+titleTemplate: ':title | 知在'
 ---
 # 学习笔记：TypeScript装饰器
 使用装饰器可以装饰一个类或类中的属性

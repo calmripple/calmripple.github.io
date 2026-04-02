@@ -1,9 +1,12 @@
 ---
 tags:
- - 技术笔记
- - 小程序
-# date: 2024-04-20 23:16:00
+  - 前端
+  - 技术笔记
 description: 记录分享在小程序中使用 lottie 播放AE动画的方法，以及踩坑经验。
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 小程序中使用 lottie 动画 | 踩坑经验分享
 

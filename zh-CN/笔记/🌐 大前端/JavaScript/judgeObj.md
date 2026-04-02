@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: 如何判断变量类型是对象
-date: 2020-09-11
+date: 2020-09-11T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 如何判断变量类型是对象
 >指广义上的对象这里，Array,RegExp,function。。。。等等

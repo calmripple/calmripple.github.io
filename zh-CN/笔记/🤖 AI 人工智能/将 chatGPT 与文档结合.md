@@ -1,5 +1,13 @@
 ---
 status: 尚未完成
+tags:
+  - AI
+  - 人工智能
+  - GPT
+  - LLM
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # 将 chatGPT 与文档结合
 

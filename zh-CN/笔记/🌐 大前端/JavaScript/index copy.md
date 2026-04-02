@@ -1,5 +1,12 @@
 ---
 hidden: true
+tags:
+  - 前端
+  - JavaScript
+categories:
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # javascript
 记录面试所遇的与javascript相关的代码题

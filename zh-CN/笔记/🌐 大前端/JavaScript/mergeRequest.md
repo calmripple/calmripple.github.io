@@ -1,14 +1,16 @@
 ---
 sidebar:
- title: 中等-请求合并
- step: 13
+  title: 中等-请求合并
+  step: 13
 title: 场景题-请求合并
-date: 2021-03-06
+date: 2021-03-06T00:00:00.000Z
 tags:
- - 手撕代码
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 手撕代码
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 场景题-请求合并
 > 面试中常考的一个代码题,也是业务开发中经常会遇到的问题

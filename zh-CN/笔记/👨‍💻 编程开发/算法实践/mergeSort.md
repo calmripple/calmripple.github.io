@@ -1,15 +1,20 @@
 ---
 sidebar:
- title: 排序--归并排序
- step: 5
+  title: 排序--归并排序
+  step: 5
 isTimeLine: true
 title: 归并排序
-date: 2020-08-02
+date: 2020-08-02T00:00:00.000Z
 tags:
- - 手撕代码
- - 算法与数据结构
+  - 编程
+  - 算法
+  - 数据结构
+  - 编程实践
+  - 排序算法
 categories:
- - 手撕代码
+  - 编程开发
+  - 算法
+titleTemplate: ':title | 知在'
 ---
 # 归并排序
 <company value="牛客网,几种常见时间复杂度比较低的排序算法之一"></company>

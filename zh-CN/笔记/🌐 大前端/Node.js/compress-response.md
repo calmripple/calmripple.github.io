@@ -1,11 +1,14 @@
 ---
 title: Node侧实现内容压缩(gzip/br/deflate)介绍与实践
-date: 2022-03-05
+date: 2022-03-05T00:00:00.000Z
 tags:
- - 大前端
- - node.js
+  - 前端
+  - Node.js
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Node.js
+titleTemplate: ':title | 知在'
 ---
 # Node侧实现内容压缩(gzip/br/deflate)介绍与实践
 

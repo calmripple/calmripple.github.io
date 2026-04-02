@@ -1,12 +1,15 @@
 ---
 isTimeLine: true
 title: 语义化标签
-date: 2020-05-03
+date: 2020-05-03T00:00:00.000Z
 tags:
- - 大前端
- - html
+  - 前端
+  - HTML
+  - 语义化
 categories:
- - 大前端
+  - 大前端
+  - HTML
+titleTemplate: ':title | 知在'
 ---
 # 语义化标签
 

@@ -1,8 +1,16 @@
 ---
 cover: ./theme/MTY3MzE3MDUxOTMwMw==673170519303.png
 description: 简约风的vitepress博客主题介绍
-date: 2023-02-5 14:00:00
+date: 2023-02-05T14:00:00.000Z
 sticky: 800
+tags:
+  - 项目实践
+  - 开源
+  - 工具
+categories:
+  - 项目
+  - 开源工具
+titleTemplate: ':title | 知在'
 ---
 
 # 一个简约风的vitepress博客主题

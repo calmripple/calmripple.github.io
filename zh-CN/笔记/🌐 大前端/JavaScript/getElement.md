@@ -1,15 +1,17 @@
 ---
 sidebar:
- title: 获取dom元素的方式
- step: 28
+  title: 获取dom元素的方式
+  step: 28
 isTimeLine: true
 title: 获取dom元素的几种方式
-date: 2020-09-06
+date: 2020-09-06T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 获取dom元素的几种方式
 * 按使用频率排序

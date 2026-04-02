@@ -1,11 +1,12 @@
 ---
 tags:
-  - 命令行/conda
-  - 命令行/mamba
-  - 命令行/curl
-  - 命令行/diff
-  - 命令行/opendiff
-  - 开发/Python
+  - AI
+  - 人工智能
+  - Anaconda
+  - Python
+categories:
+  - AI 人工智能
+titleTemplate: ':title | 知在'
 ---
 # Debug Anaconda 的包和镜像
 

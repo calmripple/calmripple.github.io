@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: Event Loop
- step: 12
+  title: Event Loop
+  step: 12
 isTimeLine: true
 title: EventLoop
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
+  - 事件循环
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # Event Loop
 

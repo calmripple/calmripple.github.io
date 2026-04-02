@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: 节流与防抖
- step: 9
+  title: 节流与防抖
+  step: 9
 isTimeLine: true
 title: 节流与防抖
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
+  - 节流防抖
+  - 性能优化
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 节流与防抖
 

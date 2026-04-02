@@ -1,14 +1,17 @@
 ---
 sidebar:
- title: Chrome-DevTools的小技巧
- step: 9999
+  title: Chrome-DevTools的小技巧
+  step: 9999
 title: 分享小册《Chrome-DevTools的使用技巧》中的精华
-date: 2021-05-17
+date: 2021-05-17T00:00:00.000Z
 tags:
- - 大前端
- - 浏览器
+  - 前端
+  - 浏览器
+  - 渲染原理
 categories:
- - 大前端
+  - 大前端
+  - 浏览器
+titleTemplate: ':title | 知在'
 ---
 # 分享小册《Chrome-DevTools的使用技巧》中的精华
 

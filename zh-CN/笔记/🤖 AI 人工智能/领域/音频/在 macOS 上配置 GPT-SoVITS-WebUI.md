@@ -1,12 +1,16 @@
 ---
 tags:
-  - 软件/macOS
-  - 操作系统/macOS
-  - 命令行/pip
-  - 命令行/conda
-  - 命令行/mamba
-  - 开发/Python
   - AI
+  - 人工智能
+  - 语音合成
+  - TTS
+  - 音频处理
+  - GPT
+  - LLM
+categories:
+  - AI 人工智能
+  - AI 领域应用
+titleTemplate: ':title | 知在'
 ---
 
 # 在 macOS 上配置 GPT-SoVITS-WebUI

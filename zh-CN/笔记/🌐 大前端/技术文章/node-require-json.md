@@ -1,11 +1,13 @@
 ---
 title: Node中require与fs.readFile读取JSON文件的对比
-date: 2021-08-19
+date: 2021-08-19T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # Node中require与fs.readFile读取JSON文件的对比
 

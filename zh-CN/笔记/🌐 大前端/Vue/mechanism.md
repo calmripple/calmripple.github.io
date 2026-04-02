@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: ❤运行机制概述
- step: 9
+  title: ❤运行机制概述
+  step: 9
 isTimeLine: true
 title: 运行机制概述
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 运行机制概述
 

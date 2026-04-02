@@ -1,12 +1,14 @@
 ---
 isTimeLine: true
 title: 函数参数是对象会发生什么问题
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 面试
- - javascript
+  - 前端
+  - JavaScript
 categories:
- - 面试
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 函数参数是对象会发生什么问题
 1. 函数传参是传递对象指针副本

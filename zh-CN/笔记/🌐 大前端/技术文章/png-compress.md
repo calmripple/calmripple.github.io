@@ -1,6 +1,13 @@
 ---
 tag: 技术笔记
 description: 最近在迭代应用的时候用到了 UPNG.js 压缩 PNG 图片，这里记录分享一下使用经验，并附上完整 Demo。
+tags:
+  - 前端
+  - 技术笔记
+categories:
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # 纯前端实现 PNG 图片压缩 | UPNG.js
 

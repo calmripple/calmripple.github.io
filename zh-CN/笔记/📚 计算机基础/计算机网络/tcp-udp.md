@@ -1,15 +1,19 @@
 ---
 sidebar:
- title: TCP与UDP的区别
- step: 2
+  title: TCP与UDP的区别
+  step: 2
 isTimeLine: true
 title: TCP与UDP的区别
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 计算机基础
- - 计算机网络
+  - 计算机基础
+  - 计算机网络
+  - HTTP
+  - TCP/IP
 categories:
- - 计算机基础
+  - 计算机基础
+  - 计算机网络
+titleTemplate: ':title | 知在'
 ---
 # TCP与UDP的区别
 ## UDP

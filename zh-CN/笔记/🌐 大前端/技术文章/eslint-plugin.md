@@ -1,12 +1,16 @@
 ---
 isTimeLine: true
 title: eslint插件开发教程
-date: 2020-05-20
+date: 2020-05-20T00:00:00.000Z
 tags:
- - 技术笔记
- - 技术教程
+  - 前端
+  - 技术笔记
+  - ESLint
+  - 代码规范
 categories:
- - 技术笔记
+  - 大前端
+  - 技术文章
+titleTemplate: ':title | 知在'
 ---
 # eslint插件开发教程
 

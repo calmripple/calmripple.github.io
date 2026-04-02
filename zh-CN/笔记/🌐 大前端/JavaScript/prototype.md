@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 原型与原型链
- step: 15
+  title: 原型与原型链
+  step: 15
 isTimeLine: true
 title: 原型与原型链
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 tags:
- - 大前端
- - javascript
+  - 前端
+  - JavaScript
+  - 原型链
 categories:
- - 大前端
+  - 大前端
+  - JavaScript
+titleTemplate: ':title | 知在'
 ---
 # 原型与原型链
 

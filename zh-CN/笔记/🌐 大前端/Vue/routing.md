@@ -1,15 +1,18 @@
 ---
 sidebar:
- title: 路由原理
- step: 1
+  title: 路由原理
+  step: 1
 isTimeLine: true
 title: 路由原理
-date: 2020-05-03
+date: 2020-05-03T00:00:00.000Z
 tags:
- - 大前端
- - vue
+  - 前端
+  - Vue
+  - JavaScript
 categories:
- - 大前端
+  - 大前端
+  - Vue
+titleTemplate: ':title | 知在'
 ---
 # 路由原理
 * hash模式

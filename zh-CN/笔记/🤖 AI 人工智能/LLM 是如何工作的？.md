@@ -1,5 +1,14 @@
 ---
 progress: 85
+tags:
+  - AI
+  - 人工智能
+  - LLM
+  - 大语言模型
+categories:
+  - AI 人工智能
+  - LLM
+titleTemplate: ':title | 知在'
 ---
 # LLM 是如何工作的？
 
