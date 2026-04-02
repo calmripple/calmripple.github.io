@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://www.dmsrs.org/sponsors">
-    <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.svg"/>
+    <img src="https://cdn.jsdelivr.net/gh/calmripple/sponsors/sponsors.svg"/>
   </a>
 </p>
 

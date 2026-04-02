@@ -22,7 +22,7 @@ import { creators, siteName } from '../../../metadata'
               </span>
             </h2>
             <div flex justify-center>
-              <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.wide.svg">
+              <img src="https://cdn.jsdelivr.net/gh/calmripple/sponsors/sponsors.wide.svg">
             </div>
 
             <p text-center>
