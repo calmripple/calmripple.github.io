@@ -13,7 +13,7 @@ categories:
 ## 背景
 不希望应用发送的数据能在 Devtools 中被看到，避免接口被“同行”扒下来，然后被恶意使用
 
-![图片](./jsencrypt/MTYyMzE1MDI4Njk4MA==623150286980.png)
+![图片](./assets/jsencrypt-001.png)
 
 要避免此问题，首先想到的就是对传输的数据进行一次加密，让后端自行解密然后处理
 
@@ -21,7 +21,7 @@ categories:
 
 期望加密后的样子传输的内容如下
 
-![图片](./jsencrypt/MTYyMzE1MDY3ODE4Mw==623150678183.png)
+![图片](./assets/jsencrypt-002.png)
 
 ## 加密方案简述
 ### 对称加密
@@ -324,19 +324,20 @@ function updateReceive(data){
 ## 运行结果
 **页面**
 
-![图片](./jsencrypt/MTYyMzE2NTk4MTIzNw==623165981237.png)
+![图片](./assets/jsencrypt-003.png)
 
 **发送网络请求**
 
-![图片](./jsencrypt/MTYyMzE2NjEyMTMwNQ==623166121305.png)
+![图片](./assets/jsencrypt-004.png)
 
 
 **请求响应内容**
 
-![图片](./jsencrypt/MTYyMzE2NjE0Njk0MQ==623166146941.png)
+![图片](./assets/jsencrypt-005.png)
 
 大工告成,接入十分简单
 
 [完整的示例代码仓库](https://github.com/ATQQ/demos/tree/main/asymmetric-encryption)
+
 
 

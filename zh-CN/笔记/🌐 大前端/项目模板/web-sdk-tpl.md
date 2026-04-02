@@ -251,7 +251,7 @@ npm run build:dev
 ### 产物说明
 构建产物如下
 
-![图片](./web-sdk-tpl/MTYzMzUzMjA5MTQ4MQ==633532091481.png)
+![图片](./assets/web-sdk-tpl-001.png)
 
 * *.cjs.js：构建工具引用
 * *.es.js：支持ESM的构建工具使用
@@ -329,19 +329,19 @@ export default {
 ```sh
 npm link
 ```
-![图片](./web-sdk-tpl/MTYzMzUwMzk3NDAzOA==633503974038.png)
+![图片](./assets/web-sdk-tpl-002.png)
 
 在要测试的项目中引用
 ```sh
 npm link pkgName
 ```
 
-![图片](./web-sdk-tpl/MTYzMzUwNDM0NDkwMQ==633504344901.png)
+![图片](./assets/web-sdk-tpl-003.png)
 
 
 运行示例
 
-![图片](./web-sdk-tpl/MTYzMzUwNDYyMDY3Mg==633504620672.png)
+![图片](./assets/web-sdk-tpl-004.png)
 ### CDN
 本地在./dist目录下起一个Server服务，推荐使用`http-server`
 
@@ -352,7 +352,7 @@ npm i -g http-server
 
 在 dist目录下执行`http-server`
 
-![图片](./web-sdk-tpl/MTYzMzUwNDkzMDA5Nw==633504930097.png)
+![图片](./assets/web-sdk-tpl-005.png)
 
 测试页面中引入
 ```html
@@ -361,7 +361,7 @@ npm i -g http-server
   new LibName('test').sayHello()
 </script>
 ```
-![图片](./web-sdk-tpl/MTYzMzUzMjk5MTk0MA==633532991940.png)
+![图片](./assets/web-sdk-tpl-006.png)
 
 ### Vite
 vite本身就是一个支持ESM的Server，在项目中测试使用完全没问题他
@@ -445,7 +445,7 @@ addStyleDom(document.documentElement, style);
 
 于是此种方式会将css内容写入到js代码中，在运行时自动通过style节点插入到文档节点中
 
-![图片](./web-sdk-tpl/MTYzMzc1NzUzNDYzNg==633757534636.png)
+![图片](./assets/web-sdk-tpl-007.png)
 
 ### scss/less支持
 Vite内置对这两个预处理语言的支持，只需要安装相应的依赖就行
@@ -478,14 +478,14 @@ npm run build
 npm version patch
 ```
 
-![图片](./web-sdk-tpl/MTYzMzc1ODgzNzI3OA==633758837278.png)
+![图片](./assets/web-sdk-tpl-008.png)
 
 发布
 ```sh
 npm publish
 ```
 
-![图片](./web-sdk-tpl/MTYzMzg0NTE0MDEzMQ==633845140131.png)
+![图片](./assets/web-sdk-tpl-009.png)
 
 ### CDN资源
 简单一点就使用[UNPKG](https://unpkg.com/),可以读取发布到npm上的静态资源
@@ -500,7 +500,7 @@ npm publish
 ### 效果
 会向你的页面中心位置添加一个`tag`
 
-![图片](./web-sdk-tpl/MTYzMzg1NDMyNjkzNw==633854326937.png)
+![图片](./assets/web-sdk-tpl-010.png)
 ### npm
 ```sh
 # npm
@@ -531,6 +531,7 @@ new libName()
 经过一些思考（文章篇幅与相关性），关于一些工程通用的能力，如`eslint`，`api-extractor`，`prettier`，`jest`，`husky`等等将会在后续文章中专门介绍
 
 >文中所涉及[源码仓库](https://github.com/ATQQ/web-lib-template)地址：https://github.com/ATQQ/web-lib-template
+
 
 
 

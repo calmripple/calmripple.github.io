@@ -137,7 +137,7 @@ module.exports = {
 
 渲染结果如下
 
-![图片](./uni-vue3-cli_3/MTYyNDQ0NDIzMjQyMg==624444232422.png)
+![图片](./assets/uni-vue3-cli_3-001.png)
 
 ## 最后
 到这一个包含了常见特性的uni-app 开发小程序的工程化模板就算结束了，如果还要有推荐的特性欢迎评论交流
@@ -146,5 +146,6 @@ module.exports = {
 * [uni-vue3-ts：模板仓库](https://github.com/ATQQ/uni-vue3-ts-template)
 * [PostCSS 7 compatibility build](https://tailwindcss.com/docs/installation#post-css-7-compatibility-build)
 * [uni-app 使用 tailwindcss](https://wyz.xyz/d/150-uni-app-tailwindcss)
+
 
 

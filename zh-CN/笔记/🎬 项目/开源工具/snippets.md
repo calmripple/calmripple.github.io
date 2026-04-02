@@ -40,7 +40,7 @@ categories:
 
 但可能由于阅读量不高，目前下载体验的朋友也不多
 
-![图片](./snippets/MTYyNDEwODI4NzY0MQ==624108287641.png)
+![图片](./assets/snippets-001.png)
 
 ### 简介
 支持通过npm的形式分享你的代码块
@@ -57,11 +57,11 @@ categories:
 
 当然是先装上插件
 
-![图片](./snippets/MTYyNDEwOTA4NDYxNg==624109084616.png)
+![图片](./assets/snippets-002.png)
 
 tips：编写完新的代码块，如需立即生效，需手动执行 SP Refresh 命令
 
-![图片](./snippets/MTYyNDEwOTE2NDE2OQ==624109164169.png)
+![图片](./assets/snippets-003.png)
 
 下面是编写配置文件的演示，插件提供了快速生成配置文件内容的代码块:
 
@@ -79,14 +79,14 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 ### 指定文件内容作为代码块
 这里以几个简单的vue3代码块为例：
 
-![图片](./snippets/MTYyNDExMTcwODU3OQ==ss-template.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMTcwODU3OQ%3D%3Dss-template.gif)
+![图片](./assets/snippets-004.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMTcwODU3OQ%3D%3Dss-template.gif)
 
 编写者只需要指定代码块`内容文件的相对路径`和`激活代码块的前缀`两项配置即可
 
 ### Vue组件的代码块
 以一个默认的 `my-input` 组件进行演示示例
 
-![图片](./snippets/MTYyNDExMjM3MjM3NQ==ss-vue.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMjM3MjM3NQ%3D%3Dss-vue.gif)
+![图片](./assets/snippets-005.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMjM3MjM3NQ%3D%3Dss-vue.gif)
 
 支持完整的属性提示，支持以sp-开头展示组件的所有的可用属性
 
@@ -94,7 +94,7 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 以一个默认的 `MyButton` 组件进行演示示例
 
 
-![图片](./snippets/MTYyNDExMjg1ODQ5OQ==ss-react.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMjg1ODQ5OQ%3D%3Dss-react.gif)
+![图片](./assets/snippets-006.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMjg1ODQ5OQ%3D%3Dss-react.gif)
 
 ## 总结
 个人认为，此插件不仅可以帮助编写与分享代码块
@@ -108,6 +108,7 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 
 * [插件源码](https://github.com/ATQQ/ShareSnippet)
 * [插件体验](https://marketplace.visualstudio.com/items?itemName=sugar.snippet)
+
 
 
 

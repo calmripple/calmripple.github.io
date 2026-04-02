@@ -7,6 +7,7 @@ tags:
   - GPT
 categories:
   - AI 人工智能
+title-en: yong-m-e-g-a-t-r-o-n-l-m-xun-lian-yi-ge-g-p-t-2
 ---
 # 用 Megatron-LM 训练一个 GPT-2
 

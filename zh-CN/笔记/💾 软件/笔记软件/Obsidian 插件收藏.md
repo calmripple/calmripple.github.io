@@ -7,6 +7,7 @@ tags:
   - 知识管理
 categories:
   - 软件工具
+title-en: o-b-s-i-d-i-a-n-cha-jian-shou-cang
 ---
 ### 待办事项清单
 

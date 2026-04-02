@@ -131,7 +131,7 @@ console.log(b(2))
 
 使用递归的时候，因为栈可存放的函数是有限制的，一旦存放了过多的函数且没有得到释放的话，就会出现爆栈(如下图所示)
 
-![图片](./eventloop/MTYxMTA2ODQxNTc5OQ==611068415799.png)
+![图片](./assets/eventloop-001.png)
 
 ## 浏览器中的 Event Loop
 通过上面的阐述，大概也是知道了js是如何执行的，了解了如何以单线程同步执行的方式处理异步任务的机制，下面开始详细描述一下执行的过程
@@ -186,7 +186,7 @@ console.log(b(2))
 * 定时器不是绝对准确的
   * SetTimeout/SetInterval只是在指定时间后将其回调函数放入到宏任务队列中
 
-![图片](./eventloop/MTU4MzE0NTA5MTE0Mg==583145091142.png)
+![图片](./assets/eventloop-002.png)
 
 ### 示例
 
@@ -380,4 +380,5 @@ console.log(10)
 ## 参考
 * [阮一峰：JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 * [MDN：并发模型与事件循环 ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
+
 

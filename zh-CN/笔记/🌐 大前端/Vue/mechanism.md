@@ -15,7 +15,7 @@ categories:
 ---
 # 运行机制概述
 
-![图片](./mechanism/MTU4NjgzMzgxNDE1OA==586833814158.png)
+![图片](./assets/mechanism-001.png)
 <center>全局概览</center>
 
 ## 初始化及挂载
@@ -49,7 +49,7 @@ generate 是将 `AST` 转化成 `render function` 字符串的过程，得到结
 
 当 `render function` 被渲染的时候，因为会读取所需对象的值，所以会触发 `getter` 函数进行**依赖收集**,目的是将观察者 `Watcher` 对象存放到当前闭包中的订阅者 `Dep` 的 `subs` 中
 
-![图片](./mechanism/MTU4Njg0NTExMjAxOA==586845112018.png)
+![图片](./assets/mechanism-002.png)
 
 修改对象的值的时候，会触发对应的 `setter`， `setter` 通知之前**依赖收集**得到的 `Dep` 中的每一个 `Watcher`，告知他们我的值改变了，需要重新渲染视图。这时候这些 `Watcher` 就会开始调用 `update` 来更新视图，当然这中间还有一个 `patch` 的过程以及使用队列来异步更新的策略
 
@@ -88,5 +88,6 @@ generate 是将 `AST` 转化成 `render function` 字符串的过程，得到结
 
 当数据变化后，执行 `render function` 就可以得到一个新的 `VNode` 节点,将`新 VNode` 与`旧 VNode` 一起传入 `patch` 进行比较，经过 diff 算法得出它们的`差异`
 ,只需要将这些`差异`的对应 DOM 进行修改即可。
+
 
 

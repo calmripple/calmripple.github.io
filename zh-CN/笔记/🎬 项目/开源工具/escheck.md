@@ -43,7 +43,7 @@ const arrFun = () => {
 ```sh
 npx es-check es5 testProject/**/*.js
 ```
-![图片](./escheck/MTY2NDAyODU1NTI3OA==664028555278.png)
+![图片](./assets/escheck-001.png)
 
 可以看到其报错信息比较简单，只输出了代码中的第一个ES语法问题`const`,然后对应的是行数和具体文件路径
 
@@ -54,7 +54,7 @@ npx tsup __test__/testProject/js/index.js --sourcemap -d __test__/testProject/di
 ```
 通过结果，可以看到，只说有解析问题，并未告知是什么问题，然后有对应的行列数
 
-![图片](./escheck/MTY2NDAyOTcwMjg4Ng==664029702886.png)
+![图片](./assets/escheck-002.png)
 
 如果有`sourcemap`那么我们暂且是可以通过[source-map](https://www.npmjs.com/package/source-map)这个库解析一下，以上面的报错为例
 ```ts
@@ -84,7 +84,7 @@ const columnNumber = 45
 ```
 执行结果如下，可以得到对应的错误代码
 
-![图片](./escheck/MTY2NDAzMjI5MTA1Mw==664032291053.png)
+![图片](./assets/escheck-003.png)
 
 ### 原理分析
 打开[源码](https://github.com/yowainwright/es-check/blob/master/index.js)可以看到实现非常简单，关键不过100行。可以总结为3步骤
@@ -176,7 +176,7 @@ if (errArr.length > 0) {
 
 console.info(`ES-Check: there were no ES version matching errors!  🎉`)
 ```
-![图片](./escheck/MTY2NDEwNzY1NjA0Nw==664107656047.png)
+![图片](./assets/escheck-004.png)
 
 
 ### 小结
@@ -197,11 +197,11 @@ mpx-es-check --ecma=6 testProject/**/*.js
 ```
 可以看到其将错误信息输出到了1个log文件中
 
-![图片](./escheck/MTY2NDA3Mzg0NTcxNw==664073845717.png)
+![图片](./assets/escheck-005.png)
 
 log日志信息如下，还是很清晰的指出了有哪些错误并标明了错误的具体位置，内置了`source-map`解析。
 
-![图片](./escheck/MTY2NDA3NDExNjQ3Ng==664074116476.png)
+![图片](./assets/escheck-006.png)
 
 下面来探究一下实现原理
 ### 原理分析
@@ -271,7 +271,7 @@ errArr.forEach((err) => {
 ```
 精简实现的运行结果如下，完整源码见[Github](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/mpx-es-check.ts)
 
-![图片](./escheck/MTY2NDA5MjM0NDgyNQ==664092344825.png)
+![图片](./assets/escheck-007.png)
 
 ### 小结
 1. 检测输出的结果相对友好（比较理想的格式），内置了sourcemap解析逻辑
@@ -330,11 +330,11 @@ const arrFun = () => {
 ```
 [完整demo1代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/more-error/1.ts)
 
-![图片](./escheck/MTY2NDI5MDc0Mzc4MA==664290743780.png)
+![图片](./assets/escheck-008.png)
 
 部分节点对应的片段可能不完整，会导致解析错误
 
-![图片](./escheck/MTY2NDI5MTE3Nzc2NQ==664291177765.png)
+![图片](./assets/escheck-009.png)
 
 用于测试的片段如下
 
@@ -361,7 +361,7 @@ if (!isValidCode) {
 }
 ```
 
-![图片](./escheck/MTY2NDI5MTMyMzU1MQ==664291323551.png)
+![图片](./assets/escheck-010.png)
 
 [完整demo2代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/more-error/2.ts)
 
@@ -397,7 +397,7 @@ console.log(codeErrorList)
 ```
 修正后结果如下
 
-![图片](./escheck/MTY2NDI5MjA0MDk1Ng==664292040956.png)
+![图片](./assets/escheck-011.png)
 
 [完整demo3代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/more-error/3.ts)
 
@@ -408,7 +408,7 @@ console.log(codeErrorList)
 ```ts
 var { boolean:hello } = {}
 ```
-![图片](./escheck/MTY2NDI5MjY5Mjg2Ng==664292692866.png)
+![图片](./assets/escheck-012.png)
 
 [完整demo4代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/more-error/4.ts)
 
@@ -422,7 +422,7 @@ if (filterMessage.find((r) => r.test(error.message))) {
 ```
 调整后的报错信息就是`解构赋值`的语法错误了
 
-![图片](./escheck/MTY2NDI5MjkxNDY0MQ==664292914641.png)
+![图片](./assets/escheck-013.png)
 
 [完整demo5代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/more-error/5.ts)
 
@@ -464,7 +464,7 @@ console.dir(codeErrorList, {
 ```
 结果如下，[完整demo1代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/source-map/1.ts)
 
-![图片](./escheck/MTY2NDMzNzAxMjIyOQ==664337012229.png)
+![图片](./assets/escheck-014.png)
 
 有了行列号，我们就可以根据`*.map`文件进行源码的解析
 
@@ -517,7 +517,7 @@ if (sourceMapContent) {
 ```
 [完整demo2代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/source-map/2.ts)
 
-![图片](./escheck/MTY2NDMzNzM4NTkyMw==664337385923.png)
+![图片](./assets/escheck-015.png)
 
 这块就对齐了`mpx-es-check`的`source-map`解析能力
 ### HTML支持
@@ -571,7 +571,7 @@ traverse(htmlAST, {
 ```
 [完整demo1代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/html-check/1.ts)
 
-![图片](./escheck/MTY2NDM1MTM3NDUyMA==664351374520.png)
+![图片](./assets/escheck-016.png)
 
 获得对应的源码后就可以调用之前的`checkCode`方法，对错误行号做一个拼接即可得到错误信息
 
@@ -598,7 +598,7 @@ traverse(htmlAST, {
 ```
 [完整demo2代码](https://github.com/ATQQ/tools/blob/feature/es-check/packages/cli/es-check/__test__/demos/html-check/2.ts)
 
-![图片](./escheck/MTY2NDM1MzM1OTY4OA==664353359688.png)
+![图片](./assets/escheck-017.png)
 
 ### 组建CLI能力
 这里就不再赘述CLI过程代码，核心的已在前面阐述，这里直接上最终成品的使用演示，参数同`es-check`保持一致
@@ -610,14 +610,14 @@ npm i @sugarat/es-check -g
 ```sh
 escheck es5 testProject/**/*.js testProject/**/*.html
 ```
-![图片](./escheck/MTY2NDM3ODMyNjc0OQ==664378326749.png)
+![图片](./assets/escheck-018.png)
 
 日志输出到文件
 
 ```sh
 escheck es5 testProject/**/*.js testProject/**/*.html --out
 ```
-![图片](./escheck/MTY2NDM3ODU2NzI1OA==664378567258.png)
+![图片](./assets/escheck-019.png)
 ## 最终对比
 | Name              | JS  | HTML | Friendly |
 | ----------------- | --- | ---- | -------- |
@@ -636,5 +636,6 @@ escheck es5 testProject/**/*.js testProject/**/*.html --out
 ## 参考
 * [es-check](https://github.com/yowainwright/es-check)：社区出品
 * [mpx-es-check](https://github.com/mpx-ecology/mpx-es-check)：滴滴出品 [MPX](https://mpxjs.cn/) 框架的配套工具
+
 
 

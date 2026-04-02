@@ -21,11 +21,11 @@ categories:
 ### 获取启动耗时
 项目启动后会在终端中输出`ready in xxms`
 
-![图片](./vite-plugin-monitor2/MTYzMjkyMjIxNzI0Nw==632922217247.png)
+![图片](./assets/vite-plugin-monitor2-001.png)
 
 为此咱们使用Vs Code在[源码](https://github1s.com/vitejs/vite)中搜一下这个关键字
 
-![图片](./vite-plugin-monitor2/MTYzMjkyMjU5MDI2Mg==632922590262.png)
+![图片](./assets/vite-plugin-monitor2-002.png)
 
 可以看到此部分代码在源码中如下
 
@@ -70,13 +70,13 @@ export default function Monitor(): Plugin {
 ```
 
 启动一个项目看看效果，成了。
-![图片](./vite-plugin-monitor2/MTYzMjkyMzY1MjAzMg==632923652032.png)
+![图片](./assets/vite-plugin-monitor2-003.png)
 
 
 ### HMR时间获取
 热更新时，终端中会出现下面的日志
 
-![图片](./vite-plugin-monitor2/MTYzMjkyNDA0MzU2OQ==632924043569.png)
+![图片](./assets/vite-plugin-monitor2-004.png)
 
 同理源码里搜一搜，能够定位出如下内容
 ```ts
@@ -128,12 +128,13 @@ server.middlewares.use(async (req, res, next) => {
 
 事实上通过`--debug`启动服务，能看到在HMR时会打印4个时间
 
-![图片](./vite-plugin-monitor2/MTYzMjkyNTQzMzEwNw==632925433107.png)
+![图片](./assets/vite-plugin-monitor2-005.png)
 
 目前方法仅仅得到了`vite:hmr`部分的时间，与实际耗时还有一丝丝差异
 
 ## 小结
 更加详细的信息只能通过`--debug`看到，下一步的计划就是hack，模拟一下debug下的行为，将debug的打印的数据都拦截下来
 由于时间关系，这部分hack还没完成。准备假期抽时间实现一下。下一篇文章将详细的介绍最终实现。
+
 
 

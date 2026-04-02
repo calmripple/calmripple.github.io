@@ -25,7 +25,7 @@ const pkg = require('vitepress/package.json')
 
 下来翻了翻文档发现这个Node v12.2.0 就有了
 
-![](./esm-require/MTcwMDY2MTUwNDg1Mg==700661504852.png)
+![](./assets/esm-require-001.png)
 
 结合最近开发 VitePress 主题需要ESM中获取 `__dirname` 的经验，这里就顺便记录一下。
 
@@ -148,5 +148,6 @@ const resolveAlias = {
 ## 总结
 
 综上，在 ESM 中也是可以优雅的使用CJS里的`require`, `__dirname`, `__filename` 的
+
 
 

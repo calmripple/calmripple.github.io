@@ -168,7 +168,7 @@ node index.js /home/sugar/Documents/VueProject/my-blog-vuepress
 ```sh
 ok 309 个文件
 ```
-![图片](./mergefile/MTYyMjYwODQ0MjI5OQ==622608442299.png)
+![图片](./assets/mergefile-001.png)
 
 好家伙，敲了3w多行了
 
@@ -235,4 +235,5 @@ function getDirFiles(dir, exclude = []) {
   return result
 }
 ```
+
 

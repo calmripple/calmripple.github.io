@@ -41,15 +41,15 @@ Serverless 架构即“⽆服务器”架构，它是一种全新的架构方式
 ## 传统开发
 ### 开发流程
 
-![图片](./serverless/MTYwNTI1OTM2NTgyNw==605259365827.png)
+![图片](./assets/serverless-001.png)
 
 ### 开发之外的问题
 对开发团队的要求越来越高
 
-![图片](./serverless/MTYwNTI1OTgwMzM3OA==605259803378.png)
+![图片](./assets/serverless-002.png)
 
 ### 上线后
-![图片](./serverless/MTYwNTI1OTkzMDY1MQ==605259930651.png)
+![图片](./assets/serverless-003.png)
 * 运维复杂
 * 测试复杂
 * 扩展复杂
@@ -59,7 +59,7 @@ Serverless 架构即“⽆服务器”架构，它是一种全新的架构方式
 
 ## 技术变革,思想先行👏
 
-![图片](./serverless/MTYwNTI2MDQzNjQ3Mg==605260436472.png)
+![图片](./assets/serverless-004.png)
 
 名词解释（云计算中的一些概念）：
 * On-Premise: 本地部署
@@ -86,7 +86,7 @@ Serverless 架构即“⽆服务器”架构，它是一种全新的架构方式
 ## 云的未来 - Serverless
 追求更低的心理成本，就是能力闭环
 
-![图片](./serverless/MTYwNTI2MzIwNzg4MA==605263207880.png)
+![图片](./assets/serverless-005.png)
 
 Serverless 可能是目前资源抽象最高级别，为能力闭环带来了可能性
 
@@ -159,5 +159,6 @@ Serverless能够让依赖Node服务的前端极大减低成本，开发者只需
 * [什么是 Serverless 架构](https://www.phodal.com/blog/Serverless-architecture-what-is-Serverless-architecture/)
 * [掘金· 分享狼叔关于《大前端工程化的实践与思考》](https://juejin.im/post/6844903887091023885)
 :::
+
 
 

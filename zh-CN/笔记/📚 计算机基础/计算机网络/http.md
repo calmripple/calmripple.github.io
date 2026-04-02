@@ -213,7 +213,7 @@ Accept-Encoding: gizp
 * HTTPS 是建构在 SSL/TLS 之上的 HTTP 协议,HTTPS 比 HTTP 要更耗费服务器资源
 * HTTPS除了 TCP 的三个包，还要加上 ssl 握手需要的 9 个包,一共是 12 个包。
 * HTTPS是在HTTP上建立SSL/TLS加密层，并对传输数据进行加密，是HTTP协议的安全版。
-![图片](./http/MTU4NDE5NTg5ODc3Mw==584195898773.png)
+![图片](./assets/http-001.png)
 
 
 **特点**
@@ -316,7 +316,7 @@ HTTP/2 相比于 HTTP/1，可以说是大幅度提高了网页的性能。
 
 ### 设置请求优先级
 
-![图片](./http/MTU4NTcxMzIwNDc0Nw==585713204747.png)
+![图片](./assets/http-002.png)
 
 ### 如何使用?
 * 使用Nginx搭建HTTP2服务器
@@ -370,7 +370,7 @@ QUIC 原生实现了这个功能，并且传输的单个数据流可以保证有
 **1-RTT情况**
 新的QUIC连接至少需要1 RTT才能完成握手
 
-![图片](./http/MTU4NDMyMzc2NTY2MA==584323765660.png)
+![图片](./assets/http-003.png)
 ### 纠错机制
 假如说这次我要发送三个包，那么协议会算出这三个包的异或值并单独发出一个校验包，也就是总共发出了四个包。
 
@@ -391,5 +391,6 @@ QUIC 原生实现了这个功能，并且传输的单个数据流可以保证有
 [http](https://yuchengkai.cn/docs/cs/#post-%E5%92%8C-get-%E7%9A%84%E5%8C%BA%E5%88%AB)<br>
 [CSDN:QUIC（Quick UDP Internet Connections）协议：全新的基于UDP的web开发协议](https://blog.csdn.net/coloriy/article/details/88418258)
 :::
+
 
 

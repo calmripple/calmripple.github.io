@@ -87,7 +87,7 @@ nodeList = document.getElementsByTagNameNS(namespace, name)
 
 ## 元素之间的继承关系
 
-![图片](./getElement/MTU5OTM2MTM2NDk5NA==599361364994.png)
+![图片](./assets/getElement-001.png)
 
 每个元素都有对应的类，因此每个类都提供了一些方法来操作元素本身
 
@@ -119,4 +119,5 @@ nodeList = document.getElementsByTagNameNS(namespace, name)
 
 [CSDN-HTML元素之间的继承关系](https://blog.csdn.net/ppwwp/article/details/88169145)
 :::
+
 

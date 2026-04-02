@@ -78,7 +78,7 @@ function simpleConst2Var(code: string) {
 ```
 /<script>([\s\S]*?)<\/script>/g
 ```
-![图片](./html-inline-js-transform/MTY2NjQzNTk5MjcyMg==666435992722.png)
+![图片](./assets/html-inline-js-transform-001.png)
 
 
 利用`replace`方法，几行代码就能搞定
@@ -115,7 +115,7 @@ htmlAST.find(`<script>$_$</script>`).each(($scriptNode) => {
   $scriptNode.attr('content.value.content', transformFn(origin.toString()))
 })
 ```
-![图片](./html-inline-js-transform/MTY2NjQ0OTc4NTQxMQ==666449785411.png)
+![图片](./assets/html-inline-js-transform-002.png)
 
 完整代码如下
 ```ts
@@ -152,7 +152,7 @@ const AST = svelte.compile(htmlCode).ast
 const htmlAST = AST.html
 ```
 
-![图片](./html-inline-js-transform/MTY2NjUxMjc4MTc4MQ==666512781781.png)
+![图片](./assets/html-inline-js-transform-003.png)
 
 
 同时提供了一个预处理方法`preprocess`，可以实现`script`,`style`与其他标签内容的遍历与修改，最后返回处理后的结果
@@ -196,7 +196,7 @@ function traverseScript(htmlCode: string, transformFn: (v: string) => string) {
 
 其AST结构描述很朴素
 
-![图片](./html-inline-js-transform/MTY2NjUxNjA5NzE0NQ==666516097145.png)
+![图片](./assets/html-inline-js-transform-004.png)
 
 使用方法如下,也很简单
 ```ts
@@ -379,7 +379,7 @@ program
 program.parse(process.argv)
 ```
 
-![图片](./html-inline-js-transform/MTY2NjUzOTE5NjI2Ng==666539196266.png)
+![图片](./assets/html-inline-js-transform-005.png)
 
 ### 指令实现
 下面是 `transformCommand` 的简单实现
@@ -417,17 +417,18 @@ export default function transformCommand(filesArg: string[], options: Options) {
 ijs minify __test__/test.html
 ```
 
-![图片](./html-inline-js-transform/MTY2NjU0MTExNzIyMw==666541117223.png)
+![图片](./assets/html-inline-js-transform-006.png)
 
 ```sh
 ijs transform __test__/test.html --minify
 ```
 
-![图片](./html-inline-js-transform/MTY2NjU0MTE5Mjk3NQ==666541192975.png)
+![图片](./assets/html-inline-js-transform-007.png)
 ## 最后
 
 文章中涉及示例代码以及工具完整源码见 [GitHub](https://github.com/ATQQ/tools/tree/main/packages/cli/inlinejs-transform)
 
 如内容有误还请评论区斧正，读者有其它💡想法可评论&私信交流探讨。
+
 
 

@@ -25,13 +25,13 @@ categories:
 
 按照官方的给的定位，VitePress 主打是主题（个人感觉就像[Hexo](https://hexo.io/zh-cn/)丰富多彩的主题一样），不提供插件系统
 
-![](./theme/MTY3NTU3MjY0MjgzNQ==675572642835.png)
+![](./assets/theme-001.png)
 
 在笔者进行博客迁移的时候，将主题分离了出来，可供单独使用
 
 新旧对比
 
-![新旧博客对比](./theme/MTY3NTU3NDk0OTI2Ng==675574949266.png)
+![新旧博客对比](./assets/theme-002.png)
 
 风格借鉴了 [reco](https://vuepress-theme-reco.recoluan.com/) ，[掘金](https://juejin.cn/)，[surmon](https://surmon.me/)等等，组件部分用了 [element-plus](https://element-plus.gitee.io/zh-CN/)
 
@@ -70,7 +70,7 @@ pnpm create @sugarat/theme my-first-blog
 ```
 :::
 
-![](./theme/MTY4OTQyMDE1NTcxMA==689420155710.png)
+![](./assets/theme-003.png)
 
 
 ② 安装依赖
@@ -93,7 +93,7 @@ pnpm dev
 
 就能得到如下的页面
 
-![](./theme/MTY3NTU3NDMxODU0OA==675574318548.png)
+![](./assets/theme-004.png)
 
 ## 已支持功能
 介绍一下主要的，非所有，详见[主题文档](https://theme.sugarat.top/)
@@ -127,4 +127,5 @@ pnpm dev
 * 主题地址：https://theme.sugarat.top/
 * 主题包：[@sugarat/theme](https://www.npmjs.com/package/@sugarat/theme)
 * 项目地址：https://github.com/ripplejourney/ripplejourney.github.io/tree/master/packages/theme
+
 

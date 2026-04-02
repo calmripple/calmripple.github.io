@@ -15,7 +15,7 @@ categories:
 
 咱先上效果免得说骗人
 
-![图片](./deepin-wemeet/MTYyMTUyNDAxNTE2NA==621524015164.png)
+![图片](./assets/deepin-wemeet-001.png)
 
 * 腾讯会议:支持屏幕共享、语音、录屏等等
 * QQ/微信:常用功能均可用
@@ -24,7 +24,7 @@ categories:
 
 如果是deepin用户，先看看是否有deepin-wine5环境
 
-![图片](./deepin-wemeet/MTYyMTUyNDI0Mzk1NA==621524243954.png)
+![图片](./assets/deepin-wemeet-002.png)
 
 
 没试用过其它发行版，各位如不是deepin，不妨也可试试看
@@ -41,7 +41,7 @@ sudo vim /etc/apt/sources.list
 deb [by-hash=force] https://community-packages.deepin.com/deepin/ apricot main contrib non-free
 ```
 
-![图片](./deepin-wemeet/MTYyMTUyNDQyODMyMA==621524428320.png)
+![图片](./assets/deepin-wemeet-003.png)
 
 更新源
 ```sh
@@ -96,7 +96,7 @@ sudo apt-get install com.tencent.meeting.deepin
 deepin-wine5 wemeetapp.exe
 ```
 
-![图片](./deepin-wemeet/MTYyMTUyNTEzNTA3OA==621525135078.png)
+![图片](./assets/deepin-wemeet-004.png)
 
 
 如果过程中遇到问题的老哥，欢迎评论区交流
@@ -104,5 +104,6 @@ deepin-wine5 wemeetapp.exe
 ## 参考
 * [Github:zq1997/deepin-wine](https://github.com/zq1997/deepin-wine)
 * [简书:记录完整的在Ubuntu 20.04下使用deepin-wine5安装微信3.0的过程](https://www.jianshu.com/p/6740f6c73033)
+
 
 

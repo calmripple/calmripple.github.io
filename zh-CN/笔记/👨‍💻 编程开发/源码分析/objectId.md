@@ -355,7 +355,7 @@ console.log(new MyObjectId().toHexString());
 
 结果如下，符合预期
 
-![图片](./objectId/MTYyMzMzOTU1NjIyNw==623339556227.png)
+![图片](./assets/objectId-001.png)
 
 ## 总结
 * 网上的部分翻译资料确实有些过时了
@@ -364,5 +364,6 @@ console.log(new MyObjectId().toHexString());
 * 位运算符虽在开发中用得不多，但很多优秀的库中都有，提醒自己下来还是多熟悉一下，看看能否用在计算场景中，提升计算效率
 
 * TODO：搞一篇位运算的文章，学习一下优秀开源库中的用法
+
 
 

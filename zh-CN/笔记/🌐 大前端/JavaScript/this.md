@@ -99,7 +99,7 @@ fn8 = fn8.bind({p8:8}).bind({p8:88}).bind({p8:888})
 fn8() // 8
 ```
 
-![图片](./this/MTU4MzgyNjg3NzI4Mw==583826877283.png)
+![图片](./assets/this-001.png)
 
 
 
@@ -271,5 +271,6 @@ obj.say6()
 'obj2'
 ```
 </my-details>
+
 
 

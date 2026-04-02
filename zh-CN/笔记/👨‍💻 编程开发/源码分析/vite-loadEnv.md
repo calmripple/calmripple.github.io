@@ -41,7 +41,7 @@ export function loadEnv(
 * `envDir`：环境变量配置文件所在目录
 * `prefix`：接受的环境变量前缀，默认为 **VITE_**，这就应证了文档中提到的内容
 
-![图片](./vite-loadEnv/MTYyNDI4MzYwNTYwMA==624283605600.png)
+![图片](./assets/vite-loadEnv-001.png)
 
 ### 返回值
 一个键与值都是`string`类型的对象
@@ -344,5 +344,6 @@ module.exports = {
 ## 最后
 * 这部分源码还是不复杂，有很多可借鉴的写法
 * 如果自己的node项目需要读取环境变量文件，可以根据此配置做迁移
+
 
 

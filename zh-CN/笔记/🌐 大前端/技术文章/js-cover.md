@@ -20,7 +20,7 @@ categories:
 
 最终效果如下:
 
-![图片](./js-cover/MTYyNzQ4NDc4NzUzMA==627484787530.png)
+![图片](./assets/js-cover-001.png)
 
 ## 注入js
 向第三方页面注入js的方法有很多
@@ -88,7 +88,7 @@ window.document.head.append(a)
     }
 ```
 
-![图片](./js-cover/MTYyNzU2OTg1NDM3NA==627569854374.png)
+![图片](./assets/js-cover-002.png)
 
 ### 情况二
 **思路：** 由于是背景图片，可直接为其添加一个子元素`<div>`作为蒙层即可
@@ -222,5 +222,6 @@ function getAllTextEls() {
 上述方式肯定还有考虑不周到的地方，留给感兴趣的同学继续探索
 
 [完整源码地址](https://github.com/ATQQ/demos/blob/main/test-script/index.js)
+
 
 

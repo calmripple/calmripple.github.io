@@ -13,7 +13,7 @@ categories:
 ## 效果
 先上效果图，非常朴素，**没有用代码高亮插件**，**无样式表**
 
-![图片](./array-buffer/MTYyMzIzNTEyNzAzNw==623235127037.png)
+![图片](./assets/array-buffer-001.png)
 
 * [完整实例源码](https://github.com/ATQQ/demos/blob/main/arraybuffer/README.md)
 
@@ -249,12 +249,13 @@ $lists.addEventListener('click', function (e) {
 
 到此的生成目录效果如下:
 
-![图片](./array-buffer/MTYyMzI0MzcyMzA5Nw==623243723097.png)
+![图片](./assets/array-buffer-002.png)
 
 
 ## 最后
 ArrayBuffer的内容还是比较多，本文只简单讲了利用其获取文件内容
 
 本文主要内容还是实践生成目录的树形结构，由于时间仓促，代码还有很多的优化空间
+
 
 

@@ -18,12 +18,12 @@ categories:
 ## 先看安装前后对比
 安装前
 
-![](./nvm-iterm/MTY3NjE4NDI1OTY0OA==676184259648.png)
+![](./assets/nvm-iterm-001.png)
 
 
 安装后
 
-![](./nvm-iterm/MTY3NjE4NDgwNjAzMA==676184806030.png)
+![](./assets/nvm-iterm-002.png)
 
 可以看到有明显的卡顿
 
@@ -40,7 +40,7 @@ export NVM_DIR="$HOME/.nvm"
 
 方法来源 [咲奈的平行时空](https://public.zsxq.com/groups/28851452458181.html)
 
-![](./nvm-iterm/MTY3NjE4NTM2MDkyOQ==676185360929.png)
+![](./assets/nvm-iterm-003.png)
 
 **带来的影响**
 
@@ -100,5 +100,6 @@ pnpm env use --global 16
 
 功能非常的多（比如 根据项目里Node版本要求，自动切换）
 
-![](./nvm-iterm/MTY3NjE4OTM5MTk2Mg==676189391962.png)
+![](./assets/nvm-iterm-004.png)
+
 

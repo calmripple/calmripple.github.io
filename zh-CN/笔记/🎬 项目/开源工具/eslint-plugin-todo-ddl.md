@@ -24,7 +24,7 @@ categories:
 
 **百闻不如[一见](https://github.com/ATQQ/eslint-plugin-todo-ddl)**,先带大家看看[插件](https://github.com/ATQQ/eslint-plugin-todo-ddl)效果
 
-![图片](./eslint-plugin-todo-ddl/MTYxNTgxMTk1MjM4MA==615811952380.png)
+![图片](./assets/eslint-plugin-todo-ddl-001.png)
 
 
 因为在工作中临时会插入许多其它的事,或者有些代码,接口是有时效性的需要手动下线
@@ -283,5 +283,6 @@ if (errMsg) {
 * [vs code插件 todo-tree](https://github.com/Gruntfuggly/todo-tree)也很棒哟
 
 >[本文](https://juejin.cn/post/6939877553582637069)正在参与「掘金 2021 春招闯关活动」, 点击查看 [活动详情](https://juejin.cn/post/6939329638506168334)
+
 
 

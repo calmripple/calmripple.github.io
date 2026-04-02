@@ -19,7 +19,7 @@ categories:
 
 ## 原型链
 
-![](./instanceof copy/MTU4NDM2MzA5ODkyOA==584363098928.png)
+![](./instanceof copy/instanceof-copy-aae747-001.png)
 
 ## instanceOf实现
 
@@ -67,5 +67,6 @@ console.log(instanceOf(/^$/, RegExp));
 console.log(instanceOf(function () { }, Function));
 console.log(instanceOf([], Function));
 ```
+
 
 

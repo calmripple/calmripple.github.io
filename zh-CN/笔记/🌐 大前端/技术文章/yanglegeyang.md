@@ -40,7 +40,7 @@ w2 start
 ```
 访问 `http://localhost:8899/#network` 即可看到
 
-![图片](./yanglegeyang/MTY2MzU2NjE2NzMwMg==663566167302.png)
+![图片](./assets/yanglegeyang-001.png)
 
 然后就是配置CA证书，参照[官方文档: Mac安装根证书](http://wproxy.org/whistle/webui/https.html)，这里不再赘述（CV），只有几个步骤1分钟就能完成配置。
 
@@ -48,7 +48,7 @@ w2 start
 ```sh
 172.30.43.170
 ```
-![图片](./yanglegeyang/MTY2MzU2NjIyNjg3MQ==663566226871.png)
+![图片](./assets/yanglegeyang-002.png)
 
 ### MuMu
 
@@ -56,7 +56,7 @@ w2 start
 
 安装就是官网下载，一顿下一步就行，下面介绍模拟器中的配置（当然大家装完后把微信安装并登录上）
 
-![图片](./yanglegeyang/MTY2MzU2NjQ3NjE0NA==663566476144.png)
+![图片](./assets/yanglegeyang-003.png)
 
 登录微信后，咱就开始配置CA证书
 
@@ -66,17 +66,17 @@ w2 start
 
 输入本机ip，端口`8899`，whistle使用
 
-![图片](./yanglegeyang/MTY2MzU2NjY4ODc0Ng==663566688746.png)
+![图片](./assets/yanglegeyang-004.png)
 
-![图片](./yanglegeyang/MTY2MzU2NjU0MzE4OQ==663566543189.png)
+![图片](./assets/yanglegeyang-005.png)
 
 使用浏览器访问 `rootca.pro` 安装CA证书
 
-![图片](./yanglegeyang/MTY2MzU4NjA4MjIzNQ==663586082235.png)
+![图片](./assets/yanglegeyang-006.png)
 
 配置完毕，不出意外的话，咱们打开羊了个羊就看见网络请求了
 
-![图片](./yanglegeyang/MTY2MzU2NzAxMDc0MQ==663567010741.png)
+![图片](./assets/yanglegeyang-007.png)
 
 ## 方案1：修改关卡数据
 咱把第二关的数据改成第一关，享受游戏的乐趣
@@ -87,7 +87,7 @@ w2 start
 
 返回的就是游戏地图数据
 
-![图片](./yanglegeyang/MTY2MzU2ODA2MDg4MQ==663568060881.png)
+![图片](./assets/yanglegeyang-008.png)
 
 好家伙：第二关比第一关的数据多了不是点吧点
 
@@ -95,14 +95,14 @@ w2 start
 
 1. 复制第一关的数据，添加到whistle Values 面板
 
-![图片](./yanglegeyang/MTY2MzU2OTM2OTcyNw==663569369727.png)
+![图片](./assets/yanglegeyang-009.png)
 
 2. 添加转发规则，在whistle Rules 面板操作
 
 ```sh
 ^cat-match-static.easygame2021.com/maps/***.txt$ resBody://{羊1}
 ```
-![图片](./yanglegeyang/MTY2MzU2OTk5OTIxNQ==663569999215.png)
+![图片](./assets/yanglegeyang-010.png)
 
 3. 删除小游戏重新进入
 
@@ -110,7 +110,7 @@ w2 start
 
 再次打开即可看见，2关都是用的咱们修改后的数据
 
-![图片](./yanglegeyang/MTY2MzU2OTczNTA0Mg==663569735042.png)
+![图片](./assets/yanglegeyang-011.png)
 
 下面是演示录屏
 <video controls style="width:100%;" src="./yanglegeyang/MTY2MzU4MTkxODU3Mw==羊了个羊.mp4?s1=https%3A//img.cdn.sugarat.top/mdImg/MTY2MzU4MTkxODU3Mw%3D%3D%E7%BE%8A%E4%BA%86%E4%B8%AA%E7%BE%8A.mp4"></video>
@@ -119,23 +119,24 @@ w2 start
 * ~~接口1：`https://cat-match.easygame2021.com/sheep/v1/game/game_over?rank_score=1&rank_state=1&rank_time=40&rank_role=1&skin=1`~~ 过了一天换接口了
 * 接口2：POST https://cat-match.easygame2021.com/sheep/v1/game/game_over_ex
 * 鉴权：request header 上的 t 参数，扒拉下来就能用
-![图片](./yanglegeyang/MTY2MzU2NzI2NzkzNA==663567267934.png)
+![图片](./assets/yanglegeyang-012.png)
 
-![图片](./yanglegeyang/MTY2MzU4MjE5MjQwNw==663582192407.png)
+![图片](./assets/yanglegeyang-013.png)
 
 使用 whistle 直接发起请求
 
 选择目标请求
-![图片](./yanglegeyang/MTY2MzU4MjM5Nzk2OQ==663582397969.png)
+![图片](./assets/yanglegeyang-014.png)
 
 修改参数，点击右上角小飞机发起请求
 
-![图片](./yanglegeyang/MTY2MzU4NjIyMjcyNQ==663586222725.png)
+![图片](./assets/yanglegeyang-015.png)
 
 
 ## 最后
 Whistle 这个工具真的很好用，再次安利一下
 
 如果上述方法有问题，欢迎评论区交流
+
 
 

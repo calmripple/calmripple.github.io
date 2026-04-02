@@ -62,7 +62,7 @@ var levelOrder = function (root) {
 ```
 
 ## DFS递归
-![](./treeLevelTraverse/aeed09e12573ec00d83663bb4f77562e8904ac58cdb2cbe6e995f2ac33b12934-0203_1.gif?s1=https%3A//pic.leetcode-cn.com/aeed09e12573ec00d83663bb4f77562e8904ac58cdb2cbe6e995f2ac33b12934-0203_1.gif)
+![](./assets/treeLevelTraverse-001.gif?s1=https%3A//pic.leetcode-cn.com/aeed09e12573ec00d83663bb4f77562e8904ac58cdb2cbe6e995f2ac33b12934-0203_1.gif)
 ```js
 var levelOrder = function (root) {
     if (!root) {
@@ -82,5 +82,6 @@ var levelOrder = function (root) {
     return res
 };
 ```
+
 
 

@@ -46,7 +46,7 @@ function isSameWeek (d1: Date, d2: Date): boolean {
 ### 非同一周的情况
 随便翻开一个日历看一看，分析一波:
 
-![图片](./judgeDate/MTYyMzQ4NzgwOTAyOA==623487809028.png)
+![图片](./assets/judgeDate-001.png)
 
 1. 日期之差大于等于7天 即 **| d1 - d2 | >= 7**
    * 如 06-07 与 06-14，06-07 与 06-15
@@ -117,4 +117,5 @@ console.log(isSameWeek(new Date('2021-06-06 23:59:59'), new Date('2021-06-12')))
 console.log(isSameWeek(new Date('2021-06-12 23:59:59'), new Date('2021-06-19')));  // false
 console.log(isSameWeek(new Date('2021-06-20'), new Date('2021-06-12')));  // false
 ```
+
 

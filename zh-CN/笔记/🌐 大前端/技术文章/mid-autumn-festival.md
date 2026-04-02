@@ -21,7 +21,7 @@ categories:
 
 方便的话可以[原文](https://juejin.cn/post/7006592666846625823)戳个赞
 ## 效果如下
-![图片](./mid-autumn-festival/MTYzMTM0MDYwODYyOQ==631340608629.png)
+![图片](./assets/mid-autumn-festival-001.png)
 
 emmmmm...动图时间较长，需要等一会儿效果才出来
 
@@ -145,7 +145,7 @@ window.addEventListener('mousemove', function (e) {
 
 到这里你以为就结束了？当然没有，此时会有一个问题，你的玉兔指针无法正常工作，如下所示
 
-![图片](./mid-autumn-festival/MTYzMTM0NDc3ODMwMQ==631344778301.png)
+![图片](./assets/mid-autumn-festival-002.png)
 
 当月兔出现的时候，无法正常点击跳链，选择文字元素
 
@@ -259,5 +259,6 @@ window.addEventListener('touchmove', function (e) {
 后续准备把这个设置指针样式的脚本抽成一个通用的js sdk和大家分享，这样想怎么改指针样式就怎么改
 
 大家有更好的方案可以评论区交流一波
+
 
 

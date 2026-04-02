@@ -17,7 +17,7 @@ categories:
 
 在文章中也立下了一个Flag
 
-![图片](./online-resume/MTYxNDUwMTIwOTAzMQ==614501209031.png)
+![图片](./assets/online-resume-001.png)
 
 看了一下Github的 [commit记录](https://github.com/ATQQ/resume/commits/main)，截止目前大概花了一周的时间，把心中所设想的方案做了出来，也许不完美，但我想应该也能帮助到部分同学
 
@@ -35,7 +35,7 @@ categories:
 ## 项目设计
 ### 布局
 
-![图片](./online-resume/MTYxNDUwNzM0ODgzNw==614507348837.png)
+![图片](./assets/online-resume-002.png)
 
 整个应用的基本页面结构
 ```html
@@ -63,7 +63,7 @@ categories:
 
 ### 技术选型
 
-![图片](./online-resume/MTYxNDUwODgzNzIxMA==614508837210.png)
+![图片](./assets/online-resume-003.png)
 
 > Vanilla JS——世界上最轻量的JavaScript框架（没有之一） ---- **原生js**
 
@@ -74,7 +74,7 @@ categories:
 
 ### 通信
 
-![图片](./online-resume/MTYxNDUwOTM4NDkwOQ==614509384909.png)
+![图片](./assets/online-resume-004.png)
 
 * 通过导航栏切换各种简历模板
 * 简历上的改动自动同步到控制区域中的页面描述信息
@@ -82,13 +82,13 @@ categories:
 
 ### 描述简历
 
-![图片](./online-resume/MTYxNDUxMDA2Nzk0MA==614510067940.png)
+![图片](./assets/online-resume-005.png)
 
 * 使用json 对简历的结构与内容进行描述
 * 一个模板对应一个json
 
 ### 页面描述信息展示
-![图片](./online-resume/MTYxNDUxMTMxNTQyMg==614511315422.png)
+![图片](./assets/online-resume-006.png)
 
 * 使用JSON描述简历上的各种信息
 * 提供一个JSON编辑器
@@ -96,16 +96,16 @@ categories:
 
 ### 数据存取
 
-![图片](./online-resume/MTYxNDUxMDU2Njg0NQ==614510566845.png)
+![图片](./assets/online-resume-007.png)
 
 * 整个数据流是单向的，外部负责更新，内部（简历展示部分）只负责读取
 * 数据存放在本地，因此不担心个人信息泄露
 * 这里采用 `localStorage`
 
 ### 第一版效果
-![图片](./online-resume/MTYxNDUxMTcxNzAwNQ==614511717005.png)
+![图片](./assets/online-resume-008.png)
 
-![图片](./online-resume/MTYxNDUxODIzOTU1OQ==614518239559.png)
+![图片](./assets/online-resume-009.png)
 
 
 下面就介绍项目实现的关键部分内容
@@ -158,16 +158,16 @@ categories:
 
 自动生成的结果如下
 
-![图片](./online-resume/MTYxNDUxNDA2NTU5MQ==614514065591.png)
+![图片](./assets/online-resume-010.png)
 
 每个HTMLWebpackPlugin的内容格式如下
 
-![图片](./online-resume/MTYxNDUxNDI3ODI5NQ==614514278295.png)
+![图片](./assets/online-resume-011.png)
 
 ### 自动生成导航栏
 首页顶部有一个导航栏用于切换简历模板的路由
 
-![图片](./online-resume/MTYxNDUxNDU5Mzc1MA==614514593750.png)
+![图片](./assets/online-resume-012.png)
 
 这部分的链接内容如果手动填写是很无趣的，**如何实现自动生成的呢**？
 
@@ -374,7 +374,7 @@ const editor = initEditor('jsonEditor')
 
 展示效果
 
-![图片](./online-resume/MTYxNDUxODc2MDE5Ng==614518760196.png)
+![图片](./assets/online-resume-013.png)
 
 json数据展示/更新时机
 * 因为每次切换路由都会触发iframe的onload事件
@@ -399,7 +399,7 @@ document.getElementById('page').onload = function (e) {
 
 **期望的效果**
 
-![图片](./online-resume/MTYxNDQ4MDYyMjQ1Ng==614480622456.png)
+![图片](./assets/online-resume-014.png)
 
 **描述文件**
 
@@ -842,7 +842,7 @@ export const navTitle = {
 }
 ```
 
-![图片](./online-resume/MTYxNDQ5MDMyMDA3Nw==614490320077.png)
+![图片](./assets/online-resume-015.png)
 
 ### 子页面更新
 前面在实例化editor的时候有一个 `updatePage` 方法
@@ -924,7 +924,7 @@ const editor = initEditor('jsonEditor')
 
 只需要在打印样式中将无关内容进行隐藏即可
 
-![图片](./online-resume/MTYxNDU2NjIzMjYyNQ==614566232625.png)
+![图片](./assets/online-resume-016.png)
 
 基本能做到1比1的还原
 
@@ -1042,12 +1042,12 @@ function updatePage(data) {
 
 **效果**
 
-![图片](./online-resume/MTYxNDU2ODM4MjQzNw==深度录屏_选择区域_20210301111206.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYxNDU2ODM4MjQzNw%3D%3D%25E6%25B7%25B1%25E5%25BA%25A6%25E5%25BD%2595%25E5%25B1%258F_%25E9%2580%2589%25E6%258B%25A9%25E5%258C%25BA%25E5%259F%259F_20210301111206.gif)
+![图片](./assets/online-resume-017.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYxNDU2ODM4MjQzNw%3D%3D%25E6%25B7%25B1%25E5%25BA%25A6%25E5%25BD%2595%25E5%25B1%258F_%25E9%2580%2589%25E6%258B%25A9%25E5%258C%25BA%25E5%259F%259F_20210301111206.gif)
 
 ### 点哪改哪
 
 **期望效果**
-![图片](./online-resume/MTYxNDU3MzIyODM5Mw==resume-update.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYxNDU3MzIyODM5Mw%3D%3Dresume-update.gif)
+![图片](./assets/online-resume-018.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYxNDU3MzIyODM5Mw%3D%3Dresume-update.gif)
 
 诉求：
 * 点击需要修改的部分,就能进行修改操作
@@ -1198,5 +1198,6 @@ document.getElementById('page').contentDocument.body.addEventListener('click', f
    3. 美化界面
 4. 加入自动生成代码模板指令
 5. 接入更多的模板
+
 
 

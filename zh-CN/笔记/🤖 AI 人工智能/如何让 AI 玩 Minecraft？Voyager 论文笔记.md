@@ -6,6 +6,7 @@ tags:
   - 游戏 AI
 categories:
   - AI 人工智能
+title-en: ru-he-rang-a-i-wan-m-i-n-e-c-r-a-f-t-v-o-y-a-g-e-r-lun-wen-bi-ji
 ---
 # 如何让 AI 玩 Minecraft？
 
@@ -67,7 +68,7 @@ categories:
 			- 饥饿：9/9
 	- 然后 LLM 会被要求输出接下来期望的状态，由对应的代码执行
 
-![Voyager flow](./assets/Pasted%20image%2020240710155310.png)
+![Voyager flow](./assets/ru-he-rang-a-i-wan-m-i-n-e-c-r-a-f-t-v-o-y-a-g-e-r-lun-wen-bi-ji-001.png)
 
 - [How Large Language Models play video games - YouTube](https://www.youtube.com/watch?v=cXfnNoMgCio)
 

@@ -5,6 +5,8 @@ tags:
   - PyTorch
 categories:
   - AI 人工智能
+title-en: >-
+  yong-p-y-t-o-r-c-h-l-i-g-h-t-n-i-n-g-jian-kong-he-chuan-liu-p-y-t-o-r-c-h-de-xun-lian-jin-du
 ---
 # 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度
 
@@ -458,7 +460,7 @@ tensorboard --bind_all --logdir .
 >
 > 原地直接安装。
 
-![](./assets/monitoring-and-streaming-pytorch-training-progress-with-pytorch-lightning-screenshot-1.png)
+![](./assets/yong-p-y-t-o-r-c-h-l-i-g-h-t-n-i-n-g-jian-kong-he-chuan-liu-p-y-t-o-r-c-h-de-xun-lian-jin-du-001.png)
 
 ## 额外补充
 
@@ -499,4 +501,5 @@ spec:
 
 - [Pytorch Lightning 和 HuggingFace 的 Trainer 哪个好用？ - 知乎](https://www.zhihu.com/question/521501258)
 - [Tensorboard incorrect logging with DataParallel training · Issue #9839 · Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning/issues/9839)
+
 

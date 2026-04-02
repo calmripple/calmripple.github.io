@@ -4,6 +4,7 @@ tags:
   - 人工智能
 categories:
   - AI 人工智能
+title-en: r-u-s-t-she-qu-de-a-i-sheng-tai
 ---
 
 # Rust 社区的 AI 生态

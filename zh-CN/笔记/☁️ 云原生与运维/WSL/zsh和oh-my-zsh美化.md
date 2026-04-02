@@ -13,6 +13,7 @@ tags:
 categories:
   - 云原生与运维
   - WSL
+title-en: z-s-h-he-o-h-m-y-z-s-h-mei-hua
 ---
 ## 准备
 - window 11

@@ -40,7 +40,7 @@ npx cnnc
 
 [示例结果](https://app.warp.dev/block/wrTUBqnxdg65BqCTgtSgD5) 如下
 
-![](./cnnc/MTY5NDI0OTI5MjYwMg==694249292602.png)
+![](./assets/cnnc-001.png)
 
 当然也同样支持手动传入要更新的包
 
@@ -52,7 +52,7 @@ npx cncc vue react
 
 这样可以直接通过`cnnc`或`cs`命令调用
 
-![](./cnnc/MTY5NDI1NDAxNTM0Nw==694254015347.png)
+![](./assets/cnnc-002.png)
 
 ## 实现原理
 核心代码不到20行，下面详细的拆解一下，便于学习与理解
@@ -134,4 +134,5 @@ function CnpmSync(...names) {
 ---
 
 完整源码见：[GitHub](https://github.com/ATQQ/tools/blob/main/packages/cli/sync-cnpm/README.md)
+
 

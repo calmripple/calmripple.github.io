@@ -50,7 +50,7 @@ t.sayHello3()
 
 ### 执行效果
 
-![图片](./core-decorators-2/MTYyNDc4MTEwMTY4MQ==624781101681.png)
+![图片](./assets/core-decorators-2-001.png)
 
 ### 函数结构
 传入参数:
@@ -142,7 +142,7 @@ t.hello2()
 
 ### 执行效果
 
-![图片](./core-decorators-2/MTYyNDc5MDgwMzc3NA==624790803774.png)
+![图片](./assets/core-decorators-2-002.png)
 
 ### 函数实现
 无需额外传参，直接通过修改装饰对象的`descriptor`上的`writable`属性为`false`实现
@@ -253,6 +253,7 @@ export default function nonconfigurable(target, key, descriptor) {
 * `@lazyInitialize`：在使用的时候才初始化目标属性
 * `@debounce`：防抖
 * `@throttle`：节流
+
 
 
 

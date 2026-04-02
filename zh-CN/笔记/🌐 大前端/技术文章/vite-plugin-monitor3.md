@@ -21,7 +21,7 @@ categories:
 
 ## 插件效果预览
 
-![图片](./vite-plugin-monitor3/MTYzMzA4MTY0NTkzNA==633081645934.png)
+![图片](./assets/vite-plugin-monitor3-001.png)
 
 ## --debug做了什么
 项目启动指令
@@ -91,7 +91,7 @@ export function createDebugger(
 ```
 其中`log`实例通过`debug`方法创建，但这个`debug`方法是一个第三方的库`visionmedia/debug`
 
-![图片](./vite-plugin-monitor3/MTYzMzA5MTM2MjM0Mg==633091362342.png)
+![图片](./assets/vite-plugin-monitor3-002.png)
 
 这个方库虽小，能在`Vite`中被用上想必也不简单，[在线查看源码](https://github1s.com/visionmedia/debug/blob/HEAD/src/node.js)
 
@@ -165,7 +165,7 @@ interface PluginOptions {
 
 其中解析出的几个参数几个参数与原日志内容对应关系如下
 
-![图片](./vite-plugin-monitor3/MTYzMzA5MzM0NDMxNg==633093344317.png)
+![图片](./assets/vite-plugin-monitor3-003.png)
 ```ts
 import type { Plugin } from 'vite';
 import type { PluginOptions } from './types';
@@ -259,5 +259,6 @@ vite --debug
 目前已经能够完全拦截到debug下的所有内容，但内容由于有彩色打印相关的字符，提取信息比较麻烦
 
 下一步将对日志的提取再做一些格式化，确保能够解析出完整的日志内容
+
 
 

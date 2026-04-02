@@ -41,11 +41,11 @@ categories:
 ```
 此时的元素实际宽度为140px
 
-![图片](./box/MTU4MzEzODA3NjQxMQ==583138076411.png)
+![图片](./assets/box-001.png)
 
 当设置为 ``border-box`` 时才会是预期的结果
 
-![图片](./box/MTU4MzEzODIxNzEwOQ==583138217109.png)
+![图片](./assets/box-002.png)
 ## 全局设置
 推荐全局使用border-box
 ```css
@@ -67,4 +67,5 @@ html{
     box-sizing:inherit;
 }
 ```
+
 

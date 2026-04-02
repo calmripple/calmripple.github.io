@@ -200,13 +200,14 @@ setTimeout(() => {
 
 打印结果
 
-![图片](./mergeRequest/MTYxNTAxNjc1ODk0Mw==615016758943.png)
+![图片](./assets/mergeRequest-001.png)
 
 ## 总结
 1. 考察知识点 **event loop**,**防抖**,**Promise**
 2. 这是一个很常见的业务问题,考察面试者的动手实践能力
 
 >代码仅供参考,如有考虑不周之处,还请斧正
+
 
 
 

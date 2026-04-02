@@ -6,6 +6,7 @@ tags:
   - Python
 categories:
   - AI 人工智能
+title-en: d-e-b-u-g-a-n-a-c-o-n-d-a-de-bao-he-jing-xiang
 ---
 # Debug Anaconda 的包和镜像
 
@@ -49,7 +50,7 @@ linux-32   linux-64   linux-aarch64   linux-armv6l   linux-armv7l   linux-ppc64l
 
 的行：
 
-![](./assets/Pasted-image-20241108170553.png)
+![](./assets/d-e-b-u-g-a-n-a-c-o-n-d-a-de-bao-he-jing-xiang-001.png)
 
 这些都是系统内核和 CPU 架构的编码，它会按照：
 
@@ -253,5 +254,6 @@ opendiff nb_conda_kernels-2.5.1-pyh707e725_2/info/info/index.json nb_conda_kerne
 
 直接进行 diff 对比：
 
-![](./assets/Pasted-image-20241108174435.png)
+![](./assets/d-e-b-u-g-a-n-a-c-o-n-d-a-de-bao-he-jing-xiang-002.png)
+
 

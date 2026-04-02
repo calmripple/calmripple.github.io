@@ -8,6 +8,7 @@ tags:
 categories:
   - AI 人工智能
   - Neuro
+title-en: l-i-v-e-2-d-ce-shi-mo-xing
 ---
 # Live2D 测试模型
 

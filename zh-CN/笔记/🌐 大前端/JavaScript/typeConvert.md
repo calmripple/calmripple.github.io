@@ -15,9 +15,9 @@ categories:
 # JavaScript中的类型转换规则
 先上两张有趣的网图:
 
-![图片](./typeConvert/MTYyMzU5NTA3MzMwMA==623595073300.png)
+![图片](./assets/typeConvert-001.png)
 
-![图片](./typeConvert/MTYyMzU5NTExMzY2MQ==623595113661.png)
+![图片](./assets/typeConvert-002.png)
 
 可以看出，JavaScript的隐式类型转换是很有意思的（让人摸不着头脑）
 
@@ -295,7 +295,7 @@ console.log(demo4 + 1); // 报错
 
 >来源于参考资料中的网图
 
-![图片](./typeConvert/MTU5OTQ2OTY5MzkzMQ==599469693931.png)
+![图片](./assets/typeConvert-003.png)
 
 <details>
 <summary>
@@ -372,5 +372,6 @@ false - []
 
 [freeCodeCamp-Javascript 隐式类型转换，一篇就够了](https://chinese.freecodecamp.org/news/javascript-implicit-type-conversion/)
 :::
+
 
 

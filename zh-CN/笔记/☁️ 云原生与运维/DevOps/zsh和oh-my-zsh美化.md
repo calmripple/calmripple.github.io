@@ -15,6 +15,7 @@ tags:
 categories:
   - 云原生与运维
   - DevOps
+title-en: z-s-h-he-o-h-m-y-z-s-h-mei-hua
 ---
 ## 准备
 > 安装wsl以及Ubuntu请参考 [wsl中安装docker 1panel k8s](./install_docker_k8s_1panel_in_WSL)

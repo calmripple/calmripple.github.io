@@ -351,7 +351,7 @@ function checkFopTaskStatus(persistentId){
         throw err
       }
       if (respInfo.statusCode == 200) {
-        // 结构 ![图片](./qiniu-oss/MTYxMjg0MTQyODQ1Mg==612841428452.png)
+        // 结构 ![图片](./assets/qiniu-oss-001.png)
         const item = respBody.items[0]
         const { code, key } = item
         res({ code, key })
@@ -369,5 +369,6 @@ function checkFopTaskStatus(persistentId){
 
 ## 参考
 * [七牛云-Node.js SDK](https://developer.qiniu.com/kodo/1289/nodejs)
+
 
 

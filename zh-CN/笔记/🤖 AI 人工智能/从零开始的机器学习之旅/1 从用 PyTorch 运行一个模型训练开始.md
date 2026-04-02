@@ -9,6 +9,7 @@ tags:
 categories:
   - AI 人工智能
   - 机器学习
+title-en: 1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi
 ---
 
 # 1 从用 PyTorch 运行一个模型训练开始
@@ -41,7 +42,7 @@ cd examples
 
 在 Visual Studio Code 中安装 Python 插件包
 
-![](./assets/start-from-running-a-pytorch-example-screenshot-1.png)
+![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-001.png)
 
 ## 创建项目
 
@@ -170,15 +171,15 @@ Package operations: 17 installs, 0 updates, 0 removals
 
 安装完成之后可能会有这样的提示，这是因为 Python 环境不正确
 
-![](./assets/start-from-running-a-pytorch-example-screenshot-2.png)
+![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-002.png)
 
 可以通过 <kbd data-macos-keyboard-key="command">command</kbd> + <kbd data-keyboard-key="shift">Shift</kbd> + <kbd>P</kbd> 打开 VSCode 的命令面板然后输入「Select Interpreter」来选择正确的 Python 环境中的 Python 程序来解决
 
-![](./assets/start-from-running-a-pytorch-example-screenshot-3.png)
+![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-003.png)
 
 #### 准备代码
 
-![](./assets/start-from-running-a-pytorch-example-screenshot-5.png)
+![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-004.png)
 
 #### 训练
 
@@ -231,5 +232,6 @@ Test set: Average loss: 0.0381, Accuracy: 9869/10000 (99%)
 
 训练完成之后就能看到 `mnist_cnn.pt` 的模型文件了：
 
-![](./assets/start-from-running-a-pytorch-example-screenshot-4.png)
+![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-005.png)
+
 

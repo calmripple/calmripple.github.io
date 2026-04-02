@@ -1,13 +1,13 @@
 ---
 hidden: true
 sidebar:
- title: 性能优化
+  title: 性能优化
 group:
- title: Performance
+  title: Performance
 ---
 # 性能优化笔记
 
-![图片](./index/MTU4MzQwMTU3ODkwNw==583401578907.png)
+![图片](./assets/index-001.png)
 
 :::tip 参考
 [掘金小册:性能优化](https://juejin.im/book/5b936540f265da0a9624b04b/section/5b97cd22e51d450e8f5f6375#heading-2)
@@ -24,3 +24,4 @@ group:
 * [页面预渲染](./preRender.md)
 * [服务端渲染](./ssr.md)
 * [节流与防抖](./throttling.md)
+

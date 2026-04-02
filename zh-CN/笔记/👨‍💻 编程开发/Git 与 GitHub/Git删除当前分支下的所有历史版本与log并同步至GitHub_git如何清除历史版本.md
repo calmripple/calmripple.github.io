@@ -15,6 +15,8 @@ tags:
 categories:
   - 编程开发
   - Git
+title-en: >-
+  g-i-t-shan-chu-dang-qian-fen-zhi-xia-de-suo-you-li-shi-ban-ben-yu-l-o-g-bing-tong-bu-zhi-g-i-t-h-u-b-g-i-t-ru-he-qing-chu-li-shi-ban-ben
 ---
 
 # 1. Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本-CSDN博客
@@ -109,8 +111,8 @@ git push -f origin master
 
 ```
 
-![在这里插入图片描述](./Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本/20190709062953681.png)
-![在这里插入图片描述](./Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本/x-oss-process=image.png)
+![在这里插入图片描述](./assets/g-i-t-shan-chu-dang-qian-fen-zhi-xia-de-suo-you-li-shi-ban-ben-yu-l-o-g-bing-tong-bu-zhi-g-i-t-h-u-b-g-i-t-ru-he-qing-chu-li-shi-ban-ben-001.png)
+![在这里插入图片描述](./assets/g-i-t-shan-chu-dang-qian-fen-zhi-xia-de-suo-you-li-shi-ban-ben-yu-l-o-g-bing-tong-bu-zhi-g-i-t-h-u-b-g-i-t-ru-he-qing-chu-li-shi-ban-ben-002.png)
 
 ## 1.3. 方法二
 
@@ -141,4 +143,5 @@ git add * git commit -am 'message'
 git push -f origin master
 
 ```
+
 

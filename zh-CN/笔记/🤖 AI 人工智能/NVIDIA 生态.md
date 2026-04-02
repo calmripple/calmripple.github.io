@@ -4,6 +4,7 @@ tags:
   - 人工智能
 categories:
   - AI 人工智能
+title-en: n-v-i-d-i-a-sheng-tai
 ---
 # NVIDIA 生态
 

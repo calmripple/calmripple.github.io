@@ -10,6 +10,7 @@ tags:
 categories:
   - AI 人工智能
   - AI 领域应用
+title-en: zai-m-a-c-o-s-shang-pei-zhi-g-p-t-s-o-v-i-t-s-w-e-b-u-i
 ---
 
 # 在 macOS 上配置 GPT-SoVITS-WebUI

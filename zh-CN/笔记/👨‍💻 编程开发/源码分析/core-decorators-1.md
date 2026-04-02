@@ -90,7 +90,7 @@ ts-node first.ts
 ```
 
 ## 源码目录
-![图片](./core-decorators-1/MTYyNDcxMjM5NTAzMQ==624712395031.png)
+![图片](./assets/core-decorators-1-001.png)
 
 简单数了一下大概有`17`个，咱一个个的挨着学，细细品
 
@@ -120,7 +120,7 @@ t.sayHello()
 
 ### 执行效果
 
-![图片](./core-decorators-1/MTYyNDcxOTI4NjkxNQ==624719286915.png)
+![图片](./assets/core-decorators-1-002.png)
 
 
 ### console.time实现
@@ -214,5 +214,6 @@ export default function time(prefix: null | string = null, console = defaultCons
 本文主要介绍了测试环境的搭建，跟着源码一起重现了`time`函数
 
 后续文章将直接对源码进行分析与学习
+
 
 
