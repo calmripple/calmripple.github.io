@@ -1,4 +1,5 @@
 import type { DefaultTheme } from 'vitepress'
+import { Buffer } from 'node:buffer'
 import { resolve } from 'node:path'
 import process from 'node:process'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
@@ -292,6 +293,25 @@ export default defineConfig({
     config: (md) => {
       md.use(MarkdownItFootnote)
       md.use(MarkdownItMathjax3)
+
+      const defaultFenceRenderer = md.renderer.rules.fence
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const language = token.info.trim().toLowerCase()
+
+        if (language === 'mermaid') {
+          // Encode as base64 UTF-8 to safely pass the diagram source through
+          // SSR/hydration without HTML-encoding or Vue template compilation issues.
+          const encoded = Buffer.from(token.content.trim(), 'utf8').toString('base64')
+          return `<Mermaid code="${encoded}" />`
+        }
+
+        if (defaultFenceRenderer)
+          return defaultFenceRenderer(tokens, idx, options, env, self)
+
+        return self.renderToken(tokens, idx, options)
+      }
+
       md.core.ruler.after('block', 'normalize-dataview-fence', (state) => {
         for (const token of state.tokens) {
           if (token.type !== 'fence')
