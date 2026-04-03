@@ -137,7 +137,6 @@ export default defineConfig({
         '@nolebase/vitepress-plugin-git-changelog',
         '@nolebase/vitepress-plugin-index',
         'virtual:nolebase-git-changelog',
-        '@unlazy/vue',
       ],
     },
     build: {
