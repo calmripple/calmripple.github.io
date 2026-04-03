@@ -1,11 +1,14 @@
-import type { DefaultTheme } from 'vitepress'
 import { Buffer } from 'node:buffer'
 import { resolve } from 'node:path'
 import process from 'node:process'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
-import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
+import {
+  buildAutoSidebar,
+  createAutoSidebarVirtualIndexPlugin,
+  type SidebarTarget,
+} from './plugins/auto-sidebar'
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
@@ -36,43 +39,12 @@ const autoImportsDtsPath = resolve(vitepressRoot, 'auto-imports.d.ts')
 const nolebase = presetMarkdownIt({
   unlazyImages: false,
 })
-const sidebarTargets = [
-  { folderName: 'zh-CN/笔记', separate: true },
-  { folderName: 'zh-CN/编目 Catalog', separate: true },
+
+// Sidebar targets (paths relative to srcDir = zh-CN/)
+const sidebarTargets: SidebarTarget[] = [
+  { folderName: '笔记', separate: true },
+  { folderName: '编目 Catalog', separate: true },
 ]
-
-const zhCNPathRegex = /^\/zh-CN(?=\/|$)/
-function rewriteSidebarPath(path: string) {
-  return path.replace(zhCNPathRegex, '') || '/'
-}
-
-function rewriteSidebarItems(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarItem[] {
-  return items.map(item => ({
-    ...item,
-    link: item.link ? rewriteSidebarPath(item.link) : item.link,
-    items: item.items ? rewriteSidebarItems(item.items) : item.items,
-  }))
-}
-
-function buildSidebar(): DefaultTheme.Sidebar {
-  const rawSidebar = calculateSidebar(sidebarTargets, 'zh-CN')
-
-  if (Array.isArray(rawSidebar))
-    return rewriteSidebarItems(rawSidebar)
-
-  return Object.fromEntries(
-    Object.entries(rawSidebar).map(([key, section]) => {
-      const normalizedSection = Array.isArray(section)
-        ? rewriteSidebarItems(section)
-        : {
-            ...section,
-            items: rewriteSidebarItems(section.items),
-          }
-
-      return [rewriteSidebarPath(key), normalizedSection]
-    }),
-  ) as DefaultTheme.SidebarMulti
-}
 
 const nolebaseVite = presetVite({
   thumbnailHashImages: false,
@@ -102,10 +74,23 @@ const nolebaseVite = presetVite({
   },
 })
 const relativeUrl = process.env.RELATIVE_URL ?? ''
+const autoSidebarVirtualIndex = createAutoSidebarVirtualIndexPlugin({
+  srcDir: docsRoot,
+  targets: sidebarTargets,
+  base: relativeUrl,
+})
+
+// 从 CLI 参数 --srcExclude=glob1,glob2,... 中读取要排除的目录。
+// 例: vitepress build --srcExclude="笔记/🤖 AI 人工智能/**,笔记/📋 面试题/**"
+const srcExcludeArg = process.argv.find(arg => arg.startsWith('--srcExclude='))
+const srcExclude = srcExcludeArg
+  ? srcExcludeArg.slice('--srcExclude='.length).split(',').filter(Boolean)
+  : []
 
 export default defineConfig({
   base: relativeUrl,
   srcDir: docsRoot,
+  srcExclude,
   vite: {
     publicDir: publicRoot,
     resolve: {
@@ -166,6 +151,7 @@ export default defineConfig({
       UnoCSS(),
       nolebaseVite,
       ...nolebaseVite.plugins(),
+      autoSidebarVirtualIndex,
     ],
   },
   vue: {
@@ -276,7 +262,7 @@ export default defineConfig({
           pattern: `${githubRepoLink}/tree/main/:path`,
           text: '编辑本页面',
         },
-        sidebar: buildSidebar(),
+        sidebar: buildAutoSidebar(docsRoot, sidebarTargets),
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
           copyright:
