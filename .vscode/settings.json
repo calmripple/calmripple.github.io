@@ -96,5 +96,6 @@
   "explorer.excludeGitIgnore": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.tabs.title": "${profile}",
-  "github.copilot.chat.rateLimitAutoSwitchToAuto": true
+  "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
+  "js/ts.tsdk.path": "node_modules/typescript/lib"
 }
