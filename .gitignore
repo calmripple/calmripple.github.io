@@ -48,20 +48,6 @@ components.d.ts
 
 *.log
 
-# Note assets and images
-
-**/assets/**/*.png
-**/assets/**/*.jpg
-**/assets/**/*.jpeg
-**/assets/**/*.gif
-**/assets/**/*.webp
-**/assets/**/*.svg
-**/assets/**/*.avif
-**/assets/**/*.bmp
-**/assets/**/*.ico
-**/assets/**/*.tif
-**/assets/**/*.tiff
-
 languages/api.json
 languages/translates/*/*.bak.*.json
 **/*.wrapped.*
