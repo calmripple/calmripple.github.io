@@ -158,7 +158,7 @@ h1{
 ```
 显示效果(不发生改变,说明是 我们设置的service Worker生效了)
 
-![图片](./cache/MTU4MzI5MzY2MjYwOQ==583293662609.png)
+![图片](./assets/cache-001.png)
 
 查看控制台中的network
 

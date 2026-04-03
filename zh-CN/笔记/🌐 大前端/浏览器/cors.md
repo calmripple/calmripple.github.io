@@ -298,7 +298,7 @@ function jsonp(url, callbackName, success) {
 
 如果Origin的内容不包含在请求的响应头`Access-Control-Allow-Origin`中,就会抛出以下错误
 
-![图片](./cors/MTYwNjY1MTgwMTg3OQ==606651801879.png)
+![图片](./assets/cors-006.png)
 
 与CORS有关的以`Access-Control-`开头的响应头：
 * Access-Control-Allow-Origin：该字段是CORS中必须有的字段，它的值是请求时Origin字段的值以`,`分割多个域名，或者是`*`，表示对所有请求都放行

@@ -1,5 +1,5 @@
 ---
-cover: ./theme/MTY3MzE3MDUxOTMwMw==673170519303.png
+cover: ./assets/theme-001.png
 description: 简约风的vitepress博客主题介绍
 date: 2023-02-05T14:00:00.000Z
 sticky: 800
