@@ -142,7 +142,7 @@ scheme://host:port/path?query
 |    Expires     |      告知客户端资源失效日期      |
 | Last-Modified  | 告知客户端资源最后一次修改的时间 |
 
-**[cookie](./../../bigWeb/browser/storage.md#Cookie)**
+**[cookie](../../🌐 大前端/浏览器/storage.md#cookie)**
 |    字段    |           作用           |
 | :--------: | :----------------------: |
 |   Cookie   |     请求时添加cookie     |

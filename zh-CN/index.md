@@ -16,7 +16,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zh-CN/笔记/index
+      link: /笔记/
     - theme: alt
       text: 在 Mastodon 联系
       link: https://mas.to/@cnjimbo
