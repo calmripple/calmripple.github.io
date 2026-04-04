@@ -5,12 +5,12 @@ import Components from 'unplugin-vue-components/vite'
 import {
   buildDirectoryItems,
   buildFileTree,
-  filterVisibleMarkdownFiles,
   normalizeRootPath,
   scanMarkdownFiles,
   sortEntries,
 } from './helpers'
 import type {
+  DirNode,
   MarkdownMeta,
   ResolvedTocSidebarOptions,
   TocSidebarBuildOptions,
@@ -60,11 +60,72 @@ const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   },
 }
 
-export function generateTocSidebar(userOptions: TocSidebarBuildOptions): DefaultTheme.SidebarMulti {
-  return createTocSidebarPlugin(userOptions).buildSidebar()
+interface BuildAllTreeNodeResult {
+  tree: Map<string, DirNode>
+  rawTree: Map<string, DirNode>
 }
 
-export function createTocSidebarPlugin(
+function buildAllTreeNode(
+  baseDir: string,
+  options: ResolvedTocSidebarOptions,
+  hooks: TocSidebarLifecycleHooks,
+): BuildAllTreeNodeResult {
+  const scannedFiles = scanMarkdownFiles(baseDir, options)
+  hooks.onFilesScanned?.(scannedFiles)
+
+  const visibleFiles = scannedFiles
+  hooks.onFilesFiltered?.(visibleFiles)
+
+  const tree = buildFileTree(visibleFiles)
+  const rawTree = buildFileTree(scannedFiles)
+  hooks.onTreeBuilt?.(tree)
+
+  return {
+    tree,
+    rawTree,
+  }
+}
+
+function buildAllToc(
+  baseDir: string,
+  userOptions: TocSidebarBuildOptions,
+  options: ResolvedTocSidebarOptions,
+  cache: Map<string, MarkdownMeta>,
+  tree: Map<string, DirNode>,
+  rawTree: Map<string, DirNode>,
+): DefaultTheme.SidebarMulti {
+  const roots = userOptions.roots && userOptions.roots.length > 0
+    ? userOptions.roots.map(normalizeRootPath)
+    : sortEntries([...(tree.get('')?.directories ?? [])], options.sortByName)
+
+  const sidebar: DefaultTheme.SidebarMulti = {}
+  for (const root of roots) {
+    if (!root || !tree.has(root)) {
+      continue
+    }
+
+    const rootPath = `/${root}/`
+    sidebar[rootPath] = buildDirectoryItems(baseDir, root, 0, options, cache, tree, rawTree)
+  }
+
+  return sidebar
+}
+
+function buildsidebar(
+  baseDir: string,
+  userOptions: TocSidebarBuildOptions,
+  options: ResolvedTocSidebarOptions,
+  hooks: TocSidebarLifecycleHooks,
+): DefaultTheme.SidebarMulti {
+  const cache = new Map<string, MarkdownMeta>()
+  const { tree, rawTree } = buildAllTreeNode(baseDir, options, hooks)
+  const sidebar = buildAllToc(baseDir, userOptions, options, cache, tree, rawTree)
+  hooks.onSidebarBuilt?.(sidebar)
+  return sidebar
+}
+
+
+function createTocSidebarPlugin(
   userOptions: TocSidebarBuildOptions,
   hooks: TocSidebarLifecycleHooks = {},
 ): TocSidebarPlugin {
@@ -105,38 +166,7 @@ export function createTocSidebarPlugin(
 
   hooks.onOptionsResolved?.(options)
 
-  const buildSidebar = (): DefaultTheme.SidebarMulti => {
-    const baseDir = resolve(options.dir)
-    const cache = new Map<string, MarkdownMeta>()
-
-    // 1) glob filtering produces the source-of-truth markdown file set.
-    const scannedFiles = scanMarkdownFiles(baseDir, options)
-    hooks.onFilesScanned?.(scannedFiles)
-    const visibleFiles = filterVisibleMarkdownFiles(scannedFiles)
-    hooks.onFilesFiltered?.(visibleFiles)
-
-    // 2) build virtual directory tree from filtered files.
-    const tree = buildFileTree(visibleFiles)
-    const rawTree = buildFileTree(scannedFiles)
-    hooks.onTreeBuilt?.(tree)
-
-    const roots = userOptions.roots && userOptions.roots.length > 0
-      ? userOptions.roots.map(normalizeRootPath)
-      : sortEntries([...(tree.get('')?.directories ?? [])], options.sortByName)
-
-    const sidebar: DefaultTheme.SidebarMulti = {}
-    for (const root of roots) {
-      if (!root || !tree.has(root)) {
-        continue
-      }
-
-      const rootPath = `/${root}/`
-      sidebar[rootPath] = buildDirectoryItems(baseDir, root, 0, options, cache, tree, rawTree)
-    }
-
-    hooks.onSidebarBuilt?.(sidebar)
-    return sidebar
-  }
+  const buildSidebar = (): DefaultTheme.SidebarMulti => buildsidebar(resolve(options.dir), userOptions, options, hooks)
 
   return {
     name: 'vitepress-plugin-toc-sidebar',

@@ -229,10 +229,6 @@ export function scanMarkdownFiles(baseDir: string, options: ResolvedTocSidebarOp
     .filter(file => extname(file) === '.md')
 }
 
-export function filterVisibleMarkdownFiles(markdownFiles: string[]): string[] {
-  return markdownFiles
-}
-
 function createDirNode(): DirNode {
   return {
     directories: new Set<string>(),
@@ -374,30 +370,14 @@ export function buildDirectoryItems(
     const children = buildDirectoryItems(baseDir, childDir, depth + 1, options, cache, tree, rawTree)
     const hiddenMarkdownLinks = collectAutoTocLinksForDirectory(baseDir, childDir, options, cache, tree)
     const rawMarkdownLinks = collectRawMarkdownLinksForDirectory(baseDir, childDir, options, cache, rawTree)
-    const visibleSidebarLinks: AutoTocLinkItem[] = []
-
-    for (const fileName of sortEntries([...childNode.files], options.sortByName)) {
-      if (extname(fileName) !== '.md') {
-        continue
-      }
-
-      const relativeFile = childDir ? `${childDir}/${fileName}` : fileName
-      const absoluteFile = join(baseDir, relativeFile)
-      const link = toVpPageLink(relativeFile)
-      const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
-      const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
-
-      visibleSidebarLinks.push({ text: title, link })
-    }
 
     const indexRel = childDir ? `${childDir}/index.md` : 'index.md'
     const hasIndex = childNode.files.has('index.md')
-    const link = hasIndex && options.folderLinkFromIndexFile ? toVpDirectoryLink(indexRel) : undefined
+    const link = hasIndex ? toVpDirectoryLink(indexRel) : undefined
     const directoryTocItems = hasIndex
       ? buildDirectoryTocItems(baseDir, join(baseDir, indexRel), options, cache)
       : []
-    const visibleFileItems = visibleSidebarLinks.map(file => ({ text: file.text, link: file.link }))
-    const items = [...directoryTocItems, ...visibleFileItems, ...children]
+    const items = [...directoryTocItems, ...children]
     const autoTocDirPath = `/${childDir}`
 
     if (items.length > 0 || link || hiddenMarkdownLinks.length > 0 || rawMarkdownLinks.length > 0) {
@@ -417,6 +397,16 @@ export function buildDirectoryItems(
   for (const fileName of fileNames) {
     if (extname(fileName) !== '.md') {
       continue
+    }
+
+    const isIndex = fileName === 'index.md'
+    if (isIndex) {
+      const includeIndex = depth === 0
+        ? options.sidebarFilter.includeRootIndex
+        : options.sidebarFilter.includeFolderIndex
+      if (!includeIndex) {
+        continue
+      }
     }
 
     const relativeFile = currentDir ? `${currentDir}/${fileName}` : fileName
