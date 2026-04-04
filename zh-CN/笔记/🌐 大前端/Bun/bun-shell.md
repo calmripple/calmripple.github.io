@@ -1,5 +1,5 @@
 ---
-sidebar: false
+sidebar: true
 description: >-
   JavaScript 是世界上最流行的脚本语言。那么为什么在 `JavaScript` 中执行 `Shell` 脚本很困难呢？Bun
   又是怎么解决这个问题的？
@@ -236,5 +236,6 @@ bun test.ts
 [运行结果](https://app.warp.dev/block/VLbnk6T4x6rCSVZT2uwWs7) 如下
 
 ![](./assets/bun-shell-004.png)
+
 
 

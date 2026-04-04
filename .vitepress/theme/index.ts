@@ -3,6 +3,7 @@ import type { Theme } from 'vitepress'
 import { presetClient } from '@nolebase/integrations/vitepress/client'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
+import { createTocSidebarClientPlugin } from '@/plugins/vitepress-plugin-toc-sidebar/client'
 import DocFooter from '@/theme/components/DocFooter.vue'
 import Share from '@/theme/components/Share.vue'
 import 'virtual:uno.css'
@@ -26,6 +27,8 @@ const nolebase = presetClient<{
     },
   },
 })
+
+const tocSidebarClientPlugin = createTocSidebarClientPlugin()
 
 const ExtendedTheme: Theme = {
   extends: DefaultTheme,
@@ -52,6 +55,7 @@ const ExtendedTheme: Theme = {
   },
   async enhanceApp(ctx) {
     await nolebase?.enhanceApp?.(ctx)
+    tocSidebarClientPlugin.enhanceApp(ctx.app)
   },
 }
 

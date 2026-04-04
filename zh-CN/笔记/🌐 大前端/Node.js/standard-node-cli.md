@@ -1,5 +1,5 @@
 ---
-sidebar: false
+sidebar: true
 description: 只使用 Node.js 的标准库，不安装任何外部依赖，写一个命令行工具
 tags:
   - 前端
@@ -321,4 +321,5 @@ ok 1 - /home/evert/src/changelog-tool/test/parse.mjs
 [Github 上的 changelog-tool 项目](https://github.com/evert/changelog-tool)。
 
 *最后一句话确实挺值得思考的，现在好像无论做什么项目，都想先找个模板然后才开始🤔*
+
 

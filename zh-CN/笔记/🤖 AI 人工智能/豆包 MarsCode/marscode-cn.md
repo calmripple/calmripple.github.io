@@ -1,5 +1,5 @@
 ---
-sidebar: false
+sidebar: true
 date: 2024-07-05T18:00:00.000Z
 tag: AI
 tags:
@@ -194,4 +194,5 @@ git push
 再次访问页面就是新的内容了。
 
 ![](https://cdn.upyun.sugarat.top/mdImg/sugar/c37c9ca0f405eb1d0646a4753e37bbfc)
+
 

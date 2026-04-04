@@ -4,11 +4,7 @@ import process from 'node:process'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
-import {
-  buildAutoSidebar,
-  createAutoSidebarVirtualIndexPlugin,
-  type SidebarTarget,
-} from './plugins/auto-sidebar'
+import { createTocSidebarVitePlugin, type TocSidebarBuildOptions } from './plugins/vitepress-plugin-toc-sidebar'
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
@@ -40,12 +36,6 @@ const nolebase = presetMarkdownIt({
   unlazyImages: false,
 })
 
-// Sidebar targets (paths relative to srcDir = zh-CN/)
-const sidebarTargets: SidebarTarget[] = [
-  { folderName: '笔记', separate: true },
-  { folderName: '编目 Catalog', separate: true },
-]
-
 const nolebaseVite = presetVite({
   thumbnailHashImages: false,
   gitChangelog: {
@@ -74,11 +64,31 @@ const nolebaseVite = presetVite({
   },
 })
 const relativeUrl = process.env.RELATIVE_URL ?? ''
-const autoSidebarVirtualIndex = createAutoSidebarVirtualIndexPlugin({
-  srcDir: docsRoot,
-  targets: sidebarTargets,
-  base: relativeUrl,
-})
+
+const tocSidebarOptions: TocSidebarBuildOptions = {
+  dir: './zh-CN',
+  roots: [
+    '笔记',
+    '编目 Catalog',
+  ],
+  showMarkdownLinks: false,
+  hideDirsWithoutMarkdown: true,
+  includeRootIndex: false,
+  includeFolderIndex: false,
+  collapsed: true,
+  folderLinkFromIndexFile: true,
+  frontmatterTitleField: 'sidebarTitle',
+  excludeFilesByFrontmatterFieldName: 'sidebarHide',
+  formatSortPrefix: true,
+  sortByName: true,
+  toc: {
+    enabled: true,
+    minDepth: 2,
+    maxDepth: 3,
+    collapsed: true,
+    includeOnIndexPages: false,
+  },
+}
 
 // 从 CLI 参数 --srcExclude=glob1,glob2,... 中读取要排除的目录。
 // 例: vitepress build --srcExclude="笔记/🤖 AI 人工智能/**,笔记/📋 面试题/**"
@@ -128,6 +138,7 @@ export default defineConfig({
       chunkSizeWarningLimit: 800,
     },
     plugins: [
+      createTocSidebarVitePlugin(tocSidebarOptions),
       Inspect(),
       AutoImport({
         include: [
@@ -151,7 +162,6 @@ export default defineConfig({
       UnoCSS(),
       nolebaseVite,
       ...nolebaseVite.plugins(),
-      autoSidebarVirtualIndex,
     ],
   },
   vue: {
@@ -262,11 +272,10 @@ export default defineConfig({
           pattern: `${githubRepoLink}/tree/main/:path`,
           text: '编辑本页面',
         },
-        sidebar: buildAutoSidebar(docsRoot, sidebarTargets),
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
           copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 知在 的创作者们',
+            '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 知在 的创作者们',
         },
       },
     },
