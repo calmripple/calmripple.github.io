@@ -101,11 +101,11 @@ function findSameLevelGroup(items: SidebarItem[], routePath: string): SidebarIte
   const dfs = (list: SidebarItem[]): SidebarItem[] | null => {
     for (const item of list) {
       if ('link' in item && item.link && routeMatches(normalizedRoute, item.link)) {
-        const hiddenLinks = ((item as any).__autoTocLinks ?? []) as AutoTocEntry[]
+        const hiddenLinks = (((item as any).__autoTocRawLinks ?? (item as any).__autoTocLinks) ?? []) as AutoTocEntry[]
         const hiddenItems = hiddenLinks.length ? toLinkItems(hiddenLinks) : []
 
         if ('items' in item && item.items?.length) {
-          return [...item.items, ...hiddenItems]
+          return [...hiddenItems, ...item.items]
         }
 
         if (hiddenItems.length) {
@@ -152,7 +152,7 @@ function findLinksByDirectoryPath(items: SidebarItem[], routePath: string): Side
   const dfs = (list: SidebarItem[]): SidebarItem[] | null => {
     for (const item of list) {
       const itemDirPath = normalizePath(((item as any).__autoTocDirPath ?? '') as string)
-      const hiddenLinks = ((item as any).__autoTocLinks ?? []) as AutoTocEntry[]
+      const hiddenLinks = (((item as any).__autoTocRawLinks ?? (item as any).__autoTocLinks) ?? []) as AutoTocEntry[]
       if (itemDirPath && itemDirPath === targetDirPath && hiddenLinks.length > 0) {
         return toLinkItems(hiddenLinks)
       }
@@ -177,6 +177,8 @@ const siblingEntries = computed(() => {
     ?? findLinksByDirectoryPath(sidebarItems, route.path)
     ?? []
 
+  const seen = new Set<string>()
+
   return siblings
     .filter(item => 'link' in item && !!item.link)
     .map((item) => {
@@ -187,6 +189,14 @@ const siblingEntries = computed(() => {
         link,
         active: routeMatches(route.path, link),
       }
+    })
+    .filter((item) => {
+      const key = normalizePath(item.link)
+      if (seen.has(key)) {
+        return false
+      }
+      seen.add(key)
+      return true
     })
 })
 </script>
