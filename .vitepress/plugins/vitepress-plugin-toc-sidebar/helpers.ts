@@ -133,9 +133,7 @@ function buildTocItems(pageLink: string, headings: Heading[], options: ResolvedT
     return []
   }
 
-  const minDepth = options.toc.minDepth ?? 2
-  const maxDepth = options.toc.maxDepth ?? 3
-  const usable = headings.filter(h => h.depth >= minDepth && h.depth <= maxDepth)
+  const usable = headings
   if (usable.length === 0) {
     return []
   }
@@ -374,10 +372,7 @@ export function buildDirectoryItems(
     const indexRel = childDir ? `${childDir}/index.md` : 'index.md'
     const hasIndex = childNode.files.has('index.md')
     const link = hasIndex ? toVpDirectoryLink(indexRel) : undefined
-    const directoryTocItems = hasIndex
-      ? buildDirectoryTocItems(baseDir, join(baseDir, indexRel), options, cache)
-      : []
-    const items = [...directoryTocItems, ...children]
+    const items = [...children]
     const autoTocDirPath = `/${childDir}`
 
     if (items.length > 0 || link || hiddenMarkdownLinks.length > 0 || rawMarkdownLinks.length > 0) {

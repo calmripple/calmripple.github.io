@@ -53,10 +53,7 @@ const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   sortByName: true,
   toc: {
     enabled: true,
-    minDepth: 2,
-    maxDepth: 3,
     collapsed: true,
-    includeOnIndexPages: false,
   },
 }
 

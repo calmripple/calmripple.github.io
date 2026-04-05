@@ -30,10 +30,7 @@ export interface TocSidebarBuildOptions {
   sortByName?: boolean
   toc?: {
     enabled?: boolean
-    minDepth?: number
-    maxDepth?: number
     collapsed?: boolean
-    includeOnIndexPages?: boolean
   }
 }
 

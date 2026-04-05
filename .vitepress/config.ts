@@ -90,10 +90,7 @@ const tocSidebarOptions: TocSidebarBuildOptions = {
   sortByName: true,
   toc: {
     enabled: true,
-    minDepth: 0,
-    maxDepth: 10,
     collapsed: true,
-    includeOnIndexPages: true,
   },
 }
 

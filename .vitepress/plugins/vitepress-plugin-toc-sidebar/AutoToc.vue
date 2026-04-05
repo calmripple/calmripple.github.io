@@ -9,6 +9,13 @@ interface AutoTocEntry {
   link: string
 }
 
+interface DisplayEntry {
+  text: string
+  link: string
+  active: boolean
+  kind: 'directory' | 'file'
+}
+
 const route = useRoute()
 const { theme } = useData()
 
@@ -45,6 +52,11 @@ function normalizePath(path: string): string {
   }
 
   return normalized || '/'
+}
+
+function isDirectoryLink(link: string): boolean {
+  const normalized = safeDecode(stripHash(link))
+  return normalized === '/' || normalized.endsWith('/')
 }
 
 function routeMatches(routePath: string, link: string): boolean {
@@ -171,7 +183,7 @@ function findLinksByDirectoryPath(items: SidebarItem[], routePath: string): Side
   return dfs(items)
 }
 
-const siblingEntries = computed(() => {
+const siblingEntries = computed<DisplayEntry[]>(() => {
   const sidebarItems = pickSidebarForRoute(theme.value.sidebar, route.path)
   const siblings = findSameLevelGroup(sidebarItems, route.path)
     ?? findLinksByDirectoryPath(sidebarItems, route.path)
@@ -183,11 +195,13 @@ const siblingEntries = computed(() => {
     .filter(item => 'link' in item && !!item.link)
     .map((item) => {
       const link = (item as { link: string }).link
-      const text = item.text
+      const text = item.text ?? link
+      const kind: DisplayEntry['kind'] = isDirectoryLink(link) ? 'directory' : 'file'
       return {
         text,
         link,
         active: routeMatches(route.path, link),
+        kind,
       }
     })
     .filter((item) => {
@@ -199,18 +213,56 @@ const siblingEntries = computed(() => {
       return true
     })
 })
+
+const groupedEntries = computed(() => {
+  const directories: DisplayEntry[] = []
+  const files: DisplayEntry[] = []
+
+  for (const entry of siblingEntries.value) {
+    if (entry.kind === 'directory') {
+      directories.push(entry)
+    }
+    else {
+      files.push(entry)
+    }
+  }
+
+  return {
+    directories,
+    files,
+  }
+})
 </script>
 
 <template>
-  <nav v-if="siblingEntries.length" class="auto-toc" aria-label="同级目录">
+  <nav v-if="groupedEntries.directories.length || groupedEntries.files.length" class="auto-toc" aria-label="同级目录">
     <h2 class="auto-toc__title">同级目录</h2>
-    <ul class="auto-toc__list">
-      <li v-for="item in siblingEntries" :key="item.link" class="auto-toc__item">
-        <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
-          {{ item.text }}
-        </a>
-      </li>
-    </ul>
+
+    <section v-if="groupedEntries.files.length" class="auto-toc__section auto-toc__section--file">
+      <h3 class="auto-toc__section-title">
+        <span class="auto-toc__badge auto-toc__badge--file">文章</span>
+      </h3>
+      <ul class="auto-toc__list">
+        <li v-for="item in groupedEntries.files" :key="item.link" class="auto-toc__item">
+          <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
+            {{ item.text }}
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section v-if="groupedEntries.directories.length" class="auto-toc__section auto-toc__section--dir">
+      <h3 class="auto-toc__section-title">
+        <span class="auto-toc__badge auto-toc__badge--dir">目录</span>
+      </h3>
+      <ul class="auto-toc__list">
+        <li v-for="item in groupedEntries.directories" :key="item.link" class="auto-toc__item">
+          <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
+            {{ item.text }}
+          </a>
+        </li>
+      </ul>
+    </section>
   </nav>
 </template>
 
@@ -228,6 +280,45 @@ const siblingEntries = computed(() => {
   font-size: 14px;
   font-weight: 600;
   color: var(--vp-c-text-2);
+}
+
+.auto-toc__section {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+}
+
+.auto-toc__section--dir {
+  border-left: 4px solid #1d8f4e;
+}
+
+.auto-toc__section--file {
+  border-left: 4px solid #2f6feb;
+}
+
+.auto-toc__section-title {
+  margin: 0 0 8px;
+}
+
+.auto-toc__badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.auto-toc__badge--dir {
+  color: #0f5c2f;
+  background: #dff3e8;
+}
+
+.auto-toc__badge--file {
+  color: #1f4ea8;
+  background: #e2edff;
 }
 
 .auto-toc__list {
