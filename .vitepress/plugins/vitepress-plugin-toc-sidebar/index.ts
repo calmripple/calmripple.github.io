@@ -1,7 +1,6 @@
 import { resolve } from 'node:path'
 import type { DefaultTheme } from 'vitepress'
 import type { Plugin } from 'vite'
-import Components from 'unplugin-vue-components/vite'
 import {
   buildDirectoryItems,
   buildFileTree,
@@ -18,12 +17,17 @@ import type {
   TocSidebarPlugin,
   ViteUserConfigLike,
 } from './types'
+import { TocSidebarResolver } from './resolvers'
 
 export type {
   TocSidebarBuildOptions,
   TocSidebarLifecycleHooks,
   TocSidebarPlugin,
 } from './types'
+
+export {
+  TocSidebarResolver,
+}
 
 const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   includeGlobs: ['**/*.md'],
@@ -174,7 +178,6 @@ function createTocSidebarPlugin(
 
 export function createTocSidebarVitePlugin(options: TocSidebarBuildOptions): Plugin {
   const runtime = createTocSidebarPlugin(options)
-  const pluginComponentsDir = resolve(process.cwd(), '.vitepress/plugins/vitepress-plugin-toc-sidebar')
 
   return {
     name: 'vitepress-plugin-toc-sidebar:inject',
@@ -201,16 +204,7 @@ export function createTocSidebarVitePlugin(options: TocSidebarBuildOptions): Plu
         }
       }
 
-      return {
-        ...config,
-        plugins: [
-          Components({
-            include: [/\.vue$/, /\.md$/],
-            dirs: [pluginComponentsDir],
-            dts: false,
-          }),
-        ],
-      }
+      return config
     },
   }
 }

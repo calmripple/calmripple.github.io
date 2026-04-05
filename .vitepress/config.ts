@@ -4,13 +4,14 @@ import process from 'node:process'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
-import { createTocSidebarVitePlugin, type TocSidebarBuildOptions } from './plugins/vitepress-plugin-toc-sidebar'
+import { createTocSidebarVitePlugin, TocSidebarResolver, type TocSidebarBuildOptions } from './plugins/vitepress-plugin-toc-sidebar'
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
+import { normalizePath as normalizeVitePath } from 'vite'
 import Inspect from 'vite-plugin-inspect'
 import { defineConfig } from 'vitepress'
 import { creators, githubRepoLink, mastodonLink, siteDescription, siteName } from '../metadata'
@@ -28,6 +29,7 @@ const docsRoot = resolve(workspaceRoot, 'zh-CN')
 const publicRoot = resolve(workspaceRoot, 'public')
 const tocFilePath = resolve(docsRoot, 'toc.md')
 const indexFilePath = resolve(docsRoot, 'index.md')
+const tocSidebarAutoTocComponentPath = normalizeVitePath(resolve(vitepressRoot, 'plugins/vitepress-plugin-toc-sidebar/AutoToc.vue'))
 const componentsDirPath = resolve(vitepressRoot, 'theme/components')
 const componentsDtsPath = resolve(vitepressRoot, 'components.d.ts')
 const autoImportsDtsPath = resolve(vitepressRoot, 'auto-imports.d.ts')
@@ -161,6 +163,11 @@ export default defineConfig({
       Components({
         include: [/\.vue$/, /\.md$/],
         dirs: [componentsDirPath],
+        resolvers: [
+          TocSidebarResolver({
+            from: tocSidebarAutoTocComponentPath,
+          }),
+        ],
         dts: componentsDtsPath,
       }),
       UnoCSS(),

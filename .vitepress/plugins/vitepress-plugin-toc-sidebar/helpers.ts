@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 import type { DefaultTheme } from 'vitepress'
 import type {
   AutoTocLinkItem,
+  AutoTocRouteTreeItem,
   DirNode,
   Heading,
   MarkdownMeta,
@@ -338,6 +339,69 @@ function collectRawMarkdownLinksForDirectory(
   return results
 }
 
+function buildRouteTreeForDirectory(
+  baseDir: string,
+  dirPath: string,
+  options: ResolvedTocSidebarOptions,
+  cache: Map<string, MarkdownMeta>,
+  rawTree: Map<string, DirNode>,
+  routeTreeCache: Map<string, AutoTocRouteTreeItem[]>,
+): AutoTocRouteTreeItem[] {
+  const cached = routeTreeCache.get(dirPath)
+  if (cached) {
+    return cached
+  }
+
+  const node = rawTree.get(dirPath)
+  if (!node) {
+    return []
+  }
+
+  const items: AutoTocRouteTreeItem[] = []
+  const directoryNames = sortEntries([...node.directories], options.sortByName)
+  for (const dirName of directoryNames) {
+    const childDir = dirPath ? `${dirPath}/${dirName}` : dirName
+    const childNode = rawTree.get(childDir)
+    if (!childNode) {
+      continue
+    }
+
+    const indexRel = `${childDir}/index.md`
+    const hasIndex = childNode.files.has('index.md')
+    const link = hasIndex ? toVpDirectoryLink(indexRel) : undefined
+    const children = buildRouteTreeForDirectory(baseDir, childDir, options, cache, rawTree, routeTreeCache)
+
+    items.push({
+      kind: 'directory',
+      text: formatDisplayText(dirName, options),
+      ...(link ? { link } : {}),
+      ...(children.length > 0 ? { items: children } : {}),
+    })
+  }
+
+  const fileNames = sortEntries([...node.files], options.sortByName)
+  for (const fileName of fileNames) {
+    if (extname(fileName) !== '.md' || fileName === 'index.md') {
+      continue
+    }
+
+    const relativeFile = dirPath ? `${dirPath}/${fileName}` : fileName
+    const absoluteFile = join(baseDir, relativeFile)
+    const link = toVpPageLink(relativeFile)
+    const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
+    const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
+
+    items.push({
+      kind: 'file',
+      text: title,
+      link,
+    })
+  }
+
+  routeTreeCache.set(dirPath, items)
+  return items
+}
+
 export function buildDirectoryItems(
   baseDir: string,
   currentDir: string,
@@ -346,6 +410,7 @@ export function buildDirectoryItems(
   cache: Map<string, MarkdownMeta>,
   tree: Map<string, DirNode>,
   rawTree: Map<string, DirNode>,
+  routeTreeCache: Map<string, AutoTocRouteTreeItem[]> = new Map(),
 ): DefaultTheme.SidebarItem[] {
   const node = tree.get(currentDir)
   if (!node) {
@@ -365,9 +430,10 @@ export function buildDirectoryItems(
       continue
     }
 
-    const children = buildDirectoryItems(baseDir, childDir, depth + 1, options, cache, tree, rawTree)
+    const children = buildDirectoryItems(baseDir, childDir, depth + 1, options, cache, tree, rawTree, routeTreeCache)
     const hiddenMarkdownLinks = collectAutoTocLinksForDirectory(baseDir, childDir, options, cache, tree)
     const rawMarkdownLinks = collectRawMarkdownLinksForDirectory(baseDir, childDir, options, cache, rawTree)
+    const routeTreeItems = buildRouteTreeForDirectory(baseDir, childDir, options, cache, rawTree, routeTreeCache)
 
     const indexRel = childDir ? `${childDir}/index.md` : 'index.md'
     const hasIndex = childNode.files.has('index.md')
@@ -383,38 +449,41 @@ export function buildDirectoryItems(
         __autoTocLinks: hiddenMarkdownLinks,
         __autoTocRawLinks: rawMarkdownLinks,
         __autoTocDirPath: autoTocDirPath,
+        __autoTocRouteTree: routeTreeItems,
         collapsed: options.collapsed,
       }
       dirs.push(directoryItem)
     }
   }
 
-  for (const fileName of fileNames) {
-    if (extname(fileName) !== '.md') {
-      continue
-    }
-
-    const isIndex = fileName === 'index.md'
-    if (isIndex) {
-      const includeIndex = depth === 0
-        ? options.sidebarFilter.includeRootIndex
-        : options.sidebarFilter.includeFolderIndex
-      if (!includeIndex) {
+  if (options.sidebarFilter.showMarkdownLinks) {
+    for (const fileName of fileNames) {
+      if (extname(fileName) !== '.md') {
         continue
       }
+
+      const isIndex = fileName === 'index.md'
+      if (isIndex) {
+        const includeIndex = depth === 0
+          ? options.sidebarFilter.includeRootIndex
+          : options.sidebarFilter.includeFolderIndex
+        if (!includeIndex) {
+          continue
+        }
+      }
+
+      const relativeFile = currentDir ? `${currentDir}/${fileName}` : fileName
+      const absoluteFile = join(baseDir, relativeFile)
+
+      const link = toVpPageLink(relativeFile)
+      const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
+      const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
+
+      files.push({
+        text: title,
+        link,
+      })
     }
-
-    const relativeFile = currentDir ? `${currentDir}/${fileName}` : fileName
-    const absoluteFile = join(baseDir, relativeFile)
-
-    const link = toVpPageLink(relativeFile)
-    const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
-    const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
-
-    files.push({
-      text: title,
-      link,
-    })
   }
 
   return [...dirs, ...files]

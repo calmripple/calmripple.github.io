@@ -61,6 +61,13 @@ export interface AutoTocLinkItem {
   link: string
 }
 
+export interface AutoTocRouteTreeItem {
+  kind: 'directory' | 'file'
+  text: string
+  link?: string
+  items?: AutoTocRouteTreeItem[]
+}
+
 export type ResolvedTocSidebarOptions = Required<Omit<TocSidebarBuildOptions, 'dir' | 'roots'>>
 
 export interface TocSidebarLifecycleHooks {
@@ -90,4 +97,5 @@ export type SidebarItemWithAutoToc = DefaultTheme.SidebarItem & {
   __autoTocLinks?: AutoTocLinkItem[]
   __autoTocRawLinks?: AutoTocLinkItem[]
   __autoTocDirPath?: string
+  __autoTocRouteTree?: AutoTocRouteTreeItem[]
 }

@@ -9,6 +9,13 @@ interface AutoTocEntry {
   link: string
 }
 
+interface AutoTocRouteTreeEntry {
+  kind: 'directory' | 'file'
+  text: string
+  link?: string
+  items?: AutoTocRouteTreeEntry[]
+}
+
 interface DisplayEntry {
   text: string
   link: string
@@ -63,8 +70,23 @@ function routeMatches(routePath: string, link: string): boolean {
   return normalizePath(routePath) === normalizePath(link)
 }
 
-function toLinkItems(entries: AutoTocEntry[]): SidebarItem[] {
-  return entries.map(entry => ({ text: entry.text, link: entry.link })) as SidebarItem[]
+function flattenRouteTreeEntries(entries: AutoTocRouteTreeEntry[]): AutoTocEntry[] {
+  const links: AutoTocEntry[] = []
+
+  const walk = (nodes: AutoTocRouteTreeEntry[]): void => {
+    for (const node of nodes) {
+      if (node.link) {
+        links.push({ text: node.text, link: node.link })
+      }
+
+      if (node.items?.length) {
+        walk(node.items)
+      }
+    }
+  }
+
+  walk(entries)
+  return links
 }
 
 function pickSidebarForRoute(
@@ -106,45 +128,6 @@ function pickSidebarForRoute(
   return pickSectionItems(sidebar[selectedKey])
 }
 
-function findSameLevelGroup(items: SidebarItem[], routePath: string): SidebarItem[] | null {
-  const normalizedRoute = normalizePath(routePath)
-  const routeLooksLikeDirectory = routePath.endsWith('/')
-
-  const dfs = (list: SidebarItem[]): SidebarItem[] | null => {
-    for (const item of list) {
-      if ('link' in item && item.link && routeMatches(normalizedRoute, item.link)) {
-        const hiddenLinks = (((item as any).__autoTocRawLinks ?? (item as any).__autoTocLinks) ?? []) as AutoTocEntry[]
-        const hiddenItems = hiddenLinks.length ? toLinkItems(hiddenLinks) : []
-
-        if ('items' in item && item.items?.length) {
-          return [...hiddenItems, ...item.items]
-        }
-
-        if (hiddenItems.length) {
-          return hiddenItems
-        }
-
-        if (routeLooksLikeDirectory) {
-          return []
-        }
-
-        return list
-      }
-
-      if ('items' in item && item.items?.length) {
-        const found = dfs(item.items)
-        if (found) {
-          return found
-        }
-      }
-    }
-
-    return null
-  }
-
-  return dfs(items)
-}
-
 function parentDirectoryPath(routePath: string): string {
   const normalized = normalizePath(routePath)
   if (normalized === '/') {
@@ -158,44 +141,50 @@ function parentDirectoryPath(routePath: string): string {
   return parent ? `/${parent}` : '/'
 }
 
-function findLinksByDirectoryPath(items: SidebarItem[], routePath: string): SidebarItem[] | null {
+function findCurrentRouteTree(items: SidebarItem[], routePath: string): AutoTocRouteTreeEntry[] {
   const targetDirPath = parentDirectoryPath(routePath)
+  const normalizedRoute = normalizePath(routePath)
 
-  const dfs = (list: SidebarItem[]): SidebarItem[] | null => {
+  const dfs = (list: SidebarItem[]): AutoTocRouteTreeEntry[] => {
     for (const item of list) {
+      const routeTree = (((item as any).__autoTocRouteTree) ?? []) as AutoTocRouteTreeEntry[]
       const itemDirPath = normalizePath(((item as any).__autoTocDirPath ?? '') as string)
-      const hiddenLinks = (((item as any).__autoTocRawLinks ?? (item as any).__autoTocLinks) ?? []) as AutoTocEntry[]
-      if (itemDirPath && itemDirPath === targetDirPath && hiddenLinks.length > 0) {
-        return toLinkItems(hiddenLinks)
+
+      if (routeTree.length > 0) {
+        if (itemDirPath && itemDirPath === targetDirPath) {
+          return routeTree
+        }
+
+        if ('link' in item && item.link && routeMatches(normalizedRoute, item.link)) {
+          return routeTree
+        }
       }
 
       if ('items' in item && item.items?.length) {
         const found = dfs(item.items)
-        if (found) {
+        if (found.length > 0) {
           return found
         }
       }
     }
 
-    return null
+    return []
   }
 
   return dfs(items)
 }
 
 const siblingEntries = computed<DisplayEntry[]>(() => {
-  const sidebarItems = pickSidebarForRoute(theme.value.sidebar, route.path)
-  const siblings = findSameLevelGroup(sidebarItems, route.path)
-    ?? findLinksByDirectoryPath(sidebarItems, route.path)
-    ?? []
+  const sectionItems = pickSidebarForRoute(theme.value.sidebar, route.path)
+  const currentRouteTree = findCurrentRouteTree(sectionItems, route.path)
+  const siblings = currentRouteTree.length > 0 ? flattenRouteTreeEntries(currentRouteTree) : []
 
   const seen = new Set<string>()
 
   return siblings
-    .filter(item => 'link' in item && !!item.link)
     .map((item) => {
-      const link = (item as { link: string }).link
-      const text = item.text ?? link
+      const link = item.link
+      const text = item.text || link
       const kind: DisplayEntry['kind'] = isDirectoryLink(link) ? 'directory' : 'file'
       return {
         text,
