@@ -8,6 +8,7 @@ import {
   scanMarkdownFiles,
 } from './helpers'
 import type {
+  BuildAllTreeNodeResult,
   DirNode,
   MarkdownMeta,
   ResolvedTocSidebarOptions,
@@ -33,11 +34,6 @@ const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   showMarkdownLinks: true,
   includeDotFiles: false,
   collapsed: true,
-}
-
-interface BuildAllTreeNodeResult {
-  tree: Map<string, DirNode>
-  rawTree: Map<string, DirNode>
 }
 
 function createDoctreeAssetName(): string {
@@ -118,7 +114,7 @@ export function createTocSidebarVitePlugin(
   hooks.onSidebarBuilt?.(sidebar)
 
   return {
-    name: 'vitepress-plugin-toc-sidebar:inject',
+    name: 'vitepress-plugin-autosidebar-toc:inject',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
         const requestPath = req.url?.split('?')[0] ?? ''

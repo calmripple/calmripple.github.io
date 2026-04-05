@@ -32,6 +32,11 @@ export interface DirNode {
   files: Set<string>
 }
 
+export interface BuildAllTreeNodeResult {
+  tree: Map<string, DirNode>
+  rawTree: Map<string, DirNode>
+}
+
 export interface TocSidebarRawTreeNode {
   directories: string[]
   files: string[]
@@ -50,9 +55,14 @@ export interface TocSidebarLifecycleHooks {
 }
 
 export interface TocSidebarPlugin {
-  name: 'vitepress-plugin-toc-sidebar'
+  name: 'vitepress-plugin-autosidebar-toc'
   options: ResolvedTocSidebarOptions
   buildSidebar: () => DefaultTheme.SidebarMulti
+}
+
+export interface TocSidebarResolverOptions {
+  componentName?: string
+  from?: string
 }
 
 export interface ViteUserConfigLike {
