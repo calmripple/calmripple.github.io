@@ -1,20 +1,23 @@
 # 📒 笔记
 
-## 小音和猫猫的知识库
+## 知在知识库
 
-欢迎来到小音和猫猫的知识库 [知在](https://nolebase.ayaka.io)，这里是 📒 笔记分区
+欢迎来到 [知在](https://www.dmsrs.org)，这里是 📒 笔记分区。
+
+> [!NOTE] 引用与改编声明
+> 当前项目由 beingknowing 与 beknowing 维护。项目的部分结构、命名沿革与早期思路承接自原始 nolebase 仓库（ https://github.com/nolebase/nolebase ），原始作者为絢香音、絢香猫，别名分别为“小音”“猫猫”。当前仓库在持续整理、改写和扩展内容的同时，保留并尊重原作者的贡献与版权归属。
 
 ## 想要自己部署和在本地启动强大的 知在 知识库，或者自己拥有一份？
 
-很高兴你对 [知在](https://nolebase.ayaka.io) 感兴趣！
+很高兴你对 [知在](https://www.dmsrs.org) 感兴趣！
 
 ### 背景介绍
 
-首先 [知在](https://nolebase.ayaka.io) 是完全可以在本地无网络环境的情况下使用的！你可以在跟随[如何下载到本地](#如何下载到本地)的指引下载或者克隆之后使用 [Obsidian](https://obsidian.md) 和 [Logseq](https://logseq.com/) 这样的知识库软件打开，也可以用 [Typora](https://typora.io/) 这样的 Markdown 编辑器打开进行浏览和编辑，这意味着即便你不具备任何的编程技能，也可以使用或者借鉴我们的知识库分类和组织方法。
+首先 [知在](https://www.dmsrs.org) 是完全可以在本地无网络环境的情况下使用的！你可以在跟随[如何下载到本地](#如何下载到本地)的指引下载或者克隆之后使用 [Obsidian](https://obsidian.md) 和 [Logseq](https://logseq.com/) 这样的知识库软件打开，也可以用 [Typora](https://typora.io/) 这样的 Markdown 编辑器打开进行浏览和编辑，这意味着即便你不具备任何的编程技能，也可以使用或者借鉴我们的知识库分类和组织方法。
 
 在继续之前，也请容许我介绍一下对项目所使用的技术和架构。
 
-和其他的由 [Hexo](https://hexo.io) 驱动和生成的博客和静态网站类似，[知在](https://nolebase.ayaka.io) 其实使用了名为 [VitePress](https://vitepress.dev) 的静态生成器来驱动和生成网站，像 [VitePress](https://vitepress.dev) 这样的静态生成器支持在 Markdown 文件中使用 [Vue](https://vuejs.org/) 组件来嵌入并增强文档的阅读和使用体验。而 [VitePress](https://vitepress.dev) 和 [Vue](https://vuejs.org/) 是 [Node.js](https://nodejs.org/en) 生态的一部分，他们都属于「前端技术」的一部分。
+和其他的由 [Hexo](https://hexo.io) 驱动和生成的博客和静态网站类似，[知在](https://www.dmsrs.org) 其实使用了名为 [VitePress](https://vitepress.dev) 的静态生成器来驱动和生成网站，像 [VitePress](https://vitepress.dev) 这样的静态生成器支持在 Markdown 文件中使用 [Vue](https://vuejs.org/) 组件来嵌入并增强文档的阅读和使用体验。而 [VitePress](https://vitepress.dev) 和 [Vue](https://vuejs.org/) 是 [Node.js](https://nodejs.org/en) 生态的一部分，他们都属于「前端技术」的一部分。
 
 在运行和部署上，我们使用免费的 [Netlify](https://www.netlify.com/) 来提供网站的托管，使用 [GitHub Actions](https://github.com/features/actions)（你可以理解一个将会在每次我们将笔记和知识库内容更新到 GitHub 仓库之后会自动触发的一个自动化工作）把我们的笔记和知识库内容自动构建和部署到 [Netlify](https://www.netlify.com/) 上。
 
@@ -32,7 +35,7 @@
 [Obsidian Publish](https://obsidian.md/publish) 也有它自己的优点：
 
 1. 寻找适合 [VitePress](https://vitepress.dev) 的 Markdown 插件是困难和复杂的，[Obsidian Publish](https://obsidian.md/publish) 天然支持所有 [Obsidian](https://obsidian.md) 原生支持的语法和插件，这意味着你不需要额外的调研和试错工作就可以将你在本地使用 [Obsidian](https://obsidian.md) 撰写的文档直接部署到互联网上；
-2. 运行和部署像是 [知在](https://nolebase.ayaka.io) 这样的静态网站对于不具备任何的代码和编程知识的作者难度大得多，但是 [Obsidian Publish](https://obsidian.md/publish) 不需要任何的代码和编程知识，也无需关心任何的技术细节，和 Notion 的分享一样，你只需要点击几下就可以完成部署；
+2. 运行和部署像是 [知在](https://www.dmsrs.org) 这样的静态网站对于不具备任何的代码和编程知识的作者难度大得多，但是 [Obsidian Publish](https://obsidian.md/publish) 不需要任何的代码和编程知识，也无需关心任何的技术细节，和 Notion 的分享一样，你只需要点击几下就可以完成部署；
 
 所以如果你没有掌握必备的编程技能，或者你不想花时间和精力去学习和掌握这些技能，那么 [Obsidian Publish](https://obsidian.md/publish) 可能是一个更好的选择。
 
@@ -69,7 +72,7 @@
 如果你掌握了命令行和 [Git](https://git-scm.com/) 的使用，可以通过下面的命令克隆项目仓库到名为 `nolebase` 的目录中：
 
 ```shell
-git clone https://github.com/calmripple/nolebase
+git clone https://github.com/calmripple/calmripple.github.io
 ```
 
 #### 使用的是 Windows 吗
@@ -78,7 +81,7 @@ git clone https://github.com/calmripple/nolebase
 > 如果你使用的是 [Git for Windows](https://gitforwindows.org/) ，那么可能会在执行上述命令时，遇到类似这样的报错：
 >
 > ```PowerShell
-> PS D:\> git clone https://github.com/calmripple/nolebase
+> PS D:\> git clone https://github.com/calmripple/calmripple.github.io
 > ...
 > error: invalid path 'x: xxx.md'
 > fatal: unable to checkout working tree
@@ -101,7 +104,7 @@ git clone https://github.com/calmripple/nolebase
 
 正如先前介绍过
 
-> [知在](https://nolebase.ayaka.io) 其实使用了名为 [VitePress](https://vitepress.dev) 的静态生成器来驱动和生成网站。
+> [知在](https://www.dmsrs.org) 其实使用了名为 [VitePress](https://vitepress.dev) 的静态生成器来驱动和生成网站。
 >
 > 而 [VitePress](https://vitepress.dev) 和 [Vue](https://vuejs.org/) 是 [Node.js](https://nodejs.org/en) 生态的一部分，他们都属于「前端技术」的一部分。
 
@@ -238,13 +241,13 @@ cd
 
 #### 安装依赖和运行开发服务器
 
-在倒数第二步中，我们需要安装依赖，这样 [VitePress](https://vitepress.dev) 和 [Vue](https://vuejs.org/) 就会被下载到本地的 [知在](https://nolebase.ayaka.io) 目录/文件夹下的 `node_modules` 目录/文件夹下了：
+在倒数第二步中，我们需要安装依赖，这样 [VitePress](https://vitepress.dev) 和 [Vue](https://vuejs.org/) 就会被下载到本地的 [知在](https://www.dmsrs.org) 目录/文件夹下的 `node_modules` 目录/文件夹下了：
 
 ```shell
 pnpm install
 ```
 
-接下来你可以直接运行下面的命令开启一个本地运行的 [知在](https://nolebase.ayaka.io) 知识库前端服务器，通常而言我们称之为「开发服务器」，用这个服务器，可以通过浏览器在本地直接访问渲染完成的页面：
+接下来你可以直接运行下面的命令开启一个本地运行的 [知在](https://www.dmsrs.org) 知识库前端服务器，通常而言我们称之为「开发服务器」，用这个服务器，可以通过浏览器在本地直接访问渲染完成的页面：
 
 ```shell
 pnpm docs:dev

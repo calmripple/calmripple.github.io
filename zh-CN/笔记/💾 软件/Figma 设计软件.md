@@ -1,5 +1,14 @@
 ---
 status: 尚未完成
+tags:
+  - 软件
+  - 工具
+  - Figma
+  - 设计
+  - UI
+categories:
+  - 软件工具
+title-en: f-i-g-m-a-she-ji-ruan-jian
 ---
 ## Figma
 
@@ -16,3 +25,4 @@ status: 尚未完成
 ### 学习使用 Figma
 
 [Figma 官方文档中文版](https://www.figma.cool/official-docs)
+

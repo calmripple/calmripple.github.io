@@ -1,10 +1,12 @@
 ---
 tags:
-  - 软件/Visual-Studio-Code/vscode
-  - 操作系统/macOS
-  - 命令行/xattr
-  - 命令行/chown
-  - 软件/Visual-Studio-Code
+  - 软件
+  - 工具
+  - VS Code
+  - 编辑器
+categories:
+  - 软件工具
+title-en: jie-jue-v-s-c-o-d-e-bu-neng-zai-zhi-du-juan-shang-geng-xin
 ---
 # 解决 VS Code 不能在只读卷上更新
 
@@ -29,3 +31,4 @@ xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 `xattr` —— 操作文件的扩展信息，这里用来删除文件和子文件的扩展信息
 
 **然后彻底关闭 VS Code 后重新打开即可解决问题。**
+

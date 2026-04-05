@@ -1,12 +1,16 @@
 ---
 tags:
-  - 软件/macOS
-  - 操作系统/macOS
-  - 命令行/pip
-  - 命令行/conda
-  - 命令行/mamba
-  - 开发/Python
   - AI
+  - 人工智能
+  - 语音合成
+  - TTS
+  - 音频处理
+  - GPT
+  - LLM
+categories:
+  - AI 人工智能
+  - AI 领域应用
+title-en: zai-m-a-c-o-s-shang-pei-zhi-g-p-t-s-o-v-i-t-s-w-e-b-u-i
 ---
 
 # 在 macOS 上配置 GPT-SoVITS-WebUI
@@ -69,3 +73,4 @@ mamba install ffmpeg
 https://www.bilibili.com/video/BV1P541117yn
 https://www.bilibili.com/video/BV12g4y1m7Uw
 https://www.bilibili.com/video/BV1QY4y1n7h1
+

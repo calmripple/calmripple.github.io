@@ -1,11 +1,14 @@
 ---
 tags:
   - AI
-  - AI/硬件/GPU/NVIDIA
-  - AI/硬件/GPU/NVIDIA/GPU
-  - 开发/Python/PyTorch
-  - AI/算法/CUDA
-  - 开发/AI/CUDA
+  - 人工智能
+  - PyTorch
+  - Anaconda
+  - Python
+categories:
+  - AI 人工智能
+title-en: >-
+  yan-zheng-a-n-a-c-o-n-d-a-he-m-a-m-b-a-an-zhuang-de-p-y-t-o-r-c-h-he-c-u-d-a-shi-fou-zheng-que
 ---
 # 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确
 
@@ -78,4 +81,5 @@ Build cuda_11.6.r11.6/compiler.30794723_0
 >>> import torch.utils.cpp_extension
 >>> torch.utils.cpp_extension.CUDA_HOME
 ```
+
 

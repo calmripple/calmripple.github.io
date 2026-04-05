@@ -44,10 +44,6 @@ env:
   IS_DEBUG: ${{ vars.IS_DEBUG || 'true' }}
 
 concurrency:
-  # 针对远程部署库，无法同时部署多个preview 添加并行限制
-  # group: preview-${{ github.event_name }}-${{ github.event.number || github.ref_name }}
-  # group: ${{ github.ref }}
-  # cancel-in-progress: true
   group: pages-deployment-${{ github.ref_name || github.run_id }}
   cancel-in-progress: true
 

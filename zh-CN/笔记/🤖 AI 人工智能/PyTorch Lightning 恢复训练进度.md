@@ -1,10 +1,11 @@
 ---
 tags:
   - AI
-  - AI/PyTorch
-  - 开发/Python/PyTorch
-  - 开发/Python/PyTorchLightning
-  - 开发/Python
+  - 人工智能
+  - PyTorch
+categories:
+  - AI 人工智能
+title-en: p-y-t-o-r-c-h-l-i-g-h-t-n-i-n-g-hui-fu-xun-lian-jin-du
 ---
 # PyTorch Lightning 恢复训练进度
 
@@ -66,3 +67,4 @@ torchrun main.py
 - [easyckpt的技术原理和使用方法_人工智能平台 PAI(PAI)-阿里云帮助中心](https://help.aliyun.com/zh/pai/user-guide/easyckpt?spm=a2c4g.11186623.0.0.18c02772MLDUbC)
 - [easyckpt的技术原理和使用方法_人工智能平台 PAI(PAI)-阿里云帮助中心](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
 - [Pytorch模型resume training，加载模型基础上继续训练 - 知乎](https://zhuanlan.zhihu.com/p/159068033)
+

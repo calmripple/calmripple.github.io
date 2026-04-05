@@ -3,12 +3,12 @@ layout: home
 sidebar: false
 
 title: 知在
-titleTemplate: 记录回忆，知识和畅想的地方
+titleTemplate:  ':title | 参与并理解世界'
 
 hero:
   name: 知在
-  text: 知识和畅想
-  tagline: “在”即此在，此刻的存在情境和实际展开的生活世界；“知”即知识与觉知，是我们与“在”建立关联的方式。没有“知”，存在对我们而言是未被显现的潜在；有了“知”，存在被分节、被命名、被理解，从而成为我们生活的一部分。“知在”即我们通过知识与觉知，参与并理解我们所处的存在情境和生活世界的过程。
+  text: 参与并理解世界
+  tagline: 此在，此刻的存在情境和实际展开的生活世界；觉知，是我们与“在”建立关联的方式。没有“知”，存在是未被显现的潜在；有了“知”，存在被分节、被命名、被理解，从而成为生活的一部分。“知在”即我们通过知识与觉知，参与并理解所处的存在情境和生活世界的过程
 
   image:
     src: /logo.svg
@@ -16,27 +16,27 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zh-CN/笔记/index
+      link: /笔记/
     - theme: alt
-      text: 加入 Discord 服务器
-      link: https://discord.gg/XuNFDcDZGj
+      text: 在 Mastodon 联系
+      link: https://mas.to/@cnjimbo
     - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/calmripple/nolebase
+      link: https://github.com/calmripple/calmripple.github.io
 
 features:
-  - title: 多样的主题和内容
-    details: 本知识库和所生成的页面均由创作者们维护，涉及到生活中各方面知识和内容，也不乏我们的回忆和畅想。
-    icon: 🌈
-  - title: 皆为 Markdown
-    details: 使用 Markdown 和 Markdown 拓展语法编写和记录笔记，每一个页面都是 Markdown 文件。
-    icon: 📃
-  - title: 由 VitePress 驱动
-    details: 基于 Vite 的强大静态文档页面生成器，它生成了我们知识库的页面，提供了简单易用的主题和工具。
-    icon: 🚀
-  - title: 由 Obsidian 驱动
-    details: 强大的知识库管理工具，支持花样繁多的插件和拓展，让知识管理变得更加简单。
-    icon: 🗃
+  - title: 体系化知识分区
+    details: 从编程开发、前端、AI、图形学到计算机基础与面试题，围绕长期学习路径组织内容，既能按专题深挖，也能跨领域连接。
+    icon: 🧭
+  - title: 面向实践的项目沉淀
+    details: 记录真实项目、工具链与工程经验，覆盖从想法、踩坑到方案落地的全过程，让知识不止停留在概念层面。
+    icon: 🛠
+  - title: Markdown 优先与可持续维护
+    details: 全库基于 Markdown 与 Git 管理，版本可追踪、结构可重构、内容可复用，适合持续迭代的个人知识系统建设。
+    icon: 🧱
+  - title: 开放协作与共同演进
+    details: 通过 GitHub 与社区渠道持续更新，欢迎围绕内容、结构与表达方式提出建议，一起把知识库打磨得更清晰、更有用。
+    icon: 🤝
 ---
 
 <HomePage />
