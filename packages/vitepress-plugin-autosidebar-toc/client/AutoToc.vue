@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, shallowRef } from 'vue'
 import { useRoute, withBase } from 'vitepress'
-import type { TocSidebarRawTree } from '../types'
+import type { TocSidebarDoctreePayload, TocSidebarRawTree } from '../types'
 
 interface AutoTocEntry {
   text: string
@@ -31,6 +31,22 @@ const doctreePath = typeof __TOC_SIDEBAR_DOCTREE_PATH__ === 'string' && __TOC_SI
 let rawTreePromise: Promise<TocSidebarRawTree | null> | null = null
 let cachedDoctreePath = ''
 
+function normalizeDoctreePayload(payload: unknown): TocSidebarRawTree | null {
+  if (!payload || typeof payload !== 'object') {
+    return null
+  }
+
+  if ('tree' in payload) {
+    const tree = (payload as TocSidebarDoctreePayload).tree
+    if (!tree || typeof tree !== 'object') {
+      return null
+    }
+    return tree
+  }
+
+  return payload as TocSidebarRawTree
+}
+
 async function loadRawTree(sourcePath: string): Promise<TocSidebarRawTree | null> {
   if (!rawTreePromise || cachedDoctreePath !== sourcePath) {
     cachedDoctreePath = sourcePath
@@ -43,7 +59,7 @@ async function loadRawTree(sourcePath: string): Promise<TocSidebarRawTree | null
         }
 
         const payload = await response.json()
-        return payload as TocSidebarRawTree
+        return normalizeDoctreePayload(payload)
       })
       .catch(() => null)
   }

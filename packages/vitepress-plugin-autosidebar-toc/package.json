@@ -1,0 +1,14 @@
+{
+  "name": "@knewbeing/vitepress-plugin-autosidebar-toc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "module": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./client/AutoToc.vue": "./client/AutoToc.vue"
+  }
+}
+

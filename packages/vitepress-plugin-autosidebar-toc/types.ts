@@ -44,6 +44,33 @@ export interface TocSidebarRawTreeNode {
 
 export type TocSidebarRawTree = Record<string, TocSidebarRawTreeNode>
 
+export interface TocSidebarPageGitInfo {
+  lastUpdated?: number
+}
+
+export interface TocSidebarPageMeta {
+  relativePath: string
+  filePath: string
+  title: string
+  frontmatter: Record<string, any>
+  git: TocSidebarPageGitInfo
+}
+
+export type TocSidebarPagesMeta = Record<string, TocSidebarPageMeta>
+
+export interface TocSidebarDoctreePayload {
+  tree: TocSidebarRawTree
+  pages?: TocSidebarPagesMeta
+}
+
+export interface VitePressTransformedPageData {
+  relativePath: string
+  filePath: string
+  title: string
+  frontmatter: Record<string, any>
+  lastUpdated?: number
+}
+
 export type ResolvedTocSidebarOptions = Required<Omit<TocSidebarBuildOptions, 'dir' | 'roots'>>
 
 export interface TocSidebarLifecycleHooks {

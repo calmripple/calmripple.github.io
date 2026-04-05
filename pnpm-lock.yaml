@@ -47,6 +47,9 @@ importers:
       '@iconify-json/svg-spinners':
         specifier: ^1.2.4
         version: 1.2.4
+      '@knewbeing/vitepress-plugin-autosidebar-toc':
+        specifier: workspace:*
+        version: link:packages/vitepress-plugin-autosidebar-toc
       '@netlify/functions':
         specifier: ^5.1.5
         version: 5.1.5
@@ -203,6 +206,22 @@ importers:
       vue:
         specifier: ^3.5.30
         version: 3.5.30(typescript@6.0.2)
+
+  packages/nolebase-vitepress-plugin-sidebar: {}
+
+  packages/vite-plugin-vitepress-auto-nav: {}
+
+  packages/vite-plugin-vitepress-auto-sidebar: {}
+
+  packages/vitepress-gen-navs: {}
+
+  packages/vitepress-plugin-autobar: {}
+
+  packages/vitepress-plugin-autosidebar-toc: {}
+
+  packages/vitepress-plugin-sidebar-resolve: {}
+
+  packages/vitepress-sidebar: {}
 
 packages:
 

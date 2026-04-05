@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import { basename, extname, join, relative, sep } from 'node:path'
 import fg from 'fast-glob'
 import matter from 'gray-matter'
@@ -9,7 +9,13 @@ import type {
   MarkdownMeta,
   ResolvedTocSidebarOptions,
   TocNode,
+  VitePressTransformedPageData,
 } from './types'
+
+const PAGE_DATA_EXPORT_RE = /export const __pageData = JSON\.parse\(("(?:[^"\\]|\\.)*")\)/s
+
+const SIMPLE_INCLUDE_GLOB = '**/*.md'
+const SIMPLE_EXCLUDE_DIR_GLOB_RE = /^\*\*\/([^/*{}[\]?]+)\/\*\*$/
 
 export function normalizePath(p: string): string {
   return p.split(sep).join('/')
@@ -202,6 +208,114 @@ export function scanMarkdownFiles(baseDir: string, options: ResolvedTocSidebarOp
   return files
     .map(file => normalizePath(file))
     .filter(file => extname(file) === '.md')
+}
+
+function parseExcludedDirectoryNameFromGlob(pattern: string): string | null {
+  const normalized = normalizePath(pattern.trim())
+  const match = normalized.match(SIMPLE_EXCLUDE_DIR_GLOB_RE)
+  return match?.[1] ?? null
+}
+
+function canUseDirectoryScanner(options: ResolvedTocSidebarOptions): boolean {
+  if (options.includeGlobs.length !== 1 || options.includeGlobs[0] !== SIMPLE_INCLUDE_GLOB) {
+    return false
+  }
+
+  for (const pattern of options.excludeGlobs) {
+    if (!parseExcludedDirectoryNameFromGlob(pattern)) {
+      return false
+    }
+  }
+
+  return true
+}
+
+export function scanMarkdownFilesByDirectory(baseDir: string, options: ResolvedTocSidebarOptions): string[] {
+  if (!canUseDirectoryScanner(options)) {
+    return scanMarkdownFiles(baseDir, options)
+  }
+
+  const excludedDirectoryNames = new Set<string>()
+  for (const pattern of options.excludeGlobs) {
+    const directoryName = parseExcludedDirectoryNameFromGlob(pattern)
+    if (directoryName) {
+      excludedDirectoryNames.add(directoryName)
+    }
+  }
+
+  const files: string[] = []
+
+  function walkDirectory(absDir: string): void {
+    let entries: Array<import('node:fs').Dirent<string>> = []
+    try {
+      entries = readdirSync(absDir, { withFileTypes: true, encoding: 'utf8' })
+    }
+    catch {
+      return
+    }
+
+    for (const entry of entries) {
+      const name = entry.name
+      if (!options.includeDotFiles && name.startsWith('.')) {
+        continue
+      }
+
+      if (entry.isDirectory()) {
+        if (excludedDirectoryNames.has(name)) {
+          continue
+        }
+        walkDirectory(join(absDir, name))
+        continue
+      }
+
+      if (!entry.isFile() || extname(name) !== '.md') {
+        continue
+      }
+
+      const relativePath = normalizePath(relative(baseDir, join(absDir, name)))
+      if (relativePath) {
+        files.push(relativePath)
+      }
+    }
+  }
+
+  walkDirectory(baseDir)
+  return files.sort((left, right) => left.localeCompare(right))
+}
+
+export function extractVitePressTransformedPageData(code: string): VitePressTransformedPageData | null {
+  const match = code.match(PAGE_DATA_EXPORT_RE)
+  if (!match) {
+    return null
+  }
+
+  try {
+    const encodedPayload = JSON.parse(match[1]) as string
+    const parsedPayload = JSON.parse(encodedPayload) as Partial<VitePressTransformedPageData>
+    if (!parsedPayload || typeof parsedPayload !== 'object') {
+      return null
+    }
+
+    if (typeof parsedPayload.relativePath !== 'string' || typeof parsedPayload.filePath !== 'string' || typeof parsedPayload.title !== 'string') {
+      return null
+    }
+
+    const frontmatter = parsedPayload.frontmatter
+    const safeFrontmatter = frontmatter && typeof frontmatter === 'object'
+      ? (frontmatter as Record<string, any>)
+      : {}
+
+    return {
+      relativePath: normalizePath(parsedPayload.relativePath),
+      filePath: normalizePath(parsedPayload.filePath),
+      title: parsedPayload.title,
+      frontmatter: safeFrontmatter,
+      lastUpdated: typeof parsedPayload.lastUpdated === 'number' ? parsedPayload.lastUpdated : undefined,
+    }
+  }
+  catch {
+    return null
+  }
 }
 
 function createDirNode(): DirNode {

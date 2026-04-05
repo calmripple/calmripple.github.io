@@ -28,6 +28,7 @@
     "test": "tsx scripts/test-build.ts"
   },
   "devDependencies": {
+    "@knewbeing/vitepress-plugin-autosidebar-toc": "workspace:*",
     "@antfu/eslint-config": "^8.0.0",
     "@hedgedoc/markdown-it-plugins": "^2.1.4",
     "@iconify-json/carbon": "^1.2.19",
