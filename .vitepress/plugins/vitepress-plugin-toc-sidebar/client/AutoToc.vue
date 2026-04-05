@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import type { DefaultTheme } from 'vitepress'
-import { computed } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { computed, onMounted, shallowRef } from 'vue'
+import { useRoute, withBase } from 'vitepress'
+import type { TocSidebarRawTree } from '../types'
 
-type SidebarItem = DefaultTheme.SidebarItem
 interface AutoTocEntry {
   text: string
   link: string
@@ -24,7 +23,32 @@ interface DisplayEntry {
 }
 
 const route = useRoute()
-const { theme } = useData()
+const rawTree = shallowRef<TocSidebarRawTree | null>(null)
+
+let rawTreePromise: Promise<TocSidebarRawTree | null> | null = null
+
+async function loadRawTree(): Promise<TocSidebarRawTree | null> {
+  if (!rawTreePromise) {
+    rawTreePromise = fetch(withBase('/doctree.json'), {
+      cache: 'no-cache',
+    })
+      .then(async (response) => {
+        if (!response.ok) {
+          return null
+        }
+
+        const payload = await response.json()
+        return payload as TocSidebarRawTree
+      })
+      .catch(() => null)
+  }
+
+  return rawTreePromise
+}
+
+onMounted(async () => {
+  rawTree.value = await loadRawTree()
+})
 
 function safeDecode(input: string): string {
   try {
@@ -61,6 +85,135 @@ function normalizePath(path: string): string {
   return normalized || '/'
 }
 
+function parentDirectoryPath(routePath: string): string {
+  const normalized = normalizePath(routePath)
+  if (normalized === '/') {
+    return '/'
+  }
+
+  const parts = normalized.split('/').filter(Boolean)
+  if (routePath.endsWith('/')) {
+    return `/${parts.join('/')}`
+  }
+
+  const parent = parts.slice(0, -1).join('/')
+  return parent ? `/${parent}` : '/'
+}
+
+function toRawTreeKeyFromRoutePath(routePath: string): string {
+  const normalized = normalizePath(routePath)
+  if (normalized === '/') {
+    return '/'
+  }
+
+  return normalized.replace(/^\/+|\/+$/g, '')
+}
+
+function joinRawTreeKey(baseKey: string, childDirName: string): string {
+  if (baseKey === '/') {
+    return childDirName
+  }
+
+  return `${baseKey}/${childDirName}`
+}
+
+function toDirectoryLinkFromRawTreeKey(rawTreeKey: string): string {
+  if (!rawTreeKey || rawTreeKey === '/') {
+    return '/'
+  }
+
+  return `/${rawTreeKey}/`
+}
+
+function toPageLinkFromRelativeFile(relativeMdPath: string): string {
+  const normalized = relativeMdPath.replace(/\\/g, '/').replace(/^\/+/, '')
+  let link = `/${normalized}`
+
+  if (link.endsWith('.md')) {
+    link = link.slice(0, -3)
+  }
+  if (link.endsWith('/index')) {
+    link = link.slice(0, -6)
+  }
+  if (!link) {
+    return '/'
+  }
+
+  return link
+}
+
+function toFileDisplayText(fileName: string): string {
+  return fileName.endsWith('.md') ? fileName.slice(0, -3) : fileName
+}
+
+function buildRouteTreeFromRawTree(
+  sourceRawTree: TocSidebarRawTree,
+  rawTreeKey: string,
+): AutoTocRouteTreeEntry[] {
+  const node = sourceRawTree[rawTreeKey]
+  if (!node) {
+    return []
+  }
+
+  const items: AutoTocRouteTreeEntry[] = []
+
+  for (const dirName of node.directories) {
+    const childKey = joinRawTreeKey(rawTreeKey, dirName)
+    const childNode = sourceRawTree[childKey]
+    if (!childNode) {
+      continue
+    }
+
+    const hasIndex = childNode.files.includes('index.md')
+    const children = buildRouteTreeFromRawTree(sourceRawTree, childKey)
+
+    items.push({
+      kind: 'directory',
+      text: dirName,
+      ...(hasIndex ? { link: toDirectoryLinkFromRawTreeKey(childKey) } : {}),
+      ...(children.length > 0 ? { items: children } : {}),
+    })
+  }
+
+  for (const fileName of node.files) {
+    if (!fileName.endsWith('.md') || fileName === 'index.md') {
+      continue
+    }
+
+    const relativeFile = rawTreeKey === '/' ? fileName : `${rawTreeKey}/${fileName}`
+    items.push({
+      kind: 'file',
+      text: toFileDisplayText(fileName),
+      link: toPageLinkFromRelativeFile(relativeFile),
+    })
+  }
+
+  return items
+}
+
+function getCurrentRouteTree(sourceRawTree: TocSidebarRawTree | null, routePath: string): AutoTocRouteTreeEntry[] {
+  if (!sourceRawTree) {
+    return []
+  }
+
+  const targetDirPath = parentDirectoryPath(routePath)
+  const targetKey = toRawTreeKeyFromRoutePath(targetDirPath)
+  const routeTree = buildRouteTreeFromRawTree(sourceRawTree, targetKey)
+  if (routeTree.length > 0) {
+    return routeTree
+  }
+
+  const normalizedRoute = normalizePath(routePath)
+  const fallbackKey = toRawTreeKeyFromRoutePath(normalizedRoute)
+  const fallbackTree = buildRouteTreeFromRawTree(sourceRawTree, fallbackKey)
+  if (fallbackTree.length > 0) {
+    return fallbackTree
+  }
+
+  const parentKey = toRawTreeKeyFromRoutePath(parentDirectoryPath(normalizedRoute))
+  return buildRouteTreeFromRawTree(sourceRawTree, parentKey)
+}
+
 function isDirectoryLink(link: string): boolean {
   const normalized = safeDecode(stripHash(link))
   return normalized === '/' || normalized.endsWith('/')
@@ -70,114 +223,18 @@ function routeMatches(routePath: string, link: string): boolean {
   return normalizePath(routePath) === normalizePath(link)
 }
 
-function flattenRouteTreeEntries(entries: AutoTocRouteTreeEntry[]): AutoTocEntry[] {
-  const links: AutoTocEntry[] = []
-
-  const walk = (nodes: AutoTocRouteTreeEntry[]): void => {
-    for (const node of nodes) {
-      if (node.link) {
-        links.push({ text: node.text, link: node.link })
-      }
-
-      if (node.items?.length) {
-        walk(node.items)
-      }
-    }
-  }
-
-  walk(entries)
-  return links
-}
-
-function pickSidebarForRoute(
-  sidebar: DefaultTheme.Sidebar | undefined,
-  routePath: string,
-): SidebarItem[] {
-  if (!sidebar) {
-    return []
-  }
-
-  if (Array.isArray(sidebar)) {
-    return sidebar
-  }
-
-  const keys = Object.keys(sidebar)
-  if (keys.length === 0) {
-    return []
-  }
-
-  const normalizedRoute = normalizePath(routePath)
-  const selectedKey = keys
-    .filter((key) => {
-      const base = normalizePath(key)
-      return normalizedRoute === base || normalizedRoute.startsWith(`${base}/`)
-    })
-    .sort((a, b) => normalizePath(b).length - normalizePath(a).length)[0]
-
-  const pickSectionItems = (section: SidebarItem[] | { items: SidebarItem[], base: string } | undefined): SidebarItem[] => {
-    if (!section) {
-      return []
-    }
-    return Array.isArray(section) ? section : (section.items ?? [])
-  }
-
-  if (!selectedKey) {
-    return pickSectionItems(sidebar['/'])
-  }
-
-  return pickSectionItems(sidebar[selectedKey])
-}
-
-function parentDirectoryPath(routePath: string): string {
-  const normalized = normalizePath(routePath)
-  if (normalized === '/') {
-    return '/'
-  }
-  const parts = normalized.split('/').filter(Boolean)
-  if (routePath.endsWith('/')) {
-    return `/${parts.join('/')}`
-  }
-  const parent = parts.slice(0, -1).join('/')
-  return parent ? `/${parent}` : '/'
-}
-
-function findCurrentRouteTree(items: SidebarItem[], routePath: string): AutoTocRouteTreeEntry[] {
-  const targetDirPath = parentDirectoryPath(routePath)
-  const normalizedRoute = normalizePath(routePath)
-
-  const dfs = (list: SidebarItem[]): AutoTocRouteTreeEntry[] => {
-    for (const item of list) {
-      const routeTree = (((item as any).__autoTocRouteTree) ?? []) as AutoTocRouteTreeEntry[]
-      const itemDirPath = normalizePath(((item as any).__autoTocDirPath ?? '') as string)
-
-      if (routeTree.length > 0) {
-        if (itemDirPath && itemDirPath === targetDirPath) {
-          return routeTree
-        }
-
-        if ('link' in item && item.link && routeMatches(normalizedRoute, item.link)) {
-          return routeTree
-        }
-      }
-
-      if ('items' in item && item.items?.length) {
-        const found = dfs(item.items)
-        if (found.length > 0) {
-          return found
-        }
-      }
-    }
-
-    return []
-  }
-
-  return dfs(items)
+function pickCurrentLevelEntries(entries: AutoTocRouteTreeEntry[]): AutoTocEntry[] {
+  return entries
+    .filter(entry => !!entry.link)
+    .map(entry => ({
+      text: entry.text,
+      link: entry.link!,
+    }))
 }
 
 const siblingEntries = computed<DisplayEntry[]>(() => {
-  const sectionItems = pickSidebarForRoute(theme.value.sidebar, route.path)
-  const currentRouteTree = findCurrentRouteTree(sectionItems, route.path)
-  const siblings = currentRouteTree.length > 0 ? flattenRouteTreeEntries(currentRouteTree) : []
+  const currentRouteTree = getCurrentRouteTree(rawTree.value, route.path)
+  const siblings = currentRouteTree.length > 0 ? pickCurrentLevelEntries(currentRouteTree) : []
 
   const seen = new Set<string>()
 

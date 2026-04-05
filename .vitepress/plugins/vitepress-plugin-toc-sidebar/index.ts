@@ -1,4 +1,5 @@
-import { resolve } from 'node:path'
+import { mkdirSync, writeFileSync } from 'node:fs'
+import { isAbsolute, resolve } from 'node:path'
 import type { DefaultTheme } from 'vitepress'
 import type { Plugin } from 'vite'
 import {
@@ -6,7 +7,6 @@ import {
   buildFileTree,
   normalizeRootPath,
   scanMarkdownFiles,
-  sortEntries,
 } from './helpers'
 import type {
   DirNode,
@@ -14,15 +14,14 @@ import type {
   ResolvedTocSidebarOptions,
   TocSidebarBuildOptions,
   TocSidebarLifecycleHooks,
-  TocSidebarPlugin,
+  TocSidebarRawTree,
   ViteUserConfigLike,
 } from './types'
-import { TocSidebarResolver } from './resolvers'
+import { TocSidebarResolver } from './client/resolvers'
 
 export type {
   TocSidebarBuildOptions,
   TocSidebarLifecycleHooks,
-  TocSidebarPlugin,
 } from './types'
 
 export {
@@ -32,38 +31,29 @@ export {
 const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   includeGlobs: ['**/*.md'],
   excludeGlobs: ['**/node_modules/**', '**/.git/**', '**/.vitepress/**'],
-  sidebarFilter: {
-    showMarkdownLinks: true,
-    hideDirsWithoutMarkdown: false,
-    includeRootIndex: false,
-    includeFolderIndex: false,
-    excludeFilesByFrontmatterFieldName: 'sidebarHide',
-  },
-  autoTocFilter: {
-    includeRootIndex: true,
-    includeFolderIndex: true,
-    excludeFilesByFrontmatterFieldName: 'sidebarHide',
-  },
   showMarkdownLinks: true,
-  hideDirsWithoutMarkdown: false,
-  includeRootIndex: false,
-  includeFolderIndex: false,
   includeDotFiles: false,
   collapsed: true,
-  folderLinkFromIndexFile: true,
-  frontmatterTitleField: 'sidebarTitle',
-  excludeFilesByFrontmatterFieldName: 'sidebarHide',
-  formatSortPrefix: true,
-  sortByName: true,
-  toc: {
-    enabled: true,
-    collapsed: true,
-  },
 }
 
 interface BuildAllTreeNodeResult {
   tree: Map<string, DirNode>
   rawTree: Map<string, DirNode>
+}
+
+function resolvePublicDir(config: ViteUserConfigLike): string {
+  const rootDir = config.root ? resolve(config.root) : process.cwd()
+  const configuredPublicDir = config.publicDir
+
+  if (!configuredPublicDir) {
+    return resolve(rootDir, 'public')
+  }
+
+  if (isAbsolute(configuredPublicDir)) {
+    return configuredPublicDir
+  }
+
+  return resolve(rootDir, configuredPublicDir)
 }
 
 function buildAllTreeNode(
@@ -87,17 +77,48 @@ function buildAllTreeNode(
   }
 }
 
-function buildAllToc(
-  baseDir: string,
+function serializeRawTree(rawTree: Map<string, DirNode>): TocSidebarRawTree {
+  const payload: TocSidebarRawTree = {}
+
+  for (const [dirPath, node] of rawTree.entries()) {
+    const key = dirPath || '/'
+    payload[key] = {
+      directories: [...node.directories],
+      files: [...node.files],
+    }
+  }
+
+  return payload
+}
+
+function writeRawTreeToPublic(rawTreePayload: TocSidebarRawTree, publicDir: string): void {
+  mkdirSync(publicDir, { recursive: true })
+  writeFileSync(
+    resolve(publicDir, 'doctree.json'),
+    `${JSON.stringify(rawTreePayload, null, 2)}\n`,
+    'utf-8',
+  )
+}
+
+export function createTocSidebarVitePlugin(
   userOptions: TocSidebarBuildOptions,
-  options: ResolvedTocSidebarOptions,
-  cache: Map<string, MarkdownMeta>,
-  tree: Map<string, DirNode>,
-  rawTree: Map<string, DirNode>,
-): DefaultTheme.SidebarMulti {
-  const roots = userOptions.roots && userOptions.roots.length > 0
-    ? userOptions.roots.map(normalizeRootPath)
-    : sortEntries([...(tree.get('')?.directories ?? [])], options.sortByName)
+  hooks: TocSidebarLifecycleHooks = {},
+): Plugin {
+  const options: TocSidebarBuildOptions & ResolvedTocSidebarOptions = {
+    ...DEFAULT_OPTIONS,
+    ...userOptions,
+    showMarkdownLinks: userOptions.showMarkdownLinks ?? DEFAULT_OPTIONS.showMarkdownLinks,
+  }
+
+  hooks.onOptionsResolved?.(options)
+
+  const baseDir = resolve(options.dir)
+  const cache = new Map<string, MarkdownMeta>()
+  const { tree, rawTree } = buildAllTreeNode(baseDir, options, hooks)
+  const rawTreePayload = serializeRawTree(rawTree)
+  const roots = options.roots && options.roots.length > 0
+    ? options.roots.map(normalizeRootPath)
+    : [...(tree.get('')?.directories ?? [])]
 
   const sidebar: DefaultTheme.SidebarMulti = {}
   for (const root of roots) {
@@ -106,83 +127,18 @@ function buildAllToc(
     }
 
     const rootPath = `/${root}/`
-    sidebar[rootPath] = buildDirectoryItems(baseDir, root, 0, options, cache, tree, rawTree)
+    sidebar[rootPath] = buildDirectoryItems(baseDir, root, 0, options, cache, tree)
   }
 
-  return sidebar
-}
-
-function buildsidebar(
-  baseDir: string,
-  userOptions: TocSidebarBuildOptions,
-  options: ResolvedTocSidebarOptions,
-  hooks: TocSidebarLifecycleHooks,
-): DefaultTheme.SidebarMulti {
-  const cache = new Map<string, MarkdownMeta>()
-  const { tree, rawTree } = buildAllTreeNode(baseDir, options, hooks)
-  const sidebar = buildAllToc(baseDir, userOptions, options, cache, tree, rawTree)
   hooks.onSidebarBuilt?.(sidebar)
-  return sidebar
-}
-
-
-function createTocSidebarPlugin(
-  userOptions: TocSidebarBuildOptions,
-  hooks: TocSidebarLifecycleHooks = {},
-): TocSidebarPlugin {
-  const resolvedSidebarFilter = {
-    ...DEFAULT_OPTIONS.sidebarFilter,
-    ...(userOptions.sidebarFilter ?? {}),
-    showMarkdownLinks: userOptions.sidebarFilter?.showMarkdownLinks ?? userOptions.showMarkdownLinks ?? DEFAULT_OPTIONS.sidebarFilter.showMarkdownLinks,
-    hideDirsWithoutMarkdown: userOptions.sidebarFilter?.hideDirsWithoutMarkdown ?? userOptions.hideDirsWithoutMarkdown ?? DEFAULT_OPTIONS.sidebarFilter.hideDirsWithoutMarkdown,
-    includeRootIndex: userOptions.sidebarFilter?.includeRootIndex ?? userOptions.includeRootIndex ?? DEFAULT_OPTIONS.sidebarFilter.includeRootIndex,
-    includeFolderIndex: userOptions.sidebarFilter?.includeFolderIndex ?? userOptions.includeFolderIndex ?? DEFAULT_OPTIONS.sidebarFilter.includeFolderIndex,
-    excludeFilesByFrontmatterFieldName:
-      userOptions.sidebarFilter?.excludeFilesByFrontmatterFieldName
-      ?? userOptions.excludeFilesByFrontmatterFieldName
-      ?? DEFAULT_OPTIONS.sidebarFilter.excludeFilesByFrontmatterFieldName,
-  }
-
-  const resolvedAutoTocFilter = {
-    ...DEFAULT_OPTIONS.autoTocFilter,
-    ...(userOptions.autoTocFilter ?? {}),
-    includeRootIndex: userOptions.autoTocFilter?.includeRootIndex ?? DEFAULT_OPTIONS.autoTocFilter.includeRootIndex,
-    includeFolderIndex: userOptions.autoTocFilter?.includeFolderIndex ?? DEFAULT_OPTIONS.autoTocFilter.includeFolderIndex,
-    excludeFilesByFrontmatterFieldName:
-      userOptions.autoTocFilter?.excludeFilesByFrontmatterFieldName
-      ?? userOptions.excludeFilesByFrontmatterFieldName
-      ?? DEFAULT_OPTIONS.autoTocFilter.excludeFilesByFrontmatterFieldName,
-  }
-
-  const options = {
-    ...DEFAULT_OPTIONS,
-    ...userOptions,
-    sidebarFilter: resolvedSidebarFilter,
-    autoTocFilter: resolvedAutoTocFilter,
-    toc: {
-      ...DEFAULT_OPTIONS.toc,
-      ...(userOptions.toc ?? {}),
-    },
-  }
-
-  hooks.onOptionsResolved?.(options)
-
-  const buildSidebar = (): DefaultTheme.SidebarMulti => buildsidebar(resolve(options.dir), userOptions, options, hooks)
-
-  return {
-    name: 'vitepress-plugin-toc-sidebar',
-    options,
-    buildSidebar,
-  }
-}
-
-export function createTocSidebarVitePlugin(options: TocSidebarBuildOptions): Plugin {
-  const runtime = createTocSidebarPlugin(options)
 
   return {
     name: 'vitepress-plugin-toc-sidebar:inject',
     config(config) {
-      const sidebar = runtime.buildSidebar()
+      const normalizedConfig = config as ViteUserConfigLike
+      const publicDir = resolvePublicDir(normalizedConfig)
+      writeRawTreeToPublic(rawTreePayload, publicDir)
+
       const site = (config as ViteUserConfigLike)?.vitepress?.site
 
       if (!site) {

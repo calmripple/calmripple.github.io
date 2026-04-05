@@ -4,22 +4,15 @@ import fg from 'fast-glob'
 import matter from 'gray-matter'
 import type { DefaultTheme } from 'vitepress'
 import type {
-  AutoTocLinkItem,
-  AutoTocRouteTreeItem,
   DirNode,
   Heading,
   MarkdownMeta,
   ResolvedTocSidebarOptions,
-  SidebarItemWithAutoToc,
   TocNode,
 } from './types'
 
 export function normalizePath(p: string): string {
   return p.split(sep).join('/')
-}
-
-function removeSortPrefix(name: string): string {
-  return name.replace(/^\d+\s*[._\-\s、]*/, '').trim()
 }
 
 export function toVpLink(relativeMdPath: string): string {
@@ -121,19 +114,7 @@ export function readMarkdownMeta(filePath: string, cache: Map<string, MarkdownMe
   return result
 }
 
-export function sortEntries(entries: string[], byName: boolean): string[] {
-  if (!byName) {
-    return entries
-  }
-
-  return [...entries].sort((a, b) => a.localeCompare(b, 'zh-CN', { numeric: true, sensitivity: 'base' }))
-}
-
-function buildTocItems(pageLink: string, headings: Heading[], options: ResolvedTocSidebarOptions): TocNode[] {
-  if (!options.toc.enabled) {
-    return []
-  }
-
+function buildTocItems(pageLink: string, headings: Heading[]): TocNode[] {
   const usable = headings
   if (usable.length === 0) {
     return []
@@ -174,34 +155,29 @@ function buildTocItems(pageLink: string, headings: Heading[], options: ResolvedT
 export function buildDirectoryTocItems(
   baseDir: string,
   indexAbsPath: string,
-  options: ResolvedTocSidebarOptions,
   cache: Map<string, MarkdownMeta>,
 ): DefaultTheme.SidebarItem[] {
-  if (!options.toc.enabled) {
-    return []
-  }
-
   const indexLink = toVpDirectoryLink(relative(baseDir, indexAbsPath))
   const meta = readMarkdownMeta(indexAbsPath, cache)
-  const tocItems = buildTocItems(indexLink, meta.headings, options)
+  const tocItems = buildTocItems(indexLink, meta.headings)
   if (tocItems.length === 0) {
     return []
   }
 
   return [{
     text: 'TOC',
-    collapsed: options.toc.collapsed,
+    collapsed: true,
     items: tocItems as DefaultTheme.SidebarItem[],
   }]
 }
 
-export function formatDisplayText(raw: string, options: ResolvedTocSidebarOptions): string {
-  return options.formatSortPrefix ? removeSortPrefix(raw) : raw
+export function formatDisplayText(raw: string): string {
+  return raw
 }
 
-export function fileTitle(filePath: string, fallback: string, options: ResolvedTocSidebarOptions, cache: Map<string, MarkdownMeta>): string {
+export function fileTitle(filePath: string, fallback: string, cache: Map<string, MarkdownMeta>): string {
   const meta = readMarkdownMeta(filePath, cache)
-  const fromField = meta.frontmatter[options.frontmatterTitleField]
+  const fromField = meta.frontmatter.sidebarTitle
   if (typeof fromField === 'string' && fromField.trim()) {
     return fromField.trim()
   }
@@ -269,139 +245,6 @@ export function buildFileTree(markdownFiles: string[]): Map<string, DirNode> {
   return tree
 }
 
-function collectAutoTocLinksForDirectory(
-  baseDir: string,
-  dirPath: string,
-  options: ResolvedTocSidebarOptions,
-  cache: Map<string, MarkdownMeta>,
-  tree: Map<string, DirNode>,
-): AutoTocLinkItem[] {
-  const node = tree.get(dirPath)
-  if (!node) {
-    return []
-  }
-
-  const results: AutoTocLinkItem[] = []
-  const fileNames = sortEntries([...node.files], options.sortByName)
-
-  for (const fileName of fileNames) {
-    if (extname(fileName) !== '.md') {
-      continue
-    }
-
-    const relativeFile = dirPath ? `${dirPath}/${fileName}` : fileName
-    const absoluteFile = join(baseDir, relativeFile)
-
-    const link = toVpPageLink(relativeFile)
-    const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
-    const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
-    results.push({ text: title, link })
-  }
-
-  const directoryNames = sortEntries([...node.directories], options.sortByName)
-  for (const dirName of directoryNames) {
-    const childDir = dirPath ? `${dirPath}/${dirName}` : dirName
-    results.push(...collectAutoTocLinksForDirectory(baseDir, childDir, options, cache, tree))
-  }
-
-  return results
-}
-
-function collectRawMarkdownLinksForDirectory(
-  baseDir: string,
-  dirPath: string,
-  options: ResolvedTocSidebarOptions,
-  cache: Map<string, MarkdownMeta>,
-  rawTree: Map<string, DirNode>,
-): AutoTocLinkItem[] {
-  const node = rawTree.get(dirPath)
-  if (!node) {
-    return []
-  }
-
-  const results: AutoTocLinkItem[] = []
-  const fileNames = sortEntries([...node.files], options.sortByName)
-  for (const fileName of fileNames) {
-    const relativeFile = dirPath ? `${dirPath}/${fileName}` : fileName
-    const absoluteFile = join(baseDir, relativeFile)
-    const link = toVpPageLink(relativeFile)
-    const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
-    const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
-    results.push({ text: title, link })
-  }
-
-  const directoryNames = sortEntries([...node.directories], options.sortByName)
-  for (const dirName of directoryNames) {
-    const childDir = dirPath ? `${dirPath}/${dirName}` : dirName
-    results.push(...collectRawMarkdownLinksForDirectory(baseDir, childDir, options, cache, rawTree))
-  }
-
-  return results
-}
-
-function buildRouteTreeForDirectory(
-  baseDir: string,
-  dirPath: string,
-  options: ResolvedTocSidebarOptions,
-  cache: Map<string, MarkdownMeta>,
-  rawTree: Map<string, DirNode>,
-  routeTreeCache: Map<string, AutoTocRouteTreeItem[]>,
-): AutoTocRouteTreeItem[] {
-  const cached = routeTreeCache.get(dirPath)
-  if (cached) {
-    return cached
-  }
-
-  const node = rawTree.get(dirPath)
-  if (!node) {
-    return []
-  }
-
-  const items: AutoTocRouteTreeItem[] = []
-  const directoryNames = sortEntries([...node.directories], options.sortByName)
-  for (const dirName of directoryNames) {
-    const childDir = dirPath ? `${dirPath}/${dirName}` : dirName
-    const childNode = rawTree.get(childDir)
-    if (!childNode) {
-      continue
-    }
-
-    const indexRel = `${childDir}/index.md`
-    const hasIndex = childNode.files.has('index.md')
-    const link = hasIndex ? toVpDirectoryLink(indexRel) : undefined
-    const children = buildRouteTreeForDirectory(baseDir, childDir, options, cache, rawTree, routeTreeCache)
-
-    items.push({
-      kind: 'directory',
-      text: formatDisplayText(dirName, options),
-      ...(link ? { link } : {}),
-      ...(children.length > 0 ? { items: children } : {}),
-    })
-  }
-
-  const fileNames = sortEntries([...node.files], options.sortByName)
-  for (const fileName of fileNames) {
-    if (extname(fileName) !== '.md' || fileName === 'index.md') {
-      continue
-    }
-
-    const relativeFile = dirPath ? `${dirPath}/${fileName}` : fileName
-    const absoluteFile = join(baseDir, relativeFile)
-    const link = toVpPageLink(relativeFile)
-    const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
-    const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
-
-    items.push({
-      kind: 'file',
-      text: title,
-      link,
-    })
-  }
-
-  routeTreeCache.set(dirPath, items)
-  return items
-}
-
 export function buildDirectoryItems(
   baseDir: string,
   currentDir: string,
@@ -409,16 +252,14 @@ export function buildDirectoryItems(
   options: ResolvedTocSidebarOptions,
   cache: Map<string, MarkdownMeta>,
   tree: Map<string, DirNode>,
-  rawTree: Map<string, DirNode>,
-  routeTreeCache: Map<string, AutoTocRouteTreeItem[]> = new Map(),
 ): DefaultTheme.SidebarItem[] {
   const node = tree.get(currentDir)
   if (!node) {
     return []
   }
 
-  const directoryNames = sortEntries([...node.directories], options.sortByName)
-  const fileNames = sortEntries([...node.files], options.sortByName)
+  const directoryNames = [...node.directories]
+  const fileNames = [...node.files]
 
   const files: DefaultTheme.SidebarItem[] = []
   const dirs: DefaultTheme.SidebarItem[] = []
@@ -430,33 +271,25 @@ export function buildDirectoryItems(
       continue
     }
 
-    const children = buildDirectoryItems(baseDir, childDir, depth + 1, options, cache, tree, rawTree, routeTreeCache)
-    const hiddenMarkdownLinks = collectAutoTocLinksForDirectory(baseDir, childDir, options, cache, tree)
-    const rawMarkdownLinks = collectRawMarkdownLinksForDirectory(baseDir, childDir, options, cache, rawTree)
-    const routeTreeItems = buildRouteTreeForDirectory(baseDir, childDir, options, cache, rawTree, routeTreeCache)
+    const children = buildDirectoryItems(baseDir, childDir, depth + 1, options, cache, tree)
 
     const indexRel = childDir ? `${childDir}/index.md` : 'index.md'
     const hasIndex = childNode.files.has('index.md')
     const link = hasIndex ? toVpDirectoryLink(indexRel) : undefined
     const items = [...children]
-    const autoTocDirPath = `/${childDir}`
 
-    if (items.length > 0 || link || hiddenMarkdownLinks.length > 0 || rawMarkdownLinks.length > 0) {
-      const directoryItem: SidebarItemWithAutoToc = {
-        text: formatDisplayText(dirName, options),
+    if (items.length > 0 || link) {
+      const directoryItem = {
+        text: formatDisplayText(dirName),
         ...(link ? { link } : {}),
         ...(items.length > 0 ? { items } : {}),
-        __autoTocLinks: hiddenMarkdownLinks,
-        __autoTocRawLinks: rawMarkdownLinks,
-        __autoTocDirPath: autoTocDirPath,
-        __autoTocRouteTree: routeTreeItems,
         collapsed: options.collapsed,
-      }
+      } as DefaultTheme.SidebarItem
       dirs.push(directoryItem)
     }
   }
 
-  if (options.sidebarFilter.showMarkdownLinks) {
+  if (options.showMarkdownLinks) {
     for (const fileName of fileNames) {
       if (extname(fileName) !== '.md') {
         continue
@@ -464,20 +297,15 @@ export function buildDirectoryItems(
 
       const isIndex = fileName === 'index.md'
       if (isIndex) {
-        const includeIndex = depth === 0
-          ? options.sidebarFilter.includeRootIndex
-          : options.sidebarFilter.includeFolderIndex
-        if (!includeIndex) {
-          continue
-        }
+        continue
       }
 
       const relativeFile = currentDir ? `${currentDir}/${fileName}` : fileName
       const absoluteFile = join(baseDir, relativeFile)
 
       const link = toVpPageLink(relativeFile)
-      const fallbackTitle = formatDisplayText(basename(fileName, '.md'), options)
-      const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, options, cache), options)
+      const fallbackTitle = formatDisplayText(basename(fileName, '.md'))
+      const title = formatDisplayText(fileTitle(absoluteFile, fallbackTitle, cache))
 
       files.push({
         text: title,

@@ -1,0 +1,767 @@
+{
+  "/": {
+    "directories": [
+      "笔记",
+      "编目 Catalog",
+      "视图"
+    ],
+    "files": [
+      "index.md",
+      "toc.md",
+      "🔌 知识库插件列表.md"
+    ]
+  },
+  "笔记": {
+    "directories": [
+      "🌐 大前端",
+      "🎬 项目",
+      "🐔 免费浪漫",
+      "💾 软件",
+      "📐 图形学",
+      "🤖 AI 人工智能",
+      "☁️ 云原生与运维",
+      "👨‍💻 编程开发",
+      "📋 面试题",
+      "📚 计算机基础"
+    ],
+    "files": [
+      "index.md"
+    ]
+  },
+  "编目 Catalog": {
+    "directories": [],
+    "files": [
+      "index.md"
+    ]
+  },
+  "视图": {
+    "directories": [],
+    "files": [
+      "尚未编写完成的页面.md",
+      "未添加标签的页面.md"
+    ]
+  },
+  "笔记/🌐 大前端": {
+    "directories": [
+      "Bun",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Node.js",
+      "Vue",
+      "博客文章",
+      "性能优化",
+      "技术文章",
+      "正则表达式",
+      "浏览器",
+      "调试与进阶",
+      "项目模板"
+    ],
+    "files": [
+      "idea.md",
+      "index.md"
+    ]
+  },
+  "笔记/🎬 项目": {
+    "directories": [
+      "开源工具"
+    ],
+    "files": [
+      "index.md",
+      "Nolebase 集成.md",
+      "Nolebase.md"
+    ]
+  },
+  "笔记/🐔 免费浪漫": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "关于我.md"
+    ]
+  },
+  "笔记/💾 软件": {
+    "directories": [
+      "ffmpeg",
+      "NeoVim",
+      "笔记软件",
+      "🛠 VS Code"
+    ],
+    "files": [
+      "Figma 设计软件.md",
+      "index.md",
+      "如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.md",
+      "自己动手，用 ffmpeg 搞定日常音频和视频操作.md"
+    ]
+  },
+  "笔记/📐 图形学": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "↗️ 向量长度.md",
+      "▶️ 三角函数.md",
+      "✖️ 叉乘.md",
+      "单位向量.md",
+      "复平面和四元数.md",
+      "学习图形学.md",
+      "🌐 齐次坐标.md",
+      "📐 向量之间的夹角.md",
+      "🔘 点乘.md",
+      "🔢 标量、向量、张量.md",
+      "🔢 矩阵乘法.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能": {
+    "directories": [
+      "Coze",
+      "Dify",
+      "LLM 模型",
+      "Neuro",
+      "Stable Diffusion",
+      "从零开始的机器学习之旅",
+      "提示工程 Prompt Engineering",
+      "豆包 MarsCode",
+      "隐写术",
+      "机器学习",
+      "领域"
+    ],
+    "files": [
+      "AI 绘画工作流工具和相关 SOTA.md",
+      "AI 视频工作流工具和相关 SOTA.md",
+      "Debug Anaconda 的包和镜像.md",
+      "index.md",
+      "LLM 天梯榜.md",
+      "LLM 是如何工作的？.md",
+      "LLM 社区.md",
+      "NVIDIA 生态.md",
+      "PyTorch Lightning 恢复训练进度.md",
+      "Rust 社区的 AI 生态.md",
+      "如何让 AI 玩 Minecraft？Voyager 论文笔记.md",
+      "将 chatGPT 与文档结合.md",
+      "快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体.md",
+      "材料化学相关的 Python 计算库.md",
+      "用 Megatron-LM 训练一个 GPT-2.md",
+      "用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.md",
+      "监控和串流机器学习的进度，损失和正样本校验数值.md",
+      "验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确.md"
+    ]
+  },
+  "笔记/☁️ 云原生与运维": {
+    "directories": [
+      "DevOps",
+      "WSL",
+      "理论"
+    ],
+    "files": []
+  },
+  "笔记/☁️ 云原生与运维/DevOps": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "install_docker_k8s_1panel_in_WSL.md",
+      "zsh和oh-my-zsh美化.md"
+    ]
+  },
+  "笔记/☁️ 云原生与运维/WSL": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "install docker k8s 1panel in WSL.md",
+      "zsh和oh-my-zsh美化.md"
+    ]
+  },
+  "笔记/☁️ 云原生与运维/理论": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "serverless.md"
+    ]
+  },
+  "笔记/🌐 大前端/Bun": {
+    "directories": [],
+    "files": [
+      "bun-shell.md",
+      "index.md"
+    ]
+  },
+  "笔记/🌐 大前端/CSS": {
+    "directories": [],
+    "files": [
+      "bfc.md",
+      "box.md",
+      "flex.md",
+      "ifc.md",
+      "index.md",
+      "level.md",
+      "p1.md",
+      "p2.md",
+      "pseudo-class.md",
+      "pseudo-element.md",
+      "reflow.md",
+      "selectors.md"
+    ]
+  },
+  "笔记/🌐 大前端/HTML": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "semantic.md"
+    ]
+  },
+  "笔记/🌐 大前端/JavaScript": {
+    "directories": [],
+    "files": [
+      "apply.md",
+      "arrowfun.md",
+      "async.md",
+      "asyncawait.md",
+      "blob.md",
+      "changeArr.md",
+      "clock.md",
+      "closure.md",
+      "closureUse.md",
+      "copy.md",
+      "currying.md",
+      "deepClone.md",
+      "delete.md",
+      "diff-for-in-of.md",
+      "duplicate.md",
+      "ecmathis.md",
+      "equal.md",
+      "equalA.md",
+      "es6+.md",
+      "es6.md",
+      "event.md",
+      "eventloop.md",
+      "float.md",
+      "garbage.md",
+      "getBool.md",
+      "getElement.md",
+      "immed-setInterval.md",
+      "index copy.md",
+      "index.md",
+      "inherit.md",
+      "instanceof copy.md",
+      "instanceof.md",
+      "judgeArr.md",
+      "judgeDate.md",
+      "judgeObj.md",
+      "likearray.md",
+      "mergeRequest.md",
+      "module.md",
+      "myApply.md",
+      "myBind.md",
+      "myCall.md",
+      "myNew.md",
+      "nullobj.md",
+      "numNotEqual.md",
+      "objDiffPrim.md",
+      "objparam.md",
+      "onload-ready.md",
+      "p0.md",
+      "p1.md",
+      "p2.md",
+      "p3.md",
+      "p4.md",
+      "p5.md",
+      "primitiveType.md",
+      "promise copy.md",
+      "promise.md",
+      "promiseAll.md",
+      "prototype.md",
+      "runcontext.md",
+      "runStack.md",
+      "scope.md",
+      "scopeLink.md",
+      "symbol.md",
+      "this.md",
+      "throttling.md",
+      "typeConvert.md",
+      "typeof.md",
+      "v8garbage.md",
+      "valuePass.md",
+      "variableObject.md"
+    ]
+  },
+  "笔记/🌐 大前端/Node.js": {
+    "directories": [],
+    "files": [
+      "compress-response.md",
+      "index.md",
+      "mongoDb.md",
+      "nvm-iterm.md",
+      "p1.md",
+      "phantom-dep-cli.md",
+      "standard-node-cli.md",
+      "前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.md"
+    ]
+  },
+  "笔记/🌐 大前端/Vue": {
+    "directories": [],
+    "files": [
+      "communicate.md",
+      "compile.md",
+      "computed.md",
+      "dep.md",
+      "diff.md",
+      "extend.md",
+      "hook.md",
+      "index.md",
+      "keep-alive.md",
+      "mechanism.md",
+      "mixin.md",
+      "responsive.md",
+      "routing.md",
+      "showif.md",
+      "vnode.md"
+    ]
+  },
+  "笔记/🌐 大前端/博客文章": {
+    "directories": [],
+    "files": [
+      "2024-blog-perf.md",
+      "index.md"
+    ]
+  },
+  "笔记/🌐 大前端/性能优化": {
+    "directories": [],
+    "files": [
+      "cdn.md",
+      "dnsPre.md",
+      "image.md",
+      "index.md",
+      "Internet.md",
+      "lazyLoad.md",
+      "monitor.md",
+      "preLoad.md",
+      "preRender.md",
+      "ssr.md",
+      "throttling.md"
+    ]
+  },
+  "笔记/🌐 大前端/技术文章": {
+    "directories": [],
+    "files": [
+      "array-buffer.md",
+      "cnnc.md",
+      "copy-branch.md",
+      "deepin-wemeet.md",
+      "deploy-preview-pr.md",
+      "ep2-docker.md",
+      "eslint-plugin.md",
+      "esm-require.md",
+      "faas.md",
+      "fixed-page.md",
+      "forof-idx.md",
+      "git-base.md",
+      "index.md",
+      "jpg-compress.md",
+      "js-cover.md",
+      "jsencrypt.md",
+      "loadEnv.md",
+      "mergefile.md",
+      "mid-autumn-festival.md",
+      "mini-lottie.md",
+      "node-require-json.md",
+      "nodejs-getting-started.md",
+      "png-compress.md",
+      "pnpm-issue-githubactions.md",
+      "qiniu-imgbed.md",
+      "qiniu-oss.md",
+      "ssh-no-pwd-login.md",
+      "tool-methods.md",
+      "tx-serverless-node.md",
+      "tx-serverless-static.md",
+      "upyun.md",
+      "ux.md",
+      "vite-plugin-monitor1.md",
+      "vite-plugin-monitor2.md",
+      "vite-plugin-monitor3.md",
+      "vite-react-js.md",
+      "vitepress-plugin-rss.md",
+      "webapck2vite.md",
+      "webapck2vite2.md",
+      "window-var.md",
+      "yanglegeyang.md",
+      "开源协议选择指南.md"
+    ]
+  },
+  "笔记/🌐 大前端/正则表达式": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "p1.md"
+    ]
+  },
+  "笔记/🌐 大前端/浏览器": {
+    "directories": [],
+    "files": [
+      "block.md",
+      "cache.md",
+      "chrome-devtools-study.md",
+      "core.md",
+      "cors.md",
+      "eventloop.md",
+      "index.md",
+      "problem.md",
+      "render.md",
+      "safe.md",
+      "storage.md"
+    ]
+  },
+  "笔记/🌐 大前端/调试与进阶": {
+    "directories": [],
+    "files": [
+      "chrome-debug1.md",
+      "chrome-debug2.md",
+      "chrome-debug3.md",
+      "chrome-debug4.md",
+      "chrome-debug5.md",
+      "chrome-debug6.md",
+      "design-patterns0.md",
+      "design-patterns1.md",
+      "design-patterns2.md",
+      "http-proxy-fail.md",
+      "index.md",
+      "nvm-ls-remote.md",
+      "ts-decorators.md"
+    ]
+  },
+  "笔记/🌐 大前端/项目模板": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "uni-vue3-cli_1.md",
+      "uni-vue3-cli_2.md",
+      "uni-vue3-cli_3.md",
+      "vite-vue3-template.md",
+      "web-sdk-tpl.md"
+    ]
+  },
+  "笔记/🎬 项目/开源工具": {
+    "directories": [],
+    "files": [
+      "codeNote.md",
+      "escheck.md",
+      "eslint-plugin-todo-ddl.md",
+      "ewuit.md",
+      "fs-cli.md",
+      "html-inline-js-transform.md",
+      "index.md",
+      "node-cli.md",
+      "online-resume.md",
+      "share-snippets.md",
+      "sm-cli.md",
+      "snippets.md",
+      "theme.md",
+      "vitepress-plugin-pagefind.md"
+    ]
+  },
+  "笔记/👨‍💻 编程开发": {
+    "directories": [
+      "Git 与 GitHub",
+      "源码分析",
+      "算法实践"
+    ],
+    "files": []
+  },
+  "笔记/👨‍💻 编程开发/Git 与 GitHub": {
+    "directories": [],
+    "files": [
+      "Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.md",
+      "index.md",
+      "SourceTree SSH密钥缓存问题解决.md"
+    ]
+  },
+  "笔记/👨‍💻 编程开发/源码分析": {
+    "directories": [],
+    "files": [
+      "core-decorators-1.md",
+      "core-decorators-2.md",
+      "core-decorators-3.md",
+      "file-saver-source.md",
+      "index.md",
+      "objectId.md",
+      "vite-loadEnv.md"
+    ]
+  },
+  "笔记/👨‍💻 编程开发/算法实践": {
+    "directories": [],
+    "files": [
+      "addString.md",
+      "feibo1.md",
+      "feibo2.md",
+      "headSort.md",
+      "index.md",
+      "judgeSymmetryTree.md",
+      "linkReserve.md",
+      "mergeSort.md",
+      "publicString.md",
+      "publicStringLen.md",
+      "quickSort.md",
+      "treeLevelTraverse.md"
+    ]
+  },
+  "笔记/💾 软件/ffmpeg": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "压缩 mov 到 mp4.md"
+    ]
+  },
+  "笔记/💾 软件/NeoVim": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "发行版.md"
+    ]
+  },
+  "笔记/💾 软件/笔记软件": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "Notion.md",
+      "Obsidian 插件收藏.md",
+      "Obsidian.md",
+      "笔记软件.md"
+    ]
+  },
+  "笔记/💾 软件/🛠 VS Code": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "解决 VS Code 不能在只读卷上更新.md"
+    ]
+  },
+  "笔记/📋 面试题": {
+    "directories": [
+      "代码题",
+      "其他",
+      "小程序",
+      "性能优化",
+      "面经"
+    ],
+    "files": []
+  },
+  "笔记/📋 面试题/代码题": {
+    "directories": [],
+    "files": [
+      "debounce-throttle.md",
+      "index.md",
+      "kmp.md",
+      "middle-center.md",
+      "myClock.md",
+      "transfer.md",
+      "treeTraverse.md"
+    ]
+  },
+  "笔记/📋 面试题/其他": {
+    "directories": [],
+    "files": [
+      "engineering.md",
+      "index.md",
+      "inputurl.md",
+      "judgeType.md",
+      "object.md",
+      "promote.md",
+      "prototype.md"
+    ]
+  },
+  "笔记/📋 面试题/小程序": {
+    "directories": [],
+    "files": [
+      "differentweb.md",
+      "feature.md",
+      "index.md",
+      "principle.md"
+    ]
+  },
+  "笔记/📋 面试题/性能优化": {
+    "directories": [],
+    "files": [
+      "firstScreenRender.md",
+      "index.md"
+    ]
+  },
+  "笔记/📋 面试题/面经": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "p50.md",
+      "p53-2.md",
+      "p54.md",
+      "p55-1.md",
+      "p55.md",
+      "p58.md"
+    ]
+  },
+  "笔记/📚 计算机基础": {
+    "directories": [
+      "操作系统",
+      "算法",
+      "计算机网络",
+      "设计模式"
+    ],
+    "files": []
+  },
+  "笔记/📚 计算机基础/操作系统": {
+    "directories": [],
+    "files": [
+      "communicate.md",
+      "deadlock.md",
+      "difprothr.md",
+      "index.md",
+      "process.md",
+      "thread.md"
+    ]
+  },
+  "笔记/📚 计算机基础/算法": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "sort.md"
+    ]
+  },
+  "笔记/📚 计算机基础/计算机网络": {
+    "directories": [],
+    "files": [
+      "clength.md",
+      "http.md",
+      "index.md",
+      "tcp-udp.md",
+      "tcp.md",
+      "udp.md"
+    ]
+  },
+  "笔记/📚 计算机基础/设计模式": {
+    "directories": [],
+    "files": [
+      "abstractfactory.md",
+      "factory.md",
+      "index.md",
+      "single.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/Coze": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "juejin-hot-rank-bot.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/Dify": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "postgresql_wsl_solution.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/LLM 模型": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "申请 Llama 3.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/Neuro": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "Live2D 测试模型.md",
+      "各种资源.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/Stable Diffusion": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "mac-install.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/从零开始的机器学习之旅": {
+    "directories": [],
+    "files": [
+      "1 从用 PyTorch 运行一个模型训练开始.md",
+      "index.md",
+      "从头构建一个自己的 GPT 吧.md",
+      "分布式训练.md",
+      "反向传播算法.md",
+      "基本名词.md",
+      "学习和使用 PyTorch.md",
+      "神经网络基础.md",
+      "选择自己想训练的模型方向 - 机器学习的应用场景.md",
+      "阅读清单.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/提示工程 Prompt Engineering": {
+    "directories": [
+      "Promtps"
+    ],
+    "files": [
+      "index.md",
+      "学习和参考最佳实践.md",
+      "提示工程工具.md",
+      "最佳实践.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/豆包 MarsCode": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "marscode-cn.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/隐写术": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "调研结果和资料整理.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/提示工程 Prompt Engineering/Promtps": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "嘴臭锐评 Prompt.md",
+      "简单英语小趣文撰写.md",
+      "终极 ChatGPT 自定义指令.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/机器学习": {
+    "directories": [
+      "知识点"
+    ],
+    "files": []
+  },
+  "笔记/🤖 AI 人工智能/机器学习/知识点": {
+    "directories": [],
+    "files": [
+      "1范数 2范数 无穷范数的通俗理解.md",
+      "index.md",
+      "SVD奇异值分解及其意义.md",
+      "向量范数和矩阵范数.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/领域": {
+    "directories": [
+      "提示词",
+      "音频"
+    ],
+    "files": []
+  },
+  "笔记/🤖 AI 人工智能/领域/提示词": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "开发工具.md",
+      "提示词管控平台.md"
+    ]
+  },
+  "笔记/🤖 AI 人工智能/领域/音频": {
+    "directories": [],
+    "files": [
+      "index.md",
+      "在 macOS 上运行 fish-speech 以进行少量样本语音合成.md",
+      "在 macOS 上配置 GPT-SoVITS-WebUI.md"
+    ]
+  }
+}

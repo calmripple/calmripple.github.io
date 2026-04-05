@@ -15,7 +15,7 @@ export interface TocSidebarResolverOptions {
 
 export function TocSidebarResolver(options: TocSidebarResolverOptions = {}): ComponentResolver {
   const componentName = options.componentName ?? 'AutoToc'
-  const from = options.from ?? `${getDirname()}/AutoToc.vue`
+  const from = options.from ?? `${getDirname()}/client/AutoToc.vue`
 
   return {
     type: 'component',

@@ -5,33 +5,9 @@ export interface TocSidebarBuildOptions {
   roots?: string[]
   includeGlobs?: string[]
   excludeGlobs?: string[]
-  sidebarFilter?: {
-    showMarkdownLinks?: boolean
-    hideDirsWithoutMarkdown?: boolean
-    includeRootIndex?: boolean
-    includeFolderIndex?: boolean
-    excludeFilesByFrontmatterFieldName?: string
-  }
-  autoTocFilter?: {
-    includeRootIndex?: boolean
-    includeFolderIndex?: boolean
-    excludeFilesByFrontmatterFieldName?: string
-  }
   showMarkdownLinks?: boolean
-  hideDirsWithoutMarkdown?: boolean
-  includeRootIndex?: boolean
-  includeFolderIndex?: boolean
   includeDotFiles?: boolean
   collapsed?: boolean
-  folderLinkFromIndexFile?: boolean
-  frontmatterTitleField?: string
-  excludeFilesByFrontmatterFieldName?: string
-  formatSortPrefix?: boolean
-  sortByName?: boolean
-  toc?: {
-    enabled?: boolean
-    collapsed?: boolean
-  }
 }
 
 export interface MarkdownMeta {
@@ -56,17 +32,12 @@ export interface DirNode {
   files: Set<string>
 }
 
-export interface AutoTocLinkItem {
-  text: string
-  link: string
+export interface TocSidebarRawTreeNode {
+  directories: string[]
+  files: string[]
 }
 
-export interface AutoTocRouteTreeItem {
-  kind: 'directory' | 'file'
-  text: string
-  link?: string
-  items?: AutoTocRouteTreeItem[]
-}
+export type TocSidebarRawTree = Record<string, TocSidebarRawTreeNode>
 
 export type ResolvedTocSidebarOptions = Required<Omit<TocSidebarBuildOptions, 'dir' | 'roots'>>
 
@@ -85,6 +56,8 @@ export interface TocSidebarPlugin {
 }
 
 export interface ViteUserConfigLike {
+  root?: string
+  publicDir?: string
   vitepress?: {
     site?: {
       themeConfig?: Record<string, any>
@@ -93,9 +66,3 @@ export interface ViteUserConfigLike {
   }
 }
 
-export type SidebarItemWithAutoToc = DefaultTheme.SidebarItem & {
-  __autoTocLinks?: AutoTocLinkItem[]
-  __autoTocRawLinks?: AutoTocLinkItem[]
-  __autoTocDirPath?: string
-  __autoTocRouteTree?: AutoTocRouteTreeItem[]
-}
