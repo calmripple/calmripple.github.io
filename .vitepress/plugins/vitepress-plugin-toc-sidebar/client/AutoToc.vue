@@ -24,13 +24,18 @@ interface DisplayEntry {
 
 const route = useRoute()
 const rawTree = shallowRef<TocSidebarRawTree | null>(null)
+const doctreePath = typeof __TOC_SIDEBAR_DOCTREE_PATH__ === 'string' && __TOC_SIDEBAR_DOCTREE_PATH__.startsWith('/')
+  ? __TOC_SIDEBAR_DOCTREE_PATH__
+  : '/doctree.json'
 
 let rawTreePromise: Promise<TocSidebarRawTree | null> | null = null
+let cachedDoctreePath = ''
 
-async function loadRawTree(): Promise<TocSidebarRawTree | null> {
-  if (!rawTreePromise) {
-    rawTreePromise = fetch(withBase('/doctree.json'), {
-      cache: 'no-cache',
+async function loadRawTree(sourcePath: string): Promise<TocSidebarRawTree | null> {
+  if (!rawTreePromise || cachedDoctreePath !== sourcePath) {
+    cachedDoctreePath = sourcePath
+    rawTreePromise = fetch(withBase(sourcePath), {
+      cache: 'force-cache',
     })
       .then(async (response) => {
         if (!response.ok) {
@@ -47,7 +52,7 @@ async function loadRawTree(): Promise<TocSidebarRawTree | null> {
 }
 
 onMounted(async () => {
-  rawTree.value = await loadRawTree()
+  rawTree.value = await loadRawTree(doctreePath)
 })
 
 function safeDecode(input: string): string {

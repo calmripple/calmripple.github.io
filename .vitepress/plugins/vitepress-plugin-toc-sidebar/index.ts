@@ -1,5 +1,4 @@
-import { mkdirSync, writeFileSync } from 'node:fs'
-import { isAbsolute, resolve } from 'node:path'
+import { resolve } from 'node:path'
 import type { DefaultTheme } from 'vitepress'
 import type { Plugin } from 'vite'
 import {
@@ -41,20 +40,14 @@ interface BuildAllTreeNodeResult {
   rawTree: Map<string, DirNode>
 }
 
-function resolvePublicDir(config: ViteUserConfigLike): string {
-  const rootDir = config.root ? resolve(config.root) : process.cwd()
-  const configuredPublicDir = config.publicDir
-
-  if (!configuredPublicDir) {
-    return resolve(rootDir, 'public')
-  }
-
-  if (isAbsolute(configuredPublicDir)) {
-    return configuredPublicDir
-  }
-
-  return resolve(rootDir, configuredPublicDir)
+function createDoctreeAssetName(): string {
+  const runToken = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`
+  return `doctree.${runToken}.json`
 }
+
+const DOCTREE_ASSET_NAME = createDoctreeAssetName()
+const DOCTREE_ROUTE_PATH = `/${DOCTREE_ASSET_NAME}`
+const DOCTREE_DEFINE_KEY = '__TOC_SIDEBAR_DOCTREE_PATH__'
 
 function buildAllTreeNode(
   baseDir: string,
@@ -91,15 +84,6 @@ function serializeRawTree(rawTree: Map<string, DirNode>): TocSidebarRawTree {
   return payload
 }
 
-function writeRawTreeToPublic(rawTreePayload: TocSidebarRawTree, publicDir: string): void {
-  mkdirSync(publicDir, { recursive: true })
-  writeFileSync(
-    resolve(publicDir, 'doctree.json'),
-    `${JSON.stringify(rawTreePayload, null, 2)}\n`,
-    'utf-8',
-  )
-}
-
 export function createTocSidebarVitePlugin(
   userOptions: TocSidebarBuildOptions,
   hooks: TocSidebarLifecycleHooks = {},
@@ -116,6 +100,7 @@ export function createTocSidebarVitePlugin(
   const cache = new Map<string, MarkdownMeta>()
   const { tree, rawTree } = buildAllTreeNode(baseDir, options, hooks)
   const rawTreePayload = serializeRawTree(rawTree)
+  const rawTreeJson = `${JSON.stringify(rawTreePayload, null, 2)}\n`
   const roots = options.roots && options.roots.length > 0
     ? options.roots.map(normalizeRootPath)
     : [...(tree.get('')?.directories ?? [])]
@@ -134,10 +119,32 @@ export function createTocSidebarVitePlugin(
 
   return {
     name: 'vitepress-plugin-toc-sidebar:inject',
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const requestPath = req.url?.split('?')[0] ?? ''
+        if (requestPath !== DOCTREE_ROUTE_PATH) {
+          next()
+          return
+        }
+
+        res.statusCode = 200
+        res.setHeader('Content-Type', 'application/json; charset=utf-8')
+        res.end(rawTreeJson)
+      })
+    },
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: DOCTREE_ASSET_NAME,
+        source: rawTreeJson,
+      })
+    },
     config(config) {
-      const normalizedConfig = config as ViteUserConfigLike
-      const publicDir = resolvePublicDir(normalizedConfig)
-      writeRawTreeToPublic(rawTreePayload, publicDir)
+      const normalizedConfig = config as ViteUserConfigLike & { define?: Record<string, string> }
+      normalizedConfig.define = {
+        ...(normalizedConfig.define ?? {}),
+        [DOCTREE_DEFINE_KEY]: JSON.stringify(DOCTREE_ROUTE_PATH),
+      }
 
       const site = (config as ViteUserConfigLike)?.vitepress?.site
 
