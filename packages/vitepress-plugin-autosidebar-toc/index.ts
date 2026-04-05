@@ -4,21 +4,21 @@ import type { ConfigEnv, Plugin } from 'vite'
 import {
   buildDirectoryItems,
   buildFileTree,
-  extractVitePressTransformedPageData,
   normalizeRootPath,
   scanMarkdownFiles,
   scanMarkdownFilesByDirectory,
+  toVpDirectoryLink,
+  toVpPageLink,
 } from './helpers.ts'
 import type {
   BuildAllTreeNodeResult,
   DirNode,
   MarkdownMeta,
+  TocSidebarNavOptions,
   ResolvedTocSidebarOptions,
   TocSidebarBuildOptions,
   TocSidebarDoctreePayload,
   TocSidebarLifecycleHooks,
-  TocSidebarPageMeta,
-  TocSidebarPagesMeta,
   TocSidebarRawTree,
   ViteUserConfigLike,
 } from './types'
@@ -39,6 +39,176 @@ const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   showMarkdownLinks: true,
   includeDotFiles: false,
   collapsed: true,
+  nav: {
+    enabled: false,
+    level: 1,
+    mode: 'replace',
+  },
+}
+
+function normalizeNavOptions(nav?: TocSidebarNavOptions): Required<TocSidebarNavOptions> {
+  const level = typeof nav?.level === 'number' && Number.isFinite(nav.level)
+    ? Math.max(1, Math.floor(nav.level))
+    : 1
+
+  return {
+    enabled: nav?.enabled === true,
+    level,
+    mode: nav?.mode === 'append' ? 'append' : 'replace',
+  }
+}
+
+function sortUniqueStrings(values: Iterable<string>) {
+  return [...new Set(values)].sort((left, right) => left.localeCompare(right))
+}
+
+function resolveNavDirectoryLink(
+  directoryPath: string,
+  tree: Map<string, DirNode>,
+): string | undefined {
+  const node = tree.get(directoryPath)
+  if (!node) {
+    return undefined
+  }
+
+  if (node.files.has('index.md')) {
+    return toVpDirectoryLink(`${directoryPath}/index.md`)
+  }
+
+  const directMarkdownFiles = [...node.files]
+    .filter(fileName => fileName.endsWith('.md') && fileName !== 'index.md')
+    .sort((left, right) => left.localeCompare(right))
+
+  if (directMarkdownFiles.length > 0) {
+    return toVpPageLink(`${directoryPath}/${directMarkdownFiles[0]}`)
+  }
+
+  const children = [...node.directories].sort((left, right) => left.localeCompare(right))
+  for (const childName of children) {
+    const childPath = `${directoryPath}/${childName}`
+    const nestedLink = resolveNavDirectoryLink(childPath, tree)
+    if (nestedLink) {
+      return nestedLink
+    }
+  }
+
+  return undefined
+}
+
+function collectNavDirectoryPaths(
+  scannedFiles: string[],
+  roots: string[],
+  navLevel: number,
+): string[] {
+  const candidates = new Set<string>()
+
+  for (const filePath of scannedFiles) {
+    const segments = filePath.split('/').filter(Boolean)
+    if (segments.length < 2) {
+      continue
+    }
+
+    const directorySegments = segments.slice(0, -1)
+    if (directorySegments.length === 0) {
+      continue
+    }
+
+    if (roots.length > 0) {
+      for (const root of roots) {
+        const rootSegments = root.split('/').filter(Boolean)
+        const startsWithRoot = rootSegments.every(
+          (segment, index) => directorySegments[index] === segment,
+        )
+
+        if (!startsWithRoot) {
+          continue
+        }
+
+        const absoluteLevel = rootSegments.length + navLevel - 1
+        if (directorySegments.length < absoluteLevel) {
+          continue
+        }
+
+        const candidate = directorySegments.slice(0, absoluteLevel).join('/')
+        if (candidate) {
+          candidates.add(candidate)
+        }
+      }
+      continue
+    }
+
+    if (directorySegments.length >= navLevel) {
+      const candidate = directorySegments.slice(0, navLevel).join('/')
+      if (candidate) {
+        candidates.add(candidate)
+      }
+    }
+  }
+
+  return sortUniqueStrings(candidates)
+}
+
+function buildGeneratedNav(
+  scannedFiles: string[],
+  tree: Map<string, DirNode>,
+  roots: string[],
+  navLevel: number,
+): { nav: DefaultTheme.NavItemWithLink[]; directories: string[] } {
+  const directoryPaths = collectNavDirectoryPaths(scannedFiles, roots, navLevel)
+  const nav: DefaultTheme.NavItemWithLink[] = []
+
+  for (const directoryPath of directoryPaths) {
+    if (!tree.has(directoryPath)) {
+      continue
+    }
+
+    const link = resolveNavDirectoryLink(directoryPath, tree)
+    if (!link) {
+      continue
+    }
+
+    const text = directoryPath.split('/').filter(Boolean).at(-1) ?? directoryPath
+    nav.push({
+      text,
+      link,
+    })
+  }
+
+  return {
+    nav,
+    directories: directoryPaths.filter(directoryPath => tree.has(directoryPath)),
+  }
+}
+
+function mergeNavByMode(
+  existingNav: unknown,
+  generatedNav: DefaultTheme.NavItemWithLink[],
+  mode: Required<TocSidebarNavOptions>['mode'],
+) {
+  if (mode === 'replace' || !Array.isArray(existingNav)) {
+    return generatedNav
+  }
+
+  const merged = [...existingNav]
+  const existingLinks = new Set(
+    existingNav
+      .filter(item => item && typeof item === 'object' && typeof (item as { link?: unknown }).link === 'string')
+      .map(item => (item as { link: string }).link),
+  )
+
+  for (const navItem of generatedNav) {
+    if (typeof navItem.link !== 'string') {
+      continue
+    }
+
+    if (existingLinks.has(navItem.link)) {
+      continue
+    }
+    merged.push(navItem)
+    existingLinks.add(navItem.link)
+  }
+
+  return merged
 }
 
 function createDoctreeAssetName(): string {
@@ -81,53 +251,18 @@ function serializeRawTree(rawTree: Map<string, DirNode>): TocSidebarRawTree {
   return payload
 }
 
-function normalizeRelativeMarkdownPath(relativePath: string): string {
-  return relativePath
-    .replace(/\\/g, '/')
-    .replace(/^\/+/, '')
-}
-
 function serializeDoctreePayload(
   rawTree: Map<string, DirNode>,
-  pages?: TocSidebarPagesMeta,
 ): TocSidebarDoctreePayload {
-  const payload: TocSidebarDoctreePayload = {
+  return {
     tree: serializeRawTree(rawTree),
   }
-
-  if (pages && Object.keys(pages).length > 0) {
-    payload.pages = pages
-  }
-
-  return payload
 }
 
 function serializeDoctreeJson(
   rawTree: Map<string, DirNode>,
-  pages?: TocSidebarPagesMeta,
 ): string {
-  return `${JSON.stringify(serializeDoctreePayload(rawTree, pages), null, 2)}\n`
-}
-
-function collectBuildPagesMeta(
-  scannedFiles: string[],
-  transformedPageMeta: Map<string, TocSidebarPageMeta>,
-): TocSidebarPagesMeta | undefined {
-  const pages: TocSidebarPagesMeta = {}
-
-  for (const relativePath of scannedFiles) {
-    const item = transformedPageMeta.get(relativePath)
-    if (!item) {
-      continue
-    }
-    pages[relativePath] = item
-  }
-
-  return Object.keys(pages).length > 0 ? pages : undefined
-}
-
-function sortScannedFiles(files: string[]): string[] {
-  return [...new Set(files)].sort((left, right) => left.localeCompare(right))
+  return `${JSON.stringify(serializeDoctreePayload(rawTree), null, 2)}\n`
 }
 
 function isInsideBaseDir(filePath: string, baseDir: string): boolean {
@@ -140,22 +275,23 @@ export function createTocSidebarVitePlugin(
   userOptions: TocSidebarBuildOptions,
   hooks: TocSidebarLifecycleHooks = {},
 ): Plugin {
+  const normalizedNav = normalizeNavOptions(userOptions.nav)
   const options: TocSidebarBuildOptions & ResolvedTocSidebarOptions = {
     ...DEFAULT_OPTIONS,
     ...userOptions,
     showMarkdownLinks: userOptions.showMarkdownLinks ?? DEFAULT_OPTIONS.showMarkdownLinks,
+    nav: normalizedNav,
   }
 
   hooks.onOptionsResolved?.(options)
 
   const baseDir = resolve(options.dir)
   const cache = new Map<string, MarkdownMeta>()
-  const transformedPageMeta = new Map<string, TocSidebarPageMeta>()
   let isBuildCommand = false
   let scannedFiles: string[] = []
-  let scannedFilesSet = new Set<string>()
   let tree = new Map<string, DirNode>()
   let rawTree = new Map<string, DirNode>()
+  let nav: DefaultTheme.NavItemWithLink[] = []
   let sidebar: DefaultTheme.SidebarMulti = {}
   let devDoctreeJson = serializeDoctreeJson(rawTree)
 
@@ -166,9 +302,7 @@ export function createTocSidebarVitePlugin(
 
     hooks.onFilesScanned?.(scannedFiles)
 
-    scannedFilesSet = new Set(scannedFiles)
     cache.clear()
-    transformedPageMeta.clear()
 
     const built = buildAllTreeNode(scannedFiles, hooks)
     tree = built.tree
@@ -178,8 +312,18 @@ export function createTocSidebarVitePlugin(
       ? options.roots.map(normalizeRootPath)
       : [...(tree.get('')?.directories ?? [])]
 
+    const generatedNav = options.nav.enabled
+      ? buildGeneratedNav(scannedFiles, tree, roots, options.nav.level)
+      : { nav: [], directories: [] }
+
+    nav = generatedNav.nav
+
+    const sidebarRoots = options.nav.enabled && generatedNav.directories.length > 0
+      ? generatedNav.directories
+      : roots
+
     const nextSidebar: DefaultTheme.SidebarMulti = {}
-    for (const root of roots) {
+    for (const root of sidebarRoots) {
       if (!root || !tree.has(root)) {
         continue
       }
@@ -196,49 +340,6 @@ export function createTocSidebarVitePlugin(
   return {
     name: 'vitepress-plugin-autosidebar-toc:inject',
     enforce: 'post',
-    buildStart() {
-      if (!isBuildCommand) {
-        return
-      }
-      transformedPageMeta.clear()
-    },
-    transform(code, id) {
-      if (!isBuildCommand) {
-        return null
-      }
-
-      const cleanId = id.split('?')[0]
-      if (!cleanId.endsWith('.md')) {
-        return null
-      }
-
-      const pageData = extractVitePressTransformedPageData(code)
-      if (!pageData) {
-        return null
-      }
-
-      const relativePath = normalizeRelativeMarkdownPath(pageData.relativePath || '')
-      if (!relativePath) {
-        return null
-      }
-
-      if (!scannedFilesSet.has(relativePath)) {
-        scannedFilesSet.add(relativePath)
-        scannedFiles = sortScannedFiles([...scannedFiles, relativePath])
-      }
-
-      transformedPageMeta.set(relativePath, {
-        relativePath,
-        filePath: normalizeRelativeMarkdownPath(pageData.filePath || relativePath),
-        title: pageData.title,
-        frontmatter: pageData.frontmatter,
-        git: {
-          ...(typeof pageData.lastUpdated === 'number' ? { lastUpdated: pageData.lastUpdated } : {}),
-        },
-      })
-
-      return null
-    },
     configureServer(server) {
       const refreshFromMarkdownFile = (filePath: string) => {
         if (!isInsideBaseDir(filePath, baseDir)) {
@@ -285,14 +386,10 @@ export function createTocSidebarVitePlugin(
         rawTree = built.rawTree
       }
 
-      const pages = isBuildCommand
-        ? collectBuildPagesMeta(scannedFiles, transformedPageMeta)
-        : undefined
-
       this.emitFile({
         type: 'asset',
         fileName: DOCTREE_ASSET_NAME,
-        source: serializeDoctreeJson(rawTree, pages),
+        source: serializeDoctreeJson(rawTree),
       })
     },
     config(config, env: ConfigEnv) {
@@ -317,6 +414,11 @@ export function createTocSidebarVitePlugin(
         site.themeConfig = {
           ...(site.themeConfig ?? {}),
           sidebar,
+          ...(options.nav.enabled && nav.length > 0
+            ? {
+                nav: mergeNavByMode(site.themeConfig?.nav, nav, options.nav.mode),
+              }
+            : {}),
         }
       }
 
@@ -326,6 +428,11 @@ export function createTocSidebarVitePlugin(
           locale.themeConfig = {
             ...(locale.themeConfig ?? {}),
             sidebar,
+            ...(options.nav.enabled && nav.length > 0
+              ? {
+                  nav: mergeNavByMode(locale.themeConfig?.nav, nav, options.nav.mode),
+                }
+              : {}),
           }
         }
       }

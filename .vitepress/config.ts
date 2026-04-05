@@ -71,6 +71,11 @@ const tocSidebarOptions: TocSidebarBuildOptions = {
     '笔记',
     '编目 Catalog',
   ],
+  nav: {
+    enabled: true,
+    level: 2,
+    mode: 'append',
+  },
   showMarkdownLinks: false,
   collapsed: true,
 }
@@ -248,9 +253,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '主页', link: '/' },
-          { text: '笔记', link: '/笔记/' },
-          { text: '编目 Catalog', link: '/编目 Catalog/' },
-          { text: '最近更新', link: '/toc' },
+
         ],
         socialLinks: [
           { icon: 'github', link: githubRepoLink },

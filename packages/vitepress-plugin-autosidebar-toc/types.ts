@@ -1,5 +1,17 @@
 import type { DefaultTheme } from 'vitepress'
 
+export interface TocSidebarNavOptions {
+  /** 是否启用自动 nav 生成 */
+  enabled?: boolean
+  /**
+   * 第几层目录作为 nav（1-based）。
+   * 当设置了 roots 时，层级以每个 root 为起点；否则以文档根目录为起点。
+   */
+  level?: number
+  /** nav 写入方式：replace 覆盖，append 追加并按 link 去重 */
+  mode?: 'replace' | 'append'
+}
+
 export interface TocSidebarBuildOptions {
   dir: string
   roots?: string[]
@@ -8,6 +20,7 @@ export interface TocSidebarBuildOptions {
   showMarkdownLinks?: boolean
   includeDotFiles?: boolean
   collapsed?: boolean
+  nav?: TocSidebarNavOptions
 }
 
 export interface MarkdownMeta {
@@ -44,34 +57,13 @@ export interface TocSidebarRawTreeNode {
 
 export type TocSidebarRawTree = Record<string, TocSidebarRawTreeNode>
 
-export interface TocSidebarPageGitInfo {
-  lastUpdated?: number
-}
-
-export interface TocSidebarPageMeta {
-  relativePath: string
-  filePath: string
-  title: string
-  frontmatter: Record<string, any>
-  git: TocSidebarPageGitInfo
-}
-
-export type TocSidebarPagesMeta = Record<string, TocSidebarPageMeta>
-
 export interface TocSidebarDoctreePayload {
   tree: TocSidebarRawTree
-  pages?: TocSidebarPagesMeta
 }
 
-export interface VitePressTransformedPageData {
-  relativePath: string
-  filePath: string
-  title: string
-  frontmatter: Record<string, any>
-  lastUpdated?: number
+export type ResolvedTocSidebarOptions = Required<Omit<TocSidebarBuildOptions, 'dir' | 'roots' | 'nav'>> & {
+  nav: Required<TocSidebarNavOptions>
 }
-
-export type ResolvedTocSidebarOptions = Required<Omit<TocSidebarBuildOptions, 'dir' | 'roots'>>
 
 export interface TocSidebarLifecycleHooks {
   onOptionsResolved?: (options: ResolvedTocSidebarOptions) => void

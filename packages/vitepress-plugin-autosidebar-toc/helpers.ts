@@ -9,10 +9,7 @@ import type {
   MarkdownMeta,
   ResolvedTocSidebarOptions,
   TocNode,
-  VitePressTransformedPageData,
 } from './types'
-
-const PAGE_DATA_EXPORT_RE = /export const __pageData = JSON\.parse\(("(?:[^"\\]|\\.)*")\)/s
 
 const SIMPLE_INCLUDE_GLOB = '**/*.md'
 const SIMPLE_EXCLUDE_DIR_GLOB_RE = /^\*\*\/([^/*{}[\]?]+)\/\*\*$/
@@ -281,41 +278,6 @@ export function scanMarkdownFilesByDirectory(baseDir: string, options: ResolvedT
 
   walkDirectory(baseDir)
   return files.sort((left, right) => left.localeCompare(right))
-}
-
-export function extractVitePressTransformedPageData(code: string): VitePressTransformedPageData | null {
-  const match = code.match(PAGE_DATA_EXPORT_RE)
-  if (!match) {
-    return null
-  }
-
-  try {
-    const encodedPayload = JSON.parse(match[1]) as string
-    const parsedPayload = JSON.parse(encodedPayload) as Partial<VitePressTransformedPageData>
-    if (!parsedPayload || typeof parsedPayload !== 'object') {
-      return null
-    }
-
-    if (typeof parsedPayload.relativePath !== 'string' || typeof parsedPayload.filePath !== 'string' || typeof parsedPayload.title !== 'string') {
-      return null
-    }
-
-    const frontmatter = parsedPayload.frontmatter
-    const safeFrontmatter = frontmatter && typeof frontmatter === 'object'
-      ? (frontmatter as Record<string, any>)
-      : {}
-
-    return {
-      relativePath: normalizePath(parsedPayload.relativePath),
-      filePath: normalizePath(parsedPayload.filePath),
-      title: parsedPayload.title,
-      frontmatter: safeFrontmatter,
-      lastUpdated: typeof parsedPayload.lastUpdated === 'number' ? parsedPayload.lastUpdated : undefined,
-    }
-  }
-  catch {
-    return null
-  }
 }
 
 function createDirNode(): DirNode {
