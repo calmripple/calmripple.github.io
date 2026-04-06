@@ -6,9 +6,23 @@
       "DOM",
       "ESNext"
     ],
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "paths": {
+      "@/*": [
+        ".vitepress/*"
+      ],
+      "@metadata": [
+        "metadata/index.ts"
+      ],
+      "@metadata/*": [
+        "metadata/*"
+      ]
+    },
     "resolveJsonModule": true,
     "types": [
       "vite/client"
@@ -32,7 +46,7 @@
     ".vitepress/**/*.vue"
   ],
   "exclude": [
-    "node_modules/**",
+    "**/node_modules/**",
     "zh-CN/**"
   ]
 }

@@ -1,12 +1,15 @@
 ---
 tags:
   - AI
-  - AI/大语言模型/LLM
-  - AI/音频/文本转语音/TTS/语音合成/SpeechSynthesis
-  - AI/音频/文本转语音模型/fish-speech
-  - AI/企业/fish-audio
-  - 操作系统/macOS
-  - 命令行/终端
+  - 人工智能
+  - 语音合成
+  - TTS
+  - 音频处理
+categories:
+  - AI 人工智能
+  - AI 领域应用
+title-en: >-
+  zai-m-a-c-o-s-shang-yun-xing-f-i-s-h-s-p-e-e-c-h-yi-jin-xing-shao-liang-yang-ben-yu-yin-he-cheng
 ---
 ## 环境准备
 
@@ -139,3 +142,4 @@ $PYTHON_CMD fish_speech/webui/manage.py
 chmod +x ./start.sh
 ./start.sh
 ```
+

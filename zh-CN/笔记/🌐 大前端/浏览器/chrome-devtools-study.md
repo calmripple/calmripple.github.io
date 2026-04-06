@@ -1,0 +1,154 @@
+---
+sidebar:
+  title: Chrome-DevTools的小技巧
+  step: 9999
+title: 分享小册《Chrome-DevTools的使用技巧》中的精华
+date: 2021-05-17T00:00:00.000Z
+tags:
+  - 前端
+  - 浏览器
+  - 渲染原理
+categories:
+  - 大前端
+  - 浏览器
+---
+# 分享小册《Chrome-DevTools的使用技巧》中的精华
+
+## 前言
+花了大概半天时间 温习了一遍（主要是忘了O(∩_∩)O哈哈~）[掘金小册：你不知道的 Chrome 调试技巧](https://juejin.cn/book/6844733783166418958)-> [开源免费版链接](https://www.frontendwingman.com/Chrome/)
+
+和大家分享一些个人认为比较实用的内容，感兴趣的朋友推荐去阅读一下这本小册
+
+## 查看详细Chrome版本信息
+浏览器中输入[chrome://version/](chrome://version/)查看
+
+![图片](./assets/chrome-devtools-study-001.png)
+
+## 预设代码块
+可以将一些高频使用的`工具脚本`代码块保存下来，下次使用可以直接调用
+
+### 例如:查看掘金页面中已加载的文章
+```js
+{
+  const posts = $$('.title-row>a')
+  console.table(posts, ['textContent', 'href'])
+}
+```
+
+![图片](./assets/chrome-devtools-study-002.png)
+
+接下来复用这个代码块,在Source面板的 snippets中新建一个Snippet并将代码块写入
+
+![图片](./assets/chrome-devtools-study-003.png)
+
+![图片](./assets/chrome-devtools-study-004.png)
+
+从今以后就可以直接command运行，通过指令运行 `!scriptName`即可执行脚本
+
+tips: 默认打开Command会有一个 `>` 记得先删除
+
+![图片](./assets/chrome-devtools-study-005.png)
+
+## Command面板
+快捷键 Ctrl + Shift + P
+
+![图片](./assets/chrome-devtools-study-006.png)
+
+![图片](./assets/chrome-devtools-study-007.png)
+
+### 截图
+
+![](./assets/chrome-devtools-study-008.png)
+
+* 页面截图: Capture full size screenshot
+* 指定区域: Capture area screenshot
+* 指定DOM节点: Capture node screenshot
+* 当前屏幕: Capture screenshot
+
+### 显示console时间戳
+
+![图片](./assets/chrome-devtools-study-009.png)
+
+![图片](./assets/chrome-devtools-study-010.png)
+
+## Console面板相关
+
+### copy方法
+有一个全局的`copy`方法，可以在console面板中**复制任何能够拿到的资源到剪贴板中**
+
+![图片](./assets/chrome-devtools-study-011.png)
+
+### $符号
+#### $number
+$0 是对我们当前在 Element面板 中选中的 html 节点的引用
+
+$1 是对上一次我们选择的节点的引用， $2 是对在那之前选择的节点的引用以此类推,直到 $4
+
+![](./assets/chrome-devtools-study-012.png)
+
+#### $与$$
+* $ 等价于 document.querySelector()
+* \$$ 等价于 document.querySelectorAll()
+
+![](./assets/chrome-devtools-study-013.png)
+
+#### $_
+上次打印结果的引用
+
+![](./assets/chrome-devtools-study-014.png)
+
+### console.table
+
+可以将 数组 (或者是 类数组 的对象)打印成一个漂亮的表格
+
+在需要使用`console.log(arrData)`查看数据时，换成`console.table(arrData,columns)`，不妨会更直观一些
+
+第二个参数指定要展示的列
+
+![图片](./assets/chrome-devtools-study-015.png)
+
+### time与timeEnd
+`console.time`与`console.timeEnd`，两个方法配合计算并打印时间戳
+
+通常用于测试方法的执行时间
+
+![图片](./assets/chrome-devtools-study-016.png)
+
+## Network面板
+
+### Filter
+
+用于过滤请求
+
+![图片](./assets/chrome-devtools-study-017.png)
+
+通过 `-` 查看所有筛选条件
+
+![图片](./assets/chrome-devtools-study-018.png)
+
+### 自定义请求表中展示的项
+
+![图片](./assets/chrome-devtools-study-019.png)
+
+### 重新发送请求
+
+![图片](./assets/chrome-devtools-study-020.png)
+
+## Drawer
+
+`ESC`控制打开/关闭Drawer
+
+![图片](./assets/chrome-devtools-study-021.png)
+
+所有的功能选项
+
+![图片](./assets/chrome-devtools-study-022.png)
+
+![图片](./assets/chrome-devtools-study-023.png)
+
+### 查看更改Change
+在Element面板中更改元素的样式可以在这直接查看
+
+![图片](./assets/chrome-devtools-study-024.png)
+
+

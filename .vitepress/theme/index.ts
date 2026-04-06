@@ -3,11 +3,11 @@ import type { Theme } from 'vitepress'
 import { presetClient } from '@nolebase/integrations/vitepress/client'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-import DocFooter from './components/DocFooter.vue'
-import Share from './components/Share.vue'
+import DocFooter from '@/theme/components/DocFooter.vue'
+import Share from '@/theme/components/Share.vue'
 import 'virtual:uno.css'
-import '../styles/main.css'
-import '../styles/vars.css'
+import '@/styles/main.css'
+import '@/styles/vars.css'
 
 const nolebase = presetClient<{
   tags: string[]

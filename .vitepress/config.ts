@@ -1,10 +1,10 @@
-import type { DefaultTheme } from 'vitepress'
+import { Buffer } from 'node:buffer'
 import { resolve } from 'node:path'
 import process from 'node:process'
+import { createAutoTocComponentResolver, createTocSidebarVitePlugin, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
-import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
@@ -13,60 +13,33 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Inspect from 'vite-plugin-inspect'
 import { defineConfig } from 'vitepress'
-import { creators, discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
+import { creators, githubRepoLink, mastodonLink, siteDescription, siteName } from '../metadata'
 import head from './head'
 
+const mastodonIcon = {
+  svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26-1.32.16-2.62.31-4.01.24-2.28-.11-4.08-.57-4.08-.57v.62c.05 1.3.2 2.52 1.61 2.88 1.42.37 3.21.45 4.4.41 2.17-.08 3.35-.54 3.35-.54l.07 1.53s-1.24.66-3.45.78c-1.22.07-2.73.03-4.49-.42-3.82-.98-3.97-4.86-4.08-8.81-.03-1.17-.01-2.27-.01-3.2 0-4.05 2.66-5.23 2.66-5.23C9.3 5.99 10.96 5.5 12 5.49h.02c1.04.01 2.7.5 4.05 1.12 0 0 2.66 1.18 2.66 5.23 0 0 .03 2.99-.79 7.16zm-3.3-7.39c-.66-.72-1.72-1.09-3.22-1.09-1.74 0-3.06.67-3.82 2.01l-.82 1.37-.82-1.37c-.76-1.34-2.08-2.01-3.82-2.01-1.5 0-2.56.37-3.22 1.09-.64.72-.97 1.68-.97 2.9v5.95h2.35v-5.78c0-1.22.52-1.84 1.56-1.84 1.15 0 1.73.74 1.73 2.21v3.17h2.33V12.4c0-1.47.58-2.21 1.73-2.21 1.04 0 1.56.62 1.56 1.84v5.78h2.35V11.86c0-1.22-.33-2.18-.97-2.9z"/></svg>',
+}
 const headingRegex = /^# .*/m
 
 const workspaceRoot = process.cwd()
+const vitepressRoot = resolve(workspaceRoot, '.vitepress')
 const docsRoot = resolve(workspaceRoot, 'zh-CN')
 const publicRoot = resolve(workspaceRoot, 'public')
 const tocFilePath = resolve(docsRoot, 'toc.md')
 const indexFilePath = resolve(docsRoot, 'index.md')
-const componentsDirPath = resolve(workspaceRoot, '.vitepress/theme/components')
-const componentsDtsPath = resolve(workspaceRoot, '.vitepress/components.d.ts')
-const autoImportsDtsPath = resolve(workspaceRoot, '.vitepress/auto-imports.d.ts')
+const componentsDirPath = resolve(vitepressRoot, 'theme/components')
+const componentsDtsPath = resolve(vitepressRoot, 'components.d.ts')
+const autoImportsDtsPath = resolve(vitepressRoot, 'auto-imports.d.ts')
 
 const nolebase = presetMarkdownIt({
+  bidirectionalLinks: {
+    options: {
+      dir: docsRoot,
+      baseDir: '/',
+    },
+  },
   unlazyImages: false,
 })
-const sidebarTargets = [
-  { folderName: 'zh-CN/笔记', separate: true },
-  { folderName: 'zh-CN/编目 Catalog', separate: true },
-]
-
-const zhCNPathRegex = /^\/zh-CN(?=\/|$)/
-function rewriteSidebarPath(path: string) {
-  return path.replace(zhCNPathRegex, '') || '/'
-}
-
-function rewriteSidebarItems(items: DefaultTheme.SidebarItem[]): DefaultTheme.SidebarItem[] {
-  return items.map(item => ({
-    ...item,
-    link: item.link ? rewriteSidebarPath(item.link) : item.link,
-    items: item.items ? rewriteSidebarItems(item.items) : item.items,
-  }))
-}
-
-function buildSidebar(): DefaultTheme.Sidebar {
-  const rawSidebar = calculateSidebar(sidebarTargets, 'zh-CN')
-
-  if (Array.isArray(rawSidebar))
-    return rewriteSidebarItems(rawSidebar)
-
-  return Object.fromEntries(
-    Object.entries(rawSidebar).map(([key, section]) => {
-      const normalizedSection = Array.isArray(section)
-        ? rewriteSidebarItems(section)
-        : {
-            ...section,
-            items: rewriteSidebarItems(section.items),
-          }
-
-      return [rewriteSidebarPath(key), normalizedSection]
-    }),
-  ) as DefaultTheme.SidebarMulti
-}
 
 const nolebaseVite = presetVite({
   thumbnailHashImages: false,
@@ -97,11 +70,40 @@ const nolebaseVite = presetVite({
 })
 const relativeUrl = process.env.RELATIVE_URL ?? ''
 
+const tocSidebarOptions: TocSidebarBuildOptions = {
+  dir: './zh-CN',
+  roots: [
+    '笔记',
+    '编目 Catalog',
+  ],
+  nav: {
+    enabled: true,
+    level: 2,
+    mode: 'append',
+  },
+  showMarkdownLinks: false,
+  collapsed: true,
+}
+
+// 从 CLI 参数 --srcExclude=glob1,glob2,... 中读取要排除的目录。
+// 例: vitepress build --srcExclude="笔记/🤖 AI 人工智能/**,笔记/📋 面试题/**"
+const srcExcludeArg = process.argv.find(arg => arg.startsWith('--srcExclude='))
+const srcExclude = srcExcludeArg
+  ? srcExcludeArg.slice('--srcExclude='.length).split(',').filter(Boolean)
+  : []
+
 export default defineConfig({
   base: relativeUrl,
   srcDir: docsRoot,
+  srcExclude,
   vite: {
     publicDir: publicRoot,
+    resolve: {
+      alias: {
+        '@': vitepressRoot,
+        '@metadata': resolve(workspaceRoot, 'metadata'),
+      },
+    },
     server: {
       proxy: {
         '/assets/page-external-data/js': {
@@ -127,7 +129,11 @@ export default defineConfig({
         'virtual:nolebase-git-changelog',
       ],
     },
+    build: {
+      chunkSizeWarningLimit: 800,
+    },
     plugins: [
+      createTocSidebarVitePlugin(tocSidebarOptions),
       Inspect(),
       AutoImport({
         include: [
@@ -146,8 +152,12 @@ export default defineConfig({
       Components({
         include: [/\.vue$/, /\.md$/],
         dirs: [componentsDirPath],
+        resolvers: [
+          createAutoTocComponentResolver({ componentName: 'AutoToc' })
+        ],
         dts: componentsDtsPath,
       }),
+
       UnoCSS(),
       nolebaseVite,
       ...nolebaseVite.plugins(),
@@ -166,6 +176,7 @@ export default defineConfig({
     },
   },
   title: siteName,
+  titleTemplate: ':title | 知在',
   description: siteDescription,
   ignoreDeadLinks: true,
   head,
@@ -246,13 +257,11 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '主页', link: '/' },
-          { text: '笔记', link: '/笔记/' },
-          { text: '编目 Catalog', link: '/编目 Catalog/' },
-          { text: '最近更新', link: '/toc' },
+
         ],
         socialLinks: [
           { icon: 'github', link: githubRepoLink },
-          { icon: 'discord', link: discordLink },
+          { icon: mastodonIcon, link: mastodonLink },
         ],
         darkModeSwitchLabel: '切换主题',
         outline: { label: '页面大纲', level: 'deep' },
@@ -260,11 +269,10 @@ export default defineConfig({
           pattern: `${githubRepoLink}/tree/main/:path`,
           text: '编辑本页面',
         },
-        sidebar: buildSidebar(),
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
           copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 知在 的创作者们',
+            '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT 知在 的创作者们',
         },
       },
     },
@@ -281,6 +289,25 @@ export default defineConfig({
     config: (md) => {
       md.use(MarkdownItFootnote)
       md.use(MarkdownItMathjax3)
+
+      const defaultFenceRenderer = md.renderer.rules.fence
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        const language = token.info.trim().toLowerCase()
+
+        if (language === 'mermaid') {
+          // Encode as base64 UTF-8 to safely pass the diagram source through
+          // SSR/hydration without HTML-encoding or Vue template compilation issues.
+          const encoded = Buffer.from(token.content.trim(), 'utf8').toString('base64')
+          return `<Mermaid code="${encoded}" />`
+        }
+
+        if (defaultFenceRenderer)
+          return defaultFenceRenderer(tokens, idx, options, env, self)
+
+        return self.renderToken(tokens, idx, options)
+      }
+
       md.core.ruler.after('block', 'normalize-dataview-fence', (state) => {
         for (const token of state.tokens) {
           if (token.type !== 'fence')
