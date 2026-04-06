@@ -403,5 +403,16 @@ export function buildDirectoryItems(
 }
 
 export function normalizeRootPath(path: string): string {
-  return normalizePath(path).replace(/^\/+/, '').replace(/\/+$/, '')
+  const normalized = normalizePath(path)
+  let start = 0
+  let end = normalized.length
+
+  while (start < end && normalized[start] === '/') {
+    start++
+  }
+  while (end > start && normalized[end - 1] === '/') {
+    end--
+  }
+
+  return normalized.slice(start, end)
 }

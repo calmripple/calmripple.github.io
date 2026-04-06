@@ -30,7 +30,7 @@ export function getValueFromFrontmatter<T>(filePath: string, key: string, defaul
     let frontmatterStart = false;
 
     for (let i = 0, len = lines.length; i < len; i += 1) {
-      const str = lines[i].toString().replace('\r', '');
+      const str = lines[i].toString().replace(/\r/g, '');
 
       if (/^---$/.test(str)) {
         frontmatterStart = true;
@@ -165,7 +165,7 @@ export function getTitleFromMd(
       const lines = data.split('\n');
 
       for (let i = 0, len = lines.length; i < len; i += 1) {
-        let str = lines[i].toString().replace('\r', '');
+        let str = lines[i].toString().replace(/\r/g, '');
 
         if (/^# /.test(str)) {
           str = str.replace(/^# /, '');

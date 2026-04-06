@@ -36,10 +36,18 @@ function normalizeExclude(exclude: AutoNavPluginOptions['exclude']) {
   return [...new Set(values)]
 }
 
+function trimTrailingSlashes(input: string) {
+  let end = input.length
+  while (end > 0 && input[end - 1] === '/') {
+    end--
+  }
+  return input.slice(0, end)
+}
+
 function normalizeOverrideKey(key: string) {
   let normalized = key.trim().replace(/\\/g, '/')
   normalized = normalized.replace(/^\.?\//, '')
-  normalized = normalized.replace(/\/+$/, '')
+  normalized = trimTrailingSlashes(normalized)
   normalized = normalized.replace(/\.md$/i, '')
   return normalized.trim()
 }

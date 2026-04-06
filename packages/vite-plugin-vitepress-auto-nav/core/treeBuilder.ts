@@ -20,8 +20,16 @@ function normalizePath(input: string) {
   return input.replace(/\\/g, '/').replace(/^\.?\//, '')
 }
 
+function trimTrailingSlashes(input: string) {
+  let end = input.length
+  while (end > 0 && input[end - 1] === '/') {
+    end--
+  }
+  return input.slice(0, end)
+}
+
 function normalizeOverrideKey(key: string) {
-  let normalized = normalizePath(key).replace(/\/+$/, '')
+  let normalized = trimTrailingSlashes(normalizePath(key))
   normalized = normalized.replace(/\.md$/i, '')
   return normalized
 }
