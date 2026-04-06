@@ -1,5 +1,13 @@
 import type { DefaultTheme } from 'vitepress'
 
+export type Frontmatter = Record<string, any>
+
+export interface ThemeConfigLike {
+  sidebar?: DefaultTheme.SidebarMulti
+  nav?: DefaultTheme.NavItem[]
+  [key: string]: unknown
+}
+
 export interface TocSidebarNavOptions {
   /** 是否启用自动 nav 生成 */
   enabled?: boolean
@@ -20,24 +28,17 @@ export interface TocSidebarBuildOptions {
   showMarkdownLinks?: boolean
   includeDotFiles?: boolean
   collapsed?: boolean
+  /**
+   * 开启后会在 dev 阶段将当前 doctree JSON 写入到 process.cwd() 目录，
+   * 便于排查目录树与侧边栏生成结果。
+   */
+  debug?: boolean
   nav?: TocSidebarNavOptions
 }
 
 export interface MarkdownMeta {
-  frontmatter: Record<string, any>
+  frontmatter: Frontmatter
   h1?: string
-  headings: Heading[]
-}
-
-export interface Heading {
-  depth: number
-  text: string
-}
-
-export interface TocNode {
-  text: string
-  link: string
-  items?: TocNode[]
 }
 
 export interface DirNode {
@@ -45,17 +46,30 @@ export interface DirNode {
   files: Set<string>
 }
 
-export interface BuildAllTreeNodeResult {
-  tree: Map<string, DirNode>
-  rawTree: Map<string, DirNode>
-}
-
 export interface TocSidebarRawTreeNode {
-  directories: string[]
-  files: string[]
+  path: string
+  directoryItems: TocSidebarDirectoryEntry[]
+  fileItems: TocSidebarFileEntry[]
 }
 
 export type TocSidebarRawTree = Record<string, TocSidebarRawTreeNode>
+
+export interface TocSidebarFileEntry {
+  name: string
+  path: string
+  link: string
+  displayText: string
+  frontmatter: Frontmatter
+  h1: string | null
+}
+
+export interface TocSidebarDirectoryEntry {
+  name: string
+  path: string
+  link: string | null
+  displayText: string
+  indexFile: TocSidebarFileEntry | null
+}
 
 export interface TocSidebarDoctreePayload {
   tree: TocSidebarRawTree
@@ -63,14 +77,6 @@ export interface TocSidebarDoctreePayload {
 
 export type ResolvedTocSidebarOptions = Required<Omit<TocSidebarBuildOptions, 'dir' | 'roots' | 'nav'>> & {
   nav: Required<TocSidebarNavOptions>
-}
-
-export interface TocSidebarLifecycleHooks {
-  onOptionsResolved?: (options: ResolvedTocSidebarOptions) => void
-  onFilesScanned?: (files: string[]) => void
-  onFilesFiltered?: (files: string[]) => void
-  onTreeBuilt?: (tree: Map<string, DirNode>) => void
-  onSidebarBuilt?: (sidebar: DefaultTheme.SidebarMulti) => void
 }
 
 export interface TocSidebarPlugin {
@@ -88,11 +94,12 @@ export type TocSidebarResolverOptions = AutoTocResolverOptions
 
 export interface ViteUserConfigLike {
   root?: string
-  publicDir?: string
+  publicDir?: string | false
+  define?: Record<string, string>
   vitepress?: {
     site?: {
-      themeConfig?: Record<string, any>
-      locales?: Record<string, { themeConfig?: Record<string, any> }>
+      themeConfig?: ThemeConfigLike
+      locales?: Record<string, { themeConfig?: ThemeConfigLike }>
     }
   }
 }

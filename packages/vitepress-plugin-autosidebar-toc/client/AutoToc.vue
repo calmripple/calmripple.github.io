@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { computed, onMounted, shallowRef } from 'vue'
 import { useRoute, withBase } from 'vitepress'
-import type { TocSidebarDoctreePayload, TocSidebarRawTree } from '../types'
+import type {
+  TocSidebarDirectoryEntry,
+  TocSidebarDoctreePayload,
+  TocSidebarFileEntry,
+  TocSidebarRawTree,
+  TocSidebarRawTreeNode,
+} from '../types'
 
 interface AutoTocEntry {
   text: string
@@ -31,20 +37,70 @@ const doctreePath = typeof __TOC_SIDEBAR_DOCTREE_PATH__ === 'string' && __TOC_SI
 let rawTreePromise: Promise<TocSidebarRawTree | null> | null = null
 let cachedDoctreePath = ''
 
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value)
+}
+
+function isTocSidebarFileEntry(value: unknown): value is TocSidebarFileEntry {
+  if (!isRecord(value)) {
+    return false
+  }
+
+  return typeof value.name === 'string'
+    && typeof value.path === 'string'
+    && typeof value.link === 'string'
+    && typeof value.displayText === 'string'
+    && isRecord(value.frontmatter)
+    && (value.h1 === null || typeof value.h1 === 'string')
+}
+
+function isTocSidebarDirectoryEntry(value: unknown): value is TocSidebarDirectoryEntry {
+  if (!isRecord(value)) {
+    return false
+  }
+
+  const hasValidIndexFile = value.indexFile === null || isTocSidebarFileEntry(value.indexFile)
+  return typeof value.name === 'string'
+    && typeof value.path === 'string'
+    && (value.link === null || typeof value.link === 'string')
+    && typeof value.displayText === 'string'
+    && hasValidIndexFile
+}
+
+function isTocSidebarRawTreeNode(value: unknown): value is TocSidebarRawTreeNode {
+  if (!isRecord(value)) {
+    return false
+  }
+
+  return typeof value.path === 'string'
+    && Array.isArray(value.directoryItems)
+    && value.directoryItems.every(isTocSidebarDirectoryEntry)
+    && Array.isArray(value.fileItems)
+    && value.fileItems.every(isTocSidebarFileEntry)
+}
+
+function isTocSidebarRawTree(value: unknown): value is TocSidebarRawTree {
+  if (!isRecord(value)) {
+    return false
+  }
+
+  return Object.values(value).every(isTocSidebarRawTreeNode)
+}
+
+function isTocSidebarDoctreePayload(value: unknown): value is TocSidebarDoctreePayload {
+  return isRecord(value) && isTocSidebarRawTree(value.tree)
+}
+
 function normalizeDoctreePayload(payload: unknown): TocSidebarRawTree | null {
-  if (!payload || typeof payload !== 'object') {
-    return null
+  if (isTocSidebarDoctreePayload(payload)) {
+    return payload.tree
   }
 
-  if ('tree' in payload) {
-    const tree = (payload as TocSidebarDoctreePayload).tree
-    if (!tree || typeof tree !== 'object') {
-      return null
-    }
-    return tree
+  if (isTocSidebarRawTree(payload)) {
+    return payload
   }
 
-  return payload as TocSidebarRawTree
+  return null
 }
 
 async function loadRawTree(sourcePath: string): Promise<TocSidebarRawTree | null> {
@@ -80,30 +136,40 @@ function safeDecode(input: string): string {
   }
 }
 
-function stripHash(link: string): string {
-  const i = link.indexOf('#')
-  return i >= 0 ? link.slice(0, i) : link
+function stripQueryAndHash(link: string): string {
+  const queryIndex = link.indexOf('?')
+  const hashIndex = link.indexOf('#')
+  const cutIndex = [queryIndex, hashIndex]
+    .filter(index => index >= 0)
+    .reduce((min, current) => Math.min(min, current), Number.POSITIVE_INFINITY)
+
+  return Number.isFinite(cutIndex) ? link.slice(0, cutIndex) : link
 }
 
-function normalizePath(path: string): string {
+function normalizePath(path: string, preserveTrailingSlash = false): string {
   if (!path)
     return '/'
 
-  let normalized = safeDecode(stripHash(path))
+  let normalized = safeDecode(stripQueryAndHash(path))
   if (!normalized.startsWith('/')) {
     normalized = `/${normalized}`
   }
   normalized = normalized.replace(/\/+/g, '/')
 
   if (normalized !== '/' && normalized.endsWith('/index')) {
-    normalized = normalized.slice(0, -6) || '/'
+    normalized = `${normalized.slice(0, -6) || '/'}${normalized === '/index' ? '' : '/'}`
   }
 
-  if (normalized.length > 1 && normalized.endsWith('/')) {
+  if (!preserveTrailingSlash && normalized.length > 1 && normalized.endsWith('/')) {
     normalized = normalized.slice(0, -1)
   }
 
   return normalized || '/'
+}
+
+function isDirectoryRoutePath(path: string): boolean {
+  const normalized = normalizePath(path, true)
+  return normalized === '/' || normalized.endsWith('/')
 }
 
 function parentDirectoryPath(routePath: string): string {
@@ -113,7 +179,7 @@ function parentDirectoryPath(routePath: string): string {
   }
 
   const parts = normalized.split('/').filter(Boolean)
-  if (routePath.endsWith('/')) {
+  if (isDirectoryRoutePath(routePath)) {
     return `/${parts.join('/')}`
   }
 
@@ -130,43 +196,6 @@ function toRawTreeKeyFromRoutePath(routePath: string): string {
   return normalized.replace(/^\/+|\/+$/g, '')
 }
 
-function joinRawTreeKey(baseKey: string, childDirName: string): string {
-  if (baseKey === '/') {
-    return childDirName
-  }
-
-  return `${baseKey}/${childDirName}`
-}
-
-function toDirectoryLinkFromRawTreeKey(rawTreeKey: string): string {
-  if (!rawTreeKey || rawTreeKey === '/') {
-    return '/'
-  }
-
-  return `/${rawTreeKey}/`
-}
-
-function toPageLinkFromRelativeFile(relativeMdPath: string): string {
-  const normalized = relativeMdPath.replace(/\\/g, '/').replace(/^\/+/, '')
-  let link = `/${normalized}`
-
-  if (link.endsWith('.md')) {
-    link = link.slice(0, -3)
-  }
-  if (link.endsWith('/index')) {
-    link = link.slice(0, -6)
-  }
-  if (!link) {
-    return '/'
-  }
-
-  return link
-}
-
-function toFileDisplayText(fileName: string): string {
-  return fileName.endsWith('.md') ? fileName.slice(0, -3) : fileName
-}
-
 function buildRouteTreeFromRawTree(
   sourceRawTree: TocSidebarRawTree,
   rawTreeKey: string,
@@ -178,34 +207,29 @@ function buildRouteTreeFromRawTree(
 
   const items: AutoTocRouteTreeEntry[] = []
 
-  for (const dirName of node.directories) {
-    const childKey = joinRawTreeKey(rawTreeKey, dirName)
-    const childNode = sourceRawTree[childKey]
-    if (!childNode) {
-      continue
-    }
-
-    const hasIndex = childNode.files.includes('index.md')
-    const children = buildRouteTreeFromRawTree(sourceRawTree, childKey)
+  for (const dirEntry of node.directoryItems) {
+    const childNode = sourceRawTree[dirEntry.path]
+    const children = childNode
+      ? buildRouteTreeFromRawTree(sourceRawTree, dirEntry.path)
+      : []
 
     items.push({
       kind: 'directory',
-      text: dirName,
-      ...(hasIndex ? { link: toDirectoryLinkFromRawTreeKey(childKey) } : {}),
+      text: dirEntry.displayText,
+      ...(dirEntry.link ? { link: dirEntry.link } : {}),
       ...(children.length > 0 ? { items: children } : {}),
     })
   }
 
-  for (const fileName of node.files) {
-    if (!fileName.endsWith('.md') || fileName === 'index.md') {
+  for (const fileEntry of node.fileItems) {
+    if (fileEntry.name === 'index.md') {
       continue
     }
 
-    const relativeFile = rawTreeKey === '/' ? fileName : `${rawTreeKey}/${fileName}`
     items.push({
       kind: 'file',
-      text: toFileDisplayText(fileName),
-      link: toPageLinkFromRelativeFile(relativeFile),
+      text: fileEntry.displayText,
+      link: fileEntry.link,
     })
   }
 
@@ -217,31 +241,32 @@ function getCurrentRouteTree(sourceRawTree: TocSidebarRawTree | null, routePath:
     return []
   }
 
-  const targetDirPath = parentDirectoryPath(routePath)
+  const normalizedRoute = normalizePath(routePath, true)
+  const targetDirPath = isDirectoryRoutePath(normalizedRoute)
+    ? normalizedRoute
+    : parentDirectoryPath(normalizedRoute)
   const targetKey = toRawTreeKeyFromRoutePath(targetDirPath)
   const routeTree = buildRouteTreeFromRawTree(sourceRawTree, targetKey)
   if (routeTree.length > 0) {
     return routeTree
   }
 
-  const normalizedRoute = normalizePath(routePath)
+  // 次级回退：路由与目录映射不一致时，尝试路由本身对应节点。
   const fallbackKey = toRawTreeKeyFromRoutePath(normalizedRoute)
-  const fallbackTree = buildRouteTreeFromRawTree(sourceRawTree, fallbackKey)
-  if (fallbackTree.length > 0) {
-    return fallbackTree
+  if (fallbackKey === targetKey) {
+    return []
   }
 
-  const parentKey = toRawTreeKeyFromRoutePath(parentDirectoryPath(normalizedRoute))
-  return buildRouteTreeFromRawTree(sourceRawTree, parentKey)
+  const fallbackTree = buildRouteTreeFromRawTree(sourceRawTree, fallbackKey)
+  return fallbackTree
 }
 
 function isDirectoryLink(link: string): boolean {
-  const normalized = safeDecode(stripHash(link))
-  return normalized === '/' || normalized.endsWith('/')
+  return isDirectoryRoutePath(link)
 }
 
 function routeMatches(routePath: string, link: string): boolean {
-  return normalizePath(routePath) === normalizePath(link)
+  return normalizePath(routePath, true) === normalizePath(link, true)
 }
 
 function pickCurrentLevelEntries(entries: AutoTocRouteTreeEntry[]): AutoTocEntry[] {
@@ -272,7 +297,7 @@ const siblingEntries = computed<DisplayEntry[]>(() => {
       }
     })
     .filter((item) => {
-      const key = normalizePath(item.link)
+      const key = normalizePath(item.link, true)
       if (seen.has(key)) {
         return false
       }
