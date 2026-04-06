@@ -81,6 +81,7 @@ const tocSidebarOptions: TocSidebarBuildOptions = {
     level: 2,
     mode: 'append',
   },
+  debug: true,
   showMarkdownLinks: false,
   collapsed: true,
 }

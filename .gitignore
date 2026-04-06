@@ -39,6 +39,7 @@ node_modules
 # Generated files
 
 components.d.ts
+/toc-sidebar-doctree.debug.json
 
 # Local env files
 
