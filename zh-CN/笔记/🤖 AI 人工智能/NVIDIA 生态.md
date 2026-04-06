@@ -1,11 +1,10 @@
 ---
 tags:
-  - AI/硬件/GPU/NVIDIA
-  - AI/硬件/GPU/NVIDIA/GPU
   - AI
-  - 索引
-  - 索引/资源列表
-  - 分类/收集箱
+  - 人工智能
+categories:
+  - AI 人工智能
+title-en: n-v-i-d-i-a-sheng-tai
 ---
 # NVIDIA 生态
 
@@ -45,3 +44,4 @@ https://catalog.ngc.nvidia.com/containers
 
 python - Is it still necessary to install CUDA before using the conda tensorflow-gpu package? - Stack Overflow
 https://stackoverflow.com/questions/61533291/is-it-still-necessary-to-install-cuda-before-using-the-conda-tensorflow-gpu-pack
+

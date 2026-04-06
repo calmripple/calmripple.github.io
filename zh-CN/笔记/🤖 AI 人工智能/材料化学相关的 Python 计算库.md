@@ -1,8 +1,10 @@
 ---
 tags:
-  - 知识领域/化学
-  - 知识领域/材料化学
-  - 开发/Python
+  - AI
+  - 人工智能
+categories:
+  - AI 人工智能
+title-en: cai-liao-hua-xue-xiang-guan-de-p-y-t-h-o-n-ji-suan-ku
 ---
 # 材料化学相关的 Python 计算库
 
@@ -10,3 +12,4 @@ tags:
 - [ase](https://wiki.fysik.dtu.dk/ase/)
 - [CHGNet](https://chgnet.lbl.gov/)
 - [OpenMX website](https://www.openmx-square.org/)
+

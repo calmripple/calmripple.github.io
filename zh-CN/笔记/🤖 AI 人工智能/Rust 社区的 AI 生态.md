@@ -1,12 +1,10 @@
 ---
 tags:
-  - 开发/语言/Rust
   - AI
-  - 网站/GitHub
-  - 分类/收集箱
-  - 开源/社区
-  - 开源/库
-  - 开源/软件
+  - 人工智能
+categories:
+  - AI 人工智能
+title-en: r-u-s-t-she-qu-de-a-i-sheng-tai
 ---
 
 # Rust 社区的 AI 生态
@@ -25,3 +23,4 @@ https://github.com/huggingface/candle
 
 coreylowman/dfdx: Deep learning in Rust, with shape checked tensors and neural networks
 https://github.com/coreylowman/dfdx
+

@@ -1,5 +1,13 @@
 ---
 status: 尚未完成
+tags:
+  - AI
+  - 人工智能
+  - GPT
+  - LLM
+categories:
+  - AI 人工智能
+title-en: jiang-c-h-a-t-g-p-t-yu-wen-dang-jie-he
 ---
 # 将 chatGPT 与文档结合
 
@@ -39,3 +47,4 @@ status: 尚未完成
 [hwchase17/langchain: ⚡ Building applications with LLMs through composability ⚡](https://github.com/hwchase17/langchain)
 
 [asg017/sqlite-vss: A SQLite extension for efficient vector search, based on Faiss!](https://github.com/asg017/sqlite-vss)
+

@@ -3,7 +3,7 @@ import process from 'node:process'
 import { creatorNames, creatorUsernames, siteDescription, siteName, targetDomain } from '../metadata'
 
 const isProduction = process.env.NODE_ENV === 'production'
-const plausibleScript: HeadConfig = ['script', { 'defer': 'true', 'data-domain': 'nolebase.ayaka.io', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }]
+const plausibleScript: HeadConfig = ['script', { 'defer': 'true', 'data-domain': 'www.dmsrs.org', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }]
 
 export default [
   ['meta', {

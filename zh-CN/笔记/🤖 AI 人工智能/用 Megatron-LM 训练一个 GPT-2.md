@@ -1,13 +1,13 @@
 ---
 tags:
   - AI
-  - AI/大语言模型
-  - AI/大语言模型/GPT-2
-  - AI/训练/Megatron-LM
-  - AI/PyTorch
-  - AI/硬件/GPU/NVIDIA/GPU
-  - AI/数据集/OSCAR
-  - AI/算法/CUDA
+  - 人工智能
+  - 大模型训练
+  - LLM
+  - GPT
+categories:
+  - AI 人工智能
+title-en: yong-m-e-g-a-t-r-o-n-l-m-xun-lian-yi-ge-g-p-t-2
 ---
 # 用 Megatron-LM 训练一个 GPT-2
 
@@ -1750,3 +1750,4 @@ saving checkpoint at iteration       4 to ./checkpoints/gpt-2
 ## 参考资料
 
 [如何训练 GPT-2 模型并生成文本 云服务器 ECS（ECS） - 阿里云帮助中心](https://help.aliyun.com/zh/ecs/use-cases/use-the-megatron-deepspeed-training-gpt-2-and-generate-text)
+

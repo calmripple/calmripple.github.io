@@ -1,13 +1,10 @@
 ---
 tags:
-  - 索引
-  - 分类/收集箱
-  - AI/绘画
-  - AI/大语言模型/Diffusion/StableDiffusion
-  - AI/绘画/工具/ComfyUI
-  - AI/微调/LoRA
-  - AI/绘画/工具/ComfyUI/插件
-  - AI/AIGC
+  - AI
+  - 人工智能
+categories:
+  - AI 人工智能
+title-en: a-i-hui-hua-gong-zuo-liu-gong-ju-he-xiang-guan-s-o-t-a
 ---
 # AI 绘画工作流
 
@@ -59,3 +56,4 @@ tags:
 - [重磅！Rhino+SU+Blender实时AI渲染工作流！ComfyUI+lcm+sdxl_turbo 加速场景概念设计！附详细工作流程文件！- 哔哩哔哩 bilibili](https://www.bilibili.com/video/BV1Ec411i7v6/)
 - [ComfyUI投屏威力无穷！sdxl—turbo模型一步采样，软件图像轻松驾驭，绘画天才即刻唤醒，全球震撼的艺术革命，你准备好了吗？- 哔哩哔哩 bilibili](https://www.bilibili.com/video/BV15H4y117m4/)
 - [Krita+ComfyUI+LCM震撼登场，绘画界霸主崛起！瞬间秒杀一切平庸，引爆创意狂潮！- 哔哩哔哩 bilibili](https://www.bilibili.com/video/BV1au4y1P7ZS)
+
