@@ -32,6 +32,12 @@ const componentsDtsPath = resolve(vitepressRoot, 'components.d.ts')
 const autoImportsDtsPath = resolve(vitepressRoot, 'auto-imports.d.ts')
 
 const nolebase = presetMarkdownIt({
+  bidirectionalLinks: {
+    options: {
+      dir: docsRoot,
+      baseDir: '/',
+    },
+  },
   unlazyImages: false,
 })
 

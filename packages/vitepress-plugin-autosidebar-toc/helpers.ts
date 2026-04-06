@@ -46,11 +46,20 @@ export function toVpPageLink(relativeMdPath: string): string {
   return isIndexFile ? toVpDirectoryLink(relativeMdPath) : toVpLink(relativeMdPath)
 }
 
+function stripHtmlLikeTags(input: string): string {
+  let previous = ''
+  let output = input
+  while (output !== previous) {
+    previous = output
+    output = output.replace(/<[^>]+>/g, '')
+  }
+  return output
+}
+
 function slugify(raw: string, counter: Map<string, number>): string {
-  const cleaned = raw
+  const cleaned = stripHtmlLikeTags(raw)
     .trim()
     .toLowerCase()
-    .replace(/<[^>]+>/g, '')
     .replace(/[\[\]()`*~]/g, '')
     .replace(/\s+/g, '-')
     .replace(/-+/g, '-')
