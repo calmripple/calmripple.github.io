@@ -79,10 +79,12 @@ export interface TocSidebarPlugin {
   buildSidebar: () => DefaultTheme.SidebarMulti
 }
 
-export interface TocSidebarResolverOptions {
+export interface AutoTocResolverOptions {
   componentName?: string
   from?: string
 }
+
+export type TocSidebarResolverOptions = AutoTocResolverOptions
 
 export interface ViteUserConfigLike {
   root?: string

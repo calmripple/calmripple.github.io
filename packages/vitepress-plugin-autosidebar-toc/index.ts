@@ -22,15 +22,16 @@ import type {
   TocSidebarRawTree,
   ViteUserConfigLike,
 } from './types'
-import { TocSidebarResolver } from './client/resolvers.ts'
+import { createAutoTocComponentResolver } from './client/resolvers.ts'
 
 export type {
+  AutoTocResolverOptions,
   TocSidebarBuildOptions,
   TocSidebarLifecycleHooks,
 } from './types'
 
 export {
-  TocSidebarResolver,
+  createAutoTocComponentResolver,
 }
 
 const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
@@ -392,6 +393,9 @@ export function createTocSidebarVitePlugin(
         source: serializeDoctreeJson(rawTree),
       })
     },
+    configResolved(config) {
+
+    },
     config(config, env: ConfigEnv) {
       isBuildCommand = env.command === 'build'
       rebuildState(true)
@@ -416,8 +420,8 @@ export function createTocSidebarVitePlugin(
           sidebar,
           ...(options.nav.enabled && nav.length > 0
             ? {
-                nav: mergeNavByMode(site.themeConfig?.nav, nav, options.nav.mode),
-              }
+              nav: mergeNavByMode(site.themeConfig?.nav, nav, options.nav.mode),
+            }
             : {}),
         }
       }
@@ -430,8 +434,8 @@ export function createTocSidebarVitePlugin(
             sidebar,
             ...(options.nav.enabled && nav.length > 0
               ? {
-                  nav: mergeNavByMode(locale.themeConfig?.nav, nav, options.nav.mode),
-                }
+                nav: mergeNavByMode(locale.themeConfig?.nav, nav, options.nav.mode),
+              }
               : {}),
           }
         }

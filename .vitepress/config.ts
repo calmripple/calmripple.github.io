@@ -1,7 +1,7 @@
 import { Buffer } from 'node:buffer'
 import { resolve } from 'node:path'
 import process from 'node:process'
-import { createTocSidebarVitePlugin, TocSidebarResolver, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
+import { createAutoTocComponentResolver, createTocSidebarVitePlugin, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
@@ -27,7 +27,6 @@ const docsRoot = resolve(workspaceRoot, 'zh-CN')
 const publicRoot = resolve(workspaceRoot, 'public')
 const tocFilePath = resolve(docsRoot, 'toc.md')
 const indexFilePath = resolve(docsRoot, 'index.md')
-const tocSidebarAutoTocComponentPath = '@knewbeing/vitepress-plugin-autosidebar-toc/client/AutoToc.vue'
 const componentsDirPath = resolve(vitepressRoot, 'theme/components')
 const componentsDtsPath = resolve(vitepressRoot, 'components.d.ts')
 const autoImportsDtsPath = resolve(vitepressRoot, 'auto-imports.d.ts')
@@ -148,12 +147,11 @@ export default defineConfig({
         include: [/\.vue$/, /\.md$/],
         dirs: [componentsDirPath],
         resolvers: [
-          TocSidebarResolver({
-            from: tocSidebarAutoTocComponentPath,
-          }),
+          createAutoTocComponentResolver({ componentName: 'AutoToc' })
         ],
         dts: componentsDtsPath,
       }),
+
       UnoCSS(),
       nolebaseVite,
       ...nolebaseVite.plugins(),
