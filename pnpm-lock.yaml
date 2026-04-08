@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@typescript-eslint/parser': ^8.58.0
-  '@typescript-eslint/project-service': ^8.58.0
-  '@typescript-eslint/rule-tester': ^8.58.0
-  '@typescript-eslint/tsconfig-utils': ^8.58.0
-  '@typescript-eslint/typescript-estree': ^8.58.0
-  '@typescript-eslint/utils': ^8.58.0
+  '@typescript-eslint/parser': ^8.58.1
+  '@typescript-eslint/project-service': ^8.58.1
+  '@typescript-eslint/rule-tester': ^8.58.1
+  '@typescript-eslint/tsconfig-utils': ^8.58.1
+  '@typescript-eslint/typescript-estree': ^8.58.1
+  '@typescript-eslint/utils': ^8.58.1
   ajv: 8.18.0
   axios: '>=1.13.5'
   flatted: '>=3.4.2'
@@ -159,7 +159,7 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       markdown-it-mathjax3:
-        specifier: ^4.3.2
+        specifier: 4.3.2
         version: 4.3.2
       mermaid:
         specifier: ^11.14.0
@@ -1736,7 +1736,7 @@ packages:
     resolution: {integrity: sha512-eSkwoemjo76bdXl2MYqtxg51HNwUSkWfODUOQ3PaTLZGh9uIWWFZIjyjaJnex7wXDu+TRx+ATsnSxdN9YWfRTQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      '@typescript-eslint/parser': ^8.58.0
+      '@typescript-eslint/parser': ^8.58.1
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       typescript: '>=4.8.4 <6.1.0'
 
@@ -2643,9 +2643,9 @@ packages:
   eslint-plugin-command@3.5.2:
     resolution: {integrity: sha512-PA59QAkQDwvcCMEt5lYLJLI3zDGVKJeC4id/pcRY2XdRYhSGW7iyYT1VC1N3bmpuvu6Qb/9QptiS3GJMjeGTJg==}
     peerDependencies:
-      '@typescript-eslint/rule-tester': ^8.58.0
-      '@typescript-eslint/typescript-estree': ^8.58.0
-      '@typescript-eslint/utils': ^8.58.0
+      '@typescript-eslint/rule-tester': ^8.58.1
+      '@typescript-eslint/typescript-estree': ^8.58.1
+      '@typescript-eslint/utils': ^8.58.1
       eslint: '*'
 
   eslint-plugin-depend@1.5.0:
@@ -2730,7 +2730,7 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       '@stylistic/eslint-plugin': ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
-      '@typescript-eslint/parser': ^8.58.0
+      '@typescript-eslint/parser': ^8.58.1
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       vue-eslint-parser: ^10.0.0
     peerDependenciesMeta:
