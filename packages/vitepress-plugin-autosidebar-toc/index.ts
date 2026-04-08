@@ -17,7 +17,7 @@ import type {
   TocSidebarRawTree,
   ViteUserConfigLike,
 } from './types'
-import { createAutoTocComponentResolver } from './client/resolvers.ts'
+import { createAutoTocComponentResolver } from './client/resolvers'
 
 export type {
   AutoTocResolverOptions,
