@@ -78,6 +78,30 @@ export interface MarkdownMeta {
 
   /** 文档内提取出的一级标题。 */
   h1?: string
+
+  /** 解析后的页面标题。 */
+  title?: string
+
+  /** 解析后的侧边栏标题。 */
+  sidebarTitle?: string
+
+  /** 解析后的标签列表；未提供时为空数组。 */
+  tags: string[]
+
+  /** 解析后的页面进度值。 */
+  progress?: number
+
+  /** 解析后的创建时间。 */
+  createdAt?: Date
+
+  /** 解析后的更新时间。 */
+  updatedAt?: Date
+
+  /** 解析后的字数统计。 */
+  wordsCount?: number
+
+  /** 解析后的阅读时长（分钟）。 */
+  readingTime?: number
 }
 
 /**

@@ -62,6 +62,64 @@ function getFrontmatterString(frontmatter: Frontmatter, key: string): string | u
   return typeof value === 'string' ? value : undefined
 }
 
+// 按键提取并解析 frontmatter 数值字段。
+function getFrontmatterNumber(frontmatter: Frontmatter, key: string): number | undefined {
+  const value = frontmatter[key]
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return value
+  }
+
+  if (typeof value !== 'string') {
+    return undefined
+  }
+
+  const normalized = value.trim()
+  if (!normalized) {
+    return undefined
+  }
+
+  const parsed = Number(normalized)
+  return Number.isFinite(parsed) ? parsed : undefined
+}
+
+// 按键提取并解析 frontmatter 日期字段。
+function getFrontmatterDate(frontmatter: Frontmatter, key: string): Date | undefined {
+  const value = frontmatter[key]
+  if (value instanceof Date) {
+    return Number.isNaN(value.getTime()) ? undefined : value
+  }
+
+  if (typeof value !== 'string' && typeof value !== 'number') {
+    return undefined
+  }
+
+  const parsed = new Date(value)
+  return Number.isNaN(parsed.getTime()) ? undefined : parsed
+}
+
+// 按键提取并规范化 frontmatter 标签字段。
+function getFrontmatterTags(frontmatter: Frontmatter, key: string): string[] {
+  const value = frontmatter[key]
+  if (Array.isArray(value)) {
+    return value
+      .map((item) => {
+        if (typeof item === 'string') {
+          return item.trim()
+        }
+
+        if (typeof item === 'number' && Number.isFinite(item)) {
+          return String(item)
+        }
+
+        return undefined
+      })
+      .filter((item): item is string => Boolean(item))
+  }
+
+  const singleTag = getFrontmatterString(frontmatter, key)?.trim()
+  return singleTag ? [singleTag] : []
+}
+
 // 将 markdown 相对路径转换为 VitePress 路由路径。
 function toVitePressRoutePath(relativeMdPath: string): string {
   let link = toPosixPath(relativeMdPath)
@@ -129,6 +187,24 @@ function extractPrimaryHeading(markdownBody: string): string | undefined {
   return matched?.[1]?.trim()
 }
 
+// 将 markdown 原始数据解析为带有常用 Nolebase 字段的元数据对象。
+function parseMarkdownMeta(data: unknown, markdownBody: string): MarkdownMeta {
+  const frontmatter = toFrontmatter(data)
+
+  return {
+    frontmatter,
+    h1: extractPrimaryHeading(markdownBody),
+    title: getFrontmatterString(frontmatter, 'title'),
+    sidebarTitle: getFrontmatterString(frontmatter, 'sidebarTitle'),
+    tags: getFrontmatterTags(frontmatter, 'tags'),
+    progress: getFrontmatterNumber(frontmatter, 'progress'),
+    createdAt: getFrontmatterDate(frontmatter, 'createdAt'),
+    updatedAt: getFrontmatterDate(frontmatter, 'updatedAt'),
+    wordsCount: getFrontmatterNumber(frontmatter, 'wordsCount'),
+    readingTime: getFrontmatterNumber(frontmatter, 'readingTime'),
+  }
+}
+
 // 读取并缓存 markdown 元数据。
 function readMarkdownMeta(filePath: string, cache: Map<string, MarkdownMeta>): MarkdownMeta {
   const resolvedPath = resolve(filePath)
@@ -138,18 +214,12 @@ function readMarkdownMeta(filePath: string, cache: Map<string, MarkdownMeta>): M
     return cached
   }
 
-  let result: MarkdownMeta = {
-    frontmatter: {},
-    h1: undefined,
-  }
+  let result: MarkdownMeta = parseMarkdownMeta({}, '')
 
   try {
     const content = readFileSync(resolvedPath, 'utf-8')
     const { data, content: body } = matter(content)
-    result = {
-      frontmatter: toFrontmatter(data),
-      h1: extractPrimaryHeading(body),
-    }
+    result = parseMarkdownMeta(data, body)
   }
   catch {
     // Keep safe fallback values if one markdown file cannot be parsed.
@@ -168,8 +238,8 @@ function invalidateMarkdownMetaCache(filePath: string, cache: Map<string, Markdo
 function computeFileDisplayTitle(filePath: string, fallback: string, cache: Map<string, MarkdownMeta>): string {
   const meta = readMarkdownMeta(filePath, cache)
   return computeDisplayText({
-    sidebarTitle: getFrontmatterString(meta.frontmatter, 'sidebarTitle'),
-    title: getFrontmatterString(meta.frontmatter, 'title'),
+    sidebarTitle: meta.sidebarTitle,
+    title: meta.title,
     h1: meta.h1,
     fallback,
   })
@@ -193,8 +263,8 @@ function computeDirectoryDisplayTitle(
   const indexAbsPath = join(baseDir, directoryPath, 'index.md')
   const indexMeta = readMarkdownMeta(indexAbsPath, cache)
   return computeDisplayText({
-    sidebarTitle: getFrontmatterString(indexMeta.frontmatter, 'sidebarTitle'),
-    title: getFrontmatterString(indexMeta.frontmatter, 'title'),
+    sidebarTitle: indexMeta.sidebarTitle,
+    title: indexMeta.title,
     h1: indexMeta.h1,
     directoryName: fallback,
     fallback,
@@ -625,15 +695,11 @@ function mergeNavItemsByMode(
   return merged
 }
 
-// 生成带随机 token 的 doctree 资源文件名。
-function createDoctreeAssetFileName(): string {
-  const runToken = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`
-  return `doctree.${runToken}.json`
-}
+// 虚拟模块 ID。
+const VIRTUAL_MODULE_ID = 'virtual:@knewbeing/toc-sidebar-doctree'
+const RESOLVED_VIRTUAL_MODULE_ID = `\0${VIRTUAL_MODULE_ID}`
 
-const DOCTREE_ASSET_NAME = createDoctreeAssetFileName()
-const DOCTREE_ROUTE_PATH = `/${DOCTREE_ASSET_NAME}`
-const DOCTREE_DEFINE_KEY = '__TOC_SIDEBAR_DOCTREE_PATH__'
+// 调试文件名。
 const DOCTREE_DEBUG_FILE_NAME = 'toc-sidebar-doctree.debug.json'
 const RECOMPUTE_DEBOUNCE_MS = 30
 
@@ -786,7 +852,6 @@ export function createTocSidebarVitePlugin(
   let sourceTree = new Map<string, DirNode>()
   let nav: DefaultTheme.NavItemWithLink[] = []
   let sidebar: DefaultTheme.SidebarMulti = {}
-  let devDoctreeJson = stringifyDoctreePayload(sourceTree, baseDir, cache)
   const debugDoctreePath = resolve(process.cwd(), DOCTREE_DEBUG_FILE_NAME)
   const changedMarkdownAbsolutePaths = new Set<string>()
   let shouldResetMetaCache = false
@@ -838,10 +903,9 @@ export function createTocSidebarVitePlugin(
       nextSidebar[rootPath] = buildSidebarItemsFromDirectory(baseDir, root, 0, options, cache, sourceTree)
     }
 
-    // 5) 刷新内存状态与 doctree JSON 快照。
+    // 5) 刷新内存状态与调试快照。
     sidebar = nextSidebar
-    devDoctreeJson = stringifyDoctreePayload(sourceTree, baseDir, cache)
-    writeDebugDoctreeSnapshot(devDoctreeJson)
+    writeDebugDoctreeSnapshot(stringifyDoctreePayload(sourceTree, baseDir, cache))
   }
 
   function queueSidebarRecompute(): void {
@@ -872,6 +936,21 @@ export function createTocSidebarVitePlugin(
   return {
     name: 'vitepress-plugin-autosidebar-toc:inject',
     enforce: 'post',
+    resolveId(id) {
+      // 虚拟模块 ID 解析。
+      if (id === VIRTUAL_MODULE_ID) {
+        return RESOLVED_VIRTUAL_MODULE_ID
+      }
+    },
+    load(id) {
+      // 虚拟模块内容加载：返回导出 doctree 数据的 JavaScript。
+      if (id !== RESOLVED_VIRTUAL_MODULE_ID) {
+        return null
+      }
+
+      const payload = createDoctreePayload(sourceTree, baseDir, cache)
+      return `export default ${JSON.stringify(payload)}`
+    },
     configureServer(server) {
       // markdown 文件 add/unlink/change 都进入统一重算队列。
       const refreshForMarkdownFileChange = (filePath: string) => {
@@ -904,31 +983,9 @@ export function createTocSidebarVitePlugin(
       server.watcher.on('addDir', refreshForDirectoryChange)
       server.watcher.on('unlinkDir', refreshForDirectoryChange)
 
-      // dev 阶段通过中间件直接暴露 doctree JSON。
-      server.middlewares.use((req, res, next) => {
-        const requestPath = req.url?.split('?')[0] ?? ''
-        if (requestPath !== DOCTREE_ROUTE_PATH) {
-          next()
-          return
-        }
-
-        res.statusCode = 200
-        res.setHeader('Content-Type', 'application/json; charset=utf-8')
-        res.end(devDoctreeJson)
-      })
-    },
-    generateBundle() {
-      // build 阶段兜底：若尚未初始化快照则先重算一次。
-      if (isBuildCommand && sourceTree.size === 0) {
-        recomputeSidebarState()
-      }
-
-      // 产出供 AutoToc 使用的 doctree 资源文件。
-      this.emitFile({
-        type: 'asset',
-        fileName: DOCTREE_ASSET_NAME,
-        source: stringifyDoctreePayload(sourceTree, baseDir, cache),
-      })
+      // dev 阶段虚拟模块会自动通过 load() hook 重新生成内容，
+      // 当 moduleGraph invalidate 时会触发重新加载。
+      // 这里仅需保留基础的文件监听逻辑。
     },
     config(config, env: ConfigEnv) {
       // config 阶段预先计算一次，确保 themeConfig 注入拿到最新数据。
@@ -936,11 +993,6 @@ export function createTocSidebarVitePlugin(
       recomputeSidebarState()
 
       const normalizedConfig: ViteUserConfigLike = config
-      normalizedConfig.define = {
-        ...(normalizedConfig.define ?? {}),
-        [DOCTREE_DEFINE_KEY]: JSON.stringify(DOCTREE_ROUTE_PATH),
-      }
-
       const site = normalizedConfig.vitepress?.site
 
       if (!site) {

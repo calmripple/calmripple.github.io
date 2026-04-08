@@ -85,11 +85,24 @@ export function isESM() {
 /**
  * 获取指定模块 URL 对应的目录名。
  *
- * 在 ESM 环境中请显式传入调用方的 `import.meta.url`；在 CommonJS 环境中会回退到 `__dirname`。
+ * - CJS 环境：直接返回 `__dirname`。
+ * - ESM 环境：需要调用方显式传入 `import.meta.url`，
+ *   通过 `fileURLToPath` 转换后取目录名。
  *
- * @param importMetaUrl 模块的 `import.meta.url`。
+ * @param importMetaUrl ESM 调用方的 `import.meta.url`；CJS 下可省略。
  * @returns 模块所在目录的绝对路径。
  */
-export function getDirName(importMetaUrl: string = import.meta.url) {
-  return isESM() ? path.dirname(fileURLToPath(importMetaUrl)) : __dirname
+export function getDirName(importMetaUrl?: string): string {
+  // CJS 环境优先使用原生 __dirname。
+  if (typeof __dirname !== 'undefined') {
+    return __dirname
+  }
+
+  // ESM 环境需要调用方提供 import.meta.url。
+  if (importMetaUrl) {
+    return path.dirname(fileURLToPath(importMetaUrl))
+  }
+
+  // 兜底：使用 process.cwd()。
+  return process.cwd()
 }

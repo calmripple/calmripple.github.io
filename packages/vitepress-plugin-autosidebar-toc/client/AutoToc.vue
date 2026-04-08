@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { computed, onMounted, shallowRef } from 'vue'
-import { useRoute, withBase } from 'vitepress'
+import { computed, shallowRef } from 'vue'
+import { useRoute } from 'vitepress'
+import doctreeData from 'virtual:@knewbeing/toc-sidebar-doctree'
 import type {
   TocSidebarDirectoryEntry,
   TocSidebarDoctreePayload,
@@ -29,13 +30,6 @@ interface DisplayEntry {
 }
 
 const route = useRoute()
-const rawTree = shallowRef<TocSidebarRawTree | null>(null)
-const doctreePath = typeof __TOC_SIDEBAR_DOCTREE_PATH__ === 'string' && __TOC_SIDEBAR_DOCTREE_PATH__.startsWith('/')
-  ? __TOC_SIDEBAR_DOCTREE_PATH__
-  : '/doctree.json'
-
-let rawTreePromise: Promise<TocSidebarRawTree | null> | null = null
-let cachedDoctreePath = ''
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
@@ -103,29 +97,8 @@ function normalizeDoctreePayload(payload: unknown): TocSidebarRawTree | null {
   return null
 }
 
-async function loadRawTree(sourcePath: string): Promise<TocSidebarRawTree | null> {
-  if (!rawTreePromise || cachedDoctreePath !== sourcePath) {
-    cachedDoctreePath = sourcePath
-    rawTreePromise = fetch(withBase(sourcePath), {
-      cache: 'force-cache',
-    })
-      .then(async (response) => {
-        if (!response.ok) {
-          return null
-        }
-
-        const payload = await response.json()
-        return normalizeDoctreePayload(payload)
-      })
-      .catch(() => null)
-  }
-
-  return rawTreePromise
-}
-
-onMounted(async () => {
-  rawTree.value = await loadRawTree(doctreePath)
-})
+// 直接从虚拟模块获取 doctree 数据，无需 fetch。
+const rawTree = shallowRef<TocSidebarRawTree | null>(normalizeDoctreePayload(doctreeData))
 
 function safeDecode(input: string): string {
   try {
