@@ -45,15 +45,8 @@ export function isRecord(value: unknown): value is Record<string, unknown> {
  * @returns 去除标签后的纯文本结果。
  */
 export function removeHtmlLikeTagsSafely(input: string): string {
-  let previous = ''
-  let output = input
-
-  while (output !== previous) {
-    previous = output
-    output = output.replace(/<[^>]+>/g, '')
-  }
-
-  return output
+  // 使用非贪婪量词避免多项式回溯，单次替换即可。
+  return input.replace(/<[^>]*>/g, '')
 }
 
 /**
