@@ -4,7 +4,7 @@
 #   1. 访问 Cloudflare Dashboard: Workers & Pages > Create > Pages > Connect to Git
 #   2. 安装/授权 Cloudflare Pages GitHub App：https://github.com/apps/cloudflare-pages
 #   3. 选择此仓库，在向导中填写以下构建设置（仅需配置一次）：
-#        Build command:    pnpm install --no-frozen-lockfile && pnpm build
+#        Build command:    pnpm build
 #        Output directory: .vitepress/dist  ← 已在本文件 pages_build_output_dir 中声明
 #   4. 生产分支设为 main（或 master），其余所有分支及 PR 将自动生成预览 URL。
 #
