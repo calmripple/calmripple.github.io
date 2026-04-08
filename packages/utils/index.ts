@@ -37,7 +37,7 @@ export function isRecord(value: unknown): value is Record<string, unknown> {
 }
 
 /**
- * 递归移除文本中的 HTML-like 标签内容外壳。
+ * 迭代移除文本中的 HTML-like 标签内容外壳。
  *
  * 适合用于清洗标题、摘要等可能混入简单 HTML 标记的展示文本。
  *
@@ -45,8 +45,16 @@ export function isRecord(value: unknown): value is Record<string, unknown> {
  * @returns 去除标签后的纯文本结果。
  */
 export function removeHtmlLikeTagsSafely(input: string): string {
-  // 使用非贪婪量词避免多项式回溯，单次替换即可。
-  return input.replace(/<[^>]*>/g, '')
+  let previous = ''
+  let output = input
+
+  // 重复替换直到结果稳定，避免移除一层后重新拼出新的标签片段。
+  while (output !== previous) {
+    previous = output
+    output = output.replace(/<[^>]+>/g, '')
+  }
+
+  return output
 }
 
 /**
