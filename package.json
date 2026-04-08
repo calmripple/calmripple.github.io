@@ -21,11 +21,14 @@
     "dev": "pnpm run docs:dev",
     "build": "pnpm run docs:build",
     "serve": "pnpm run docs:serve",
+    "predocs:dev": "pnpm --filter @knewbeing/vitepress-plugin-autosidebar-toc build",
+    "predocs:build": "pnpm --filter @knewbeing/vitepress-plugin-autosidebar-toc build",
+    "predocs:serve": "pnpm --filter @knewbeing/vitepress-plugin-autosidebar-toc build",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:serve": "vitepress serve",
     "update": "tsx scripts/update.ts",
-    "test": "tsx scripts/test-build.ts"
+    "build:test": "tsx scripts/test-build.ts"
   },
   "devDependencies": {
     "@knewbeing/vitepress-plugin-autosidebar-toc": "workspace:*",
