@@ -2,6 +2,7 @@ import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { basename, extname, join, relative, resolve, sep } from 'node:path'
 import fg from 'fast-glob'
 import matter from 'gray-matter'
+import { isRecord, sanitizeTextCandidate, toNormalizedAbsolutePath, toPosixPath } from '@knewbeing/utils'
 import type { DefaultTheme } from 'vitepress'
 import type { ConfigEnv, Plugin } from 'vite'
 import type {
@@ -21,7 +22,21 @@ import { createAutoTocComponentResolver } from './client/resolvers'
 
 export type {
   AutoTocResolverOptions,
+  DirNode,
+  Frontmatter,
+  MarkdownMeta,
+  ResolvedTocSidebarOptions,
+  ThemeConfigLike,
   TocSidebarBuildOptions,
+  TocSidebarDirectoryEntry,
+  TocSidebarDoctreePayload,
+  TocSidebarFileEntry,
+  TocSidebarNavOptions,
+  TocSidebarPlugin,
+  TocSidebarRawTree,
+  TocSidebarRawTreeNode,
+  TocSidebarResolverOptions,
+  ViteUserConfigLike,
 } from './types'
 
 export {
@@ -31,24 +46,9 @@ export {
 const SIMPLE_INCLUDE_GLOB = '**/*.md'
 const SIMPLE_EXCLUDE_DIR_GLOB_RE = /^\*\*\/([^/*{}[\]?]+)\/\*\*$/
 
-// 统一路径分隔符为 /，避免跨平台差异。
-function toPosixPath(p: string): string {
-  return p.split(sep).join('/')
-}
-
-// 将路径标准化为绝对路径并转小写，便于比较与缓存命中。
-function toNormalizedAbsolutePath(path: string): string {
-  return toPosixPath(resolve(path)).toLowerCase()
-}
-
 // 生成 markdown 元数据缓存键。
 function toMarkdownMetaCacheKey(filePath: string): string {
   return toNormalizedAbsolutePath(filePath)
-}
-
-// 判断值是否为普通对象。
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null && !Array.isArray(value)
 }
 
 // 将任意 frontmatter 输入安全转换为对象。
@@ -93,26 +93,6 @@ function toVitePressPageRoute(relativeMdPath: string): string {
   return isIndexFile ? toVitePressDirectoryRoute(relativeMdPath) : toVitePressRoutePath(relativeMdPath)
 }
 
-// 去除文本中的 HTML 标签，避免标题污染。
-function removeHtmlLikeTagsSafely(input: string): string {
-  let previous = ''
-  let output = input
-  while (output !== previous) {
-    previous = output
-    output = output.replace(/<[^>]+>/g, '')
-  }
-  return output
-}
-
-// 清洗并规范化可用于展示的文本候选值。
-function sanitizeTextCandidate(value: unknown): string | undefined {
-  if (typeof value !== 'string') {
-    return undefined
-  }
-
-  const cleaned = removeHtmlLikeTagsSafely(value).trim()
-  return cleaned || undefined
-}
 
 // 展示文本统一出口，便于后续定制。
 function finalizeDisplayText(raw: string): string {
@@ -778,6 +758,15 @@ function isPathInsideBaseDir(filePath: string, normalizedBaseDir: string): boole
 }
 
 // 插件主入口：驱动扫描、重算、注入与资源输出。
+/**
+ * 创建用于 VitePress 的自动侧边栏与导航生成插件。
+ *
+ * 该插件会扫描 Markdown 文档目录，构建目录树、sidebar、可选 nav，
+ * 并在开发阶段支持增量更新与调试 doctree 输出。
+ *
+ * @param userOptions 用户传入的插件配置。
+ * @returns 标准 Vite 插件实例。
+ */
 export function createTocSidebarVitePlugin(
   userOptions: TocSidebarBuildOptions,
 ): Plugin {
