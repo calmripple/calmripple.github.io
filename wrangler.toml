@@ -12,7 +12,8 @@
 # 添加 pages_build_output_dir 后，Dashboard 中的对应字段将变为只读。
 # 如需回退到纯 Dashboard 管理，删除本文件并重新部署即可。
 
-name = "nolebase"
+# wrangler.toml
+name = 'knewbeing'
 pages_build_output_dir = ".vitepress/dist"
 
 # 指定 Workers 运行时的兼容性基准日期，保持与最新稳定版对齐。
