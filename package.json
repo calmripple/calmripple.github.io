@@ -30,6 +30,7 @@
     "preserve": "pnpm run build:referenced-packages",
     "dev": "vitepress dev",
     "build": "vitepress build",
+    "gemini:verify-models": "node scripts/verify-gemini-models.mjs",
     "serve": "vitepress serve",
     "build:test": "pnpm run build:referenced-packages && tsx scripts/test-build.ts"
   },
