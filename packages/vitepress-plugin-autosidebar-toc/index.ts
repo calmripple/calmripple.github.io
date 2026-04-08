@@ -16,13 +16,13 @@ import type {
   TocSidebarFileEntry,
   TocSidebarRawTree,
   ViteUserConfigLike,
-} from './types'
+} from './types.ts'
 import { createAutoTocComponentResolver } from './client/resolvers.ts'
 
 export type {
   AutoTocResolverOptions,
   TocSidebarBuildOptions,
-} from './types'
+} from './types.js'
 
 export {
   createAutoTocComponentResolver,

@@ -3,11 +3,24 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "main": "./index.ts",
-  "module": "./index.ts",
-  "types": "./index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "client/AutoToc.vue",
+    "globals.d.ts"
+  ],
+  "scripts": {
+    "clean": "node -e \"import('node:fs').then(fs=>fs.rmSync('dist',{recursive:true,force:true}))\"",
+    "build": "pnpm run clean && tsc -p tsconfig.build.json"
+  },
   "exports": {
-    ".": "./index.ts",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
     "./client/AutoToc.vue": "./client/AutoToc.vue"
   }
 }

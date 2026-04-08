@@ -57,3 +57,4 @@ src/languages/translates/*/*.bak.*.json
 languages/api.json
 languages/translates/*/*.bak.*.json
 **/*.wrapped.*
+**/dist

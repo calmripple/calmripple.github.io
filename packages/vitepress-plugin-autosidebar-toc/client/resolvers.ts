@@ -1,7 +1,7 @@
 import type { ComponentResolver } from 'unplugin-vue-components/types'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import type { AutoTocResolverOptions } from '../types'
+import type { AutoTocResolverOptions } from '../types.js'
 
 export function isESM() {
   return typeof __filename === 'undefined' || typeof __dirname === 'undefined'
