@@ -12,9 +12,11 @@
     "globals.d.ts"
   ],
   "scripts": {
-    "clean": "node -e \"import('node:fs').then(fs=>fs.rmSync('dist',{recursive:true,force:true}))\"",
-    "build": "pnpm run clean && tsc -p tsconfig.build.json",
+    "build": "tsup",
     "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
   },
   "exports": {
     ".": {
