@@ -3,7 +3,7 @@ import process from 'node:process'
 import { creatorNames, creatorUsernames, siteDescription, siteName, targetDomain } from '../metadata'
 
 const isProduction = process.env.NODE_ENV === 'production'
-const plausibleScript: HeadConfig = ['script', { 'defer': 'true', 'data-domain': 'www.dmsrs.org', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }]
+const plausibleScript: HeadConfig = ['script', { 'defer': 'true', 'data-domain': 'www.dmsrs.org', 'data-api': 'https://plausible.io/api/event', 'src': 'https://plausible.io/js/script.js' }]
 
 export default [
   ['meta', {
@@ -102,8 +102,7 @@ export default [
   }],
   ...(isProduction
     ? [
-        // Proxying Plausible through Netlify | Plausible docs
-        // https://plausible.io/docs/proxy/guides/netlify
+        // Use direct Plausible endpoints to keep deployment target-agnostic.
         plausibleScript,
       ]
     : []),

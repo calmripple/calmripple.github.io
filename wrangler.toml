@@ -1,19 +1,12 @@
-# Cloudflare Pages 项目配置文件
+# wrangler.toml
 #
-# 使用 GitHub App 集成方式（无需 GitHub Actions workflow）的接入步骤：
-#   1. 访问 Cloudflare Dashboard: Workers & Pages > Create > Pages > Connect to Git
-#   2. 安装/授权 Cloudflare Pages GitHub App：https://github.com/apps/cloudflare-pages
-#   3. 选择此仓库，在向导中填写以下构建设置（仅需配置一次）：
-#        Build command:    pnpm build
-#        Output directory: .vitepress/dist  ← 已在本文件 pages_build_output_dir 中声明
-#   4. 生产分支设为 main（或 master），其余所有分支及 PR 将自动生成预览 URL。
-#
-# 本文件作为 Pages 运行时配置的唯一来源（source of truth）。
-# 添加 pages_build_output_dir 后，Dashboard 中的对应字段将变为只读。
-# 如需回退到纯 Dashboard 管理，删除本文件并重新部署即可。
-
-name = "nolebase"
-pages_build_output_dir = ".vitepress/dist"
+# 当前 Cloudflare 配置使用 deploy command: `npx wrangler versions upload`。
+# 该命令属于 Workers 上传流程，需通过 [assets] 指定静态站点目录。
+name = 'knewbeing'
 
 # 指定 Workers 运行时的兼容性基准日期，保持与最新稳定版对齐。
 compatibility_date = "2026-04-09"
+
+# 提供静态资源目录，避免 `Missing entry-point to Worker script or to assets directory`。
+[assets]
+directory = ".vitepress/dist"
