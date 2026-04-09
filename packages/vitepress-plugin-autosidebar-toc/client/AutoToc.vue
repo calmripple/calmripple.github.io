@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { computed, shallowRef } from 'vue'
+import { computed, shallowRef, watch } from 'vue'
 import { useRoute } from 'vitepress'
-import doctreeData from 'virtual:@knewbeing/toc-sidebar-doctree'
 import type {
   TocSidebarDirectoryEntry,
   TocSidebarDoctreePayload,
@@ -30,6 +29,8 @@ interface DisplayEntry {
 }
 
 const route = useRoute()
+// 缓存已加载的 doctree 数据，避免重复加载
+const cachedDoctreeData = shallowRef<TocSidebarRawTree | null>(null)
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
@@ -97,8 +98,38 @@ function normalizeDoctreePayload(payload: unknown): TocSidebarRawTree | null {
   return null
 }
 
-// 直接从虚拟模块获取 doctree 数据，无需 fetch。
-const rawTree = shallowRef<TocSidebarRawTree | null>(normalizeDoctreePayload(doctreeData))
+// 异步加载 doctree 数据，只在必要时加载
+async function loadDoctreeData(): Promise<TocSidebarRawTree | null> {
+  if (cachedDoctreeData.value) {
+    return cachedDoctreeData.value
+  }
+
+  try {
+    // 动态导入虚拟模块，避免初始化时加载
+    const doctreeModule = await import('virtual:@knewbeing/toc-sidebar-doctree')
+    const payload = normalizeDoctreePayload(doctreeModule.default)
+    if (payload) {
+      cachedDoctreeData.value = payload
+    }
+    return payload
+  }
+  catch (error) {
+    console.warn('[AutoToc] Failed to load doctree data:', error)
+    return null
+  }
+}
+
+const rawTree = shallowRef<TocSidebarRawTree | null>(null)
+
+// 当组件需要数据时才异步加载
+watch(
+  () => route.path,
+  async () => {
+    const tree = await loadDoctreeData()
+    rawTree.value = tree
+  },
+  { immediate: true }
+)
 
 function safeDecode(input: string): string {
   try {
@@ -333,23 +364,27 @@ const groupedEntries = computed(() => {
 
 <style scoped>
 .auto-toc {
-  margin: 20px 0;
-  padding: 14px 16px;
+  margin: 24px 0;
+  padding: 16px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 10px;
   background: var(--vp-c-bg-soft);
+
+  /* 占满整个父级宽度 */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .auto-toc__title {
-  margin: 0 0 10px;
-  font-size: 14px;
+  margin: 0 0 12px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--vp-c-text-2);
 }
 
 .auto-toc__section {
-  margin-top: 10px;
-  padding: 10px 12px;
+  margin-top: 12px;
+  padding: 12px 14px;
   border-radius: 8px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg);
@@ -365,14 +400,15 @@ const groupedEntries = computed(() => {
 
 .auto-toc__section-title {
   margin: 0 0 8px;
+  font-size: 13px;
 }
 
 .auto-toc__badge {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 999px;
   font-size: 12px;
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 600;
 }
 
@@ -388,24 +424,74 @@ const groupedEntries = computed(() => {
 
 .auto-toc__list {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 20px;
+  list-style-type: none;
 }
 
 .auto-toc__item {
-  margin: 6px 0;
+  margin: 8px 0;
+  line-height: 1.6;
 }
 
 .auto-toc__link {
   color: var(--vp-c-text-1);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .auto-toc__link:hover {
   color: var(--vp-c-brand-1);
+  text-decoration: underline;
 }
 
 .auto-toc__link.is-active {
   color: var(--vp-c-brand-1);
   font-weight: 600;
+}
+
+/* 平板设备响应式调整 */
+@media (max-width: 1024px) {
+  .auto-toc {
+    margin: 20px auto;
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  .auto-toc__section {
+    padding: 10px 12px;
+  }
+}
+
+/* 手机设备响应式调整 */
+@media (max-width: 640px) {
+  .auto-toc {
+    margin: 16px auto;
+    padding: 12px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  .auto-toc__title {
+    margin: 0 0 10px;
+    font-size: 13px;
+  }
+
+  .auto-toc__section {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .auto-toc__badge {
+    padding: 2px 8px;
+    font-size: 11px;
+  }
+
+  .auto-toc__list {
+    padding-left: 16px;
+  }
+
+  .auto-toc__item {
+    margin: 6px 0;
+  }
 }
 </style>
