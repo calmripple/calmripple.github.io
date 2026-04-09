@@ -126,13 +126,51 @@ export async function rebuildAutoNavState(
   navLevel: number,
   baseDir: string,
   cache: Map<string, MarkdownMeta>,
-): Promise<{ nav: DefaultTheme.NavItemWithLink[]; directories: string[] }> {
+): Promise<{ nav: DefaultTheme.NavItem[]; directories: string[] }> {
   const navDirectoryPaths = collectCandidateNavDirectories(sourceMarkdownFiles, roots, navLevel)
-  const nav: DefaultTheme.NavItemWithLink[] = []
+  const nav: DefaultTheme.NavItem[] = []
 
+  // 把所有 level 2 的目录作为一级菜单，其 level 3 的子目录作为下拉项
   for (const directoryPath of navDirectoryPaths) {
     const navItem = await buildNavItemForDirectory(directoryPath, sourceTree, baseDir, cache)
-    if (navItem) {
+    if (!navItem) {
+      continue
+    }
+
+    // 收集该目录的所有子目录作为下拉菜单项
+    const node = sourceTree.get(directoryPath)
+    if (node && node.directories.size > 0) {
+      const items: DefaultTheme.NavItemWithLink[] = []
+      const childDirs = [...node.directories].sort()
+
+      for (const childDirName of childDirs) {
+        const childPath = `${directoryPath}/${childDirName}`
+        const childNode = sourceTree.get(childPath)
+        if (!childNode) {
+          continue
+        }
+
+        const childLink = resolveDirectoryNavLink(childPath, sourceTree)
+        if (childLink) {
+          const childText = await computeDirectoryDisplayTitle(baseDir, childPath, childDirName, childNode.files.has('index.md'), cache)
+          items.push({
+            text: childText,
+            link: childLink,
+          })
+        }
+      }
+
+      if (items.length > 0) {
+        // 下拉菜单不需要 link，只需要 text 和 items
+        nav.push({
+          text: navItem.text,
+          items,
+        })
+      } else {
+        // 如果没有子目录，保持为普通链接
+        nav.push(navItem)
+      }
+    } else {
       nav.push(navItem)
     }
   }
@@ -148,10 +186,30 @@ function isNavItemWithLink(item: DefaultTheme.NavItem): item is DefaultTheme.Nav
   return 'link' in item && typeof item.link === 'string'
 }
 
+function getNavItemKey(item: DefaultTheme.NavItem) {
+  if (isNavItemWithLink(item)) {
+    return `link:${item.link}`
+  }
+
+  if ('text' in item && typeof item.text === 'string') {
+    return `text:${item.text}`
+  }
+
+  if ('component' in item && typeof item.component === 'string') {
+    return `component:${item.component}`
+  }
+
+  return 'unknown'
+}
+
+function hasDropdownItems(item: DefaultTheme.NavItem): item is DefaultTheme.NavItemWithChildren {
+  return 'items' in item && Array.isArray(item.items) && item.items.length > 0
+}
+
 // 按 replace/append 策略合并 nav，append 时按 link 去重。
 export function mergeNavItemsByMode(
   existingNav: DefaultTheme.NavItem[] | undefined,
-  generatedNav: DefaultTheme.NavItemWithLink[],
+  generatedNav: DefaultTheme.NavItem[],
   mode: Required<TocSidebarNavOptions>['mode'],
 ): DefaultTheme.NavItem[] {
   if (mode === 'replace' || !existingNav || existingNav.length === 0) {
@@ -159,18 +217,23 @@ export function mergeNavItemsByMode(
   }
 
   const merged: DefaultTheme.NavItem[] = [...existingNav]
-  const existingLinks = new Set(
-    existingNav
-      .filter(isNavItemWithLink)
-      .map(item => item.link),
-  )
+  const existingKeys = new Set(existingNav.map(getNavItemKey))
 
   for (const navItem of generatedNav) {
-    if (existingLinks.has(navItem.link)) {
+    const key = getNavItemKey(navItem)
+    if (existingKeys.has(key)) {
+      // append 模式下，如果已有同链接的普通项，而新项是带 items 的下拉项，
+      // 则用新项替换，以启用顶部下拉导航。
+      if (hasDropdownItems(navItem)) {
+        const index = merged.findIndex(item => getNavItemKey(item) === key)
+        if (index >= 0) {
+          merged[index] = navItem
+        }
+      }
       continue
     }
     merged.push(navItem)
-    existingLinks.add(navItem.link)
+    existingKeys.add(key)
   }
 
   return merged

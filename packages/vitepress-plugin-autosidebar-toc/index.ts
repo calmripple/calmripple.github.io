@@ -101,7 +101,7 @@ export function createTocSidebarVitePlugin(
   let isBuildCommand = false
   let sourceMarkdownFiles: string[] = []
   let sourceTree = new Map<string, DirNode>()
-  let nav: DefaultTheme.NavItemWithLink[] = []
+  let nav: DefaultTheme.NavItem[] = []
   let sidebar: DefaultTheme.SidebarMulti = {}
   const debugDoctreePath = resolve(process.cwd(), DOCTREE_DEBUG_FILE_NAME)
   const changedMarkdownAbsolutePaths = new Set<string>()
