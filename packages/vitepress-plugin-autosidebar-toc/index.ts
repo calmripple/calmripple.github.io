@@ -246,20 +246,27 @@ export function createTocSidebarVitePlugin(
             }
             : {}),
         }
+        console.log('[autosidebar-toc] config hook: injected nav to site.themeConfig')
       }
 
       if (site.locales && shouldInjectSidebar) {
         for (const localeKey of Object.keys(site.locales)) {
           const locale = site.locales[localeKey]
+          const mergedNav = options.nav.enabled && nav.length > 0
+            ? mergeNavItemsByMode(locale.themeConfig?.nav, nav, options.nav.mode)
+            : (locale.themeConfig?.nav ?? [])
+          
           locale.themeConfig = {
             ...(locale.themeConfig ?? {}),
             sidebar,
             ...(options.nav.enabled && nav.length > 0
               ? {
-                nav: mergeNavItemsByMode(locale.themeConfig?.nav, nav, options.nav.mode),
+                nav: mergedNav,
               }
               : {}),
           }
+          
+          console.log(`[autosidebar-toc] final nav for locale[${localeKey}]:`, JSON.stringify(locale.themeConfig?.nav?.slice(0, 3), null, 2))
         }
       }
 
