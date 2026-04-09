@@ -5,7 +5,6 @@
   "engines": {
     "node": ">=22.16.0 <25"
   },
-  "packageManager": "pnpm@10.33.0",
   "author": {
     "name": "知在",
     "email": "zz@dmsrs.org",
