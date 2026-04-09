@@ -70,7 +70,18 @@
     "**/.trunk/*out/": false,
     "**/.trunk/*plugins/": false
   },
-  "explorerExclude.backup": {},
+  "explorerExclude.backup": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
   "svg.preview.background": "transparent",
   "github.copilot.chat.agent.autoFix": true,
   "github.copilot.chat.newWorkspaceCreation.enabled": false,
