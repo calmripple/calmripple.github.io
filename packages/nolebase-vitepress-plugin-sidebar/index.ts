@@ -1,4 +1,0 @@
-export {
-  calculateSidebar,
-} from './sidebar'
-
