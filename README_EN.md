@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="知在|nolebase">
+  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="知在|knewbeing">
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@
 
 **A place to record memories, knowledge and ideas**
 
-The name 知在, pronounced as nole-base, comes from the Quenya word nólë, which means "knowledge", and the English word base, which means "foundation", i.e. "knowledge base".
+The English name of this project is knewbeing, and its Chinese name is "知在".
 
 > [!NOTE]
 > The current project is maintained by beingknowing and beknowing. The current repository is https://github.com/calmripple/calmripple.github.io.
@@ -116,7 +116,7 @@ Let's skip the chatter and dive into the steps for downloading.
 
 If you are not familiar with using tools like the command line or [Git](https://git-scm.com/), we recommend using the [Download Source Code Archive](https://docs.github.com/zh/repositories/working-with-files/using-files/downloading-source-code-archives) feature provided by [GitHub](https://github.com). This allows you to directly download a packaged zip file from [GitHub](https://github.com) website, which you can extract locally for viewing and use
 
-If you're comfortable with the command line and [Git](https://git-scm.com/), you can clone the project repository into a directory named `nolebase` using the following command:
+If you're comfortable with the command line and [Git](https://git-scm.com/), you can clone the project repository into a directory named `knewbeing` using the following command:
 
 ```shell
 git clone https://github.com/calmripple/calmripple.github.io

@@ -1,7 +1,7 @@
 {
-  "name": "nolebase",
+  "name": "knewbeing",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "node": ">=22.16.0 <25"
   },
@@ -13,9 +13,9 @@
   "license": "MIT",
   "keywords": [
     "vitepress",
-    "nolebase",
+    "knewbeing",
     "markdown",
-    "nolebase-integration",
+    "knewbeing-integration",
     "obsidian",
     "knowledge-base",
     "vitepress-doc"

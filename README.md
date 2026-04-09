@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="知在|nolebase">
+  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="知在|knewbeing">
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@ Test
 
 **记录回忆，知识和畅想的地方**
 
-以 知在 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+本项目英文名为 knewbeing，中文名为「知在」。
 
 > [!NOTE]
 > 当前项目由 beingknowing 与 beknowing 维护。当前仓库为 https://github.com/calmripple/calmripple.github.io。
@@ -115,7 +115,7 @@ Test
 
 如果你没有熟练掌握诸如命令行和 [Git](https://git-scm.com/) 的使用，我们在这里建议你使用 [GitHub](https://github.com) 本身提供的 [下载源代码存档](https://docs.github.com/zh/repositories/working-with-files/using-files/downloading-source-code-archives) 功能直接从 [GitHub](https://github.com) 站点上下载打包好的压缩文件包，然后到本地解压后查看和使用。
 
-如果你掌握了命令行和 [Git](https://git-scm.com/) 的使用，可以通过下面的命令克隆项目仓库到名为 `nolebase` 的目录中：
+如果你掌握了命令行和 [Git](https://git-scm.com/) 的使用，可以通过下面的命令克隆项目仓库到名为 `knewbeing` 的目录中：
 
 ```shell
 git clone https://github.com/calmripple/calmripple.github.io
