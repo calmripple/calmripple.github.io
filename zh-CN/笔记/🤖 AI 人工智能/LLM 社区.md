@@ -7,7 +7,7 @@ tags:
 categories:
   - AI 人工智能
   - LLM
-title-en: l-l-m-she-qu
+title: LLM 社区
 ---
 # LLM 社区
 

@@ -6,7 +6,7 @@ tags:
   - 编辑器
 categories:
   - 软件工具
-title-en: jie-jue-v-s-c-o-d-e-bu-neng-zai-zhi-du-juan-shang-geng-xin
+title: 解决 VS Code 不能在只读卷上更新
 ---
 # 解决 VS Code 不能在只读卷上更新
 

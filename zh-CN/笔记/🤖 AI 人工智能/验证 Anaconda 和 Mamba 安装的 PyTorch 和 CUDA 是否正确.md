@@ -7,7 +7,7 @@ tags:
   - Python
 categories:
   - AI 人工智能
-title-en: >-
+title: 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确
   yan-zheng-a-n-a-c-o-n-d-a-he-m-a-m-b-a-an-zhuang-de-p-y-t-o-r-c-h-he-c-u-d-a-shi-fou-zheng-que
 ---
 # 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确

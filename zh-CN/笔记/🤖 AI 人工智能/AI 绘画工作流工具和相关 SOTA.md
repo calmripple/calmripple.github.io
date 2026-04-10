@@ -4,7 +4,7 @@ tags:
   - 人工智能
 categories:
   - AI 人工智能
-title-en: a-i-hui-hua-gong-zuo-liu-gong-ju-he-xiang-guan-s-o-t-a
+title: AI 绘画工作流工具和相关 SOTA
 ---
 # AI 绘画工作流
 

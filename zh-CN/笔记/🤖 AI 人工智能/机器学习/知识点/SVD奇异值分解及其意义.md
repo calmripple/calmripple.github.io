@@ -8,7 +8,7 @@ tags:
 categories:
   - AI 人工智能
   - 机器学习
-title-en: s-v-d-qi-yi-zhi-fen-jie-ji-qi-yi-yi
+title: SVD奇异值分解及其意义
 ---
 
 # 深度学习基础：SVD奇异值分解及其意义

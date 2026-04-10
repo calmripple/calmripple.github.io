@@ -5,7 +5,7 @@ tags:
   - PyTorch
 categories:
   - AI 人工智能
-title-en: p-y-t-o-r-c-h-l-i-g-h-t-n-i-n-g-hui-fu-xun-lian-jin-du
+title: PyTorch Lightning 恢复训练进度
 ---
 # PyTorch Lightning 恢复训练进度
 

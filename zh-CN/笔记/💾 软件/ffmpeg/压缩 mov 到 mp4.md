@@ -7,7 +7,7 @@ tags:
   - 命令行
 categories:
   - 软件工具
-title-en: ya-suo-m-o-v-dao-m-p-4
+title: 压缩 mov 到 mp4
 ---
 # 压缩 `.mov` 到 `.mp4`
 

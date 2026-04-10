@@ -6,7 +6,7 @@ tags:
   - 游戏 AI
 categories:
   - AI 人工智能
-title-en: ru-he-rang-a-i-wan-m-i-n-e-c-r-a-f-t-v-o-y-a-g-e-r-lun-wen-bi-ji
+title: 如何让 AI 玩 Minecraft？Voyager 论文笔记
 ---
 # 如何让 AI 玩 Minecraft？
 

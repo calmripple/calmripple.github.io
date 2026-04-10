@@ -8,7 +8,7 @@ tags:
 categories:
   - AI 人工智能
   - LLM
-title-en: l-l-m-shi-ru-he-gong-zuo-de
+title: LLM 是如何工作的？
 ---
 # LLM 是如何工作的？
 

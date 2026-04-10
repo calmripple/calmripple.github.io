@@ -8,7 +8,7 @@ tags:
   - UI
 categories:
   - 软件工具
-title-en: f-i-g-m-a-she-ji-ruan-jian
+title: Figma 设计软件
 ---
 ## Figma
 

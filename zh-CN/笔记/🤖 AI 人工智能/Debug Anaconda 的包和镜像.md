@@ -6,7 +6,7 @@ tags:
   - Python
 categories:
   - AI 人工智能
-title-en: d-e-b-u-g-a-n-a-c-o-n-d-a-de-bao-he-jing-xiang
+title: Debug Anaconda 的包和镜像
 ---
 # Debug Anaconda 的包和镜像
 

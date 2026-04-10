@@ -4,7 +4,7 @@ tags:
   - 人工智能
 categories:
   - AI 人工智能
-title-en: cai-liao-hua-xue-xiang-guan-de-p-y-t-h-o-n-ji-suan-ku
+title: 材料化学相关的 Python 计算库
 ---
 # 材料化学相关的 Python 计算库
 

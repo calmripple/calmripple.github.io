@@ -9,7 +9,7 @@ tags:
 categories:
   - AI 人工智能
   - 机器学习
-title-en: 1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi
+title: 1 从用 PyTorch 运行一个模型训练开始
 ---
 
 # 1 从用 PyTorch 运行一个模型训练开始

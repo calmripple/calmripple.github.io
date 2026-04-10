@@ -7,7 +7,7 @@ tags:
 categories:
   - AI 人工智能
   - LLM
-title-en: l-l-m-tian-ti-bang
+title: LLM 天梯榜
 ---
 # LLM 天梯榜
 

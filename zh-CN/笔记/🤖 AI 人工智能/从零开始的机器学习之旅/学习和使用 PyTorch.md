@@ -9,7 +9,7 @@ tags:
 categories:
   - AI 人工智能
   - 机器学习
-title-en: xue-xi-he-shi-yong-p-y-t-o-r-c-h
+title: 学习和使用 PyTorch
 ---
 
 # 学习和使用 PyTorch

@@ -7,7 +7,7 @@ tags:
 categories:
   - AI 人工智能
   - LLM
-title-en: shen-qing-l-l-a-m-a-3
+title: 申请 Llama 3
 ---
 # 申请 Llama 3
 

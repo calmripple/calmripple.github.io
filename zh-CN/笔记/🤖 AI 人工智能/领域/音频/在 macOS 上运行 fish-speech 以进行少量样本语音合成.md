@@ -8,7 +8,7 @@ tags:
 categories:
   - AI 人工智能
   - AI 领域应用
-title-en: >-
+title: 在 macOS 上运行 fish-speech 以进行少量样本语音合成
   zai-m-a-c-o-s-shang-yun-xing-f-i-s-h-s-p-e-e-c-h-yi-jin-xing-shao-liang-yang-ben-yu-yin-he-cheng
 ---
 ## 环境准备

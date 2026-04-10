@@ -4,7 +4,7 @@ tags:
   - 工具
 categories:
   - 软件工具
-title-en: >-
+title: 如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？
   ru-he-zai-jin-xing-g-o-o-g-l-e-sou-suo-de-shi-hou-pai-chu-yi-ge-zi-yu-ming-huo-zhe-bi-mian-sou-suo-zi-yu-ming
 ---
 # 如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？

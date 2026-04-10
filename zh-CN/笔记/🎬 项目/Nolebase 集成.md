@@ -5,7 +5,7 @@ tags:
   - 知识库
 categories:
   - 项目
-title-en: n-o-l-e-b-a-s-e-ji-cheng
+title: Nolebase 集成
 ---
 <Translate>
 # 知在 集成

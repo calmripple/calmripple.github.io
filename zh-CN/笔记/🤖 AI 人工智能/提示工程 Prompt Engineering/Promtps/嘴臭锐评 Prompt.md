@@ -8,7 +8,7 @@ tags:
 categories:
   - AI 人工智能
   - 提示工程
-title-en: zui-chou-rui-ping-p-r-o-m-p-t
+title: 嘴臭锐评 Prompt
 ---
 
 # 嘴臭锐评 Prompt
