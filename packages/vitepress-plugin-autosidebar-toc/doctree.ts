@@ -1,4 +1,6 @@
 import { resolve } from 'node:path'
+import { execFile } from 'node:child_process'
+import { promisify } from 'node:util'
 import type {
   DirNode,
   MarkdownMeta,
@@ -10,6 +12,36 @@ import type {
 } from './types'
 import { toVitePressDirectoryRoute, toVitePressPageRoute } from './routing'
 import { computeDirectoryDisplayTitle, computeFileDisplayTitle, readMarkdownMeta } from './markdown'
+import { getFrontmatterDate } from './frontmatter'
+
+const execFileAsync = promisify(execFile)
+
+// 获取文件的 git 最后提交时间。
+async function getGitLastModified(filePath: string): Promise<Date | undefined> {
+  try {
+    const { stdout } = await execFileAsync('git', ['log', '-1', '--format=%aI', '--', filePath], {
+      cwd: resolve(filePath, '..'),
+    })
+    const trimmed = stdout.trim()
+    if (!trimmed) return undefined
+    const d = new Date(trimmed)
+    return Number.isNaN(d.getTime()) ? undefined : d
+  }
+  catch {
+    return undefined
+  }
+}
+
+// 从所有候选时间中取最新的一个。
+function latestDate(...dates: (Date | undefined)[]): Date | undefined {
+  let latest: Date | undefined
+  for (const d of dates) {
+    if (d && (!latest || d.getTime() > latest.getTime())) {
+      latest = d
+    }
+  }
+  return latest
+}
 
 // 构建 doctree 中的文件条目。
 export async function createDoctreeFileEntry(
@@ -22,6 +54,17 @@ export async function createDoctreeFileEntry(
   const absolutePath = resolve(baseDir, relativePath)
   const meta = await readMarkdownMeta(absolutePath, cache)
 
+  const fmDate = getFrontmatterDate(meta.frontmatter, 'date')
+  const hasFrontmatterDate = !!(meta.updatedAt || meta.createdAt || fmDate)
+  const gitDate = hasFrontmatterDate ? undefined : await getGitLastModified(absolutePath)
+
+  const bestDate = latestDate(
+    meta.updatedAt,
+    meta.createdAt,
+    fmDate,
+    gitDate,
+  )
+
   return {
     name: fileName,
     path: relativePath,
@@ -29,6 +72,7 @@ export async function createDoctreeFileEntry(
     displayText: await computeFileDisplayTitle(absolutePath, fileName.replace(/\.md$/i, ''), cache),
     frontmatter: meta.frontmatter,
     h1: meta.h1 ?? null,
+    updatedAt: bestDate ? bestDate.toISOString() : null,
   }
 }
 

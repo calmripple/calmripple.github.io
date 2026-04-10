@@ -10,7 +10,7 @@ import type {
   TocSidebarBuildOptions,
   ViteUserConfigLike,
 } from './types'
-import { createAutoTocComponentResolver } from './client/resolvers'
+import { createAutoTocComponentResolver, createSidebarArticleListComponentResolver } from './client/resolvers'
 import { invalidateMarkdownMetaCache } from './markdown'
 import { scanMarkdownFilesWithDirectoryWalker, buildDirectoryTreeFromFiles } from './scanner'
 import { buildFlatSidebarForAllDirectories, normalizeSidebarRootPath, normalizeAutoNavOptions, DEFAULT_OPTIONS } from './sidebar'
@@ -41,6 +41,7 @@ export type {
 
 export {
   createAutoTocComponentResolver,
+  createSidebarArticleListComponentResolver,
 }
 
 // ── 虚拟模块 ────────────────────────────────────────────────────────────

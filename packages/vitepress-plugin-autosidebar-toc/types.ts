@@ -186,6 +186,9 @@ export interface TocSidebarFileEntry {
 
   /** 一级标题；不存在时为 `null`。 */
   h1: string | null
+
+  /** 更新时间（ISO 字符串）；不存在时为 `null`。 */
+  updatedAt: string | null
 }
 
 /**
