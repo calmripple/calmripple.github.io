@@ -15,7 +15,7 @@ import { invalidateMarkdownMetaCache } from './markdown'
 import { scanMarkdownFilesWithDirectoryWalker, buildDirectoryTreeFromFiles } from './scanner'
 import { buildFlatSidebarForAllDirectories, normalizeSidebarRootPath, normalizeAutoNavOptions, DEFAULT_OPTIONS } from './sidebar'
 import { buildNavFromBuilder, insertNavItems, orderNavItems } from './nav'
-import { createDoctreePayload, stringifyDoctreePayload } from './doctree'
+import { createDoctreePayload, stringifyDoctreePayload, serializeSingleDirectoryNode } from './doctree'
 
 // ── Re-exports ──────────────────────────────────────────────────────────
 
@@ -47,6 +47,8 @@ export {
 
 const VIRTUAL_MODULE_ID = 'virtual:@knewbeing/toc-sidebar-doctree'
 const RESOLVED_VIRTUAL_MODULE_ID = `\0${VIRTUAL_MODULE_ID}`
+const VIRTUAL_DIR_PREFIX = `${VIRTUAL_MODULE_ID}/dir/`
+const RESOLVED_DIR_PREFIX = `\0${VIRTUAL_DIR_PREFIX}`
 
 // ── 常量 ────────────────────────────────────────────────────────────────
 
@@ -191,14 +193,39 @@ export function createTocSidebarVitePlugin(
       if (id === VIRTUAL_MODULE_ID) {
         return RESOLVED_VIRTUAL_MODULE_ID
       }
+      if (id.startsWith(VIRTUAL_DIR_PREFIX)) {
+        return `\0${id}`
+      }
     },
     async load(id) {
-      if (id !== RESOLVED_VIRTUAL_MODULE_ID) {
-        return null
+      if (id === RESOLVED_VIRTUAL_MODULE_ID) {
+        // 生成清单模块：每个目录对应一个懒加载 import
+        const dirKeys = [...sourceTree.keys()].map(k => k || '/')
+        const entries = dirKeys.map((key) => {
+          const encodedKey = encodeURIComponent(key)
+          return `  ${JSON.stringify(key)}: () => import('${VIRTUAL_DIR_PREFIX}${encodedKey}')`
+        })
+        return [
+          `const _loaders = {`,
+          entries.join(',\n'),
+          `};`,
+          `export async function loadDirectoryNode(dirKey) {`,
+          `  const loader = _loaders[dirKey];`,
+          `  if (!loader) return null;`,
+          `  const mod = await loader();`,
+          `  return mod.default;`,
+          `}`,
+        ].join('\n')
       }
 
-      const payload = await createDoctreePayload(sourceTree, baseDir, cache)
-      return `export default ${JSON.stringify(payload)}`
+      if (id.startsWith(RESOLVED_DIR_PREFIX)) {
+        const encodedKey = id.slice(RESOLVED_DIR_PREFIX.length)
+        const dirKey = decodeURIComponent(encodedKey)
+        const node = await serializeSingleDirectoryNode(dirKey, sourceTree, baseDir, cache)
+        return `export default ${JSON.stringify(node)}`
+      }
+
+      return null
     },
     configureServer(server) {
       const refreshForMarkdownFileChange = (filePath: string) => {

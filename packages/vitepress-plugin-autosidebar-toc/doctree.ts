@@ -6,6 +6,7 @@ import type {
   TocSidebarDoctreePayload,
   TocSidebarFileEntry,
   TocSidebarRawTree,
+  TocSidebarRawTreeNode,
 } from './types'
 import { toVitePressDirectoryRoute, toVitePressPageRoute } from './routing'
 import { computeDirectoryDisplayTitle, computeFileDisplayTitle, readMarkdownMeta } from './markdown'
@@ -57,6 +58,33 @@ export async function createDoctreeDirectoryEntry(
   }
 
   return item
+}
+
+// 序列化单个目录节点，用于按需加载。
+export async function serializeSingleDirectoryNode(
+  dirKey: string,
+  sourceTree: Map<string, DirNode>,
+  baseDir: string,
+  cache: Map<string, MarkdownMeta>,
+): Promise<TocSidebarRawTreeNode | null> {
+  const lookupKey = dirKey === '/' ? '' : dirKey
+  const node = sourceTree.get(lookupKey)
+  if (!node) {
+    return null
+  }
+
+  const directoryItems = await Promise.all(
+    [...node.directories].map(dirName =>
+      createDoctreeDirectoryEntry(baseDir, dirKey, dirName, sourceTree, cache),
+    ),
+  )
+  const fileItems = await Promise.all(
+    [...node.files]
+      .filter(fileName => fileName.endsWith('.md'))
+      .map(fileName => createDoctreeFileEntry(baseDir, dirKey, fileName, cache)),
+  )
+
+  return { path: dirKey, directoryItems, fileItems }
 }
 
 // 将目录树序列化为 doctree 可传输结构。

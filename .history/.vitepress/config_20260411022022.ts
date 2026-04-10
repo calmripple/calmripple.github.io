@@ -327,7 +327,7 @@ export default defineConfig({
         darkModeSwitchLabel: '切换主题',
         outline: { label: '页面大纲', level: 'deep' },
         editLink: {
-          pattern: `${githubRepoLink}/blob/main/zh-CN/:path`,
+          pattern: `${githubRepoLink}/tree/main/zh-cn/:path`,
           text: '编辑本页面',
         },
         footer: {

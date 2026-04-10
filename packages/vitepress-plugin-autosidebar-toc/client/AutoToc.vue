@@ -2,24 +2,8 @@
 import { computed, shallowRef, watch } from 'vue'
 import { useRoute } from 'vitepress'
 import type {
-  TocSidebarDirectoryEntry,
-  TocSidebarDoctreePayload,
-  TocSidebarFileEntry,
-  TocSidebarRawTree,
   TocSidebarRawTreeNode,
 } from '../types'
-
-interface AutoTocEntry {
-  text: string
-  link: string
-}
-
-interface AutoTocRouteTreeEntry {
-  kind: 'directory' | 'file'
-  text: string
-  link?: string
-  items?: AutoTocRouteTreeEntry[]
-}
 
 interface DisplayEntry {
   text: string
@@ -29,107 +13,8 @@ interface DisplayEntry {
 }
 
 const route = useRoute()
-// 缓存已加载的 doctree 数据，避免重复加载
-const cachedDoctreeData = shallowRef<TocSidebarRawTree | null>(null)
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null && !Array.isArray(value)
-}
-
-function isTocSidebarFileEntry(value: unknown): value is TocSidebarFileEntry {
-  if (!isRecord(value)) {
-    return false
-  }
-
-  return typeof value.name === 'string'
-    && typeof value.path === 'string'
-    && typeof value.link === 'string'
-    && typeof value.displayText === 'string'
-    && isRecord(value.frontmatter)
-    && (value.h1 === null || typeof value.h1 === 'string')
-}
-
-function isTocSidebarDirectoryEntry(value: unknown): value is TocSidebarDirectoryEntry {
-  if (!isRecord(value)) {
-    return false
-  }
-
-  const hasValidIndexFile = value.indexFile === null || isTocSidebarFileEntry(value.indexFile)
-  return typeof value.name === 'string'
-    && typeof value.path === 'string'
-    && (value.link === null || typeof value.link === 'string')
-    && typeof value.displayText === 'string'
-    && hasValidIndexFile
-}
-
-function isTocSidebarRawTreeNode(value: unknown): value is TocSidebarRawTreeNode {
-  if (!isRecord(value)) {
-    return false
-  }
-
-  return typeof value.path === 'string'
-    && Array.isArray(value.directoryItems)
-    && value.directoryItems.every(isTocSidebarDirectoryEntry)
-    && Array.isArray(value.fileItems)
-    && value.fileItems.every(isTocSidebarFileEntry)
-}
-
-function isTocSidebarRawTree(value: unknown): value is TocSidebarRawTree {
-  if (!isRecord(value)) {
-    return false
-  }
-
-  return Object.values(value).every(isTocSidebarRawTreeNode)
-}
-
-function isTocSidebarDoctreePayload(value: unknown): value is TocSidebarDoctreePayload {
-  return isRecord(value) && isTocSidebarRawTree(value.tree)
-}
-
-function normalizeDoctreePayload(payload: unknown): TocSidebarRawTree | null {
-  if (isTocSidebarDoctreePayload(payload)) {
-    return payload.tree
-  }
-
-  if (isTocSidebarRawTree(payload)) {
-    return payload
-  }
-
-  return null
-}
-
-// 异步加载 doctree 数据，只在必要时加载
-async function loadDoctreeData(): Promise<TocSidebarRawTree | null> {
-  if (cachedDoctreeData.value) {
-    return cachedDoctreeData.value
-  }
-
-  try {
-    // 动态导入虚拟模块，避免初始化时加载
-    const doctreeModule = await import('virtual:@knewbeing/toc-sidebar-doctree')
-    const payload = normalizeDoctreePayload(doctreeModule.default)
-    if (payload) {
-      cachedDoctreeData.value = payload
-    }
-    return payload
-  }
-  catch (error) {
-    console.warn('[AutoToc] Failed to load doctree data:', error)
-    return null
-  }
-}
-
-const rawTree = shallowRef<TocSidebarRawTree | null>(null)
-
-// 当组件需要数据时才异步加载
-watch(
-  () => route.path,
-  async () => {
-    const tree = await loadDoctreeData()
-    rawTree.value = tree
-  },
-  { immediate: true }
-)
+const currentNode = shallowRef<TocSidebarRawTreeNode | null>(null)
+const nodeCache = new Map<string, TocSidebarRawTreeNode | null>()
 
 function safeDecode(input: string): string {
   try {
@@ -200,114 +85,92 @@ function toRawTreeKeyFromRoutePath(routePath: string): string {
   return normalized.replace(/^\/+|\/+$/g, '')
 }
 
-function buildRouteTreeFromRawTree(
-  sourceRawTree: TocSidebarRawTree,
-  rawTreeKey: string,
-): AutoTocRouteTreeEntry[] {
-  const node = sourceRawTree[rawTreeKey]
+function routeMatches(routePath: string, link: string): boolean {
+  return normalizePath(routePath, true) === normalizePath(link, true)
+}
+
+async function loadNode(dirKey: string): Promise<TocSidebarRawTreeNode | null> {
+  if (nodeCache.has(dirKey)) {
+    return nodeCache.get(dirKey)!
+  }
+
+  try {
+    const { loadDirectoryNode } = await import('virtual:@knewbeing/toc-sidebar-doctree')
+    const node = await loadDirectoryNode(dirKey)
+    nodeCache.set(dirKey, node)
+    return node
+  }
+  catch (error) {
+    console.warn('[AutoToc] Failed to load directory node:', error)
+    nodeCache.set(dirKey, null)
+    return null
+  }
+}
+
+watch(
+  () => route.path,
+  async () => {
+    const normalizedRoute = normalizePath(route.path, true)
+    const targetDirPath = isDirectoryRoutePath(normalizedRoute)
+      ? normalizedRoute
+      : parentDirectoryPath(normalizedRoute)
+    const targetKey = toRawTreeKeyFromRoutePath(targetDirPath)
+
+    let node = await loadNode(targetKey)
+
+    // 回退：尝试路由本身对应的目录键
+    if (!node) {
+      const fallbackKey = toRawTreeKeyFromRoutePath(normalizedRoute)
+      if (fallbackKey !== targetKey) {
+        node = await loadNode(fallbackKey)
+      }
+    }
+
+    currentNode.value = node
+  },
+  { immediate: true },
+)
+
+const siblingEntries = computed<DisplayEntry[]>(() => {
+  const node = currentNode.value
   if (!node) {
     return []
   }
 
-  const items: AutoTocRouteTreeEntry[] = []
+  const entries: DisplayEntry[] = []
 
   for (const dirEntry of node.directoryItems) {
-    const childNode = sourceRawTree[dirEntry.path]
-    const children = childNode
-      ? buildRouteTreeFromRawTree(sourceRawTree, dirEntry.path)
-      : []
-
-    items.push({
-      kind: 'directory',
-      text: dirEntry.displayText,
-      ...(dirEntry.link ? { link: dirEntry.link } : {}),
-      ...(children.length > 0 ? { items: children } : {}),
-    })
+    if (dirEntry.link) {
+      entries.push({
+        text: dirEntry.displayText,
+        link: dirEntry.link,
+        active: routeMatches(route.path, dirEntry.link),
+        kind: 'directory',
+      })
+    }
   }
 
   for (const fileEntry of node.fileItems) {
     if (fileEntry.name === 'index.md') {
       continue
     }
-
-    items.push({
-      kind: 'file',
+    entries.push({
       text: fileEntry.displayText,
       link: fileEntry.link,
+      active: routeMatches(route.path, fileEntry.link),
+      kind: 'file',
     })
   }
-
-  return items
-}
-
-function getCurrentRouteTree(sourceRawTree: TocSidebarRawTree | null, routePath: string): AutoTocRouteTreeEntry[] {
-  if (!sourceRawTree) {
-    return []
-  }
-
-  const normalizedRoute = normalizePath(routePath, true)
-  const targetDirPath = isDirectoryRoutePath(normalizedRoute)
-    ? normalizedRoute
-    : parentDirectoryPath(normalizedRoute)
-  const targetKey = toRawTreeKeyFromRoutePath(targetDirPath)
-  const routeTree = buildRouteTreeFromRawTree(sourceRawTree, targetKey)
-  if (routeTree.length > 0) {
-    return routeTree
-  }
-
-  // 次级回退：路由与目录映射不一致时，尝试路由本身对应节点。
-  const fallbackKey = toRawTreeKeyFromRoutePath(normalizedRoute)
-  if (fallbackKey === targetKey) {
-    return []
-  }
-
-  const fallbackTree = buildRouteTreeFromRawTree(sourceRawTree, fallbackKey)
-  return fallbackTree
-}
-
-function isDirectoryLink(link: string): boolean {
-  return isDirectoryRoutePath(link)
-}
-
-function routeMatches(routePath: string, link: string): boolean {
-  return normalizePath(routePath, true) === normalizePath(link, true)
-}
-
-function pickCurrentLevelEntries(entries: AutoTocRouteTreeEntry[]): AutoTocEntry[] {
-  return entries
-    .filter(entry => !!entry.link)
-    .map(entry => ({
-      text: entry.text,
-      link: entry.link!,
-    }))
-}
-
-const siblingEntries = computed<DisplayEntry[]>(() => {
-  const currentRouteTree = getCurrentRouteTree(rawTree.value, route.path)
-  const siblings = currentRouteTree.length > 0 ? pickCurrentLevelEntries(currentRouteTree) : []
 
   const seen = new Set<string>()
-
-  return siblings
-    .map((item) => {
-      const link = item.link
-      const text = item.text || link
-      const kind: DisplayEntry['kind'] = isDirectoryLink(link) ? 'directory' : 'file'
-      return {
-        text,
-        link,
-        active: routeMatches(route.path, link),
-        kind,
-      }
-    })
-    .filter((item) => {
-      const key = normalizePath(item.link, true)
-      if (seen.has(key)) {
-        return false
-      }
-      seen.add(key)
-      return true
-    })
+  return entries.filter((item) => {
+    const key = normalizePath(item.link, true)
+    if (seen.has(key)) {
+      return false
+    }
+    seen.add(key)
+    return true
+  })
 })
 
 const groupedEntries = computed(() => {
