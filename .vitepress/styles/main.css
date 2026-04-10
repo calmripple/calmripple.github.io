@@ -4,6 +4,41 @@ html, body {
   -webkit-tap-highlight-color: transparent; /* 避免触屏下的点击高亮颜色 */
 }
 
+/* 隐藏 sidebar 中空占位组（由 createRemoveSidebarPlugin 生成） */
+.VPSidebar .group {
+  display: none;
+}
+
+/* 页面属性布局：单行水平显示 */
+.vp-nolebase-page-properties-container {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.vp-nolebase-page-properties-grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 4px 12px !important;
+  font-size: 13px;
+}
+
+/* 每个属性的 label 和 value 内联显示 */
+.vp-nolebase-page-properties-grid > div {
+  min-height: unset !important;
+  padding: 2px 4px !important;
+}
+
+/* label 列：缩小宽度，去掉独占行 */
+.vp-nolebase-page-properties-grid > div:nth-child(odd) {
+  width: auto !important;
+}
+
+/* value 紧跟 label，不独占行 */
+.vp-nolebase-page-properties-grid > div:nth-child(even) {
+  margin-right: 8px;
+}
+
 /* 参考 Vitest */
 /* fix height ~ 2 lines of text: 3 or more cards per row */
 .VPTeamMembersItem.small .profile .data .affiliation {

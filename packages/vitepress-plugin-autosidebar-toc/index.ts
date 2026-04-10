@@ -13,13 +13,14 @@ import type {
 import { createAutoTocComponentResolver } from './client/resolvers'
 import { invalidateMarkdownMetaCache } from './markdown'
 import { scanMarkdownFilesWithDirectoryWalker, buildDirectoryTreeFromFiles } from './scanner'
-import { buildSidebarItemsFromDirectory, normalizeSidebarRootPath, normalizeAutoNavOptions, DEFAULT_OPTIONS } from './sidebar'
-import { rebuildAutoNavState, mergeNavItemsByMode } from './nav'
+import { buildFlatSidebarForAllDirectories, normalizeSidebarRootPath, normalizeAutoNavOptions, DEFAULT_OPTIONS } from './sidebar'
+import { buildNavFromBuilder, insertNavItems, orderNavItems } from './nav'
 import { createDoctreePayload, stringifyDoctreePayload } from './doctree'
 
 // ── Re-exports ──────────────────────────────────────────────────────────
 
 export type {
+  AutoNavOption,
   AutoTocResolverOptions,
   DirNode,
   Frontmatter,
@@ -130,25 +131,31 @@ export function createTocSidebarVitePlugin(
       ? options.roots.map(normalizeSidebarRootPath)
       : [...(sourceTree.get('')?.directories ?? [])]
 
-    const generatedNav = options.nav.enabled
-      ? await rebuildAutoNavState(sourceMarkdownFiles, sourceTree, roots, options.nav.level, baseDir, cache)
-      : { nav: [], directories: [] }
+    const hasNavBuilder = options.nav.navBuilder.length > 0
 
-    nav = generatedNav.nav
+    let generatedDirectories: string[] = []
+    if (hasNavBuilder) {
+      // 使用 navBuilder 构建 nav
+      const result = await buildNavFromBuilder(
+        options.nav.navBuilder,
+        sourceMarkdownFiles,
+        sourceTree,
+        baseDir,
+        cache,
+      )
+      nav = orderNavItems(result.nav, options.nav.order)
+      generatedDirectories = result.directories
+    } else {
+      nav = []
+      generatedDirectories = []
+    }
 
-    const sidebarRoots = options.nav.enabled && generatedNav.directories.length > 0
-      ? generatedNav.directories
+    const sidebarRoots = generatedDirectories.length > 0
+      ? generatedDirectories
       : roots
 
-    const nextSidebar: DefaultTheme.SidebarMulti = {}
-    for (const root of sidebarRoots) {
-      if (!root || !sourceTree.has(root)) {
-        continue
-      }
-
-      const rootPath = `/${root}/`
-      nextSidebar[rootPath] = await buildSidebarItemsFromDirectory(baseDir, root, 0, options, cache, sourceTree)
-    }
+    // 扁平化 sidebar：每个目录只列出当前目录下的文章，不显示子目录名
+    const nextSidebar = await buildFlatSidebarForAllDirectories(baseDir, sidebarRoots, cache, sourceTree)
 
     sidebar = nextSidebar
     await writeDebugDoctreeSnapshot(await stringifyDoctreePayload(sourceTree, baseDir, cache))
@@ -237,35 +244,33 @@ export function createTocSidebarVitePlugin(
       const shouldInjectSidebar = !isBuildCommand || Object.keys(sidebar).length > 0
 
       if (shouldInjectSidebar) {
+        const injectedNav = nav.length > 0
+          ? insertNavItems(site.themeConfig?.nav, nav, options.nav.insertMode)
+          : (site.themeConfig?.nav ?? [])
+
         site.themeConfig = {
           ...(site.themeConfig ?? {}),
           sidebar,
-          ...(options.nav.enabled && nav.length > 0
-            ? {
-              nav: mergeNavItemsByMode(site.themeConfig?.nav, nav, options.nav.mode),
-            }
-            : {}),
+          ...(nav.length > 0 ? { nav: injectedNav } : {}),
         }
-        console.log('[autosidebar-toc] config hook: injected nav to site.themeConfig')
+        console.log(`[autosidebar-toc] config hook: injected ${injectedNav.length} nav items, ${Object.keys(sidebar).length} sidebar keys`)
+        console.log('[autosidebar-toc] nav items:', JSON.stringify(injectedNav.map((n: any) => n.text ?? '?'), null, 2))
       }
 
       if (site.locales && shouldInjectSidebar) {
         for (const localeKey of Object.keys(site.locales)) {
           const locale = site.locales[localeKey]
-          const mergedNav = options.nav.enabled && nav.length > 0
-            ? mergeNavItemsByMode(locale.themeConfig?.nav, nav, options.nav.mode)
+
+          const localeNav = nav.length > 0
+            ? insertNavItems(locale.themeConfig?.nav, nav, options.nav.insertMode)
             : (locale.themeConfig?.nav ?? [])
-          
+
           locale.themeConfig = {
             ...(locale.themeConfig ?? {}),
             sidebar,
-            ...(options.nav.enabled && nav.length > 0
-              ? {
-                nav: mergedNav,
-              }
-              : {}),
+            ...(nav.length > 0 ? { nav: localeNav } : {}),
           }
-          
+
           console.log(`[autosidebar-toc] final nav for locale[${localeKey}]:`, JSON.stringify(locale.themeConfig?.nav?.slice(0, 3), null, 2))
         }
       }

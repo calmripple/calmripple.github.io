@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises'
 import { basename, extname, join, resolve } from 'node:path'
 import matter from 'gray-matter'
 import { sanitizeTextCandidate, toNormalizedAbsolutePath } from '@knewbeing/utils'
-import type { Frontmatter, MarkdownMeta } from './types'
+import type { MarkdownMeta } from './types'
 import { toFrontmatter, getFrontmatterString, getFrontmatterNumber, getFrontmatterDate, getFrontmatterTags } from './frontmatter'
 
 // 生成 markdown 元数据缓存键。

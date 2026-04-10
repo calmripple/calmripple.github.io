@@ -1,6 +1,6 @@
 import c from 'picocolors';
 import { existsSync, readFileSync } from 'fs';
-import fm from 'front-matter';
+import matter from 'gray-matter';
 
 export const DEFAULT_IGNORE_FOLDER = ['scripts', 'components', 'assets', '.vitepress'];
 export function log(...info: string[]): void {
@@ -52,8 +52,8 @@ export function getAttributeFromFileByYaml(realFileName: string, attribute: stri
   // read contents of the file
   const data = readFileSync(realFileName, { encoding: 'utf-8' });
   // get yaml frontmatter
-  const content = fm<Record<string, string>>(data);
-  return content.attributes[attribute] || undefined; // ??
+  const content = matter(data);
+  return (content.data as Record<string, string>)[attribute] || undefined;
 }
 
 // obtain title from file

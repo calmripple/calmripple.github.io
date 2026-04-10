@@ -1,5 +1,4 @@
 import { toPosixPath } from '@knewbeing/utils'
-import type { Frontmatter } from './types'
 
 // 将 markdown 相对路径转换为 VitePress 路由路径。
 export function toVitePressRoutePath(relativeMdPath: string): string {

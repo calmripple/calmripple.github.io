@@ -1,7 +1,12 @@
 import type { DefaultTheme } from 'vitepress'
-import type { DirNode, MarkdownMeta, TocSidebarNavOptions } from './types'
+import type { AutoNavOption, DirNode, MarkdownMeta } from './types'
 import { toVitePressDirectoryRoute, toVitePressPageRoute } from './routing'
 import { computeDirectoryDisplayTitle } from './markdown'
+
+// 类型守卫：判断 navBuilder 元素是否为 AutoNavOption。
+export function isAutoNavOption(item: DefaultTheme.NavItem | AutoNavOption): item is AutoNavOption {
+  return 'navDir' in item && typeof (item as AutoNavOption).navDir === 'string'
+}
 
 // 字符串去重并排序。
 function toSortedUniqueStrings(values: Iterable<string>) {
@@ -181,60 +186,137 @@ export async function rebuildAutoNavState(
   }
 }
 
-// 类型守卫：判断 nav 项是否带 link。
-function isNavItemWithLink(item: DefaultTheme.NavItem): item is DefaultTheme.NavItemWithLink {
-  return 'link' in item && typeof item.link === 'string'
-}
-
-function getNavItemKey(item: DefaultTheme.NavItem) {
-  if (isNavItemWithLink(item)) {
-    return `link:${item.link}`
-  }
-
-  if ('text' in item && typeof item.text === 'string') {
-    return `text:${item.text}`
-  }
-
-  if ('component' in item && typeof item.component === 'string') {
-    return `component:${item.component}`
-  }
-
-  return 'unknown'
-}
-
-function hasDropdownItems(item: DefaultTheme.NavItem): item is DefaultTheme.NavItemWithChildren {
-  return 'items' in item && Array.isArray(item.items) && item.items.length > 0
-}
-
-// 按 replace/append 策略合并 nav，append 时按 link 去重。
-export function mergeNavItemsByMode(
+/**
+ * 按 insertMode 策略将生成的 nav 注入到已有 nav 中。
+ * - `'replace'`：完全替换
+ * - `number`：在指定位置插入
+ */
+export function insertNavItems(
   existingNav: DefaultTheme.NavItem[] | undefined,
   generatedNav: DefaultTheme.NavItem[],
-  mode: Required<TocSidebarNavOptions>['mode'],
+  insertMode: 'replace' | number,
 ): DefaultTheme.NavItem[] {
-  if (mode === 'replace' || !existingNav || existingNav.length === 0) {
+  if (insertMode === 'replace' || !existingNav || existingNav.length === 0) {
     return generatedNav
   }
 
-  const merged: DefaultTheme.NavItem[] = [...existingNav]
-  const existingKeys = new Set(existingNav.map(getNavItemKey))
+  const position = Math.max(0, Math.min(insertMode, existingNav.length))
+  const result = [...existingNav]
+  result.splice(position, 0, ...generatedNav)
+  return result
+}
 
-  for (const navItem of generatedNav) {
-    const key = getNavItemKey(navItem)
-    if (existingKeys.has(key)) {
-      // append 模式下，如果已有同链接的普通项，而新项是带 items 的下拉项，
-      // 则用新项替换，以启用顶部下拉导航。
-      if (hasDropdownItems(navItem)) {
-        const index = merged.findIndex(item => getNavItemKey(item) === key)
-        if (index >= 0) {
-          merged[index] = navItem
-        }
-      }
-      continue
-    }
-    merged.push(navItem)
-    existingKeys.add(key)
+// 按用户定义的顺序排列 nav 项。
+export function orderNavItems(
+  navItems: DefaultTheme.NavItem[],
+  order: string[],
+): DefaultTheme.NavItem[] {
+  if (!order || order.length === 0) {
+    return navItems
   }
 
-  return merged
+  const getNavText = (item: DefaultTheme.NavItem): string => {
+    if ('text' in item && typeof item.text === 'string') {
+      return item.text
+    }
+    return ''
+  }
+
+  const orderMap = new Map<string, number>()
+  for (let i = 0; i < order.length; i++) {
+    orderMap.set(order[i], i)
+  }
+
+  const ordered = [...navItems]
+  ordered.sort((a, b) => {
+    const textA = getNavText(a)
+    const textB = getNavText(b)
+    const indexA = orderMap.has(textA) ? orderMap.get(textA)! : Number.MAX_SAFE_INTEGER
+    const indexB = orderMap.has(textB) ? orderMap.get(textB)! : Number.MAX_SAFE_INTEGER
+    if (indexA === indexB) {
+      return 0
+    }
+    return indexA - indexB
+  })
+
+  return ordered
+}
+
+/**
+ * 根据 navBuilder 数组构建最终的 nav。
+ *
+ * 遍历 navBuilder 中的每个元素：
+ * - 如果是 AutoNavOption，则扫描对应目录生成 nav 项（含子菜单）
+ * - 如果是普通 NavItem，则直接追加
+ *
+ * 返回构建好的 nav 数组和涉及的所有目录路径（用于 sidebar roots）。
+ */
+export async function buildNavFromBuilder(
+  navBuilder: (DefaultTheme.NavItem | AutoNavOption)[],
+  sourceMarkdownFiles: string[],
+  sourceTree: Map<string, DirNode>,
+  baseDir: string,
+  cache: Map<string, MarkdownMeta>,
+): Promise<{ nav: DefaultTheme.NavItem[]; directories: string[] }> {
+  const nav: DefaultTheme.NavItem[] = []
+  const directories: string[] = []
+
+  for (const item of navBuilder) {
+    if (!isAutoNavOption(item)) {
+      // 静态 NavItem，直接加入
+      nav.push(item)
+      continue
+    }
+
+    // AutoNavOption：根据 navDir 和 level 生成 nav 项
+    const { navDir, level } = item
+    const normalizedDir = navDir.replace(/^\/+|\/+$/g, '')
+
+    // 收集该 navDir 下指定层级的子目录
+    const candidateDirs = collectCandidateNavDirectories(
+      sourceMarkdownFiles,
+      [normalizedDir],
+      level,
+    )
+
+    for (const directoryPath of candidateDirs) {
+      const navItem = await buildNavItemForDirectory(directoryPath, sourceTree, baseDir, cache)
+      if (!navItem) {
+        continue
+      }
+
+      directories.push(directoryPath)
+
+      // 收集子目录作为下拉菜单项
+      const node = sourceTree.get(directoryPath)
+      if (node && node.directories.size > 0) {
+        const items: DefaultTheme.NavItemWithLink[] = []
+        const childDirs = [...node.directories].sort()
+
+        for (const childDirName of childDirs) {
+          const childPath = `${directoryPath}/${childDirName}`
+          const childNode = sourceTree.get(childPath)
+          if (!childNode) {
+            continue
+          }
+
+          const childLink = resolveDirectoryNavLink(childPath, sourceTree)
+          if (childLink) {
+            const childText = await computeDirectoryDisplayTitle(baseDir, childPath, childDirName, childNode.files.has('index.md'), cache)
+            items.push({ text: childText, link: childLink })
+          }
+        }
+
+        if (items.length > 0) {
+          nav.push({ text: navItem.text, items })
+        } else {
+          nav.push(navItem)
+        }
+      } else {
+        nav.push(navItem)
+      }
+    }
+  }
+
+  return { nav, directories }
 }

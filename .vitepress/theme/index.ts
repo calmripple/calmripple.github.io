@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import DocFooter from '@/theme/components/DocFooter.vue'
 import Share from '@/theme/components/Share.vue'
+import SidebarArticleList from '@/theme/components/SidebarArticleList.vue'
 import 'virtual:uno.css'
 import '@/styles/main.css'
 import '@/styles/vars.css'
@@ -39,6 +40,9 @@ const ExtendedTheme: Theme = {
       ],
       'doc-footer-before': () => [
         h(DocFooter),
+      ],
+      'sidebar-nav-after': () => [
+        h(SidebarArticleList),
       ],
       'nav-bar-content-after': () => [
         h(Share),

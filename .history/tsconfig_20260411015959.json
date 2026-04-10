@@ -47,12 +47,13 @@
   ],
   "exclude": [
     "**/node_modules/**",
-    "**/dist"
+    "zh-CN/**"
   ],
   "watchOptions": {
     "excludeDirectories": [
       "**/node_modules",
-      "**/dist"
+      "**/dist",
+      "zh-CN"
     ]
   }
 }
