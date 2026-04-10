@@ -179,9 +179,10 @@ const fileEntries = allFileEntries
 </script>
 
 <template>
-<<<<<<< HEAD
   <nav v-if="fileEntries.length" class="auto-toc" aria-label="当前目录文章">
-    <h2 class="auto-toc__title">当前目录</h2>
+    <h2 class="auto-toc__title">
+      当前目录
+    </h2>
     <ul class="auto-toc__list">
       <li v-for="item in fileEntries" :key="item.link" class="auto-toc__item">
         <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
@@ -189,38 +190,6 @@ const fileEntries = allFileEntries
         </a>
       </li>
     </ul>
-=======
-  <nav v-if="groupedEntries.directories.length || groupedEntries.files.length" class="auto-toc" aria-label="同级目录">
-    <h2 class="auto-toc__title">
-      同级目录
-    </h2>
-
-    <section v-if="groupedEntries.files.length" class="auto-toc__section auto-toc__section--file">
-      <h3 class="auto-toc__section-title">
-        <span class="auto-toc__icon">📄</span> 文章
-      </h3>
-      <ul class="auto-toc__list">
-        <li v-for="item in groupedEntries.files" :key="item.link" class="auto-toc__item">
-          <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
-            {{ item.text }}
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section v-if="groupedEntries.directories.length" class="auto-toc__section auto-toc__section--dir">
-      <h3 class="auto-toc__section-title">
-        <span class="auto-toc__icon">📁</span> 目录
-      </h3>
-      <ul class="auto-toc__list">
-        <li v-for="item in groupedEntries.directories" :key="item.link" class="auto-toc__item">
-          <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
-            {{ item.text }}
-          </a>
-        </li>
-      </ul>
-    </section>
->>>>>>> agents/blonde-barracuda
   </nav>
 </template>
 
@@ -245,46 +214,6 @@ const fileEntries = allFileEntries
   color: var(--vp-c-text-2);
 }
 
-<<<<<<< HEAD
-=======
-.auto-toc__section {
-  margin-top: 16px;
-  padding: 14px 16px;
-  border-radius: 8px;
-  border: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg);
-  transition: border-color 0.3s ease;
-}
-
-.auto-toc__section:first-of-type {
-  margin-top: 0;
-}
-
-.auto-toc__section:hover {
-  border-color: var(--vp-c-brand-2);
-}
-
-.auto-toc__section--file {
-  border-left: 3px solid var(--vp-c-brand-1);
-}
-
-.auto-toc__section--dir {
-  border-left: 3px solid var(--vp-c-brand-soft);
-}
-
-.auto-toc__section-title {
-  margin: 0 0 10px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--vp-c-text-2);
-}
-
-.auto-toc__icon {
-  margin-right: 4px;
-  font-style: normal;
-}
-
->>>>>>> agents/blonde-barracuda
 .auto-toc__list {
   margin: 0;
   padding-left: 8px;
@@ -315,7 +244,6 @@ const fileEntries = allFileEntries
 .auto-toc__link.is-active {
   color: var(--vp-c-brand-1);
   font-weight: 600;
-  background: var(--vp-c-brand-soft);
   background: color-mix(in srgb, var(--vp-c-brand-soft) 15%, transparent);
 }
 
@@ -324,13 +252,6 @@ const fileEntries = allFileEntries
     margin: 24px 0;
     padding: 16px;
   }
-<<<<<<< HEAD
-=======
-
-  .auto-toc__section {
-    padding: 12px 14px;
-  }
->>>>>>> agents/blonde-barracuda
 }
 
 @media (max-width: 640px) {
@@ -346,23 +267,17 @@ const fileEntries = allFileEntries
     font-size: 13px;
   }
 
-<<<<<<< HEAD
   .auto-toc__list {
     padding-left: 16px;
   }
 
   .auto-toc__item {
     margin: 6px 0;
-=======
-  .auto-toc__section {
-    margin-top: 12px;
-    padding: 10px 12px;
   }
 
   .auto-toc__link {
     padding: 5px 8px;
     font-size: 13px;
->>>>>>> agents/blonde-barracuda
   }
 }
 </style>
