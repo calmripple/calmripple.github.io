@@ -199,7 +199,6 @@ export function createTocSidebarVitePlugin(
     },
     async load(id) {
       if (id === RESOLVED_VIRTUAL_MODULE_ID) {
-        // 生成清单模块：每个目录对应一个懒加载 import
         const dirKeys = [...sourceTree.keys()].map(k => k || '/')
         const entries = dirKeys.map((key) => {
           const encodedKey = encodeURIComponent(key)
@@ -280,8 +279,6 @@ export function createTocSidebarVitePlugin(
           sidebar,
           ...(nav.length > 0 ? { nav: injectedNav } : {}),
         }
-        console.log(`[autosidebar-toc] config hook: injected ${injectedNav.length} nav items, ${Object.keys(sidebar).length} sidebar keys`)
-        console.log('[autosidebar-toc] nav items:', JSON.stringify(injectedNav.map((n: any) => n.text ?? '?'), null, 2))
       }
 
       if (site.locales && shouldInjectSidebar) {
@@ -297,8 +294,6 @@ export function createTocSidebarVitePlugin(
             sidebar,
             ...(nav.length > 0 ? { nav: localeNav } : {}),
           }
-
-          console.log(`[autosidebar-toc] final nav for locale[${localeKey}]:`, JSON.stringify(locale.themeConfig?.nav?.slice(0, 3), null, 2))
         }
       }
 

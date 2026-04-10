@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed, shallowRef, watch } from 'vue'
-import { useRoute } from 'vitepress'
+import { shallowRef, watch } from 'vue'
+import { useData, useRoute } from 'vitepress'
 import type {
   TocSidebarRawTreeNode,
 } from '../types'
@@ -9,11 +9,11 @@ interface DisplayEntry {
   text: string
   link: string
   active: boolean
-  kind: 'directory' | 'file'
 }
 
 const route = useRoute()
-const currentNode = shallowRef<TocSidebarRawTreeNode | null>(null)
+const { theme } = useData()
+const allFileEntries = shallowRef<DisplayEntry[]>([])
 const nodeCache = new Map<string, TocSidebarRawTreeNode | null>()
 
 function safeDecode(input: string): string {
@@ -56,33 +56,38 @@ function normalizePath(path: string, preserveTrailingSlash = false): string {
   return normalized || '/'
 }
 
-function isDirectoryRoutePath(path: string): boolean {
-  const normalized = normalizePath(path, true)
-  return normalized === '/' || normalized.endsWith('/')
+function flattenNavLinks(nav: unknown[]): string[] {
+  const links: string[] = []
+  for (const item of nav) {
+    const navItem = item as Record<string, unknown>
+    if (typeof navItem.link === 'string') {
+      links.push(navItem.link)
+    }
+    if (Array.isArray(navItem.items)) {
+      links.push(...flattenNavLinks(navItem.items))
+    }
+  }
+  return links
 }
 
-function parentDirectoryPath(routePath: string): string {
+function getNavRootKey(routePath: string): string {
+  const nav = theme.value.nav as unknown[] | undefined
   const normalized = normalizePath(routePath)
-  if (normalized === '/') {
-    return '/'
+  let bestLink = ''
+  if (nav?.length) {
+    for (const link of flattenNavLinks(nav)) {
+      const normalizedLink = normalizePath(link)
+      if (normalizedLink !== '/' && normalized.startsWith(normalizedLink) && normalizedLink.length > bestLink.length) {
+        bestLink = normalizedLink
+      }
+    }
   }
-
-  const parts = normalized.split('/').filter(Boolean)
-  if (isDirectoryRoutePath(routePath)) {
-    return `/${parts.join('/')}`
+  if (!bestLink) {
+    // 回退：取父目录
+    const parts = normalized.split('/').filter(Boolean)
+    return parts.slice(0, -1).join('/') || '/'
   }
-
-  const parent = parts.slice(0, -1).join('/')
-  return parent ? `/${parent}` : '/'
-}
-
-function toRawTreeKeyFromRoutePath(routePath: string): string {
-  const normalized = normalizePath(routePath)
-  if (normalized === '/') {
-    return '/'
-  }
-
-  return normalized.replace(/^\/+|\/+$/g, '')
+  return bestLink.replace(/^\/|\/$/g, '')
 }
 
 function routeMatches(routePath: string, link: string): boolean {
@@ -107,48 +112,13 @@ async function loadNode(dirKey: string): Promise<TocSidebarRawTreeNode | null> {
   }
 }
 
-watch(
-  () => route.path,
-  async () => {
-    const normalizedRoute = normalizePath(route.path, true)
-    const targetDirPath = isDirectoryRoutePath(normalizedRoute)
-      ? normalizedRoute
-      : parentDirectoryPath(normalizedRoute)
-    const targetKey = toRawTreeKeyFromRoutePath(targetDirPath)
-
-    let node = await loadNode(targetKey)
-
-    // 回退：尝试路由本身对应的目录键
-    if (!node) {
-      const fallbackKey = toRawTreeKeyFromRoutePath(normalizedRoute)
-      if (fallbackKey !== targetKey) {
-        node = await loadNode(fallbackKey)
-      }
-    }
-
-    currentNode.value = node
-  },
-  { immediate: true },
-)
-
-const siblingEntries = computed<DisplayEntry[]>(() => {
-  const node = currentNode.value
+async function collectAllFileEntries(dirKey: string, routePath: string): Promise<DisplayEntry[]> {
+  const node = await loadNode(dirKey)
   if (!node) {
     return []
   }
 
   const entries: DisplayEntry[] = []
-
-  for (const dirEntry of node.directoryItems) {
-    if (dirEntry.link) {
-      entries.push({
-        text: dirEntry.displayText,
-        link: dirEntry.link,
-        active: routeMatches(route.path, dirEntry.link),
-        kind: 'directory',
-      })
-    }
-  }
 
   for (const fileEntry of node.fileItems) {
     if (fileEntry.name === 'index.md') {
@@ -157,71 +127,51 @@ const siblingEntries = computed<DisplayEntry[]>(() => {
     entries.push({
       text: fileEntry.displayText,
       link: fileEntry.link,
-      active: routeMatches(route.path, fileEntry.link),
-      kind: 'file',
+      active: routeMatches(routePath, fileEntry.link),
     })
   }
 
-  const seen = new Set<string>()
-  return entries.filter((item) => {
-    const key = normalizePath(item.link, true)
-    if (seen.has(key)) {
-      return false
-    }
-    seen.add(key)
-    return true
-  })
-})
+  const childResults = await Promise.all(
+    node.directoryItems.map(dir => collectAllFileEntries(dir.path, routePath)),
+  )
 
-const groupedEntries = computed(() => {
-  const directories: DisplayEntry[] = []
-  const files: DisplayEntry[] = []
-
-  for (const entry of siblingEntries.value) {
-    if (entry.kind === 'directory') {
-      directories.push(entry)
-    }
-    else {
-      files.push(entry)
-    }
+  for (const childEntries of childResults) {
+    entries.push(...childEntries)
   }
 
-  return {
-    directories,
-    files,
-  }
-})
+  return entries
+}
+
+watch(
+  () => route.path,
+  async () => {
+    const rootKey = getNavRootKey(route.path)
+    const entries = await collectAllFileEntries(rootKey, route.path)
+
+    const seen = new Set<string>()
+    allFileEntries.value = entries.filter((item) => {
+      const key = normalizePath(item.link, true)
+      if (seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+  },
+  { immediate: true },
+)
+
+const fileEntries = allFileEntries
 </script>
 
 <template>
-  <nav v-if="groupedEntries.directories.length || groupedEntries.files.length" class="auto-toc" aria-label="同级目录">
-    <h2 class="auto-toc__title">同级目录</h2>
-
-    <section v-if="groupedEntries.files.length" class="auto-toc__section auto-toc__section--file">
-      <h3 class="auto-toc__section-title">
-        <span class="auto-toc__badge auto-toc__badge--file">文章</span>
-      </h3>
-      <ul class="auto-toc__list">
-        <li v-for="item in groupedEntries.files" :key="item.link" class="auto-toc__item">
-          <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
-            {{ item.text }}
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section v-if="groupedEntries.directories.length" class="auto-toc__section auto-toc__section--dir">
-      <h3 class="auto-toc__section-title">
-        <span class="auto-toc__badge auto-toc__badge--dir">目录</span>
-      </h3>
-      <ul class="auto-toc__list">
-        <li v-for="item in groupedEntries.directories" :key="item.link" class="auto-toc__item">
-          <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
-            {{ item.text }}
-          </a>
-        </li>
-      </ul>
-    </section>
+  <nav v-if="fileEntries.length" class="auto-toc" aria-label="当前目录文章">
+    <h2 class="auto-toc__title">当前目录</h2>
+    <ul class="auto-toc__list">
+      <li v-for="item in fileEntries" :key="item.link" class="auto-toc__item">
+        <a :href="item.link" :class="['auto-toc__link', { 'is-active': item.active }]">
+          {{ item.text }}
+        </a>
+      </li>
+    </ul>
   </nav>
 </template>
 
@@ -232,8 +182,6 @@ const groupedEntries = computed(() => {
   border: 1px solid var(--vp-c-divider);
   border-radius: 10px;
   background: var(--vp-c-bg-soft);
-
-  /* 占满整个父级宽度 */
   width: 100%;
   box-sizing: border-box;
 }
@@ -243,46 +191,6 @@ const groupedEntries = computed(() => {
   font-size: 15px;
   font-weight: 600;
   color: var(--vp-c-text-2);
-}
-
-.auto-toc__section {
-  margin-top: 12px;
-  padding: 12px 14px;
-  border-radius: 8px;
-  border: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg);
-}
-
-.auto-toc__section--dir {
-  border-left: 4px solid #1d8f4e;
-}
-
-.auto-toc__section--file {
-  border-left: 4px solid #2f6feb;
-}
-
-.auto-toc__section-title {
-  margin: 0 0 8px;
-  font-size: 13px;
-}
-
-.auto-toc__badge {
-  display: inline-block;
-  padding: 3px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 600;
-}
-
-.auto-toc__badge--dir {
-  color: #0f5c2f;
-  background: #dff3e8;
-}
-
-.auto-toc__badge--file {
-  color: #1f4ea8;
-  background: #e2edff;
 }
 
 .auto-toc__list {
@@ -312,20 +220,14 @@ const groupedEntries = computed(() => {
   font-weight: 600;
 }
 
-/* 平板设备响应式调整 */
 @media (max-width: 1024px) {
   .auto-toc {
     margin: 20px auto;
     padding: 14px;
     font-size: 14px;
   }
-
-  .auto-toc__section {
-    padding: 10px 12px;
-  }
 }
 
-/* 手机设备响应式调整 */
 @media (max-width: 640px) {
   .auto-toc {
     margin: 16px auto;
@@ -337,16 +239,6 @@ const groupedEntries = computed(() => {
   .auto-toc__title {
     margin: 0 0 10px;
     font-size: 13px;
-  }
-
-  .auto-toc__section {
-    margin-top: 10px;
-    padding: 10px;
-  }
-
-  .auto-toc__badge {
-    padding: 2px 8px;
-    font-size: 11px;
   }
 
   .auto-toc__list {
