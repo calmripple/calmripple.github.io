@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { shallowRef, watch } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { useRoute } from 'vitepress'
 import type {
   TocSidebarRawTreeNode,
 } from '../types'
@@ -12,7 +12,7 @@ interface DisplayEntry {
 }
 
 const route = useRoute()
-const { theme } = useData()
+const currentNode = shallowRef<TocSidebarRawTreeNode | null>(null)
 const allFileEntries = shallowRef<DisplayEntry[]>([])
 const nodeCache = new Map<string, TocSidebarRawTreeNode | null>()
 
@@ -56,38 +56,33 @@ function normalizePath(path: string, preserveTrailingSlash = false): string {
   return normalized || '/'
 }
 
-function flattenNavLinks(nav: unknown[]): string[] {
-  const links: string[] = []
-  for (const item of nav) {
-    const navItem = item as Record<string, unknown>
-    if (typeof navItem.link === 'string') {
-      links.push(navItem.link)
-    }
-    if (Array.isArray(navItem.items)) {
-      links.push(...flattenNavLinks(navItem.items))
-    }
-  }
-  return links
+function isDirectoryRoutePath(path: string): boolean {
+  const normalized = normalizePath(path, true)
+  return normalized === '/' || normalized.endsWith('/')
 }
 
-function getNavRootKey(routePath: string): string {
-  const nav = theme.value.nav as unknown[] | undefined
+function parentDirectoryPath(routePath: string): string {
   const normalized = normalizePath(routePath)
-  let bestLink = ''
-  if (nav?.length) {
-    for (const link of flattenNavLinks(nav)) {
-      const normalizedLink = normalizePath(link)
-      if (normalizedLink !== '/' && normalized.startsWith(normalizedLink) && normalizedLink.length > bestLink.length) {
-        bestLink = normalizedLink
-      }
-    }
+  if (normalized === '/') {
+    return '/'
   }
-  if (!bestLink) {
-    // 回退：取父目录
-    const parts = normalized.split('/').filter(Boolean)
-    return parts.slice(0, -1).join('/') || '/'
+
+  const parts = normalized.split('/').filter(Boolean)
+  if (isDirectoryRoutePath(routePath)) {
+    return `/${parts.join('/')}`
   }
-  return bestLink.replace(/^\/|\/$/g, '')
+
+  const parent = parts.slice(0, -1).join('/')
+  return parent ? `/${parent}` : '/'
+}
+
+function toRawTreeKeyFromRoutePath(routePath: string): string {
+  const normalized = normalizePath(routePath)
+  if (normalized === '/') {
+    return '/'
+  }
+
+  return normalized.replace(/^\/+|\/+$/g, '')
 }
 
 function routeMatches(routePath: string, link: string): boolean {
@@ -145,13 +140,34 @@ async function collectAllFileEntries(dirKey: string, routePath: string): Promise
 watch(
   () => route.path,
   async () => {
-    const rootKey = getNavRootKey(route.path)
+    const normalizedRoute = normalizePath(route.path, true)
+    const targetDirPath = isDirectoryRoutePath(normalizedRoute)
+      ? normalizedRoute
+      : parentDirectoryPath(normalizedRoute)
+    const targetKey = toRawTreeKeyFromRoutePath(targetDirPath)
+
+    let node = await loadNode(targetKey)
+
+    // 回退：尝试路由本身对应的目录键
+    if (!node) {
+      const fallbackKey = toRawTreeKeyFromRoutePath(normalizedRoute)
+      if (fallbackKey !== targetKey) {
+        node = await loadNode(fallbackKey)
+      }
+    }
+
+    currentNode.value = node
+
+    const rootKey = node ? targetKey : toRawTreeKeyFromRoutePath(normalizedRoute)
     const entries = await collectAllFileEntries(rootKey, route.path)
 
+    // 去重（同一 link 只保留一条）
     const seen = new Set<string>()
     allFileEntries.value = entries.filter((item) => {
       const key = normalizePath(item.link, true)
-      if (seen.has(key)) return false
+      if (seen.has(key)) {
+        return false
+      }
       seen.add(key)
       return true
     })
