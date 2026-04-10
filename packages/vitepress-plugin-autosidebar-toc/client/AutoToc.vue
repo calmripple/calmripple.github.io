@@ -332,11 +332,13 @@ const groupedEntries = computed(() => {
 
 <template>
   <nav v-if="groupedEntries.directories.length || groupedEntries.files.length" class="auto-toc" aria-label="同级目录">
-    <h2 class="auto-toc__title">同级目录</h2>
+    <h2 class="auto-toc__title">
+      同级目录
+    </h2>
 
     <section v-if="groupedEntries.files.length" class="auto-toc__section auto-toc__section--file">
       <h3 class="auto-toc__section-title">
-        <span class="auto-toc__badge auto-toc__badge--file">文章</span>
+        <span class="auto-toc__icon">📄</span> 文章
       </h3>
       <ul class="auto-toc__list">
         <li v-for="item in groupedEntries.files" :key="item.link" class="auto-toc__item">
@@ -349,7 +351,7 @@ const groupedEntries = computed(() => {
 
     <section v-if="groupedEntries.directories.length" class="auto-toc__section auto-toc__section--dir">
       <h3 class="auto-toc__section-title">
-        <span class="auto-toc__badge auto-toc__badge--dir">目录</span>
+        <span class="auto-toc__icon">📁</span> 目录
       </h3>
       <ul class="auto-toc__list">
         <li v-for="item in groupedEntries.directories" :key="item.link" class="auto-toc__item">
@@ -364,134 +366,128 @@ const groupedEntries = computed(() => {
 
 <style scoped>
 .auto-toc {
-  margin: 24px 0;
-  padding: 16px;
+  margin: 32px 0;
+  padding: 20px;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--vp-c-bg-soft);
-
-  /* 占满整个父级宽度 */
   width: 100%;
   box-sizing: border-box;
 }
 
 .auto-toc__title {
-  margin: 0 0 12px;
-  font-size: 15px;
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+  font-size: 14px;
   font-weight: 600;
+  letter-spacing: 0.02em;
   color: var(--vp-c-text-2);
 }
 
 .auto-toc__section {
-  margin-top: 12px;
-  padding: 12px 14px;
+  margin-top: 16px;
+  padding: 14px 16px;
   border-radius: 8px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg);
+  transition: border-color 0.3s ease;
 }
 
-.auto-toc__section--dir {
-  border-left: 4px solid #1d8f4e;
+.auto-toc__section:first-of-type {
+  margin-top: 0;
+}
+
+.auto-toc__section:hover {
+  border-color: var(--vp-c-brand-2);
 }
 
 .auto-toc__section--file {
-  border-left: 4px solid #2f6feb;
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+
+.auto-toc__section--dir {
+  border-left: 3px solid var(--vp-c-brand-soft);
 }
 
 .auto-toc__section-title {
-  margin: 0 0 8px;
+  margin: 0 0 10px;
   font-size: 13px;
-}
-
-.auto-toc__badge {
-  display: inline-block;
-  padding: 3px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  line-height: 1.5;
   font-weight: 600;
+  color: var(--vp-c-text-2);
 }
 
-.auto-toc__badge--dir {
-  color: #0f5c2f;
-  background: #dff3e8;
-}
-
-.auto-toc__badge--file {
-  color: #1f4ea8;
-  background: #e2edff;
+.auto-toc__icon {
+  margin-right: 4px;
+  font-style: normal;
 }
 
 .auto-toc__list {
   margin: 0;
-  padding-left: 20px;
+  padding-left: 8px;
   list-style-type: none;
 }
 
 .auto-toc__item {
-  margin: 8px 0;
-  line-height: 1.6;
+  margin: 0;
+  line-height: 1;
 }
 
 .auto-toc__link {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 6px;
   color: var(--vp-c-text-1);
+  font-size: 14px;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .auto-toc__link:hover {
   color: var(--vp-c-brand-1);
-  text-decoration: underline;
+  background: var(--vp-c-bg-soft);
+  text-decoration: none;
 }
 
 .auto-toc__link.is-active {
   color: var(--vp-c-brand-1);
   font-weight: 600;
+  background: var(--vp-c-brand-soft);
+  background: color-mix(in srgb, var(--vp-c-brand-soft) 15%, transparent);
 }
 
-/* 平板设备响应式调整 */
 @media (max-width: 1024px) {
   .auto-toc {
-    margin: 20px auto;
-    padding: 14px;
-    font-size: 14px;
+    margin: 24px 0;
+    padding: 16px;
   }
 
   .auto-toc__section {
-    padding: 10px 12px;
+    padding: 12px 14px;
   }
 }
 
-/* 手机设备响应式调整 */
 @media (max-width: 640px) {
   .auto-toc {
-    margin: 16px auto;
-    padding: 12px;
-    font-size: 13px;
+    margin: 20px 0;
+    padding: 14px;
     border-radius: 8px;
   }
 
   .auto-toc__title {
-    margin: 0 0 10px;
+    margin: 0 0 12px;
+    padding-bottom: 10px;
     font-size: 13px;
   }
 
   .auto-toc__section {
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 12px;
+    padding: 10px 12px;
   }
 
-  .auto-toc__badge {
-    padding: 2px 8px;
-    font-size: 11px;
-  }
-
-  .auto-toc__list {
-    padding-left: 16px;
-  }
-
-  .auto-toc__item {
-    margin: 6px 0;
+  .auto-toc__link {
+    padding: 5px 8px;
+    font-size: 13px;
   }
 }
 </style>
