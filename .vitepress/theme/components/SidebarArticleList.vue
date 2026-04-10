@@ -1,48 +1,18 @@
 <script setup lang="ts">
-import { computed, ref, shallowRef, watch } from 'vue'
-import { useRoute, useRouter } from 'vitepress'
+import { ref, shallowRef, watch } from 'vue'
+import { useData, useRoute, useRouter } from 'vitepress'
 import type {
-  TocSidebarDoctreePayload,
   TocSidebarFileEntry,
-  TocSidebarRawTree,
+  TocSidebarRawTreeNode,
 } from '@knewbeing/vitepress-plugin-autosidebar-toc'
 
 const PAGE_SIZE = 9
 
 const route = useRoute()
 const router = useRouter()
-const cachedDoctreeData = shallowRef<TocSidebarRawTree | null>(null)
+const { theme } = useData()
 
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null && !Array.isArray(value)
-}
-
-async function loadDoctreeData(): Promise<TocSidebarRawTree | null> {
-  if (cachedDoctreeData.value) {
-    return cachedDoctreeData.value
-  }
-  try {
-    const doctreeModule = await import('virtual:@knewbeing/toc-sidebar-doctree')
-    const payload = doctreeModule.default as TocSidebarDoctreePayload
-    if (payload?.tree && isRecord(payload.tree)) {
-      cachedDoctreeData.value = payload.tree as TocSidebarRawTree
-    }
-    return cachedDoctreeData.value
-  }
-  catch {
-    return null
-  }
-}
-
-const rawTree = shallowRef<TocSidebarRawTree | null>(null)
-
-watch(
-  () => route.path,
-  async () => {
-    rawTree.value = await loadDoctreeData()
-  },
-  { immediate: true },
-)
+const nodeCache = new Map<string, TocSidebarRawTreeNode | null>()
 
 function safeDecode(input: string): string {
   try {
@@ -76,6 +46,72 @@ function getCurrentDirKey(routePath: string): string {
   return parent || '/'
 }
 
+function flattenNavLinks(nav: unknown[]): string[] {
+  const links: string[] = []
+  for (const item of nav) {
+    const navItem = item as Record<string, unknown>
+    if (typeof navItem.link === 'string') {
+      links.push(navItem.link)
+    }
+    if (Array.isArray(navItem.items)) {
+      links.push(...flattenNavLinks(navItem.items))
+    }
+  }
+  return links
+}
+
+function getNavRootKey(routePath: string): string {
+  const nav = theme.value.nav as unknown[] | undefined
+  if (!nav?.length) return getCurrentDirKey(routePath)
+
+  const normalized = normalizePath(routePath)
+  let bestLink = ''
+  for (const link of flattenNavLinks(nav)) {
+    const normalizedLink = normalizePath(link)
+    if (normalizedLink !== '/' && normalized.startsWith(normalizedLink) && normalizedLink.length > bestLink.length) {
+      bestLink = normalizedLink
+    }
+  }
+
+  if (!bestLink) return getCurrentDirKey(routePath)
+  return bestLink.replace(/^\/|\/$/g, '')
+}
+
+async function loadNode(dirKey: string): Promise<TocSidebarRawTreeNode | null> {
+  if (nodeCache.has(dirKey)) {
+    return nodeCache.get(dirKey)!
+  }
+  try {
+    const { loadDirectoryNode } = await import('virtual:@knewbeing/toc-sidebar-doctree')
+    const node = await loadDirectoryNode(dirKey)
+    nodeCache.set(dirKey, node)
+    return node
+  }
+  catch {
+    nodeCache.set(dirKey, null)
+    return null
+  }
+}
+
+async function collectAllFileEntries(dirKey: string): Promise<TocSidebarFileEntry[]> {
+  const node = await loadNode(dirKey)
+  if (!node) return []
+
+  const entries: TocSidebarFileEntry[] = node.fileItems.filter(
+    (f: TocSidebarFileEntry) => f.name !== 'index.md',
+  )
+
+  const childResults = await Promise.all(
+    node.directoryItems.map(dir => collectAllFileEntries(dir.path)),
+  )
+
+  for (const childEntries of childResults) {
+    entries.push(...childEntries)
+  }
+
+  return entries
+}
+
 interface SidebarFileItem {
   text: string
   link: string
@@ -98,63 +134,55 @@ function formatDate(dateStr: string | null | undefined): string | null {
   }
 }
 
-const fileItems = computed<SidebarFileItem[]>(() => {
-  const tree = rawTree.value
-  if (!tree) return []
+const fileItems = shallowRef<SidebarFileItem[]>([])
 
-  const dirKey = getCurrentDirKey(route.path)
-  const node = tree[dirKey]
-  if (!node) return []
+watch(
+  () => route.path,
+  async () => {
+    const dirKey = getNavRootKey(route.path)
+    const currentPath = normalizePath(route.path)
+    const currentPathClean = currentPath.replace(/\.html$/, '')
 
-  const currentPath = normalizePath(route.path)
-  const currentPathClean = currentPath.replace(/\.html$/, '')
+    const entries = await collectAllFileEntries(dirKey)
 
-  return node.fileItems
-    .filter((f: TocSidebarFileEntry) => f.name !== 'index.md')
-    .map((f: TocSidebarFileEntry) => {
-      const fm = f.frontmatter ?? {}
-      const date = formatDate(fm.date ?? fm.updatedAt ?? fm.createdAt ?? null)
-      const linkNormalized = normalizePath(f.link)
-      const linkClean = linkNormalized.replace(/\.html$/, '')
-      const active = currentPathClean === linkClean
-        || currentPath === linkNormalized
-        || currentPath === `${linkNormalized}/`
-      return {
-        text: f.displayText,
-        link: f.link,
-        date,
-        active,
-      }
-    })
-    .sort((a: SidebarFileItem, b: SidebarFileItem) => {
-      if (a.date && b.date) return b.date.localeCompare(a.date)
-      if (a.date) return -1
-      if (b.date) return 1
-      return 0
-    })
-})
+    fileItems.value = entries
+      .map((f: TocSidebarFileEntry) => {
+        const fm = f.frontmatter ?? {}
+        const date = formatDate(fm.date ?? fm.updatedAt ?? fm.createdAt ?? null)
+        const linkNormalized = normalizePath(f.link)
+        const linkClean = linkNormalized.replace(/\.html$/, '')
+        const active = currentPathClean === linkClean
+          || currentPath === linkNormalized
+          || currentPath === `${linkNormalized}/`
+        return { text: f.displayText, link: f.link, date, active }
+      })
+      .sort((a: SidebarFileItem, b: SidebarFileItem) => {
+        if (a.date && b.date) return b.date.localeCompare(a.date)
+        if (a.date) return -1
+        if (b.date) return 1
+        return 0
+      })
+  },
+  { immediate: true },
+)
 
 // Pagination
 const currentPage = ref(1)
 
-const totalPages = computed(() =>
-  Math.ceil(fileItems.value.length / PAGE_SIZE),
-)
-
-const showChangeBtn = computed(() => fileItems.value.length > PAGE_SIZE)
-
-const startIdx = computed(() => (currentPage.value - 1) * PAGE_SIZE)
-
-const currentPageItems = computed(() => {
-  const start = startIdx.value
-  return fileItems.value.slice(start, start + PAGE_SIZE)
-})
-
-function changePage() {
-  currentPage.value = (currentPage.value % totalPages.value) + 1
+// 不用 computed，直接用 watch 更新后的 fileItems
+function getTotalPages() {
+  return Math.ceil(fileItems.value.length / PAGE_SIZE)
 }
 
-// Auto-navigate to the page containing the active item whenever the list changes
+function getStartIdx() {
+  return (currentPage.value - 1) * PAGE_SIZE
+}
+
+function getCurrentPageItems() {
+  const start = getStartIdx()
+  return fileItems.value.slice(start, start + PAGE_SIZE)
+}
+
 watch(
   fileItems,
   (items) => {
@@ -168,6 +196,10 @@ watch(
   },
   { immediate: true },
 )
+
+function changePage() {
+  currentPage.value = (currentPage.value % getTotalPages()) + 1
+}
 
 function handleClick(e: MouseEvent, link: string) {
   e.preventDefault()
@@ -186,7 +218,7 @@ function handleClick(e: MouseEvent, link: string) {
         相关文章
       </span>
       <button
-        v-if="showChangeBtn"
+        v-if="fileItems.length > PAGE_SIZE"
         class="sidebar-articles__change-btn"
         @click="changePage"
       >
@@ -194,14 +226,14 @@ function handleClick(e: MouseEvent, link: string) {
       </button>
     </div>
     <!-- 文章列表 -->
-    <ol v-if="currentPageItems.length" class="sidebar-articles__list">
+    <ol v-if="getCurrentPageItems().length" class="sidebar-articles__list">
       <li
-        v-for="(item, idx) in currentPageItems"
+        v-for="(item, idx) in getCurrentPageItems()"
         :key="item.link"
         class="sidebar-articles__item"
       >
         <!-- 序号 -->
-        <i class="sidebar-articles__num">{{ startIdx + idx + 1 }}</i>
+        <i class="sidebar-articles__num">{{ getStartIdx() + idx + 1 }}</i>
         <!-- 文章信息 -->
         <div class="sidebar-articles__content">
           <a
