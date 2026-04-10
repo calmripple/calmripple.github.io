@@ -47,12 +47,18 @@
   ],
   "exclude": [
     "**/node_modules/**",
-    "**/dist"
+    "**/dist",
+    ".github/skills/**",
+    ".github/instructions/**",
+    ".github/agents/**"
   ],
   "watchOptions": {
     "excludeDirectories": [
       "**/node_modules",
-      "**/dist"
+      "**/dist",
+      ".github/skills",
+      ".github/instructions",
+      ".github/agents"
     ]
   }
 }
