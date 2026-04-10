@@ -1,13 +1,39 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
-import { useRouter } from 'vitepress'
+import { computed, ref, watch } from 'vue'
+import { useData, useRouter } from 'vitepress'
 import { useTocEntries } from './useTocEntries'
 
-const PAGE_SIZE = 9
+const PAGE_SIZE = 10
 
 const router = useRouter()
+const { theme } = useData()
 
 const { fileItems } = useTocEntries({ rootKeyStrategy: 'navRoot' })
+
+const activeNavText = computed(() => {
+  const nav = theme.value.nav as { text?: string, link?: string, items?: unknown[] }[] | undefined
+  if (!nav?.length) return { text: '相关文章', link: '' }
+  const routePath = decodeURIComponent(router.route.path).replace(/\/+$/, '').toLowerCase()
+
+  let bestText = ''
+  let bestLink = ''
+  let bestLen = 0
+  function search(items: { text?: string, link?: string, items?: unknown[] }[]) {
+    for (const item of items) {
+      if (typeof item.link === 'string') {
+        const link = decodeURIComponent(item.link).replace(/\/+$/, '').toLowerCase()
+        if (link && link !== '/' && routePath.startsWith(link) && link.length > bestLen) {
+          bestText = item.text || ''
+          bestLink = item.link
+          bestLen = link.length
+        }
+      }
+      if (Array.isArray(item.items)) search(item.items as typeof items)
+    }
+  }
+  search(nav)
+  return { text: bestText || '相关文章', link: bestLen > 0 ? bestLink : '' }
+})
 
 // Pagination
 const currentPage = ref(1);
@@ -38,8 +64,8 @@ watch(
   { immediate: true },
 );
 
-function changePage() {
-  currentPage.value = (currentPage.value % getTotalPages()) + 1;
+function goToPage(page: number) {
+  currentPage.value = page;
 }
 
 function handleClick(e: MouseEvent, link: string) {
@@ -72,15 +98,11 @@ function handleClick(e: MouseEvent, link: string) {
             d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"
           />
         </svg>
-        相关文章
+        <a v-if="activeNavText.link" :href="activeNavText.link" class="sidebar-articles__header-link">
+          {{ activeNavText.text }}
+        </a>
+        <template v-else>{{ activeNavText.text }}</template>
       </span>
-      <button
-        v-if="fileItems.length > PAGE_SIZE"
-        class="sidebar-articles__change-btn"
-        @click="changePage"
-      >
-        换一组
-      </button>
     </div>
     <!-- 文章列表 -->
     <ol v-if="getCurrentPageItems().length" class="sidebar-articles__list">
@@ -107,6 +129,16 @@ function handleClick(e: MouseEvent, link: string) {
       </li>
     </ol>
     <div v-else class="sidebar-articles__empty">暂无相关文章</div>
+    <div v-if="getTotalPages() > 1" class="sidebar-articles__pagination">
+      <button
+        v-for="page in getTotalPages()"
+        :key="page"
+        :class="['sidebar-articles__page-btn', { 'is-active': page === currentPage }]"
+        @click="goToPage(page)"
+      >
+        {{ page }}
+      </button>
+    </div>
   </div>
 </template>
 
@@ -135,25 +167,51 @@ function handleClick(e: MouseEvent, link: string) {
   gap: 6px;
 }
 
-.sidebar-articles__change-btn {
-  font-size: 11px;
+.sidebar-articles__header-link {
   color: var(--vp-c-brand-1);
+  text-decoration: none;
+  transition: opacity 0.25s;
+}
+
+.sidebar-articles__header-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.sidebar-articles__pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px 4px;
+}
+
+.sidebar-articles__page-btn {
+  min-width: 28px;
+  height: 28px;
+  padding: 0 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
   background: none;
-  border: 1px solid var(--vp-c-brand-1);
-  border-radius: 4px;
-  padding: 2px 8px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.25s;
-  white-space: nowrap;
-  line-height: 1.4;
+  line-height: 26px;
 }
 
-.sidebar-articles__change-btn:hover {
+.sidebar-articles__page-btn:hover {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+
+.sidebar-articles__page-btn.is-active {
   color: #fff;
   background-color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
 }
 
-/* 列表样式 */
+/* 空状态 */
 .sidebar-articles__list {
   display: flex;
   flex-direction: column;

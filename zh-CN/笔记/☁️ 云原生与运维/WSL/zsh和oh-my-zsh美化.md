@@ -13,7 +13,6 @@ tags:
 categories:
   - 云原生与运维
   - WSL
-title: zsh和oh-my-zsh美化
 ---
 ## 准备
 - window 11
