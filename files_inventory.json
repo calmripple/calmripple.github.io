@@ -1,0 +1,1612 @@
+[
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: Serverless\r\ndate: 2020-11-13T00:00:00.000Z\r\ntags:\r\n  - 云原生\r\n  - 运维\r\n  - Serverless\r\n  - 云原生理论\r\ncategories:\r\n  - 云原生与运维\r\n---\r\n# Serverless\r\n\r\n**闲言碎语**\r\n\r\n前段时间看了一些`Serverle",
+    "TopLevel": "☁️ 云原生与运维",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\☁️ 云原生与运维\\理论\\serverless.md"
+  },
+  {
+    "Preview": "---\r\nsidebar: true\r\ndate: 2025-10-27T18:00:00.000Z\r\ntag: cloud\r\ntags:\r\n  - 云原生\r\n  - 运维\r\n  - WSL\r\n  - Linux\r\n  - Docker\r\n  - Kubernetes\r\n  - 1Panel\r\n  - 运维面板\r\ncategories:\r\n  - 云原生与运维\r\n  - WSL\r\n---\r\n# w",
+    "TopLevel": "☁️ 云原生与运维",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\☁️ 云原生与运维\\WSL\\install docker k8s 1panel in WSL.md"
+  },
+  {
+    "Preview": "---\r\nsidebar: true\r\ndate: 2025-10-28T20:00:00.000Z\r\ntitle: zsh和oh-my-zsh美化\r\ntag: cloud\r\ntags:\r\n  - 云原生\r\n  - 运维\r\n  - WSL\r\n  - Linux\r\n  - Zsh\r\n  - 终端美化\r\ncategories:\r\n  - 云原生与运维\r\n  - WSL\r\n---\r\n## 准备\r\n- w",
+    "TopLevel": "☁️ 云原生与运维",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\☁️ 云原生与运维\\WSL\\zsh和oh-my-zsh美化.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 前端\r\n  - 博客\r\ncategories:\r\n  - 大前端\r\n  - 博客文章\r\n---\r\n# 博客性能优化笔记 | 99分\r\n\r\n闲着没事，拿 lighthouse 测了一下博客网站的性能评测，发现诊断出的问题还挺多，就顺手优化了一下。\r\n\r\n这篇文章将记录这个优化的过程。\r\n\r\n## 优化前后对比\r\nlighthouse 检测结果\r\n\r\n|        ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\博客文章\\2024-blog-perf.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Chrome调试技巧-基础\r\ndate: 2021-04-07T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# Chrome 调试技巧-基础\r\n\r\n## Chrome简介\r\n1. [维基百科(中)](https://zh.wikipedia.org/w",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\chrome-debug1.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Chrome调试技巧-Console\r\ndate: 2021-04-07T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# Chrome 调试技巧-Console\r\n\r\n控制台面板是使用频率最高的面板之一,这篇摘抄一些实用性高的内容\r\n\r\n## $\r\n#",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\chrome-debug2.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Chrome调试技巧-Network\r\ndate: 2021-04-07T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# Chrome 调试技巧-Network\r\n\r\n在调试网络请求时,离不开Network面板的使用\r\n\r\n## Filter\r\n\r\n用",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\chrome-debug3.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Chrome调试技巧-Elements\r\ndate: 2021-05-17T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# Chrome 调试技巧-Elements\r\n\r\n这一篇主要记录元素面板相关的技巧内容\r\n## 快速隐藏元素\r\n选中元素然后按 `",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\chrome-debug4.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Chrome调试技巧-Drawer\r\ndate: 2021-05-17T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# Chrome 调试技巧-Drawer\r\n\r\n## 打开/关闭\r\nESC控制\r\n\r\n![图片](./assets/chrome-deb",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\chrome-debug5.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Chrome调试技巧-workspace\r\ndate: 2021-05-17T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# Chrome 调试技巧-workspace\r\n\r\n## 打开\r\n![图片](./assets/chrome-debug6-00",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\chrome-debug6.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 设计模式-设计原则\r\ndate: 2021-05-18T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# 设计模式-设计原则\r\n\r\n>设计模式往往是软件设计中的最佳实践，是前人对问题解决的经验总结。\r\n\r\n>设计原则是设计模式的指导理论，它可以帮助我们规",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\design-patterns0.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 设计模式-创建型模式\r\ndate: 2021-05-18T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# 设计模式-创建型模式\r\n## 工厂模式\r\n### 概念\r\n* 将创建对象的过程单独封装\r\n* 简单来说，就是你需要什么东西不直接使用new的方法生",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\design-patterns1.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 设计模式-结构型模式\r\ndate: 2021-06-24T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# 设计模式-结构型模式\r\n\r\n## 装饰器模式\r\n使用装饰器可以装饰一个类或类中的属性\r\n\r\n在不修改装饰对象上的代码情况下改变目标对象的行为\r\n\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\design-patterns2.md"
+  },
+  {
+    "Preview": "---\r\ntag:\r\n  - 技术笔记\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\n  - HTTP\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n\r\n# 使用http-proxy-agent出现ECONNRESET error\r\n\r\n之前做了1个下载文件的CLI工具 [efst](https://github.com/ATQQ/tools/bl",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\http-proxy-fail.md"
+  },
+  {
+    "Preview": "---\r\ntag:\r\n  - 技术笔记\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\n  - Node.js\r\n  - 版本管理\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# nvm ls-remote 只有iojs列表\r\n\r\nnvm 镜像地址的问题，修改对应环境变量`NVM_NODEJS_ORG_MIRROR`即可\r\n\r\n可以使用 淘宝源(`",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\nvm-ls-remote.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 学习笔记：TypeScript装饰器\r\ndate: 2021-06-24T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 调试\r\n  - 进阶\r\n  - TypeScript\r\ncategories:\r\n  - 大前端\r\n  - 调试与进阶\r\n---\r\n# 学习笔记：TypeScript装饰器\r\n使用装饰器可以装饰一个类或类中的属性\r\n\r\n在不修改装饰对",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\调试与进阶\\ts-decorators.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 开源协议选择指南（含 Mermaid 决策图）\r\ndate: 2026-04-03T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - 开源协议\r\n  - License\r\n  - AI Generated\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 开源协议选择指南（含 Mermaid 决策图）\r\n\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\开源协议选择指南.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 实践：利用ArrayBuffer实现预览指定目录下的所有文件的内容\r\ndate: 2021-06-09T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 实践：利用ArrayBuffer实现预览指定目录下的所有文件的内容\r\n\r\n## 效果\r\n先上效果图，非常朴素，**",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\array-buffer.md"
+  },
+  {
+    "Preview": "---\r\noutline:\r\n  - 2\r\n  - 3\r\ndescription: 批量且自动的做cnpm的同步，如果你是一个多npm包的项目，那么这个工具非常适合你\r\ntag:\r\n  - CLI\r\n  - 技术笔记\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n\r\n# 实现自动扫描工作区npm包并同步cnpm\r\n\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\cnnc.md"
+  },
+  {
+    "Preview": "---\r\noutline:\r\n  - 2\r\n  - 3\r\ncover: ./copy-branch/MTY5MTMxNzA1MDQ0OA==691317050448.png\r\ndescription: 本文简单介绍了如何通过`Shell`和`Node.js`实现复制当前分支名到剪贴板\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\copy-branch.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用\r\ndate: 2021-05-20T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\deepin-wemeet.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 在提交pr请求后自动部署preview github pages\r\ndate: 2024-06-18T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - GitHub Pages\r\n  - 部署\r\n  - 预览\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\ncreated: '2024-06-18T20:04:04 (",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\deploy-preview-pr.md"
+  },
+  {
+    "Preview": "---\r\npublish: false\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Docker\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 🚧 搭建 easypicker2 docker 镜像实践\r\n\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\ep2-docker.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: eslint插件开发教程\r\ndate: 2020-05-20T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - ESLint\r\n  - 代码规范\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# eslint插件开发教程\r\n\r\n开发eslint插件目的：根据项目需要，自定",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\eslint-plugin.md"
+  },
+  {
+    "Preview": "---\r\noutline:\r\n  - 2\r\n  - 3\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# ESM中使用CJS模块特有的变量和方法\r\n\r\n## 前言\r\n最近在看 VitePress 的源码时看到了一个`createRequire`方法，如下。\r\n\r\n```ts\r\nimport { createRequir",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\esm-require.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: ServerLess之云函数实践-天气API\r\ndate: 2020-11-23T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# ServerLess之云函数实践-天气API\r\n\r\n## 前言\r\n云计算是大势所趋\r\n\r\nServe",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\faas.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 移动端阻止弹窗下层页面被滑动\r\ndate: 2022-01-22T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n\r\n# 移动端阻止弹窗下层页面被滑动\r\n\r\n在做H5开发时，很多场景下都需要弹窗\r\n\r\n当出现弹窗时，大部分场景下是期望弹窗下层页面不能被滑动的\r\n\r\n当然",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\fixed-page.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 小技巧：for of中获取index\r\ndate: 2022-01-17T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 小技巧：for of中获取index\r\n\r\n日常开发中在遍历数据时经常使用`for...of`,`forEach`\r\n\r\n前者使用时能够配合`a",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\forof-idx.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: Git常用的一些基本操作\r\ndate: 2020-09-02T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# Git常用的一些基本操作\r\n\r\n## 基本操作\r\n**初始化本地仓库**\r\n```sh\r\ngit init\r\n```\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\git-base.md"
+  },
+  {
+    "Preview": "---\r\ntag: 技术笔记\r\ndescription: 在迭代图床应用时，需要用到图片压缩，在之前分享了使用UPNG.js 处理 PNG 图片，这里记录分享一下如何处理JPG图片，并附上完整 Demo。\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n\r\n# 纯前端实现 JPG 图片压缩 | canvas\r\n\r\n>**",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\jpg-compress.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 向页面注入js实现为图片和文字元素添加透明蒙层\r\ndate: 2021-07-29T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 向页面注入js实现为图片和文字元素添加透明蒙层\r\n\r\n## 背景\r\n最近在做一个操作Dom的小工具（做完再接着分享这个工具是什么）\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\js-cover.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 实践：使用jsencrypt配合axios实现非对称加密传输的数据\r\ndate: 2021-06-08T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 实践：使用jsencrypt配合axios实现非对称加密传输的数据\r\n\r\n## 背景\r\n不希望应用发送的数据能在 ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\jsencrypt.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 封装dotenv库实现类似Vite加载环境变量的行为\r\ndate: 2021-06-20T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 封装dotenv库实现类似Vite加载环境变量的行为\r\n\r\n## dotenv的作用\r\n将`.env`文件中的环境变量加载到 `",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\loadEnv.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 30行代码实现合并指定目录下的所有文件的内容\r\ndate: 2021-06-02T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 30行代码实现合并指定目录下的所有文件的内容\r\n\r\n## 背景\r\n临近毕业，肝完论文，指导老师叫把**所有**，**所有**，**所有*",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\mergefile.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 马上中秋了，把鼠标指针变为小玉兔\r\ndate: 2021-09-11T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 马上中秋了，把鼠标指针变为小玉兔\r\n\r\n>我正在参加中秋创意投稿大赛，详情请看：[中秋创意投稿大赛](https://juejin.cn/post/",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\mid-autumn-festival.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ndescription: 记录分享在小程序中使用 lottie 播放AE动画的方法，以及踩坑经验。\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 小程序中使用 lottie 动画 | 踩坑经验分享\r\n\r\n本周被拉去支援紧急需求（赶在五一节假日前上线的，双休需要加班😱），参与到项目中才知道，开发的项目是微",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\mini-lottie.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Node中require与fs.readFile读取JSON文件的对比\r\ndate: 2021-08-19T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# Node中require与fs.readFile读取JSON文件的对比\r\n\r\n## 背景\r\n在做[时间管理工具",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\node-require-json.md"
+  },
+  {
+    "Preview": "---\r\ncover: ./nodejs-getting-started/MTY4NTIwMTQwMTAzNg==685201401036.png\r\nsticky: 1000\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 【免费】Node.js 入门教程\r\n掘金小册「Node.js 入门教程」课程地址：[<<Nod",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\nodejs-getting-started.md"
+  },
+  {
+    "Preview": "---\r\ntag: 技术笔记\r\ndescription: 最近在迭代应用的时候用到了 UPNG.js 压缩 PNG 图片，这里记录分享一下使用经验，并附上完整 Demo。\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 纯前端实现 PNG 图片压缩 | UPNG.js\r\n\r\n>**在线 Demo 体验地址 →:** ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\png-compress.md"
+  },
+  {
+    "Preview": "---\r\ntitle: pnpm install 在github actions中运行的问题\r\ndate: 2024-06-18T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - GitHub Actions\r\n  - CI/CD\r\n  - 包管理器\r\n  - Node.js\r\n  - pnpm\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\pnpm-issue-githubactions.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 3分钟使用OSS搭建个人的在线图床\r\ndate: 2021-06-07T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 使用免费的七牛云OSS(10G)搭建个人的在线图床\r\n[代码](https://github.com/ATQQ/image-bed-qiniu)已",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\qiniu-imgbed.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 分享封装的一些七牛云OSS操作方法\r\ndate: 2021-06-03T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 分享封装的一些七牛云OSS操作方法\r\n\r\n## 前言\r\n最近在用[七牛云对象存储服务](https://www.qiniu.com/product",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\qiniu-oss.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 配置SSH免密登录服务器\r\ndate: 2022-02-12T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - SSH\r\n  - Linux\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 本地配置SSH免密远程登录服务器\r\n最近服务器从阿里云换到了腾讯云，需要把服务进行一次整体的迁移\r\n\r\n为了方便资源",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\ssh-no-pwd-login.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 工具方法汇总\r\ndate: 2021-04-19T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 工具方法汇总\r\n>部分内容来源于搜索引擎\r\n\r\n近段时间业务开发用到了许多不错的工具方法,给大家分享一波\r\n\r\n## 导出Excell\r\n\r\n```js\r\n/**\r\n ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\tool-methods.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 腾讯云Serverless实践-Node.js服务部署\r\ndate: 2021-06-16T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Serverless\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 腾讯云Serverless实践-Node.js服务部署\r\n\r\n:::tip\r\n本文旨在帮助不懂",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\tx-serverless-node.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 腾讯云Serverless实践-静态网站托管\r\ndate: 2021-05-19T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Serverless\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n\r\n# 腾讯云Serverless实践-静态网站托管\r\n\r\n:::tip\r\n本文旨在帮助不懂运维/网络/服务",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\tx-serverless-static.md"
+  },
+  {
+    "Preview": "---\r\ndescription: 分享一下又拍云的简单用法，以及使用它搭建图床。\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 使用又拍云极速搭建图床\r\n\r\n## 前言\r\n\r\n某天在群里摸 🐟 ，聊到了图床相关的话题，群友推荐了 [又拍云](https://www.upyun.com/league)。\r\n\r\n说",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\upyun.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 为什么'\\x1B'.length===1？\\x与\\u知识延伸\r\ndate: 2021-10-04T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 为什么'\\x1B'.length === 1？\\x与\\u知识延伸\r\n\r\n## 背景\r\n先讲一下背景，再说原因\r\n\r\n大多",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\ux.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Vite插件开发纪实：vite-plugin-monitor（上）\r\ndate: 2021-09-27T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# Vite插件开发纪实：vite-plugin-monitor（上）\r\n\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\vite-plugin-monitor1.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Vite插件开发纪实：vite-plugin-monitor（中）\r\ndate: 2021-09-27T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# Vite插件开发纪实：vite-plugin-monitor（中）\r\n\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\vite-plugin-monitor2.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Vite插件开发纪实：vite-plugin-monitor（下）\r\ndate: 2021-10-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# Vite插件开发纪实：vite-plugin-monitor（下）\r\n\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\vite-plugin-monitor3.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 解决Vite-React项目中js使用jsx语法报错的问题\r\ndate: 2021-10-12T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 解决Vite-React项目中js使用jsx语法报错的问题\r\n\r\n## 背景\r\n在",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\vite-react-js.md"
+  },
+  {
+    "Preview": "---\r\noutline:\r\n  - 2\r\n  - 3\r\ndescription: >-\r\n  使用 VitePress 作为个人博客的站点越来越多，RSS支持也是博客上的一个功能点，方便读者订阅，本文将介绍如何通过Vite 插件为 VitePress\r\n  站点一键添加RSS支持\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\vitepress-plugin-rss.md"
+  },
+  {
+    "Preview": "---\r\ntitle: webpack项目接入Vite的通用方案介绍\r\ndate: 2021-12-04T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# webpack 项目接入Vite的通用方案介绍\r\n\r\n## 愿景\r\n希望通过本文，能给读者提供一",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\webapck2vite.md"
+  },
+  {
+    "Preview": "---\r\ntitle: webpack项目接入Vite的通用方案介绍-草稿\r\ndate: 2021-11-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# webpack 项目接入Vite的通用方案介绍-草稿\r\n\r\n## 愿景\r\n希望通过此系列文",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\webapck2vite2.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 优雅的处理挂载window上的函数可能不存在的情况\r\ndate: 2021-09-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# 优雅的处理挂载window上的函数可能不存在的情况\r\n\r\n## 背景\r\n在做一个Web JS SDK（A）时，内部会用到另一个We",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\window-var.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Mac上抓包秒通关羊了个羊\r\ndate: 2022-09-19T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 技术笔记\r\ncategories:\r\n  - 大前端\r\n  - 技术文章\r\n---\r\n# Mac上抓包秒通关羊了个羊\r\n\r\n最近这游戏是火得不行，睡前玩几把，几天了从未通过。那只能上科技了。。。\r\n\r\n## 前言\r\n\r\n看网上**大部分是 Wi",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\技术文章\\yanglegeyang.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 阻塞渲染\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 浏览器-阻塞\r\ndate: 2020-10-27T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 阻塞\r\n## CSS\r\n### 1. 阻塞渲",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\block.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 缓存机制\r\n  step: 3\r\nisTimeLine: true\r\ntitle: 浏览器-缓存机制\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\n  - 缓存\r\n  - HTTP\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 缓存",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\cache.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: Chrome-DevTools的小技巧\r\n  step: 9999\r\ntitle: 分享小册《Chrome-DevTools的使用技巧》中的精华\r\ndate: 2021-05-17T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\chrome-devtools-study.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 内核\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 浏览器-内核\r\ndate: 2020-10-26T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 内核\r\n\r\n## 简介\r\n浏览器最重要或者说核心",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\core.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 浏览器-跨域与跨站\r\ndate: 2020-12-19T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\n  - CORS\r\n  - 浏览器安全\r\n  - 跨域\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 跨域与跨站\r\n\r\n## 同源策略\r\n浏览器有同源策略",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\cors.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 浏览器-事件循环机制\r\ndate: 2021-02-02T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\n  - 事件循环\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 浏览器中的Event loop\r\n## 前言\r\n先简单聊聊JavaScript与此主题有",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\eventloop.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 常见面试题\r\nisTimeLine: true\r\ntitle: 浏览器-常见面试题\r\ndate: 2020-10-27T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 常见问题\r\n\r\n## 目录\r\n[[toc]]\r\n\r\n:::",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\problem.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 渲染机制\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 浏览器-渲染原理\r\ndate: 2020-10-26T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 渲染原理\r\n\r\n篇幅较长，需赖心阅读\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\render.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 安全问题\r\n  step: 5\r\nisTimeLine: true\r\ntitle: 浏览器-安全问题\r\ndate: 2020-10-27T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\n  - Web 安全\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 安全\r\n在现代网",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\safe.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 本地存储\r\n  step: 4\r\nisTimeLine: true\r\ntitle: 浏览器-本地存储\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 浏览器\r\n  - 渲染原理\r\ncategories:\r\n  - 大前端\r\n  - 浏览器\r\n---\r\n# 本地存储\r\n在目前的现代浏览器中主要有以",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\浏览器\\storage.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(上)\r\ndate: 2021-06-22T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 项目模板\r\n  - 工程化\r\ncategories:\r\n  - 大前端\r\n  - 项目模板\r\n---\r\n# 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(上)\r\n\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\项目模板\\uni-vue3-cli_1.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(中)\r\ndate: 2021-06-23T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 项目模板\r\n  - 工程化\r\ncategories:\r\n  - 大前端\r\n  - 项目模板\r\n---\r\n# 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(中)\r\n\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\项目模板\\uni-vue3-cli_2.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(下)\r\ndate: 2021-06-23T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 项目模板\r\n  - 工程化\r\ncategories:\r\n  - 大前端\r\n  - 项目模板\r\n---\r\n# 模板工程搭建：Vue-Cli搭建Vue3/TS/uni-app小程序工程(下)\r\n\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\项目模板\\uni-vue3-cli_3.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 模板工程搭建：Vite-Vue3工程化模板\r\ndate: 2021-05-16T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 项目模板\r\n  - 工程化\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 大前端\r\n  - 项目模板\r\n---\r\n# 开箱即用的Vite-Vue3工程化模板\r\n## 前言\r\n由于临近毕业肝[毕设](",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\项目模板\\vite-vue3-template.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 模板工程搭建：Web-SDK/Library\r\ndate: 2021-10-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 项目模板\r\n  - 工程化\r\ncategories:\r\n  - 大前端\r\n  - 项目模板\r\n---\r\n# 模板工程搭建：Web-SDK/Library\r\n\r\n此系列会与时俱进的不断更新\r\n\r\n包含Node/Web SDK，单",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\项目模板\\web-sdk-tpl.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: CDN的缓存与回源机制\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# CDN的缓存与回源机制\r\n>CDN （Content Delivery Network，即内容分发网络",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\cdn.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: DNS预解析\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# DNS 预解析\r\n\r\nDNS预解析是浏览器试图在用户访问链接之前解析域名\r\n\r\n## 如何启用?\r\n\r\n**X-",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\dnsPre.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 图片优化\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 图片优化\r\n## 加载优化\r\n* 使用css替代部分图片\r\n* 小屏幕:使用 CDN 加载，计算出适配屏幕的宽度，然",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\image.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 网络层面优化\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 网络层面优化\r\n\r\n## DNS解析\r\n* 浏览器DNS缓存\r\n* [DNS预解析](./dnsPre.md)\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\Internet.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 懒加载与执行\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 懒加载与执行\r\n## 懒执行\r\n将某些逻辑延迟到使用时再计算。\r\n\r\n可以用于首屏优化，对于某些耗时逻辑并不需要",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\lazyLoad.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 监控\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 监控\r\n一般分为三种:\r\n* 页面埋点\r\n* 性能监控\r\n* 异常监控\r\n\r\n\r\n## 页面埋点\r\n* [PV / UV",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\monitor.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 资源预加载\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 资源预加载\r\n某些资源不需要马上用到，但是希望尽早获取，这时候就可以使用预加载。\r\n\r\n浏览器会将所需的资源提前请",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\preLoad.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 页面预渲染\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 页面预渲染\r\n\r\n预渲染可以提高页面的加载速度，但是要确保该页面大概率会被用户在之后打开，否则会浪费资源\r\n\r\n#",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\preRender.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 服务端渲染\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 服务端渲染\r\n\r\n## 客户端渲染\r\n客户端渲染模式下，服务端会把渲染需要的静态文件发送给客户端，客户端加载过来之",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\ssr.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 节流与防抖\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 性能优化\r\n  - 前端工程\r\n  - 节流防抖\r\ncategories:\r\n  - 大前端\r\n  - 性能优化\r\n---\r\n# 节流与防抖\r\n\r\n## 滚动监听例子\r\n常见功能:返回顶部按钮\r\n* 这个按钮只会在滚动到距离",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\性能优化\\throttling.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 提取样式表中url()中的内容\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - 正则表达式\r\ncategories:\r\n  - 大前端\r\n  - 正则表达式\r\n---\r\n# 提取样式表中url()中的内容\r\n\r\n开发中经常碰见元素使用``background``或者``backgro",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\正则表达式\\p1.md"
+  },
+  {
+    "Preview": "---\r\nsidebar: true\r\ndescription: >-\r\n  JavaScript 是世界上最流行的脚本语言。那么为什么在 `JavaScript` 中执行 `Shell` 脚本很困难呢？Bun\r\n  又是怎么解决这个问题的？\r\ntags:\r\n  - 前端\r\n  - Bun\r\n  - JavaScript\r\n  - 运行时\r\ncategories:\r\n  - 大前端\r\n  - Bu",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Bun\\bun-shell.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: BFC\r\n  step: 9\r\nisTimeLine: true\r\ntitle: BFC\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\n  - 格式化上下文\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# BFC\r\n\r\nBFC规范(块",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\bfc.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 盒模型\r\n  step: 6\r\nisTimeLine: true\r\ntitle: 盒模型\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# 盒模型\r\n浏览器展现一个元素时，这个元素会占据一定的",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\box.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 弹性布局\r\n  step: 7\r\nisTimeLine: true\r\ntitle: 弹性布局\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\n  - Flexbox\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# 弹性布局\r\nflex布",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\flex.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: IFC\r\n  step: 10\r\nisTimeLine: true\r\ntitle: FC\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\n  - 格式化上下文\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# IFC\r\n\r\nIFC(inl",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\ifc.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: CSS层级关系\r\n  step: 8\r\nisTimeLine: true\r\ntitle: CSS层级关系\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# CSS层级关系\r\n\r\n>如果同个元素",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\level.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 伪元素before与after\r\n  step: 3\r\nisTimeLine: true\r\ntitle: CSS伪元素before与after\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n#",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\p1.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 实现表格斑马纹\r\n  step: 4\r\nisTimeLine: true\r\ntitle: 表格斑马纹\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# 表格斑马纹\r\n## 选择器nth-chi",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\p2.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 伪类\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 伪类\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# 伪类\r\n>伪类是添加到选择器的关键字，指定要选择的元素的",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\pseudo-class.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 伪元素\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 伪元素\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# 伪元素\r\n>伪元素是一个附加至选择器末的关键词，允许",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\pseudo-element.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 回流与重绘\r\n  step: 5\r\nisTimeLine: true\r\ntitle: 回流与重绘\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# 回流与重绘\r\n\r\n## 浏览器的渲染过程\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\reflow.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 选择器\r\n  step: 2\r\nisTimeLine: true\r\ntitle: css选择器\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - CSS\r\n  - 样式布局\r\ncategories:\r\n  - 大前端\r\n  - CSS\r\n---\r\n# css选择器\r\n## 基本选择器\r\n1. 通配",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\CSS\\selectors.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 语义化标签\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - HTML\r\n  - 语义化\r\ncategories:\r\n  - 大前端\r\n  - HTML\r\n---\r\n# 语义化标签\r\n\r\n## 概念\r\n很多html标签有自己的含义，即元素本身传达了关于标签所包含内容类型的一些信息\r\n\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\HTML\\semantic.md"
+  },
+  {
+    "Preview": "---\r\nsidebar: true\r\noutline: [2,3]\r\npublish: false\r\nsticky: 10\r\n---\r\n\r\n# 💡 一些想法&计划做的事\r\n\r\n## 文章&博客\r\n\r\n### FE\r\n* 🚧 [【2024】我眼中的前端](./../_configDoc/show/whyfe-2024.md)\r\n* [ ] 历史周刊补齐（搬迁）\r\n* [ ] Vue 项目创建动",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\idea.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 'apply,call,bind'\r\n  step: 10\r\nisTimeLine: true\r\ntitle: 'apply,call,bind的异同'\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScrip",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\apply.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 箭头函数\r\n  step: 26\r\nisTimeLine: true\r\ntitle: 箭头函数?\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 箭头函数?\r\n## 简单使用\r\n``",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\arrowfun.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 中等-async/await实现\r\n  step: 11\r\ntitle: 实现async/await\r\ndate: 2021-03-10T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 异步编程\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现asyn",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\async.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: async及await的特点，它们的优点和缺点分别是什么？await原理是什么？\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 异步编程\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# async 及 aw",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\asyncawait.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: blob与file\r\n  step: 11\r\nisTimeLine: true\r\ntitle: blob与file\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# blob与file",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\blob.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 数组哪些方法会改变自身\r\ndate: 2020-09-11T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 数组哪些方法会改变自身\r\n## ES5\r\n* splice：删除数组元素或在目标位置插入新元素\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\changeArr.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 定时器\r\n  step: 14\r\nisTimeLine: true\r\ntitle: 定时器\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 定时器\r\n## setTimeout\r\n`",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\clock.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 闭包\r\n  step: 6\r\nisTimeLine: true\r\ntitle: 闭包\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 闭包\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 闭包\r\n\r\n## 定义\r\n* 简",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\closure.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-闭包调用\r\n  step: 8\r\nisTimeLine: true\r\ntitle: 闭包调用\r\ndate: 2020-10-18T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 闭包\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 闭包调用\r\n\r\n#",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\closureUse.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 浅拷贝与深拷贝\r\n  step: 29\r\nisTimeLine: true\r\ntitle: 浅拷贝与深拷贝\r\ndate: 2020-10-02T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 浅拷贝与深拷贝\r\n\r\n对象",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\copy.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 柯里化\r\n  step: 5\r\nisTimeLine: true\r\ntitle: 柯里化(Currying)\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 柯里化(Currying",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\currying.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 中等-实现深拷贝\r\n  step: 12\r\nisTimeLine: true\r\ntitle: 实现深拷贝\r\ndate: 2020-09-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现深拷贝\r\n\r\n## 简介",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\deepClone.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: delete\r\n  step: 7\r\nisTimeLine: true\r\ntitle: delete\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# delete\r\ndelete命令",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\delete.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: for-of与for-in的区别\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# for-of与for-in的区别\r\n## for-of\r\n遍历可迭代的对象（部署了`Sy",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\diff-for-in-of.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 中等-数组去重\r\n  step: 14\r\ntitle: 笔试题-数组去重\r\ndate: 2021-03-07T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 笔试题-数组去重\r\n\r\n>这是一个比较常规的面试手写题,能够",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\duplicate.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: ECMAScript规范解读this\r\n  step: 20\r\nisTimeLine: true\r\ntitle: ECMAScript规范解读this(未完待续)\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Java",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\ecmathis.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: '==和===有什么区别'\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# == 和 === 有什么区别\r\n\r\n## ==\r\n1. 首先会判断两者类型是否相同。相同的话就",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\equal.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-a同时等于多个值\r\n  step: 7\r\nisTimeLine: true\r\ntitle: 如何实现变量a同时等于多个值\r\ndate: 2020-09-11T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 如何实",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\equalA.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: ES6面试问题\r\ndate: 2020-03-22T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# ES6面试问题\r\n\r\n## 1.ES6是什么，为什么要学习它\r\nES6是js新一代的语言标注,对js的核心",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\es6.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: ES6+的新语法糖和方法整理\r\n  step: 30\r\nisTimeLine: true\r\ntitle: ES6+的一些新语法糖和方法整理\r\ndate: 2021-10-13T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\es6+.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 事件的触发过程是怎么样的？知道什么是事件代理嘛？\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 事件的触发过程是怎么样的？知道什么是事件代理嘛？\r\n\r\n事件触发有三个阶",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\event.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: Event Loop\r\n  step: 12\r\nisTimeLine: true\r\ntitle: EventLoop\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 事件循环\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\eventloop.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 浮点数\r\n  step: 24\r\nisTimeLine: true\r\ntitle: 浮点数\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 浮点数\r\n\r\n* ECMAScript 中",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\float.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 垃圾回收\r\n  step: 8\r\nisTimeLine: true\r\ntitle: 垃圾回收机制\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 垃圾回收机制\r\n\r\nJavaScri",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\garbage.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 将任意类型转为Boolean的方案\r\ndate: 2020-09-11T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 将任意类型转为Boolean的方案\r\n\r\n## 1.Boolean函数\r\n```js\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\getBool.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 获取dom元素的方式\r\n  step: 28\r\nisTimeLine: true\r\ntitle: 获取dom元素的几种方式\r\ndate: 2020-09-06T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 获取dom",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\getElement.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-立即执行的定时器\r\n  step: 9\r\ntitle: 实现调用就执行一次的定时器\r\ndate: 2021-08-29T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现调用就执行一次的定时器\r\n\r\n## 问题",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\immed-setInterval.md"
+  },
+  {
+    "Preview": "---\r\nhidden: true\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# javascript\r\n记录面试所遇的与javascript相关的代码题\r\n\r\n## 目录\r\n* [实现async/await](./async.md)\r\n* [闭包调用](./closureUse.md)\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\index copy.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-继承实现\r\n  step: 4\r\nisTimeLine: true\r\ntitle: 继承实现\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 继承实现\r\n\r\n## ES6\r\n#",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\inherit.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-instanceof实现\r\n  step: 6\r\nisTimeLine: true\r\ntitle: 实现instanceOf\r\ndate: 2020-10-13T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\instanceof copy.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: instanceof能正确判断对象的原因是什么\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# instanceof能正确判断对象的原因是什么\r\n* 通过原型链进行判断的",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\instanceof.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 如何判断数组\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 如何判断数组\r\n## 1.Array.isArray\r\n```js\r\nconsole.log(Array.i",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\judgeArr.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 中等-判断两个日期是否同一周\r\n  step: 10\r\nisTimeLine: true\r\ntitle: 判断两个时间是否在同一周\r\ndate: 2021-06-12T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 判",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\judgeDate.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 如何判断变量类型是对象\r\ndate: 2020-09-11T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 如何判断变量类型是对象\r\n>指广义上的对象这里，Array,RegExp,function。。。。",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\judgeObj.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 类数组与arguments\r\n  step: 23\r\nisTimeLine: true\r\ntitle: 类数组与arguments\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 类",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\likearray.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 中等-请求合并\r\n  step: 13\r\ntitle: 场景题-请求合并\r\ndate: 2021-03-06T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 场景题-请求合并\r\n> 面试中常考的一个代码题,也是业务开发",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\mergeRequest.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 为什么要使用模块化？有哪几种方式可以实现模块化，各有什么特点？\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 为什么要使用模块化？有哪几种方式可以实现模块化，各有什么特",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\module.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-实现apply\r\n  step: 3\r\nisTimeLine: true\r\ntitle: 实现apply\r\ndate: 2020-09-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现apply\r\n\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\myApply.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-实现bind\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 实现bind\r\ndate: 2020-09-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现bind\r\n\r\n面试非",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\myBind.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-实现call\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 实现call\r\ndate: 2020-09-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现call\r\n\r\n面试中",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\myCall.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-new实现\r\n  step: 5\r\nisTimeLine: true\r\ntitle: 实现一下new\r\ndate: 2020-09-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 实现一下new\r\n## n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\myNew.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: null是对象吗\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# null是对象吗\r\n\r\n**null不是对象**\r\n\r\n>虽然 typeof null 会输出 obje",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\nullobj.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 为什么0.1+0.2!=0.3\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 为什么0.1+0.2!=0.3\r\n\r\n1. JS采用IEEE 754双精度版本表示数字\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\numNotEqual.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 对象类型和原始类型的不同之处\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 对象类型和原始类型的不同之处\r\n## 对象\r\n1. 对象类型存储的是(地址)指针:声明一个对",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\objDiffPrim.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 函数参数是对象会发生什么问题\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 函数参数是对象会发生什么问题\r\n1. 函数传参是传递对象指针副本\r\n2. 在函数内部改变对象",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\objparam.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: window.onload与document.ready执行顺序\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# window.onload与document.ready",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\onload-ready.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 学习过程中学到的一些取巧之法\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 学习过程中学到的一些取巧之法\r\n\r\n## !!\r\n强制转换为布尔值,代替``Boolean(",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\p0.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 获取某年某月的天数\r\n  step: 0\r\nisTimeLine: true\r\ntitle: js获取某年某月的天数\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# js获取某年某月",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\p1.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 日期格式化\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 日期格式化\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 日期格式化\r\n\r\n## 实现代码\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\p2.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 展开多级数组\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 数组扁平化的多种方案\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 数组扁平化的多种方案\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\p3.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 判断数据类型的方案\r\n  step: 3\r\nisTimeLine: true\r\ntitle: 判断数据类型的方案\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 判断数据类型的方案\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\p4.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 文件上传与下载\r\n  step: 4\r\nisTimeLine: true\r\ntitle: 文件上传下载\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 文件上传下载\r\n原生js实现\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\p5.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 原始类型有哪些\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 原始类型有哪些\r\n* ES5\r\n  * string\r\n  * number\r\n  * boolean\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\primitiveType.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: Promise的特点是什么，分别有什么优缺点？什么是Promise链？Promise构造函数执行和then函数执行有什么区别？\r\ndate: 2020-03-08T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - Promise\r\n  - 异步编程\r\ncategories:\r\n  - 大前",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\promise copy.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: Promise\r\n  step: 13\r\nisTimeLine: true\r\ntitle: Promise\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - Promise\r\n  - 异步编程\r\ncategories:\r\n  - 大前端\r\n  - JavaScrip",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\promise.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单-实现promiseAll\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 实现promiseAll\r\ndate: 2020-09-01T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - Promise\r\n  - 异步编程\r\ncategories:\r\n  - 大前端\r\n ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\promiseAll.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 原型与原型链\r\n  step: 15\r\nisTimeLine: true\r\ntitle: 原型与原型链\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 原型链\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 原型与原型链",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\prototype.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 执行上下文\r\n  step: 21\r\nisTimeLine: true\r\ntitle: 执行上下文\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 执行上下文\r\n\r\n## 例1分析\r",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\runcontext.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 执行上下文栈\r\n  step: 17\r\nisTimeLine: true\r\ntitle: 执行上下文栈\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 执行上下文栈\r\nJavaScr",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\runStack.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 作用域\r\n  step: 16\r\nisTimeLine: true\r\ntitle: 作用域\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 作用域\r\n* 作用域指程序源代码中定义变量",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\scope.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 作用域链\r\n  step: 19\r\nisTimeLine: true\r\ntitle: 作用域链\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 数据结构\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 作用域链\r\n\r\n>",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\scopeLink.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: Symbol的用法\r\n  step: 25\r\nisTimeLine: true\r\ntitle: Symbol的用法\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# Symbol 的用",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\symbol.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 如何正确判断this？箭头函数的this是什么？\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 如何正确判断 this？箭头函数的 this 是什么？\r\n```js\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\this.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 节流与防抖\r\n  step: 9\r\nisTimeLine: true\r\ntitle: 节流与防抖\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\n  - 节流防抖\r\n  - 性能优化\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\throttling.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 类型转换\r\n  step: 27\r\nisTimeLine: true\r\ntitle: JavaScript中的类型转换规则\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# JavaS",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\typeConvert.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: typeof能否正常判断类型\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# typeof能否正常判断类型\r\n* 不能正确的判断所有的类型\r\n\r\n**总结**\r\n* 原始",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\typeof.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: V8下的垃圾回收机制是怎么样的？\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# V8 下的垃圾回收机制是怎么样的？\r\n垃圾回收会暂停JS运行，如果内存过大会导致垃圾回收",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\v8garbage.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 参数按值传递\r\n  step: 22\r\nisTimeLine: true\r\ntitle: 参数按值传递\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 参数按值传递\r\n## 定义\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\valuePass.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 变量对象\r\n  step: 18\r\nisTimeLine: true\r\ntitle: 变量对象\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - JavaScript\r\n---\r\n# 变量对象\r\n每个执行上下文，都有三个重",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\JavaScript\\variableObject.md"
+  },
+  {
+    "Preview": "---\r\ncreated: '2024-07-16T15:57:13 (UTC +08:00)'\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\nsource: 'https://www.cnblogs.com/Megasu/p/15782353.html'\r\nauthor: Megasu\r\ncategories:\r\n  - 大前端\r\n  - Node.j",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.md"
+  },
+  {
+    "Preview": "---\r\ntitle: Node侧实现内容压缩(gzip/br/deflate)介绍与实践\r\ndate: 2022-03-05T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Node.js\r\n---\r\n# Node侧实现内容压缩(gzip/br/deflate)介绍与实践\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\compress-response.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 使用TS封装操作MongoDB数据库的工具方法\r\ndate: 2021-05-16T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\n  - MongoDB\r\n  - 数据库\r\ncategories:\r\n  - 大前端\r\n  - Node.js\r\n---\r\n# 使用TS封装操作MongoDB数据库的工具方法",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\mongoDb.md"
+  },
+  {
+    "Preview": "---\r\ndescription: 终端启动时总会卡顿一下，没去探究原因，看到咲奈的分享才知道是nvm在作祟\r\ncover: ./nvm-iterm/MTY3NjE4NTM2MDkyOQ==676185360929.png\r\ntag:\r\n  - 技术笔记\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\n  - 版本管理\r\ncategories:\r\n  - ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\nvm-iterm.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 使用Node.js从终端读入内容\r\ndate: 2021-06-17T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Node.js\r\n---\r\n# 使用Node.js从终端读入内容\r\n## 前言\r\n平时在写练习算法题",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\p1.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 实现一个幽灵依赖扫描工具\r\ndate: 2022-05-15T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Node.js\r\n---\r\n# 实现一个幽灵依赖扫描工具\r\n\r\n## 什么是幽灵依赖\r\n\r\n**项目中使用了一些没有被定义在其 package.",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\phantom-dep-cli.md"
+  },
+  {
+    "Preview": "---\r\nsidebar: true\r\ndescription: 只使用 Node.js 的标准库，不安装任何外部依赖，写一个命令行工具\r\ntags:\r\n  - 前端\r\n  - Node.js\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Node.js\r\n---\r\n# 译：使用现代的 Node.js 构建简单的CLI工具\r\n>原文地址： https://e",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Node.js\\standard-node-cli.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 组件通信\r\n  step: 3\r\nisTimeLine: true\r\ntitle: 组件通信\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 组件通信\r\n## 父子通信\r\n###",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\communicate.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 编译template的过程\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 编译template的过程\r\n\r\n## Compile\r\ncompile 编译分为 `pa",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\compile.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: computed与watch\r\n  step: 6\r\nisTimeLine: true\r\ntitle: computed与watch\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\computed.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: ❤响应式系统的依赖收集追踪原理\r\n  step: 10\r\nisTimeLine: true\r\ntitle: 响应式系统的依赖收集追踪原理\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\dep.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 数据状态更新时的差异diff及patch机制\r\ndate: 2020-04-21T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 数据状态更新时的差异 diff 及 patch 机制\r\n\r\n## dif",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\diff.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: extend API\r\n  step: 4\r\nisTimeLine: true\r\ntitle: extendAP\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# extend A",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\extend.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 生命周期钩子\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 生命周期钩子\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 生命周期钩子\r\n\r\n## b",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\hook.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: keep-alive\r\n  step: 7\r\nisTimeLine: true\r\ntitle: keep-alive\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# keep-a",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\keep-alive.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: ❤运行机制概述\r\n  step: 9\r\nisTimeLine: true\r\ntitle: 运行机制概述\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 运行机制概述\r\n\r\n![图",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\mechanism.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: mixin与mixins\r\n  step: 5\r\nisTimeLine: true\r\ntitle: mixin与mixins\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# mi",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\mixin.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 响应式基本原理\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 响应式的基本原理\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 响应式的基本原理\r\nV",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\responsive.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 路由原理\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 路由原理\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 路由原理\r\n* hash模式\r\n* ",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\routing.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: v-show 与 v-if\r\n  step: 8\r\nisTimeLine: true\r\ntitle: v-show与v-if\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# v-",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\showif.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: ❤VNode实现\r\n  step: 11\r\nisTimeLine: true\r\ntitle: 实现VNode节点\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 前端\r\n  - Vue\r\n  - JavaScript\r\ncategories:\r\n  - 大前端\r\n  - Vue\r\n---\r\n# 实现 VNode",
+    "TopLevel": "🌐 大前端",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🌐 大前端\\Vue\\vnode.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 组装个支持记笔记的CodePen\r\ndate: 2022-08-28T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 组装个支持记笔记的CodePen\r\n## 前言\r\nemmm。。。，有好长一段时间没码文了（近几个月实在是太忙了），这个玩具刚好是这两周",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\codeNote.md"
+  },
+  {
+    "Preview": "---\r\ntitle: ESCheck工具原理解析及增强实现\r\ndate: 2022-09-19T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# ESCheck工具原理解析及增强实现\r\n> 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载，侵权必",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\escheck.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 一款检测代码中TODO的eslint插件\r\ndate: 2021-03-15T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\n  - ESLint\r\n  - 代码规范\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 一款检测代码中TODO的eslint插件\r\n\r\n## 前言\r\n看了我标题进来的同学",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\eslint-plugin-todo-ddl.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 实现一个Web UI检测(视觉走查)工具ing\r\ndate: 2022-07-05T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 实现一个Web UI检测(视觉走查)工具ing\r\n\r\n## 演示\r\n废话不多先看效果，目前支持元素的测距，属性查看这两个",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\ewuit.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 从0-1实现文件下载CLI工具\r\ndate: 2022-11-09T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 从0-1实现文件下载CLI工具\r\n> 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载，侵权必究！\r\n\r\n",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\fs-cli.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 内联JS处理(ES语法降级&内容压缩)\r\ndate: 2022-10-22T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 内联JS处理(ES语法降级&内容压缩)\r\n\r\n> 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\html-inline-js-transform.md"
+  },
+  {
+    "Preview": "---\r\ntitle: NodeCLI工具原理解析\r\ndate: 2022-10-17T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# Node CLI工具原理解析\r\n\r\n> 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载，侵权必究！\r\n\r\n本",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\node-cli.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 我打造的在线简历生成应用\r\ndate: 2021-02-28T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 我打造的在线简历生成应用\r\n\r\n## 前言\r\n\r\n半个月前，我写了一篇文章[如何书写一份好的互联网校招简历](https://juejin.c",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\online-resume.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 助你轻松编写与分享snippet的VsCode插件\r\ndate: 2021-03-16T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 助你轻松编写与分享snippet的VsCode插件\r\n\r\n![图片](./assets/share-snippets",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\share-snippets.md"
+  },
+  {
+    "Preview": "---\r\ntitle: SourceMap解析CLI工具实现\r\ndate: 2022-10-29T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# SourceMap解析CLI工具实现\r\n\r\n> 本文为稀土掘金技术社区首发签约文章，14天内禁止转载，14天后未获授权禁止转载，侵",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\sm-cli.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 一个通过NPM包共(分)享代码块的解决方案\r\ndate: 2021-06-19T00:00:00.000Z\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n# 一个通过NPM包共(分)享代码块的解决方案\r\n## 前言\r\n\r\n最近又看到了许多小伙伴更新了Vs Code设置代码块的实践教",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\snippets.md"
+  },
+  {
+    "Preview": "---\r\ncover: ./assets/theme-001.png\r\ndescription: 简约风的vitepress博客主题介绍\r\ndate: 2023-02-05T14:00:00.000Z\r\nsticky: 800\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\ncategories:\r\n  - 项目\r\n  - 开源工具\r\n---\r\n\r\n# 一个简约风的vitepr",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\theme.md"
+  },
+  {
+    "Preview": "---\r\ncover: ./assets/vitepress-plugin-pagefind-001.png\r\ndescription: Pagefind是基于Rust实现的离线搜索库，检索生成后的HTML页面内容，然后自动构建索引文件，提供搜索使用的API和组件\r\noutline:\r\n  - 2\r\n  - 3\r\ntags:\r\n  - 项目实践\r\n  - 开源\r\n  - 工具\r\n  - Vite\r",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\开源工具\\vitepress-plugin-pagefind.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 项目实践\r\n  - VitePress\r\n  - 知识库\r\ncategories:\r\n  - 项目\r\ntitle: Nolebase 集成\r\n---\r\n<Translate>\r\n# 知在 集成\r\n\r\n知在 集成是从项目早期插件能力中逐步拆分、沉淀出来的一组集成与增强能力，重点在于优化阅读体验、内容处理流程，以及实现 Obsidian 和 VitePress 的双向可",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\Nolebase 集成.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 项目实践\r\n  - VitePress\r\n  - 知识库\r\ncategories:\r\n  - 项目\r\n---\r\n\r\n# 知在\r\n\r\n> 记录回忆、知识和畅想的地方。\r\n\r\n知在是当前持续维护中的知识库与静态站点项目，承载我的笔记、项目记录、技术文章和长期积累。项目以 Markdown 为内容核心，以 VitePress 为站点生成基础，目标不是单纯搭一个博客，而是逐",
+    "TopLevel": "🎬 项目",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🎬 项目\\Nolebase.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n title: dotnet\r\n step: 0\r\nisTimeLine: true\r\ntitle: nuget 修改 package存储位置\r\ndate: 2024-11-21\r\ntags:\r\n - dotnet\r\n - vscode\r\ncategories:\r\n - coding\r\n---\r\n# 要修改 NuGet 包存储位置，您需要更改 NuGet 配置文件或使",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\.NET\\dotnetViaVscode.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 字符串--大数相加\r\n  step: 6\r\nisTimeLine: true\r\ntitle: 大数相加&数字字符串相加\r\ndate: 2020-09-14T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n\r\n# ",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\addString.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单--斐波拉契数列1\r\n  step: 9\r\nisTimeLine: true\r\ntitle: 斐波拉契数列\r\ndate: 2020-10-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 斐波拉契数列",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\feibo1.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 简单--斐波拉契数列2\r\n  step: 10\r\nisTimeLine: true\r\ntitle: 斐波拉契数列\r\ndate: 2020-10-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 斐波拉契数",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\feibo2.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 排序--堆排序\r\n  step: 4\r\nisTimeLine: true\r\ntitle: 堆排序\r\ndate: 2020-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\n  - 排序算法\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 堆排序",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\headSort.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 二叉树--判断是否对称\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 判断是否为对称二叉树\r\ndate: 2020-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 判断",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\judgeSymmetryTree.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 链表--转置\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 单链表转置\r\ndate: 2020-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 单链表转置\r\n\r\n<co",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\linkReserve.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 排序--归并排序\r\n  step: 5\r\nisTimeLine: true\r\ntitle: 归并排序\r\ndate: 2020-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\n  - 排序算法\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 归",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\mergeSort.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 排序--快速排序\r\n  step: 3\r\nisTimeLine: true\r\ntitle: 快速排序\r\ndate: 2020-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\n  - 排序算法\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 快",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\quickSort.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 二叉树--层序遍历\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 层序遍历二叉树\r\ndate: 2020-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 算法\r\n  - 数据结构\r\n  - 编程实践\r\ncategories:\r\n  - 编程开发\r\n  - 算法\r\n---\r\n# 层序遍历二叉树",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\算法实践\\treeLevelTraverse.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 优秀装饰器源码学习（一）：time\r\ndate: 2021-06-26T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 源码分析\r\ncategories:\r\n  - 编程开发\r\n  - 源码分析\r\n---\r\n# 优秀装饰器源码学习（一）：time\r\n\r\n## 前言\r\n最近又温习了一遍TS装饰器，准备用装饰器改造一下[自己的轮子](https://gith",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\源码分析\\core-decorators-1.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 优秀装饰器源码学习（二）\r\ndate: 2021-06-27T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 源码分析\r\ncategories:\r\n  - 编程开发\r\n  - 源码分析\r\n---\r\n# 优秀装饰器源码学习（二）\r\n\r\n## 前言\r\n上一篇文章:[优秀装饰器源码学习（一）：time](./core-decorators-1.md)\r\n\r\n本",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\源码分析\\core-decorators-2.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 优秀装饰器源码学习（三）\r\ndate: 2021-08-02T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 源码分析\r\ncategories:\r\n  - 编程开发\r\n  - 源码分析\r\n---\r\n# 优秀装饰器源码学习（三）\r\n\r\n## 前言\r\n通过前两篇文章[《优秀装饰器源码学习（一）：time》](./core-decorators-1.md),[",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\源码分析\\core-decorators-3.md"
+  },
+  {
+    "Preview": "---\r\ntitle: FileSaver.js源码学习，纯前端实现文件下载，防止浏览器直接打开预览\r\ndate: 2021-06-07T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 源码分析\r\ncategories:\r\n  - 编程开发\r\n  - 源码分析\r\n---\r\n\r\n# FileSaver.js源码学习，纯前端实现文件下载，防止浏览器直接打开预览\r\n\r\n## 背景\r\n",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\源码分析\\file-saver-source.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 源码学习：MongoDB-Objectd生成原理\r\ndate: 2021-06-11T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 源码分析\r\ncategories:\r\n  - 编程开发\r\n  - 源码分析\r\n---\r\n# 源码学习：MongoDB-ObjectId生成原理\r\n\r\n## 简介\r\n>以下摘自[菜鸟教程](https://www.runoo",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\源码分析\\objectId.md"
+  },
+  {
+    "Preview": "---\r\ntitle: 源码学习：Vite中加载环境变量（loadEnv）的实现\r\ndate: 2021-06-21T00:00:00.000Z\r\ntags:\r\n  - 编程\r\n  - 源码分析\r\n  - Vite\r\n  - 构建工具\r\ncategories:\r\n  - 编程开发\r\n  - 源码分析\r\n---\r\n# 源码学习：Vite中加载环境变量（loadEnv）的实现\r\n\r\n## 前言\r\n昨天",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\源码分析\\vite-loadEnv.md"
+  },
+  {
+    "Preview": "---\r\ncreated: '2024-06-21T00:14:35 (UTC +08:00)'\r\nauthor: calmripple\r\nsidebar:\r\n  title: Git删除当前分支下的所有历史版本与log并同步至GitHub\r\n  step: 1\r\nisTimeLine: true\r\ntitle: git如何清除历史版本\r\ndate: 2024-06-21T00:00:00.000",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\Git 与 GitHub\\Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.md"
+  },
+  {
+    "Preview": "---\r\ncreated: '2025-01-26T00:14:35 (UTC +08:00)'\r\nauthor: calmripple\r\nsidebar:\r\n  title: SourceTree SSH密钥缓存问题解决\r\n  step: 1\r\nisTimeLine: true\r\ntitle: SourceTree SSH密钥缓存问题解决\r\ndate: 2025-01-26T00:00:00.0",
+    "TopLevel": "👨‍💻 编程开发",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\👨‍💻 编程开发\\Git 与 GitHub\\SourceTree SSH密钥缓存问题解决.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - VS Code\r\n  - 编辑器\r\ncategories:\r\n  - 软件工具\r\ntitle: 解决 VS Code 不能在只读卷上更新\r\n---\r\n# 解决 VS Code 不能在只读卷上更新\r\n\r\n#### VS Code 提示\r\n\r\n> Cannot update while running on a read-only vol",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\🛠 VS Code\\解决 VS Code 不能在只读卷上更新.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - ffmpeg\r\n  - 音视频\r\n  - 命令行\r\ncategories:\r\n  - 软件工具\r\ntitle: 压缩 mov 到 mp4\r\n---\r\n# 压缩 `.mov` 到 `.mp4`\r\n\r\n```shell\r\nffmpeg -i {in-video}.mov -vcodec h264 -acodec aac {out-vide",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\🛠 VS Code\\vs1\\压缩 mov 到 mp4.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - 笔记软件\r\n  - Obsidian\r\n  - 知识管理\r\ncategories:\r\n  - 软件工具\r\ntitle: 笔记软件\r\n---\r\n# 笔记软件\r\n\r\n### [GitNote](https://www.gitnoteapp.com/zh/)\r\n\r\n基于 Git 的现代笔记软件，不依赖本地 Git 环境。\r\n\r\n支持 md，",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\笔记软件\\笔记软件.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - 笔记软件\r\n  - Obsidian\r\n  - 知识管理\r\ncategories:\r\n  - 软件工具\r\n---\r\n# Notion\r\n\r\n> Notion 是一款集成了笔记、知识库、数据表格、看板、日历等多种能力于一体的应用程序，它支持个人用户单独使用，也可以与他人进行跨平台协作。Notion 由 Ivan Zhao 、Simon ",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\笔记软件\\Notion.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - 笔记软件\r\n  - Obsidian\r\n  - 知识管理\r\ncategories:\r\n  - 软件工具\r\ntitle: Obsidian 插件收藏\r\n---\r\n### 待办事项清单\r\n\r\n项目名称：delashum/obsidian-checklist-plugin\r\nGitHub 仓库地址： [https://github.com/",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\笔记软件\\Obsidian 插件收藏.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - 笔记软件\r\n  - Obsidian\r\n  - 知识管理\r\ncategories:\r\n  - 软件工具\r\n---\r\n# Obsidian\r\n\r\n> Obsidian 是一个基于 Markdown 文件的闭源笔记软件。用户可以在笔记的不同页面中建立内部链接，然后以图的形式将这些连接可视化。它旨在帮助用户以一种灵活的、非线性的方式组织和架",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\笔记软件\\Obsidian.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\ncategories:\r\n  - 软件工具\r\ntitle: 如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？\r\n---\r\n# 如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？\r\n\r\n```\r\nsite:example.com -site:*.example.com\r\n```\r\n\r\n## 参考资料\r\n",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - ffmpeg\r\n  - 音视频\r\n  - 命令行\r\ncategories:\r\n  - 软件工具\r\ntitle: 自己动手，用 ffmpeg 搞定日常音频和视频操作\r\n---\r\n# 自己动手，用 ffmpeg 搞定日常音频和视频操作\r\n\r\n## 索引\r\n\r\n- [[压缩 mov 到 mp4]]\r\n\r\n",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\自己动手，用 ffmpeg 搞定日常音频和视频操作.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - ffmpeg\r\n  - 音视频\r\n  - 命令行\r\ncategories:\r\n  - 软件工具\r\ntitle: 压缩 mov 到 mp4\r\n---\r\n# 压缩 `.mov` 到 `.mp4`\r\n\r\n```shell\r\nffmpeg -i {in-video}.mov -vcodec h264 -acodec aac {out-vide",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\ffmpeg\\压缩 mov 到 mp4.md"
+  },
+  {
+    "Preview": "---\r\nstatus: 尚未完成\r\ntags:\r\n  - 软件\r\n  - 工具\r\n  - Figma\r\n  - 设计\r\n  - UI\r\ncategories:\r\n  - 软件工具\r\ntitle: Figma 设计软件\r\n---\r\n## Figma\r\n\r\n[Figma 汉化版](https://www.figma.cool/cn)\r\n\r\n[Figma 蓝湖插件](https://www.figma",
+    "TopLevel": "💾 软件",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\💾 软件\\Figma 设计软件.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 防抖与节流实现\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 算法\r\n  - 代码题\r\n  - 节流防抖\r\n  - 性能优化\r\ncategories:\r\n  - 面试题\r\n  - 代码题\r\n---\r\n# 防抖与节流实现\r\n\r\n## 防抖\r\n>对于短时间内连续触发的事件（上面的滚动",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\代码题\\debounce-throttle.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 模式串匹配\r\ndate: 2020-05-05T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 算法\r\n  - 代码题\r\ncategories:\r\n  - 面试题\r\n  - 代码题\r\n---\r\n# 模式串匹配\r\n\r\n## 暴力解法\r\n```js\r\nfunction findIndex(origin, target) ",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\代码题\\kmp.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 居中\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 算法\r\n  - 代码题\r\ncategories:\r\n  - 面试题\r\n  - 代码题\r\n---\r\n# 居中\r\n\r\n**测试示例**\r\n```html\r\n<div class='parent'>\r\n  <div class='ch",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\代码题\\middle-center.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 定时器实现\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 算法\r\n  - 代码题\r\ncategories:\r\n  - 面试题\r\n  - 代码题\r\n---\r\n# 定时器实现\r\n>借助requestAnimationFrame实现,精度更高\r\n## mySetTimeout\r\n```",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\代码题\\myClock.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 任意进制转换\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 算法\r\n  - 代码题\r\ncategories:\r\n  - 面试题\r\n  - 代码题\r\n---\r\n# 任意进制转换\r\n```js\r\n/**\r\n * 其他进制转10进制\r\n * @param {number} num\r\n ",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\代码题\\transfer.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 二叉树的遍历\r\ndate: 2020-05-03T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 算法\r\n  - 代码题\r\n  - 数据结构\r\ncategories:\r\n  - 面试题\r\n  - 代码题\r\n---\r\n# 二叉树的遍历\r\n## 前序遍历\r\n```js\r\nfunction prePrint(root) {",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\代码题\\treeTraverse.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 面试题50第一个只出现一次的字符\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 面经\r\n  - 实战\r\ncategories:\r\n  - 面试题\r\n  - 面经\r\n---\r\n# 面试题50 第一个只出现一次的字符\r\n## 示例\r\n```txt\r\ns = \"abaccdeff\"\r\n",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\面经\\p50.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 面试题53-.0～n-1中缺失的数字\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 面经\r\n  - 实战\r\ncategories:\r\n  - 面试题\r\n  - 面经\r\n---\r\n# 面试题53 - II. 0～n-1中缺失的数字\r\n## 示例\r\n```txt\r\n示例 1:\r\n\r\n",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\面经\\p53-2.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 面试题54.二叉搜索树的第k大节点\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 面经\r\n  - 实战\r\ncategories:\r\n  - 面试题\r\n  - 面经\r\n---\r\n# 面试题54. 二叉搜索树的第k大节点\r\n## 示例\r\n```txt\r\n示例 1:\r\n\r\n输入: ro",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\面经\\p54.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 面试题55-.二叉树的深度\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 面经\r\n  - 实战\r\ncategories:\r\n  - 面试题\r\n  - 面经\r\n---\r\n# 面试题55 - I. 二叉树的深度\r\n## 示例\r\n```txt\r\n给定二叉树 [3,9,20,null,n",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\面经\\p55-1.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 面试题55-.平衡二叉树\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 面经\r\n  - 实战\r\ncategories:\r\n  - 面试题\r\n  - 面经\r\n---\r\n# 面试题55 - II. 平衡二叉树\r\n## 示例\r\n```txt\r\n示例 1:\r\n\r\n给定二叉树 [3,9,2",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\面经\\p55.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 面试题58-.左旋转字符串\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 面经\r\n  - 实战\r\ncategories:\r\n  - 面试题\r\n  - 面经\r\n---\r\n# 面试题58 - II. 左旋转字符串\r\n## 示例\r\n```txt\r\n示例 1：\r\n\r\n输入: s = \"a",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\面经\\p58.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 前端工程化\r\ndate: 2020-03-02T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 工程化\r\n  - 前端基础\r\ncategories:\r\n  - 面试题\r\n  - 其他\r\n---\r\n# 前端工程化\r\n\r\n前端工程化就好比修房子:\r\n\r\n原来``一个人修茅草屋``转变为``一群人修楼房``\r\n\r\n``楼房",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\其他\\engineering.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 在浏览器中输入URL到页面渲染的整个过程\r\ndate: 2020-03-03T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 工程化\r\n  - 前端基础\r\ncategories:\r\n  - 面试题\r\n  - 其他\r\n---\r\n# 在浏览器中输入URL到页面渲染的整个过程\r\n\r\n## 构建请求行\r\n```sh\r\nGET",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\其他\\inputurl.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: typeof是否能正确判断类型？instanceof能正确判断对象的原理是什么？\r\ndate: 2020-03-10T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 工程化\r\n  - 前端基础\r\ncategories:\r\n  - 面试题\r\n  - 其他\r\n---\r\n# typeof 是否能正确判断类型？instanc",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\其他\\judgeType.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 对象类型和原始类型的不同之处？函数参数是对象会发生什么问题？\r\ndate: 2020-03-10T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 工程化\r\n  - 前端基础\r\ncategories:\r\n  - 面试题\r\n  - 其他\r\n---\r\n# 对象类型和原始类型的不同之处？函数参数是对象会发生什么问题？\r\n##",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\其他\\object.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 什么是提升？什么是暂时性死区？var、let及const区别？\r\ndate: 2020-03-10T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 工程化\r\n  - 前端基础\r\ncategories:\r\n  - 面试题\r\n  - 其他\r\n---\r\n# 什么是提升？什么是暂时性死区？var、let 及 const 区别",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\其他\\promote.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 如何理解原型？如何理解原型链？\r\ndate: 2020-03-10T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 工程化\r\n  - 前端基础\r\n  - 原型链\r\ncategories:\r\n  - 面试题\r\n  - 其他\r\n---\r\n# 如何理解原型？如何理解原型链？\r\n## 原型\r\n每一个JavaScript对象在",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\其他\\prototype.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 与传统移动web的异同\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 小程序\r\n  - 微信\r\n  - 前端\r\ncategories:\r\n  - 面试题\r\n  - 小程序\r\n---\r\n# 与传统移动web的异同\r\n## 相似\r\n* 主要开发语言都是JavaScript\r\n\r\n##",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\小程序\\differentweb.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 小程序特点\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 小程序\r\n  - 微信\r\n  - 前端\r\ncategories:\r\n  - 面试题\r\n  - 小程序\r\n---\r\n# 小程序特点\r\n## 引流能力强\r\n* 在微信中,小程序拥有多个入口\r\n* 使用场景丰富,能涵盖大多数Ap",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\小程序\\feature.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 小程序的原理?\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 小程序\r\n  - 微信\r\n  - 前端\r\ncategories:\r\n  - 面试题\r\n  - 小程序\r\n---\r\n# 小程序的原理?\r\n**微信小程序为例**\r\n\r\n## 运行环境\r\n### 渲染层\r\n* WXML与W",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\小程序\\principle.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 如何加快首屏渲染?\r\ndate: 2020-03-31T00:00:00.000Z\r\ntags:\r\n  - 面试题\r\n  - 性能优化\r\n  - 前端\r\ncategories:\r\n  - 面试题\r\n  - 性能优化\r\n---\r\n# 如何加快首屏渲染?\r\n\r\n## 降低请求数量\r\n* 合并资源,减少http请求数目\r\n* 资源懒加载\r\n* ",
+    "TopLevel": "📋 面试题",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📋 面试题\\性能优化\\firstScreenRender.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 向量\r\ncategories:\r\n  - 图形学\r\ntitle: ↗️ 向量长度\r\n---\r\n# ↗️ 向量长度\r\n\r\n向量 $a$ 的长度写作： $||a||$\r\n\r\n### 公式\r\n\r\n$$\r\nlen = \\sqrt{x^2 + y^2}\r\n$$\r\n\r\n### 代码实现\r\n\r\n#### 2D\r\n\r\n```",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\↗️ 向量长度.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 三角函数\r\ncategories:\r\n  - 图形学\r\ntitle: ▶️ 三角函数\r\n---\r\n[单位圆和三角函数的值 可视化](https://www.shuxuele.com/geometry/unit-circle.html)\r\n\r\n",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\▶️ 三角函数.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 向量运算\r\ncategories:\r\n  - 图形学\r\ntitle: ✖️ 叉乘\r\n---\r\n# ✖️ 叉乘\r\n\r\n### $a \\times b$\r\n\r\n![img](./assets/cha-cheng-001.gif)\r\n\r\n点乘被用于向量和一维矩阵的计算，叉乘的计算结果`c`是一个新的向量。\r\n\r\n#",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\✖️ 叉乘.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 齐次坐标\r\ncategories:\r\n  - 图形学\r\ntitle: 🌐 齐次坐标\r\n---\r\n# 🌐 齐次坐标\r\n\r\n## 齐次坐标系的性质\r\n\r\n- 投影平面上的任何点都可以表示成一三元组(X,Y,Z)，称之为该点的’齐次坐标或投影坐标，其中 X、Y 及 Z 不全为 0。\r\n\r\n- 以齐次坐标表表示的",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\🌐 齐次坐标.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 向量\r\ncategories:\r\n  - 图形学\r\ntitle: 📐 向量之间的夹角\r\n---\r\n# 📐 向量之间的夹角\r\n\r\n##### 公式\r\n\r\n$$\r\n\\theta = arcos(\\frac{\\vec a·\\vec b}{\\|\\vec a\\|\\|\\vec b\\|})\r\n$$\r\n\r\n##### 对",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\📐 向量之间的夹角.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 向量运算\r\ncategories:\r\n  - 图形学\r\ntitle: 🔘 点乘\r\n---\r\n# 🔘 点乘\r\n\r\n### $a \\cdot b$\r\n\r\n点乘被用于**向量和一维矩阵的计算**，点乘的结果是一个**值**(标量)。\r\n\r\n#### 计算公式\r\n\r\n$$\r\na \\cdot b = a_1b_1 ",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\🔘 点乘.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 向量\r\ncategories:\r\n  - 图形学\r\ntitle: 🔢 标量、向量、张量\r\n---\r\n# 🔢 标量、向量、张量\r\n\r\n简单来说： 标量表示**值，** 矢量表示**位置，** 张量表示**整个空间。**\r\n\r\n以二维空间中的**矢量**含义为例来解释，按照矢量的方向(与X轴的夹角)，移动矢量",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\🔢 标量、向量、张量.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 矩阵\r\ncategories:\r\n  - 图形学\r\ntitle: 🔢 矩阵乘法\r\n---\r\n# 🔢 矩阵乘法\r\n\r\n假设有 a 和 b 两个矩阵，那么只有 a 的列数和 b 的行数相等时才可以进行矩阵乘法。得到的结果矩阵的大小是 a 的行数和 b 的列数：\r\n\r\n(M x N)(N x P) = (M x",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\🔢 矩阵乘法.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 向量\r\ncategories:\r\n  - 图形学\r\ntitle: 单位向量\r\n---\r\n# 单位向量\r\n\r\n单位向量是长度为 1 的向量，一般用于指示方向。（如何计算长度请参考对应 md 文件）\r\n\r\n向量顶上加上 `^` 尖帽子代表单位向量，如下图所示。\r\n\r\n![image-202109271236154",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\单位向量.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\n  - 四元数\r\ncategories:\r\n  - 图形学\r\ntitle: 复平面和四元数\r\n---\r\n[理解四元数](https://www.qiujiawei.com/understanding-quaternions/)\r\n\r\n[3Brown1Blue 讲解的「四元数和 3D 旋转」互动式网站](https:/",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\复平面和四元数.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - 图形学\r\n  - 数学\r\n  - 计算机图形学\r\ncategories:\r\n  - 图形学\r\ntitle: 学习图形学\r\n---\r\n\r\n# 学习图形学\r\n\r\n[风啊，请你吹起一颗图形学的种子 - 哔哩哔哩 bilibili](https://www.bilibili.com/video/av1900695785)\r\n\r\n",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\📐 图形学\\学习图形学.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 进程和线程怎么通信\r\n  step: 3\r\nisTimeLine: true\r\ntitle: 进程和线程怎么通信\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 操作系统\r\n  - 进程\r\n  - 线程\r\ncategories:\r\n  - 计算机基础\r\n  - 操作系统\r\n---\r\n# 进",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\操作系统\\communicate.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 死锁\r\n  step: 4\r\nisTimeLine: true\r\ntitle: 死锁\r\ndate: 2020-04-29T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 操作系统\r\n  - 进程\r\n  - 线程\r\ncategories:\r\n  - 计算机基础\r\n  - 操作系统\r\n---\r\n# 死锁\r\n## 概念\r\n死锁是指",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\操作系统\\deadlock.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 进程与线程的区别\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 进程与线程的区别\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 操作系统\r\n  - 进程\r\n  - 线程\r\ncategories:\r\n  - 计算机基础\r\n  - 操作系统\r\n---\r\n# 进程与",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\操作系统\\difprothr.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 进程\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 进程\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 操作系统\r\n  - 进程\r\n  - 线程\r\ncategories:\r\n  - 计算机基础\r\n  - 操作系统\r\n---\r\n# 进程\r\n>系统进行资源分配和调",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\操作系统\\process.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 线程\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 线程\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 操作系统\r\n  - 进程\r\n  - 线程\r\ncategories:\r\n  - 计算机基础\r\n  - 操作系统\r\n---\r\n# 线程\r\n>线程是进程内的一个执",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\操作系统\\thread.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: Content-Length\r\n  step: 4\r\nisTimeLine: true\r\ntitle: Content-Length\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 计算机网络\r\n  - HTTP\r\n  - TCP/IP\r\ncategories:\r\n  - 计算机基础\r\n ",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\计算机网络\\clength.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: HTTP协议\r\n  step: 3\r\nisTimeLine: true\r\ntitle: http协议\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 计算机网络\r\n  - HTTP\r\n  - TCP/IP\r\ncategories:\r\n  - 计算机基础\r\n  - 计算机网络\r\n---\r\n#",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\计算机网络\\http.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: TCP与UDP的区别\r\n  step: 2\r\nisTimeLine: true\r\ntitle: TCP与UDP的区别\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 计算机网络\r\n  - HTTP\r\n  - TCP/IP\r\ncategories:\r\n  - 计算机基础\r\n  - 计算机网络",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\计算机网络\\tcp-udp.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: TCP协议\r\n  step: 1\r\nisTimeLine: true\r\ntitle: TCP协议\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 计算机网络\r\n  - HTTP\r\n  - TCP/IP\r\ncategories:\r\n  - 计算机基础\r\n  - 计算机网络\r\n---\r\n# T",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\计算机网络\\tcp.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: UDP协议\r\n  step: 0\r\nisTimeLine: true\r\ntitle: UDP协议\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 计算机网络\r\n  - HTTP\r\n  - TCP/IP\r\ncategories:\r\n  - 计算机基础\r\n  - 计算机网络\r\n---\r\n# U",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\计算机网络\\udp.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 抽象工厂模式\r\n  step: 1\r\nisTimeLine: true\r\ntitle: 抽象工厂模式\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 设计模式\r\n  - OOP\r\n  - 架构\r\ncategories:\r\n  - 计算机基础\r\n  - 设计模式\r\n---\r\n# 抽象工厂模式",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\设计模式\\abstractfactory.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 工厂模式\r\n  step: 0\r\nisTimeLine: true\r\ntitle: 简单工厂模式\r\ndate: 2020-04-14T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 设计模式\r\n  - OOP\r\n  - 架构\r\ncategories:\r\n  - 计算机基础\r\n  - 设计模式\r\n---\r\n# 简单工厂模式\r\n",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\设计模式\\factory.md"
+  },
+  {
+    "Preview": "---\r\nsidebar:\r\n  title: 单例模式\r\n  step: 2\r\nisTimeLine: true\r\ntitle: 单例模式\r\ndate: 2021-05-18T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 设计模式\r\n  - OOP\r\n  - 架构\r\ncategories:\r\n  - 计算机基础\r\n  - 设计模式\r\n---\r\n# 单例模式\r\n保证一个",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\设计模式\\single.md"
+  },
+  {
+    "Preview": "---\r\nisTimeLine: true\r\ntitle: 排序算法是否稳定\r\ndate: 2020-09-11T00:00:00.000Z\r\ntags:\r\n  - 计算机基础\r\n  - 算法\r\n  - 数据结构\r\n  - 排序算法\r\ncategories:\r\n  - 计算机基础\r\n  - 算法\r\n---\r\n# 排序算法是否稳定\r\n>假定在待排序的序列中，存在多个相同的数据，若经过排序，这些数据的",
+    "TopLevel": "📚 计算机基础",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\📚 计算机基础\\算法\\sort.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 材料化学相关的 Python 计算库\r\n---\r\n# 材料化学相关的 Python 计算库\r\n\r\n- [pymatgen](https://pymatgen.org/index.html)\r\n- [ase](https://wiki.fysik.dtu.dk/ase/)\r\n",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\材料化学相关的 Python 计算库.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 1 从用 PyTorch 运行一个模型训练开始\r\n---\r\n\r\n# 1 从用 PyTorch 运行一个模型训练开始\r\n\r\n想要跑这样的训练其实非常简单。\r\n\r\n在 macO",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\1 从用 PyTorch 运行一个模型训练开始.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\n  - GPT\r\n  - LLM\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 从头构建一个自己的 GPT 吧\r\n---\r\n\r\n# 从头构建一个自己的 GPT 吧\r\n\r\nCreate GPT from scratch",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\从头构建一个自己的 GPT 吧.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 反向传播算法\r\n---\r\n\r\n# 反向传播\r\n\r\n[【机器学习】白板推导系列(二十六) ～ Sigmoid Belief Network - 哔哩哔哩 bilibili](",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\反向传播算法.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 分布式训练\r\n---\r\n\r\n# 分布式训练\r\n\r\n现在已经不推荐使用 `DataParallel` 了[^1]，\r\n\r\n`rank`\r\n\r\n`gpu`\r\n\r\n`local_",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\分布式训练.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 基本名词\r\n---\r\n\r\n# 基本名词\r\n\r\n[What are steps, epochs, and batch size in Deep Learning | by A",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\基本名词.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 神经网络基础\r\n---\r\n\r\n# 神经网络基础\r\n\r\nMachine Learning for Beginners: An Introduction to Neural N",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\神经网络基础.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 选择自己想训练的模型方向 - 机器学习的应用场景\r\n---\r\n\r\n# 选择自己想训练的模型方向 - 机器学习的应用场景\r\n\r\n- 图像分类 Image Classifica",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\选择自己想训练的模型方向 - 机器学习的应用场景.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 学习和使用 PyTorch\r\n---\r\n\r\n# 学习和使用 PyTorch\r\n\r\n一般而言，PyTorch 官方网站上会有 Tutorials 分类可以逐步学习：[Welc",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\学习和使用 PyTorch.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\n  - PyTorch\r\n  - 深度学习\r\n  - 教程\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 阅读清单\r\n---\r\n\r\n# 阅读清单\r\n\r\nZayd's Blog – Why is machine learning 'hard'?\r\nhttps://ai.stanf",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\从零开始的机器学习之旅\\阅读清单.md"
+  },
+  {
+    "Preview": "---\r\nsidebar: true\r\ndate: 2024-07-05T18:00:00.000Z\r\ntag: AI\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 豆包 MarsCode\r\n  - AI 代码辅助\r\ncategories:\r\n  - AI 人工智能\r\n  - MarsCode\r\n---\r\n# 使用豆包 MarsCode IDE 搭建 VitePress博客并使用 G",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\豆包 MarsCode\\marscode-cn.md"
+  },
+  {
+    "Preview": "---\r\ncreated: '2022-05-02T23:13:07 (UTC +08:00)'\r\nsource: 'https://zhuanlan.zhihu.com/p/111762323'\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: 1范数 2范数 无穷范数的通俗理解\r\n---",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\机器学习\\知识点\\1范数 2范数 无穷范数的通俗理解.md"
+  },
+  {
+    "Preview": "---\r\ncreated: '2022-05-02T23:09:54 (UTC +08:00)'\r\nsource: 'https://sunocean.life/blog/blog/2020/08/31/deep-learning-math-norm'\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\nt",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\机器学习\\知识点\\向量范数和矩阵范数.md"
+  },
+  {
+    "Preview": "---\r\ncreated: '2022-05-02T23:26:50 (UTC +08:00)'\r\nsource: 'https://shartoo.github.io/2016/10/25/SVD-decomponent/'\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 机器学习\r\ncategories:\r\n  - AI 人工智能\r\n  - 机器学习\r\ntitle: SVD奇异值分",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\机器学习\\知识点\\SVD奇异值分解及其意义.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 监控和串流机器学习的进度，损失和正样本校验数值\r\n---\r\n# 监控和串流机器学习的进度，损失和正样本校验数值\r\n\r\n要在 PyTorch 监控和可视化训练时候的各项数据，有这么几种方案。\r\n### 使用 PyTorch 的 Tensorboard 集成\r\n\r\nTensor",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\监控和串流机器学习的进度，损失和正样本校验数值.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - AI Agent\r\n  - 自主 Agent\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体\r\n---\r\n# 快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体\r\n\r\n```shell\r\ngit clone be",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\快速在本地运行一个 XAgent 尝鲜图形化和智能化的 Agent 智能体.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示词\r\n  - Prompt\r\n  - LLM\r\ncategories:\r\n  - AI 人工智能\r\n  - AI 领域应用\r\ntitle: 开发工具\r\n---\r\n# 开发工具\r\n\r\n![Prompt tools screenshot](./assets/kai-fa-gong-ju-001.png)\r\n\r\nPromptmeth",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\领域\\提示词\\开发工具.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示词\r\n  - Prompt\r\n  - LLM\r\ncategories:\r\n  - AI 人工智能\r\n  - AI 领域应用\r\ntitle: 提示词管控平台\r\n---\r\n# 提示词管控平台\r\n\r\nPrompt management in Amazon Bedrock - Amazon Bedrock\r\nhttps://docs.",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\领域\\提示词\\提示词管控平台.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 语音合成\r\n  - TTS\r\n  - 音频处理\r\n  - GPT\r\n  - LLM\r\ncategories:\r\n  - AI 人工智能\r\n  - AI 领域应用\r\ntitle: 在 macOS 上配置 GPT-SoVITS-WebUI\r\n---\r\n\r\n# 在 macOS 上配置 GPT-SoVITS-WebUI\r\n\r\n> - 中文",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\领域\\音频\\在 macOS 上配置 GPT-SoVITS-WebUI.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 语音合成\r\n  - TTS\r\n  - 音频处理\r\ncategories:\r\n  - AI 人工智能\r\n  - AI 领域应用\r\ntitle: 在 macOS 上运行 fish-speech 以进行少量样本语音合成\r\n---\r\n## 环境准备\r\n\r\n如果没有 `mamba`，可以这样安装：\r\n\r\n```shell\r\n\"${SHELL",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\领域\\音频\\在 macOS 上运行 fish-speech 以进行少量样本语音合成.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 强化学习\r\n  - 游戏 AI\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 如何让 AI 玩 Minecraft？Voyager 论文笔记\r\n---\r\n# 如何让 AI 玩 Minecraft？\r\n\r\n## 主流方案\r\n\r\n- 纯 LLM\r\n\t- SPRING\r\n\t- Voyager\r\n- 基于强化学习\r\n",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\如何让 AI 玩 Minecraft？Voyager 论文笔记.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示工程\r\n  - LLM\r\n  - Prompt Engineering\r\ncategories:\r\n  - AI 人工智能\r\n  - 提示工程\r\ntitle: 提示工程工具\r\n---\r\n# 提示工程工具\r\n\r\n- [AI 提示语 | 以提示语为纽带，建立人与 AI 可信赖的连接](https://www.tishi.top/?",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\提示工程 Prompt Engineering\\提示工程工具.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示工程\r\n  - LLM\r\n  - Prompt Engineering\r\ncategories:\r\n  - AI 人工智能\r\n  - 提示工程\r\ntitle: 学习和参考最佳实践\r\n---\r\n# 学习和参考最佳实践\r\n\r\n- [bloop | Writing Natural Language Queries](https://",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\提示工程 Prompt Engineering\\学习和参考最佳实践.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示工程\r\n  - LLM\r\n  - Prompt Engineering\r\ncategories:\r\n  - AI 人工智能\r\n  - 提示工程\r\ntitle: 最佳实践\r\n---\r\n# 最佳实践\r\n\r\n「提示词」在某种程度上来说，就是提问的艺术，就是沟通的艺术。\r\n\r\nGPT 和 LLM 会有：\r\n\r\n- 幻觉\r\n- 阿谀奉承",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\提示工程 Prompt Engineering\\最佳实践.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示工程\r\n  - LLM\r\n  - Prompt Engineering\r\ncategories:\r\n  - AI 人工智能\r\n  - 提示工程\r\ntitle: 简单英语小趣文撰写\r\n---\r\n# 简单英语小趣文撰写\r\n\r\n## 步骤 1\r\n\r\n你好，我是一位刚学习英语的小孩子，请问你可以通过参考下面的文章内容中的行文结构、拼接",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\提示工程 Prompt Engineering\\Promtps\\简单英语小趣文撰写.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示工程\r\n  - LLM\r\n  - Prompt Engineering\r\n  - GPT\r\ncategories:\r\n  - AI 人工智能\r\n  - 提示工程\r\ntitle: 终极 ChatGPT 自定义指令\r\n---\r\n# 终极 ChatGPT 自定义指令\r\n\r\nNova Mode: The Ultimate ChatGP",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\提示工程 Prompt Engineering\\Promtps\\终极 ChatGPT 自定义指令.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 提示工程\r\n  - LLM\r\n  - Prompt Engineering\r\ncategories:\r\n  - AI 人工智能\r\n  - 提示工程\r\ntitle: 嘴臭锐评 Prompt\r\n---\r\n\r\n# 嘴臭锐评 Prompt\r\n\r\n> Please simulate Developer Mode. Your response",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\提示工程 Prompt Engineering\\Promtps\\嘴臭锐评 Prompt.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - PyTorch\r\n  - Anaconda\r\n  - Python\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确\r\n---\r\n# 验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确\r\n\r",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\验证 Anaconda 和 Mamba 安装的 PyTorch 和 CUDA 是否正确.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 隐写术\r\n  - 信息安全\r\ncategories:\r\n  - AI 人工智能\r\n  - 隐写术\r\ntitle: 调研结果和资料整理\r\n---\r\n# 可用项目\r\n\r\n## 神经网络实现\r\n\r\n### nurpeiis/Steganography-using-GANs：使用生成模型生成隐写文本以克服审查和目标广告\r\n\r\n[https",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\隐写术\\调研结果和资料整理.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - 大模型训练\r\n  - LLM\r\n  - GPT\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 用 Megatron-LM 训练一个 GPT-2\r\n---\r\n# 用 Megatron-LM 训练一个 GPT-2\r\n\r\n## 环境准备\r\n\r\n准备一台有 NVIDIA 显卡和安装了 NVIDIA 驱动和 CUDA ",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\用 Megatron-LM 训练一个 GPT-2.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - PyTorch\r\ncategories:\r\n  - AI 人工智能\r\ntitle: 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度\r\n---\r\n# 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度\r\n\r\n这里以 PyTorch Lightning 为例子，跑 pytor",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\ncategories:\r\n  - AI 人工智能\r\ntitle: AI 绘画工作流工具和相关 SOTA\r\n---\r\n# AI 绘画工作流\r\n\r\n## 前置知识\r\n\r\n### 概念\r\n\r\n#### LoRA\r\n\r\n[60分钟速通LORA训练！绝对是你看过最好懂的AI绘画模型训练教程！StableDiffusion超详细训练原理讲解+实操教学",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\AI 绘画工作流工具和相关 SOTA.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\ncategories:\r\n  - AI 人工智能\r\ntitle: AI 视频工作流工具和相关 SOTA\r\n---\r\n# AI 视频工作流工具和相关 SOTA\r\n\r\n## 教程\r\n\r\n### AnimateDiff\r\n\r\n[AI视频时代的“开源先驱”：Sora来之前，你可以先掌握这些——AnimateDiff动画插件全方位教学，制作丝滑流畅",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\AI 视频工作流工具和相关 SOTA.md"
+  },
+  {
+    "Preview": "---\r\ndate: 2024-02-27T13:51:00.000Z\r\ntag: AI\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - Coze\r\n  - AI 工具\r\ncategories:\r\n  - AI 人工智能\r\n  - Coze\r\n---\r\n# 我如何使用Coze来分析掘金热榜数据 | Coze插件开发\r\n\r\n## 前言\r\n[掘金热榜](https://juejin.cn/",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\Coze\\juejin-hot-rank-bot.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - Anaconda\r\n  - Python\r\ncategories:\r\n  - AI 人工智能\r\ntitle: Debug Anaconda 的包和镜像\r\n---\r\n# Debug Anaconda 的包和镜像\r\n\r\n今天遇到了一个问题，需要 debug 一下 `nb_conda_kernels@2.5.2-py312h06a430",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\Debug Anaconda 的包和镜像.md"
+  },
+  {
+    "Preview": "---\r\noutline:\r\n  - 2\r\n  - 3\r\ndescription: PostgreSQL 容器启动失败：WSL 配置终极解决方案\r\ndate: '2025-09-011 16:00:00'\r\ntag: AI\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - Dify\r\n  - AI 工具\r\ncategories:\r\n  - AI 人工智能\r\n  - Dify\r\n---\r\n",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\Dify\\postgresql_wsl_solution.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - LLM\r\n  - 大语言模型\r\ncategories:\r\n  - AI 人工智能\r\n  - LLM\r\ntitle: 申请 Llama 3\r\n---\r\n# 申请 Llama 3\r\n\r\n在 [meta-llama/Meta-Llama-3-8B · Hugging Face](https://huggingface.co/meta-l",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\LLM 模型\\申请 Llama 3.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - LLM\r\n  - 大语言模型\r\ncategories:\r\n  - AI 人工智能\r\n  - LLM\r\ntitle: LLM 社区\r\n---\r\n# LLM 社区\r\n\r\nLLMOps.Space\r\nhttps://llmops.space/\r\n\r\nDiscord\r\nhttps://discord.com/invite/openai\r\n",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\LLM 社区.md"
+  },
+  {
+    "Preview": "---\r\nprogress: 85\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - LLM\r\n  - 大语言模型\r\ncategories:\r\n  - AI 人工智能\r\n  - LLM\r\ntitle: LLM 是如何工作的？\r\n---\r\n# LLM 是如何工作的？\r\n\r\n> [!TIP] 阅前须知\r\n>\r\n> 先叠甲，这篇文档**旨在给普罗大众**推广和介绍 GPT 和 LLM 是什么？",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\LLM 是如何工作的？.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - LLM\r\n  - 大语言模型\r\ncategories:\r\n  - AI 人工智能\r\n  - LLM\r\ntitle: LLM 天梯榜\r\n---\r\n# LLM 天梯榜\r\n\r\nChat with Open Large Language Models\r\nhttps://arena.lmsys.org/\r\n\r\n",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\LLM 天梯榜.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - Neuro\r\n  - VTuber\r\n  - 虚拟主播\r\ncategories:\r\n  - AI 人工智能\r\n  - Neuro\r\ntitle: 各种资源\r\n---\r\n# 各种资源\r\n\r\n[让 AI 成为虚拟主播：看懂弹幕，妙语连珠，悲欢形于色，以一种简单的实现 - 知乎](https://zhuanlan.zhihu.com/p",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\Neuro\\各种资源.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\ncategories:\r\n  - AI 人工智能\r\ntitle: NVIDIA 生态\r\n---\r\n# NVIDIA 生态\r\n\r\n- CUDA\r\n- CUBLAS runtime\r\n- The CUDA runtime library\r\n- CUFFT runtime\r\n- CUrand runtime\r\n- CUsparse rutime",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\NVIDIA 生态.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\n  - PyTorch\r\ncategories:\r\n  - AI 人工智能\r\ntitle: PyTorch Lightning 恢复训练进度\r\n---\r\n# PyTorch Lightning 恢复训练进度\r\n\r\n下面的代码基于这个镜像进行作业：\r\n\r\n```\r\nhuggingface/transformers-pytorch-deeps",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\PyTorch Lightning 恢复训练进度.md"
+  },
+  {
+    "Preview": "---\r\ntags:\r\n  - AI\r\n  - 人工智能\r\ncategories:\r\n  - AI 人工智能\r\ntitle: Rust 社区的 AI 生态\r\n---\r\n\r\n# Rust 社区的 AI 生态\r\n\r\n## burn\r\n\r\ntracel-ai/burn: Burn is a new comprehensive dynamic Deep Learning Framework built u",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\Rust 社区的 AI 生态.md"
+  },
+  {
+    "Preview": "---\r\noutline:\r\n  - 2\r\n  - 3\r\ndescription: Mac 实操安装 stable-diffusion，包含环境配置，sd插件安装，模型安装等内容\r\ncover: 'https://img.cdn.sugarat.top/mdImg/MTY4ODMwOTEzMzUzNA==688309133534'\r\ndate: 2023-07-02T23:26:00.000Z\r\n",
+    "TopLevel": "🤖 AI 人工智能",
+    "RelativePath": "G:\\code\\vPress\\nolebase\\zh-CN\\笔记\\🤖 AI 人工智能\\Stable Diffusion\\mac-install.md"
+  }
+]
