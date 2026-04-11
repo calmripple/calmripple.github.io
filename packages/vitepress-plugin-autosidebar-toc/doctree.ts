@@ -19,7 +19,7 @@ const execFileAsync = promisify(execFile)
 // 获取文件的 git 最后提交时间。
 async function getGitLastModified(filePath: string): Promise<Date | undefined> {
   try {
-    const { stdout } = await execFileAsync('git', ['log', '-1', '--format=%aI', '--', filePath], {
+    const { stdout } = await execFileAsync('git', ['log', '-1', '--format=%cI', '--', filePath], {
       cwd: resolve(filePath, '..'),
     })
     const trimmed = stdout.trim()
