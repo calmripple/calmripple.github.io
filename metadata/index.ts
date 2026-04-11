@@ -4,15 +4,15 @@ import { getAvatarUrlByGithubName } from '../scripts/utils'
 /** 文本 */
 export const siteName = '知在'
 export const siteShortName = '知在'
-export const siteDescription = '记录回忆，知识和畅想的地方'
+export const siteDescription = '参与并理解世界'
 
 /** 文档所在目录 */
 export const include = ['笔记', '生活']
 
 /** Repo */
-export const githubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
+export const githubRepoLink = 'https://github.com/knewbeing/nolebase'
 /** 历史仓库 */
-export const legacyGithubRepoLink = 'https://github.com/knewbeing/nolebase'
+export const legacyGithubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
 /** Mastodon */
 export const mastodonLink = 'https://mas.to/@knewbeing'
 
@@ -27,7 +27,7 @@ export const creators: Creator[] = [
     name: 'knewbeing',
     avatar: '',
     username: 'knewbeing',
-    title: 'Nolebase 作者',
+    title: '知在 作者',
     desc: '全栈开发者，专注于 VitePress、前端工具链、开源项目开发',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/knewbeing' },

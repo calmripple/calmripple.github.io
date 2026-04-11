@@ -8,38 +8,40 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/XuNFDcDZGj"><img src="https://img.shields.io/discord/1229292283657195520?style=flat&logo=discord&logoColor=white&label=Discord&color=%23404eed" /></a>
-  <a href="https://t.me/+6WKTUzWijf1kMzFl"><img src="https://img.shields.io/badge/Group-%235AA9E6?logo=telegram&label=Telegram" /></a>
-</p>
-
-<p align="center">
   <a href="https://www.dmsrs.org/sponsors">
     <img src="https://cdn.jsdelivr.net/gh/calmripple/sponsors/sponsors.svg"/>
   </a>
 </p>
 
 <p align="center">
-Test
   这个项目得以实现，要感谢所有支持我们的 Sponsors<br>
   你也可以访问我们的 Sponsors 页面来加入其中：
-
 </p>
 <p align="center">
-<a href="https://github.com/sponsors/beknowing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
-<a href="https://github.com/sponsors/beingknowing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Neko&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
+<a href="https://github.com/sponsors/knewbeing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=knewbeing&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
 </p>
 
 
 # 知在
 
-**记录回忆，知识和畅想的地方**
+**参与并理解世界**
 
-本项目英文名为 knewbeing，中文名为「知在」。
+本项目英文名为 knewbing，中文名为「知在」。
 
 > [!NOTE]
-> 当前项目由 beingknowing 与 beknowing 维护。当前仓库为 https://github.com/calmripple/calmripple.github.io。
+> 当前项目由 knewbeing（钮必赢）维护。当前仓库为 https://github.com/knewbeing/nolebase。
 >
-> 本项目的部分结构、命名沿革与早期思路承接自原始 nolebase 项目，原始仓库为 https://github.com/nolebase/nolebase，原始作者为絢香音与絢香猫，亦可称为“小音”和“猫猫”。当前仓库在持续整理、改写和扩展内容的同时，保留并尊重原作者及相关贡献者的版权与贡献。
+> 历史仓库：https://github.com/calmripple/calmripple.github.io
+>
+> 本项目的部分结构、命名沿革与早期思路承接自原始 nolebase 项目，原始仓库为 https://github.com/nolebase/nolebase，原始作者为絢香音与絢香猫，亦可称为"小音"和"猫猫"。当前仓库在持续整理、改写和扩展内容的同时，保留并尊重原作者及相关贡献者的版权与贡献。
+
+## 项目理念
+
+**"知在" 的含义**：此在，此刻的存在情境和实际展开的生活世界；觉知，是我们与"在"建立关联的方式。
+
+- 没有"知"，存在是未被显现的潜在
+- 有了"知"，存在被分节、被命名、被理解，从而成为生活的一部分
+- "知在"即我们通过知识与觉知，参与并理解所处的存在情境和生活世界的过程
 
 ## 特点
 
@@ -572,13 +574,13 @@ tags:
 
 当前支持的来源有：
 
-| Archive 自 |
-| ---- |
+| Archive 自     |
+| -------------- |
 | 微信公众号文章 |
-| CSDN |
-| ADDitude |
-| The Verge |
-| 知乎 |
+| CSDN           |
+| ADDitude       |
+| The Verge      |
+| 知乎           |
 
 ###### Archive 创建于
 
@@ -610,9 +612,9 @@ tags:
 ```markdown
 ##### Archive 信息
 
-| Archive 自 | Archive 创建于 | 分类 | 原始作者 | 原始地址 | 原始资源创建时间 | 原始资源更新时间 |
-| ---------- | ------------ | ---- | ------- | ------- | ------------- | ------------- |
-| Medium | 2022-10-29 16:30 | 文章 | 作者 Alpha | [链接](https://example.com) | 2022-10-29 16:30 | 2022-10-29 16:30 |
+| Archive 自 | Archive 创建于   | 分类 | 原始作者   | 原始地址                    | 原始资源创建时间 | 原始资源更新时间 |
+| ---------- | ---------------- | ---- | ---------- | --------------------------- | ---------------- | ---------------- |
+| Medium     | 2022-10-29 16:30 | 文章 | 作者 Alpha | [链接](https://example.com) | 2022-10-29 16:30 | 2022-10-29 16:30 |
 ```
 
 #### 文档兼容性
@@ -640,8 +642,8 @@ tags:
 ```markdown
 ### 文档兼容性
 
-| 主体 | 版本号 | 文档地址（如果有） |
-| -- | -- | -- |
+| 主体        | 版本号 | 文档地址（如果有）                      |
+| ----------- | ------ | --------------------------------------- |
 | NebulaGraph | v2.6.1 | https://docs.nebula-graph.com.cn/2.6.1/ |
 ```
 

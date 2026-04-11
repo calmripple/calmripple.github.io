@@ -25,17 +25,17 @@ function getPaginationRange(
   current: number,
   total: number,
 ): (number | "...")[] {
-  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+  if (total <= 10) return Array.from({ length: total }, (_, i) => i + 1);
   const pages: (number | "...")[] = [1];
-  if (current > 3) pages.push("...");
+  if (current > 5) pages.push("...");
   for (
-    let i = Math.max(2, current - 1);
-    i <= Math.min(total - 1, current + 1);
+    let i = Math.max(2, current - 3);
+    i <= Math.min(total - 1, current + 3);
     i++
   ) {
     pages.push(i);
   }
-  if (current < total - 2) pages.push("...");
+  if (current < total - 4) pages.push("...");
   pages.push(total);
   return pages;
 }
@@ -44,33 +44,33 @@ const TAG_SHOW_LIMIT = 20;
 const showAllTags = ref(false);
 
 const TAG_COLORS_LIGHT = [
-  { bg: '#fff0f0', color: '#c9362a', border: '#f5c4c0' },
-  { bg: '#fff4e6', color: '#b85c14', border: '#f5d9b3' },
-  { bg: '#fff9db', color: '#8a7400', border: '#f0e4a0' },
-  { bg: '#ebfbee', color: '#237a34', border: '#b7e4c0' },
-  { bg: '#e6fcf5', color: '#087a62', border: '#a3e0d0' },
-  { bg: '#e7f5ff', color: '#1564b0', border: '#a5d2f5' },
-  { bg: '#edf2ff', color: '#3050c8', border: '#b3c7f5' },
-  { bg: '#f3f0ff', color: '#5a36c4', border: '#c4b5f0' },
-  { bg: '#fdf0ff', color: '#882ea0', border: '#dfb3f0' },
-  { bg: '#fff0f6', color: '#ad1d50', border: '#f0b3cc' },
-  { bg: '#f0fffe', color: '#0a6b76', border: '#a3d9df' },
-  { bg: '#f4f8e8', color: '#4e6a0c', border: '#c5d99e' },
+  { bg: "#fff0f0", color: "#c9362a", border: "#f5c4c0" },
+  { bg: "#fff4e6", color: "#b85c14", border: "#f5d9b3" },
+  { bg: "#fff9db", color: "#8a7400", border: "#f0e4a0" },
+  { bg: "#ebfbee", color: "#237a34", border: "#b7e4c0" },
+  { bg: "#e6fcf5", color: "#087a62", border: "#a3e0d0" },
+  { bg: "#e7f5ff", color: "#1564b0", border: "#a5d2f5" },
+  { bg: "#edf2ff", color: "#3050c8", border: "#b3c7f5" },
+  { bg: "#f3f0ff", color: "#5a36c4", border: "#c4b5f0" },
+  { bg: "#fdf0ff", color: "#882ea0", border: "#dfb3f0" },
+  { bg: "#fff0f6", color: "#ad1d50", border: "#f0b3cc" },
+  { bg: "#f0fffe", color: "#0a6b76", border: "#a3d9df" },
+  { bg: "#f4f8e8", color: "#4e6a0c", border: "#c5d99e" },
 ];
 
 const TAG_COLORS_DARK = [
-  { bg: '#3a1c1c', color: '#f5a8a2', border: '#5c2d2d' },
-  { bg: '#3a2a14', color: '#f5c88a', border: '#5c4020' },
-  { bg: '#3a3510', color: '#e8d56a', border: '#5c5020' },
-  { bg: '#1a3320', color: '#82d896', border: '#2a4a32' },
-  { bg: '#14322c', color: '#6edcbf', border: '#204a3c' },
-  { bg: '#162a3f', color: '#7bbdf5', border: '#203c5c' },
-  { bg: '#1c2445', color: '#92a8f5', border: '#2a3660' },
-  { bg: '#261c40', color: '#b8a0f0', border: '#3a2c5c' },
-  { bg: '#301a38', color: '#d4a0e8', border: '#4a2c56' },
-  { bg: '#361a2a', color: '#f09cba', border: '#502a40' },
-  { bg: '#14302e', color: '#6ad4dc', border: '#204a46' },
-  { bg: '#283210', color: '#b8d47a', border: '#3c4a1c' },
+  { bg: "#3a1c1c", color: "#f5a8a2", border: "#5c2d2d" },
+  { bg: "#3a2a14", color: "#f5c88a", border: "#5c4020" },
+  { bg: "#3a3510", color: "#e8d56a", border: "#5c5020" },
+  { bg: "#1a3320", color: "#82d896", border: "#2a4a32" },
+  { bg: "#14322c", color: "#6edcbf", border: "#204a3c" },
+  { bg: "#162a3f", color: "#7bbdf5", border: "#203c5c" },
+  { bg: "#1c2445", color: "#92a8f5", border: "#2a3660" },
+  { bg: "#261c40", color: "#b8a0f0", border: "#3a2c5c" },
+  { bg: "#301a38", color: "#d4a0e8", border: "#4a2c56" },
+  { bg: "#361a2a", color: "#f09cba", border: "#502a40" },
+  { bg: "#14302e", color: "#6ad4dc", border: "#204a46" },
+  { bg: "#283210", color: "#b8d47a", border: "#3c4a1c" },
 ];
 
 function hashStr(s: string): number {
@@ -86,9 +86,9 @@ function tagStyle(name: string, isActive: boolean) {
   const palette = isDark.value ? TAG_COLORS_DARK : TAG_COLORS_LIGHT;
   const c = palette[hashStr(name) % palette.length];
   return {
-    '--tag-bg': c.bg,
-    '--tag-color': c.color,
-    '--tag-border': c.border,
+    "--tag-bg": c.bg,
+    "--tag-color": c.color,
+    "--tag-border": c.border,
   };
 }
 </script>
@@ -108,8 +108,16 @@ function tagStyle(name: string, isActive: boolean) {
               @click="selectTag(tag)"
             >
               {{ tag }}
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </span>
           </div>
@@ -226,14 +234,21 @@ function tagStyle(name: string, isActive: boolean) {
         <h3 class="sidebar-card__title">🏷️ 标签</h3>
         <div class="sidebar-tags">
           <button
-            v-for="tag in (showAllTags ? allTags : allTags.slice(0, TAG_SHOW_LIMIT))"
+            v-for="tag in showAllTags
+              ? allTags
+              : allTags.slice(0, TAG_SHOW_LIMIT)"
             :key="tag.name"
-            :class="['sidebar-tag', { 'is-active': selectedTags.has(tag.name) }]"
+            :class="[
+              'sidebar-tag',
+              { 'is-active': selectedTags.has(tag.name) },
+            ]"
             :style="tagStyle(tag.name, selectedTags.has(tag.name))"
             @click="selectTag(tag.name)"
           >
             {{ tag.name }}
-            <span v-if="tag.count >= 0" class="sidebar-tag__count">{{ tag.count }}</span>
+            <span v-if="tag.count >= 0" class="sidebar-tag__count">{{
+              tag.count
+            }}</span>
           </button>
         </div>
         <button
@@ -241,7 +256,7 @@ function tagStyle(name: string, isActive: boolean) {
           class="sidebar-tags__toggle"
           @click="showAllTags = !showAllTags"
         >
-          {{ showAllTags ? '收起' : `展开全部 ${allTags.length} 个标签` }}
+          {{ showAllTags ? "收起" : `展开全部 ${allTags.length} 个标签` }}
         </button>
       </div>
     </aside>
@@ -408,7 +423,10 @@ function tagStyle(name: string, isActive: boolean) {
   padding: 1px 8px;
   font-size: 11px;
   color: var(--tag-color, var(--vp-c-brand-1));
-  background: var(--tag-bg, color-mix(in srgb, var(--vp-c-brand-soft) 25%, transparent));
+  background: var(
+    --tag-bg,
+    color-mix(in srgb, var(--vp-c-brand-soft) 25%, transparent)
+  );
   border: 1px solid var(--tag-border, transparent);
   border-radius: 10px;
   cursor: pointer;
