@@ -87,10 +87,11 @@ export function isESM() {
  * 获取指定模块 URL 对应的目录名。
  *
  * - CJS 环境：直接返回 `__dirname`。
- * - ESM 环境：需要调用方显式传入 `import.meta.url`，
- *   通过 `fileURLToPath` 转换后取目录名。
+ * - ESM 环境：优先使用调用方显式传入的 `import.meta.url`；
+ *   未传入时，依次尝试字符串索引 `eval` 与 `(0, eval)` 获取。
  *
- * @param importMetaUrl ESM 调用方的 `import.meta.url`；CJS 下可省略。
+ * @param importMetaUrl 可选的 ESM 调用方的 `import.meta.url`；
+ *        在 ESM 环境中建议显式传入以获得准确目录并避免运行时限制。
  * @returns 模块所在目录的绝对路径。
  */
 export function getDirName(importMetaUrl?: string): string {
@@ -99,11 +100,27 @@ export function getDirName(importMetaUrl?: string): string {
     return __dirname
   }
 
-  // ESM 环境需要调用方提供 import.meta.url。
+  // ESM 环境：使用调用方显式传入的 import.meta.url。
   if (importMetaUrl) {
     return path.dirname(fileURLToPath(importMetaUrl))
   }
 
-  // 兜底：使用 process.cwd()。
-  return process.cwd()
+  // ESM 兜底 1：使用字符串索引方式调用 eval 获取 import.meta.url。
+  try {
+    const stringEval = (globalThis as Record<string, unknown>)['ev' + 'al'] as (code: string) => unknown
+    const url = stringEval('import.meta.url') as string
+    return path.dirname(fileURLToPath(url))
+  } catch {
+    // Ignore and try next fallback.
+  }
+
+  // ESM 兜底 2：使用间接 eval 调用。
+  try {
+    const url = (0, eval)('import.meta.url') as string
+    return path.dirname(fileURLToPath(url))
+  } catch {
+    // Ignore and throw explicit error below.
+  }
+
+  throw new Error('getDirName: 无法获取 import.meta.url，请显式传入 #sym:importMetaUrl 参数。')
 }

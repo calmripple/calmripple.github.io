@@ -1,6 +1,9 @@
-import { resolve } from 'node:path'
+import { dirname, resolve } from 'node:path'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
+import { copyFile, mkdir } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
+import { readFileSync } from 'node:fs'
 import type {
   DirNode,
   MarkdownMeta,
@@ -13,6 +16,33 @@ import type {
 import { toVitePressDirectoryRoute, toVitePressPageRoute } from './routing'
 import { computeDirectoryDisplayTitle, computeFileDisplayTitle, readMarkdownMeta } from './markdown'
 import { getFrontmatterDate } from './frontmatter'
+import { getFrontmatterString } from './frontmatter'
+
+// 解析 cover 图片：将相对路径的图片复制到 public/covers/ 并返回可用的公共 URL。
+async function resolveCoverImage(
+  cover: string | undefined,
+  mdAbsolutePath: string,
+  publicDir: string,
+): Promise<string | null> {
+  if (!cover) return null
+  if (/^https?:\/\//.test(cover)) return cover
+  if (cover.startsWith('/')) return cover
+
+  const imgAbsPath = resolve(dirname(mdAbsolutePath), cover)
+  try {
+    const buf = readFileSync(imgAbsPath)
+    const hash = createHash('md5').update(buf).digest('hex').slice(0, 8)
+    const ext = cover.replace(/.*\./, '.')
+    const destName = `${hash}${ext}`
+    const destDir = resolve(publicDir, 'covers')
+    await mkdir(destDir, { recursive: true })
+    await copyFile(imgAbsPath, resolve(destDir, destName))
+    return `/covers/${destName}`
+  }
+  catch {
+    return null
+  }
+}
 
 const execFileAsync = promisify(execFile)
 
@@ -49,6 +79,7 @@ export async function createDoctreeFileEntry(
   dirKey: string,
   fileName: string,
   cache: Map<string, MarkdownMeta>,
+  publicDir?: string,
 ): Promise<TocSidebarFileEntry> {
   const relativePath = dirKey === '/' ? fileName : `${dirKey}/${fileName}`
   const absolutePath = resolve(baseDir, relativePath)
@@ -65,6 +96,11 @@ export async function createDoctreeFileEntry(
     gitDate,
   )
 
+  const rawCover = getFrontmatterString(meta.frontmatter, 'cover') ?? getFrontmatterString(meta.frontmatter, 'image')
+  const coverUrl = publicDir
+    ? await resolveCoverImage(rawCover, absolutePath, publicDir)
+    : rawCover ?? null
+
   return {
     name: fileName,
     path: relativePath,
@@ -73,6 +109,8 @@ export async function createDoctreeFileEntry(
     frontmatter: meta.frontmatter,
     h1: meta.h1 ?? null,
     updatedAt: bestDate ? bestDate.toISOString() : null,
+    excerpt: meta.excerpt ?? null,
+    cover: coverUrl,
   }
 }
 
@@ -83,6 +121,7 @@ export async function createDoctreeDirectoryEntry(
   dirName: string,
   sourceTree: Map<string, DirNode>,
   cache: Map<string, MarkdownMeta>,
+  publicDir?: string,
 ): Promise<TocSidebarDirectoryEntry> {
   const childKey = dirKey === '/' ? dirName : `${dirKey}/${dirName}`
   const childNode = sourceTree.get(childKey)
@@ -98,7 +137,7 @@ export async function createDoctreeDirectoryEntry(
 
   if (hasIndex) {
     item.link = toVitePressDirectoryRoute(`${childKey}/index.md`)
-    item.indexFile = await createDoctreeFileEntry(baseDir, childKey, 'index.md', cache)
+    item.indexFile = await createDoctreeFileEntry(baseDir, childKey, 'index.md', cache, publicDir)
   }
 
   return item
@@ -110,6 +149,7 @@ export async function serializeSingleDirectoryNode(
   sourceTree: Map<string, DirNode>,
   baseDir: string,
   cache: Map<string, MarkdownMeta>,
+  publicDir?: string,
 ): Promise<TocSidebarRawTreeNode | null> {
   const lookupKey = dirKey === '/' ? '' : dirKey
   const node = sourceTree.get(lookupKey)
@@ -119,13 +159,13 @@ export async function serializeSingleDirectoryNode(
 
   const directoryItems = await Promise.all(
     [...node.directories].map(dirName =>
-      createDoctreeDirectoryEntry(baseDir, dirKey, dirName, sourceTree, cache),
+      createDoctreeDirectoryEntry(baseDir, dirKey, dirName, sourceTree, cache, publicDir),
     ),
   )
   const fileItems = await Promise.all(
     [...node.files]
       .filter(fileName => fileName.endsWith('.md'))
-      .map(fileName => createDoctreeFileEntry(baseDir, dirKey, fileName, cache)),
+      .map(fileName => createDoctreeFileEntry(baseDir, dirKey, fileName, cache, publicDir)),
   )
 
   return { path: dirKey, directoryItems, fileItems }
@@ -136,18 +176,19 @@ export async function serializeDoctreeTree(
   sourceTree: Map<string, DirNode>,
   baseDir: string,
   cache: Map<string, MarkdownMeta>,
+  publicDir?: string,
 ): Promise<TocSidebarRawTree> {
   const payload: TocSidebarRawTree = {}
 
   for (const [dirPath, node] of sourceTree.entries()) {
     const key = dirPath || '/'
     const directoryItems = await Promise.all(
-      [...node.directories].map(dirName => createDoctreeDirectoryEntry(baseDir, key, dirName, sourceTree, cache)),
+      [...node.directories].map(dirName => createDoctreeDirectoryEntry(baseDir, key, dirName, sourceTree, cache, publicDir)),
     )
     const fileItems = await Promise.all(
       [...node.files]
         .filter(fileName => fileName.endsWith('.md'))
-        .map(fileName => createDoctreeFileEntry(baseDir, key, fileName, cache)),
+        .map(fileName => createDoctreeFileEntry(baseDir, key, fileName, cache, publicDir)),
     )
 
     payload[key] = {

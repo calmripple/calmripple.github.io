@@ -133,6 +133,9 @@ export interface MarkdownMeta {
 
   /** 解析后的阅读时长（分钟）。 */
   readingTime?: number
+
+  /** 从正文提取的摘要文本。 */
+  excerpt?: string
 }
 
 /**
@@ -189,6 +192,12 @@ export interface TocSidebarFileEntry {
 
   /** 更新时间（ISO 字符串）；不存在时为 `null`。 */
   updatedAt: string | null
+
+  /** 文章摘要。 */
+  excerpt: string | null
+
+  /** 封面图片 URL。 */
+  cover: string | null
 }
 
 /**
@@ -256,6 +265,20 @@ export interface AutoTocResolverOptions {
  * `AutoTocResolverOptions` 的别名，便于兼容不同命名。
  */
 export type TocSidebarResolverOptions = AutoTocResolverOptions
+
+/**
+ * `createTocSidebarComponentResolver` 的统一配置项。
+ *
+ * 可按组件名单独覆盖 `componentName`（注册别名）与 `from`（来源路径）。
+ */
+export interface TocSidebarComponentResolverOptions {
+  /** {@link AutoToc} 组件的覆盖配置。 */
+  AutoToc?: AutoTocResolverOptions
+  /** {@link SidebarArticleList} 组件的覆盖配置。 */
+  SidebarArticleList?: AutoTocResolverOptions
+  /** {@link BlogHome} 组件的覆盖配置。 */
+  BlogHome?: AutoTocResolverOptions
+}
 
 /**
  * 当前插件会读取的最小 Vite 用户配置结构。

@@ -10,7 +10,7 @@ import type {
   TocSidebarBuildOptions,
   ViteUserConfigLike,
 } from './types'
-import { createAutoTocComponentResolver, createSidebarArticleListComponentResolver } from './client/resolvers'
+import { createTocSidebarComponentResolver } from './client/resolvers'
 import { invalidateMarkdownMetaCache } from './markdown'
 import { scanMarkdownFilesWithDirectoryWalker, buildDirectoryTreeFromFiles } from './scanner'
 import { buildFlatSidebarForAllDirectories, normalizeSidebarRootPath, normalizeAutoNavOptions, DEFAULT_OPTIONS } from './sidebar'
@@ -28,6 +28,7 @@ export type {
   ResolvedTocSidebarOptions,
   ThemeConfigLike,
   TocSidebarBuildOptions,
+  TocSidebarComponentResolverOptions,
   TocSidebarDirectoryEntry,
   TocSidebarDoctreePayload,
   TocSidebarFileEntry,
@@ -40,8 +41,7 @@ export type {
 } from './types'
 
 export {
-  createAutoTocComponentResolver,
-  createSidebarArticleListComponentResolver,
+  createTocSidebarComponentResolver,
 }
 
 // ── 虚拟模块 ────────────────────────────────────────────────────────────
@@ -187,9 +187,16 @@ export function createTocSidebarVitePlugin(
     }, RECOMPUTE_DEBOUNCE_MS)
   }
 
+  let publicDir = resolve(process.cwd(), 'public')
+
   return {
     name: 'vitepress-plugin-autosidebar-toc:inject',
     enforce: 'post',
+    configResolved(config: any) {
+      if (config.publicDir) {
+        publicDir = config.publicDir
+      }
+    },
     resolveId(id) {
       if (id === VIRTUAL_MODULE_ID) {
         return RESOLVED_VIRTUAL_MODULE_ID
@@ -225,7 +232,7 @@ export function createTocSidebarVitePlugin(
         const idx = Number.parseInt(idxStr, 10)
         const dirKey = dirKeys[idx]
         if (dirKey == null) return `export default null`
-        const node = await serializeSingleDirectoryNode(dirKey, sourceTree, baseDir, cache)
+        const node = await serializeSingleDirectoryNode(dirKey, sourceTree, baseDir, cache, publicDir)
         return `export default ${JSON.stringify(node)}`
       }
 

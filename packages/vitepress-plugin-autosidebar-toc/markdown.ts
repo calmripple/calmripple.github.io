@@ -16,6 +16,25 @@ export function extractPrimaryHeading(markdownBody: string): string | undefined 
   return matched?.[1]?.trim()
 }
 
+// 从 markdown 正文中提取纯文本摘要（去除标题、代码块、链接、图片等）。
+export function extractExcerpt(markdownBody: string, maxLength = 200): string | undefined {
+  const lines = markdownBody
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/^#+\s+.+$/gm, '')
+    .replace(/!\[.*?\]\(.*?\)/g, '')
+    .replace(/\[([^\]]*)\]\(.*?\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/^[-*>]\s*/gm, '')
+    .replace(/\|.*\|/g, '')
+    .split('\n')
+    .map(l => l.trim())
+    .filter(l => l.length > 0)
+
+  const text = lines.join(' ')
+  if (!text) return undefined
+  return text.length > maxLength ? `${text.slice(0, maxLength)}…` : text
+}
+
 // 将 markdown 原始数据解析为带有常用 Nolebase 字段的元数据对象。
 export function parseMarkdownMeta(data: unknown, markdownBody: string): MarkdownMeta {
   const frontmatter = toFrontmatter(data)
@@ -31,6 +50,10 @@ export function parseMarkdownMeta(data: unknown, markdownBody: string): Markdown
     updatedAt: getFrontmatterDate(frontmatter, 'updatedAt'),
     wordsCount: getFrontmatterNumber(frontmatter, 'wordsCount'),
     readingTime: getFrontmatterNumber(frontmatter, 'readingTime'),
+    excerpt: getFrontmatterString(frontmatter, 'description')
+      ?? getFrontmatterString(frontmatter, 'excerpt')
+      ?? getFrontmatterString(frontmatter, 'summary')
+      ?? extractExcerpt(markdownBody),
   }
 }
 

@@ -1,7 +1,7 @@
 import { Buffer } from 'node:buffer'
 import { resolve } from 'node:path'
 import process from 'node:process'
-import { createAutoTocComponentResolver, createTocSidebarVitePlugin, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
+import { createTocSidebarComponentResolver, createTocSidebarVitePlugin, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
@@ -137,10 +137,11 @@ const tocSidebarOptions: TocSidebarBuildOptions = {
   nav: {
     insertMode: 'replace',
     navBuilder: [
-      { text: '主页', link: '/' },
+      { text: '🏠 主页', link: '/' },
+      { text: '📑 目录', link: '/toc' },
       { navDir: '笔记', level: 2, subMenuIncludeGlobs: ['**/*.md'], subMenuExcludeGlobs: [] },
       { navDir: '编目 Catalog', level: 2, subMenuIncludeGlobs: ['**/*.md'], subMenuExcludeGlobs: [] },
-      { text: '关于我', link: '/aboutme.md' },
+      { text: '👤 关于我', link: '/aboutme.md' },
     ],
   },
   debug: true,
@@ -218,7 +219,7 @@ export default defineConfig({
         include: [/\.vue$/, /\.md$/],
         dirs: [componentsDirPath],
         resolvers: [
-          createAutoTocComponentResolver({ componentName: 'AutoToc' })
+          createTocSidebarComponentResolver(),
         ],
         dts: componentsDtsPath,
       }),

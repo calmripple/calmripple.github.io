@@ -6,7 +6,6 @@ tags:
 categories:
   - AI 人工智能
 title: 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度
-  yong-p-y-t-o-r-c-h-l-i-g-h-t-n-i-n-g-jian-kong-he-chuan-liu-p-y-t-o-r-c-h-de-xun-lian-jin-du
 ---
 # 用 PyTorch Lightning 监控和串流 PyTorch 的训练进度
 

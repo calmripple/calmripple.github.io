@@ -9,8 +9,10 @@
   "files": [
     "dist",
     "client/AutoToc.vue",
+    "client/BlogHome.vue",
     "client/SidebarArticleList.vue",
     "client/useTocEntries.ts",
+    "client/useBlogHome.ts",
     "globals.d.ts"
   ],
   "scripts": {
@@ -31,8 +33,9 @@
       "default": "./dist/index.js"
     },
     "./client/AutoToc.vue": "./client/AutoToc.vue",
+    "./client/BlogHome.vue": "./client/BlogHome.vue",
     "./client/SidebarArticleList.vue": "./client/SidebarArticleList.vue",
-    "./client/useTocEntries": "./client/useTocEntries.ts"
+    "./client/useTocEntries": "./client/useTocEntries.ts",
+    "./client/useBlogHome": "./client/useBlogHome.ts"
   }
 }
-
