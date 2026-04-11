@@ -79,14 +79,14 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 ### 指定文件内容作为代码块
 这里以几个简单的vue3代码块为例：
 
-![图片](./assets/snippets-004.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMTcwODU3OQ%3D%3Dss-template.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYyNDExMTcwODU3OQ==ss-template.gif)
 
 编写者只需要指定代码块`内容文件的相对路径`和`激活代码块的前缀`两项配置即可
 
 ### Vue组件的代码块
 以一个默认的 `my-input` 组件进行演示示例
 
-![图片](./assets/snippets-005.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMjM3MjM3NQ%3D%3Dss-vue.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYyNDExMjM3MjM3NQ==ss-vue.gif)
 
 支持完整的属性提示，支持以sp-开头展示组件的所有的可用属性
 
@@ -94,7 +94,7 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 以一个默认的 `MyButton` 组件进行演示示例
 
 
-![图片](./assets/snippets-006.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDExMjg1ODQ5OQ%3D%3Dss-react.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYyNDExMjg1ODQ5OQ==ss-react.gif)
 
 ## 总结
 个人认为，此插件不仅可以帮助编写与分享代码块

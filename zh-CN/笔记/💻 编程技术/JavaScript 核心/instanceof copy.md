@@ -19,7 +19,7 @@ categories:
 
 ## 原型链
 
-![](./instanceof copy/instanceof-copy-aae747-001.png)
+<!-- 图片缺失: instanceof-copy-aae747-001.png -->
 
 ## instanceOf实现
 

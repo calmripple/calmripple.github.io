@@ -146,7 +146,7 @@ console.log("%cred%cblue","color:red;","color:blue")
 ## 实时表达式
 ![图片](./assets/chrome-debug2-015.png)
 
-![](./assets/chrome-debug2-016.gif?s1=https%3A//wingman-1300536089.file.myqcloud.com//chrome/C03/live-expression.gif)
+![](https://wingman-1300536089.file.myqcloud.com//chrome/C03/live-expression.gif)
 
 ![图片](./assets/chrome-debug2-017.png)
 

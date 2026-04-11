@@ -344,7 +344,7 @@ export function setSchema(data, key = '') {
 
 ```html
 <link rel="stylesheet" href="./online-resume/jsoneditor.min.css?s1=https%3A//img.cdn.sugarat.top/css/jsoneditor.min.css">
-<script src="./online-resume/jsoneditor.min.js?s1=https%3A//img.cdn.sugarat.top/js/jsoneditor.min.js"></script>
+<script src="https://img.cdn.sugarat.top/js/jsoneditor.min.js"></script>
 ```
 
 初始化
@@ -1042,12 +1042,12 @@ function updatePage(data) {
 
 **效果**
 
-![图片](./assets/online-resume-017.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYxNDU2ODM4MjQzNw%3D%3D%25E6%25B7%25B1%25E5%25BA%25A6%25E5%25BD%2595%25E5%25B1%258F_%25E9%2580%2589%25E6%258B%25A9%25E5%258C%25BA%25E5%259F%259F_20210301111206.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYxNDU2ODM4MjQzNw==%E6%B7%B1%E5%BA%A6%E5%BD%95%E5%B1%8F_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20210301111206.gif)
 
 ### 点哪改哪
 
 **期望效果**
-![图片](./assets/online-resume-018.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYxNDU3MzIyODM5Mw%3D%3Dresume-update.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYxNDU3MzIyODM5Mw==resume-update.gif)
 
 诉求：
 * 点击需要修改的部分,就能进行修改操作

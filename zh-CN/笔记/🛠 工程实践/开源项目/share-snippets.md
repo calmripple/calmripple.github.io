@@ -27,7 +27,7 @@ categories:
 老规矩,先给大家简单说说这个是干嘛的,有什么用
 
 ### 效果
-![](./assets/share-snippets-003.gif?s1=https%3A//img.cdn.sugarat.top/images/snippet/snippet1.gif)
+![](https://img.cdn.sugarat.top/images/snippet/snippet1.gif)
 
 **助你简单快速编写模板代码的snippet**
 

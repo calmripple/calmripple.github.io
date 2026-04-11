@@ -240,7 +240,7 @@ export default defineComponent({
 ```
 
 ### 效果
-![图片](./assets/uni-vue3-cli_2-002.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYyNDQzMDYzMDE0Nw%3D%3Dvuex4.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYyNDQzMDYzMDE0Nw==vuex4.gif)
 
 
 ## Axios

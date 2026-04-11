@@ -830,10 +830,10 @@ const viteService = spawn('vite', params, {
 ## 5 效果 - 接入Vite前后对比
 启动提速≈70% - 80% HMR速度碾压
 ### 5.1 Vue SPA
-![图片](./assets/webapck2vite-012.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYzNTE2OTU0MzgyMA%3D%3Dvue.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYzNTE2OTU0MzgyMA==vue.gif)
 
 ### 5.2 React SPA
-![图片](./assets/webapck2vite-013.gif?s1=https%3A//img.cdn.sugarat.top/mdImg/MTYzNTA3MDM3NDkyMQ%3D%3Dreact-demo2.gif)
+![图片](https://img.cdn.sugarat.top/mdImg/MTYzNTA3MDM3NDkyMQ==react-demo2.gif)
 
 ## 6 总结与展望
 
