@@ -1,3 +1,30 @@
+/**
+ * @knewbeing/vitepress-plugin-autosidebar-toc - VitePress 自动目录和博客插件
+ *
+ * 核心功能：
+ * - 自动扫描 Markdown 文档，生成侧边栏和导航配置
+ * - 提取 Frontmatter 元数据，生成文章索引和目录树
+ * - 提供开箱即用的组件：BlogHome（博客首页）、AutoToc（文章目录）、SidebarArticleList（文章列表）
+ * - 虚拟模块 `virtual:@knewbeing/toc-sidebar-doctree` 用于实时访问生成的数据
+ *
+ * @module @knewbeing/vitepress-plugin-autosidebar-toc
+ *
+ * @example
+ * // VitePress 配置中使用
+ * import { createTocSidebarVitePlugin } from '@knewbeing/vitepress-plugin-autosidebar-toc'
+ *
+ * export default {
+ *   vite: {
+ *     plugins: [
+ *       createTocSidebarVitePlugin({
+ *         baseDir: './docs',
+ *         scanDirs: ['posts/', 'notes/'],
+ *       }),
+ *     ],
+ *   },
+ * }
+ */
+
 import { writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { toNormalizedAbsolutePath } from '@knewbeing/utils'
@@ -17,29 +44,54 @@ import { buildFlatSidebarForAllDirectories, normalizeSidebarRootPath, normalizeA
 import { buildNavFromBuilder, insertNavItems, orderNavItems } from './nav'
 import { createDoctreePayload, stringifyDoctreePayload, serializeSingleDirectoryNode } from './doctree'
 
-// ── Re-exports ──────────────────────────────────────────────────────────
+// ── 导出 - 类型定义 ──────────────────────────────────────────────────────────
+// 暴露插件所有配置和数据类型，便于类型推断和 IDE 智能提示
 
 export type {
+  /** 导航选项 */
   AutoNavOption,
+  /** 组件解析器配置 */
   AutoTocResolverOptions,
+  /** 目录树节点 */
   DirNode,
+  /** 文件 Frontmatter 元数据 */
   Frontmatter,
+  /** 解析后的 Markdown 文件元数据 */
   MarkdownMeta,
+  /** 插件配置（已解析）*/
   ResolvedTocSidebarOptions,
+  /** VitePress 主题配置 */
   ThemeConfigLike,
+  /** 插件构建选项（主要配置接口）*/
   TocSidebarBuildOptions,
+  /** 组件解析器统一配置选项 */
   TocSidebarComponentResolverOptions,
+  /** 侧边栏目录条目 */
   TocSidebarDirectoryEntry,
+  /** 虚拟模块输出的 doctree 完整数据结构 */
   TocSidebarDoctreePayload,
+  /** 文件条目（包含元数据） */
   TocSidebarFileEntry,
+  /** 导航选项配置 */
   TocSidebarNavOptions,
+  /** Vite 插件类型定义 */
   TocSidebarPlugin,
+  /** 原始目录树结构 */
   TocSidebarRawTree,
+  /** 原始目录树节点 */
   TocSidebarRawTreeNode,
+  /** 解析器选项别名 */
   TocSidebarResolverOptions,
+  /** Vite 用户配置结构 */
   ViteUserConfigLike,
 } from './types'
 
+// ── 导出 - 核心函数 ──────────────────────────────────────────────────────────
+
+/**
+ * 创建组件自动解析器，用于 `unplugin-vue-components` 自动导入。
+ * 支持 BlogHome、AutoToc、SidebarArticleList 三个内置组件。
+ */
 export {
   createTocSidebarComponentResolver,
 }

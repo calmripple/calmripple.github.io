@@ -1,3 +1,15 @@
+/**
+ * VitePress 自动化组件解析器
+ *
+ * 用于 `unplugin-vue-components` 的组件自动导入解析。
+ * 提供三个内置组件的统一注册方式：
+ * - AutoToc: 文章目录导航
+ * - BlogHome: 博客首页展示
+ * - SidebarArticleList: 侧边栏文章列表
+ *
+ * @module @knewbeing/vitepress-plugin-autosidebar-toc/client/resolvers
+ */
+
 import type { ComponentResolver } from 'unplugin-vue-components/types'
 import type { TocSidebarComponentResolverOptions } from '../types'
 

@@ -1,3 +1,12 @@
+/**
+ * @knewbeing/utils - VitePress 工具库
+ *
+ * 提供跨平台的路径处理、类型检测、文本清洗和 ESM 环境支持。
+ * 所有函数均为纯函数，支持 ESM 和 CJS 环境。
+ *
+ * @module @knewbeing/utils
+ */
+
 import { resolve, sep } from 'node:path'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
