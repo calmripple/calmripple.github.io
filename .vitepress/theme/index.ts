@@ -6,6 +6,7 @@ import { h } from 'vue'
 import DocFooter from '@/theme/components/DocFooter.vue'
 import Share from '@/theme/components/Share.vue'
 import SidebarArticleList from '@knewbeing/vitepress-plugin-autosidebar-toc/client/SidebarArticleList.vue'
+import IndexAutoToc from '@/theme/components/IndexAutoToc.vue'
 import 'virtual:uno.css'
 import '@/styles/main.css'
 import '@/styles/vars.css'
@@ -39,6 +40,7 @@ const ExtendedTheme: Theme = {
         ...slots['doc-top'].map(slot => slot()),
       ],
       'doc-footer-before': () => [
+        h(IndexAutoToc),
         h(DocFooter),
       ],
       'sidebar-nav-after': () => [
