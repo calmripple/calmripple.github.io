@@ -27,7 +27,7 @@ categories:
 
 下图是 VS Code 插件 [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) 查看一个 JPG 图片的 16 进制表示信息。
 
-![](./assets/jpg-compress-001.png)
+![](./jpg-compress-001.png)
 
 于是可以根据这个特性判断，于是就有如下的判断代码。
 
@@ -49,7 +49,7 @@ function isJPG(file) {
 
 当然社区也有现成的 [is-jpg](https://github.com/sindresorhus/is-jpg) 库可以使用。
 
-![](./assets/jpg-compress-002.png)
+![](./jpg-compress-002.png)
 
 *可看判断代码还是很简单的。*
 
@@ -62,7 +62,7 @@ function isJPG(file) {
 
 官方示例站点：[Compressor.js PlayGround](https://fengyuanchen.github.io/compressorjs/)
 
-![](./assets/jpg-compress-003.png)
+![](./jpg-compress-003.png)
 
 ### 使用
 支持 `npm` 和 `cdn` 两种引入方式。
@@ -139,7 +139,7 @@ function compressJPGByCompressor(file, ops) {
 
 官方示例站点：[compression PlayGround](https://donaldcwl.github.io/browser-image-compression/example/basic.html)
 
-![](./assets/jpg-compress-004.png)
+![](./jpg-compress-004.png)
 
 其中多线程压缩使用 [OffscreenCanvas](https://developer.mozilla.org/en-US/docs/Web/API/OffscreenCanvas#browser_compatibility): 一个可以脱离屏幕渲染的 canvas 对象。在 `web worker` 环境也可工作。
 
@@ -362,7 +362,7 @@ function dataURItoFile(dataURI, fileName) {
 
 大概界面如下（可修改配置切换压缩方案，对比效果）：
 
-![](./assets/jpg-compress-005.png)
+![](./jpg-compress-005.png)
 
 *纯血 HTML/CSS/JS，复制粘贴就能运行。*
 

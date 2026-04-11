@@ -13,7 +13,7 @@ categories:
 ## 效果
 先上效果图，非常朴素，**没有用代码高亮插件**，**无样式表**
 
-![图片](./assets/array-buffer-001.png)
+![图片](./array-buffer-001.png)
 
 * [完整实例源码](https://github.com/ATQQ/demos/blob/main/arraybuffer/README.md)
 
@@ -249,7 +249,7 @@ $lists.addEventListener('click', function (e) {
 
 到此的生成目录效果如下:
 
-![图片](./assets/array-buffer-002.png)
+![图片](./array-buffer-002.png)
 
 
 ## 最后

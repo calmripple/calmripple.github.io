@@ -21,7 +21,7 @@ console.log(chalk.blue('green'));
 console.log([chalk.blue('green')]);
 ```
 
-![图片](./assets/ux-001.png)
+![图片](./ux-001.png)
 
 在开发[vite-plugin-monitor](https://github.com/ATQQ/vite-plugin-monitor)时，为了获取原始的日志内容（上色之前），需要将上色后的字符串还原
 ```sh
@@ -35,7 +35,7 @@ console.log([chalk.blue('green')]);
 
 通过`.length`查看其长度，结果就如标题所示
 
-![图片](./assets/ux-002.png)
+![图片](./ux-002.png)
 
 ## 原因
 反斜杠`"\"`通常标识转义字符，如`\n(换行符)`,`\t(制表符)`
@@ -145,7 +145,7 @@ console.log([chalk.green('green'), chalk.greenBright('greenBright')]);
 console.log(resetChalkStr(`${chalk.green('green')} ${chalk.greenBright('greenBright')}`));
 ```
 
-![图片](./assets/ux-003.png)
+![图片](./ux-003.png)
 
 ## 总结
 重拾了一下`\x`与`\u`相关的内容，突然额外想到一个点，使用\u去做字符串的加解密(下来再捋一捋)

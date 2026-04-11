@@ -61,7 +61,7 @@ wvs build [options]
 
 vite配置通过官方的`vite.config.[tj]s`配置文件拓展即可
 ### 效果
-![图片](./assets/webapck2vite2-001.png)
+![图片](./webapck2vite2-001.png)
 
 在线体验demo地址：已创建[stackblitz](https://stackblitz.com/edit/atqq-webpack-vite-serve-mstatq?devtoolsheight=33&file=README.md)
 

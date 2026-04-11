@@ -14,9 +14,9 @@ categories:
 ## 背景
 在查看自己的[应用](https://ep2.sugarat.top/)日志时，发现进入日志页面后总是要几秒钟才会加载（接口没做分页），于是打开网络面板查看
 
-![图片](./assets/compress-response-001.png)
+![图片](./compress-response-001.png)
 
-![图片](./assets/compress-response-002.png)
+![图片](./compress-response-002.png)
 
 这才发现接口返回的数据都没有被压缩，本以为接口用Nginx反向代理了，Nginx会自动帮我做这一层（这块后面探究一下，理论上是可行的）
 
@@ -28,12 +28,12 @@ categories:
 
 >下面的客户端均指浏览器
 ### accept-encoding
-![accept-encoding](./assets/compress-response-003.png)
+![accept-encoding](./compress-response-003.png)
 
 客户端在向服务端发起请求时，会在请求头(request header)中添加`accept-encoding`字段，其值标明客户端`支持的压缩内容编码`格式
 
 ### content-encoding
-![content-encoding](./assets/compress-response-004.png)
+![content-encoding](./compress-response-004.png)
 
 服务端在对返回内容执行压缩后，通过在响应头（response header）中添加`content-encoding`，来告诉浏览器内容`实际压缩使用的编码算法`
 
@@ -52,11 +52,11 @@ Node.js包含一个`zlib 模块`，提供了使用 `Gzip`、`Deflate/Inflate`、
 
 **基于`stream`的操作**
 
-![**基于`stream`的操作**](./assets/compress-response-005.png)
+![**基于`stream`的操作**](./compress-response-005.png)
 
 **基于`buffer`的操作**
 
-![基于`buffer`的操作](./assets/compress-response-006.png)
+![基于`buffer`的操作](./compress-response-006.png)
 
 
 引入几个所需的模块
@@ -251,7 +251,7 @@ fs.writeFileSync(targetFile, result)
 
 在其他的 `Node Web` 框架中，处理思路类似，当然一般也有现成的插件，一键接入
 
-![运行结果](./assets/compress-response-007.png)
+![运行结果](./compress-response-007.png)
 
 ```js
 const http = require('http')

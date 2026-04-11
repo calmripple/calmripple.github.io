@@ -22,7 +22,7 @@ title: LLM 是如何工作的？
 >
 > 这是科普的时候时常有发生的事情，我会尽我所能解释清楚，并写附带上足够多的上下文说明这些过分简化的情况，以及补充足够多的解释和说明对那些感兴趣深入学习的读者深入阅读的资料和引用，对于无法周全满足，还请见谅，欢迎大家指正和提供更好的文档撰写的建议！
 
-![](./assets/l-l-m-shi-ru-he-gong-zuo-de-001.jpg)
+![](./l-l-m-shi-ru-he-gong-zuo-de-001.jpg)
 
 ## 洪水猛兽
 
@@ -35,7 +35,7 @@ title: LLM 是如何工作的？
 > 羊驼家族的冒险
 
 <video controls muted>
-  <source src="./assets/how-llm-works-aftermath-of-llm-video-1.mp4" type="video/mp4">
+  <source src="./how-llm-works-aftermath-of-llm-video-1.mp4" type="video/mp4">
 </video>
 
 [BlinkDL/ChatRWKV: ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source.](https://github.com/BlinkDL/ChatRWKV)
@@ -231,7 +231,7 @@ RNN，GRU，LASTM 窗口不足。
 Self-Extend works amazingly well with gemma-2b-it. 8k->90k+ on 'Needle in the haystack' : r/LocalLLaMA
 https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_well_with_gemma2bit/
 
-![](./assets/l-l-m-shi-ru-he-gong-zuo-de-002.jpg)
+![](./l-l-m-shi-ru-he-gong-zuo-de-002.jpg)
 
 > Claude 2.1 (200K Tokens) - Pressure Testing Long Context Recall We all love increasing context lengths - but what's performance like? Anthropic reached out with early access to Claude 2.1 so I repeated the “needle in a haystack” analysis I did on GPT-4 Here's what I found...
 >
@@ -275,7 +275,7 @@ https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_
 
 斯坦福的人机交互小组用大语言模型做了一个有二十五个自由自在生活的 AI 的小镇。
 
-![](./assets/l-l-m-shi-ru-he-gong-zuo-de-003.jpg)
+![](./l-l-m-shi-ru-he-gong-zuo-de-003.jpg)
 
 在评估中，这些生成代理产生可信度高且涌现性的社会行为：例如仅从单个用户指定一个想要举办情人节派对的概念开始，该派对自主地传播邀请两天后结识新朋友，互相邀请参加派对，并协调在正确的时间一起出现。
 
@@ -311,7 +311,7 @@ https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_
 眼睛，耳朵，四肢，都可以是 Agent
 
 <video controls muted>
-  <source src="./assets/how-llm-works-agent-video-1.mp4" type="video/mp4">
+  <source src="./how-llm-works-agent-video-1.mp4" type="video/mp4">
 </video>
 
 >TidyBot: Personalized Robot Assistance with Large Language Models approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts…
@@ -331,7 +331,7 @@ https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_
 甚至可以让它想象它自己的模样，然后用 Diffusion 模型画出来
 
 <video controls muted>
-  <source src="./assets/how-llm-works-it-imagines-itself-video-1.mp4" type="video/mp4">
+  <source src="./how-llm-works-it-imagines-itself-video-1.mp4" type="video/mp4">
 </video>
 
 > This is how GPT-4 sees and hears itself" I used GPT-4 to describe itself. Then I used its description to generate an image, a video based on this image and a soundtrack. Tools I used: GPT-4, Midjourney, Kainber AI, Mubert, RunwayML This is the description I used that GPT-4...
@@ -350,7 +350,7 @@ https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_
 
 [arXiv [2308.09687] Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687)
 
-![](./assets/l-l-m-shi-ru-he-gong-zuo-de-004.jpg)
+![](./l-l-m-shi-ru-he-gong-zuo-de-004.jpg)
 
 > 论文研究了5个最先进的语言模型 (ChatGPT 系列、Claude 系列、LLaMA 2)，确认这些基于人类反馈强化学习 (RLHF) 的 AI 普遍会对人类阿谀奉承。当人类有先入为主的观点时它会主动贴合，当被质疑时它会认错，甚至将正确答案修改为错误答案。
 >
@@ -393,7 +393,7 @@ ChatGPT 的 System Prompt
 
 [ColossalAI/docs/README-zh-Hans.md at main · hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI/blob/main/docs/README-zh-Hans.md)
 
-![](./assets/l-l-m-shi-ru-he-gong-zuo-de-005.png)
+![](./l-l-m-shi-ru-he-gong-zuo-de-005.png)
 
 > Hongyi Jin：“Introducing WebLLM, an open-source chatbot that brings language models (LLMs) directly onto web browsers. We can now run instruction fine-tuned LLaMA (Vicuna) models natively on your browser tab via @WebGPU with no server support. Checkout our demo at <https://t.co/dXII0MzYg1> . <https://t.co/IfgwPq0GTE”> / X
 
