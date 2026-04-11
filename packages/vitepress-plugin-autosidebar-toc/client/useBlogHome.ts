@@ -51,14 +51,14 @@ export function useBlogHome() {
   const route = useRoute()
   const router = useRouter()
   const articles = shallowRef<BlogArticle[]>([])
-  const allTags = shallowRef<{ name: string; count: number }[]>([])
-  const selectedTag = ref<string | null>(null)
+  const selectedTags = ref<Set<string>>(new Set())
   const currentPage = ref(1)
 
   function readQueryParams() {
     if (typeof window === 'undefined') return
     const params = new URLSearchParams(window.location.search)
-    selectedTag.value = params.get('tag') || null
+    const tagParam = params.get('tag')
+    selectedTags.value = tagParam ? new Set(tagParam.split(',').filter(Boolean)) : new Set()
     const p = Number.parseInt(params.get('page') ?? '', 10)
     currentPage.value = Number.isNaN(p) || p < 1 ? 1 : p
   }
@@ -66,8 +66,8 @@ export function useBlogHome() {
   function updateUrl() {
     if (typeof window === 'undefined') return
     const url = new URL(window.location.href)
-    if (selectedTag.value)
-      url.searchParams.set('tag', selectedTag.value)
+    if (selectedTags.value.size > 0)
+      url.searchParams.set('tag', [...selectedTags.value].join(','))
     else
       url.searchParams.delete('tag')
 
@@ -104,21 +104,29 @@ export function useBlogHome() {
       })
 
     articles.value = arts
-
-    const tagMap = new Map<string, number>()
-    for (const art of arts) {
-      for (const tag of art.tags) {
-        tagMap.set(tag, (tagMap.get(tag) ?? 0) + 1)
-      }
-    }
-    allTags.value = [...tagMap.entries()]
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => b.count - a.count)
   }
 
   const filteredArticles = computed(() => {
-    if (!selectedTag.value) return articles.value
-    return articles.value.filter(a => a.tags.includes(selectedTag.value!))
+    if (selectedTags.value.size === 0) return articles.value
+    return articles.value.filter(a => [...selectedTags.value].every(t => a.tags.includes(t)))
+  })
+
+  const visibleTags = computed(() => {
+    const source = filteredArticles.value
+    const tagMap = new Map<string, number>()
+    for (const art of source) {
+      for (const tag of art.tags) {
+        if (!selectedTags.value.has(tag)) {
+          tagMap.set(tag, (tagMap.get(tag) ?? 0) + 1)
+        }
+      }
+    }
+    return [...selectedTags.value].map(name => ({ name, count: -1 }))
+      .concat(
+        [...tagMap.entries()]
+          .map(([name, count]) => ({ name, count }))
+          .sort((a, b) => b.count - a.count),
+      )
   })
 
   const totalPages = computed(() => Math.ceil(filteredArticles.value.length / PAGE_SIZE) || 1)
@@ -129,7 +137,15 @@ export function useBlogHome() {
   })
 
   function selectTag(tag: string | null) {
-    selectedTag.value = selectedTag.value === tag ? null : tag
+    const next = new Set(selectedTags.value)
+    if (tag === null) {
+      next.clear()
+    } else if (next.has(tag)) {
+      next.delete(tag)
+    } else {
+      next.add(tag)
+    }
+    selectedTags.value = next
     currentPage.value = 1
     updateUrl()
   }
@@ -147,8 +163,8 @@ export function useBlogHome() {
   return {
     articles: filteredArticles,
     pagedArticles,
-    allTags,
-    selectedTag,
+    allTags: visibleTags,
+    selectedTags,
     currentPage,
     totalPages,
     selectTag,

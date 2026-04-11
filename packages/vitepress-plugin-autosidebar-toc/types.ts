@@ -136,6 +136,9 @@ export interface MarkdownMeta {
 
   /** 从正文提取的摘要文本。 */
   excerpt?: string
+
+  /** 正文中第一张图片的路径。 */
+  firstImage?: string
 }
 
 /**

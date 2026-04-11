@@ -35,6 +35,17 @@ export function extractExcerpt(markdownBody: string, maxLength = 200): string | 
   return text.length > maxLength ? `${text.slice(0, maxLength)}…` : text
 }
 
+// 从 markdown 正文中提取第一张图片的路径。
+export function extractFirstImage(markdownBody: string): string | undefined {
+  // Match ![alt](url) pattern
+  const match = markdownBody.match(/!\[[^\]]*\]\(([^)]+)\)/)
+  if (match?.[1]) return match[1].trim()
+  // Match <img src="url"> pattern
+  const htmlMatch = markdownBody.match(/<img[^>]+src=["']([^"']+)["']/)
+  if (htmlMatch?.[1]) return htmlMatch[1].trim()
+  return undefined
+}
+
 // 将 markdown 原始数据解析为带有常用 Nolebase 字段的元数据对象。
 export function parseMarkdownMeta(data: unknown, markdownBody: string): MarkdownMeta {
   const frontmatter = toFrontmatter(data)
@@ -54,6 +65,7 @@ export function parseMarkdownMeta(data: unknown, markdownBody: string): Markdown
       ?? getFrontmatterString(frontmatter, 'excerpt')
       ?? getFrontmatterString(frontmatter, 'summary')
       ?? extractExcerpt(markdownBody),
+    firstImage: extractFirstImage(markdownBody),
   }
 }
 

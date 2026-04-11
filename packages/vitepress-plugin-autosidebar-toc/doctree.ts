@@ -96,7 +96,7 @@ export async function createDoctreeFileEntry(
     gitDate,
   )
 
-  const rawCover = getFrontmatterString(meta.frontmatter, 'cover') ?? getFrontmatterString(meta.frontmatter, 'image')
+  const rawCover = getFrontmatterString(meta.frontmatter, 'cover') ?? getFrontmatterString(meta.frontmatter, 'image') ?? meta.firstImage
   const coverUrl = publicDir
     ? await resolveCoverImage(rawCover, absolutePath, publicDir)
     : rawCover ?? null

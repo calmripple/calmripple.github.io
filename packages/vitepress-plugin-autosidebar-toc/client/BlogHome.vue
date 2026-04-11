@@ -1,13 +1,15 @@
 <script setup lang="ts">
-import { useRouter } from "vitepress";
+import { ref, computed } from "vue";
+import { useRouter, useData } from "vitepress";
 import { useBlogHome } from "./useBlogHome";
 
 const router = useRouter();
+const { isDark } = useData();
 const {
   articles,
   pagedArticles,
   allTags,
-  selectedTag,
+  selectedTags,
   currentPage,
   totalPages,
   selectTag,
@@ -37,6 +39,58 @@ function getPaginationRange(
   pages.push(total);
   return pages;
 }
+
+const TAG_SHOW_LIMIT = 20;
+const showAllTags = ref(false);
+
+const TAG_COLORS_LIGHT = [
+  { bg: '#fff0f0', color: '#c9362a', border: '#f5c4c0' },
+  { bg: '#fff4e6', color: '#b85c14', border: '#f5d9b3' },
+  { bg: '#fff9db', color: '#8a7400', border: '#f0e4a0' },
+  { bg: '#ebfbee', color: '#237a34', border: '#b7e4c0' },
+  { bg: '#e6fcf5', color: '#087a62', border: '#a3e0d0' },
+  { bg: '#e7f5ff', color: '#1564b0', border: '#a5d2f5' },
+  { bg: '#edf2ff', color: '#3050c8', border: '#b3c7f5' },
+  { bg: '#f3f0ff', color: '#5a36c4', border: '#c4b5f0' },
+  { bg: '#fdf0ff', color: '#882ea0', border: '#dfb3f0' },
+  { bg: '#fff0f6', color: '#ad1d50', border: '#f0b3cc' },
+  { bg: '#f0fffe', color: '#0a6b76', border: '#a3d9df' },
+  { bg: '#f4f8e8', color: '#4e6a0c', border: '#c5d99e' },
+];
+
+const TAG_COLORS_DARK = [
+  { bg: '#3a1c1c', color: '#f5a8a2', border: '#5c2d2d' },
+  { bg: '#3a2a14', color: '#f5c88a', border: '#5c4020' },
+  { bg: '#3a3510', color: '#e8d56a', border: '#5c5020' },
+  { bg: '#1a3320', color: '#82d896', border: '#2a4a32' },
+  { bg: '#14322c', color: '#6edcbf', border: '#204a3c' },
+  { bg: '#162a3f', color: '#7bbdf5', border: '#203c5c' },
+  { bg: '#1c2445', color: '#92a8f5', border: '#2a3660' },
+  { bg: '#261c40', color: '#b8a0f0', border: '#3a2c5c' },
+  { bg: '#301a38', color: '#d4a0e8', border: '#4a2c56' },
+  { bg: '#361a2a', color: '#f09cba', border: '#502a40' },
+  { bg: '#14302e', color: '#6ad4dc', border: '#204a46' },
+  { bg: '#283210', color: '#b8d47a', border: '#3c4a1c' },
+];
+
+function hashStr(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h);
+}
+
+function tagStyle(name: string, isActive: boolean) {
+  if (isActive) return {};
+  const palette = isDark.value ? TAG_COLORS_DARK : TAG_COLORS_LIGHT;
+  const c = palette[hashStr(name) % palette.length];
+  return {
+    '--tag-bg': c.bg,
+    '--tag-color': c.color,
+    '--tag-border': c.border,
+  };
+}
 </script>
 
 <template>
@@ -44,15 +98,24 @@ function getPaginationRange(
     <div class="blog-home__main">
       <!-- Article List -->
       <div class="blog-home__articles">
-        <div v-if="selectedTag" class="blog-home__filter-info">
-          <span
-            >标签筛选：<strong>{{ selectedTag }}</strong></span
-          >
-          <span class="blog-home__filter-count"
-            >（{{ articles.length }} 篇）</span
-          >
+        <div v-if="selectedTags.size > 0" class="blog-home__filter-info">
+          <div class="blog-home__filter-tags">
+            <span class="blog-home__filter-label">筛选</span>
+            <span
+              v-for="tag in selectedTags"
+              :key="tag"
+              class="blog-home__filter-chip"
+              @click="selectTag(tag)"
+            >
+              {{ tag }}
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </span>
+          </div>
+          <span class="blog-home__filter-count">{{ articles.length }} 篇</span>
           <button class="blog-home__filter-clear" @click="selectTag(null)">
-            清除筛选
+            清除全部
           </button>
         </div>
 
@@ -89,6 +152,7 @@ function getPaginationRange(
                   v-for="tag in item.tags"
                   :key="tag"
                   class="blog-card__tag"
+                  :style="tagStyle(tag, false)"
                   @click="selectTag(tag)"
                 >
                   #{{ tag }}
@@ -162,15 +226,23 @@ function getPaginationRange(
         <h3 class="sidebar-card__title">🏷️ 标签</h3>
         <div class="sidebar-tags">
           <button
-            v-for="tag in allTags"
+            v-for="tag in (showAllTags ? allTags : allTags.slice(0, TAG_SHOW_LIMIT))"
             :key="tag.name"
-            :class="['sidebar-tag', { 'is-active': selectedTag === tag.name }]"
+            :class="['sidebar-tag', { 'is-active': selectedTags.has(tag.name) }]"
+            :style="tagStyle(tag.name, selectedTags.has(tag.name))"
             @click="selectTag(tag.name)"
           >
             {{ tag.name }}
-            <span class="sidebar-tag__count">{{ tag.count }}</span>
+            <span v-if="tag.count >= 0" class="sidebar-tag__count">{{ tag.count }}</span>
           </button>
         </div>
+        <button
+          v-if="allTags.length > TAG_SHOW_LIMIT"
+          class="sidebar-tags__toggle"
+          @click="showAllTags = !showAllTags"
+        >
+          {{ showAllTags ? '收起' : `展开全部 ${allTags.length} 个标签` }}
+        </button>
       </div>
     </aside>
   </div>
@@ -198,34 +270,77 @@ function getPaginationRange(
 .blog-home__filter-info {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   margin-bottom: 16px;
-  padding: 12px 16px;
+  padding: 10px 16px;
   background: var(--vp-c-bg-soft);
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 14px;
   color: var(--vp-c-text-2);
 }
 
-.blog-home__filter-count {
-  color: var(--vp-c-text-3);
+.blog-home__filter-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.blog-home__filter-clear {
-  margin-left: auto;
-  padding: 4px 12px;
+.blog-home__filter-label {
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+  margin-right: 2px;
+}
+
+.blog-home__filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
   font-size: 12px;
+  font-weight: 500;
   color: var(--vp-c-brand-1);
-  background: none;
-  border: 1px solid var(--vp-c-brand-1);
-  border-radius: 4px;
+  background: color-mix(in srgb, var(--vp-c-brand-soft) 40%, transparent);
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.2s;
 }
 
+.blog-home__filter-chip:hover {
+  background: color-mix(in srgb, var(--vp-c-brand-soft) 70%, transparent);
+}
+
+.blog-home__filter-chip svg {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.blog-home__filter-chip:hover svg {
+  opacity: 1;
+}
+
+.blog-home__filter-count {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+}
+
+.blog-home__filter-clear {
+  padding: 4px 10px;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  background: none;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
 .blog-home__filter-clear:hover {
-  color: #fff;
-  background: var(--vp-c-brand-1);
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-text-3);
 }
 
 /* Article Card */
@@ -290,17 +405,18 @@ function getPaginationRange(
 }
 
 .blog-card__tag {
-  padding: 2px 8px;
-  font-size: 12px;
-  color: var(--vp-c-brand-1);
-  background: color-mix(in srgb, var(--vp-c-brand-soft) 30%, transparent);
-  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 11px;
+  color: var(--tag-color, var(--vp-c-brand-1));
+  background: var(--tag-bg, color-mix(in srgb, var(--vp-c-brand-soft) 25%, transparent));
+  border: 1px solid var(--tag-border, transparent);
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .blog-card__tag:hover {
-  background: color-mix(in srgb, var(--vp-c-brand-soft) 60%, transparent);
+  filter: brightness(0.93);
 }
 
 .blog-card__desc {
@@ -423,26 +539,27 @@ function getPaginationRange(
 .sidebar-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .sidebar-tag {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 4px 12px;
-  font-size: 13px;
-  color: var(--vp-c-text-2);
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 16px;
+  gap: 3px;
+  padding: 3px 10px;
+  font-size: 12px;
+  color: var(--tag-color, var(--vp-c-text-2));
+  background: var(--tag-bg, var(--vp-c-bg-soft));
+  border: 1px solid var(--tag-border, transparent);
+  border-radius: 14px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
+  line-height: 1.5;
 }
 
 .sidebar-tag:hover {
-  color: var(--vp-c-brand-1);
-  border-color: var(--vp-c-brand-1);
+  filter: brightness(0.95);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 .sidebar-tag.is-active {
@@ -452,14 +569,35 @@ function getPaginationRange(
 }
 
 .sidebar-tag__count {
-  font-size: 11px;
-  padding: 1px 5px;
-  border-radius: 10px;
+  font-size: 10px;
+  padding: 0 4px;
+  border-radius: 8px;
   background: rgba(0, 0, 0, 0.06);
+  min-width: 16px;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .sidebar-tag.is-active .sidebar-tag__count {
   background: rgba(255, 255, 255, 0.25);
+}
+
+.sidebar-tags__toggle {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 6px 0;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  background: none;
+  border: none;
+  border-top: 1px dashed var(--vp-c-divider);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.sidebar-tags__toggle:hover {
+  color: var(--vp-c-brand-1);
 }
 
 /* Responsive */
