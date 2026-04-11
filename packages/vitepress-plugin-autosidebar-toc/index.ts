@@ -200,10 +200,11 @@ export function createTocSidebarVitePlugin(
     },
     async load(id) {
       if (id === RESOLVED_VIRTUAL_MODULE_ID) {
+        // Use numeric indices as chunk IDs to avoid Unicode/encoding issues
+        // in SSR dynamic imports on Windows.
         const dirKeys = [...sourceTree.keys()].map(k => k || '/')
-        const entries = dirKeys.map((key) => {
-          const encodedKey = encodeURIComponent(key)
-          return `  ${JSON.stringify(key)}: () => import('${VIRTUAL_DIR_PREFIX}${encodedKey}')`
+        const entries = dirKeys.map((key, idx) => {
+          return `  ${JSON.stringify(key)}: () => import('${VIRTUAL_DIR_PREFIX}${idx}')`
         })
         return [
           `const _loaders = {`,
@@ -219,8 +220,11 @@ export function createTocSidebarVitePlugin(
       }
 
       if (id.startsWith(RESOLVED_DIR_PREFIX)) {
-        const encodedKey = id.slice(RESOLVED_DIR_PREFIX.length)
-        const dirKey = decodeURIComponent(encodedKey)
+        const idxStr = id.slice(RESOLVED_DIR_PREFIX.length)
+        const dirKeys = [...sourceTree.keys()].map(k => k || '/')
+        const idx = Number.parseInt(idxStr, 10)
+        const dirKey = dirKeys[idx]
+        if (dirKey == null) return `export default null`
         const node = await serializeSingleDirectoryNode(dirKey, sourceTree, baseDir, cache)
         return `export default ${JSON.stringify(node)}`
       }
