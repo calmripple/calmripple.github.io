@@ -329,7 +329,7 @@ pnpm docs:build
 
 配置完成后将会是这样的效果：
 
-![](/obsidian-screenshot-1.png)
+![](./obsidian-screenshot-1.png)
 
 > [!TIP]
 > 默认情况下，知在 自带的「[双向链接插件](https://nolebase-integrations.ayaka.io/pages/zh-CN/integrations/markdown-it-bi-directional-links/)」将会自动处理所有 Obsidian 支持的 `[[link]]` 和 `![[link]]` 双向链接。
@@ -345,7 +345,7 @@ pnpm docs:build
 >
 > 配置完成后将会是这样的效果：
 >
-> ![](/obsidian-screenshot-2.png)
+> ![](./obsidian-screenshot-2.png)
 >
 > 这样配置也会有以下几个好处：
 > - 方便迁移文件和图片，你只需要把图片文件夹和 Markdown 文件一起复制就行（如果是全部汇总在某个文件夹下，以后复制比较麻烦）
