@@ -38,6 +38,8 @@ const ExtendedTheme: Theme = {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'doc-top': () => [
         ...slots['doc-top'].map(slot => slot()),
+      ],
+      'doc-before': () => [
         h(IndexAutoToc),
       ],
       'doc-footer-before': () => [

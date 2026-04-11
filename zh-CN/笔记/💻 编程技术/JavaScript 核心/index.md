@@ -1,3 +1,3 @@
 ---
-title: JavaScript 核心
+title: ⚡ JavaScript 核心
 ---

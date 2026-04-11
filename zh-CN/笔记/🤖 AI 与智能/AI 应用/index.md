@@ -1,3 +1,3 @@
 ---
-title: AI 应用
+title: 💡 AI 应用
 ---
