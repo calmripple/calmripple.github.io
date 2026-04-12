@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { basename, extname, join, resolve } from 'node:path'
 import matter from 'gray-matter'
+import sanitizeHtml from 'sanitize-html'
 import { sanitizeTextCandidate, toNormalizedAbsolutePath } from '@knewbeing/utils'
 import type { MarkdownMeta } from './types'
 import { toFrontmatter, getFrontmatterString, getFrontmatterNumber, getFrontmatterDate, getFrontmatterTags } from './frontmatter'
@@ -18,14 +19,16 @@ export function extractPrimaryHeading(markdownBody: string): string | undefined 
 
 // 从 markdown 正文中提取纯文本摘要（去除标题、代码块、链接、图片等）。
 export function extractExcerpt(markdownBody: string, maxLength = 200): string | undefined {
-  const lines = markdownBody
+  const sanitizedBody = sanitizeHtml(markdownBody, {
+    allowedTags: [],
+    allowedAttributes: {},
+  })
+
+  const lines = sanitizedBody
     .replace(/```[\s\S]*?```/g, '')
     .replace(/^#+\s+.+$/gm, '')
     .replace(/!\[.*?\]\(.*?\)/g, '')
     .replace(/\[([^\]]*)\]\(.*?\)/g, '$1')
-    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
-    .replace(/<[^>]*>/g, '')
-    .replace(/<[^>]*$/g, '')
     .replace(/^[-*>]\s*/gm, '')
     .replace(/\|.*\|/g, '')
     .split('\n')

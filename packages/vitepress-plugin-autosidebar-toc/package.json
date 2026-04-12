@@ -37,7 +37,8 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@knewbeing/utils": "workspace:*"
+    "@knewbeing/utils": "workspace:*",
+    "sanitize-html": "^2.17.2"
   },
   "devDependencies": {
     "tsup": "^8.5.0"
