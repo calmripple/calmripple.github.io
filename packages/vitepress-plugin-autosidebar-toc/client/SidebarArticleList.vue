@@ -1,72 +1,106 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
-import { useData, useRouter } from 'vitepress'
-import { useTocEntries } from './useTocEntries'
+import { computed, ref, watch } from "vue";
+import { useData, useRouter } from "vitepress";
+import { useTocEntries } from "./useTocEntries";
+import { useTocSidebarConfig } from "./useTocSidebarConfig";
 
-const PAGE_SIZE = 10
+const router = useRouter();
+const { theme } = useData();
+const cfg = useTocSidebarConfig();
 
-const router = useRouter()
-const { theme } = useData()
+const PAGE_SIZE = computed(() => cfg.value.sidebarPageSize ?? 10);
+const MAX_PAGE_BUTTONS = computed(() => cfg.value.sidebarMaxPageButtons ?? 3);
 
-const { fileItems } = useTocEntries({ rootKeyStrategy: 'navRoot' })
+const { fileItems } = useTocEntries({ rootKeyStrategy: "navRoot" });
 
 const activeNavText = computed(() => {
-  const nav = theme.value.nav as { text?: string, link?: string, items?: unknown[] }[] | undefined
-  if (!nav?.length) return { text: '相关文章', link: '' }
-  const routePath = decodeURIComponent(router.route.path).replace(/\/+$/, '').toLowerCase()
+  const nav = theme.value.nav as
+    | { text?: string; link?: string; items?: unknown[] }[]
+    | undefined;
+  if (!nav?.length) return { text: "相关文章", link: "" };
+  const routePath = decodeURIComponent(router.route.path)
+    .replace(/\/+$/, "")
+    .toLowerCase();
 
-  let bestText = ''
-  let bestLink = ''
-  let bestLen = 0
-  function search(items: { text?: string, link?: string, items?: unknown[] }[]) {
+  let bestText = "";
+  let bestLink = "";
+  let bestLen = 0;
+  function search(
+    items: { text?: string; link?: string; items?: unknown[] }[],
+  ) {
     for (const item of items) {
-      if (typeof item.link === 'string') {
-        const link = decodeURIComponent(item.link).replace(/\/+$/, '').toLowerCase()
-        if (link && link !== '/' && routePath.startsWith(link) && link.length > bestLen) {
-          bestText = item.text || ''
-          bestLink = item.link
-          bestLen = link.length
+      if (typeof item.link === "string") {
+        const link = decodeURIComponent(item.link)
+          .replace(/\/+$/, "")
+          .toLowerCase();
+        if (
+          link &&
+          link !== "/" &&
+          routePath.startsWith(link) &&
+          link.length > bestLen
+        ) {
+          bestText = item.text || "";
+          bestLink = item.link;
+          bestLen = link.length;
         }
       }
-      if (Array.isArray(item.items)) search(item.items as typeof items)
+      if (Array.isArray(item.items)) search(item.items as typeof items);
     }
   }
-  search(nav)
-  return { text: bestText || '相关文章', link: bestLen > 0 ? bestLink : '' }
-})
+  search(nav);
+  return { text: bestText || "相关文章", link: bestLen > 0 ? bestLink : "" };
+});
 
 // Pagination
 const currentPage = ref(1);
 
-function getTotalPages() {
-  return Math.ceil(fileItems.value.length / PAGE_SIZE);
+const totalPages = computed(() =>
+  Math.ceil(fileItems.value.length / PAGE_SIZE.value),
+);
+
+const startIdx = computed(() => (currentPage.value - 1) * PAGE_SIZE.value);
+
+const currentPageItems = computed(() =>
+  fileItems.value.slice(startIdx.value, startIdx.value + PAGE_SIZE.value),
+);
+
+function getPaginationRange(
+  current: number,
+  total: number,
+  maxButtons: number,
+): (number | "...")[] {
+  if (total <= maxButtons) return Array.from({ length: total }, (_, i) => i + 1);
+  const wing = Math.max(1, Math.floor((maxButtons - 3) / 2));
+  const pages: (number | "...")[] = [1];
+  if (current > wing + 2) pages.push("...");
+  for (
+    let i = Math.max(2, current - wing);
+    i <= Math.min(total - 1, current + wing);
+    i++
+  ) {
+    pages.push(i);
+  }
+  if (current < total - wing - 1) pages.push("...");
+  pages.push(total);
+  return pages;
 }
 
-function getStartIdx() {
-  return (currentPage.value - 1) * PAGE_SIZE;
-}
-
-function getCurrentPageItems() {
-  const start = getStartIdx();
-  return fileItems.value.slice(start, start + PAGE_SIZE);
-}
+const paginationRange = computed(() =>
+  getPaginationRange(currentPage.value, totalPages.value, MAX_PAGE_BUTTONS.value),
+);
 
 watch(
   fileItems,
   (items) => {
     const activeIndex = items.findIndex((item) => item.active);
     if (activeIndex !== -1) {
-      currentPage.value = Math.floor(activeIndex / PAGE_SIZE) + 1;
+      currentPage.value = Math.floor(activeIndex / PAGE_SIZE.value) + 1;
     } else {
       currentPage.value = 1;
     }
   },
   { immediate: true },
 );
-
-function goToPage(page: number) {
-  currentPage.value = page;
-}
 
 function handleClick(e: MouseEvent, link: string) {
   e.preventDefault();
@@ -98,21 +132,25 @@ function handleClick(e: MouseEvent, link: string) {
             d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"
           />
         </svg>
-        <a v-if="activeNavText.link" :href="activeNavText.link" class="sidebar-articles__header-link">
+        <a
+          v-if="activeNavText.link"
+          :href="activeNavText.link"
+          class="sidebar-articles__header-link"
+        >
           {{ activeNavText.text }}
         </a>
         <template v-else>{{ activeNavText.text }}</template>
       </span>
     </div>
     <!-- 文章列表 -->
-    <ol v-if="getCurrentPageItems().length" class="sidebar-articles__list">
+    <ol v-if="currentPageItems.length" class="sidebar-articles__list">
       <li
-        v-for="(item, idx) in getCurrentPageItems()"
+        v-for="(item, idx) in currentPageItems"
         :key="item.link"
         class="sidebar-articles__item"
       >
         <!-- 序号 -->
-        <i class="sidebar-articles__num">{{ getStartIdx() + idx + 1 }}</i>
+        <i class="sidebar-articles__num">{{ startIdx + idx + 1 }}</i>
         <!-- 文章信息 -->
         <div class="sidebar-articles__content">
           <a
@@ -129,15 +167,25 @@ function handleClick(e: MouseEvent, link: string) {
       </li>
     </ol>
     <div v-else class="sidebar-articles__empty">暂无相关文章</div>
-    <div v-if="getTotalPages() > 1" class="sidebar-articles__pagination">
+    <div v-if="totalPages > 1" class="sidebar-articles__pagination">
       <button
-        v-for="page in getTotalPages()"
-        :key="page"
-        :class="['sidebar-articles__page-btn', { 'is-active': page === currentPage }]"
-        @click="goToPage(page)"
-      >
-        {{ page }}
-      </button>
+        class="sidebar-articles__page-btn sidebar-articles__page-nav"
+        :disabled="currentPage <= 1"
+        @click="currentPage--"
+      >‹</button>
+      <template v-for="p in paginationRange" :key="p">
+        <span v-if="p === '...'" class="sidebar-articles__ellipsis">…</span>
+        <button
+          v-else
+          :class="['sidebar-articles__page-btn', { 'is-active': p === currentPage }]"
+          @click="currentPage = (p as number)"
+        >{{ p }}</button>
+      </template>
+      <button
+        class="sidebar-articles__page-btn sidebar-articles__page-nav"
+        :disabled="currentPage >= totalPages"
+        @click="currentPage++"
+      >›</button>
     </div>
   </div>
 </template>
@@ -181,14 +229,16 @@ function handleClick(e: MouseEvent, link: string) {
 .sidebar-articles__pagination {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
   padding: 8px 12px 4px;
 }
 
 .sidebar-articles__page-btn {
-  min-width: 28px;
-  height: 28px;
-  padding: 0 6px;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 5px;
   font-size: 12px;
   font-weight: 500;
   color: var(--vp-c-text-2);
@@ -197,18 +247,35 @@ function handleClick(e: MouseEvent, link: string) {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.25s;
-  line-height: 26px;
+  line-height: 24px;
 }
 
-.sidebar-articles__page-btn:hover {
+.sidebar-articles__page-btn:hover:not(:disabled) {
   color: var(--vp-c-brand-1);
   border-color: var(--vp-c-brand-1);
+}
+
+.sidebar-articles__page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .sidebar-articles__page-btn.is-active {
   color: #fff;
   background-color: var(--vp-c-brand-1);
   border-color: var(--vp-c-brand-1);
+}
+
+.sidebar-articles__page-nav {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sidebar-articles__ellipsis {
+  padding: 0 2px;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  line-height: 26px;
 }
 
 /* 空状态 */

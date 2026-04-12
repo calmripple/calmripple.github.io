@@ -17,6 +17,7 @@ const COMPONENT_MAP: Record<string, string> = {
   AutoToc: '@knewbeing/vitepress-plugin-autosidebar-toc/client/AutoToc.vue',
   SidebarArticleList: '@knewbeing/vitepress-plugin-autosidebar-toc/client/SidebarArticleList.vue',
   BlogHome: '@knewbeing/vitepress-plugin-autosidebar-toc/client/BlogHome.vue',
+  TagsCloud: '@knewbeing/vitepress-plugin-autosidebar-toc/client/TagsCloud.vue',
 }
 
 /**

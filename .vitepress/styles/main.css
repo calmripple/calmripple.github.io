@@ -1,12 +1,8 @@
-@import 'kbd.css';
+@import "kbd.css";
 
-html, body {
+html,
+body {
   -webkit-tap-highlight-color: transparent; /* 避免触屏下的点击高亮颜色 */
-}
-
-/* 隐藏 sidebar 中空占位组（由 createRemoveSidebarPlugin 生成） */
-.VPSidebar .group {
-  display: none;
 }
 
 /* 页面属性布局：单行水平显示 */
@@ -110,7 +106,7 @@ html, body {
 /* 标题所需要的字体 */
 @font-face {
   font-family: tengwarannatar;
-  src: url(/tengwar-annatar-glaemscrafu.woff2) format('woff2');
+  src: url(/tengwar-annatar-glaemscrafu.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: block;
@@ -119,7 +115,7 @@ html, body {
 /* 标题所需要的字体 */
 @font-face {
   font-family: tengwarannatar-bold;
-  src: url(/tengwar-annatar-glaemscrafu-bold.woff2) format('woff2');
+  src: url(/tengwar-annatar-glaemscrafu-bold.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: block;
@@ -128,7 +124,7 @@ html, body {
 /* 首页标题样式 */
 .VPHomeHero > .container > .main > h1 {
   font-size: 5rem;
-  font-family: 'tengwarannatar-bold';
+  font-family: "tengwarannatar-bold";
 }
 
 .VPHero.has-image span.name:nth-child(1) {
@@ -283,18 +279,24 @@ html, body {
   GitHub 链接按钮样式
 */
 
-.VPHero.VPHomeHero .actions a[href="https://github.com/calmripple/calmripple.github.io"] {
+.VPHero.VPHomeHero
+  .actions
+  a[href="https://github.com/calmripple/calmripple.github.io"] {
   color: #616161;
   border: 2px #616161 solid;
   background-color: transparent;
 }
 
-.VPHero.VPHomeHero .actions a[href="https://github.com/calmripple/calmripple.github.io"]:hover {
+.VPHero.VPHomeHero
+  .actions
+  a[href="https://github.com/calmripple/calmripple.github.io"]:hover {
   color: white;
   background-color: #4b4b4b;
 }
 
-.VPHero.VPHomeHero .actions a[href="https://github.com/calmripple/calmripple.github.io"]:active {
+.VPHero.VPHomeHero
+  .actions
+  a[href="https://github.com/calmripple/calmripple.github.io"]:active {
   color: white;
   background-color: #000;
 }
@@ -303,18 +305,27 @@ html, body {
   暗色模式下 GitHub 链接按钮样式
 */
 
-.dark .VPHero.VPHomeHero .actions a[href="https://github.com/calmripple/calmripple.github.io"] {
+.dark
+  .VPHero.VPHomeHero
+  .actions
+  a[href="https://github.com/calmripple/calmripple.github.io"] {
   color: #a4a4a4;
   border: 2px #a4a4a4 solid;
-  background-color: transparent
+  background-color: transparent;
 }
 
-.dark .VPHero.VPHomeHero .actions a[href="https://github.com/calmripple/calmripple.github.io"]:hover {
+.dark
+  .VPHero.VPHomeHero
+  .actions
+  a[href="https://github.com/calmripple/calmripple.github.io"]:hover {
   color: white;
   background-color: #252525;
 }
 
-.dark .VPHero.VPHomeHero .actions a[href="https://github.com/calmripple/calmripple.github.io"]:active {
+.dark
+  .VPHero.VPHomeHero
+  .actions
+  a[href="https://github.com/calmripple/calmripple.github.io"]:active {
   color: white;
   background-color: #4b4b4b;
 }

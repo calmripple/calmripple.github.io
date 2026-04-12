@@ -86,6 +86,8 @@ export type {
   ViteUserConfigLike,
 } from './types'
 
+export type { TocSidebarClientConfig } from './client/useTocSidebarConfig'
+
 // ── 导出 - 核心函数 ──────────────────────────────────────────────────────────
 
 /**

@@ -6,7 +6,9 @@ import { h } from 'vue'
 import DocFooter from '@/theme/components/DocFooter.vue'
 import Share from '@/theme/components/Share.vue'
 import SidebarArticleList from '@knewbeing/vitepress-plugin-autosidebar-toc/client/SidebarArticleList.vue'
+import '@knewbeing/vitepress-plugin-autosidebar-toc/client/style.css'
 import IndexAutoToc from '@/theme/components/IndexAutoToc.vue'
+import IndexTagsAside from '@/theme/components/IndexTagsAside.vue'
 import 'virtual:uno.css'
 import '@/styles/main.css'
 import '@/styles/vars.css'
@@ -38,6 +40,9 @@ const ExtendedTheme: Theme = {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'doc-top': () => [
         ...slots['doc-top'].map(slot => slot()),
+      ],
+      'aside-outline-before': () => [
+        h(IndexTagsAside),
       ],
       'doc-before': () => [
         h(IndexAutoToc),

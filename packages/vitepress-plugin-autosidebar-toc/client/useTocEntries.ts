@@ -9,6 +9,7 @@ export interface TocFileItem {
   text: string
   link: string
   date: string | null
+  tags: string[]
   active: boolean
 }
 
@@ -213,7 +214,13 @@ export function useTocEntries(options: UseTocEntriesOptions = {}) {
           const active = currentPathClean === linkClean
             || currentPath === linkNormalized
             || currentPath === `${linkNormalized}/`
-          return { text: f.displayText, link: f.link, date, active }
+          const fm = f.frontmatter ?? {}
+          const tags: string[] = Array.isArray(fm.tags)
+            ? fm.tags.filter((t: unknown): t is string => typeof t === 'string')
+            : typeof fm.tags === 'string'
+              ? [fm.tags]
+              : []
+          return { text: f.displayText, link: f.link, date, active, tags }
         })
         .filter((item) => {
           const key = normalizePath(item.link, true)

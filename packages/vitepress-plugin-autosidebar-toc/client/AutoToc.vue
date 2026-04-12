@@ -1,81 +1,146 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
-import { useRouter } from 'vitepress'
-import { useTocEntries } from './useTocEntries'
+import { computed, watch } from "vue";
+import { useRouter } from "vitepress";
+import { ref } from "vue";
+import { useTocEntries } from "./useTocEntries";
+import { useIndexTagsStore } from "./useIndexTagsStore";
+import { useTocSidebarConfig } from "./useTocSidebarConfig";
 
-const PAGE_SIZE = 10
+const router = useRouter();
+const { selectedTag } = useIndexTagsStore();
+const cfg = useTocSidebarConfig();
 
-const router = useRouter()
+const PAGE_SIZE = computed(() => cfg.value.tocPageSize ?? 10);
+const MAX_PAGE_BUTTONS = computed(() => cfg.value.tocMaxPageButtons ?? 9);
 
-const { fileItems: fileEntries } = useTocEntries({ rootKeyStrategy: 'currentDir' })
+const { fileItems: fileEntries } = useTocEntries({
+  rootKeyStrategy: "currentDir",
+});
 
-const currentPage = ref(1)
+// ── Filtering ──
 
-function getTotalPages() {
-  return Math.ceil(fileEntries.value.length / PAGE_SIZE)
+const filteredEntries = computed(() => {
+  if (!selectedTag.value) return fileEntries.value;
+  return fileEntries.value.filter((item) => item.tags.includes(selectedTag.value!));
+});
+
+// ── Pagination ──
+
+const currentPage = ref(1);
+
+const totalPages = computed(() =>
+  Math.ceil(filteredEntries.value.length / PAGE_SIZE.value),
+);
+
+const startIdx = computed(() => (currentPage.value - 1) * PAGE_SIZE.value);
+
+const currentPageItems = computed(() =>
+  filteredEntries.value.slice(startIdx.value, startIdx.value + PAGE_SIZE.value),
+);
+
+function getPaginationRange(
+  current: number,
+  total: number,
+  maxButtons: number,
+): (number | "...")[] {
+  if (total <= maxButtons) return Array.from({ length: total }, (_, i) => i + 1);
+  const wing = Math.max(1, Math.floor((maxButtons - 3) / 2));
+  const pages: (number | "...")[] = [1];
+  if (current > wing + 2) pages.push("...");
+  for (
+    let i = Math.max(2, current - wing);
+    i <= Math.min(total - 1, current + wing);
+    i++
+  ) {
+    pages.push(i);
+  }
+  if (current < total - wing - 1) pages.push("...");
+  pages.push(total);
+  return pages;
 }
 
-function getStartIdx() {
-  return (currentPage.value - 1) * PAGE_SIZE
-}
-
-function getCurrentPageItems() {
-  const start = getStartIdx()
-  return fileEntries.value.slice(start, start + PAGE_SIZE)
-}
+const paginationRange = computed(() =>
+  getPaginationRange(currentPage.value, totalPages.value, MAX_PAGE_BUTTONS.value),
+);
 
 watch(
   fileEntries,
   (items) => {
-    const activeIndex = items.findIndex((item) => item.active)
+    selectedTag.value = null;
+    const activeIndex = items.findIndex((item) => item.active);
     if (activeIndex !== -1) {
-      currentPage.value = Math.floor(activeIndex / PAGE_SIZE) + 1
+      currentPage.value = Math.floor(activeIndex / PAGE_SIZE.value) + 1;
     } else {
-      currentPage.value = 1
+      currentPage.value = 1;
     }
   },
   { immediate: true },
-)
+);
 
-function goToPage(page: number) {
-  currentPage.value = page
-}
+watch(selectedTag, () => {
+  currentPage.value = 1;
+});
 
 function handleClick(e: MouseEvent, link: string) {
-  e.preventDefault()
-  router.go(link)
+  e.preventDefault();
+  router.go(link);
 }
 </script>
 
 <template>
   <nav v-if="fileEntries.length" class="auto-toc" aria-label="当前目录文章">
     <div class="auto-toc__header">
-      <h2 class="auto-toc__title">
-        当前目录
-      </h2>
+      <h2 class="auto-toc__title">当前目录</h2>
+      <span v-if="selectedTag" class="auto-toc__count">
+        {{ filteredEntries.length }} / {{ fileEntries.length }} 篇
+      </span>
+      <span v-else class="auto-toc__count">{{ fileEntries.length }} 篇</span>
     </div>
-    <ul class="auto-toc__list" :style="getTotalPages() > 1 ? { minHeight: PAGE_SIZE * 26 + 'px' } : undefined">
-      <li v-for="(item, idx) in getCurrentPageItems()" :key="item.link" class="auto-toc__item">
+
+    <!-- 文章列表 -->
+    <ul
+      class="auto-toc__list"
+      :style="totalPages > 1 ? { minHeight: PAGE_SIZE * 26 + 'px' } : undefined"
+    >
+      <li
+        v-for="(item, idx) in currentPageItems"
+        :key="item.link"
+        class="auto-toc__item"
+      >
         <a
           :href="item.link"
           :class="['auto-toc__link', { 'is-active': item.active }]"
           @click="(e) => handleClick(e, item.link)"
         >
-          <span class="auto-toc__index">{{ getStartIdx() + idx + 1 }}.</span>
+          <span class="auto-toc__index">{{ startIdx + idx + 1 }}.</span>
           <span class="auto-toc__text">{{ item.text }}</span>
           <span v-if="item.date" class="auto-toc__date">{{ item.date }}</span>
         </a>
       </li>
+      <li v-if="currentPageItems.length === 0" class="auto-toc__empty">
+        暂无相关文章
+      </li>
     </ul>
-    <div v-if="getTotalPages() > 1" class="auto-toc__pagination">
+
+    <div v-if="totalPages > 1" class="auto-toc__pagination">
       <button
-        v-for="page in getTotalPages()"
-        :key="page"
-        :class="['auto-toc__page-btn', { 'is-active': page === currentPage }]"
-        @click="goToPage(page)"
-      >
-        {{ page }}
-      </button>
+        class="auto-toc__page-btn auto-toc__page-nav"
+        :disabled="currentPage <= 1"
+        @click="currentPage--"
+      >‹</button>
+      <template v-for="p in paginationRange" :key="p">
+        <span v-if="p === '...'" class="auto-toc__ellipsis">…</span>
+        <button
+          v-else
+          :class="['auto-toc__page-btn', { 'is-active': p === currentPage }]"
+          @click="currentPage = (p as number)"
+        >{{ p }}</button>
+      </template>
+      <button
+        class="auto-toc__page-btn auto-toc__page-nav"
+        :disabled="currentPage >= totalPages"
+        @click="currentPage++"
+      >›</button>
     </div>
   </nav>
 </template>
@@ -95,9 +160,16 @@ function handleClick(e: MouseEvent, link: string) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 16px;
+  margin: 0 0 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+.auto-toc__empty {
+  list-style: none;
+  padding: 12px 10px;
+  color: var(--vp-c-text-3);
+  font-size: 13px;
 }
 
 .auto-toc__title {
@@ -111,7 +183,9 @@ function handleClick(e: MouseEvent, link: string) {
 .auto-toc__pagination {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
   margin-top: 12px;
   padding-top: 12px;
   border-top: 1px solid var(--vp-c-divider-light);
@@ -132,15 +206,32 @@ function handleClick(e: MouseEvent, link: string) {
   line-height: 26px;
 }
 
-.auto-toc__page-btn:hover {
+.auto-toc__page-btn:hover:not(:disabled) {
   color: var(--vp-c-brand-1);
   border-color: var(--vp-c-brand-1);
+}
+
+.auto-toc__page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .auto-toc__page-btn.is-active {
   color: #fff;
   background-color: var(--vp-c-brand-1);
   border-color: var(--vp-c-brand-1);
+}
+
+.auto-toc__page-nav {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.auto-toc__ellipsis {
+  padding: 0 2px;
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  line-height: 28px;
 }
 
 .auto-toc__list {

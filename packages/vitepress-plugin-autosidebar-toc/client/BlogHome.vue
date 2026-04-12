@@ -2,6 +2,7 @@
 import { ref, computed } from "vue";
 import { useRouter, useData } from "vitepress";
 import { useBlogHome } from "./useBlogHome";
+import TagsCloud from "./TagsCloud.vue";
 
 const router = useRouter();
 const { isDark } = useData();
@@ -41,7 +42,6 @@ function getPaginationRange(
 }
 
 const TAG_SHOW_LIMIT = 20;
-const showAllTags = ref(false);
 
 const TAG_COLORS_LIGHT = [
   { bg: "#fff0f0", color: "#c9362a", border: "#f5c4c0" },
@@ -57,7 +57,6 @@ const TAG_COLORS_LIGHT = [
   { bg: "#f0fffe", color: "#0a6b76", border: "#a3d9df" },
   { bg: "#f4f8e8", color: "#4e6a0c", border: "#c5d99e" },
 ];
-
 const TAG_COLORS_DARK = [
   { bg: "#3a1c1c", color: "#f5a8a2", border: "#5c2d2d" },
   { bg: "#3a2a14", color: "#f5c88a", border: "#5c4020" },
@@ -72,25 +71,18 @@ const TAG_COLORS_DARK = [
   { bg: "#14302e", color: "#6ad4dc", border: "#204a46" },
   { bg: "#283210", color: "#b8d47a", border: "#3c4a1c" },
 ];
-
 function hashStr(s: string): number {
   let h = 0;
-  for (let i = 0; i < s.length; i++) {
-    h = ((h << 5) - h + s.charCodeAt(i)) | 0;
-  }
+  for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
   return Math.abs(h);
 }
-
 function tagStyle(name: string, isActive: boolean) {
   if (isActive) return {};
   const palette = isDark.value ? TAG_COLORS_DARK : TAG_COLORS_LIGHT;
   const c = palette[hashStr(name) % palette.length];
-  return {
-    "--tag-bg": c.bg,
-    "--tag-color": c.color,
-    "--tag-border": c.border,
-  };
+  return { "--tag-bg": c.bg, "--tag-color": c.color, "--tag-border": c.border };
 }
+
 </script>
 
 <template>
@@ -231,33 +223,13 @@ function tagStyle(name: string, isActive: boolean) {
 
       <!-- Tags -->
       <div v-if="allTags.length" class="sidebar-card">
-        <h3 class="sidebar-card__title">🏷️ 标签</h3>
-        <div class="sidebar-tags">
-          <button
-            v-for="tag in showAllTags
-              ? allTags
-              : allTags.slice(0, TAG_SHOW_LIMIT)"
-            :key="tag.name"
-            :class="[
-              'sidebar-tag',
-              { 'is-active': selectedTags.has(tag.name) },
-            ]"
-            :style="tagStyle(tag.name, selectedTags.has(tag.name))"
-            @click="selectTag(tag.name)"
-          >
-            {{ tag.name }}
-            <span v-if="tag.count >= 0" class="sidebar-tag__count">{{
-              tag.count
-            }}</span>
-          </button>
-        </div>
-        <button
-          v-if="allTags.length > TAG_SHOW_LIMIT"
-          class="sidebar-tags__toggle"
-          @click="showAllTags = !showAllTags"
-        >
-          {{ showAllTags ? "收起" : `展开全部 ${allTags.length} 个标签` }}
-        </button>
+        <TagsCloud
+          :tags="allTags"
+          :selected="selectedTags"
+          :limit="TAG_SHOW_LIMIT"
+          title="🏷️ 标签"
+          @select="selectTag"
+        />
       </div>
     </aside>
   </div>
