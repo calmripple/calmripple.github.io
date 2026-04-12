@@ -1,9 +1,5 @@
 import type { HeadConfig } from 'vitepress'
-import process from 'node:process'
 import { creatorNames, creatorUsernames, siteDescription, siteName, targetDomain } from '../metadata'
-
-const isProduction = process.env.NODE_ENV === 'production'
-const plausibleScript: HeadConfig = ['script', { 'defer': 'true', 'data-domain': 'www.dmsrs.org', 'data-api': 'https://plausible.io/api/event', 'src': 'https://plausible.io/js/script.js' }]
 
 export default [
   ['meta', {
@@ -100,10 +96,4 @@ export default [
     name: 'msapplication-TileColor',
     content: '#603cba',
   }],
-  ...(isProduction
-    ? [
-        // Use direct Plausible endpoints to keep deployment target-agnostic.
-        plausibleScript,
-      ]
-    : []),
 ] satisfies HeadConfig[]
