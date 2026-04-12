@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { creators, siteName } from '@metadata'
+import { creators, githubUsername, siteName } from '@metadata'
 import { VPTeamMembers } from 'vitepress/theme'
 </script>
 
@@ -13,6 +13,22 @@ import { VPTeamMembers } from 'vitepress/theme'
           </h2>
           <div w-full p-10>
             <VPTeamMembers size="small" :members="creators" flex justify-center />
+          </div>
+
+          <div my-6 text-center>
+            <h2 text="center lg" my-4 font-bold>
+              ❤️ Sponsors
+            </h2>
+            <a
+              :href="`https://github.com/sponsors/${githubUsername}`"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                :src="`https://img.shields.io/static/v1?label=Sponsor&message=${githubUsername}&logo=GitHub&color=%23fe8e86&style=for-the-badge`"
+                alt="Sponsor on GitHub"
+              >
+            </a>
           </div>
 
           <div>

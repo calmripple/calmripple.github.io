@@ -1,0 +1,29 @@
+---
+status: 尚未完成
+tags:
+  - 软件
+  - 工具
+  - Figma
+  - 设计
+  - UI
+categories:
+  - 软件工具
+title: Figma 设计软件
+---
+## Figma
+
+[Figma 汉化版](https://www.figma.cool/cn)
+
+[Figma 蓝湖插件](https://www.figma.com/community/plugin/1000018270921149282/Lanhu)
+
+### Element UI
+
+[Figma 上的 Element UI 组件库](https://www.figma.com/community/file/830375663401202646)
+
+[Figma 上的 Element UI 图标库](https://www.figma.com/community/file/999627757312352634)
+
+### 学习使用 Figma
+
+[Figma 官方文档中文版](https://www.figma.cool/official-docs)
+
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%92%BE%20%E8%BD%AF%E4%BB%B6/Figma%20%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6.html" />

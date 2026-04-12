@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="知在|knewbeing">
+  <img width="350" src="./public/logo.svg" alt="知在|knewbeing">
 </p>
 
 <p align="center">
@@ -8,36 +8,30 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/XuNFDcDZGj"><img src="https://img.shields.io/discord/1229292283657195520?style=flat&logo=discord&logoColor=white&label=Discord&color=%23404eed" /></a>
-  <a href="https://t.me/+6WKTUzWijf1kMzFl"><img src="https://img.shields.io/badge/Group-%235AA9E6?logo=telegram&label=Telegram" /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.dmsrs.org/sponsors">
-    <img src="https://cdn.jsdelivr.net/gh/calmripple/sponsors/sponsors.svg"/>
-  </a>
-</p>
-
-<p align="center">
-  Thanks to all our Sponsors, this project has been made possible.<br>
-  You can also visit the Sponsors page below to join them:
-</p>
-<p align="center">
-<a href="https://github.com/sponsors/beknowing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Rizumu&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
-<a href="https://github.com/sponsors/beingknowing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=Neko&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
+  <a href="https://github.com/sponsors/knewbeing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=knewbeing&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
 </p>
 
 
 # 知在
 
-**A place to record memories, knowledge and ideas**
+**Engage and Understand the World**
 
-The English name of this project is knewbeing, and its Chinese name is "知在".
+The English name of this project is knewbing, and its Chinese name is "知在".
 
 > [!NOTE]
-> The current project is maintained by beingknowing and beknowing. The current repository is https://github.com/calmripple/calmripple.github.io.
+> The current project is maintained by knewbeing (钮必赢). The current repository is https://github.com/calmripple/calmripple.github.io.
+>
+> Legacy repository: https://github.com/calmripple/calmripple.github.io
 >
 > Parts of this project's structure, naming history, and early ideas continue from the original nolebase project. The original repository is https://github.com/nolebase/nolebase, and the original authors are 絢香音 and 絢香猫, also known as "Xiaoyin" and "Maomao". While this repository continues to reorganize, rewrite, and expand the content, it preserves and respects the copyright and contributions of the original authors and related contributors.
+
+## Project Philosophy
+
+**"知在" (Understanding Presence)**: The existence situation at this moment and the life world that is unfolding; awareness is the way we establish a relationship with "being".
+
+- Without "knowledge", existence is unrevealed potential
+- With "knowledge", existence is segmented, named, understood, and becomes part of life
+- "知在" is the process through which we participate in and understand the existence situation and life world we are in through knowledge and awareness
 
 ## Features
 

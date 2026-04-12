@@ -1,8 +1,9 @@
 import { readFile } from 'node:fs/promises'
 import { basename, extname, join, resolve } from 'node:path'
 import matter from 'gray-matter'
+import sanitizeHtml from 'sanitize-html'
 import { sanitizeTextCandidate, toNormalizedAbsolutePath } from '@knewbeing/utils'
-import type { Frontmatter, MarkdownMeta } from './types'
+import type { MarkdownMeta } from './types'
 import { toFrontmatter, getFrontmatterString, getFrontmatterNumber, getFrontmatterDate, getFrontmatterTags } from './frontmatter'
 
 // 生成 markdown 元数据缓存键。
@@ -14,6 +15,40 @@ export function toMarkdownMetaCacheKey(filePath: string): string {
 export function extractPrimaryHeading(markdownBody: string): string | undefined {
   const matched = markdownBody.match(/^#\s+(.+)$/m)
   return matched?.[1]?.trim()
+}
+
+// 从 markdown 正文中提取纯文本摘要（去除标题、代码块、链接、图片等）。
+export function extractExcerpt(markdownBody: string, maxLength = 200): string | undefined {
+  const sanitizedBody = sanitizeHtml(markdownBody, {
+    allowedTags: [],
+    allowedAttributes: {},
+  })
+
+  const lines = sanitizedBody
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/^#+\s+.+$/gm, '')
+    .replace(/!\[.*?\]\(.*?\)/g, '')
+    .replace(/\[([^\]]*)\]\(.*?\)/g, '$1')
+    .replace(/^[-*>]\s*/gm, '')
+    .replace(/\|.*\|/g, '')
+    .split('\n')
+    .map(l => l.trim())
+    .filter(l => l.length > 0)
+
+  const text = lines.join(' ')
+  if (!text) return undefined
+  return text.length > maxLength ? `${text.slice(0, maxLength)}…` : text
+}
+
+// 从 markdown 正文中提取第一张图片的路径。
+export function extractFirstImage(markdownBody: string): string | undefined {
+  // Match ![alt](url) pattern
+  const match = markdownBody.match(/!\[[^\]]*\]\(([^)]+)\)/)
+  if (match?.[1]) return match[1].trim()
+  // Match <img src="url"> pattern
+  const htmlMatch = markdownBody.match(/<img[^>]+src=["']([^"']+)["']/)
+  if (htmlMatch?.[1]) return htmlMatch[1].trim()
+  return undefined
 }
 
 // 将 markdown 原始数据解析为带有常用 Nolebase 字段的元数据对象。
@@ -31,6 +66,11 @@ export function parseMarkdownMeta(data: unknown, markdownBody: string): Markdown
     updatedAt: getFrontmatterDate(frontmatter, 'updatedAt'),
     wordsCount: getFrontmatterNumber(frontmatter, 'wordsCount'),
     readingTime: getFrontmatterNumber(frontmatter, 'readingTime'),
+    excerpt: getFrontmatterString(frontmatter, 'description')
+      ?? getFrontmatterString(frontmatter, 'excerpt')
+      ?? getFrontmatterString(frontmatter, 'summary')
+      ?? extractExcerpt(markdownBody),
+    firstImage: extractFirstImage(markdownBody),
   }
 }
 

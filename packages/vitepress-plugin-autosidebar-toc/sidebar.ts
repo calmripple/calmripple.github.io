@@ -79,6 +79,56 @@ export async function buildSidebarItemsFromDirectory(
   return [...dirs, ...files]
 }
 
+/**
+ * 为目录树中每个含有 markdown 文件的目录生成扁平的 SidebarMulti 条目。
+ *
+ * 类似 sugar-blog 的方式：每个目录路径对应一个 sidebar 入口，
+ * 只列出当前目录下的文章（不包含子目录分组名）。
+ */
+export async function buildFlatSidebarForAllDirectories(
+  baseDir: string,
+  roots: string[],
+  cache: Map<string, MarkdownMeta>,
+  tree: Map<string, DirNode>,
+): Promise<DefaultTheme.SidebarMulti> {
+  const sidebar: DefaultTheme.SidebarMulti = {}
+
+  for (const [dirPath, node] of tree) {
+    // 只处理属于指定 roots 下的目录
+    const isUnderRoot = roots.some(root => dirPath === root || dirPath.startsWith(`${root}/`))
+    if (!isUnderRoot) {
+      continue
+    }
+
+    const fileNames = [...node.files]
+    const items: DefaultTheme.SidebarItem[] = []
+
+    for (const fileName of fileNames) {
+      if (extname(fileName) !== '.md') {
+        continue
+      }
+      if (fileName === 'index.md') {
+        continue
+      }
+
+      const relativeFile = dirPath ? `${dirPath}/${fileName}` : fileName
+      const absoluteFile = join(baseDir, relativeFile)
+
+      const link = toVitePressPageRoute(relativeFile)
+      const fallbackTitle = finalizeDisplayText(basename(fileName, '.md'))
+      const title = finalizeDisplayText(await computeFileDisplayTitle(absoluteFile, fallbackTitle, cache))
+
+      items.push({ text: title, link })
+    }
+
+    // 即使当前目录没有文件，也注册 sidebar 条目（使子目录页面也能匹配到 sidebar）
+    const sidebarKey = `/${dirPath}/`
+    sidebar[sidebarKey] = items
+  }
+
+  return sidebar
+}
+
 // 规范化 sidebar root 配置路径。
 export function normalizeSidebarRootPath(path: string): string {
   const normalized = toPosixPath(path)
@@ -103,21 +153,17 @@ export const DEFAULT_OPTIONS: ResolvedTocSidebarOptions = {
   collapsed: true,
   debug: false,
   nav: {
-    enabled: false,
-    level: 1,
-    mode: 'replace',
+    insertMode: 'replace',
+    navBuilder: [],
+    order: [],
   },
 }
 
 // 规范化自动 nav 配置并填充默认值。
 export function normalizeAutoNavOptions(nav?: TocSidebarNavOptions): Required<TocSidebarNavOptions> {
-  const level = typeof nav?.level === 'number' && Number.isFinite(nav.level)
-    ? Math.max(1, Math.floor(nav.level))
-    : 1
-
   return {
-    enabled: nav?.enabled === true,
-    level,
-    mode: nav?.mode === 'append' ? 'append' : 'replace',
+    insertMode: nav?.insertMode ?? 'replace',
+    navBuilder: nav?.navBuilder ?? [],
+    order: nav?.order ?? [],
   }
 }

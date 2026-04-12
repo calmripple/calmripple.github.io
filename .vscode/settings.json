@@ -58,6 +58,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
   "files.exclude": {
     "**/.git": false,
     "**/.svn": false,
@@ -81,6 +82,14 @@
     "**/.trunk/*notifications/": true,
     "**/.trunk/*out/": true,
     "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
   },
   "svg.preview.background": "transparent",
   "github.copilot.chat.agent.autoFix": true,
@@ -108,5 +117,7 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.tabs.title": "${profile}",
   "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
-  "js/ts.tsdk.path": "node_modules/typescript/lib"
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "python.languageServer": "Pylance",
+  "python.createEnvironment.contentButton": "show"
 }

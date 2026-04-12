@@ -20,18 +20,49 @@ export interface ThemeConfigLike {
 }
 
 /**
+ * 自动从目录生成 nav 项的配置。
+ */
+export interface AutoNavOption {
+  /** 要扫描的目录路径（相对于文档根目录）。 */
+  navDir: string
+  /** 子目录层级深度，用于生成下拉菜单项。 */
+  level: number
+  /** 子菜单中包含的 glob 规则。 */
+  subMenuIncludeGlobs?: string[]
+  /** 子菜单中排除的 glob 规则。 */
+  subMenuExcludeGlobs?: string[]
+  /** 设为 `"navOrder"` 时按 frontmatter 中的 navOrder 字段排序。 */
+  navOrder?: 'navOrder'
+}
+
+/**
  * 自动生成顶栏导航时的配置项。
+ *
+ * `navBuilder` 数组中的每个元素可以是：
+ * - 一个普通的 `DefaultTheme.NavItem`（静态导航项，如「主页」）
+ * - 一个 `AutoNavOption`（根据目录自动生成导航项）
+ *
+ * 最终 nav 按 `navBuilder` 数组顺序拼接，再可选根据 `order` 进行排序。
  */
 export interface TocSidebarNavOptions {
-  /** 是否启用自动 nav 生成 */
-  enabled?: boolean
   /**
-   * 第几层目录作为 nav（1-based）。
-   * 当设置了 roots 时，层级以每个 root 为起点；否则以文档根目录为起点。
+   * 注入模式：
+   * - `'replace'`：替换已有 nav
+   * - `number`：在已有 nav 的指定位置插入
+   * @default 'replace'
    */
-  level?: number
-  /** nav 写入方式：replace 覆盖，append 追加并按 link 去重 */
-  mode?: 'replace' | 'append'
+  insertMode?: 'replace' | number
+  /**
+   * 导航构建器数组，按顺序构建最终的 nav。
+   * 每个元素可以是静态 NavItem 或 AutoNavOption。
+   */
+  navBuilder?: (DefaultTheme.NavItem | AutoNavOption)[]
+  /**
+   * 定义 nav 项的排列顺序。
+   * 数组中的字符串按顺序匹配 nav 项的 `text` 字段。
+   * 匹配到的项按此顺序排在前面，未匹配到的项保留原有相对顺序排在后面。
+   */
+  order?: string[]
 }
 
 /**
@@ -102,6 +133,12 @@ export interface MarkdownMeta {
 
   /** 解析后的阅读时长（分钟）。 */
   readingTime?: number
+
+  /** 从正文提取的摘要文本。 */
+  excerpt?: string
+
+  /** 正文中第一张图片的路径。 */
+  firstImage?: string
 }
 
 /**
@@ -155,6 +192,15 @@ export interface TocSidebarFileEntry {
 
   /** 一级标题；不存在时为 `null`。 */
   h1: string | null
+
+  /** 更新时间（ISO 字符串）；不存在时为 `null`。 */
+  updatedAt: string | null
+
+  /** 文章摘要。 */
+  excerpt: string | null
+
+  /** 封面图片 URL。 */
+  cover: string | null
 }
 
 /**
@@ -222,6 +268,20 @@ export interface AutoTocResolverOptions {
  * `AutoTocResolverOptions` 的别名，便于兼容不同命名。
  */
 export type TocSidebarResolverOptions = AutoTocResolverOptions
+
+/**
+ * `createTocSidebarComponentResolver` 的统一配置项。
+ *
+ * 可按组件名单独覆盖 `componentName`（注册别名）与 `from`（来源路径）。
+ */
+export interface TocSidebarComponentResolverOptions {
+  /** {@link AutoToc} 组件的覆盖配置。 */
+  AutoToc?: AutoTocResolverOptions
+  /** {@link SidebarArticleList} 组件的覆盖配置。 */
+  SidebarArticleList?: AutoTocResolverOptions
+  /** {@link BlogHome} 组件的覆盖配置。 */
+  BlogHome?: AutoTocResolverOptions
+}
 
 /**
  * 当前插件会读取的最小 Vite 用户配置结构。

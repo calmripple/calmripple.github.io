@@ -5,6 +5,7 @@
 # IDE related
 
 .idea
+.history/
 
 # Obsidian
 
@@ -25,6 +26,9 @@
 
 node_modules
 .npmrc
+
+# Generated covers (auto-copied from frontmatter)
+public/covers/
 
 # VitePress
 
