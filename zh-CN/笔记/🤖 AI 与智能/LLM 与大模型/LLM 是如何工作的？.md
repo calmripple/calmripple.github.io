@@ -34,10 +34,6 @@ title: LLM 是如何工作的？
 
 > 羊驼家族的冒险
 
-<video controls muted>
-  <source src="./how-llm-works-aftermath-of-llm-video-1.mp4" type="video/mp4">
-</video>
-
 [BlinkDL/ChatRWKV: ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source.](https://github.com/BlinkDL/ChatRWKV)
 
 [Vision-CAIR/MiniGPT-4: Open-sourced codes for MiniGPT-4 and MiniGPT-v2](https://github.com/Vision-CAIR/MiniGPT-4) (<https://minigpt-4.github.io>, <https://minigpt-v2.github.io/>)
@@ -310,10 +306,6 @@ https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_
 
 眼睛，耳朵，四肢，都可以是 Agent
 
-<video controls muted>
-  <source src="./how-llm-works-agent-video-1.mp4" type="video/mp4">
-</video>
-
 >TidyBot: Personalized Robot Assistance with Large Language Models approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts…
 
 <https://twitter.com/_akhaliq/status/1656117478760796160>
@@ -329,10 +321,6 @@ https://www.reddit.com/r/LocalLLaMA/comments/1b1q88w/selfextend_works_amazingly_
 [Autonomous Agents & Agent Simulations](https://blog.langchain.dev/agents-round/)
 
 甚至可以让它想象它自己的模样，然后用 Diffusion 模型画出来
-
-<video controls muted>
-  <source src="./how-llm-works-it-imagines-itself-video-1.mp4" type="video/mp4">
-</video>
 
 > This is how GPT-4 sees and hears itself" I used GPT-4 to describe itself. Then I used its description to generate an image, a video based on this image and a soundtrack. Tools I used: GPT-4, Midjourney, Kainber AI, Mubert, RunwayML This is the description I used that GPT-4...
 

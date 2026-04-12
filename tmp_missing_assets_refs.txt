@@ -1,0 +1,19 @@
+zh-CN/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.md | ./assets/XLFShHJZhFSh_002.gif
+zh-CN/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md | ./assets/SVDQYZhFJJQYY_009.jpeg
+zh-CN/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md | ./assets/SVDQYZhFJJQYY_014.jpeg
+zh-CN/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md | ./assets/SVDQYZhFJJQYY_017.jpeg
+zh-CN/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md | ./assets/SVDQYZhFJJQYY_025.jpeg
+zh-CN/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md | ./assets/SVDQYZhFJJQYY_026.jpeg
+zh-CN/笔记/🤖 AI 与智能/AI 工具与平台/juejin-hot-rank-bot.md | ./assets/JuejinHotRankBot_003.png
+zh-CN/笔记/🤖 AI 与智能/AI 工具与平台/juejin-hot-rank-bot.md | ./assets/JuejinHotRankBot_006.png
+zh-CN/笔记/🤖 AI 与智能/AI 工具与平台/juejin-hot-rank-bot.md | ./assets/JuejinHotRankBot_008.png
+zh-CN/笔记/🤖 AI 与智能/AI 工具与平台/juejin-hot-rank-bot.md | ./assets/JuejinHotRankBot_011.png
+zh-CN/笔记/🤖 AI 与智能/AI 工具与平台/juejin-hot-rank-bot.md | ./assets/JuejinHotRankBot_013.png
+zh-CN/笔记/🤖 AI 与智能/AI 应用/mac-install.md | ./assets/MacInstall_021.png
+zh-CN/笔记/🤖 AI 与智能/AI 应用/mac-install.md | ./assets/MacInstall_023.png
+zh-CN/笔记/🤖 AI 与智能/AI 应用/mac-install.md | ./assets/MacInstall_025.png
+zh-CN/笔记/🛠 工程实践/部署与运维/tx-serverless-static.md | ./assets/TxServerlessStatic_019.png
+zh-CN/笔记/🛠 工程实践/部署与运维/tx-serverless-static.md | ./assets/TxServerlessStatic_021.png
+zh-CN/笔记/🛠 工程实践/部署与运维/tx-serverless-static.md | ./assets/TxServerlessStatic_023.png
+zh-CN/笔记/🛠 工程实践/部署与运维/tx-serverless-static.md | ./assets/TxServerlessStatic_026.png
+MISSING_ASSET_REFS_TOTAL=18
