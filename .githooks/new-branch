@@ -1,0 +1,30 @@
+#!/bin/bash
+# 自动创建带日期前缀的分支
+# 用法: git new-branch <branch-name>
+# 快捷方式: git new
+
+set -e
+
+# 格式化日期前缀 yyyy/MM/dd/HHmm-
+prefix=$(date '+%Y/%m/%d/%H%M-')
+
+# 如果没有提供参数，提示用户输入
+if [ -z "$1" ]; then
+  echo "用法: git new-branch <分支名>"
+  echo "示例: git new-branch my-feature"
+  echo "将创建分支: ${prefix}my-feature"
+  exit 1
+fi
+
+branch_name="${prefix}$1"
+
+echo "创建分支: $branch_name"
+
+# 检查是否是首次提交
+if git rev-parse HEAD >/dev/null 2>&1; then
+  git switch -c "$branch_name"
+else
+  git switch -c "$branch_name" || git checkout -b "$branch_name"
+fi
+
+echo "已切换到分支: $(git branch --show-current)"
