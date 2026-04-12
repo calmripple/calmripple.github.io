@@ -270,7 +270,7 @@ export async function buildNavFromBuilder(
 
     // AutoNavOption：根据 navDir 和 level 生成 nav 项
     const { navDir, level } = item
-    const normalizedDir = navDir.replace(/^\/+|\/+$/g, '')
+    const normalizedDir = navDir.replace(/^\/+/, '').replace(/\/+$/, '')
 
     // 收集该 navDir 下指定层级的子目录
     const candidateDirs = collectCandidateNavDirectories(

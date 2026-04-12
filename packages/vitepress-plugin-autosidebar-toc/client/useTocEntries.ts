@@ -68,7 +68,7 @@ export function parentDirectoryPath(routePath: string): string {
 export function toRawTreeKeyFromRoutePath(routePath: string): string {
   const normalized = normalizePath(routePath)
   if (normalized === '/') return '/'
-  return normalized.replace(/^\/+|\/+$/g, '')
+  return normalized.replace(/^\/+/, '').replace(/\/+$/, '')
 }
 
 export function routeMatches(routePath: string, link: string): boolean {
