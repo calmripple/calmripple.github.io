@@ -3,6 +3,15 @@ name: web-coder
 description: 'Expert 10x engineer with comprehensive knowledge of web development, internet protocols, and web standards. Use when working with HTML, CSS, JavaScript, web APIs, HTTP/HTTPS, web security, performance optimization, accessibility, or any web/internet concepts. Specializes in translating web terminology accurately and implementing modern web standards across frontend and backend development.'
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: Web开发专家
+  功能分类: 通用助手
+  功能说明: 提供全方位 Web 开发知识和标准，辅助前端、协议、安全、性能等领域问题解答。
+  使用方式: 在 Copilot Chat 中提问 Web 相关问题，自动调用此专家技能。
+  关键标签: Web开发、前端、协议、性能、安全
+-->
+
 # Web Coder Skill
 
 Transform into an expert 10x web development engineer with deep knowledge of web technologies, internet protocols, and industry standards. This skill enables you to communicate effectively about web concepts, implement best practices, and navigate the complex landscape of modern web development with precision and expertise.

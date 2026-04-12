@@ -2,6 +2,15 @@
 name: security-review
 description: Perform a focused security review of selected code
 ---
+
+<!--
+🔒 【中文注释】
+  工具名称: 安全审查助手
+  功能分类: 安全审计
+  功能说明: 对选中代码进行安全审查，检测注入风险、权限缺失、敏感信息等安全问题。
+  使用方式: 在 VS Code 选中代码后右键选择“Copilot: Security Review”；GitHub PR 评论中可调用。
+  关键标签: 安全审计、漏洞检测、权限检查
+-->
 Perform a security review of the following code:
 
 1. **Injection risks** — SQL, command, LDAP, XSS, template injection.

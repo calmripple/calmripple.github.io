@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: Web API规范
+  功能分类: 编码规范
+  功能说明: 帮助规范 Web API 和 DOM 的使用，介绍结构和操作方式。
+  使用方式: 在 VS Code 中输入 DOM 或 Web API 相关问题时自动触发。
+  关键标签: DOM、Web API、编码规范
+-->
+
 # Web APIs & DOM Reference
 
 Comprehensive reference for the Document Object Model (DOM) and Web APIs available in modern browsers.

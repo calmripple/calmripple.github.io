@@ -3,6 +3,15 @@ description: 'Markdown guidelines and content creation standards for blog posts'
 applyTo: '**/*.md'
 ---
 
+<!--
+📝 【中文注释】
+  工具名称: Markdown内容
+  功能分类: 文档生成
+  功能说明: 规范 Markdown 内容创作，提供结构和格式标准，适用于博客等文档。
+  使用方式: 自动应用于所有 Markdown 文件编辑，无需手动调用。
+  关键标签: Markdown、内容创作、规范、结构
+-->
+
 # Markdown Content Rules
 
 The following markdown content rules are enforced in the validators:

@@ -8,6 +8,15 @@ metadata:
   inspired-by: https://github.com/karpathy/autoresearch
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 自动实验助手
+  功能分类: 通用助手
+  功能说明: 用于自主迭代实验和代码优化，自动进行目标设定、测试和结果评估。
+  使用方式: 在 VS Code 命令面板输入“Copilot: Autoresearch”启动；GitHub Actions 可集成自动实验。
+  关键标签: 自动优化、实验循环、迭代
+-->
+
 # Autoresearch: Autonomous Iterative Experimentation
 
 An autonomous experimentation loop for any programming task. You define the goal and how to measure it; the agent iterates autonomously -- modifying code, running experiments, measuring results, and keeping or discarding changes -- until interrupted.

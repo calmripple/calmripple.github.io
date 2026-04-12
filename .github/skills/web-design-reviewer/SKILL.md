@@ -3,6 +3,15 @@ name: web-design-reviewer
 description: 'This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like "review website design", "check the UI", "fix the layout", "find design problems". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.'
 ---
 
+<!--
+🔍 【中文注释】
+  工具名称: 网页设计审查
+  功能分类: 代码审查
+  功能说明: 用于审查网站设计，检测并修复响应式、可访问性及布局问题。
+  使用方式: 在 VS Code 中输入“审查网页设计”或“检查UI”自动触发。
+  关键标签: 代码审查、设计检查、响应式
+-->
+
 # Web Design Reviewer
 
 This skill enables visual inspection and validation of website design quality, identifying and fixing issues at the source code level.

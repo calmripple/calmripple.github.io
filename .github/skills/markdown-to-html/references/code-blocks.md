@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 代码块生成
+  功能分类: 文档生成
+  功能说明: 用于创建和高亮 Markdown 代码块，提升代码展示效果。
+  使用方式: 在 VS Code 中输入三反引号包裹代码，工具自动识别并高亮显示。
+  关键标签: Markdown、代码块、高亮、文档
+-->
+
 # Creating and highlighting code blocks
 
 Share samples of code with fenced code blocks and enabling syntax highlighting.

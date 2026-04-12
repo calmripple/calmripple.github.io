@@ -3,6 +3,15 @@ name: playwright-explore-website
 description: 'Website exploration for testing using Playwright MCP'
 ---
 
+<!--
+🧪 【中文注释】
+  工具名称: 网站探索测试
+  功能分类: 测试辅助
+  功能说明: 用于网站探索测试，自动识别并交互核心功能，辅助测试流程。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入网站测试需求自动调用。
+  关键标签: Playwright、测试、自动化、网站探索
+-->
+
 # Website Exploration for Testing
 
 Your goal is to explore the website and identify key functionalities.

@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 敏感信息检测
+  功能分类: 安全审计
+  功能说明: 用于检测代码中的高置信度敏感信息和密钥模式。
+  使用方式: 由安全审计助手自动加载，无需手动调用。
+  关键标签: 安全、密钥检测、敏感信息、代码扫描
+-->
+
 # Secret & Credential Detection Patterns
 
 Load this file during Step 3 (Secrets & Exposure Scan).

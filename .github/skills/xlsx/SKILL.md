@@ -4,6 +4,15 @@ description: "Use this skill any time a spreadsheet file is the primary input or
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 表格处理助手
+  功能分类: 通用助手
+  功能说明: 用于处理电子表格文件，包括读取、编辑、创建和格式转换等任务。适用于 .xlsx、.csv 等多种表格格式。
+  使用方式: 在 Copilot Chat 中描述表格相关需求，自动调用技能进行操作。
+  关键标签: 表格处理、数据转换、Copilot
+-->
+
 # Requirements for Outputs
 
 ## All Excel files

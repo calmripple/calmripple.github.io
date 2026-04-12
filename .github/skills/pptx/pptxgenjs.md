@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: PPTX编程生成
+  功能分类: 通用助手
+  功能说明: 用于通过 PptxGenJS 库编程生成和管理 PPTX 演示文稿。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入 PPTX 生成需求自动调用。
+  关键标签: PPTX、生成、编程、PptxGenJS
+-->
+
 # PptxGenJS Tutorial
 
 ## Setup & Basic Structure

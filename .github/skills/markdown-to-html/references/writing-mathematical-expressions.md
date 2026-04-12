@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 数学表达式生成
+  功能分类: 文档生成
+  功能说明: 用于在 Markdown 中编写数学表达式，支持 LaTeX 语法。
+  使用方式: 在 VS Code 中插入 $...$ 或 $$...$$，工具辅助渲染数学内容。
+  关键标签: Markdown、数学表达式、LaTeX、文档
+-->
+
 # Writing mathematical expressions
 
 Use Markdown to display mathematical expressions on GitHub.

@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: 服务器测试启动
+  功能分类: 测试辅助
+  功能说明: 帮助启动一个或多个开发服务器，等待就绪后自动运行测试命令。适用于端到端测试场景。
+  使用方式: 在 VS Code 终端运行：python scripts/with_server.py --server "npm run dev" --port 5173 -- python automation.py。
+  关键标签: 端到端测试、服务器管理、自动化
+-->
+
 #!/usr/bin/env python3
 """
 Start one or more servers, wait for them to be ready, run a command, then clean up.

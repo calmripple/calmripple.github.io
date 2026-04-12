@@ -1,3 +1,12 @@
+<!--
+🏗️ 【中文注释】
+  工具名称: 架构模式参考
+  功能分类: 架构设计
+  功能说明: 提供 Web 应用架构与设计模式参考，辅助系统架构决策与优化。
+  使用方式: 在 VS Code 或 GitHub 讨论架构时，查阅此文档获取架构建议。
+  关键标签: 架构、设计模式、Web应用、系统设计
+-->
+
 # Architecture & Patterns Reference
 
 Web application architectures, design patterns, and architectural concepts.

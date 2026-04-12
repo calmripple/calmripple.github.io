@@ -3,6 +3,15 @@ name: gh-cli
 description: GitHub CLI (gh) comprehensive reference for repositories, issues, pull requests, Actions, projects, releases, gists, codespaces, organizations, extensions, and all GitHub operations from the command line.
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: GitHub CLI
+  功能分类: 通用助手
+  功能说明: 提供 GitHub CLI 全面操作参考，支持仓库、Issue、PR、Actions 等命令行管理。
+  使用方式: 在 Copilot Chat 输入“GitHub CLI命令参考”或“操作GitHub”，自动调用该工具。
+  关键标签: 命令行、GitHub操作、效率工具
+-->
+
 # GitHub CLI (gh)
 
 Comprehensive reference for GitHub CLI (gh) - work seamlessly with GitHub from the command line.

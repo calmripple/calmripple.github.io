@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 安全认证参考
+  功能分类: 安全审计
+  功能说明: 帮助检查网页安全、认证和加密实践，提供安全编码参考。
+  使用方式: 在 VS Code 中查阅安全或认证相关问题时自动触发。
+  关键标签: 安全审计、认证、加密
+-->
+
 # Security & Authentication Reference
 
 Comprehensive reference for web security, authentication, encryption, and secure coding practices.

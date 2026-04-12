@@ -3,6 +3,15 @@ description: 'Markdown formatting aligned to the CommonMark specification (0.31.
 applyTo: '**/*.md'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: Markdown规范
+  功能分类: 编码规范
+  功能说明: 帮助规范 Markdown 文件格式，确保符合 CommonMark 标准。适用于撰写和审查 `.md` 文件。
+  使用方式: 在 VS Code 编辑 `.md` 文件时自动应用；GitHub PR/提交时自动检查。
+  关键标签: Markdown、格式规范、编码标准
+-->
+
 # CommonMark Markdown
 
 Apply these rules per the [CommonMark spec 0.31.2](https://spec.commonmark.org/0.31.2/) when writing or reviewing `.md` files. CommonMark spec for reference only. Do not download CommonMark spec.

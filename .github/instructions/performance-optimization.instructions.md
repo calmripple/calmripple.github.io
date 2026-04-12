@@ -3,6 +3,15 @@ applyTo: '*'
 description: 'The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.'
 ---
 
+<!--
+♻️ 【中文注释】
+  工具名称: 性能优化助手
+  功能分类: 代码重构
+  功能说明: 提供各类代码性能优化建议，涵盖前端、后端及数据库，支持故障排查和优化。
+  使用方式: 在 VS Code 选中代码后可调用 Copilot Refactor；GitHub PR/提交时自动建议优化。
+  关键标签: 性能优化、代码重构、故障排查
+-->
+
 # Performance Optimization Best Practices
 
 ## Introduction

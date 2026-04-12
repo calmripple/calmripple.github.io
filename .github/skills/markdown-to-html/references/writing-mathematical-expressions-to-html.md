@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 数学式转 HTML
+  功能分类: 文档生成
+  功能说明: 帮助将 Markdown 数学表达式转换为 HTML，支持 MathML 展示。
+  使用方式: 在 VS Code 中编辑数学公式，工具自动生成对应 HTML。
+  关键标签: Markdown、HTML、数学表达式、转换
+-->
+
 # Writing Mathematical Expressions to HTML
 
 ## Writing Inline Expressions

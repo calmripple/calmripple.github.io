@@ -3,6 +3,15 @@ name: refactor-plan
 description: 'Plan a multi-file refactor with proper sequencing and rollback steps'
 ---
 
+<!--
+♻️ 【中文注释】
+  工具名称: 重构计划制定
+  功能分类: 代码重构
+  功能说明: 帮助制定多文件重构计划，合理安排步骤并支持回滚。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入重构规划需求自动调用。
+  关键标签: 重构、计划、多文件、回滚
+-->
+
 # Refactor Plan
 
 Create a detailed plan for this refactoring task.

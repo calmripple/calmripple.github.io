@@ -13,6 +13,9 @@ Auto-generated overview of Copilot tools installed in this repository.
 ### code-review
 `.github/instructions/code-review.instructions.md`
 
+### docs-writing
+`.github/instructions/docs-writing.instructions.md`
+
 ### general-coding
 `.github/instructions/general-coding.instructions.md`
 
@@ -70,6 +73,12 @@ Auto-generated overview of Copilot tools installed in this repository.
 
 ### refactor
 `.github/prompts/refactor.prompt.md`
+
+### review-article
+`.github/prompts/review-article.prompt.md`
+
+### review-blog
+`.github/prompts/review-blog.prompt.md`
 
 ### security-review
 `.github/prompts/security-review.prompt.md`

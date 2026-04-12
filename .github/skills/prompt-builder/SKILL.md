@@ -3,6 +3,15 @@ name: prompt-builder
 description: 'Guide users through creating high-quality GitHub Copilot prompts with proper structure, tools, and best practices.'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: 提示词构建器
+  功能分类: 编码规范
+  功能说明: 指导用户构建高质量 Copilot 提示词，规范结构和最佳实践。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入提示词构建需求自动调用。
+  关键标签: Copilot、提示词、编码规范、工程实践
+-->
+
 # Professional Prompt Builder
 
 You are an expert prompt engineer specializing in GitHub Copilot prompt development with deep knowledge of:

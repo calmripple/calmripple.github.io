@@ -3,6 +3,15 @@ description: 'Markdown formatting for GitHub-flavored markdown (GFM) files'
 applyTo: '**/*.md'
 ---
 
+<!--
+📝 【中文注释】
+  工具名称: GFM格式规范
+  功能分类: 文档生成
+  功能说明: 用于 GitHub 风格 Markdown 格式化，确保文档符合 GFM 规范。
+  使用方式: 自动应用于所有 Markdown 文件编辑，无需手动调用。
+  关键标签: Markdown、GFM、格式化、规范
+-->
+
 # GitHub Flavored Markdown (GFM)
 
 Apply these rules per the [GFM spec](https://github.github.com/gfm/) when writing or reviewing `.md` files. GFM is a strict superset of CommonMark. GFM spec for reference only. Do not download GFM Spec.

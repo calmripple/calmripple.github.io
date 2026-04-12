@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Pandoc 文档转
+  功能分类: 文档生成
+  功能说明: 用于多格式文档互转，支持 Markdown、HTML、Word 等多种格式。
+  使用方式: 在 VS Code 终端中使用 pandoc 命令进行格式转换。
+  关键标签: Pandoc、文档转换、Markdown、多格式
+-->
+
 # Pandoc Reference
 
 Pandoc is a universal document converter that can convert between numerous markup formats, including Markdown, HTML, LaTeX, Word, and many more.

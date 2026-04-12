@@ -3,6 +3,15 @@ name: premium-frontend-ui
 description: 'A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship.'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: 高端前端规范
+  功能分类: 编码规范
+  功能说明: 指导打造高端前端 UI，包括动效、排版和架构最佳实践。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入前端开发需求自动调用。
+  关键标签: 前端、UI、编码规范、架构
+-->
+
 # Immersive Frontend UI Craftsmanship
 
 As an AI engineering assistant, your role when building premium frontend experiences goes beyond outputting functional HTML and CSS. You must architect **immersive digital environments**. This skill provides the blueprint for generating highly intentional, award-level web applications that prioritize aesthetic quality, deep interactivity, and flawless performance.

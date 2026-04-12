@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 浏览器引擎参考
+  功能分类: 通用助手
+  功能说明: 提供主流浏览器及渲染引擎相关知识，便于兼容性和性能优化。
+  使用方式: 在前端开发或调试时查阅，辅助解决兼容性问题。
+  关键标签: 浏览器、渲染引擎、兼容性、性能
+-->
+
 # Browsers & Engines Reference
 
 Web browsers, rendering engines, and browser-specific information.

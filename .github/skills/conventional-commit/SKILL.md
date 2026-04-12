@@ -3,6 +3,15 @@ name: conventional-commit
 description: 'Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: 规范化提交
+  功能分类: 编码规范
+  功能说明: 用于生成符合 Conventional Commits 规范的结构化提交信息，指导标准化提交流程。
+  使用方式: 在 VS Code 的 Copilot Chat 输入“生成规范提交信息”或在 GitHub 提交时调用该工具。
+  关键标签: 提交规范、编码标准、Git操作
+-->
+
 ### Instructions
 
 ```xml

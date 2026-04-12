@@ -3,6 +3,15 @@ description: 'Markdown accessibility guidelines based on GitHub''s 5 best practi
 applyTo: '**/*.md'
 ---
 
+<!--
+📝 【中文注释】
+  工具名称: Markdown无障
+  功能分类: 文档生成
+  功能说明: 用于审查 Markdown 文件的可访问性，确保文档符合无障碍标准。
+  使用方式: 自动应用于所有 Markdown 文件审查，无需手动调用。
+  关键标签: Markdown、无障碍、审查、文档
+-->
+
 # Markdown Accessibility Review Guidelines
 
 When reviewing markdown files, check for the following accessibility issues based on GitHub's [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/). Flag violations and suggest fixes with clear explanations of the accessibility impact.

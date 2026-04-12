@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 媒体图像规范
+  功能分类: 编码规范
+  功能说明: 用于规范网页多媒体内容和图片格式的使用，提供最佳实践。
+  使用方式: 在 VS Code 中查阅图片或多媒体相关规范时自动触发。
+  关键标签: 图片格式、多媒体、编码规范
+-->
+
 # Media & Graphics Reference
 
 Multimedia content, graphics, and related technologies for the web.

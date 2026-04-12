@@ -3,6 +3,15 @@ name: code-runner
 description: Run code snippets in 30+ programming languages including JavaScript, Python, TypeScript, Java, C, C++, Go, Rust, Ruby, PHP, and more. Use when the user wants to execute code, test algorithms, verify output, run scripts, or check code behavior. Supports both interpreted and compiled languages.
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 代码运行器
+  功能分类: 通用助手
+  功能说明: 支持多语言代码片段运行，便于测试算法、验证输出和检查行为。
+  使用方式: 在 VS Code 选中代码后右键选择“Copilot: Run Code”；GitHub Actions 可集成自动运行。
+  关键标签: 代码运行、多语言、测试
+-->
+
 # Code Runner Skill
 
 This skill enables you to run code snippets in multiple programming languages directly from the command line.

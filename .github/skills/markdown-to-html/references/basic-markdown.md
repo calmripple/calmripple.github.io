@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Markdown语法
+  功能分类: 文档生成
+  功能说明: 提供 Markdown 基础语法参考，帮助规范文档格式和内容编写。
+  使用方式: 在 Copilot Chat 或文档编写时查阅 Markdown 基础语法。
+  关键标签: 文档规范、格式参考、Markdown
+-->
+
 # Basic writing and formatting syntax
 
 Create sophisticated formatting for your prose and code on GitHub with simple syntax.

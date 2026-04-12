@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Hugo 静态生成
+  功能分类: 文档生成
+  功能说明: 帮助使用 Hugo 快速生成静态网站，支持 Markdown 内容管理。
+  使用方式: 在 VS Code 中编辑内容，使用 Hugo CLI 构建网站。
+  关键标签: Hugo、静态网站、Markdown、生成
+-->
+
 # Hugo Reference
 
 Hugo is the world's fastest static site generator. It builds sites in milliseconds and supports advanced content management features.

@@ -5,6 +5,15 @@ license: MIT
 allowed-tools: Bash
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: 智能提交
+  功能分类: 编码规范
+  功能说明: 帮助智能生成规范化 Git 提交信息，支持自动检测变更类型和交互式提交。
+  使用方式: 在 VS Code 输入“/commit”或“生成Git提交”，自动触发该工具。
+  关键标签: 提交规范、Git操作、自动生成
+-->
+
 # Git Commit with Conventional Commits
 
 ## Overview

@@ -3,6 +3,15 @@ description: "Guidelines for writing Node.js and JavaScript code with Vitest tes
 applyTo: '**/*.js, **/*.mjs, **/*.cjs'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: JS编码规范
+  功能分类: 编码规范
+  功能说明: 用于规范 Node.js 和 JavaScript 代码编写，包含 Vitest 测试相关最佳实践。
+  使用方式: 在 VS Code 编辑 `.js`、`.mjs`、`.cjs` 文件时自动应用；GitHub PR/提交时自动检查。
+  关键标签: JavaScript、Node.js、编码规范、Vitest
+-->
+
 # Code Generation Guidelines
 
 ## Coding standards

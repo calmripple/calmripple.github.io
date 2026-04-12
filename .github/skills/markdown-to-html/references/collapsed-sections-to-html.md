@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 折叠区转 HTML
+  功能分类: 文档生成
+  功能说明: 帮助将 Markdown 折叠区域转换为 HTML，便于信息分层展示。
+  使用方式: 在 VS Code 中编辑 Markdown，工具自动生成对应 HTML 折叠区域。
+  关键标签: Markdown、HTML、折叠、转换
+-->
+
 # Collapsed Sections to HTML
 
 ## `<details>` Block (Raw HTML in Markdown)

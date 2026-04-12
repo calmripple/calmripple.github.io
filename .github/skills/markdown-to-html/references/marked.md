@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Marked 转换工
+  功能分类: 文档生成
+  功能说明: 帮助快速将 Markdown 文件或字符串转换为 HTML，支持 CLI 和 Node.js。
+  使用方式: 在 VS Code 终端或 Node.js 脚本中调用 marked 命令进行转换。
+  关键标签: Marked、Markdown、HTML、转换
+-->
+
 # Marked
 
 ## Quick Conversion Methods
