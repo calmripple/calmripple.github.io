@@ -15,7 +15,7 @@ categories:
 
 之前做了1个下载文件的CLI工具 [efst](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/README.md) - [原理文章: 从0-1实现文件下载CLI工具](./../works/fs-cli.md)
 
-![图片](./assets/http-proxy-fail-001.png)
+![图片](./assets/HttpProxyFail_001.png)
 
 其中支持设置 代理(proxy) 来下载网络资源
 
@@ -26,7 +26,7 @@ categories:
 efst https://updates.tdesktop.com/tmac/tsetup.4.5.3.dmg -o -p http://127.0.0.1:7890
 ```
 
-![图片](./assets/http-proxy-fail-002.png)
+![图片](./assets/HttpProxyFail_002.png)
 
 输出了一下错误，发现报错信息是 `ECONNRESET error`
 
@@ -35,6 +35,6 @@ efst https://updates.tdesktop.com/tmac/tsetup.4.5.3.dmg -o -p http://127.0.0.1:7
 
 添加请求头`Connection: 'keep-alive'`即可
 
-![图片](./assets/http-proxy-fail-003.png)
+![图片](./assets/HttpProxyFail_003.png)
 
 <Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/http-proxy-fail.html" />

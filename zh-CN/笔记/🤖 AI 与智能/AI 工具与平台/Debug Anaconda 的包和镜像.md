@@ -50,7 +50,7 @@ linux-32   linux-64   linux-aarch64   linux-armv6l   linux-armv7l   linux-ppc64l
 
 的行：
 
-![](./d-e-b-u-g-a-n-a-c-o-n-d-a-de-bao-he-jing-xiang-001.png)
+![](./assets/DebugAnacondaDBHJX_001.png)
 
 这些都是系统内核和 CPU 架构的编码，它会按照：
 
@@ -254,6 +254,6 @@ opendiff nb_conda_kernels-2.5.1-pyh707e725_2/info/info/index.json nb_conda_kerne
 
 直接进行 diff 对比：
 
-![](./d-e-b-u-g-a-n-a-c-o-n-d-a-de-bao-he-jing-xiang-002.png)
+![](./assets/DebugAnacondaDBHJX_002.png)
 
 <Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/Debug%20Anaconda%20%E7%9A%84%E5%8C%85%E5%92%8C%E9%95%9C%E5%83%8F.html" />

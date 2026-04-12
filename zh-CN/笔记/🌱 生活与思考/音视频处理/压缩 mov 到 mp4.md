@@ -15,7 +15,7 @@ title: 压缩 mov 到 mp4
 ffmpeg -i {in-video}.mov -vcodec h264 -acodec aac {out-video}.mp4
 ```
 
-![ffmpeg mov to mp4](./assets/ya-suo-m-o-v-dao-m-p-4-001.png)
+![ffmpeg mov to mp4](./assets/YSMovDMp4_001.png)
 
 ## 参考资料
 

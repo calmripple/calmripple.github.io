@@ -222,7 +222,7 @@ CSP - 内容安全策略
 ```
 观察浏览器的devtools面板会发现以下内容
 
-![图片](./assets/safe-001.png)
+![图片](./assets/Safe_001.png)
 
 阻止第三方域名的脚本资源加载，阻止内联脚本执行
 
@@ -240,14 +240,14 @@ document.cookie = 'sugar=at;expires=session'
 ```
 执行后我们可以在devtools面板的`Application`选项卡中看到我们添加的cookie
 
-![图片](./assets/safe-002.png)
+![图片](./assets/Safe_002.png)
 
 ```js
 console.log(document.cookie)
 // 可以看到我们刚才设置的cookie
 ```
 
-![图片](./assets/safe-003.png)
+![图片](./assets/Safe_003.png)
 
 目前很多统计网站的埋点监控，权限控制，离线数据都依赖于cookie，第三方脚本很容易的能够进行窃取
 

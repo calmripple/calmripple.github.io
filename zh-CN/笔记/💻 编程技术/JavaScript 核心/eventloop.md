@@ -159,7 +159,7 @@ console.log('script end')
 * 宏队列macrotask一次只从队列中取一个任务执行，执行完后就去执行微任务队列中的任务
 * 微任务队列中所有的任务都会被依次取出来执行，直到microtask queue为空；
 * 只要执行UI rendering，它的节点是在执行完所有的microtask之后，下一个macrotask之前，紧跟着执行UI render。
-![图片](./assets/eventloop-001.png)
+![图片](./assets/Eventloop_001.png)
 
 ### 微任务
 * promise
@@ -257,7 +257,7 @@ Node 与 浏览器中的 Event Loop 完全不同
 
 Node的Event Loop分为**6个阶段**,会按照**顺序**反复执行,每当进入某一个阶段的时候,都会从对应的回调队列中取出函数去执行
 
-![图片](./assets/eventloop-002.png)
+![图片](./assets/Eventloop_002.png)
 
 ## timers
 执行 ``setTimeout`` 与 ``setInterval``回调,由poll阶段控制

@@ -21,11 +21,11 @@ categories:
 ### 获取启动耗时
 项目启动后会在终端中输出`ready in xxms`
 
-![图片](./vite-plugin-monitor2-001.png)
+![图片](./assets/VitePluginMonitor2_001.png)
 
 为此咱们使用Vs Code在[源码](https://github1s.com/vitejs/vite)中搜一下这个关键字
 
-![图片](./vite-plugin-monitor2-002.png)
+![图片](./assets/VitePluginMonitor2_002.png)
 
 可以看到此部分代码在源码中如下
 
@@ -70,13 +70,13 @@ export default function Monitor(): Plugin {
 ```
 
 启动一个项目看看效果，成了。
-![图片](./vite-plugin-monitor2-003.png)
+![图片](./assets/VitePluginMonitor2_003.png)
 
 
 ### HMR时间获取
 热更新时，终端中会出现下面的日志
 
-![图片](./vite-plugin-monitor2-004.png)
+![图片](./assets/VitePluginMonitor2_004.png)
 
 同理源码里搜一搜，能够定位出如下内容
 ```ts
@@ -128,7 +128,7 @@ server.middlewares.use(async (req, res, next) => {
 
 事实上通过`--debug`启动服务，能看到在HMR时会打印4个时间
 
-![图片](./vite-plugin-monitor2-005.png)
+![图片](./assets/VitePluginMonitor2_005.png)
 
 目前方法仅仅得到了`vite:hmr`部分的时间，与实际耗时还有一丝丝差异
 

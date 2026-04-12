@@ -68,7 +68,7 @@ title: 如何让 AI 玩 Minecraft？Voyager 论文笔记
 			- 饥饿：9/9
 	- 然后 LLM 会被要求输出接下来期望的状态，由对应的代码执行
 
-![Voyager flow](./ru-he-rang-a-i-wan-m-i-n-e-c-r-a-f-t-v-o-y-a-g-e-r-lun-wen-bi-ji-001.png)
+![Voyager flow](./assets/RHRAIWMinecraftVoyagerLWBJ_001.png)
 
 - [How Large Language Models play video games - YouTube](https://www.youtube.com/watch?v=cXfnNoMgCio)
 

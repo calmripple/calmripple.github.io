@@ -137,7 +137,7 @@ module.exports = {
 
 渲染结果如下
 
-![图片](./assets/uni-vue3-cli_3-001.png)
+![图片](./assets/UniVue3Cli3_001.png)
 
 ## 最后
 到这一个包含了常见特性的uni-app 开发小程序的工程化模板就算结束了，如果还要有推荐的特性欢迎评论交流

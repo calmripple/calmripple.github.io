@@ -15,9 +15,9 @@ categories:
 # JavaScript中的类型转换规则
 先上两张有趣的网图:
 
-![图片](./assets/typeConvert-001.png)
+![图片](./assets/typeConvert_001.png)
 
-![图片](./assets/typeConvert-002.png)
+![图片](./assets/typeConvert_002.png)
 
 可以看出，JavaScript的隐式类型转换是很有意思的（让人摸不着头脑）
 
@@ -295,7 +295,7 @@ console.log(demo4 + 1); // 报错
 
 >来源于参考资料中的网图
 
-![图片](./assets/typeConvert-003.png)
+![图片](./assets/typeConvert_003.png)
 
 <details>
 <summary>

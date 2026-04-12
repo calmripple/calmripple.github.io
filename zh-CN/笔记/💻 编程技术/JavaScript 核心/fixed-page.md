@@ -193,11 +193,11 @@ const touchHandle = function(e) {
 本文介绍了`4种常见`解决方法，与`1种"谜之操作"`
 
 ## demo演示
-![图片](./fixed-page-001.png)
+![图片](./assets/FixedPage_001.png)
 
 * [demo地址](https://test-demo-6gd4lnn3e3ca39f5-1256505457.tcloudbaseapp.com/dialog-h5-fixed-case/)
 * PC扫码体验
-  * ![图片](./fixed-page-002.png)
+  * ![图片](./assets/FixedPage_002.png)
 * [demo源码地址](https://stackblitz.com/edit/vitejs-vite-xgqbt6?file=src%2Fmain.ts&terminal=dev)
 
 <Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/fixed-page.html" />

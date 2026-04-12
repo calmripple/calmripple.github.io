@@ -42,7 +42,7 @@ cd examples
 
 在 Visual Studio Code 中安装 Python 插件包
 
-![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-001.png)
+![](./assets/1-CongYongPY001.png)
 
 ## 创建项目
 
@@ -171,15 +171,15 @@ Package operations: 17 installs, 0 updates, 0 removals
 
 安装完成之后可能会有这样的提示，这是因为 Python 环境不正确
 
-![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-002.png)
+![](./assets/1-CongYongPY002.png)
 
 可以通过 <kbd data-macos-keyboard-key="command">command</kbd> + <kbd data-keyboard-key="shift">Shift</kbd> + <kbd>P</kbd> 打开 VSCode 的命令面板然后输入「Select Interpreter」来选择正确的 Python 环境中的 Python 程序来解决
 
-![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-003.png)
+![](./assets/1-CongYongPY003.png)
 
 #### 准备代码
 
-![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-004.png)
+![](./assets/1-CongYongPY004.png)
 
 #### 训练
 
@@ -232,6 +232,6 @@ Test set: Average loss: 0.0381, Accuracy: 9869/10000 (99%)
 
 训练完成之后就能看到 `mnist_cnn.pt` 的模型文件了：
 
-![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-005.png)
+![](./assets/1-CongYongPY005.png)
 
 <Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85/1%20%E4%BB%8E%E7%94%A8%20PyTorch%20%E8%BF%90%E8%A1%8C%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E5%BC%80%E5%A7%8B.html" />

@@ -60,19 +60,19 @@ ls *.js
 
 [rimraf](https://www.npmjs.com/package/rimraf) 是 `rm -rf` 指令的跨平台实现，每周下载 6000 万次：
 
-![](./assets/bun-shell-001.png)
+![](./assets/BunShell_001.png)
 
 ### `FOO=bar <script>` 设置环境变量在 Windows 上不生效
 
 不同平台上设置环境变量的方式略有不同。如果不使用 `FOO=bar` 这种方式，那就是使用 [cross-env](https://www.npmjs.com/package/cross-env)
 
-![](./assets/bun-shell-002.png)
+![](./assets/BunShell_002.png)
 
 ### which 在 Windows 上是 where
 
 于是另一个周下载量 6000w 的包诞生了：
 
-![](./assets/bun-shell-003.png)
+![](./assets/BunShell_003.png)
 
 ## shell 启动时间也有一点长
 创建一个 `shell` 执行需要多久？
@@ -235,6 +235,6 @@ bun test.ts
 
 [运行结果](https://app.warp.dev/block/VLbnk6T4x6rCSVZT2uwWs7) 如下
 
-![](./assets/bun-shell-004.png)
+![](./assets/BunShell_004.png)
 
 <Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/bun/bun-shell.html" />

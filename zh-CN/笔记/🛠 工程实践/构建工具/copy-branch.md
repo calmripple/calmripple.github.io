@@ -25,7 +25,7 @@ git branch
 
 这里还有个case，分支多的话需要翻页查看，才能找到当前分支
 
-![](./copy-branch-001.png)
+![](./assets/CopyBranch_001.png)
 
 要准确获取需要加上`--show-current`参数
 
@@ -33,7 +33,7 @@ git branch
 git branch --show-current
 ```
 
-![](./copy-branch-002.png)
+![](./assets/CopyBranch_002.png)
 
 **Step2 鼠标右键复制当前分支**
 
@@ -56,7 +56,7 @@ branch=$(git branch --show-current)
 echo $branch
 ```
 
-![](./copy-branch-003.png)
+![](./assets/CopyBranch_003.png)
 
 
 `Node.js` 里，可以通过`child_process`模块来执行命令
@@ -67,7 +67,7 @@ const branch = execSync('git branch --show-current').toString().trim();
 console.log(branch);
 ```
 
-![](./copy-branch-004.png)
+![](./assets/CopyBranch_004.png)
 
 ### 复制到剪贴板
 这一块就是调用系统指令执行了，不同操作系统的不一样
@@ -76,7 +76,7 @@ console.log(branch);
 
 大概介绍了一下各个操作系统所用的指令：MacOS(pbcopy)、Windows(clip)、Linux(xclip)
 
-![](./copy-branch-005.png)
+![](./assets/CopyBranch_005.png)
 
 这里笔者用的是`MacOS`，所以直接用`pbcopy`指令
 
@@ -124,7 +124,7 @@ echo 'alias bcy="git branch --show-current | tr -d \"\\n\" | pbcopy"' >> ~/.zshr
 source ~/.zshrc
 ```
 
-![](./copy-branch-006.png)
+![](./assets/CopyBranch_006.png)
 
 当然我们也可以打印一些提示信息
 
@@ -136,9 +136,9 @@ alias bcy='branch=$(git branch --show-current); echo "当前分支：$branch"; e
 echo "alias bcy='branch=\$(git branch --show-current); echo \"当前分支：\$branch\"; echo \$branch | tr -d \"\\\\n\" | pbcopy'" >> ~/.zshrc
 ```
 
-![](./copy-branch-007.png)
+![](./assets/CopyBranch_007.png)
 
-![](./copy-branch-008.png)
+![](./assets/CopyBranch_008.png)
 ### Node CLI
 上面介绍的是`shell`里的实现，这里介绍下`Node.js`里的实现
 
@@ -165,11 +165,11 @@ ncp.copy(branch)
 
 或者 `npm i bcy -g` 全局安装
 
-![](./copy-branch-009.png)
+![](./assets/CopyBranch_009.png)
 
 *包名实在是难取，简单语义化一点的都被占用了，让GPT 辅助了一下*
 
-![](./copy-branch-010.png)
+![](./assets/CopyBranch_010.png)
 
 最后用了搜了一圈不重复的只有`bcy`
 

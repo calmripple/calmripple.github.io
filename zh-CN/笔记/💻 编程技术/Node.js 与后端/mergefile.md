@@ -168,7 +168,7 @@ node index.js /home/sugar/Documents/VueProject/my-blog-vuepress
 ```sh
 ok 309 个文件
 ```
-![图片](./mergefile-001.png)
+![图片](./assets/Mergefile_001.png)
 
 好家伙，敲了3w多行了
 

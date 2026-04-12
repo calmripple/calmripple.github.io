@@ -13,7 +13,7 @@ categories:
 
 **这是一本完全免费的小册**，内容涵盖了软件的安装，环境配置，基础知识介绍，进阶知识介绍，多场景的开发实践。
 
-![](./nodejs-getting-started-001.png)
+![](./assets/NodejsGettingStarted_001.png)
 
 ## Node.js 的优势
 
@@ -33,7 +33,7 @@ categories:
 
 当然还有很多很多，等着你去探索……
 
-![](./nodejs-getting-started-002.png)
+![](./assets/NodejsGettingStarted_002.png)
 
 本教程主要包含7个章节，涵盖了`软件的安装`、`环境配置`、`基础知识介绍`、`进阶知识介绍`、`多场景的开发实践` ღ( ´･ᴗ･\` )。
 

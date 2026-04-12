@@ -46,7 +46,7 @@ curl -L http://mtw.so/6647Rc >码上掘金logo.image
 npx efst http://mtw.so/66eO7c
 ```
 
-![图片](./assets/fs-cli-001.png)
+![图片](./assets/FsCli_001.png)
 
 ## url资源下载
 先是纯 **url资源下载** 的场景，本小节将详细展开相关小功能的实现。
@@ -72,7 +72,7 @@ function downloadByUrl(url: string, filename?: string) {
 downloadByUrl(sourceUrl,'test.image')
 ```
 
-![图片](./assets/fs-cli-002.png)
+![图片](./assets/FsCli_002.png)
 
 [示例代码1](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/1.ts)
 
@@ -146,7 +146,7 @@ downloadByUrl(sourceUrl, 'test.image')
     console.log('file save:', filepath)
   })
 ```
-![图片](./assets/fs-cli-003.png)
+![图片](./assets/FsCli_003.png)
 
 [示例代码2](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/2.ts)
 
@@ -192,7 +192,7 @@ _http.get(
 )
 ```
 
-![图片](./assets/fs-cli-004.png)
+![图片](./assets/FsCli_004.png)
 
 [示例代码3](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/3.ts)
 
@@ -250,7 +250,7 @@ request.on('timeout', () => {
 ```
 下面是请求 google logo 失败示例
 
-![图片](./assets/fs-cli-005.png)
+![图片](./assets/FsCli_005.png)
 
 [示例代码5](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/5.ts)
 
@@ -296,7 +296,7 @@ const request = _http.get(url, {
 
 下面是使用代理成功请求的示例
 
-![图片](./assets/fs-cli-006.png)
+![图片](./assets/FsCli_006.png)
 
 [示例代码6](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/6.ts)
 
@@ -311,7 +311,7 @@ const request = _http.get(url, {
 new URL(sourceUrl)
 ```
 
-![图片](./assets/fs-cli-007.png)
+![图片](./assets/FsCli_007.png)
 
 文件名就可以取`pathname`最后一截，通过`path.basename`即可获取
 
@@ -356,7 +356,7 @@ function nameParse(filename: string, suffix = '') {
 ```
 下面是运行示例
 
-![图片](./assets/fs-cli-008.png)
+![图片](./assets/FsCli_008.png)
 
 到此完成了`name`和`ext`的分离
 
@@ -422,7 +422,7 @@ const writeStream = fs.createWriteStream(filepath)
 
 测试案例运行结果如下
 
-![图片](./assets/fs-cli-009.png)
+![图片](./assets/FsCli_009.png)
 
 [示例代码7](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/7.ts)
 
@@ -469,7 +469,7 @@ try {
 
 下面是示例代码及运行结果
 
-![图片](./assets/fs-cli-010.png)
+![图片](./assets/FsCli_010.png)
 
 [示例代码8](https://github.com/ATQQ/tools/blob/main/packages/cli/efst/__test__/download/8.ts)
 
@@ -491,7 +491,7 @@ program
   .action(defaultCommand)
 ```
 
-![图片](./assets/fs-cli-011.png)
+![图片](./assets/FsCli_011.png)
 
 ### 参数转换传递
 
@@ -521,7 +521,7 @@ export default function defaultCommand(url: string, options: CLIOptions) {
 
 下面是使用演示
 
-![图片](./assets/fs-cli-012.png)
+![图片](./assets/FsCli_012.png)
 
 ### 下载进度展示
 小文件还能无感等待，大文件咱就得整个进度条来显示了，方遍了解进度。
@@ -551,7 +551,7 @@ downloadByUrl(url)
     }
   })
 ```
-![图片](./assets/fs-cli-013.png)
+![图片](./assets/FsCli_013.png)
 
 展示内容过于简单，可以自定义一下显示，展示文件大小和下载速度，[参考文档](https://www.npmjs.com/package/cli-progress)，结合内置的一些值设定初始化如下
 
@@ -648,14 +648,14 @@ setTimeout(() => {
 
 优化后的下载效果如下
 
-![图片](./assets/fs-cli-014.png)
+![图片](./assets/FsCli_014.png)
 
 ### 持久化配置存储
 像`proxy`，`timeout`参数不希望每次都设置，就需要将这些配置存起来，下次直接读取。
 
 通常的CLI工具都会在`/Users/$username/.xxx`目录中存放自己的配置文件，即`HOME`目录下。
 
-![图片](./assets/fs-cli-015.png)
+![图片](./assets/FsCli_015.png)
 
 同理我们可以开辟一个文件存放`.efstrc`，`process.env.HOME`即可获取到`HOME`目录,`process.env.USERPROFILE`用于兼容`win32`平台。
 ```ts
@@ -711,7 +711,7 @@ setCLIConfig('github.name', 'ATQQ')
 setCLIConfig('github.info.url', 'https://github.com/ATQQ')
 ```
 
-![图片](./assets/fs-cli-016.png)
+![图片](./assets/FsCli_016.png)
 
 再添加一个移除配置的方法，与设置的的方法类似只是使用`delete`操作符删除相关的`key`
 ```ts
@@ -736,7 +736,7 @@ delCLIConfig('github.info.name')
 delCLIConfig('github.name')
 ```
 
-![图片](./assets/fs-cli-017.png)
+![图片](./assets/FsCli_017.png)
 
 有了这3个方法支撑就可以封装成一个`config`指令用于配置的`CRUD`
 
@@ -750,7 +750,7 @@ program
   .action(configCommand)
 ```
 
-![图片](./assets/fs-cli-018.png)
+![图片](./assets/FsCli_018.png)
 
 `configCommand`封装实现，将上述实现的方法按场景放入即可
 ```ts
@@ -774,7 +774,7 @@ function defaultCommand(
 ```
 使用演示如下
 
-![图片](./assets/fs-cli-019.png)
+![图片](./assets/FsCli_019.png)
 
 config 指令这部分逻辑完全可以分离成一个通用的 `commander` 模块，在需要的CLI里直接注册即可，简化后大概如下
 

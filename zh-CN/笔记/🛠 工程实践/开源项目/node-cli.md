@@ -43,7 +43,7 @@ categories:
 ```sh
 echo "Hello world"
 ```
-![图片](./assets/node-cli-001.png)
+![图片](./assets/NodeCli_001.png)
 
 此时我们直接执行是会提醒没有执行权限，我们为当前用户加1个可执行权限
 ```sh
@@ -53,7 +53,7 @@ chmod u+x hello
 ```sh
 ./hello
 ```
-![图片](./assets/node-cli-002.png)
+![图片](./assets/NodeCli_002.png)
 
 ## 注册全局指令
 为了使“指令”在全局任意位置都能被使用，就需要做相关操作了。
@@ -69,11 +69,11 @@ echo $0
 ```
 我这里使用的是`zsh`,其它的常见的还有`bash`
 
-![图片](./assets/node-cli-003.png)
+![图片](./assets/NodeCli_003.png)
 
 相应的配置文件分别是`.zshrc`和`.bashrc`
 
-![图片](./assets/node-cli-004.png)
+![图片](./assets/NodeCli_004.png)
 
 ### alias指令
 **使用 alias指令设置别名**
@@ -108,7 +108,7 @@ export PATH=$PATH:/Users/sugar/Documents/diy-cli
 
 以上2种方案都能达到目标的效果
 
-![图片](./assets/node-cli-005.png)
+![图片](./assets/NodeCli_005.png)
 
 如果每个工具都单独配一条规则。那会导致相关配置文件非常的庞大，也不方便维护。
 
@@ -121,11 +121,11 @@ export PATH=$PATH:/Users/sugar/Documents/diy-cli
 
 打印一下`$PATH`的值，可以看到`npm`指令对应文件所在目录就在其中
 
-![图片](./assets/node-cli-006.png)
+![图片](./assets/NodeCli_006.png)
 
 展开目录内容可以看到文件类型都是`l（软连接）`
 
-![图片](./assets/node-cli-007.png)
+![图片](./assets/NodeCli_007.png)
 
 因此咱们可以小结出来 **通过向已添加到$PATH变量中的目录，直接创建短链可以实现指令的自动注册全局**
 
@@ -154,7 +154,7 @@ ln -s <source>/hello.sh <target>/hello2
 ```
 操作结果如下
 
-![图片](./assets/node-cli-008.png)
+![图片](./assets/NodeCli_008.png)
 
 前面代码都是简单的写的`shell`脚本
 
@@ -166,7 +166,7 @@ console.log('hello js')
 ```
 按照前面的步骤，完成可执行权限添加和软链的创建。
 
-![图片](./assets/node-cli-009.png)
+![图片](./assets/NodeCli_009.png)
 
 结果可以预测是会报错的，默认会被当做`shell`脚本进行执行。
 
@@ -181,7 +181,7 @@ console.log('hello js')
 
 于是，我们给前面的`hello.js`头部加上`#!/usr/bin/env node` 再次运行就成了
 
-![图片](./assets/node-cli-010.png)
+![图片](./assets/NodeCli_010.png)
 
 至此基本清楚了，如何将1个`js`脚本便捷的注册为1个全局可执行指令
 
@@ -205,7 +205,7 @@ console.log('hello js')
 
 这个目录可以通过`npm bin`指令查看
 
-![图片](./assets/node-cli-011.png)
+![图片](./assets/NodeCli_011.png)
 
 全局路径和前面使用 `which npm`获取的一致，当前项目的路径即在`node_modules/.bin`中
 
@@ -226,7 +226,7 @@ npm link -g
 console.log(process.argv);
 ```
 
-![图片](./assets/node-cli-012.png)
+![图片](./assets/NodeCli_012.png)
 
 各位置参数释义
 * `0`：Node可执行文件所在路径
@@ -261,7 +261,7 @@ program
 program.parse(process.argv)
 ```
 
-![图片](./assets/node-cli-013.png)
+![图片](./assets/NodeCli_013.png)
 
 可以看到使用第三方库辅助处理`参数`，已经非常完善了
 
@@ -277,7 +277,7 @@ program.parse(process.argv)
 echo '[36mhello  world[39m'
 ```
 
-![图片](./assets/node-cli-014.png)
+![图片](./assets/NodeCli_014.png)
 
 相关知识点是`ANSI Escape code`，这里就不展开说明了。
 
@@ -297,7 +297,7 @@ const gradient = require('gradient-string');
 console.log(gradient('cyan', 'pink')('Hello world!'));
 ```
 
-![图片](./assets/node-cli-015.png)
+![图片](./assets/NodeCli_015.png)
 
 简单两行代码效果就出来了
 
@@ -336,7 +336,7 @@ inquirer
     });
 ```
 
-![图片](./assets/node-cli-016.png)
+![图片](./assets/NodeCli_016.png)
 
 ## 最后
 本文没有阐述非常深奥的知识点，只涉及日常的一些`基操`，有助于读者了解Node CLI 背后的工作原理。

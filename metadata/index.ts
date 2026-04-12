@@ -14,7 +14,7 @@ export const githubRepoLink = 'https://github.com/knewbeing/nolebase'
 /** 历史仓库 */
 export const legacyGithubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
 /** Mastodon */
-export const mastodonLink = 'https://mas.to/@knewbeing'
+export const mastodonLink = 'https://mastodon.social/@knewbeing'
 
 /** 无协议前缀域名 */
 export const plainTargetDomain = 'www.dmsrs.org'

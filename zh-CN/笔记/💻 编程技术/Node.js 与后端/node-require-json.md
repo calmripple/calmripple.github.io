@@ -54,7 +54,7 @@ console.log(require.cache);
 ```
 
 输出内容如下(这里就贴一张截图)
-![图片](./node-require-json-001.png)
+![图片](./assets/NodeRequireJson_001.png)
 
 ### 删除缓存
 既然`require.cache`返回内容是一个普普通通的对象，name可以通过`delete`关键字进行移除

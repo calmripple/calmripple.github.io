@@ -17,7 +17,7 @@ categories:
 
 在文章中也立下了一个Flag
 
-![图片](./assets/online-resume-001.png)
+![图片](./assets/OnlineResume_001.png)
 
 看了一下Github的 [commit记录](https://github.com/ATQQ/resume/commits/main)，截止目前大概花了一周的时间，把心中所设想的方案做了出来，也许不完美，但我想应该也能帮助到部分同学
 
@@ -35,7 +35,7 @@ categories:
 ## 项目设计
 ### 布局
 
-![图片](./assets/online-resume-002.png)
+![图片](./assets/OnlineResume_002.png)
 
 整个应用的基本页面结构
 ```html
@@ -63,7 +63,7 @@ categories:
 
 ### 技术选型
 
-![图片](./assets/online-resume-003.png)
+![图片](./assets/OnlineResume_003.png)
 
 > Vanilla JS——世界上最轻量的JavaScript框架（没有之一） ---- **原生js**
 
@@ -74,7 +74,7 @@ categories:
 
 ### 通信
 
-![图片](./assets/online-resume-004.png)
+![图片](./assets/OnlineResume_004.png)
 
 * 通过导航栏切换各种简历模板
 * 简历上的改动自动同步到控制区域中的页面描述信息
@@ -82,13 +82,13 @@ categories:
 
 ### 描述简历
 
-![图片](./assets/online-resume-005.png)
+![图片](./assets/OnlineResume_005.png)
 
 * 使用json 对简历的结构与内容进行描述
 * 一个模板对应一个json
 
 ### 页面描述信息展示
-![图片](./assets/online-resume-006.png)
+![图片](./assets/OnlineResume_006.png)
 
 * 使用JSON描述简历上的各种信息
 * 提供一个JSON编辑器
@@ -96,16 +96,16 @@ categories:
 
 ### 数据存取
 
-![图片](./assets/online-resume-007.png)
+![图片](./assets/OnlineResume_007.png)
 
 * 整个数据流是单向的，外部负责更新，内部（简历展示部分）只负责读取
 * 数据存放在本地，因此不担心个人信息泄露
 * 这里采用 `localStorage`
 
 ### 第一版效果
-![图片](./assets/online-resume-008.png)
+![图片](./assets/OnlineResume_008.png)
 
-![图片](./assets/online-resume-009.png)
+![图片](./assets/OnlineResume_009.png)
 
 
 下面就介绍项目实现的关键部分内容
@@ -158,16 +158,16 @@ categories:
 
 自动生成的结果如下
 
-![图片](./assets/online-resume-010.png)
+![图片](./assets/OnlineResume_010.png)
 
 每个HTMLWebpackPlugin的内容格式如下
 
-![图片](./assets/online-resume-011.png)
+![图片](./assets/OnlineResume_011.png)
 
 ### 自动生成导航栏
 首页顶部有一个导航栏用于切换简历模板的路由
 
-![图片](./assets/online-resume-012.png)
+![图片](./assets/OnlineResume_012.png)
 
 这部分的链接内容如果手动填写是很无趣的，**如何实现自动生成的呢**？
 
@@ -374,7 +374,7 @@ const editor = initEditor('jsonEditor')
 
 展示效果
 
-![图片](./assets/online-resume-013.png)
+![图片](./assets/OnlineResume_013.png)
 
 json数据展示/更新时机
 * 因为每次切换路由都会触发iframe的onload事件
@@ -399,7 +399,7 @@ document.getElementById('page').onload = function (e) {
 
 **期望的效果**
 
-![图片](./assets/online-resume-014.png)
+![图片](./assets/OnlineResume_014.png)
 
 **描述文件**
 
@@ -842,7 +842,7 @@ export const navTitle = {
 }
 ```
 
-![图片](./assets/online-resume-015.png)
+![图片](./assets/OnlineResume_015.png)
 
 ### 子页面更新
 前面在实例化editor的时候有一个 `updatePage` 方法
@@ -924,7 +924,7 @@ const editor = initEditor('jsonEditor')
 
 只需要在打印样式中将无关内容进行隐藏即可
 
-![图片](./assets/online-resume-016.png)
+![图片](./assets/OnlineResume_016.png)
 
 基本能做到1比1的还原
 

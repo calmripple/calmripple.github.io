@@ -46,7 +46,7 @@ function isSameWeek (d1: Date, d2: Date): boolean {
 ### 非同一周的情况
 随便翻开一个日历看一看，分析一波:
 
-![图片](./assets/judgeDate-001.png)
+![图片](./assets/judgeDate_001.png)
 
 1. 日期之差大于等于7天 即 **| d1 - d2 | >= 7**
    * 如 06-07 与 06-14，06-07 与 06-15

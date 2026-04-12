@@ -21,7 +21,7 @@ categories:
 
 ## 插件效果预览
 
-![图片](./vite-plugin-monitor3-001.png)
+![图片](./assets/VitePluginMonitor3_001.png)
 
 ## --debug做了什么
 项目启动指令
@@ -91,7 +91,7 @@ export function createDebugger(
 ```
 其中`log`实例通过`debug`方法创建，但这个`debug`方法是一个第三方的库`visionmedia/debug`
 
-![图片](./vite-plugin-monitor3-002.png)
+![图片](./assets/VitePluginMonitor3_002.png)
 
 这个方库虽小，能在`Vite`中被用上想必也不简单，[在线查看源码](https://github1s.com/visionmedia/debug/blob/HEAD/src/node.js)
 
@@ -165,7 +165,7 @@ interface PluginOptions {
 
 其中解析出的几个参数几个参数与原日志内容对应关系如下
 
-![图片](./vite-plugin-monitor3-003.png)
+![图片](./assets/VitePluginMonitor3_003.png)
 ```ts
 import type { Plugin } from 'vite';
 import type { PluginOptions } from './types';

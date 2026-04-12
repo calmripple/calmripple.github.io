@@ -15,17 +15,17 @@ categories:
 ## 前言
 [掘金热榜](https://juejin.cn/hot/collected-articles)想必大家会偶尔扫一扫，看看感兴趣的进行进一步阅读。
 
-![](./assets/juejin-hot-rank-bot-001.png)
+![](./assets/JuejinHotRankBot_001.png)
 
 文章相关的榜单主要就是`掘金文章榜`，`文章收藏榜`这两个。
 
 >[扣子（coze.cn）](https://www.coze.cn/)是一款用来开发新一代 AI Chat Bot 的应用编辑平台。
 
-![](./assets/juejin-hot-rank-bot-002.png)
+![](./assets/JuejinHotRankBot_002.png)
 
 可以理解是 `对话机器人` 定制工厂。
 
-![](./assets/juejin-hot-rank-bot-003.png)
+![](./assets/JuejinHotRankBot_003.png)
 
 `Coze` 上开放的定制能力主要有 4 个`Bots`，`插件`，`工作流`，`知识库`。
 
@@ -37,17 +37,17 @@ categories:
 
 |                                     页面                                      |                                     效果                                      |
 | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-| ![](./assets/juejin-hot-rank-bot-004.png) | ![](./assets/juejin-hot-rank-bot-005.png) |
+| ![](./assets/JuejinHotRankBot_004.png) | ![](./assets/JuejinHotRankBot_005.png) |
 
 ## 开发插件
 ### 创建插件
 切换到 `个人空间` -> `插件` 目录下，点击创建插件。
 
-![](./assets/juejin-hot-rank-bot-006.png)
+![](./assets/JuejinHotRankBot_006.png)
 
 录入 API 信息
 
-![](./assets/juejin-hot-rank-bot-007.png)
+![](./assets/JuejinHotRankBot_007.png)
 
 从填的`插件URL`，`Header 列表`，`授权方式`这几项配置我相信大家就能看出 "插件" 本质是什么了。
 
@@ -57,7 +57,7 @@ categories:
 
 由此咱们可以把一些开放的公共查询接口都可以录入到插件中，比如 [API Hub](https://apifox.com/apihub/) 上收集的公共API。
 
-![](./assets/juejin-hot-rank-bot-008.png)
+![](./assets/JuejinHotRankBot_008.png)
 
 这里的 `api.juejin.cn` 就是我在 devTools 中看到（ba）的🤭。
 
@@ -65,28 +65,28 @@ categories:
 
 进入创建的插件后，就可以创建工具了。
 
-![](./assets/juejin-hot-rank-bot-009.png)
+![](./assets/JuejinHotRankBot_009.png)
 
 *乍一看怎么又有一个新概念，“工具”？打开配置窗口一看就悟了！*
 
-![](./assets/juejin-hot-rank-bot-010.png)
+![](./assets/JuejinHotRankBot_010.png)
 
 哦😯，这个**工具就是录入具体的功能API，配置一下具体API的`请求路径，方法，参数`**
 
 下面是配置过程截图
 |                                   输入参数                                    |                           输出参数（支持自动解析）                            |                                   调试校验                                    |
 | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-| ![](./assets/juejin-hot-rank-bot-011.png) | ![](./assets/juejin-hot-rank-bot-012.png) | ![](./assets/juejin-hot-rank-bot-013.png) |
+| ![](./assets/JuejinHotRankBot_011.png) | ![](./assets/JuejinHotRankBot_012.png) | ![](./assets/JuejinHotRankBot_013.png) |
 
 ### 发布
 
 先发布工具
 
-![](./assets/juejin-hot-rank-bot-014.png)
+![](./assets/JuejinHotRankBot_014.png)
 
 再上架插件，就大工告成了，过程中填写的表单都可以AI自动生成辅助填写（美滋滋）。
 
-![](./assets/juejin-hot-rank-bot-015.png)
+![](./assets/JuejinHotRankBot_015.png)
 
 插件上架后，大家就可以公开使用咯，使用的机器人也能公开。
 
@@ -96,18 +96,18 @@ categories:
 
 在创建入口，填写一下机器人的 `名字` 和 `介绍` 即可，`logo` 直接用自动生成。
 
-![](./assets/juejin-hot-rank-bot-016.png)
+![](./assets/JuejinHotRankBot_016.png)
 
 ### 编辑bot
 
 编辑页面长下面这样子，咱们这里主要关注`人设`与`插件`部分即可。
 
-![](./assets/juejin-hot-rank-bot-017.png)
+![](./assets/JuejinHotRankBot_017.png)
 
 可以先添加插件，直接搜索咱们开发的插件名即可。
 
 将咱们录入的工具（API） 添加进去即可
-![](./assets/juejin-hot-rank-bot-018.png)
+![](./assets/JuejinHotRankBot_018.png)
 
 接下来就是写“咒语”，比如我只简单写了下面这一句话：
 ```txt
@@ -116,7 +116,7 @@ categories:
 
 然后用`AI优化`功能，就给我扩展完善了。
 
-![](./assets/juejin-hot-rank-bot-019.png)
+![](./assets/JuejinHotRankBot_019.png)
 
 ```txt
 # 角色
@@ -133,9 +133,9 @@ categories:
 ```
 至此核心部分就完成了，下面可以简单测试一下。
 
-![](./assets/juejin-hot-rank-bot-020.png)
+![](./assets/JuejinHotRankBot_020.png)
 
-![](./assets/juejin-hot-rank-bot-021.png)
+![](./assets/JuejinHotRankBot_021.png)
 
 ## 优化
 ### 提示词优化

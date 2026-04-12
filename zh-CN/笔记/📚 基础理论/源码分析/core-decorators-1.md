@@ -90,7 +90,7 @@ ts-node first.ts
 ```
 
 ## 源码目录
-![图片](./assets/core-decorators-1-001.png)
+![图片](./assets/CoreDecorators1_001.png)
 
 简单数了一下大概有`17`个，咱一个个的挨着学，细细品
 
@@ -120,7 +120,7 @@ t.sayHello()
 
 ### 执行效果
 
-![图片](./assets/core-decorators-1-002.png)
+![图片](./assets/CoreDecorators1_002.png)
 
 
 ### console.time实现

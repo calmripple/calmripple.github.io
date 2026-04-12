@@ -21,7 +21,7 @@ categories:
 
 报错截图如下
 
-![图片](./vite-react-js-001.png)
+![图片](./assets/ViteReactJs_001.png)
 
 ## 复现问题
 
@@ -56,25 +56,25 @@ yarn create vite my-react-app --template react-ts
 ```sh
 npm run dev
 ```
-![图片](./vite-react-js-002.png)
+![图片](./assets/ViteReactJs_002.png)
 
 页面正常，接下来将`App.tsx`修改为`App.js`
 
 将会得到上述的报错
 
-![图片](./vite-react-js-003.png)
+![图片](./assets/ViteReactJs_003.png)
 
 ## 原因
 1. Vite在启动时会做[依赖的预构建](https://cn.vitejs.dev/guide/dep-pre-bundling.html#the-why)
 2. `预构建`，`运行时`默认都只会对`jsx`与`tsx`做语法转换。不会对js做jsx的语法转换。
 
-![图片](./vite-react-js-004.png)
+![图片](./assets/ViteReactJs_004.png)
 
 ## 解决方案
 1. 修改依赖预构建的配置
 2. 使用babel插件`@babel/plugin-transform-react-jsx`，让Vite在运行时对js文件转换
 
-![图片](./vite-react-js-005.png)
+![图片](./assets/ViteReactJs_005.png)
 
 按照文档描述在配置文件添加一点配置
 ```js
@@ -113,7 +113,7 @@ export default defineConfig({
 
 再次启动验证,发现一个报错
 
-![图片](./vite-react-js-006.png)
+![图片](./assets/ViteReactJs_006.png)
 
 原因是没有在App.js中引入`React`,咱们引入一下
 ```js
@@ -121,7 +121,7 @@ import React,{ useState } from 'react'
 ```
 大功告成
 
-![图片](./vite-react-js-007.png)
+![图片](./assets/ViteReactJs_007.png)
 
 
 ## 总结

@@ -459,7 +459,7 @@ tensorboard --bind_all --logdir .
 >
 > 原地直接安装。
 
-![](./yong-p-y-t-o-r-c-h-l-i-g-h-t-n-i-n-g-jian-kong-he-chuan-liu-p-y-t-o-r-c-h-de-xun-lian-jin-du-001.png)
+![](./assets/YPyTorchLightningJKHChLPyTorchDXLJD_001.png)
 
 ## 额外补充
 

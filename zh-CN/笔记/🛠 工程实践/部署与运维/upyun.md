@@ -17,7 +17,7 @@ categories:
 
 |                                    又拍云                                     |                                    七牛云                                     |
 | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-| ![](./upyun-001.png) | ![](./upyun-002.png) |
+| ![](./assets/Upyun_001.png) | ![](./assets/Upyun_002.png) |
 |                   注册送1个月的代金券 + 网站挂推广送1年代金券                   |                              注册即可送每月都有                               |
 
 笔者就花了点时间研究了一下又拍云的 SDK 和对象存储，能力上完全可以平替七牛云，于是就花了一点时间给[图床应用](https://imgbed.sugarat.top/)加上了又拍云的支持。
@@ -33,13 +33,13 @@ categories:
 
 访问[对象存储控制台](https://console.upyun.com/services/file/)，点击创建服务
 
-![](./upyun-003.png)
+![](./assets/Upyun_003.png)
 
 这个"服务"和其它平台的 `Bucket(桶)` 类似，可以理解为存储空间的概念。
 
 填一下服务名称（`全平台唯一`），绑定账号即可
 
-![](./upyun-004.png)
+![](./assets/Upyun_004.png)
 
 **服务创建完，需要的东西基本都有了，是不是非常简单！**
 
@@ -53,11 +53,11 @@ categories:
 ### token 生成
 这里推荐使用 token 认证 根据[文档：认证鉴权](https://help.upyun.com/knowledge-base/object_storage_authorization/#token-e8aea4e8af81)可知生成方式如下：
 
-![](./upyun-005.png)
+![](./assets/Upyun_005.png)
 
 看不懂？没关系 GPT 可以帮你，直接复制丢给它。
 
-![](./upyun-006.png)
+![](./assets/Upyun_006.png)
 
 这不代码就来了。
 
@@ -114,7 +114,7 @@ npm i upyun
 
 根据文档，可以看到客户端上传需要的参数。
 
-![](./upyun-007.png)
+![](./assets/Upyun_007.png)
 
 * `Authorization`：前面通过生成的token
 * `X-Date`：请求日期时间，GMT 格式字符串
@@ -210,7 +210,7 @@ UPYUN_SCOPE=default
 
 将其粘贴配置到 [线上的图床应用](https://imgbed.sugarat.top/)，或者自己部署的均可 [image-bed-qiniu:client](https://github.com/ATQQ/image-bed-qiniu/tree/master/packages/client#%E8%BF%90%E8%A1%8C%E9%A1%B9%E7%9B%AE)
 
-![](./upyun-008.png)
+![](./assets/Upyun_008.png)
 
 ## 其它
 线上使用，推荐 绑定自定义域名 和 开启HTTPS 支持。

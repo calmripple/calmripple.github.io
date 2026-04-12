@@ -17,7 +17,7 @@ categories:
 
 想着给咱图床也加个压缩的功能，这样上传/访问也能省点 💰。
 
-![](./png-compress-001.png)
+![](./assets/PngCompress_001.png)
 
 图片类型众多，常用的主要就是`PNG/JPG/GIF`。
 
@@ -34,7 +34,7 @@ categories:
 
 我们可以拿工具看一下，我这里用 VS Code 插件 [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) 查看一个 PNG 图片的 16 进制表示信息。
 
-![](./png-compress-002.png)
+![](./assets/PngCompress_002.png)
 
 可以看到前八个字节和上面表示的一样。
 
@@ -190,7 +190,7 @@ UPNG.encode
 
 大概界面如下：
 
-![](./png-compress-003.png)
+![](./assets/PngCompress_003.png)
 
 *纯血 HTML/CSS/JS，复制粘贴就能运行。*
 

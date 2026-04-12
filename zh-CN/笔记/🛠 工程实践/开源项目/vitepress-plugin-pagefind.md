@@ -26,13 +26,13 @@ categories:
 
 但是 VitePress 官方目前还没有内置开箱即用的搜索能力（[相关PR](https://github.com/vuejs/vitepress/pull/2110)还在施工中）
 
-![](./assets/vitepress-plugin-pagefind-001.png)
+![](./assets/VitepressPluginPagefind_001.png)
 
 文档里首推使用 [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch), 这个需要申请，流程相对较慢，公司内网文档也无法接入使用。
 
 推荐的另一个方案是使用 [vitepress-plugin-search](https://github.com/emersonbottero/vitepress-plugin-search) 基于 [flexsearch](https://github.com/nextapps-de/flexsearch) 实现，但是默认的UI较丑（与 Algolia 的UI差距较大），对中文没有提供开箱即用的支持，需要[进行一定的配置](https://github.com/emersonbottero/vitepress-plugin-search/issues/11)
 
-![](./assets/vitepress-plugin-pagefind-002.png)
+![](./assets/VitepressPluginPagefind_002.png)
 
 目前常用的除了 `flexsearch`，还有 [MiniSearch](https://github.com/lucaong/minisearch)
 
@@ -69,7 +69,7 @@ UI如下（power by [vue-command-palette](https://github.com/xiaoluoboding/vue-c
 
 |                                搜索按钮                                 |                                 搜索框                                  |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| ![](./assets/vitepress-plugin-pagefind-003.png) | ![](./assets/vitepress-plugin-pagefind-004.png) |
+| ![](./assets/VitepressPluginPagefind_003.png) | ![](./assets/VitepressPluginPagefind_004.png) |
 
 ## Pagefind介绍
 >`Pagefind`是一个完全静态的搜索库，旨在在大型网站上表现良好，同时尽可能地减少用户带宽的使用，且不需要进行任何基础设施托管。
@@ -89,7 +89,7 @@ npx pagefind --source docs/.vitepress/dist
 ```
 一般毫秒级就完成了页面内容的分析与pagefind需要的资源转换
 
-![](./assets/vitepress-plugin-pagefind-005.png)
+![](./assets/VitepressPluginPagefind_005.png)
 
 默认会自动扫描指定目录下所有的`html`资源，将带有`data-pagefind-body`属性的元素作为索引的位置，否则的话使用`<body>`作为索引位置
 
@@ -97,7 +97,7 @@ npx pagefind --source docs/.vitepress/dist
 
 生成的相关文件默认在`_pagefind`目录中，内容如下
 
-![](./assets/vitepress-plugin-pagefind-006.png)
+![](./assets/VitepressPluginPagefind_006.png)
 
 ### 使用内置搜索UI
 在生成索引的过程中，pagefind也会把内置的搜索框UI相关资源放入其中
@@ -116,7 +116,7 @@ npx pagefind --source docs/.vitepress/dist
 ```
 搜索框样式如下
 
-![](./assets/vitepress-plugin-pagefind-007.png)
+![](./assets/VitepressPluginPagefind_007.png)
 
 ### 使用JS API
 默认的搜索框样式不满足的话可以，自定义搜索框逻辑，通过JS API调用搜索能力
@@ -132,7 +132,7 @@ const oneResult = await search.results[0].data();
 
 搜索结果格式如下
 
-![](./assets/vitepress-plugin-pagefind-008.png)
+![](./assets/VitepressPluginPagefind_008.png)
 ```ts
 interface SearchResult {
   url: string;
@@ -147,7 +147,7 @@ interface SearchResult {
 ### 一些不足
 * 仅针对构建后的产物进行索引，开发环境下无法工作
 * 对中文和日语等支持相对英语会差一点（区别见下截图）
-![](./assets/vitepress-plugin-pagefind-009.png)
+![](./assets/VitepressPluginPagefind_009.png)
 * 不支跳转至标题
 
 ## 插件实现原理解析

@@ -200,7 +200,7 @@ setTimeout(() => {
 
 打印结果
 
-![图片](./assets/mergeRequest-001.png)
+![图片](./assets/mergeRequest_001.png)
 
 ## 总结
 1. 考察知识点 **event loop**,**防抖**,**Promise**

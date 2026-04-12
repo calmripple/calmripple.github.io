@@ -351,7 +351,7 @@ function checkFopTaskStatus(persistentId){
         throw err
       }
       if (respInfo.statusCode == 200) {
-        // 结构 ![图片](./qiniu-oss-001.png)
+        // 结构 ![图片](./assets/QiniuOss_001.png)
         const item = respBody.items[0]
         const { code, key } = item
         res({ code, key })

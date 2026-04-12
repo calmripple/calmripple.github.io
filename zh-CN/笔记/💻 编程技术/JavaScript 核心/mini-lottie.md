@@ -30,29 +30,29 @@ categories:
 
 ① window 中选择 Bodymovie
 
-![](./mini-lottie-001.png)
+![](./assets/MiniLottie_001.png)
 
 ② 选择需要导出的动画资源
 
-![](./mini-lottie-002.png)
+![](./assets/MiniLottie_002.png)
 
 ③ 导出配置（小程序相关）
 
 点击对应动画的设置
 
-![](./mini-lottie-003.png)
+![](./assets/MiniLottie_003.png)
 
 勾选 `Glyphs` 将用到的文字+字体导出为图形。
 
 小程序里渲染不支持加载外部字体。
 
-![](./mini-lottie-004.png)
+![](./assets/MiniLottie_004.png)
 
 *这个就会有 tree shake的效果，如果动画里没有用到的文字，做动态替换的时候就会不显示，后面会详细介绍到*。
 
 勾选 `Convert expressions to keyframes` 将表达式转为关键帧，因为小程序里不支持使用 `eval` 等动态执行脚本的能力。
 
-![](./mini-lottie-005.png)
+![](./assets/MiniLottie_005.png)
 
 修改完成后点击`Save`保存配置。
 
@@ -60,11 +60,11 @@ categories:
 
 最后点击 Render 按钮，导出 JSON 文件。
 
-![](./mini-lottie-006.png)
+![](./assets/MiniLottie_006.png)
 
 导出文件如下，data.json 文件就是我们需要的 JSON 文件，images 里存储的就是播放要用到的图片文件。
 
-![](./mini-lottie-007.png)
+![](./assets/MiniLottie_007.png)
 
 ## 小程序中使用
 
@@ -126,7 +126,7 @@ Page({
 
 我这个 demo 的效果（网上找的动画素材）如下。
 
-![](./mini-lottie-008.png)
+![](./assets/MiniLottie_008.png)
 
 ## 问题&解决
 下面介绍在实际业务接入使用中遇到的一些问题和解决办法。
@@ -134,15 +134,15 @@ Page({
 ### expression 表达式
 报错信息如下，这是遇到的第一个问题（也是上面导出配置中有特别说明的）。
 
-![](./mini-lottie-009.png)
+![](./assets/MiniLottie_009.png)
 
 细看了一下文档，有特别说明，expression 表达式特性是不支持的，因此需要再导出 JSON 文件时禁用相关特性。
 
-![](./mini-lottie-010.png)
+![](./assets/MiniLottie_010.png)
 
 解决办法：导出JSON文件时，禁用掉表达式特性即可。
 
-![](./mini-lottie-011.png)
+![](./assets/MiniLottie_011.png)
 
 当然禁用后，JSON 文件大小会有所增加。
 
@@ -190,7 +190,7 @@ const { windowWidth, windowHeight, pixelRatio } = wx.getSystemInfoSync()
 canvas.width = windowWidth * pixelRatio
 canvas.height = windowHeight * pixelRatio
 ```
-![](./mini-lottie-012.png)
+![](./assets/MiniLottie_012.png)
 
 
 ### 动态文案
@@ -212,7 +212,7 @@ get('sourceUrl').then((res) => {
 * 需要展示的文本里放入 `${num}` 用于替换匹配
 * 在添加一个文本藏在看不见的地方,里面写入替换后需要用到的文字（确保和上面的文本为同一种字体）
 
-![](./mini-lottie-013.png)
+![](./assets/MiniLottie_013.png)
 
 接着导出 JSON 文件。
 
@@ -247,7 +247,7 @@ lottie.loadAnimation({
 
 效果如下
 
-![](./mini-lottie-014.png)
+![](./assets/MiniLottie_014.png)
 
 
 ### style 引发的渲染错误
@@ -258,7 +258,7 @@ lottie.loadAnimation({
 <canvas style="display:{{show?'block':'none'}}" id="c1" type="2d"></canvas>
 ```
 
-![](./mini-lottie-015.png)
+![](./assets/MiniLottie_015.png)
 
 解决办法，给套了一层 `view`，用`wx:if`控制咯。
 ```html
@@ -313,7 +313,7 @@ window.requestAnimationFrame = function requestAnimationFrame(cb) {
 ```
 在翻看一下小程序文档里 [canvas.requestAnimationFrame](https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.requestAnimationFrame.html) 文档说明。
 
-![](./mini-lottie-016.png)
+![](./assets/MiniLottie_016.png)
 
 有点悟了上面的 `setTimeout` 代码，应该是为了兼容低版本的小程序，里面还有 `called` 变量控制，不重复执行。
 
@@ -343,12 +343,12 @@ canvas.requestAnimationFrame((timeStamp) => {
 
 vconsole 打印结果如下：
 
-![](./mini-lottie-017.png)
+![](./assets/MiniLottie_017.png)
 
 *一点补充，针对 `canvas.requestAnimationFrame` 回到函数的入参，小程序文档里虽没有详细介绍，但可以对标 Web 的
  [Window：requestAnimationFrame() 方法](https://developer.mozilla.org/zh-CN/docs/Web/API/window/requestAnimationFrame) 看一下 MDN 上的解释。*
 
-![](./mini-lottie-018.png)
+![](./assets/MiniLottie_018.png)
 
 从上面的 `console` 日志看，原因确实是执行 setTimeout 里面的逻辑导致的动画结束。
 
@@ -360,7 +360,7 @@ vconsole 打印结果如下：
 
 *也不清楚小程序里 canvas.requestAnimationFrame 实现机制。*
 
-![](./mini-lottie-019.png)
+![](./assets/MiniLottie_019.png)
 
 大胆揣测一下原因：
 
@@ -368,7 +368,7 @@ vconsole 打印结果如下：
 
 解决办法：
 
-![](./mini-lottie-020.png)
+![](./assets/MiniLottie_020.png)
 
 **既然是兼容实现，就判断一下是否存在 `requestAnimationFrame` 方法，存在就不执行 `setTimeout` 相关逻辑。**
 
@@ -381,6 +381,6 @@ vconsole 打印结果如下：
 
 `demo` 完整源码见 [GitHub：lottie-demo](https://github.com/ATQQ/demos/tree/main/miniprogram/lottie-demo)
 
-![](./mini-lottie-021.png)
+![](./assets/MiniLottie_021.png)
 
 <Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/mini-lottie.html" />

@@ -20,32 +20,32 @@ categories:
 
 **$1** 是对上一次我们选择的节点的引用， **$2** 是对在那之前选择的节点的引用以此类推,直到 **$4**
 
-![图片](./assets/chrome-debug2-001.png)
+![图片](./assets/ChromeDebug2_001.png)
 
 ### \$与$$
 * **$** 等价于 document.querySelector()
 * **$$** 等价于 document.querySelectorAll()
 
-![图片](./assets/chrome-debug2-002.png)
+![图片](./assets/ChromeDebug2_002.png)
 
 ### $_
 上次打印结果的引用
 
-![图片](./assets/chrome-debug2-003.png)
+![图片](./assets/ChromeDebug2_003.png)
 
 ## 直接await
 大多数异步API 都会返回Promise,需要.then才能拿到结果
 
 在console面板中可以直接await 不需要 async 包裹
 
-![图片](./assets/chrome-debug2-004.png)
+![图片](./assets/ChromeDebug2_004.png)
 
 ## 条件断点
 TODO: 添加一个合适的示例
 
 source面板中选择文件,右击行号，选择 Add conditional breakpoint 添加代码
 
-![图片](./assets/chrome-debug2-005.png)
+![图片](./assets/ChromeDebug2_005.png)
 
 ## Custom Formatter
 自定义输出对象的函数
@@ -65,7 +65,7 @@ function sum(a,b){
 }
 monitor(sum)
 ```
-![图片](./assets/chrome-debug2-006.png)
+![图片](./assets/ChromeDebug2_006.png)
 
 
 ## monitorEvents
@@ -76,11 +76,11 @@ monitor(sum)
 monitorEvents(window,['click','resize'])
 ```
 
-![图片](./assets/chrome-debug2-007.png)
+![图片](./assets/ChromeDebug2_007.png)
 
 ## window.console
 
-![图片](./assets/chrome-debug2-008.png)
+![图片](./assets/ChromeDebug2_008.png)
 
 除了常用的console.log外其它实用的方法
 
@@ -92,7 +92,7 @@ console.assert(100==='100','no equal')
 console.assert(100=='100','yes')
 ```
 
-![图片](./assets/chrome-debug2-009.png)
+![图片](./assets/ChromeDebug2_009.png)
 
 ### table
 
@@ -106,9 +106,9 @@ console.table(document.querySelectorAll('a'),['textContent','href'])
 console.table(location)
 ```
 
-![图片](./assets/chrome-debug2-010.png)
+![图片](./assets/ChromeDebug2_010.png)
 
-![图片](./assets/chrome-debug2-011.png)
+![图片](./assets/ChromeDebug2_011.png)
 
 ### time与timeEnd
 
@@ -118,7 +118,7 @@ console.table(location)
 console.time('a')
 setTimeout(console.timeEnd,1000,'a')
 ```
-![图片](./assets/chrome-debug2-012.png)
+![图片](./assets/ChromeDebug2_012.png)
 
 ### dir
 可以用于查看某个dom的属性
@@ -128,7 +128,7 @@ console.log(document.body)
 console.dir(document.body)
 ```
 
-![图片](./assets/chrome-debug2-013.png)
+![图片](./assets/ChromeDebug2_013.png)
 
 ### log添加样式
 
@@ -141,13 +141,13 @@ console.log("%cred","color:red;")
 console.log("%cred%cblue","color:red;","color:blue")
 ```
 
-![图片](./assets/chrome-debug2-014.png)
+![图片](./assets/ChromeDebug2_014.png)
 
 ## 实时表达式
-![图片](./assets/chrome-debug2-015.png)
+![图片](./assets/ChromeDebug2_015.png)
 
 ![](https://wingman-1300536089.file.myqcloud.com//chrome/C03/live-expression.gif)
 
-![图片](./assets/chrome-debug2-017.png)
+![图片](./assets/ChromeDebug2_016.png)
 
 <Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/chrome-debug2.html" />

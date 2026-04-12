@@ -40,7 +40,7 @@ categories:
 
 但可能由于阅读量不高，目前下载体验的朋友也不多
 
-![图片](./assets/snippets-001.png)
+![图片](./assets/Snippets_001.png)
 
 ### 简介
 支持通过npm的形式分享你的代码块
@@ -57,11 +57,11 @@ categories:
 
 当然是先装上插件
 
-![图片](./assets/snippets-002.png)
+![图片](./assets/Snippets_002.png)
 
 tips：编写完新的代码块，如需立即生效，需手动执行 SP Refresh 命令
 
-![图片](./assets/snippets-003.png)
+![图片](./assets/Snippets_003.png)
 
 下面是编写配置文件的演示，插件提供了快速生成配置文件内容的代码块:
 

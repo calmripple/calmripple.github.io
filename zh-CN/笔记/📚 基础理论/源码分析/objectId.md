@@ -355,7 +355,7 @@ console.log(new MyObjectId().toHexString());
 
 结果如下，符合预期
 
-![图片](./assets/objectId-001.png)
+![图片](./assets/objectId_001.png)
 
 ## 总结
 * 网上的部分翻译资料确实有些过时了

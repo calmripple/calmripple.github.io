@@ -109,8 +109,8 @@ git push -f origin master
 
 ```
 
-![在这里插入图片描述](./assets/g-i-t-shan-chu-dang-qian-fen-zhi-xia-de-suo-you-li-shi-ban-ben-yu-l-o-g-bing-tong-bu-zhi-g-i-t-h-u-b-g-i-t-ru-he-qing-chu-li-shi-ban-ben-001.png)
-![在这里插入图片描述](./assets/g-i-t-shan-chu-dang-qian-fen-zhi-xia-de-suo-you-li-shi-ban-ben-yu-l-o-g-bing-tong-bu-zhi-g-i-t-h-u-b-g-i-t-ru-he-qing-chu-li-shi-ban-ben-002.png)
+![在这里插入图片描述](./assets/GitShChDQFZhXDSYLShBBYLogBTBZhGitHubGitRHQChLShBB_001.png)
+![在这里插入图片描述](./assets/GitShChDQFZhXDSYLShBBYLogBTBZhGitHubGitRHQChLShBB_002.png)
 
 ## 1.3. 方法二
 

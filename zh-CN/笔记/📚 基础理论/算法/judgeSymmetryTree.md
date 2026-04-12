@@ -67,7 +67,7 @@ var isSymmetric = function (root) {
 
 中序遍历规则：左根右
 
-![](./assets/judgeSymmetryTree-001.png)
+![](./assets/judgeSymmetryTree_001.png)
 
 上图是一种特殊情况:其中序遍历结果[2,2,1,2,2]但不对称，此时需要对比节点所在层数,[3,2,1,3,2]，所以得出下面的代码
 

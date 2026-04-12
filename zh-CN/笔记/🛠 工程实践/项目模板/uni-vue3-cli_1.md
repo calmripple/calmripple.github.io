@@ -37,17 +37,17 @@ vue create -p dcloudio/uni-preset-vue#vue3 uni-vue3-ts-template
 
 赖心等待一会儿，即会出现如下选择
 
-![图片](./assets/uni-vue3-cli_1-001.png)
+![图片](./assets/UniVue3Cli1_001.png)
 
 这里选择TS版本
 
 此时还会出现一个选择`@dcloudio/uni-mp-360`的选项，选择第一个（最新的版本）即可
 
-![图片](./assets/uni-vue3-cli_1-002.png)
+![图片](./assets/UniVue3Cli1_002.png)
 
 等待一会儿就初始化完毕了，目录结构如下
 
-![图片](./assets/uni-vue3-cli_1-003.png)
+![图片](./assets/UniVue3Cli1_003.png)
 
 ### 基础模板
 包含`jest`，`babel`，`postcss`，`typescript`等基本配置文件
@@ -67,13 +67,13 @@ yarn dev:mp-weixin
 yarn build:mp-weixin
 ```
 
-![图片](./assets/uni-vue3-cli_1-004.png)
+![图片](./assets/UniVue3Cli1_004.png)
 
 开发启动速度比使用HbuilderX启动项目要快不少
 
 然后将编译结果`dist/dev/mp-weixin`导入微信开发者工具即可运行
 
-![图片](./assets/uni-vue3-cli_1-005.png)
+![图片](./assets/UniVue3Cli1_005.png)
 
 
 ## Sass支持
@@ -97,7 +97,7 @@ yarn add @vant/weapp
 
 拷贝`node_modules/@vant` 到 wxcomponents中
 
-![图片](./assets/uni-vue3-cli_1-006.png)
+![图片](./assets/UniVue3Cli1_006.png)
 
 `src/App.vue`中引入样式文件
 ```html
@@ -127,7 +127,7 @@ yarn add @vant/weapp
 
 效果
 
-![图片](./assets/uni-vue3-cli_1-007.png)
+![图片](./assets/UniVue3Cli1_007.png)
 
 ## 未完待续
 * eslint

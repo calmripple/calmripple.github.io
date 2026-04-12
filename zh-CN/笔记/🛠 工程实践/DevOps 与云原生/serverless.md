@@ -41,15 +41,15 @@ Serverless 架构即“⽆服务器”架构，它是一种全新的架构方式
 ## 传统开发
 ### 开发流程
 
-![图片](./assets/serverless-001.png)
+![图片](./assets/Serverless_001.png)
 
 ### 开发之外的问题
 对开发团队的要求越来越高
 
-![图片](./assets/serverless-002.png)
+![图片](./assets/Serverless_002.png)
 
 ### 上线后
-![图片](./assets/serverless-003.png)
+![图片](./assets/Serverless_003.png)
 * 运维复杂
 * 测试复杂
 * 扩展复杂
@@ -59,7 +59,7 @@ Serverless 架构即“⽆服务器”架构，它是一种全新的架构方式
 
 ## 技术变革,思想先行👏
 
-![图片](./assets/serverless-004.png)
+![图片](./assets/Serverless_004.png)
 
 名词解释（云计算中的一些概念）：
 * On-Premise: 本地部署
@@ -86,7 +86,7 @@ Serverless 架构即“⽆服务器”架构，它是一种全新的架构方式
 ## 云的未来 - Serverless
 追求更低的心理成本，就是能力闭环
 
-![图片](./assets/serverless-005.png)
+![图片](./assets/Serverless_005.png)
 
 Serverless 可能是目前资源抽象最高级别，为能力闭环带来了可能性
 

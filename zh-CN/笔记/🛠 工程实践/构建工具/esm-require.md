@@ -25,7 +25,7 @@ const pkg = require('vitepress/package.json')
 
 下来翻了翻文档发现这个Node v12.2.0 就有了
 
-![](./esm-require-001.png)
+![](./assets/EsmRequire_001.png)
 
 结合最近开发 VitePress 主题需要ESM中获取 `__dirname` 的经验，这里就顺便记录一下。
 

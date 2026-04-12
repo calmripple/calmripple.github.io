@@ -41,7 +41,7 @@ export function loadEnv(
 * `envDir`：环境变量配置文件所在目录
 * `prefix`：接受的环境变量前缀，默认为 **VITE_**，这就应证了文档中提到的内容
 
-![图片](./assets/vite-loadEnv-001.png)
+![图片](./assets/ViteloadEnv_001.png)
 
 ### 返回值
 一个键与值都是`string`类型的对象

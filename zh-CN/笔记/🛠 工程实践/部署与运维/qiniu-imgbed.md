@@ -15,7 +15,7 @@ categories:
 
 支持**复制粘贴**，**截图**，**手动选择**，**拖拽**等四种常见的上传方案
 
-![图片](./qiniu-imgbed-001.png)
+![图片](./assets/QiniuImgbed_001.png)
 ## 线上预览
 * [线上demo](https://imgbed.sugarat.top/)
 * [在线编码](https://stackblitz.com/edit/github-2scsen?file=README.md)
@@ -53,23 +53,23 @@ QINIU_DOMAIN=domain # 图床域名(包含协议https/http)
 <details>
 <summary>查看 bucket</summary>
 
-![](./qiniu-imgbed-002.png)
+![](./assets/QiniuImgbed_002.png)
 
 </details>
 
 <details>
 <summary>查看 Access Key和Secret Key</summary>
 
-![](./qiniu-imgbed-003.png)
+![](./assets/QiniuImgbed_003.png)
 
-![](./qiniu-imgbed-004.png)
+![](./assets/QiniuImgbed_004.png)
 
 </details>
 
 <details>
 <summary>查看域名</summary>
 
-![图片](./qiniu-imgbed-005.png)
+![图片](./assets/QiniuImgbed_005.png)
 
 </details>
 

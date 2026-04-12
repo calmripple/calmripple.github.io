@@ -36,7 +36,7 @@ categories:
 ```sh
 npm run dev
 ```
-![图片](./vite-plugin-monitor1-001.png)
+![图片](./assets/VitePluginMonitor1_001.png)
 
 为此只能通过一些hack的手段获取这些指标了，下面将展开详细的介绍
 
@@ -168,7 +168,7 @@ export default defineConfig({
 ```
 接着通过配置的指令启动`vite`，就能看到我们插件的打印的配置文件内容了
 
-![图片](./vite-plugin-monitor1-002.png)
+![图片](./assets/VitePluginMonitor1_002.png)
 
 由于是通过软连接的方式引入的插件，那么在插件工程里的任意更改都会实时生效，也就避免了频繁的执行`yarn add file:localProjectDir`
 

@@ -34,19 +34,19 @@ categories:
 
 进入[控制台面板](https://console.cloud.tencent.com/)，通常在首页右上角
 
-![图片](./tx-serverless-node-001.png)
+![图片](./assets/TxServerlessNode_001.png)
 
 然后在左上角的云产品列表中找到[Serverless应用中心](https://console.cloud.tencent.com/sls)
 
-![图片](./tx-serverless-node-002.png)
+![图片](./assets/TxServerlessNode_002.png)
 
 然后你能看到如下的界面
 
-![图片](./tx-serverless-node-003.png)
+![图片](./assets/TxServerlessNode_003.png)
 
 点击新建，可以看见有很多模板可供选择,咱这里先选择`Express`应用，然后点击下一步
 
-![图片](./tx-serverless-node-004.png)
+![图片](./assets/TxServerlessNode_004.png)
 
 基本配置包含：
 * 应用的名称：随心所欲填
@@ -58,39 +58,39 @@ categories:
 * 超时时间：默认3s，建议改长一点（10s左右），因为服务**存在冷启动问题**,所以在3s的时候部分请求可能会由于服务还未启动或者未及时响应导致接口调用失败
 * 环境变量：（可以忽略，建议配在项目的.env文件中）
 
-![图片](./tx-serverless-node-005.png)
+![图片](./assets/TxServerlessNode_005.png)
 
 填完基本信息后紧接着点击完成即可
 
-![图片](./tx-serverless-node-006.png)
+![图片](./assets/TxServerlessNode_006.png)
 
 赖心等待几分钟服务就初始化完毕了
 
 
 这个真免费，不要钱（咱根本用不完免费额度 嘿嘿）
 
-![图片](./tx-serverless-node-007.png)
+![图片](./assets/TxServerlessNode_007.png)
 
 ## 线上访问地址
 
 应用创建完成后能在卡片处看见后端服务的线上地址：
 
-![图片](./tx-serverless-node-008.png)
+![图片](./assets/TxServerlessNode_008.png)
 
 比如我这个demo服务地址:[https://service-rbji0bev-1256505457.cd.apigw.tencentcs.com/release/](https://service-rbji0bev-1256505457.cd.apigw.tencentcs.com/release/)
 
 访问默认效果如下：
 
-![图片](./tx-serverless-node-009.png)
+![图片](./assets/TxServerlessNode_009.png)
 
 ## 模板的源代码
 选择卡片中的 `开发部署` -> `更新应用`
 
-![图片](./tx-serverless-node-010.png)
+![图片](./assets/TxServerlessNode_010.png)
 
 紧接着 选择 `本地开发` ,点击下载项目
 
-![图片](./tx-serverless-node-011.png)
+![图片](./assets/TxServerlessNode_011.png)
 
 ### 模板目录结构
 ```sh
@@ -346,11 +346,11 @@ module.exports = app
 ## 线上WebIDE查看源码
 回到`Serverless-应用`选择我们刚刚创建的应用，回到熟悉的卡片页
 
-![图片](./tx-serverless-node-012.png)
+![图片](./assets/TxServerlessNode_012.png)
 
 点击云函数蓝色的那个函数名称（是一个链接），就会跳转到WebIDE页面
 
-![图片](./tx-serverless-node-013.png)
+![图片](./assets/TxServerlessNode_013.png)
 
 咱就能通过WebIDE查看到我们模板项目的源代码，其中还有一些不是模板中的代码，咱不管它，也不去修改
 
@@ -445,7 +445,7 @@ module.exports = app
 ```sh
 node -v
 ```
-![图片](./tx-serverless-node-014.png)
+![图片](./assets/TxServerlessNode_014.png)
 
 ### Serverless Framework
 安装[Serverless Framework](https://github.com/serverless/serverless/blob/master/README_CN.md)
@@ -458,7 +458,7 @@ npm install -g serverless
 ```sh
 sls -v
 ```
-![图片](./tx-serverless-node-015.png)
+![图片](./assets/TxServerlessNode_015.png)
 ### 部署
 
 在项目跟路径执行部署指令
@@ -470,15 +470,15 @@ sls deploy
 
 会弹出一个**登录**界面，**微信扫码**登录即可
 
-![图片](./tx-serverless-node-016.png)
+![图片](./assets/TxServerlessNode_016.png)
 
 此时静静等待几秒
 
-![图片](./tx-serverless-node-017.png)
+![图片](./assets/TxServerlessNode_017.png)
 
 出现此图说明部署成功
 
-![图片](./tx-serverless-node-018.png)
+![图片](./assets/TxServerlessNode_018.png)
 
 示例访问地址：[https://service-rbji0bev-1256505457.cd.apigw.tencentcs.com/release/](https://service-rbji0bev-1256505457.cd.apigw.tencentcs.com/release/)
 
@@ -489,7 +489,7 @@ sls deploy
 
 访问结果可以看出我们改造后的模板项目已经上去了
 
-![图片](./tx-serverless-node-019.png)
+![图片](./assets/TxServerlessNode_019.png)
 
 到此从0-1的创建应用到部署上线的流程都走完了
 
