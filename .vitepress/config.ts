@@ -170,18 +170,7 @@ export default defineConfig({
       },
     },
     server: {
-      proxy: {
-        '/assets/page-external-data/js': {
-          target: 'https://plausible.io/js',
-          changeOrigin: true,
-          rewrite: path => path.replace('/assets/page-external-data/js', ''),
-        },
-        '/api/v1/page-external-data': {
-          target: 'https://plausible.io/api',
-          changeOrigin: true,
-          rewrite: path => path.replace('/api/v1/page-external-data', ''),
-        },
-      },
+      proxy: {},
     },
     assetsInclude: [
       '**/*.mov',
