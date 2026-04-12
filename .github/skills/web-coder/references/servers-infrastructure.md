@@ -1,3 +1,12 @@
+<!--
+🏗️ 【中文注释】
+  工具名称: 服务器架构参考
+  功能分类: 架构设计
+  功能说明: 用于了解和规范网页服务器、部署及基础设施架构。
+  使用方式: 在 VS Code 中查阅服务器或部署相关问题时自动触发。
+  关键标签: 架构设计、服务器、部署
+-->
+
 # Servers & Infrastructure Reference
 
 Web servers, hosting, deployment, and infrastructure concepts.

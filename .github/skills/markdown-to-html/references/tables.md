@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 表格生成
+  功能分类: 文档生成
+  功能说明: 用于在 Markdown 中创建表格，优化信息展示结构。
+  使用方式: 在 VS Code 中插入表格语法，工具辅助生成标准表格。
+  关键标签: Markdown、表格、信息组织、文档
+-->
+
 # Organizing information with tables
 
 You can build tables to organize information in comments, issues, pull requests, and wikis.

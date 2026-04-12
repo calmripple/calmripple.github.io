@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: Web术语表
+  功能分类: 通用助手
+  功能说明: 提供 Web 领域术语词汇表，便于理解和查找相关概念。
+  使用方式: 在学习或查找 Web 相关术语时查阅，辅助理解专业词汇。
+  关键标签: 术语、Web、参考、概念
+-->
+
 # Glossary
 
 - Reference [Glossary of Web Terms](https://developer.mozilla.org/en-US/docs/Glossary)

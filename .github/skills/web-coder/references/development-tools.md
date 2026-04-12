@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 开发工具参考
+  功能分类: 通用助手
+  功能说明: 提供 Web 开发常用工具与工作流参考，提升开发效率。
+  使用方式: 在开发过程中查阅，快速获取工具使用方法。
+  关键标签: 开发工具、Git、工作流、效率
+-->
+
 # Development Tools Reference
 
 Tools and workflows for web development.

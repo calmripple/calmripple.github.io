@@ -3,6 +3,15 @@ name: suggest-awesome-github-copilot-skills
 description: 'Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates.'
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 技能推荐助手
+  功能分类: 通用助手
+  功能说明: 用于推荐适合当前仓库的 Copilot 技能文件，避免重复并识别过时技能。
+  使用方式: 在 Copilot Chat 中输入需求，自动推荐相关技能文件。
+  关键标签: Copilot、推荐、技能、仓库分析
+-->
+
 # Suggest Awesome GitHub Copilot Skills
 
 Analyze current repository context and suggest relevant Agent Skills from the [GitHub awesome-copilot repository](https://github.com/github/awesome-copilot/blob/main/docs/README.skills.md) that are not already available in this repository. Agent Skills are self-contained folders located in the [skills](https://github.com/github/awesome-copilot/tree/main/skills) folder of the awesome-copilot repository, each containing a `SKILL.md` file with instructions and optional bundled assets.

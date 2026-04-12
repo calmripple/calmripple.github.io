@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 语言支持参考
+  功能分类: 通用助手
+  功能说明: 提供支持语言参考和安装说明，帮助配置代码运行环境。
+  使用方式: 在 VS Code 查看文档或配置代码运行器时参考；GitHub README 可引用。
+  关键标签: 语言支持、环境配置、参考文档
+-->
+
 # Supported Languages Reference
 
 This document provides detailed information about each supported programming language, including installation instructions and platform-specific notes.

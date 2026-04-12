@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Jekyll 网站生
+  功能分类: 文档生成
+  功能说明: 用于将 Markdown 内容转化为完整网站，适用于博客和 GitHub Pages。
+  使用方式: 在 VS Code 中编辑 Markdown，使用 Jekyll CLI 构建网站。
+  关键标签: Jekyll、静态网站、Markdown、生成
+-->
+
 # Jekyll Reference
 
 Jekyll is a static site generator that transforms Markdown content into complete websites. It's blog-aware and powers GitHub Pages.

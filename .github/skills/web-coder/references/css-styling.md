@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: CSS样式参考
+  功能分类: 通用助手
+  功能说明: 提供 CSS 与现代布局技术参考，帮助优化页面样式和响应式设计。
+  使用方式: 在编写或优化 CSS 时查阅，获取布局和样式建议。
+  关键标签: CSS、样式、布局、响应式
+-->
+
 # CSS & Styling Reference
 
 Comprehensive reference for Cascading Style Sheets, layout systems, and modern styling techniques.

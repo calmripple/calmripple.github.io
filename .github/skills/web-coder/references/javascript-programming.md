@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: JS编程规范
+  功能分类: 编码规范
+  功能说明: 帮助规范 JavaScript 编程风格，介绍现代 JS 模式和核心概念。
+  使用方式: 在 VS Code 中输入 JS 相关问题或请求编码规范时自动触发。
+  关键标签: JavaScript、编码规范、编程风格
+-->
+
 # JavaScript & Programming Reference
 
 Comprehensive reference for JavaScript, ECMAScript, programming concepts, and modern JS patterns.

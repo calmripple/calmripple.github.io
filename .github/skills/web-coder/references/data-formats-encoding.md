@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 数据格式编码
+  功能分类: 通用助手
+  功能说明: 提供 Web 数据格式与编码知识，辅助数据序列化与解析。
+  使用方式: 在处理数据传输或存储时查阅，解决编码相关问题。
+  关键标签: 数据格式、编码、序列化、解析
+-->
+
 # Data Formats & Encoding Reference
 
 Data formats, character encodings, and serialization for web development.

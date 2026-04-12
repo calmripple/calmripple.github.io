@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: Pinia测试模式
+  功能分类: 测试辅助
+  功能说明: 提供 Pinia 测试的常用代码片段和模式，便于快速编写和复用测试逻辑。
+  使用方式: 在 VS Code 编辑 Pinia 测试文件时，参考或插入此文档中的代码片段。
+  关键标签: Pinia、测试片段、代码复用、单元测试
+-->
+
 # Pinia Testing Snippets (Cookbook-Aligned)
 
 Use these patterns directly when writing tests with `@pinia/testing`.

@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: LSP服务器参考
+  功能分类: 通用助手
+  功能说明: 提供已知 LSP 服务器参考及安装配置片段，便于快速集成多语言支持。
+  使用方式: 在 Copilot Chat 或配置流程中查阅 LSP 服务器列表和安装命令。
+  关键标签: LSP、配置参考、多语言
+-->
+
 # Known LSP Servers for Copilot CLI
 
 Reference data for the `lsp-setup` skill. Each section contains install commands per OS and a ready-to-use config snippet.

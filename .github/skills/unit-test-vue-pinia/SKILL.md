@@ -4,6 +4,15 @@ category: testing
 description: 'Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases. Use when creating or updating tests for components, composables, and stores; mocking Pinia with createTestingPinia; applying Vue Test Utils patterns; and enforcing black-box assertions over implementation details.'
 ---
 
+<!--
+🧪 【中文注释】
+  工具名称: Vue Pinia单
+  功能分类: 测试辅助
+  功能说明: 用于编写和审查 Vue 3 + TypeScript + Pinia 项目的单元测试，提供测试模式和断言建议。
+  使用方式: 在 VS Code 中通过 Copilot Chat 或代码片段调用，辅助生成和优化测试代码。
+  关键标签: 单元测试、Vue、Pinia、Vitest
+-->
+
 # unit-test-vue-pinia
 
 Use this skill to create or review unit tests for Vue components, composables, and Pinia stores. Keep tests small, deterministic, and behavior-first.

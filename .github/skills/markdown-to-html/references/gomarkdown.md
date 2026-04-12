@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Go Markdow
+  功能分类: 文档生成
+  功能说明: 用于将 Markdown 转换为 HTML，支持 Go 语言项目集成。
+  使用方式: 在 VS Code 中调用 Go 库或 CLI 工具进行 Markdown 转换。
+  关键标签: Go、Markdown、HTML、转换
+-->
+
 # gomarkdown/markdown Reference
 
 Go library for parsing Markdown and rendering HTML. Fast, extensible, and thread-safe.

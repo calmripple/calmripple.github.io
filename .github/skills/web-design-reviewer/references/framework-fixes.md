@@ -1,3 +1,12 @@
+<!--
+♻️ 【中文注释】
+  工具名称: 框架修复指南
+  功能分类: 代码重构
+  功能说明: 用于针对不同前端框架和样式方法提供布局和样式修复建议。
+  使用方式: 在 VS Code 中遇到布局或样式问题时查阅自动触发。
+  关键标签: 代码重构、布局修复、前端框架
+-->
+
 # Framework-specific Fix Guide
 
 This document explains specific fix techniques for each framework and styling method.

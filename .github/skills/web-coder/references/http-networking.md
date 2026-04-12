@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: HTTP网络规范
+  功能分类: 编码规范
+  功能说明: 帮助规范 HTTP 协议和网络通信，提供版本和核心概念参考。
+  使用方式: 在 VS Code 中查阅 HTTP 或网络相关问题时自动触发。
+  关键标签: HTTP、网络、编码规范
+-->
+
 # HTTP & Networking Reference
 
 Comprehensive reference for HTTP protocol, networking concepts, and web communication.

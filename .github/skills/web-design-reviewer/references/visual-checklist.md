@@ -1,3 +1,12 @@
+<!--
+🔍 【中文注释】
+  工具名称: 视觉检查清单
+  功能分类: 代码审查
+  功能说明: 帮助进行网页视觉检查，提供详细的设计审查清单。
+  使用方式: 在 VS Code 中查阅网页设计审查清单时自动触发。
+  关键标签: 代码审查、视觉检查、设计规范
+-->
+
 # Visual Inspection Checklist
 
 This document is a comprehensive checklist of items to verify during web design visual inspection.

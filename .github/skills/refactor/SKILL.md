@@ -4,6 +4,15 @@ description: 'Surgical code refactoring to improve maintainability without chang
 license: MIT
 ---
 
+<!--
+♻️ 【中文注释】
+  工具名称: 代码重构助手
+  功能分类: 代码重构
+  功能说明: 用于外科式代码重构，提升可维护性并消除代码异味。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入重构需求自动调用。
+  关键标签: 重构、代码优化、设计模式、可维护性
+-->
+
 # Refactor
 
 ## Overview

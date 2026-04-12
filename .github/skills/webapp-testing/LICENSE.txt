@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 许可证参考
+  功能分类: 通用助手
+  功能说明: 用于查阅 Apache License 2.0 许可条款，辅助理解工具使用范围。
+  使用方式: 在 VS Code 或 GitHub 中查阅 LICENSE 文件自动触发。
+  关键标签: 通用助手、许可证、法律
+-->
+
 
                                  Apache License
                            Version 2.0, January 2004

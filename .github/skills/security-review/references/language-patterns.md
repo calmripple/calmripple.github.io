@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 语言漏洞模式
+  功能分类: 安全审计
+  功能说明: 提供语言特定的安全漏洞检测模式，辅助安全审计流程。
+  使用方式: 由安全审计助手自动加载，无需手动调用。
+  关键标签: 安全、漏洞模式、语言特性、代码审计
+-->
+
 # Language-Specific Vulnerability Patterns
 
 Load the relevant section during Step 1 (Scope Resolution) after identifying languages.

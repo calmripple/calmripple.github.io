@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 协议标准参考
+  功能分类: 编码规范
+  功能说明: 用于规范网页协议和标准，介绍主要组织和规范内容。
+  使用方式: 在 VS Code 中查阅协议或标准相关内容时自动触发。
+  关键标签: 协议、标准、编码规范
+-->
+
 # Web Protocols & Standards Reference
 
 Organizations, specifications, and standards that govern the web.

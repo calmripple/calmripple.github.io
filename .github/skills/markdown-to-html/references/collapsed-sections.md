@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 折叠区生成
+  功能分类: 文档生成
+  功能说明: 用于在 Markdown 中创建折叠区域，优化信息组织结构。
+  使用方式: 在 VS Code 中插入 <details> 标签，工具辅助生成折叠内容。
+  关键标签: Markdown、折叠、信息组织、文档
+-->
+
 # Organizing information with collapsed sections
 
 You can streamline your Markdown by creating a collapsed section with the `<details>` tag.

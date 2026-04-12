@@ -1,6 +1,15 @@
 ---
 applyTo: "**"
 ---
+
+<!--
+📋 【中文注释】
+  工具名称: 通用编码规范
+  功能分类: 编码规范
+  功能说明: 用于规范代码风格，强调清晰命名、单一职责、错误处理和代码复用。
+  使用方式: 自动应用于所有代码编辑和审查，无需手动调用。
+  关键标签: 编码规范、清晰、复用、错误处理
+-->
 # General Coding Instructions
 
 Follow these principles when writing or reviewing code:

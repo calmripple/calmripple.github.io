@@ -4,6 +4,15 @@ description: Use this skill whenever the user wants to do anything with PDF file
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: PDF工具
+  功能分类: 通用助手
+  功能说明: 帮助处理 PDF 文件，包括文本提取、合并拆分、加密解密、OCR 等操作。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入 PDF 相关需求自动调用。
+  关键标签: PDF、文件处理、文本提取、OCR
+-->
+
 # PDF Processing Guide
 
 ## Overview

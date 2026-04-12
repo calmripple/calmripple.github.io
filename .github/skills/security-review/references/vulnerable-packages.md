@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 漏洞包监控
+  功能分类: 安全审计
+  功能说明: 帮助识别项目依赖中的高风险和已知漏洞包，指导版本升级以保障安全。
+  使用方式: 在 GitHub Pull Request 或安全审计流程中引用此清单，核查依赖包版本。
+  关键标签: 安全、依赖审计、漏洞、风险包
+-->
+
 # Vulnerable & High-Risk Package Watchlist
 
 Load this during Step 2 (Dependency Audit). Check versions in the project's lock files.

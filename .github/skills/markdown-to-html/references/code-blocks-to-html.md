@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 代码块转 HTML
+  功能分类: 文档生成
+  功能说明: 帮助将 Markdown 代码块转换为 HTML 格式，便于网页展示。
+  使用方式: 在 VS Code 中编辑 Markdown 文件，使用该工具自动生成对应 HTML 代码片段。
+  关键标签: Markdown、HTML、代码块、转换
+-->
+
 # Code Blocks to HTML
 
 ## Fenced Code Blocks (No Language)

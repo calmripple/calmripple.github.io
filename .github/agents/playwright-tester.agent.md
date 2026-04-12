@@ -5,6 +5,15 @@ tools: ["changes", "codebase", "edit/editFiles", "fetch", "findTestFiles", "prob
 model: Claude Sonnet 4
 ---
 
+<!--
+🧪 【中文注释】
+  工具名称: Playwright
+  功能分类: 测试辅助
+  功能说明: 帮助生成和分析 Playwright 测试，支持网站探索、测试运行和故障排查。
+  使用方式: 在 Copilot Chat 中选择“Playwright Tester Mode”Agent，输入测试需求或分析测试结果。
+  关键标签: 测试、Playwright、自动化、故障排查
+-->
+
 ## Core Responsibilities
 
 1.  **Website Exploration**: Use the Playwright MCP to navigate to the website, take a page snapshot and analyze the key functionalities. Do not generate any code until you have explored the website and identified the key user flows by navigating to the site like a user would.

@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 漏洞类别参考
+  功能分类: 安全审计
+  功能说明: 提供各类安全漏洞详细检测指导，辅助漏洞分类与分析。
+  使用方式: 由安全审计助手自动加载，无需手动调用。
+  关键标签: 安全、漏洞分类、检测指导、代码审计
+-->
+
 # Vulnerability Categories — Deep Reference
 
 This file contains detailed detection guidance for every vulnerability category.

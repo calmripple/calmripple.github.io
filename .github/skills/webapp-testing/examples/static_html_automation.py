@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: 静态页面自动化
+  功能分类: 测试辅助
+  功能说明: 用于自动化操作本地静态 HTML 文件，模拟用户交互进行测试。通过 Playwright 加载 file:// URL 并执行操作。
+  使用方式: 在 VS Code 终端运行 Python 文件，或在 GitHub Actions 中调用此脚本。
+  关键标签: 自动化测试、静态页面、Playwright
+-->
+
 from playwright.sync_api import sync_playwright
 import os
 

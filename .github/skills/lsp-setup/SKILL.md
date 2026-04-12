@@ -3,6 +3,15 @@ name: lsp-setup
 description: 'Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server for Copilot CLI. Detects the OS, installs the right server, and generates the JSON configuration (user-level or repo-level). Use when you need deeper code understanding and no LSP server is configured, or when the user asks to set up, install, or configure an LSP server.'
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: LSP配置助手
+  功能分类: 通用助手
+  功能说明: 自动安装并配置 LSP 服务器，提升代码智能能力，支持多语言环境。
+  使用方式: 在 Copilot Chat 输入“配置LSP”或“启用代码智能”，自动触发该工具。
+  关键标签: 代码智能、LSP、多语言支持
+-->
+
 # LSP Setup for GitHub Copilot CLI
 
 **UTILITY SKILL** — installs and configures Language Server Protocol servers for Copilot CLI.

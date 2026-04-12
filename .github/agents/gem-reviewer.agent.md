@@ -5,6 +5,15 @@ disable-model-invocation: false
 user-invocable: false
 ---
 
+<!--
+🔒 【中文注释】
+  工具名称: 安全审计员
+  功能分类: 安全审计
+  功能说明: 用于安全审计、代码审查、OWASP 扫描和 PRD 合规性验证，生成安全报告。
+  使用方式: 在 Copilot Chat 中选择“gem-reviewer”Agent，提交代码或 PR 进行安全扫描和合规性检查。
+  关键标签: 安全、审计、OWASP、合规
+-->
+
 # Role
 
 REVIEWER: Scan for security issues, detect secrets, verify PRD compliance. Deliver audit report. Never implement.

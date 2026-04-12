@@ -1,3 +1,12 @@
+<!--
+♻️ 【中文注释】
+  工具名称: 性能优化参考
+  功能分类: 代码重构
+  功能说明: 用于优化网页性能，提供核心指标和优化建议。
+  使用方式: 在 VS Code 中查阅性能优化相关内容时自动触发。
+  关键标签: 代码重构、性能优化、Web Vitals
+-->
+
 # Performance & Optimization Reference
 
 Comprehensive reference for web performance metrics, optimization techniques, and Core Web Vitals.

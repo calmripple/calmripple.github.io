@@ -3,6 +3,15 @@ name: suggest-awesome-github-copilot-agents
 description: 'Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates.'
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: Agent推荐助手
+  功能分类: 通用助手
+  功能说明: 用于推荐适合当前仓库的 Copilot Custom Agents，避免重复并识别过时代理。
+  使用方式: 在 Copilot Chat 中输入需求，自动推荐相关 Agent 文件。
+  关键标签: Copilot、推荐、Agent、仓库分析
+-->
+
 # Suggest Awesome GitHub Copilot Custom Agents
 
 Analyze current repository context and suggest relevant Custom Agents files from the [GitHub awesome-copilot repository](https://github.com/github/awesome-copilot/blob/main/docs/README.agents.md) that are not already available in this repository. Custom Agent files are located in the [agents](https://github.com/github/awesome-copilot/tree/main/agents) folder of the awesome-copilot repository.
