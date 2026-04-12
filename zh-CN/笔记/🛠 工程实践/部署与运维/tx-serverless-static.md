@@ -264,7 +264,7 @@ tcb framework deploy
 
 我这里域名是在阿里云上购买的
 
-![图片](./assets/TxServerlessStatic_019.png)
+![图片](./assets/TxServerlessStatic_018.png)
 
 按要求添加解析
 
@@ -272,7 +272,7 @@ tcb framework deploy
 
 添加完成后，点击查询域名验证状态即可，申请完成后如下图所示
 
-![图片](./assets/TxServerlessStatic_021.png)
+![图片](./assets/TxServerlessStatic_020.png)
 
 ### 绑定域名
 
@@ -282,7 +282,7 @@ tcb framework deploy
 
 弹窗中输入刚刚申请证书用的域名
 
-![图片](./assets/TxServerlessStatic_023.png)
+![图片](./assets/TxServerlessStatic_022.png)
 
 根据要求添加CName
 
@@ -300,7 +300,7 @@ tcb framework deploy
 
 需要添加一条404的重定向配置，配置地方如下
 
-![图片](./assets/TxServerlessStatic_026.png)
+![图片](./assets/TxServerlessStatic_025.png)
 
 ## 接入Github Action持续集成
 ### 创建main.yml
