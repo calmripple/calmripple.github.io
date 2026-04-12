@@ -11,6 +11,8 @@ export const include = ['笔记', '生活']
 
 /** Repo */
 export const githubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
+/** GitHub 用户名（用于 Sponsors API 等） */
+export const githubUsername = 'knewbeing'
 /** 历史仓库 */
 export const legacyGithubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
 /** Mastodon */

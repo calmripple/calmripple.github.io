@@ -5,7 +5,6 @@ import { createTocSidebarComponentResolver, createTocSidebarVitePlugin, type Toc
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { presetVite } from '@nolebase/integrations/vitepress/vite'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
-// import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
@@ -16,6 +15,8 @@ import type { Plugin as VitePlugin } from 'vite'
 import { defineConfig } from 'vitepress'
 import { creators, githubRepoLink, mastodonLink, siteDescription, siteName } from '../metadata'
 import head from './head'
+
+// import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
 
 // 最小补丁：修复上游 PageProperties 插件在 dev 模式下虚拟模块首次加载时为空的问题。
 // 根本原因：上游 transform(pre) 已正确地把字数统计写入内存，但虚拟模块在 md 文件 transform

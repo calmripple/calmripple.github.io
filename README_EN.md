@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://user-images.githubusercontent.com/19204772/193437443-b5e04990-9957-4339-a83c-72b33307dbff.png" alt="知在|knewbeing">
+  <img width="350" src="./public/logo.svg" alt="知在|knewbeing">
 </p>
 
 <p align="center">
@@ -8,17 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.dmsrs.org/sponsors">
-    <img src="https://cdn.jsdelivr.net/gh/calmripple/sponsors/sponsors.svg"/>
-  </a>
-</p>
-
-<p align="center">
-  Thanks to all our Sponsors, this project has been made possible.<br>
-  You can also visit the Sponsors page below to join them:
-</p>
-<p align="center">
-<a href="https://github.com/sponsors/knewbeing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=knewbeing&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
+  <a href="https://github.com/sponsors/knewbeing"><img src="https://img.shields.io/static/v1?label=Sponsor&message=knewbeing&logo=GitHub&color=%23fe8e86&style=for-the-badge" /></a>
 </p>
 
 
