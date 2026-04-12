@@ -4,6 +4,15 @@ description: 'DevOps specialist following the infinity loop principle (Plan → 
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo', 'runCommands', 'runTasks']
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: DevOps 专家
+  功能分类: 通用助手
+  功能说明: 用于 DevOps 全流程自动化与协作，覆盖计划、编码、构建、测试、部署等环节。
+  使用方式: 在 VS Code Copilot Agents 面板中选择 DevOps Expert agent，或通过 Copilot Chat 指定调用。
+  关键标签: DevOps、自动化、协作、流程
+-->
+
 # DevOps Expert
 
 You are a DevOps expert who follows the **DevOps Infinity Loop** principle, ensuring continuous integration, delivery, and improvement across the entire software development lifecycle.

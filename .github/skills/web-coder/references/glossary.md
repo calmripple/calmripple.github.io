@@ -1,3 +1,12 @@
+<!--
+🏗️ 【中文注释】
+  工具名称: 架构术语表
+  功能分类: 架构设计
+  功能说明: 用于查阅 Web 架构相关术语，帮助理解系统设计和领域知识。适用于查找架构和技术术语。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅 Web 架构和术语相关内容。
+  关键标签: 架构、术语、设计、参考
+-->
+
 # Glossary
 
 - Reference [Glossary of Web Terms](https://developer.mozilla.org/en-US/docs/Glossary)

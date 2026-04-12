@@ -5,6 +5,15 @@ license: MIT
 allowed-tools: Bash
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 智能提交助手
+  功能分类: 通用助手
+  功能说明: 帮助执行 git commit 操作，自动分析变更并生成规范化提交信息。
+  使用方式: 在 Copilot Chat 或 CLI 中输入“提交代码”或“/commit”时自动触发。
+  关键标签: git、提交、自动分析、规范化
+-->
+
 # Git Commit with Conventional Commits
 
 ## Overview

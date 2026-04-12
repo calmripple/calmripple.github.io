@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 数据格式规范
+  功能分类: 编码规范
+  功能说明: 帮助规范数据格式和编码，涵盖 JSON、序列化和字符编码。适用于查阅数据结构和编码方式。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅数据格式和编码相关内容。
+  关键标签: 数据格式、编码规范、JSON、序列化
+-->
+
 # Data Formats & Encoding Reference
 
 Data formats, character encodings, and serialization for web development.

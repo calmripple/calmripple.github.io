@@ -3,6 +3,15 @@ name: code-runner
 description: Run code snippets in 30+ programming languages including JavaScript, Python, TypeScript, Java, C, C++, Go, Rust, Ruby, PHP, and more. Use when the user wants to execute code, test algorithms, verify output, run scripts, or check code behavior. Supports both interpreted and compiled languages.
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 代码运行器
+  功能分类: 通用助手
+  功能说明: 帮助运行多种编程语言的代码片段，支持算法测试、脚本执行和输出验证。
+  使用方式: 在 Copilot Chat 中输入“运行代码”或“测试算法”时自动触发，也可通过 Copilot CLI 命令调用。
+  关键标签: 代码执行、多语言、测试、脚本
+-->
+
 # Code Runner Skill
 
 This skill enables you to run code snippets in multiple programming languages directly from the command line.

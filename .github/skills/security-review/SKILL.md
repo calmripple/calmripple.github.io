@@ -3,6 +3,15 @@ name: security-review
 description: 'AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and catching vulnerabilities that pattern-matching tools miss. Use this skill when asked to scan code for security vulnerabilities, find bugs, check for SQL injection, XSS, command injection, exposed API keys, hardcoded secrets, insecure dependencies, access control issues, or any request like "is my code secure?", "review for security issues", "audit this codebase", or "check for vulnerabilities". Covers injection flaws, authentication and access control bugs, secrets exposure, weak cryptography, insecure dependencies, and business logic issues across JavaScript, TypeScript, Python, Java, PHP, Go, Ruby, and Rust.'
 ---
 
+<!--
+🔒 【中文注释】
+  工具名称: 安全审计
+  功能分类: 安全审计
+  功能说明: 帮助扫描代码库中的安全漏洞，追踪数据流、组件交互并发现常规工具遗漏的风险。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入 /security-review 命令调用，或在 GitHub Actions 工作流中集成。
+  关键标签: 安全、漏洞检测、代码扫描、数据流分析
+-->
+
 # Security Review
 
 An AI-powered security scanner that reasons about your codebase the way a human security

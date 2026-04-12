@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: gomarkdown
+  功能分类: 文档生成
+  功能说明: 用于介绍 Go 语言 gomarkdown 库的安装与使用，支持 Markdown 转 HTML。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中调用 gomarkdown 相关功能。
+  关键标签: Go、Markdown、HTML、库
+-->
+
 # gomarkdown/markdown Reference
 
 Go library for parsing Markdown and rendering HTML. Fast, extensible, and thread-safe.

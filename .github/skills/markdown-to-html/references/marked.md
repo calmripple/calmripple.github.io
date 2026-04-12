@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: marked工具参考
+  功能分类: 文档生成
+  功能说明: 帮助使用 marked 工具快速将 Markdown 转为 HTML，支持 CLI 和 Node.js 脚本。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中调用 marked 相关功能。
+  关键标签: marked、Markdown、HTML、转换
+-->
+
 # Marked
 
 ## Quick Conversion Methods

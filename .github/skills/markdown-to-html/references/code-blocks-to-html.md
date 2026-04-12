@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 代码块转HTML
+  功能分类: 文档生成
+  功能说明: 用于展示 Markdown 代码块转为 HTML 的具体效果，支持无语言和高亮代码块。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中查看代码块转换示例。
+  关键标签: 代码块、HTML、Markdown、高亮
+-->
+
 # Code Blocks to HTML
 
 ## Fenced Code Blocks (No Language)

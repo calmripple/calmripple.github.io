@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: JS规范参考
+  功能分类: 编码规范
+  功能说明: 帮助规范 JavaScript 编程，提供语言特性和现代开发模式参考。适用于查阅 JS 语法和最佳实践。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅或自动补全 JavaScript 相关内容。
+  关键标签: JavaScript、编码规范、编程、最佳实践
+-->
+
 # JavaScript & Programming Reference
 
 Comprehensive reference for JavaScript, ECMAScript, programming concepts, and modern JS patterns.

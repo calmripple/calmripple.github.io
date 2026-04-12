@@ -4,6 +4,15 @@ applyTo: '**'
 excludeAgent: ["coding-agent"]
 ---
 
+<!--
+🔍 【中文注释】
+  工具名称: 代码审查规范
+  功能分类: 代码审查
+  功能说明: 提供通用代码审查流程和最佳实践，辅助提升代码质量。
+  使用方式: 在 PR 或代码评审环节自动应用，或在 Copilot Chat 中请求审查建议。
+  关键标签: 代码审查、质量、流程、最佳实践
+-->
+
 # Generic Code Review Instructions
 
 Comprehensive code review guidelines for GitHub Copilot that can be adapted to any project. These instructions follow best practices from prompt engineering and provide a structured approach to code quality, security, testing, and architecture review.

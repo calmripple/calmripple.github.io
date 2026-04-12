@@ -4,6 +4,15 @@ description: "Use this skill whenever the user wants to create, read, edit, or m
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: Word文档助手
+  功能分类: 通用助手
+  功能说明: 用于创建、读取、编辑和处理 Word 文档，支持内容提取和格式化。
+  使用方式: 在 Copilot Chat 中输入“生成Word文档”或“.docx”相关需求时自动触发。
+  关键标签: Word、文档处理、内容提取、格式化
+-->
+
 # DOCX creation, editing, and analysis
 
 ## Overview

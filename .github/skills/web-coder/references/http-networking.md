@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 网络协议规范
+  功能分类: 编码规范
+  功能说明: 帮助规范 HTTP 协议和网络通信，提供协议版本和通信方式参考。适用于查阅网络协议和通信方法。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅 HTTP 和网络相关内容。
+  关键标签: HTTP、网络、编码规范、通信
+-->
+
 # HTTP & Networking Reference
 
 Comprehensive reference for HTTP protocol, networking concepts, and web communication.

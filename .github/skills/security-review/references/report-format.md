@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 安全报告模板
+  功能分类: 安全审计
+  功能说明: 用于生成标准化安全审计报告，统一输出结构和内容。
+  使用方式: 由安全审计工具自动调用生成报告，或在输出安全检查结果时参考。
+  关键标签: 安全、报告、格式化
+-->
+
 # Security Report Format
 
 Use this template for all `/security-review` output. Generated during Step 7.

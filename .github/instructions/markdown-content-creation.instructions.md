@@ -3,6 +3,15 @@ description: 'Markdown guidelines and content creation standards for blog posts'
 applyTo: '**/*.md'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: Markdown 内
+  功能分类: 编码规范
+  功能说明: 规范 Markdown 内容结构，统一标题、列表等格式。
+  使用方式: 编辑 Markdown 文件时自动应用，或在 Copilot Chat 中请求内容规范建议。
+  关键标签: Markdown、内容、结构、规范
+-->
+
 # Markdown Content Rules
 
 The following markdown content rules are enforced in the validators:

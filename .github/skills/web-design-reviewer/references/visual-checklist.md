@@ -1,3 +1,12 @@
+<!--
+🔍 【中文注释】
+  工具名称: 视觉检查清单
+  功能分类: 代码审查
+  功能说明: 帮助检查网页设计的视觉规范，确保布局、结构和样式符合标准。通过清单逐项核查页面元素。
+  使用方式: 在 Copilot Chat 中输入“请按视觉检查清单审查页面”或直接引用该文件内容。
+  关键标签: 网页审查、视觉规范、布局检查
+-->
+
 # Visual Inspection Checklist
 
 This document is a comprehensive checklist of items to verify during web design visual inspection.

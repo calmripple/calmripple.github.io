@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 性能优化规范
+  功能分类: 编码规范
+  功能说明: 帮助规范性能优化方法，提供核心指标和优化技巧参考。适用于查阅性能指标和优化建议。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅性能优化相关内容。
+  关键标签: 性能、优化、编码规范、指标
+-->
+
 # Performance & Optimization Reference
 
 Comprehensive reference for web performance metrics, optimization techniques, and Core Web Vitals.

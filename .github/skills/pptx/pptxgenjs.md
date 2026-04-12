@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: PPTX生成
+  功能分类: 通用助手
+  功能说明: 用于通过 PptxGenJS 库生成和编辑 PPTX 文件，支持自定义布局和内容。
+  使用方式: 在 Node.js 项目中引入 pptxgenjs 库，或在 Copilot Chat 中输入“生成 PPTX”自动调用。
+  关键标签: PPTX、生成、PptxGenJS、演示文稿
+-->
+
 # PptxGenJS Tutorial
 
 ## Setup & Basic Structure

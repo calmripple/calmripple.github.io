@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 媒体规范参考
+  功能分类: 编码规范
+  功能说明: 帮助规范多媒体和图像格式的使用，提供图片格式和嵌入方法参考。适用于查阅图像处理和多媒体嵌入。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅或自动补全媒体相关内容。
+  关键标签: 媒体、图像、编码规范、格式
+-->
+
 # Media & Graphics Reference
 
 Multimedia content, graphics, and related technologies for the web.

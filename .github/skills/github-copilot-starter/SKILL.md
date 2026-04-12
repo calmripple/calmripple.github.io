@@ -3,6 +3,15 @@ name: github-copilot-starter
 description: 'Set up complete GitHub Copilot configuration for a new project based on technology stack'
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: Copilot配置助
+  功能分类: 通用助手
+  功能说明: 用于为新项目快速配置 GitHub Copilot，根据技术栈生成完整配置。
+  使用方式: 在 Copilot Chat 中输入“配置Copilot”或“新项目初始化”时自动触发。
+  关键标签: 配置、新项目、Copilot、自动化
+-->
+
 You are a GitHub Copilot setup specialist. Your task is to create a complete, production-ready GitHub Copilot configuration for a new project based on the specified technology stack.
 
 ## Project Information Required

@@ -1,3 +1,12 @@
+<!--
+🏗️ 【中文注释】
+  工具名称: LSP服务器参考
+  功能分类: 架构设计
+  功能说明: 帮助配置和集成多语言 LSP 服务器，实现智能代码补全和语法分析。通过参考安装命令和配置片段快速部署。
+  使用方式: 在 VS Code 中通过 Copilot CLI 的 lsp-setup skill 自动调用，或参考文档手动配置。
+  关键标签: LSP、代码补全、多语言、配置
+-->
+
 # Known LSP Servers for Copilot CLI
 
 Reference data for the `lsp-setup` skill. Each section contains install commands per OS and a ready-to-use config snippet.

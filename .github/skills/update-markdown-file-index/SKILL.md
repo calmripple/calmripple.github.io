@@ -3,6 +3,15 @@ name: update-markdown-file-index
 description: 'Update a markdown file section with an index/table of files from a specified folder.'
 ---
 
+<!--
+📝 【中文注释】
+  工具名称: Markdown索引
+  功能分类: 文档生成
+  功能说明: 用于自动更新 Markdown 文件中的目录或索引，提升文档可读性。
+  使用方式: 在 VS Code 中通过 Copilot Chat 输入 /update-markdown-file-index 命令调用，或在 GitHub Actions 工作流中集成。
+  关键标签: 文档、Markdown、索引、自动生成
+-->
+
 # Update Markdown File Index
 
 Update markdown file `${file}` with an index/table of files from folder `${input:folder}`.

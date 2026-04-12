@@ -3,6 +3,15 @@ applyTo: '*'
 description: 'The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.'
 ---
 
+<!--
+♻️ 【中文注释】
+  工具名称: 性能优化指南
+  功能分类: 代码重构
+  功能说明: 提供性能优化最佳实践，覆盖前端、后端和数据库，辅助代码重构和性能提升。
+  使用方式: 在 Copilot Chat 或代码重构环节请求优化建议，自动应用于相关代码。
+  关键标签: 性能、优化、重构、最佳实践
+-->
+
 # Performance Optimization Best Practices
 
 ## Introduction

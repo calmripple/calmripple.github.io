@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: PPTX编辑
+  功能分类: 通用助手
+  功能说明: 帮助基于模板分析和编辑 PPTX 演示文稿，支持内容规划和布局调整。
+  使用方式: 在 Copilot Chat 中输入“编辑 PPTX”或“基于模板修改演示文稿”自动调用。
+  关键标签: PPTX、编辑、模板、内容规划
+-->
+
 # Editing Presentations
 
 ## Template-Based Workflow

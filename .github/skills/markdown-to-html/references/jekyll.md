@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Jekyll工具参考
+  功能分类: 文档生成
+  功能说明: 用于介绍 Jekyll 静态网站生成器的安装与用法，支持 Markdown 内容转网站。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中调用 Jekyll 相关功能。
+  关键标签: Jekyll、静态网站、Markdown、HTML
+-->
+
 # Jekyll Reference
 
 Jekyll is a static site generator that transforms Markdown content into complete websites. It's blog-aware and powers GitHub Pages.

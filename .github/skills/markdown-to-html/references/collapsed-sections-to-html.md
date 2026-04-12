@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 折叠区转HTML
+  功能分类: 文档生成
+  功能说明: 用于展示 Markdown 折叠区域（<details>标签）转为 HTML 的效果，便于信息收纳。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中查看折叠区转换示例。
+  关键标签: 折叠区、HTML、Markdown、信息收纳
+-->
+
 # Collapsed Sections to HTML
 
 ## `<details>` Block (Raw HTML in Markdown)

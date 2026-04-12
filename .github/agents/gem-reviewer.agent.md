@@ -5,6 +5,15 @@ disable-model-invocation: false
 user-invocable: false
 ---
 
+<!--
+🔒 【中文注释】
+  工具名称: 安全审计员
+  功能分类: 安全审计
+  功能说明: 帮助审计安全问题、检测敏感信息并验证需求合规，生成安全审计报告。
+  使用方式: 在 GitHub PR 或 VS Code Copilot Agents 面板中选择 gem-reviewer agent，自动扫描代码安全。
+  关键标签: 安全、审计、合规、漏洞
+-->
+
 # Role
 
 REVIEWER: Scan for security issues, detect secrets, verify PRD compliance. Deliver audit report. Never implement.

@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: HTML规范参考
+  功能分类: 编码规范
+  功能说明: 帮助规范 HTML 标记语言的使用，提供结构和语义最佳实践。适用于查阅 HTML 元素和文档结构。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅或自动补全 HTML 相关内容。
+  关键标签: HTML、编码规范、语义化、结构
+-->
+
 # HTML & Markup Reference
 
 Comprehensive reference for HTML5, markup languages, and document structure.

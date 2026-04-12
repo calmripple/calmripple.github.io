@@ -3,6 +3,15 @@ name: what-context-needed
 description: 'Ask Copilot what files it needs to see before answering a question'
 ---
 
+<!--
+📌 【中文注释】
+  工具名称: 上下文需求指引
+  功能分类: 任务规划
+  功能说明: 用于指导 Copilot 明确回答问题前所需的上下文文件，帮助拆解需求和规划分析范围。
+  使用方式: 在 Copilot Chat 中输入“请告诉我需要哪些文件才能回答我的问题”。
+  关键标签: 需求拆解、上下文分析、任务规划
+-->
+
 # What Context Do You Need?
 
 Before answering my question, tell me what files you need to see.

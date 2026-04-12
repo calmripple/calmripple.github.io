@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 密钥检测模式
+  功能分类: 安全审计
+  功能说明: 用于检测代码中的高置信度敏感信息和密钥泄露。
+  使用方式: 由安全审计工具自动加载，或在敏感信息扫描时参考。
+  关键标签: 安全、密钥、敏感信息、泄露检测
+-->
+
 # Secret & Credential Detection Patterns
 
 Load this file during Step 3 (Secrets & Exposure Scan).

@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: Web API规范
+  功能分类: 编码规范
+  功能说明: 帮助规范 Web API 和 DOM 操作，提供接口和文档结构参考。适用于查阅 DOM 操作和 Web API。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅或自动补全 Web API 和 DOM 相关内容。
+  关键标签: Web API、DOM、编码规范、接口
+-->
+
 # Web APIs & DOM Reference
 
 Comprehensive reference for the Document Object Model (DOM) and Web APIs available in modern browsers.

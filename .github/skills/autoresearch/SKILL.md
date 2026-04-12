@@ -8,6 +8,15 @@ metadata:
   inspired-by: https://github.com/karpathy/autoresearch
 ---
 
+<!--
+📌 【中文注释】
+  工具名称: 自动研究助手
+  功能分类: 任务规划
+  功能说明: 用于自动化迭代实验和代码优化，指导用户定义目标、指标和约束，并循环执行代码改进、测试和结果筛选。
+  使用方式: 在 Copilot Chat 中输入“自动优化”或“实验循环”相关需求时自动触发，也可通过 Copilot CLI 调用。
+  关键标签: 自动优化、实验循环、任务规划、迭代
+-->
+
 # Autoresearch: Autonomous Iterative Experimentation
 
 An autonomous experimentation loop for any programming task. You define the goal and how to measure it; the agent iterates autonomously -- modifying code, running experiments, measuring results, and keeping or discarding changes -- until interrupted.

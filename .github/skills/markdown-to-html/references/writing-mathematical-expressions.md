@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 数学表达式编写
+  功能分类: 文档生成
+  功能说明: 帮助在 Markdown 中编写和展示 LaTeX 格式的数学表达式，提升文档表达能力。
+  使用方式: 在 GitHub Markdown 文件中使用 LaTeX 语法，自动渲染数学公式。
+  关键标签: LaTeX、数学、Markdown、文档
+-->
+
 # Writing mathematical expressions
 
 Use Markdown to display mathematical expressions on GitHub.

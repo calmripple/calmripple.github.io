@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 浏览器规范参考
+  功能分类: 编码规范
+  功能说明: 帮助规范浏览器和渲染引擎相关知识，提供主流浏览器和开发工具参考。适用于查阅浏览器特性和兼容性。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅浏览器和引擎相关内容。
+  关键标签: 浏览器、渲染引擎、编码规范、兼容性
+-->
+
 # Browsers & Engines Reference
 
 Web browsers, rendering engines, and browser-specific information.

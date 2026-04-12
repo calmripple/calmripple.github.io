@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: 控制台日志捕获
+  功能分类: 测试辅助
+  功能说明: 用于捕获浏览器自动化过程中的控制台日志，便于调试和分析页面行为。通过 Playwright 自动收集日志信息。
+  使用方式: 在 VS Code 中运行该 Python 脚本，或在 Copilot Chat 中请求“捕获页面控制台日志”。
+  关键标签: 日志分析、自动化测试、调试
+-->
+
 from playwright.sync_api import sync_playwright
 
 # Example: Capturing console logs during browser automation

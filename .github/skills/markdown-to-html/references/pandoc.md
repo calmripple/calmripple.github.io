@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Pandoc工具参考
+  功能分类: 文档生成
+  功能说明: 用于介绍 Pandoc 万能文档转换工具的安装与用法，支持 Markdown 与多种格式互转。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中调用 Pandoc 相关功能。
+  关键标签: Pandoc、文档转换、Markdown、多格式
+-->
+
 # Pandoc Reference
 
 Pandoc is a universal document converter that can convert between numerous markup formats, including Markdown, HTML, LaTeX, Word, and many more.

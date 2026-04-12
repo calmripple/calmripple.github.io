@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 可访问性参考
+  功能分类: 通用助手
+  功能说明: 用于提升 Web 内容的可访问性，参考 WCAG 标准和最佳实践。
+  使用方式: 由 Web 开发相关工具自动加载，或在无障碍优化时参考。
+  关键标签: Web、可访问性、标准、最佳实践
+-->
+
 # Accessibility Reference
 
 Web accessibility ensures content is usable by everyone, including people with disabilities.

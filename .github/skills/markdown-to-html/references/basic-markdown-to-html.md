@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 基础Markdown
+  功能分类: 文档生成
+  功能说明: 用于演示 Markdown 标题等基础语法的 HTML 转换效果，便于理解格式对应关系。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中查看转换示例。
+  关键标签: Markdown、HTML、格式演示、文档
+-->
+
 # Basic Markdown to HTML
 
 ## Headings

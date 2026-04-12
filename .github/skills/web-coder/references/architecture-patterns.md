@@ -1,3 +1,12 @@
+<!--
+🏗️ 【中文注释】
+  工具名称: 架构模式参考
+  功能分类: 架构设计
+  功能说明: 帮助理解和应用 Web 应用架构及设计模式，支持架构决策。
+  使用方式: 由架构设计相关工具自动加载，或在系统设计讨论时参考。
+  关键标签: 架构、设计模式、Web应用、决策
+-->
+
 # Architecture & Patterns Reference
 
 Web application architectures, design patterns, and architectural concepts.

@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: CSS规范参考
+  功能分类: 编码规范
+  功能说明: 帮助规范 CSS 样式表的编写，涵盖布局和现代样式技巧。适用于查阅 CSS 属性和布局方法。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅或自动补全 CSS 相关内容。
+  关键标签: CSS、编码规范、布局、样式
+-->
+
 # CSS & Styling Reference
 
 Comprehensive reference for Cascading Style Sheets, layout systems, and modern styling techniques.

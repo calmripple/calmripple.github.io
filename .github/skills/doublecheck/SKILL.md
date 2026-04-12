@@ -3,6 +3,15 @@ name: doublecheck
 description: 'Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sources via web search, runs adversarial review for hallucination patterns, and produces a structured verification report with source links for human review.'
 ---
 
+<!--
+🔍 【中文注释】
+  工具名称: 三层验证助手
+  功能分类: 代码审查
+  功能说明: 用于对 AI 输出进行三层验证，提取可验证声明、查找支持/反对证据并生成结构化报告。
+  使用方式: 在 Copilot Chat 中输入“验证AI输出”或“生成验证报告”时自动触发。
+  关键标签: 代码审查、验证、报告、AI输出
+-->
+
 # Doublecheck
 
 Run a three-layer verification pipeline on AI-generated output. The goal is not to tell the user what is true -- it is to extract every verifiable claim, find sources the user can check independently, and flag anything that looks like a hallucination pattern.

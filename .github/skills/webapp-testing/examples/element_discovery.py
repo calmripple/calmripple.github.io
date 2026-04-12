@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: 元素发现脚本
+  功能分类: 测试辅助
+  功能说明: 帮助自动发现页面上的按钮及其他元素，便于测试和自动化操作。通过 Playwright 自动识别页面元素。
+  使用方式: 在 VS Code 中运行该 Python 脚本，或在 Copilot Chat 中请求“发现页面元素”。
+  关键标签: 元素识别、自动化测试、页面分析
+-->
+
 from playwright.sync_api import sync_playwright
 
 # Example: Discovering buttons and other elements on a page

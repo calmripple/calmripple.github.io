@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 折叠区语法
+  功能分类: 文档生成
+  功能说明: 帮助创建 Markdown 折叠区域，便于组织和隐藏技术细节。
+  使用方式: 在 GitHub 编辑器或 Copilot 中查阅语法说明，辅助文档结构优化。
+  关键标签: 折叠区、Markdown、文档、信息组织
+-->
+
 # Organizing information with collapsed sections
 
 You can streamline your Markdown by creating a collapsed section with the `<details>` tag.

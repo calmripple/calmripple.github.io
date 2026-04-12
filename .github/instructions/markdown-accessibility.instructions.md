@@ -3,6 +3,15 @@ description: 'Markdown accessibility guidelines based on GitHub''s 5 best practi
 applyTo: '**/*.md'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: Markdown 无
+  功能分类: 编码规范
+  功能说明: 规范 Markdown 文件的无障碍性，提升文档包容性和可访问性。
+  使用方式: 编辑 Markdown 文件时自动应用，或在 Copilot Chat 中请求无障碍建议。
+  关键标签: Markdown、无障碍、规范、包容
+-->
+
 # Markdown Accessibility Review Guidelines
 
 When reviewing markdown files, check for the following accessibility issues based on GitHub's [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/). Flag violations and suggest fixes with clear explanations of the accessibility impact.

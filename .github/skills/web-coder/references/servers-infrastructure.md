@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 服务器规范参考
+  功能分类: 编码规范
+  功能说明: 帮助规范服务器和基础设施配置，提供部署和主机参考。适用于查阅服务器配置和部署方法。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅服务器和部署相关内容。
+  关键标签: 服务器、基础设施、编码规范、部署
+-->
+
 # Servers & Infrastructure Reference
 
 Web servers, hosting, deployment, and infrastructure concepts.

@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 协议标准参考
+  功能分类: 编码规范
+  功能说明: 帮助规范 Web 协议和标准，提供组织与规范文档参考。适用于查阅标准协议和行业规范。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅 Web 协议和标准相关内容。
+  关键标签: 协议、标准、编码规范、规范
+-->
+
 # Web Protocols & Standards Reference
 
 Organizations, specifications, and standards that govern the web.

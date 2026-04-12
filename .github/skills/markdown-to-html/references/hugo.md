@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: Hugo工具参考
+  功能分类: 文档生成
+  功能说明: 帮助安装和使用 Hugo 静态网站生成器，实现 Markdown 到 HTML 的快速转换。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中调用 Hugo 相关功能。
+  关键标签: Hugo、静态网站、Markdown、HTML
+-->
+
 # Hugo Reference
 
 Hugo is the world's fastest static site generator. It builds sites in milliseconds and supports advanced content management features.

@@ -1,3 +1,12 @@
+<!--
+🤖 【中文注释】
+  工具名称: 语言支持参考
+  功能分类: 通用助手
+  功能说明: 提供支持的编程语言列表及安装说明，便于快速查找和配置运行环境。
+  使用方式: 在 Copilot Chat 或代码运行器技能中查询“支持语言”或“安装说明”时自动显示。
+  关键标签: 语言列表、环境配置、参考、多语言
+-->
+
 # Supported Languages Reference
 
 This document provides detailed information about each supported programming language, including installation instructions and platform-specific notes.

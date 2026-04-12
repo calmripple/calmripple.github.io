@@ -4,6 +4,15 @@ description: Toolkit for interacting with and testing local web applications usi
 license: Complete terms in LICENSE.txt
 ---
 
+<!--
+🧪 【中文注释】
+  工具名称: Web 应用测试工具
+  功能分类: 测试辅助
+  功能说明: 帮助自动化测试本地 Web 应用，支持功能验证、UI 调试、截图和日志查看。通过 Playwright 脚本实现测试。
+  使用方式: 在 VS Code 中运行 Playwright 脚本或在 Copilot Chat 中输入“请使用 webapp-testing 工具测试页面”。
+  关键标签: 自动化测试、功能验证、UI调试
+-->
+
 # Web Application Testing
 
 To test local web applications, write native Python Playwright scripts.

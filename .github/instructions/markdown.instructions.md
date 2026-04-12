@@ -3,6 +3,15 @@ description: 'Markdown formatting aligned to the CommonMark specification (0.31.
 applyTo: '**/*.md'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: CommonMark
+  功能分类: 编码规范
+  功能说明: 规范 CommonMark Markdown 格式，确保符合标准规范。
+  使用方式: 编辑 Markdown 文件时自动应用，或在 Copilot Chat 中请求格式建议。
+  关键标签: Markdown、CommonMark、格式、规范
+-->
+
 # CommonMark Markdown
 
 Apply these rules per the [CommonMark spec 0.31.2](https://spec.commonmark.org/0.31.2/) when writing or reviewing `.md` files. CommonMark spec for reference only. Do not download CommonMark spec.

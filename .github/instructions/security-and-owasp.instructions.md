@@ -2,6 +2,15 @@
 applyTo: '*'
 description: "Comprehensive secure coding instructions for all languages and frameworks, based on OWASP Top 10 and industry best practices."
 ---
+
+<!--
+🔒 【中文注释】
+  工具名称: 安全编码指南
+  功能分类: 安全审计
+  功能说明: 帮助所有语言和框架实现安全编码，基于 OWASP Top 10 和行业最佳实践。用于生成、审查或重构代码时优先考虑安全。
+  使用方式: 在 VS Code 或 GitHub Copilot 中自动应用于所有代码生成和审查场景，无需手动调用。
+  关键标签: 安全、OWASP、编码规范、漏洞防护
+-->
 # Secure Coding and OWASP Guidelines
 
 ## Instructions

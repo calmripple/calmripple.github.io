@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 安全认证参考
+  功能分类: 安全审计
+  功能说明: 用于审查安全与认证，提供加密和安全编码实践参考。适用于查阅安全原则和认证方法。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅安全和认证相关内容。
+  关键标签: 安全、认证、加密、安全审计
+-->
+
 # Security & Authentication Reference
 
 Comprehensive reference for web security, authentication, encryption, and secure coding practices.

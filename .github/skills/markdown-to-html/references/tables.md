@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 表格生成
+  功能分类: 文档生成
+  功能说明: 帮助在 Markdown 中创建和展示表格，便于信息整理和展示。支持通过管道符和横线定义表头和内容。
+  使用方式: 在 GitHub 评论、Issue、PR 或 Wiki 中插入表格语法即可自动渲染。
+  关键标签: Markdown、表格、文档、信息整理
+-->
+
 # Organizing information with tables
 
 You can build tables to organize information in comments, issues, pull requests, and wikis.

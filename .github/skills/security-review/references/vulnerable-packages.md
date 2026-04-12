@@ -1,3 +1,12 @@
+<!--
+🔒 【中文注释】
+  工具名称: 高危依赖清单
+  功能分类: 安全审计
+  功能说明: 用于审计依赖包的安全风险，识别高危版本和修复建议。
+  使用方式: 由安全审计工具自动加载，或在依赖检查时参考。
+  关键标签: 安全、依赖、漏洞包、版本审计
+-->
+
 # Vulnerable & High-Risk Package Watchlist
 
 Load this during Step 2 (Dependency Audit). Check versions in the project's lock files.

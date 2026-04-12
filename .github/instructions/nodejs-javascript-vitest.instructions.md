@@ -3,6 +3,15 @@ description: "Guidelines for writing Node.js and JavaScript code with Vitest tes
 applyTo: '**/*.js, **/*.mjs, **/*.cjs'
 ---
 
+<!--
+📋 【中文注释】
+  工具名称: Node/Vites
+  功能分类: 编码规范
+  功能说明: 规范 Node.js 和 JavaScript 代码编写，指导使用 Vitest 进行测试。
+  使用方式: 编辑 JS 文件时自动应用，或在 Copilot Chat 中请求编码和测试建议。
+  关键标签: Node.js、JavaScript、Vitest、编码规范
+-->
+
 # Code Generation Guidelines
 
 ## Coding standards

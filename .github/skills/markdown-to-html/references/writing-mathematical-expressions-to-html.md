@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 数学表达式转HTML
+  功能分类: 文档生成
+  功能说明: 用于将 Markdown 中的数学表达式转为 HTML，支持内联和块级数学公式展示。
+  使用方式: 在 Markdown 中使用 $...$ 或 $$...$$ 书写数学表达式，GitHub 自动渲染为 HTML。
+  关键标签: 数学公式、Markdown、HTML、文档
+-->
+
 # Writing Mathematical Expressions to HTML
 
 ## Writing Inline Expressions

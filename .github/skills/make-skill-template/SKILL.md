@@ -3,6 +3,15 @@ name: make-skill-template
 description: 'Create new Agent Skills for GitHub Copilot from prompts or by duplicating this template. Use when asked to "create a skill", "make a new skill", "scaffold a skill", or when building specialized AI capabilities with bundled resources. Generates SKILL.md files with proper frontmatter, directory structure, and optional scripts/references/assets folders.'
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: 技能模板生成
+  功能分类: 通用助手
+  功能说明: 用于创建新的 Copilot Agent 技能，支持从提示词或模板快速生成技能文件和目录结构。
+  使用方式: 在 GitHub Copilot 中输入“create a skill”或“make a new skill”自动触发，或复制模板手动创建。
+  关键标签: 技能、模板、自动生成、Agent
+-->
+
 # Make Skill Template
 
 A meta-skill for creating new Agent Skills. Use this skill when you need to scaffold a new skill folder, generate a SKILL.md file, or help users understand the Agent Skills specification.

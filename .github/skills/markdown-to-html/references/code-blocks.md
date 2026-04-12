@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 代码块语法
+  功能分类: 文档生成
+  功能说明: 帮助创建和高亮 Markdown 代码块，便于分享代码片段和格式化展示。
+  使用方式: 在 GitHub 编辑器或 Copilot 中查阅语法说明，辅助代码展示。
+  关键标签: 代码块、高亮、Markdown、文档
+-->
+
 # Creating and highlighting code blocks
 
 Share samples of code with fenced code blocks and enabling syntax highlighting.

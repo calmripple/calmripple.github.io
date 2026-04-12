@@ -1,3 +1,12 @@
+<!--
+♻️ 【中文注释】
+  工具名称: 框架修复指南
+  功能分类: 代码重构
+  功能说明: 用于指导不同前端框架和样式方法的修复技巧，优化布局和样式问题。根据框架类型给出具体代码修复建议。
+  使用方式: 在 Copilot Chat 中输入“请根据框架修复指南优化代码”或直接引用该文件内容。
+  关键标签: 代码优化、前端修复、样式调整
+-->
+
 # Framework-specific Fix Guide
 
 This document explains specific fix techniques for each framework and styling method.

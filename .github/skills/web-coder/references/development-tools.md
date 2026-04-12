@@ -1,3 +1,12 @@
+<!--
+📋 【中文注释】
+  工具名称: 开发工具规范
+  功能分类: 编码规范
+  功能说明: 帮助规范开发工具和工作流，提供版本控制和工具链参考。适用于查阅开发流程和工具使用。
+  使用方式: 在 VS Code 中通过 Copilot 插件查阅开发工具和流程相关内容。
+  关键标签: 开发工具、工作流、编码规范、版本控制
+-->
+
 # Development Tools Reference
 
 Tools and workflows for web development.

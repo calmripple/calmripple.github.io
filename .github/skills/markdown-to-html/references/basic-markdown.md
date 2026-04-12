@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 基础Markdown
+  功能分类: 文档生成
+  功能说明: 帮助掌握 Markdown 基础写作和格式语法，便于在 GitHub 上编写规范文档。
+  使用方式: 在 GitHub 编辑器或 Copilot 中查阅语法说明，辅助文档编写。
+  关键标签: Markdown、格式、文档、写作
+-->
+
 # Basic writing and formatting syntax
 
 Create sophisticated formatting for your prose and code on GitHub with simple syntax.

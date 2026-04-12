@@ -1,3 +1,12 @@
+<!--
+📝 【中文注释】
+  工具名称: 表格转HTML
+  功能分类: 文档生成
+  功能说明: 用于展示 Markdown 表格转为 HTML 的效果，便于结构化数据展示。
+  使用方式: 参考文档内容，或在 Copilot markdown-to-html skill 中查看表格转换示例。
+  关键标签: 表格、HTML、Markdown、数据展示
+-->
+
 # Tables to HTML
 
 ## Creating a table

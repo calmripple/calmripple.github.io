@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: 服务器测试脚本
+  功能分类: 测试辅助
+  功能说明: 帮助启动一个或多个服务器并自动执行测试脚本，适用于多端测试场景。通过命令行自动管理服务器和测试流程。
+  使用方式: 在终端运行“python scripts/with_server.py --server ... --port ... -- python 测试脚本”。
+  关键标签: 服务器管理、自动化测试、多端测试
+-->
+
 #!/usr/bin/env python3
 """
 Start one or more servers, wait for them to be ready, run a command, then clean up.

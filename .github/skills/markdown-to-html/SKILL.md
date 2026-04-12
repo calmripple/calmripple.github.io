@@ -3,6 +3,15 @@ name: markdown-to-html
 description: 'Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`, `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use when asked to "convert markdown to html", "transform md to html", "render markdown", "generate html from markdown", or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors.'
 ---
 
+<!--
+📝 【中文注释】
+  工具名称: Markdown转H
+  功能分类: 文档生成
+  功能说明: 帮助将 Markdown 文件转换为 HTML，支持多种转换工具和自定义脚本。
+  使用方式: 在 Copilot 中输入“convert markdown to html”或调用 markdown-to-html skill 自动执行。
+  关键标签: Markdown、HTML、文档转换、静态网站
+-->
+
 # Markdown to HTML Conversion
 
 Expert skill for converting Markdown documents to HTML using the marked.js library, or writing data conversion scripts; in this case scripts similar to [markedJS/marked](https://github.com/markedjs/marked) repository. For custom scripts knowledge is not confined to `marked.js`, but data conversion methods are utilized from tools like [pandoc](https://github.com/jgm/pandoc) and [gomarkdown/markdown](https://github.com/gomarkdown/markdown) for data conversion; [jekyll/jekyll](https://github.com/jekyll/jekyll) and [gohugoio/hugo](https://github.com/gohugoio/hugo) for templating systems.

@@ -4,6 +4,15 @@ description: "Use this skill any time a .pptx file is involved in any way — as
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
+<!--
+🤖 【中文注释】
+  工具名称: PPTX助手
+  功能分类: 通用助手
+  功能说明: 用于处理 PPTX 文件，包括创建、编辑、合并、拆分、提取内容等多种操作。
+  使用方式: 在 Copilot Chat 或 VS Code 中输入“处理 PPTX”相关指令自动调用。
+  关键标签: PPTX、文件处理、演示文稿、编辑
+-->
+
 # PPTX Skill
 
 ## Quick Reference

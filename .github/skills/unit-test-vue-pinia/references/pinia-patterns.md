@@ -1,3 +1,12 @@
+<!--
+🧪 【中文注释】
+  工具名称: Pinia测试模式
+  功能分类: 测试辅助
+  功能说明: 提供 Pinia 状态管理相关的测试代码片段和最佳实践。
+  使用方式: 由单元测试工具自动加载，或在编写 Pinia 测试时参考。
+  关键标签: 测试、Pinia、代码片段、最佳实践
+-->
+
 # Pinia Testing Snippets (Cookbook-Aligned)
 
 Use these patterns directly when writing tests with `@pinia/testing`.
