@@ -13,7 +13,7 @@ categories:
 ## 背景
 不希望应用发送的数据能在 Devtools 中被看到，避免接口被“同行”扒下来，然后被恶意使用
 
-![图片](./assets/Jsencrypt_001.png)
+![图片](./assets/jsencrypt_001.png)
 
 要避免此问题，首先想到的就是对传输的数据进行一次加密，让后端自行解密然后处理
 
@@ -21,7 +21,7 @@ categories:
 
 期望加密后的样子传输的内容如下
 
-![图片](./assets/Jsencrypt_002.png)
+![图片](./assets/jsencrypt_002.png)
 
 ## 加密方案简述
 ### 对称加密
@@ -324,16 +324,16 @@ function updateReceive(data){
 ## 运行结果
 **页面**
 
-![图片](./assets/Jsencrypt_003.png)
+![图片](./assets/jsencrypt_003.png)
 
 **发送网络请求**
 
-![图片](./assets/Jsencrypt_004.png)
+![图片](./assets/jsencrypt_004.png)
 
 
 **请求响应内容**
 
-![图片](./assets/Jsencrypt_005.png)
+![图片](./assets/jsencrypt_005.png)
 
 大工告成,接入十分简单
 

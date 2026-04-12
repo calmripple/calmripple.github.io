@@ -41,11 +41,11 @@ categories:
 ```
 此时的元素实际宽度为140px
 
-![图片](./assets/Box_001.png)
+![图片](./assets/box_001.png)
 
 当设置为 ``border-box`` 时才会是预期的结果
 
-![图片](./assets/Box_002.png)
+![图片](./assets/box_002.png)
 ## 全局设置
 推荐全局使用border-box
 ```css

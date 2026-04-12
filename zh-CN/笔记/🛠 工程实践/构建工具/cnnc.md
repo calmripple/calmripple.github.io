@@ -40,7 +40,7 @@ npx cnnc
 
 [示例结果](https://app.warp.dev/block/wrTUBqnxdg65BqCTgtSgD5) 如下
 
-![](./assets/Cnnc_001.png)
+![](./assets/cnnc_001.png)
 
 当然也同样支持手动传入要更新的包
 
@@ -52,7 +52,7 @@ npx cncc vue react
 
 这样可以直接通过`cnnc`或`cs`命令调用
 
-![](./assets/Cnnc_002.png)
+![](./assets/cnnc_002.png)
 
 ## 实现原理
 核心代码不到20行，下面详细的拆解一下，便于学习与理解
