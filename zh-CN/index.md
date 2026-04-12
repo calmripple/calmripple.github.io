@@ -19,7 +19,7 @@ hero:
       link: /笔记/
     - theme: alt
       text: 在 Mastodon 联系
-      link: https://mas.to/@cnjimbo
+      link: https://mastodon.social/@knewbeing
     - theme: alt
       text: GitHub 上浏览
       link: https://github.com/calmripple/calmripple.github.io
