@@ -138,5 +138,4 @@ yarn add @vant/weapp
 * [uni-vue3-ts：模板仓库](https://github.com/ATQQ/uni-vue3-ts-template)
 * [uni-app 项目小程序端、H5 端支持 vue3 介绍](https://ask.dcloud.net.cn/article/37834)
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />

@@ -386,5 +386,4 @@ export default defineComponent({
 ## 资料汇总
 * [uni-vue3-ts：模板仓库](https://github.com/ATQQ/uni-vue3-ts-template)
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />

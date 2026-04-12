@@ -179,5 +179,4 @@ export default defineConfig({
 
 查看：[仓库源码](https://github.com/ATQQ/vite-plugin-monitor)
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />

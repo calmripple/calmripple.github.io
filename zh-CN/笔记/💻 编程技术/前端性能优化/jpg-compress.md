@@ -371,4 +371,4 @@ function dataURItoFile(dataURI, fileName) {
 ## 最后
 后续将继续学习&探索一下 `GIF`，`MP4 转 GIF` 等常用的动图前端处理实现的方式。
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />

@@ -135,4 +135,4 @@ function CnpmSync(...names) {
 
 完整源码见：[GitHub](https://github.com/ATQQ/tools/blob/main/packages/cli/sync-cnpm/README.md)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
