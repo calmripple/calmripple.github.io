@@ -60,18 +60,6 @@
   "typescript.disableAutomaticTypeAcquisition": true,
   "typescript.tsserver.experimental.enableProjectDiagnostics": false,
   "files.exclude": {
-    "**/.git": false,
-    "**/.svn": false,
-    "**/.hg": false,
-    "**/.DS_Store": false,
-    "**/Thumbs.db": false,
-    "**/.trunk/*actions/": false,
-    "**/.trunk/*logs/": false,
-    "**/.trunk/*notifications/": false,
-    "**/.trunk/*out/": false,
-    "**/.trunk/*plugins/": false
-  },
-  "explorerExclude.backup": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -81,8 +69,13 @@
     "**/.trunk/*logs/": true,
     "**/.trunk/*notifications/": true,
     "**/.trunk/*out/": true,
-    "**/.trunk/*plugins/": true
+    "**/.trunk/*plugins/": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    ".vitepress\\cache/*.*": true,
+    "**/cache": true
   },
+  "explorerExclude.backup": {},
   "files.watcherExclude": {
     "**/node_modules/**": true,
     "**/dist/**": true
