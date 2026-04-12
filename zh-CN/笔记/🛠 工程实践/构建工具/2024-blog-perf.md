@@ -181,4 +181,4 @@ lighthouse 检测结果
 3. 布局：减少回流重绘范围与次数
 4. 资源：移除无用代码，无用的第三方资源加载
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/essay/dev/2024-blog-perf.html" />

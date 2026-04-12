@@ -374,4 +374,4 @@ X-FRAME-OPTIONS 是一个 HTTP 响应头
 * [阮一峰:CSP](http://www.ruanyifeng.com/blog/2016/09/csp.html)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/browser/safe.html" />

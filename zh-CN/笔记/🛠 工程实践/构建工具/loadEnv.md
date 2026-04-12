@@ -262,5 +262,4 @@ loadEnv({prefix:'xx'})
 ## TODO
 下一次分享一下Vite中这部分的源码实现逻辑
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/loadEnv.html" />

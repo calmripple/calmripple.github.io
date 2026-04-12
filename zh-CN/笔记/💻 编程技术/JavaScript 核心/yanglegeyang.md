@@ -138,4 +138,4 @@ Whistle 这个工具真的很好用，再次安利一下
 
 如果上述方法有问题，欢迎评论区交流
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/yanglegeyang.html" />

@@ -88,4 +88,4 @@ updated: function () {
 * **该钩子在服务器端渲染期间不被调用。**
 * 所有子组件都销毁完毕后才会执行根组件的 destroyed 钩子函数
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/vue/hook.html" />

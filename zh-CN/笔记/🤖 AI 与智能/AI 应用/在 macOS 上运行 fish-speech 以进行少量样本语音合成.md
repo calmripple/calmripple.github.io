@@ -142,3 +142,4 @@ chmod +x ./start.sh
 ./start.sh
 ```
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E9%A2%86%E5%9F%9F/%E9%9F%B3%E9%A2%91/%E5%9C%A8%20macOS%20%E4%B8%8A%E8%BF%90%E8%A1%8C%20fish-speech%20%E4%BB%A5%E8%BF%9B%E8%A1%8C%E5%B0%91%E9%87%8F%E6%A0%B7%E6%9C%AC%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90.html" />

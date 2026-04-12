@@ -120,4 +120,4 @@ nodeList = document.getElementsByTagNameNS(namespace, name)
 [CSDN-HTML元素之间的继承关系](https://blog.csdn.net/ppwwp/article/details/88169145)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/getElement.html" />

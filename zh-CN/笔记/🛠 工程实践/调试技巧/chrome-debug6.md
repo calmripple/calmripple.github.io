@@ -20,5 +20,4 @@ categories:
 
 ![图片](./assets/chrome-debug6-002.png)
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/chrome-debug6.html" />

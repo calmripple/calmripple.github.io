@@ -19,4 +19,4 @@ categories:
 
 静态资源本身具有访问频率高、承接流量大的特点，因此静态资源加载速度始终是前端性能的一个非常关键的指标。CDN 是静态资源提速的重要手段。
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/performance/cdn.html" />

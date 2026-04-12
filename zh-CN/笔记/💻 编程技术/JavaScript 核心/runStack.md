@@ -90,4 +90,4 @@ stack.pop() // f()
 [JavaScript深入之执行上下文栈](https://github.com/mqyqingfeng/Blog/issues/4)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/runStack.html" />

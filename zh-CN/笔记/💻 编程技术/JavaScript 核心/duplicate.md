@@ -258,4 +258,4 @@ duplicate(a)
 
 >笔者能力有限,代码如有bug,还行指正
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/coding/js/duplicate.html" />

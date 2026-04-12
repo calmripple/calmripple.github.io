@@ -210,4 +210,4 @@ data[0]Context = {
 [JavaScript深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/closure.html" />

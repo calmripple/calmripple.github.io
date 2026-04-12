@@ -347,5 +347,4 @@ console.log(arr.includes('hello')); // true
 * [Object.getOwnPropertyDescriptor()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor)
 * [compat-table/es2016plus/](https://kangax.github.io/compat-table/es2016plus/)
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/es6+.html" />

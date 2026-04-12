@@ -33,4 +33,4 @@ categories:
 [KieSun:深度解析原型中的各个难点](https://github.com/KieSun/Dream/issues/2)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/prototype.html" />

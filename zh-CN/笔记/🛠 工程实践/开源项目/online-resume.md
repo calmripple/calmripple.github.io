@@ -1199,4 +1199,4 @@ document.getElementById('page').contentDocument.body.addEventListener('click', f
 4. 加入自动生成代码模板指令
 5. 接入更多的模板
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/works/online-resume.html" />

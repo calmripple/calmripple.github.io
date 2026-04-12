@@ -36,4 +36,4 @@ selector:pseudo-class {
 
 其它更多的伪类 [MDN:CSS伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/css/pseudo-class.html" />

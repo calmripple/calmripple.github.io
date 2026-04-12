@@ -29,4 +29,4 @@ categories:
 [博客园:细说document.ready和window.onload](https://www.cnblogs.com/shcrk/p/9256308.html)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/onload-ready.html" />

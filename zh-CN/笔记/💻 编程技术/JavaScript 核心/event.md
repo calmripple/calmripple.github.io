@@ -41,4 +41,4 @@ categories:
 * 节省内存,不需要给每个子节点注册一次
 * 不需要给子节点注销事件
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/event.html" />

@@ -532,4 +532,4 @@ new libName()
 
 >文中所涉及[源码仓库](https://github.com/ATQQ/web-lib-template)地址：https://github.com/ATQQ/web-lib-template
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/tpl/web-sdk-tpl.html" />

@@ -38,3 +38,4 @@ categories:
 ## 解决办法
 只要打破四个必要条件之一就能有效预防死锁的发生
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/os/deadlock.html" />

@@ -223,4 +223,4 @@ function getAllTextEls() {
 
 [完整源码地址](https://github.com/ATQQ/demos/blob/main/test-script/index.js)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/js-cover.html" />

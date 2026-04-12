@@ -47,4 +47,4 @@ categories:
 
 当下，`JavaScript` 已经成为了前端开发的标配，并且随着 `Node.js` 的出现，`JavaScript` 也逐渐成为了全栈开发的标配，希望本教程能够帮助读者更好地理解和掌握全栈开发所需的 `Node.js` 相关的基础技术，从而更好地完成实际开发工作。
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/nodejs-getting-started.html" />

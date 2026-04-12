@@ -222,4 +222,4 @@ UPYUN_SCOPE=default
 
 大家有其它可白嫖的图床也可推荐推荐一下。
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/upyun.html" />

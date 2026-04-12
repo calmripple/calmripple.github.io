@@ -82,4 +82,4 @@ document.onscroll = throttle(loadImg, 200)
 
 [CodePen:示例](https://codepen.io/sugarInSoup/pen/WNvZEap)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/performance/lazyLoad.html" />

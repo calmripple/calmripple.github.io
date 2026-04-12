@@ -57,3 +57,4 @@ title: AI 绘画工作流工具和相关 SOTA
 - [ComfyUI投屏威力无穷！sdxl—turbo模型一步采样，软件图像轻松驾驭，绘画天才即刻唤醒，全球震撼的艺术革命，你准备好了吗？- 哔哩哔哩 bilibili](https://www.bilibili.com/video/BV15H4y117m4/)
 - [Krita+ComfyUI+LCM震撼登场，绘画界霸主崛起！瞬间秒杀一切平庸，引爆创意狂潮！- 哔哩哔哩 bilibili](https://www.bilibili.com/video/BV1au4y1P7ZS)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/AI%20%E7%BB%98%E7%94%BB%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%B7%A5%E5%85%B7%E5%92%8C%E7%9B%B8%E5%85%B3%20SOTA.html" />

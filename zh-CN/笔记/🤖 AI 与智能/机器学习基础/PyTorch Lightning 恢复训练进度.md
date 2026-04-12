@@ -68,3 +68,4 @@ torchrun main.py
 - [easyckpt的技术原理和使用方法_人工智能平台 PAI(PAI)-阿里云帮助中心](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
 - [Pytorch模型resume training，加载模型基础上继续训练 - 知乎](https://zhuanlan.zhihu.com/p/159068033)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/PyTorch%20Lightning%20%E6%81%A2%E5%A4%8D%E8%AE%AD%E7%BB%83%E8%BF%9B%E5%BA%A6.html" />

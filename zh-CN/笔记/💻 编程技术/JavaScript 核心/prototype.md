@@ -118,5 +118,4 @@ console.log(Object.prototype.__proto__ === null) // true
 [JavaScript深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
 :::
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/prototype.html" />

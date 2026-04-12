@@ -26,3 +26,4 @@ title: Figma 设计软件
 
 [Figma 官方文档中文版](https://www.figma.cool/official-docs)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%92%BE%20%E8%BD%AF%E4%BB%B6/Figma%20%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6.html" />

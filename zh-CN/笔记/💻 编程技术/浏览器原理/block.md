@@ -303,3 +303,4 @@ console.log('render success')
 * [developers-关键路径渲染](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css)
 :::
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/browser/block.html" />

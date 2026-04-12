@@ -57,3 +57,4 @@ ESC
 
 ④ 重启终端
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/nvm-ls-remote.html" />

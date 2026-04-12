@@ -37,4 +37,4 @@ TCP 基本是和 UDP 是相反的 **(客户端A,服务端B)**
 * 在传输数据的过程中，通过各种算法保证数据的可靠性
 * 相比 UDP 来说不那么的高效。
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/Internet/tcp-udp.html" />

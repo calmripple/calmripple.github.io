@@ -39,4 +39,4 @@ history采用HTML5的新特性,且提供了两个新方法:`pushState()`,`replac
 [简书:vue路由的两种模式，hash与history原理](https://www.jianshu.com/p/e8bffc26293f)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/vue/routing.html" />

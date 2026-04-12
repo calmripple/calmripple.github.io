@@ -35,4 +35,4 @@ selector::pseudo-element {
 
 其它更多的伪元素 [MDN:CSS伪元素](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/css/pseudo-element.html" />

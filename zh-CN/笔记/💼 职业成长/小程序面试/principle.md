@@ -46,4 +46,4 @@ categories:
 [博客园:小程序工作原理浅析](https://www.cnblogs.com/SophiaLees/p/11409339.html)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/mini/principle.html" />

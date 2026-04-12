@@ -39,4 +39,4 @@ categories:
 2.[MDN:CSS伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)<br>
 3.[MDN:CSS伪元素](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/css/selectors.html" />

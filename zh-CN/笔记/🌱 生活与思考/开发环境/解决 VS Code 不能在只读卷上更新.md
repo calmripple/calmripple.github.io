@@ -32,3 +32,4 @@ xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
 **然后彻底关闭 VS Code 后重新打开即可解决问题。**
 
+<Citation type="转载" source="Nólëbase" url="https://github.com/nolebase/nolebase" />

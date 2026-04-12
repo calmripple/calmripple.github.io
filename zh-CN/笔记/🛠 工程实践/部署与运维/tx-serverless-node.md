@@ -499,4 +499,4 @@ sls deploy
 * 补全koa项目的部署
 * 探究一下终端如何展示二维码的，展示图片的可能性
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/tx-serverless-node.html" />

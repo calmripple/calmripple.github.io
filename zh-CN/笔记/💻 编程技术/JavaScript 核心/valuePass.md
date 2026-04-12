@@ -62,4 +62,4 @@ console.log(obj) // {a:1}
 * 引用类型按**共享传递**
 * 拷贝副本也是一种值的拷贝
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/valuePass.html" />

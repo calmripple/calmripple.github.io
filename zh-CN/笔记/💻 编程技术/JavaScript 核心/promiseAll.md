@@ -75,4 +75,4 @@ PromiseAll([p1, p2, p3]).then(console.log).catch(console.error)
 // [1000,3000,2000]
 ```
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/coding/js/promiseAll.html" />

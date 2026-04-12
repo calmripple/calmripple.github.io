@@ -62,4 +62,4 @@ categories:
 ## TODO
 吸收知识后补充上述内容的示例
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/design-patterns0.html" />

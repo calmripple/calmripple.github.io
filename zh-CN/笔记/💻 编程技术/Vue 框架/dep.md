@@ -111,4 +111,4 @@ app._data.friends.name1 = 2 // 更新视图
 app._data.friends.name2 = 3
 ```
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/vue/dep.html" />

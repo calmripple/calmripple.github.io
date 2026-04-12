@@ -134,4 +134,4 @@ Function.prototype.mybind = function (thisArg) {
 test.mybind('123', 4, 5)() // [String: '123'] 9
 ```
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/apply.html" />

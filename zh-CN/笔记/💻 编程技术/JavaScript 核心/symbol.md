@@ -144,4 +144,4 @@ console.log(u1.age) // undefined
 u1.printAge() // 18
 ```
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/symbol.html" />

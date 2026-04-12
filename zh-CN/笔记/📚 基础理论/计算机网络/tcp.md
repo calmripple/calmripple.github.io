@@ -120,5 +120,4 @@ TCP 是全双工的，在断开连接时两端都需要发送 FIN 和 ACK。
 [网络-TCP](https://yuchengkai.cn/docs/cs/#tcp)
 :::
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/Internet/tcp.html" />

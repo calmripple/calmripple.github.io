@@ -121,4 +121,4 @@ a = null
 [前端面试：谈谈 JS 垃圾回收机制](https://segmentfault.com/a/1190000018605776?utm_source=tag-newest#item-1)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/garbage.html" />

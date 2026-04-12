@@ -382,4 +382,4 @@ export function formatCSS(css: string) {
 
 ![图片](./assets/codeNote-004.png)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/works/codeNote.html" />

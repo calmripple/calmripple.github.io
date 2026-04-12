@@ -19,3 +19,4 @@ categories:
 * 函数传参是传递对象指针的副本
 * 在函数内部改变对象的属性会影响原来的值
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/other/object.html" />

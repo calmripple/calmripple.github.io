@@ -300,4 +300,4 @@ hello world
 * [TypeScript-decorators](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
 * [core-decorators源码](https://github.com/jayphelps/core-decorators)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/ts-decorators.html" />

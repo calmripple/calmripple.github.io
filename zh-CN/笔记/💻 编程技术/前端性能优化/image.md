@@ -128,4 +128,4 @@ Base64 编码后，图片大小会膨胀为原文件的 4/3
 * 兼容性差
 * 编码同样质量的 WebP 文件会占用更多的计算资源
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/performance/image.html" />

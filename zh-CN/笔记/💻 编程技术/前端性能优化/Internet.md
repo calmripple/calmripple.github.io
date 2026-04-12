@@ -100,4 +100,4 @@ accept-encoding:gzip
 ```
 压缩后通常能帮我们减少响应 70% 左右的大小
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/performance/Internet.html" />

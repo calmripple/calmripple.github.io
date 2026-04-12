@@ -373,5 +373,4 @@ false - []
 [freeCodeCamp-Javascript 隐式类型转换，一篇就够了](https://chinese.freecodecamp.org/news/javascript-implicit-type-conversion/)
 :::
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/typeConvert.html" />

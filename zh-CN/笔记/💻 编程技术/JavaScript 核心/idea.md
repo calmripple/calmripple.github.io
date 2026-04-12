@@ -40,4 +40,4 @@ sticky: 10
 
 ## 杂七杂八
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/idea.html" />

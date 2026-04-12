@@ -102,4 +102,4 @@ pnpm env use --global 16
 
 ![](./nvm-iterm-004.png)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/node/nvm-iterm.html" />

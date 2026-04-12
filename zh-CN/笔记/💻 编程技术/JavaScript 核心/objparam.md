@@ -24,4 +24,4 @@ categories:
 * 引用类型按共享传递
 * 拷贝副本也是一种值的拷贝
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/objparam.html" />

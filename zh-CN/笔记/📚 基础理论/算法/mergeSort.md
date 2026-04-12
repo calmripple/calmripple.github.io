@@ -81,3 +81,4 @@ function merge(left, right) {
 //TODO： ... 未完待续
 ```
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/coding/algorithm/mergeSort.html" />

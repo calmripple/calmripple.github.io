@@ -31,4 +31,4 @@ function isObject(obj) {
 * constructor
 * Object.prototype.toString.call
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/judgeObj.html" />

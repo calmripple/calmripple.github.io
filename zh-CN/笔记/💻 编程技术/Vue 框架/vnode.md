@@ -120,4 +120,4 @@ function cloneVNode(node){
 * VNode 就是一个 JavaScript 对象,用 JavaScript 对象的属性来描述当前节点的一些状态
 * 用 VNode 节点的形式来模拟一棵 Virtual DOM 树
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/vue/vnode.html" />

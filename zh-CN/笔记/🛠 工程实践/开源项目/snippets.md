@@ -109,4 +109,4 @@ tips：编写完新的代码块，如需立即生效，需手动执行 SP Refres
 * [插件源码](https://github.com/ATQQ/ShareSnippet)
 * [插件体验](https://marketplace.visualstudio.com/items?itemName=sugar.snippet)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/works/snippets.html" />

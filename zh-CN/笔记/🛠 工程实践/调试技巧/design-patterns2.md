@@ -254,4 +254,4 @@ r.hello3('456')
 ### 参考
 * [TypeScript-decorators](https://www.typescriptlang.org/docs/handbook/decorators.html#parameter-decorators)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/design-patterns2.html" />

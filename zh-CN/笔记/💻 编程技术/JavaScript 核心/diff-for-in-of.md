@@ -62,6 +62,6 @@ for (const k in data) {
 * 不可遍历Symbol属性
 * 为普通对象设计的，遍历顺序是任意的,数组索引顺序很重要,不适用于数组遍历
 * 遍历出来的key是string类型
-* 可以遍历到原型上的属性 
+* 可以遍历到原型上的属性
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/diff-for-in-of.html" />

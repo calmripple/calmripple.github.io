@@ -200,6 +200,4 @@ const touchHandle = function(e) {
   * ![图片](./fixed-page-002.png)
 * [demo源码地址](https://stackblitz.com/edit/vitejs-vite-xgqbt6?file=src%2Fmain.ts&terminal=dev)
 
-
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/fixed-page.html" />

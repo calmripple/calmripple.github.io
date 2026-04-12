@@ -152,4 +152,4 @@ console.log(resetChalkStr(`${chalk.green('green')} ${chalk.greenBright('greenBri
 
 解决了一个`chalk`相关的问题“还原终端中的彩色内容”
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/ux.html" />

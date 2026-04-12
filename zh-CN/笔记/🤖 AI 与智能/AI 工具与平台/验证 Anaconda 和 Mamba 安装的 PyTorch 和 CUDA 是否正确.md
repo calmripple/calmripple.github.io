@@ -81,4 +81,4 @@ Build cuda_11.6.r11.6/compiler.30794723_0
 >>> torch.utils.cpp_extension.CUDA_HOME
 ```
 
-
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E9%AA%8C%E8%AF%81%20Anaconda%20%E5%92%8C%20Mamba%20%E5%AE%89%E8%A3%85%E7%9A%84%20PyTorch%20%E5%92%8C%20CUDA%20%E6%98%AF%E5%90%A6%E6%AD%A3%E7%A1%AE.html" />

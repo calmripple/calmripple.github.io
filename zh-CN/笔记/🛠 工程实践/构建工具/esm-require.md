@@ -149,5 +149,4 @@ const resolveAlias = {
 
 综上，在 ESM 中也是可以优雅的使用CJS里的`require`, `__dirname`, `__filename` 的
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/esm-require.html" />

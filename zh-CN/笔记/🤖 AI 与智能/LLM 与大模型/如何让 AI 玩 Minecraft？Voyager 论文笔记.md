@@ -93,3 +93,4 @@ title: 如何让 AI 玩 Minecraft？Voyager 论文笔记
 
 - [MineDojo/MineCLIP: Foundation Model for MineDojo](https://github.com/MineDojo/MineCLIP)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%A6%82%E4%BD%95%E8%AE%A9%20AI%20%E7%8E%A9%20Minecraft%EF%BC%9FVoyager%20%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0.html" />

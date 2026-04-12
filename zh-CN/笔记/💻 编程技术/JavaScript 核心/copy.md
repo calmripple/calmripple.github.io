@@ -122,4 +122,4 @@ function deepClone1(obj) {
 
 戳→ [实现深拷贝](./../../coding/js/deepClone.md) ←文章
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/copy.html" />

@@ -20,3 +20,4 @@ categories:
 * 所有的线程共享进程的内存地址空间
 * 线程间的通信可以通过共享进程级全局变量
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/os/thread.html" />

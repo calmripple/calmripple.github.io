@@ -322,4 +322,4 @@ ok 1 - /home/evert/src/changelog-tool/test/parse.mjs
 
 *最后一句话确实挺值得思考的，现在好像无论做什么项目，都想先找个模板然后才开始🤔*
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/node/standard-node-cli.html" />

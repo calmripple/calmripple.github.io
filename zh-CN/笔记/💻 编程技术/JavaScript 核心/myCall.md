@@ -51,3 +51,4 @@ print(1, 2) // undefined 3
 print.mycall({ name: 'print' }, 6, 5) // print 11
 ```
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/coding/js/myCall.html" />

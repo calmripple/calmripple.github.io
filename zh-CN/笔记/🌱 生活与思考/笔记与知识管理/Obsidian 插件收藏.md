@@ -129,3 +129,4 @@ GitHub 仓库地址： [https://github.com/blacksmithgu/obsidian-dataview](https
 项目介绍：An Obsidian plugin for displaying markdown notes as mind maps using Markmap.
 GitHub 仓库地址：[https://github.com/lynchjames/obsidian-mind-map](https://github.com/lynchjames/obsidian-mind-map)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%92%BE%20%E8%BD%AF%EF%BF%BD%EF%BF%BD%EF%BF%BD/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/Obsidian%20%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F.html" />

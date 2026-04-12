@@ -24,4 +24,4 @@ keep-alive 组件拥有两个独有的生命周期钩子函数:
 ## 示例
 [CodePen:动态组件](https://codepen.io/sugarInSoup/pen/mdJpeqB)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/vue/keep-alive.html" />

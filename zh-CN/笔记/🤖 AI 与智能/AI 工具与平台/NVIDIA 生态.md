@@ -45,3 +45,4 @@ https://catalog.ngc.nvidia.com/containers
 python - Is it still necessary to install CUDA before using the conda tensorflow-gpu package? - Stack Overflow
 https://stackoverflow.com/questions/61533291/is-it-still-necessary-to-install-cuda-before-using-the-conda-tensorflow-gpu-pack
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/NVIDIA%20%E7%94%9F%E6%80%81.html" />

@@ -46,4 +46,4 @@ categories:
 2. 转向进程调度
 3. 恢复待运行进程的上下文
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/os/process.html" />

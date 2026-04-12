@@ -208,4 +208,4 @@ export default{
 ## 示例
 [CodePen:示例](https://codepen.io/sugarInSoup/pen/wvapBYB)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/vue/communicate.html" />

@@ -345,5 +345,4 @@ module.exports = {
 * 这部分源码还是不复杂，有很多可借鉴的写法
 * 如果自己的node项目需要读取环境变量文件，可以根据此配置做迁移
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/source/vite-loadEnv.html" />

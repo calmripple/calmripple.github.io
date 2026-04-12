@@ -78,4 +78,4 @@ console.log(a.name) // undefined
 [MDN-delete](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/delete)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/delete.html" />

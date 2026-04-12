@@ -224,5 +224,4 @@ tips: 默认打开Command会有一个 `>` 记得先删除
 
 这个用来写 **一键评教** 脚本贼方便
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/chrome-debug1.html" />

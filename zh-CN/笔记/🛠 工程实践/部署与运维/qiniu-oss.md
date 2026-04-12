@@ -370,4 +370,4 @@ function checkFopTaskStatus(persistentId){
 ## 参考
 * [七牛云-Node.js SDK](https://developer.qiniu.com/kodo/1289/nodejs)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/qiniu-oss.html" />

@@ -20,4 +20,4 @@ categories:
 [js类型判断](./../../bigWeb/js/p4.md)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/typeof.html" />

@@ -45,4 +45,4 @@ true == 'true'
 [JS中的类型转换](./../../bigWeb/js/typeConvert.md)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/equal.html" />

@@ -182,4 +182,4 @@ var foo = 1;
 [JavaScript深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/variableObject.html" />

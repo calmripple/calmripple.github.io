@@ -37,4 +37,4 @@ efst https://updates.tdesktop.com/tmac/tsetup.4.5.3.dmg -o -p http://127.0.0.1:7
 
 ![图片](./assets/http-proxy-fail-003.png)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/http-proxy-fail.html" />

@@ -369,5 +369,4 @@ process.nextTick(() => {
 [彻底弄得Event Loop](https://segmentfault.com/a/1190000016278115)
 :::
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/browser/eventloop.html" />

@@ -199,4 +199,4 @@ UPNG.encode
 ## 最后
 后续将继续学习&探索一下其它格式的**纯前端压缩实现**（JPG，GIF，MP4转GIF）。
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/png-compress.html" />

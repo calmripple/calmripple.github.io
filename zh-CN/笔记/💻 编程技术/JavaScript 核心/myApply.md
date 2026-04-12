@@ -50,3 +50,4 @@ print.myapply(null, [1, 2]) // undefined 3
 print.myapply({ name: 'test' }, [1, 2]) // test 3
 ```
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/coding/js/myApply.html" />

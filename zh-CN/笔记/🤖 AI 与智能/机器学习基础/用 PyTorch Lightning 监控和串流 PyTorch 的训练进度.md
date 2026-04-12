@@ -501,4 +501,4 @@ spec:
 - [Pytorch Lightning 和 HuggingFace 的 Trainer 哪个好用？ - 知乎](https://www.zhihu.com/question/521501258)
 - [Tensorboard incorrect logging with DataParallel training · Issue #9839 · Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning/issues/9839)
 
-
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E7%94%A8%20PyTorch%20Lightning%20%E7%9B%91%E6%8E%A7%E5%92%8C%E4%B8%B2%E6%B5%81%20PyTorch%20%E7%9A%84%E8%AE%AD%E7%BB%83%E8%BF%9B%E5%BA%A6.html" />

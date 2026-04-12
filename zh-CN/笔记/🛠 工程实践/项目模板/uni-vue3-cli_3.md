@@ -147,4 +147,4 @@ module.exports = {
 * [PostCSS 7 compatibility build](https://tailwindcss.com/docs/installation#post-css-7-compatibility-build)
 * [uni-app 使用 tailwindcss](https://wyz.xyz/d/150-uni-app-tailwindcss)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/tpl/uni-vue3-cli_3.html" />

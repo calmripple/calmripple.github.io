@@ -540,5 +540,4 @@ CLI
 * [kaifu](https://www.npmjs.com/package/kaifu)
 * [@hl-cli/restore-code](https://www.npmjs.com/package/@hl-cli/restore-code)
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/works/sm-cli.html" />

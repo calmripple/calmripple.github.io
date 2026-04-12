@@ -27,3 +27,4 @@ categories:
 * 同一作用域中var允许重复声明,let,const不可以
 * const 声明必须赋初值,且声明后不能改变
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/other/promote.html" />

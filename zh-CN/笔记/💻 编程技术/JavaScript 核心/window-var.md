@@ -165,3 +165,4 @@ function patchWindowFun(
 
 如果业务代码依赖方法的返回值，那么异步通过`script`加载的方法方式将不太适用
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/window-var.html" />

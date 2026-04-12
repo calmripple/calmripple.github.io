@@ -430,5 +430,4 @@ ijs transform __test__/test.html --minify
 
 如内容有误还请评论区斧正，读者有其它💡想法可评论&私信交流探讨。
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/works/html-inline-js-transform.html" />

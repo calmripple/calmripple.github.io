@@ -158,4 +158,4 @@ download('./file-saver-source/MTYyMzA3NjA4NDQ4NA==desktop.jpg?s1=https%3A//img.c
 
 偶尔遇到一些工具库，源代码不多的话，可以花些时间看看，精炼精炼，然后变成自己的东西
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/source/file-saver-source.html" />

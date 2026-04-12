@@ -211,4 +211,4 @@ DPM++ SDE Karras
 
 ![](./assets/mac-install-026.png)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/ai/stable-diffusion/mac-install.html" />

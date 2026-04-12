@@ -435,4 +435,4 @@ JS创建对象的方式就是原型引用：
 * [模拟new实现](./../../coding/js/myNew.md)
 * [原型与原型链](./../../bigWeb/js/prototype.md)
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/study/design-patterns1.html" />

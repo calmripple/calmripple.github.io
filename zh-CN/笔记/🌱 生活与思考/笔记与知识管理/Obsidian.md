@@ -14,3 +14,4 @@ categories:
 
 [^1]: 节选自 [Obsidian - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/zh-cn/obsidian)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%92%BE%20%E8%BD%AF%E4%BB%B6/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/Obsidian.html" />

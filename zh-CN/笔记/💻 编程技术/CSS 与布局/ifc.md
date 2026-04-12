@@ -18,3 +18,4 @@ categories:
 
 IFC(inline formatting content)内联格式化上下文
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/css/ifc.html" />

@@ -378,4 +378,4 @@ $$
 
 就保留主要样本数据来看，该过程跟PCA( principal component analysis)技术有一些联系，PCA也使用了SVD去检测数据间依赖和冗余信息.
 
-
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9F%A5%E8%AF%86%E7%82%B9/SVD%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3%E5%8F%8A%E5%85%B6%E6%84%8F%E4%B9%89.html" />

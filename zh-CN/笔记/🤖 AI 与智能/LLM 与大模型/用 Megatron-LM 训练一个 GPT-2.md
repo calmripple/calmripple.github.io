@@ -1751,3 +1751,4 @@ saving checkpoint at iteration       4 to ./checkpoints/gpt-2
 
 [如何训练 GPT-2 模型并生成文本 云服务器 ECS（ECS） - 阿里云帮助中心](https://help.aliyun.com/zh/ecs/use-cases/use-the-megatron-deepspeed-training-gpt-2-and-generate-text)
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E7%94%A8%20Megatron-LM%20%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AA%20GPT-2.html" />

@@ -30,4 +30,4 @@ categories:
 [简书:用了这么久HTTP, 你是否了解Content-Length?](https://www.jianshu.com/p/ea12be063b2e)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/Internet/clength.html" />

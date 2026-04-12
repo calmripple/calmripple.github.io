@@ -34,3 +34,4 @@ BFC规范(块级格式化上下文：block formatting context)
 * display的值**为**inline-block、table-cell、table-caption
 * position的值为absolute或fixed
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/css/bfc.html" />

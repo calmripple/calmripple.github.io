@@ -63,5 +63,4 @@ UDP 头部包含了:
 [网络-UDP](https://yuchengkai.cn/docs/cs/#udp)
 :::
 
-
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/Internet/udp.html" />

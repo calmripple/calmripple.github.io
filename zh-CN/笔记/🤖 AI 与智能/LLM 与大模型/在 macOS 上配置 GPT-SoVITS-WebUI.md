@@ -74,3 +74,4 @@ https://www.bilibili.com/video/BV1P541117yn
 https://www.bilibili.com/video/BV12g4y1m7Uw
 https://www.bilibili.com/video/BV1QY4y1n7h1
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E9%A2%86%E5%9F%9F/%E9%9F%B3%E9%A2%91/%E5%9C%A8%20macOS%20%E4%B8%8A%E9%85%8D%E7%BD%AE%20GPT-SoVITS-WebUI.html" />

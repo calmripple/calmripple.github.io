@@ -50,3 +50,4 @@ categories:
 * 多个线程共享内存，从而极大地提高了程序的运行效率
 * 进程在执行过程中拥有独立的内存单元
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/computerBase/os/difprothr.html" />

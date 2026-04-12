@@ -195,4 +195,4 @@ git push
 
 ![](https://cdn.upyun.sugarat.top/mdImg/sugar/c37c9ca0f405eb1d0646a4753e37bbfc)
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/ai/doubao/marscode-cn.html" />

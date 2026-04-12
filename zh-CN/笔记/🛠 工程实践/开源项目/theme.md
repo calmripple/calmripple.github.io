@@ -128,4 +128,4 @@ pnpm dev
 * 主题包：[@sugarat/theme](https://www.npmjs.com/package/@sugarat/theme)
 * 项目地址：https://github.com/ripplejourney/ripplejourney.github.io/tree/master/packages/theme
 
-<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top" />
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/works/theme.html" />

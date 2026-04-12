@@ -234,4 +234,4 @@ Test set: Average loss: 0.0381, Accuracy: 9869/10000 (99%)
 
 ![](./assets/1-cong-yong-p-y-t-o-r-c-h-yun-xing-yi-ge-mo-xing-xun-lian-kai-shi-005.png)
 
-
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85/1%20%E4%BB%8E%E7%94%A8%20PyTorch%20%E8%BF%90%E8%A1%8C%E4%B8%80%E4%B8%AA%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E5%BC%80%E5%A7%8B.html" />

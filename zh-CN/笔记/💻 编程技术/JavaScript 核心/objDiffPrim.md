@@ -24,4 +24,4 @@ console.log(o1.a) // 2
 ## 原始值
 1. 赋值的时候拷贝的一个新的值,不会影响原来的
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/objDiffPrim.html" />

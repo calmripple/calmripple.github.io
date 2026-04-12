@@ -66,3 +66,4 @@ console.log(otherToTen('1001011', 2)) // 75
 console.log(tenToOther('9999', 16)) // 270f
 ```
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/code/transfer.html" />

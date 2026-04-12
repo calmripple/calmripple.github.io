@@ -116,4 +116,4 @@ console.log(foo(1,2)) // 3
 [JavaScript深入之类数组对象与arguments](https://github.com/mqyqingfeng/Blog/issues/14)
 :::
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/js/likearray.html" />

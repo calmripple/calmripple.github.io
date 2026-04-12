@@ -120,4 +120,4 @@ export function copyRes(text) {
 
 <codepen src="https://codepen.io/sugarInSoup/embed/rNjZzLx?height=265&theme-id=dark&default-tab=js,result"></codepen>
 
-
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/technology/learn/tool-methods.html" />

@@ -98,3 +98,4 @@ DOM 是属于**渲染引擎**中的东西，而 JS 又是 **JS 引擎**中的。
 ## 11.有哪些方式可以解决跨域问题
 ## 12.什么是预检请求
 
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/bigWeb/browser/problem.html" />

@@ -62,3 +62,4 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'yaml'
 ```
 
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%BF%AB%E9%80%9F%E5%9C%A8%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C%E4%B8%80%E4%B8%AA%20XAgent%20%E5%B0%9D%E9%B2%9C%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%92%8C%E6%99%BA%E8%83%BD%E5%8C%96%E7%9A%84%20Agent%20%E6%99%BA%E8%83%BD%E4%BD%93.html" />
