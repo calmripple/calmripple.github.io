@@ -25,7 +25,7 @@ categories:
 
 可以理解是 `对话机器人` 定制工厂。
 
-![](./assets/JuejinHotRankBot_003.png)
+![](./assets/JuejinHotRankBot_002.png)
 
 `Coze` 上开放的定制能力主要有 4 个`Bots`，`插件`，`工作流`，`知识库`。
 
@@ -43,7 +43,7 @@ categories:
 ### 创建插件
 切换到 `个人空间` -> `插件` 目录下，点击创建插件。
 
-![](./assets/JuejinHotRankBot_006.png)
+![](./assets/JuejinHotRankBot_005.png)
 
 录入 API 信息
 
@@ -57,7 +57,7 @@ categories:
 
 由此咱们可以把一些开放的公共查询接口都可以录入到插件中，比如 [API Hub](https://apifox.com/apihub/) 上收集的公共API。
 
-![](./assets/JuejinHotRankBot_008.png)
+![](./assets/JuejinHotRankBot_007.png)
 
 这里的 `api.juejin.cn` 就是我在 devTools 中看到（ba）的🤭。
 
@@ -76,7 +76,7 @@ categories:
 下面是配置过程截图
 |                                   输入参数                                    |                           输出参数（支持自动解析）                            |                                   调试校验                                    |
 | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-| ![](./assets/JuejinHotRankBot_011.png) | ![](./assets/JuejinHotRankBot_012.png) | ![](./assets/JuejinHotRankBot_013.png) |
+| ![](./assets/JuejinHotRankBot_010.png) | ![](./assets/JuejinHotRankBot_012.png) | ![](./assets/JuejinHotRankBot_012.png) |
 
 ### 发布
 
