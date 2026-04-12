@@ -29,7 +29,7 @@
 本项目英文名为 knewbing，中文名为「知在」。
 
 > [!NOTE]
-> 当前项目由 knewbeing（钮必赢）维护。当前仓库为 https://github.com/knewbeing/nolebase。
+> 当前项目由 knewbeing（钮必赢）维护。当前仓库为 https://github.com/calmripple/calmripple.github.io。
 >
 > 历史仓库：https://github.com/calmripple/calmripple.github.io
 >

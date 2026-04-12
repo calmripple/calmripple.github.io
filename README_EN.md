@@ -29,7 +29,7 @@
 The English name of this project is knewbing, and its Chinese name is "知在".
 
 > [!NOTE]
-> The current project is maintained by knewbeing (钮必赢). The current repository is https://github.com/knewbeing/nolebase.
+> The current project is maintained by knewbeing (钮必赢). The current repository is https://github.com/calmripple/calmripple.github.io.
 >
 > Legacy repository: https://github.com/calmripple/calmripple.github.io
 >

@@ -225,6 +225,6 @@ MIT
 
 ## 相关链接
 
-- [项目仓库](https://github.com/knewbeing/nolebase)
+- [项目仓库](https://github.com/calmripple/calmripple.github.io)
 - [VitePress 官方文档](https://vitepress.dev)
 - [Nolebase 集成文档](https://nolebase.vercel.app)

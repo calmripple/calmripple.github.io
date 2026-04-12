@@ -10,7 +10,7 @@ export const siteDescription = '参与并理解世界'
 export const include = ['笔记', '生活']
 
 /** Repo */
-export const githubRepoLink = 'https://github.com/knewbeing/nolebase'
+export const githubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
 /** 历史仓库 */
 export const legacyGithubRepoLink = 'https://github.com/calmripple/calmripple.github.io'
 /** Mastodon */
