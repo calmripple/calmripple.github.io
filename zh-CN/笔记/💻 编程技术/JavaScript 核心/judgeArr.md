@@ -1,0 +1,50 @@
+---
+isTimeLine: true
+title: 如何判断数组
+date: 2020-09-05T00:00:00.000Z
+tags:
+  - 前端
+  - JavaScript
+categories:
+  - 大前端
+  - JavaScript
+---
+# 如何判断数组
+## 1.Array.isArray
+```js
+console.log(Array.isArray([])) // true
+```
+## 2.instanceof
+```js
+console.log([] instanceof Array)
+```
+## 3.constructor
+```js
+function isArray(arr) {
+    if (!(arr instanceof Object)) {
+        return false
+    }
+    return arr.constructor === Array
+}
+console.log(isArray([]))
+```
+## 4.Object.prototype.toString
+```js
+function isArray(arr) {
+    return Object.prototype.toString.call(arr) === '[object Array]'
+}
+console.log(isArray([]))
+```
+## 5.正则+JSON.stringify
+```js
+function isArray(arr) {
+    try {
+        return /^\[.*\]$/.test(JSON.stringify(arr))
+    } catch (err) {
+        return false
+    }
+}
+console.log(isArray([]))
+```
+
+<Citation type="转载" source="粥里有勺糖的博客" url="https://sugarat.top/interview/js/judgeArr.html" />

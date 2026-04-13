@@ -1,0 +1,54 @@
+name: Welcome New Contributors
+
+on:
+  # 仅在新建 issue/PR 时发送欢迎消息。
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  # 需要 issue 与 PR 的评论写权限。
+  issues: write
+  pull-requests: write
+jobs:
+  post_welcome_messages:
+    name: Post Welcome Messages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome Issue
+        id: welcome_issue_author
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.issue;
+            const repo = context.repo;
+            const issueAuthor = context.payload.sender.login;
+            const welcomeMessage = `
+              Hi @${issueAuthor}! :wave:
+              Thank you for creating an issue in our repository! We appreciate your contribution and will get back to you as soon as possible.
+            `;
+            github.rest.issues.createComment({
+              ...repo,
+              issue_number: issue.number,
+              body: welcomeMessage
+            });
+      - name: Welcome Pull Request
+        id: welcome_pr_author
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.issue;
+            const repo = context.repo;
+            const prAuthor = context.payload.sender.login;
+            const welcomeMessage = `
+              Hi @${prAuthor}! :wave:
+              Thank you for submitting a pull request! We appreciate your contribution and will review your changes as soon as possible.
+            `;
+            github.rest.issues.createComment({
+              ...repo,
+              issue_number: pr.number,
+              body: welcomeMessage
+            });

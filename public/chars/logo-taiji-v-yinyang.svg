@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+  <g transform="rotate(180 100 100)">
+    <!-- 灰色部分 -->
+    <path d="
+    M 100,0
+    A 100,100 0 0 0 100,200
+    A 50,50 0 0 1 100,100
+    A 50,50 0 0 0 100,0
+    Z" fill="#000000" />
+
+    <!-- 白色部分 -->
+    <path d="
+    M 100,200
+    A 100,100 0 0 0 100,0
+    A 50,50 0 0 1 100,100
+    A 50,50 0 0 0 100,200
+    Z" fill="#ffffff" />
+  </g>
+
+  <defs>
+    <circle id="c1" r="15" fill-opacity="1" />
+  </defs>
+  <use href="#c1" fill="#ffffff" x="100" y="150" />
+  <use href="#c1" fill="#000000" x="100" y="50" />
+  <!-- 外圈 -->
+  <circle cx="100" cy="100" r="100" fill="none" stroke="#000000" stroke-width="0.5" />
+</svg>

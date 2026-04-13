@@ -1,0 +1,97 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy Pages Via GitHub Actions
+
+on:
+  # 在默认分支推送时触发。
+  push:
+    branches:
+      - main
+      - master
+
+  # pull_request:
+  #   branches: [main, master]
+  #   types: [closed]
+
+  # 允许在 Actions 页面手动触发。
+  workflow_dispatch:
+
+# 配置 GITHUB_TOKEN 权限以支持 GitHub Pages 部署。
+permissions:
+  # GitHub Pages 部署流程所需权限。
+  contents: read
+  pages: write
+  id-token: write
+env:
+  MAIN_BRANCH: ${{ vars.MAIN_BRANCH || github.event.repository.default_branch }} # 主分支名称
+  PRODUCT_BASE_URL: ${{ vars.PRODUCT_BASE_URL || 'https://www.dmsrs.org' }}
+# 生产部署串行执行，避免部署互相覆盖。
+# 不取消进行中的发布，确保当前生产发布可以完整结束。
+concurrency:
+  group: pages-deployment
+  # 保留正在进行的生产部署；新任务排队等待而不是中断。
+  cancel-in-progress: false
+
+jobs:
+  deploy_pages:
+    name: Build And Deploy Pages
+    # 从默认分支构建站点并发布到 GitHub Pages 环境。
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy_to_pages.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        id: checkout_source
+        uses: actions/checkout@v6.0.1 # v4
+        with:
+          # 默认只拉取分支最近一次的 commit，可能会导致一些文章的 GitInfo 变量无法获取，设为 0 代表拉取所有分支所有提交
+          fetch-depth: 0
+      - name: Git Configuration
+        id: configure_git
+        # 2、配置 Git
+        run: |
+          git config --global core.quotePath false
+          git config --global core.autocrlf false
+          git config --global core.safecrlf true
+          git config --global core.ignorecase false
+
+      - name: Setup PNPM
+        id: setup_pnpm
+        # 3、安装 PNPM
+        uses: pnpm/action-setup@v4.2.0
+        with:
+          version: 10
+
+      - name: Setup Node
+        id: setup_node
+        # 4、安装 Node 环境
+        uses: actions/setup-node@v6.1.0 # v4.4.0
+        with:
+          node-version: lts/*
+          registry-url: https://registry.npmjs.org
+          cache: pnpm
+
+      - name: Install Dependencies & Build
+        id: build_site
+        env:
+          RELATIVE_URL: ''
+          BASE_URL: ${{ env.PRODUCT_BASE_URL }}
+        run: |
+          pnpm install --no-frozen-lockfile --unsafe-perm
+          pnpm build
+
+      - name: Setup Pages
+        id: setup_pages
+        uses: actions/configure-pages@v5.0.0 # v5
+
+      - name: Upload artifact
+        id: upload_pages_artifact
+        uses: actions/upload-pages-artifact@v4.0.0 # v3
+        with:
+          # Upload entire repository
+          path: .vitepress/dist
+
+      - name: Deploy to GitHub Pages
+        id: deploy_to_pages
+        uses: actions/deploy-pages@v4.0.5

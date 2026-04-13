@@ -1,0 +1,48 @@
+---
+tags:
+  - AI
+  - 人工智能
+categories:
+  - AI 人工智能
+title: NVIDIA 生态
+---
+# NVIDIA 生态
+
+- CUDA
+- CUBLAS runtime
+- The CUDA runtime library
+- CUFFT runtime
+- CUrand runtime
+- CUsparse rutime
+- CUsolver runtime
+- NPP runtime
+- nvblas runtime
+- NVTX runtime
+- NVgraph runtime
+- NVjpeg runtime
+- NVRTC/NVVM runtime
+- [cuDNN (CUDA Deep Neural Network)](https://developer.nvidia.com/cudnn)
+- nvcc
+- [cuda-toolkit](https://anaconda.org/nvidia/cuda-toolkit)
+- [cudnn-frontend](https://github.com/NVIDIA/cudnn-frontend)
+- [anaconda](https://anaconda.org/)
+- [Megatron](https://github.com/NVIDIA/Megatron-LM)
+[NeMo](https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/nlp/megatron.html)
+- [TransformerEngine](https://docs.nvidia.com/deeplearning/transformer-engine) [Repo](https://github.com/NVIDIA/TransformerEngine)
+- [NVIDIA/NVTX](https://github.com/NVIDIA/NVTX) The NVIDIA® Tools Extension SDK (NVTX) is a C-based Application Programming Interface (API) for annotating events, code ranges, and resources in your applications.
+- [Triton](https://github.com/triton-inference-server/server)
+- nvml
+- nccl
+- dcgm
+- [Nsight](https://developer.nvidia.com/nsight-systems)
+
+## ngc
+Data Science, Machine Learning, AI, HPC Containers | NVIDIA NGC
+https://catalog.ngc.nvidia.com/containers
+
+## 参考资料
+
+python - Is it still necessary to install CUDA before using the conda tensorflow-gpu package? - Stack Overflow
+https://stackoverflow.com/questions/61533291/is-it-still-necessary-to-install-cuda-before-using-the-conda-tensorflow-gpu-pack
+
+<Citation type="转载" source="Nólëbase" url="https://nolebase.ayaka.io/zh-CN/%E7%AC%94%E8%AE%B0/%F0%9F%A4%96%20AI%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/NVIDIA%20%E7%94%9F%E6%80%81.html" />

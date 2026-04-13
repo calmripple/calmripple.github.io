@@ -1,0 +1,116 @@
+{
+  "cSpell.words": [
+    "antfu",
+    "Attributify",
+    "giscus",
+    "Gitcus",
+    "headlessui",
+    "hedgedoc",
+    "iconify",
+    "mambaforge",
+    "mathjax",
+    "miniforge",
+    "nolebase",
+    "octicon",
+    "pipenv",
+    "pixi",
+    "unlazy",
+    "unocss",
+    "unplugin",
+    "vitepress",
+    "vuedraggable",
+    "vueuse",
+    "xlink"
+  ],
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  // Enable the ESlint flat config support
+  "eslint.useFlatConfig": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": ".",
+      "changeProcessCWD": true
+    }
+  ],
+  // The following is optional.
+  // It's better to put under project setting `.vscode/settings.json`
+  // to avoid conflicts with working with different eslint configs
+  // that does not support all formats.
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "unocss.root": [
+    "."
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    ".vitepress\\cache/*.*": true,
+    "**/cache": true
+  },
+  "explorerExclude.backup": {},
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "svg.preview.background": "transparent",
+  "github.copilot.chat.agent.autoFix": true,
+  "github.copilot.chat.newWorkspaceCreation.enabled": false,
+  "github.copilot.chat.reviewAgent.enabled": true,
+  "github.copilot.chat.reviewSelection.enabled": true,
+  "github.copilot.chat.setupTests.enabled": false,
+  "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.chat.useResponsesApi": false,
+  "github.copilot.editor.enableCodeActions": true,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": true,
+  "svg.completion.emmet": true,
+  "svg.completion.showAdvanced": true,
+  "svg.completion.showDeprecated": true,
+  "svg.preview.autoShow": true,
+  "svgPreview.autoOpen": false,
+  "svg.preview.showCrossLine": true,
+  "svg.preview.showRuler": true,
+  "svg.preview.translateExternalAddress": true,
+  "explorer.excludeGitIgnore": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.tabs.title": "${profile}",
+  "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "python.languageServer": "Pylance",
+  "python.createEnvironment.contentButton": "show"
+}

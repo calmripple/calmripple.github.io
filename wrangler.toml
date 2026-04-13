@@ -1,0 +1,12 @@
+# wrangler.toml
+#
+# 当前 Cloudflare 配置使用 deploy command: `npx wrangler versions upload`。
+# 该命令属于 Workers 上传流程，需通过 [assets] 指定静态站点目录。
+name = 'knewbeing'
+
+# 指定 Workers 运行时的兼容性基准日期，保持与最新稳定版对齐。
+compatibility_date = "2026-04-09"
+
+# 提供静态资源目录，避免 `Missing entry-point to Worker script or to assets directory`。
+[assets]
+directory = ".vitepress/dist"

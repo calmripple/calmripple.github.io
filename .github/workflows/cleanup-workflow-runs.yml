@@ -1,0 +1,61 @@
+name: Cleanup Workflow Runs
+
+on:
+  # push:
+  #  branches:
+  #    [ master ]
+
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Number of days.
+        required: true
+        default: '0'
+      minimum_runs:
+        description: The minimum runs to keep for each workflow.
+        required: true
+        default: '1'
+      delete_workflow_pattern:
+        description: The name or filename of the workflow. if not set then it will target all workflows.
+        required: false
+      delete_workflow_by_state_pattern:
+        description: 'Remove workflow by state: active, deleted, disabled_fork, disabled_inactivity, disabled_manually'
+        required: false
+      dry_run:
+        description: 'Only log actions, do not perform any delete operations.'
+        required: false
+
+  schedule:
+    # 每晚执行清理，控制工作流历史体量。
+    - cron: '0 0 * * *'
+
+permissions:
+  # 该工作流会删除历史运行记录，因此需要 actions:write。
+  actions: write
+  contents: read
+
+jobs:
+  cleanup_runs:
+    name: Cleanup Old Workflow Logs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete Workflow Runs
+        id: cleanup_workflow_runs
+        uses: Mattraks/delete-workflow-runs@v2.1.0
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: ${{ github.event.inputs.days || 0 }}
+          keep_minimum_runs: ${{ github.event.inputs.minimum_runs || 1 }}
+          delete_workflow_pattern: ${{ github.event.inputs.delete_workflow_pattern }}
+          delete_workflow_by_state_pattern: ${{ github.event.inputs.delete_workflow_by_state_pattern }}
+          dry_run: ${{ github.event.inputs.dry_run }}
+
+      - name: Delete self
+        id: cleanup_self_runs
+        uses: Mattraks/delete-workflow-runs@v2.1.0
+        with:
+          token: ${{ github.token }}
+          retain_days: 0
+          keep_minimum_runs: 0
+          delete_workflow_pattern: delete Old Workflows
