@@ -5,29 +5,7 @@ on:
     branches-ignore:
       - master
       - main
-      # - renovate/*
-  # pull_request_target:
-  #   types:
-  #     # - assigned
-  #     # - unassigned
-  #     # - labeled
-  #     # - unlabeled
-  #     - opened
-  #     - edited
-  #     # - closed
-  #     - reopened
-  #     - synchronize
-  #     # - converted_to_draft
-  #     # - ready_for_review
-  #     # - locked
-  #     # - unlocked
-  #     # - review_requested
-  #     # - review_request_removed
-  #     - auto_merge_enabled
-  #     - auto_merge_disabled
-  # #   - 'feature/*' # 监听以'feature/'开头的分支
-  # #   - 'fix/*'
-  # Allows you to run this workflow manually from the Actions tab
+  # 允许在 Actions 页面手动触发。
   workflow_dispatch:
     inputs:
       manual_branch:
@@ -70,10 +48,6 @@ jobs:
           echo 'env.TARGET_BRANCH = ${{ env.TARGET_BRANCH }}'
           echo '${{ !contains(github.ref, env.TARGET_BRANCH)}} =${{github.ref}} ? ${{env.TARGET_BRANCH}}'
           echo '${{ !contains(github.ref, env.TARGET_BRANCH)}} =${{github.ref}} ? ${{env.TARGET_BRANCH}}'
-
-        # echo "GitHub Context:"
-        # echo '${{ toJson(github) }}'
-
         shell: bash
 
       - name: printenv
@@ -89,8 +63,8 @@ jobs:
           # 将 WIP 标记视为自动化停止信号。
           echo "is_not_contain_wip=${{ !contains(github.event.head_commit.message, 'wip') && !contains(github.event.head_commit.message, 'WIP') }}" >> $GITHUB_OUTPUT
           echo "${{ github.event.head_commit.committer.username}}"
-
         shell: bash
+
   open_or_update_pr:
     name: Open Or Update Pull Request
     # 将当前分支创建/更新为指向 TARGET_BRANCH 的 PR。
@@ -108,13 +82,12 @@ jobs:
       - name: Checkout repository
         id: checkout_source
         if: ${{ needs.evaluate_push_context.outputs.is_not_target_branch}}
-        uses: actions/checkout@v6.0.1 # v4
+        uses: actions/checkout@v6.0.1
         with:
           persist-credentials: false
 
       - name: Git Configuration
         id: configure_git
-        # 2、配置 Git
         run: |
           git config --global core.quotePath false
           git config --global core.autocrlf false
@@ -133,9 +106,88 @@ jobs:
             This is an automated pull request created from a feature branch.
             Please review and merge if ready.
           branch: ${{ github.ref }}
-          base: ${{env.TARGET_BRANCH}} # 目标分支，根据你的仓库情况可能是'main'或'master'
+          base: ${{env.TARGET_BRANCH}}
           delete-branch: false
-          # # A comma or newline-separated list of reviewers (GitHub usernames) to request a review from.
-          reviewers: ${{ env.REVIEWERS_CSV }}
-          # # A comma or newline-separated list of GitHub teams to request a review from. Note that a repo scoped PAT, or equivalent GitHub App permissions, are required.
-          # team-reviewers: ${{env.team-reviewers}}
+
+  auto_merge_admin_pr:
+    name: Auto Merge PR (Member or Doc-only)
+    # 满足以下任一条件时，PR 在所有检查通过后自动合并：
+    #   1. PR 作者是仓库成员（write/maintain/admin）
+    #   2. PR 仅修改了文档文件（.md / zh-CN/ / docs/ / public/ 等）
+    runs-on: ubuntu-latest
+    needs: open_or_update_pr
+    if: ${{ needs.open_or_update_pr.outputs.pull-request-number != '' }}
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check if PR author is repo member
+        id: check_member
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ACTOR="${{ github.actor }}"
+          REPO="${{ github.repository }}"
+          ROLE=$(gh api /repos/${REPO}/collaborators/${ACTOR}/permission --jq '.role_name' 2>/dev/null || echo "none")
+          echo "Actor: $ACTOR, Role: $ROLE"
+          if [ "$ROLE" = "admin" ] || [ "$ROLE" = "maintain" ] || [ "$ROLE" = "write" ]; then
+            echo "is_member=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_member=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if PR only modifies doc files
+        id: check_docs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER="${{ needs.open_or_update_pr.outputs.pull-request-number }}"
+          REPO="${{ github.repository }}"
+
+          # 获取 PR 所有变更文件列表
+          CHANGED=$(gh api /repos/${REPO}/pulls/${PR_NUMBER}/files --paginate --jq '.[].filename')
+          echo "Changed files:"
+          echo "$CHANGED"
+
+          # 文档文件匹配规则（仅以下路径视为文档）：
+          #   - zh-CN/ 目录下的所有文件
+          #   - docs/ 目录下的所有文件
+          #   - 根目录的 .md / .txt 等文件（无子目录）
+          NON_DOC=$(echo "$CHANGED" | grep -vE \
+            '^(zh-CN/|docs/).*|^[^/]+\.(md|txt|rst|mdx)$' \
+            || true)
+
+          if [ -z "$NON_DOC" ]; then
+            echo "is_doc_only=true" >> $GITHUB_OUTPUT
+            echo "✓ All changed files are documentation."
+          else
+            echo "is_doc_only=false" >> $GITHUB_OUTPUT
+            echo "✗ Non-doc files detected:"
+            echo "$NON_DOC"
+          fi
+
+      - name: Enable auto-merge
+        if: ${{ steps.check_member.outputs.is_member == 'true' || steps.check_docs.outputs.is_doc_only == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER="${{ needs.open_or_update_pr.outputs.pull-request-number }}"
+          REPO="${{ github.repository }}"
+
+          IS_MEMBER="${{ steps.check_member.outputs.is_member }}"
+          IS_DOC_ONLY="${{ steps.check_docs.outputs.is_doc_only }}"
+
+          if [ "$IS_MEMBER" = "true" ]; then
+            echo "▶ 触发原因：PR 作者是仓库成员"
+          fi
+          if [ "$IS_DOC_ONLY" = "true" ]; then
+            echo "▶ 触发原因：PR 仅修改了文档文件"
+          fi
+
+          echo "Enabling auto-merge for PR #${PR_NUMBER}..."
+          gh pr merge "$PR_NUMBER" \
+            --repo "$REPO" \
+            --squash \
+            --auto \
+            --delete-branch=false
+          echo "✓ Auto-merge enabled. PR will merge automatically when all checks pass."

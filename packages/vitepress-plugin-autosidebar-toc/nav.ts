@@ -3,6 +3,16 @@ import type { AutoNavOption, DirNode, MarkdownMeta } from './types'
 import { toVitePressDirectoryRoute, toVitePressPageRoute } from './routing'
 import { computeDirectoryDisplayTitle } from './markdown'
 
+// Escape special regex characters in a directory path so it can be used in activeMatch.
+function escapeForRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+// Build an activeMatch pattern that matches any URL under the given directory path.
+function buildActiveMatch(directoryPath: string): string {
+  return `^/${escapeForRegex(directoryPath)}/`
+}
+
 // 类型守卫：判断 navBuilder 元素是否为 AutoNavOption。
 export function isAutoNavOption(item: DefaultTheme.NavItem | AutoNavOption): item is AutoNavOption {
   return 'navDir' in item && typeof (item as AutoNavOption).navDir === 'string'
@@ -120,7 +130,7 @@ export async function buildNavItemForDirectory(
   const directoryName = directoryPath.split('/').filter(Boolean).at(-1) ?? directoryPath
   const hasIndex = sourceTree.get(directoryPath)?.files.has('index.md') === true
   const text = await computeDirectoryDisplayTitle(baseDir, directoryPath, directoryName, hasIndex, cache)
-  return { text, link }
+  return { text, link, activeMatch: buildActiveMatch(directoryPath) }
 }
 
 // 全量重建自动 nav 状态。
@@ -161,6 +171,7 @@ export async function rebuildAutoNavState(
           items.push({
             text: childText,
             link: childLink,
+            activeMatch: buildActiveMatch(childPath),
           })
         }
       }
@@ -170,6 +181,7 @@ export async function rebuildAutoNavState(
         nav.push({
           text: navItem.text,
           items,
+          activeMatch: navItem.activeMatch,
         })
       } else {
         // 如果没有子目录，保持为普通链接
@@ -303,12 +315,12 @@ export async function buildNavFromBuilder(
           const childLink = resolveDirectoryNavLink(childPath, sourceTree)
           if (childLink) {
             const childText = await computeDirectoryDisplayTitle(baseDir, childPath, childDirName, childNode.files.has('index.md'), cache)
-            items.push({ text: childText, link: childLink })
+            items.push({ text: childText, link: childLink, activeMatch: buildActiveMatch(childPath) })
           }
         }
 
         if (items.length > 0) {
-          nav.push({ text: navItem.text, items })
+          nav.push({ text: navItem.text, items, activeMatch: navItem.activeMatch })
         } else {
           nav.push(navItem)
         }
