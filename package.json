@@ -29,7 +29,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "serve": "vitepress serve",
-    "build:test": "pnpm run build:referenced-packages && tsx scripts/test-build.ts"
+    "build:test": "pnpm run build:referenced-packages && tsx scripts/test-build.ts",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^8.1.0",
@@ -72,6 +73,7 @@
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.4",
     "gray-matter": "^4.0.3",
+    "husky": "^9.1.7",
     "less": "^4.6.4",
     "lodash": "^4.18.1",
     "markdown-it": "^14.1.1",
