@@ -149,13 +149,11 @@ jobs:
           echo "Changed files:"
           echo "$CHANGED"
 
-          # 文档文件匹配规则（仅以下路径视为文档）：
-          #   - zh-CN/ 目录下的所有文件
-          #   - docs/ 目录下的所有文件
-          #   - 根目录的 .md / .txt 等文件（无子目录）
-          NON_DOC=$(echo "$CHANGED" | grep -vE \
-            '^(zh-CN/|docs/).*|^[^/]+\.(md|txt|rst|mdx)$' \
-            || true)
+          # 自动合并条件：PR 所有变更文件必须全部在以下目录内
+          #   - zh-CN/
+          #   - docs/
+          # 只要有任何一个文件不在这两个目录下，is_doc_only=false
+          NON_DOC=$(echo "$CHANGED" | grep -vE '^(zh-CN/|docs/)' || true)
 
           if [ -z "$NON_DOC" ]; then
             echo "is_doc_only=true" >> $GITHUB_OUTPUT
