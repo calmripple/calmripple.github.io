@@ -1,4 +1,4 @@
-import { createRecentUpdatesLoader } from '@nolebase/vitepress-plugin-index/vitepress'
+import { createRecentUpdatesLoader } from '@knewbeing/vitepress-plugin-nolebase/index-plugin/vitepress'
 
 export default createRecentUpdatesLoader({
   dir: 'zh-CN/笔记',

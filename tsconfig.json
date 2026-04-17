@@ -49,6 +49,7 @@
     "**/node_modules/**",
     "**/dist",
     "vitepress-plugin-blogs/**",
+    "tmp_nolebase_src/**",
     ".github/skills/**",
     ".github/instructions/**",
     ".github/agents/**"

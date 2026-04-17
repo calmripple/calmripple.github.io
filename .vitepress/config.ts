@@ -4,15 +4,16 @@ import process from 'node:process'
 import { createTocSidebarComponentResolver, createTocSidebarVitePlugin, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
 import { createPagePropertiesPlugin } from '@knewbeing/vitepress-plugin-page-properties'
 import { createRemoveSidebarPlugin } from '@knewbeing/vitepress-plugin-remove-sidebar'
-import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
-import { presetVite } from '@nolebase/integrations/vitepress/vite'
-import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
+import { presetMarkdownIt } from '@knewbeing/vitepress-plugin-nolebase/vitepress/markdown-it'
+import { presetVite } from '@knewbeing/vitepress-plugin-nolebase/vitepress/vite'
+import { transformHeadMeta } from '@knewbeing/vitepress-plugin-nolebase/meta/vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Inspect from 'vite-plugin-inspect'
+import type { PluginOption } from 'vite'
 import { defineConfig } from 'vitepress'
 import { creators, githubRepoLink, mastodonLink, siteDescription, siteName } from '../metadata'
 import head from './head'
@@ -45,7 +46,6 @@ const nolebase = presetMarkdownIt({
 })
 
 const nolebaseVite = presetVite({
-  thumbnailHashImages: false,
   gitChangelog: {
     options: {
       gitChangelog: {
@@ -60,18 +60,7 @@ const nolebaseVite = presetVite({
       },
     },
   },
-  pageProperties: {
-    options: {
-      markdownSection: {
-        excludes: [
-          tocFilePath,
-          indexFilePath,
-        ],
-        exclude: (id: string) => id.endsWith('index.md'),
-      },
-    },
-  },
-})
+}) as any
 const relativeUrl = process.env.RELATIVE_URL ?? ''
 
 const tocSidebarOptions: TocSidebarBuildOptions = {
@@ -131,7 +120,7 @@ export default defineConfig({
     build: {
       chunkSizeWarningLimit: 800,
     },
-    plugins: [
+    plugins: ([
       createTocSidebarVitePlugin(tocSidebarOptions),
       createRemoveSidebarPlugin(),
       ...createPagePropertiesPlugin(),
@@ -162,7 +151,8 @@ export default defineConfig({
       UnoCSS(),
       nolebaseVite,
       ...nolebaseVite.plugins(),
-    ],
+      // eslint-disable-next-line ts/no-explicit-any
+    ] as any[]) as PluginOption[],
   },
   vue: {
     template: {
@@ -319,7 +309,7 @@ export default defineConfig({
   async transformHead(context) {
     let head = [...context.head]
 
-    const returnedHead = await transformHeadMeta()(head, context)
+    const returnedHead = await transformHeadMeta()(head, context as any)
     if (typeof returnedHead !== 'undefined')
       head = returnedHead
 
