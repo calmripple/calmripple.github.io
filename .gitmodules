@@ -1,0 +1,3 @@
+[submodule "vitepress-plugin-blogs"]
+	path = vitepress-plugin-blogs
+	url = git@github.com:VitepressAwesome/vitepress-plugin-blogs.git
