@@ -55,6 +55,9 @@ importers:
       '@knewbeing/vitepress-plugin-page-properties':
         specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\vitepress-plugin-page-properties
         version: link:vitepress-plugin-blogs/vitepress-plugin-page-properties
+      '@knewbeing/vitepress-plugin-remove-sidebar':
+        specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\vitepress-plugin-remove-sidebar
+        version: link:vitepress-plugin-blogs/vitepress-plugin-remove-sidebar
       '@netlify/functions':
         specifier: ^5.1.5
         version: 5.1.5
