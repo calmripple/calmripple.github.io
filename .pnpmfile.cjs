@@ -49,6 +49,7 @@ function scanLocalPackages(root) {
 }
 
 const LOCAL_MAP = scanLocalPackages(PLUGINS_ROOT)
+console.log("🚀 ~ LOCAL_MAP:", LOCAL_MAP)
 
 /**
  * @param {Record<string, string> | undefined} deps
