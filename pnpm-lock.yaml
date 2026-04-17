@@ -19,6 +19,8 @@ overrides:
   minimatch@>=9.0.0 <9.0.7: 9.0.7
   rollup: '>=4.59.0'
 
+pnpmfileChecksum: sha256-J+/nwpz9gfyAxR2PhhrwVT0MUuLcQTZy0pwXsf14Qig=
+
 importers:
 
   .:
@@ -48,8 +50,8 @@ importers:
         specifier: ^1.2.4
         version: 1.2.4
       '@knewbeing/vitepress-plugin-autosidebar-toc':
-        specifier: workspace:*
-        version: link:packages/vitepress-plugin-autosidebar-toc
+        specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\vitepress-plugin-autosidebar-toc
+        version: link:vitepress-plugin-blogs/vitepress-plugin-autosidebar-toc
       '@netlify/functions':
         specifier: ^5.1.5
         version: 5.1.5

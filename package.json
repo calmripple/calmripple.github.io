@@ -21,15 +21,10 @@
     "vitepress-doc"
   ],
   "scripts": {
-    "build:referenced-packages": "pnpm --filter @knewbeing/utils build && pnpm --filter @knewbeing/vitepress-plugin-autosidebar-toc build",
-    "dev:referenced-packages": "pnpm -r --parallel --stream --filter @knewbeing/utils --filter @knewbeing/vitepress-plugin-autosidebar-toc run dev",
-    "predev": "pnpm run build:referenced-packages",
-    "prebuild": "pnpm run build:referenced-packages",
-    "preserve": "pnpm run build:referenced-packages",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "serve": "vitepress serve",
-    "build:test": "pnpm run build:referenced-packages && tsx scripts/test-build.ts",
+    "build:test": "tsx scripts/test-build.ts",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -41,7 +36,7 @@
     "@iconify-json/icon-park-outline": "^1.2.4",
     "@iconify-json/octicon": "^1.2.22",
     "@iconify-json/svg-spinners": "^1.2.4",
-    "@knewbeing/vitepress-plugin-autosidebar-toc": "workspace:*",
+    "@knewbeing/vitepress-plugin-autosidebar-toc": "^0.1.0",
     "@netlify/functions": "^5.1.5",
     "@nolebase/integrations": "2.18.2",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",
