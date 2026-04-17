@@ -48,8 +48,8 @@ importers:
         specifier: ^1.2.4
         version: 1.2.4
       '@knewbeing/vitepress-plugin-autosidebar-toc':
-        specifier: workspace:*
-        version: link:packages/vitepress-plugin-autosidebar-toc
+        specifier: link:./vitepress-plugin-blogs/vitepress-plugin-autosidebar-toc
+        version: link:vitepress-plugin-blogs/vitepress-plugin-autosidebar-toc
       '@netlify/functions':
         specifier: ^5.1.5
         version: 5.1.5
