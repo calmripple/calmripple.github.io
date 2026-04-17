@@ -43,6 +43,7 @@
     "@iconify-json/octicon": "^1.2.22",
     "@iconify-json/svg-spinners": "^1.2.4",
     "@knewbeing/vitepress-plugin-autosidebar-toc": "^0.1.0",
+    "@knewbeing/vitepress-plugin-page-properties": "^0.1.0",
     "@netlify/functions": "^5.1.5",
     "@nolebase/integrations": "2.18.2",
     "@nolebase/markdown-it-bi-directional-links": "^2.18.2",

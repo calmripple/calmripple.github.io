@@ -52,6 +52,9 @@ importers:
       '@knewbeing/vitepress-plugin-autosidebar-toc':
         specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\vitepress-plugin-autosidebar-toc
         version: link:vitepress-plugin-blogs/vitepress-plugin-autosidebar-toc
+      '@knewbeing/vitepress-plugin-page-properties':
+        specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\vitepress-plugin-page-properties
+        version: link:vitepress-plugin-blogs/vitepress-plugin-page-properties
       '@netlify/functions':
         specifier: ^5.1.5
         version: 5.1.5
