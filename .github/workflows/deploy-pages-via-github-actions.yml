@@ -47,7 +47,6 @@ jobs:
         with:
           # 默认只拉取分支最近一次的 commit，可能会导致一些文章的 GitInfo 变量无法获取，设为 0 代表拉取所有分支所有提交
           fetch-depth: 0
-          submodules: recursive
       - name: Git Configuration
         id: configure_git
         # 2、配置 Git

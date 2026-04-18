@@ -116,6 +116,12 @@ export default defineConfig({
         'virtual:nolebase-git-changelog',
       ],
     },
+    ssr: {
+      // 让 Vite 处理这些包含 .vue 文件的 @knewbeing 包，而非 Node.js 直接加载
+      noExternal: [
+        /^@knewbeing\//,
+      ],
+    },
     build: {
       chunkSizeWarningLimit: 800,
     },
