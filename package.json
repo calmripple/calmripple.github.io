@@ -21,10 +21,16 @@
     "vitepress-doc"
   ],
   "scripts": {
+    "install:linked-packages": "node -e \"const fs=require('node:fs');const {join}=require('node:path');const root=join(process.cwd(),'vitepress-plugin-blogs');if(!fs.existsSync(root))process.exit(0);const {execSync}=require('node:child_process');execSync('pnpm install',{cwd:root,stdio:'inherit'})\"",
+    "build:linked-packages": "node -e \"const fs=require('node:fs');const {join}=require('node:path');const root=join(process.cwd(),'vitepress-plugin-blogs');if(!fs.existsSync(root))process.exit(0);const {execSync}=require('node:child_process');execSync('pnpm install && pnpm run build',{cwd:root,stdio:'inherit'})\"",
+    "postinstall": "pnpm run install:linked-packages",
+    "predev": "pnpm run build:linked-packages",
+    "prebuild": "pnpm run build:linked-packages",
+    "preserve": "pnpm run build:linked-packages",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "serve": "vitepress serve",
-    "build:test": "tsx scripts/test-build.ts",
+    "build:test": "pnpm run build:linked-packages && tsx scripts/test-build.ts",
     "prepare": "husky"
   },
   "devDependencies": {
