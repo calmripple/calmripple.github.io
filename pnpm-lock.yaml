@@ -52,6 +52,12 @@ importers:
       '@knewbeing/vitepress-plugin-autosidebar-toc':
         specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\packages\vitepress-plugin-autosidebar-toc
         version: link:vitepress-plugin-blogs/packages/vitepress-plugin-autosidebar-toc
+      '@knewbeing/vitepress-plugin-index':
+        specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\packages\vitepress-plugin-index
+        version: link:vitepress-plugin-blogs/packages/vitepress-plugin-index
+      '@knewbeing/vitepress-plugin-meta':
+        specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\packages\vitepress-plugin-meta
+        version: link:vitepress-plugin-blogs/packages/vitepress-plugin-meta
       '@knewbeing/vitepress-plugin-nolebase':
         specifier: link:G:\code\vPress\calmripple.github.io\vitepress-plugin-blogs\packages\vitepress-plugin-nolebase
         version: link:vitepress-plugin-blogs/packages/vitepress-plugin-nolebase

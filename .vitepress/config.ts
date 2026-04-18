@@ -6,7 +6,7 @@ import { createPagePropertiesPlugin } from '@knewbeing/vitepress-plugin-page-pro
 import { createRemoveSidebarPlugin } from '@knewbeing/vitepress-plugin-remove-sidebar'
 import { presetMarkdownIt } from '@knewbeing/vitepress-plugin-nolebase/vitepress/markdown-it'
 import { presetVite } from '@knewbeing/vitepress-plugin-nolebase/vitepress/vite'
-import { transformHeadMeta } from '@knewbeing/vitepress-plugin-nolebase/meta/vitepress'
+import { transformHeadMeta } from '@knewbeing/vitepress-plugin-meta/vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
