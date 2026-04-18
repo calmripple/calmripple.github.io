@@ -1,4 +1,0 @@
-[submodule "vitepress-plugin-blogs"]
-	path = vitepress-plugin-blogs
-	url = git@github.com:VitepressAwesome/vitepress-plugin-blogs.git
-	branch = feat/auto-build-linked-packages
