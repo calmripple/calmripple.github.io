@@ -13,7 +13,6 @@ import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Inspect from 'vite-plugin-inspect'
-import type { PluginOption } from 'vite'
 import { defineConfig } from 'vitepress'
 import { creators, githubRepoLink, mastodonLink, siteDescription, siteName } from '../metadata'
 import head from './head'
@@ -120,7 +119,7 @@ export default defineConfig({
     build: {
       chunkSizeWarningLimit: 800,
     },
-    plugins: ([
+    plugins: [
       createTocSidebarVitePlugin(tocSidebarOptions),
       createRemoveSidebarPlugin(),
       ...createPagePropertiesPlugin(),
@@ -152,7 +151,7 @@ export default defineConfig({
       nolebaseVite,
       ...nolebaseVite.plugins(),
       // eslint-disable-next-line ts/no-explicit-any
-    ] as any[]) as PluginOption[],
+    ],
   },
   vue: {
     template: {

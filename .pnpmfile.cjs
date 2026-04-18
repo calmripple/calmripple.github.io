@@ -9,7 +9,7 @@
 const { existsSync, readdirSync, readFileSync, statSync } = require('node:fs')
 const { resolve, join } = require('node:path')
 
-const PLUGINS_ROOT = resolve(__dirname, 'vitepress-plugin-blogs')
+const PLUGINS_ROOT = resolve(__dirname, 'vitepress-plugin-blogs', 'packages')
 
 /**
  * @param {string} root
