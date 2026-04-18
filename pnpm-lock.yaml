@@ -19,7 +19,7 @@ overrides:
   minimatch@>=9.0.0 <9.0.7: 9.0.7
   rollup: '>=4.59.0'
 
-pnpmfileChecksum: sha256-YD8l2y1e5pIVput6KAcmj0PQhSYV47eAuhZ1Bi6FxYw=
+pnpmfileChecksum: sha256-ZyG+CHdMHmG9S3XLC+NxCjsTjIvf16sZc/I55kKTzfc=
 
 importers:
 
@@ -50,22 +50,22 @@ importers:
         specifier: ^1.2.4
         version: 1.2.4
       '@knewbeing/vitepress-plugin-autosidebar-toc':
-        specifier: link:../vitepress-plugin-blogs/packages/vitepress-plugin-autosidebar-toc
+        specifier: link:G:\code\vPress\vitepress-plugin-blogs\packages\vitepress-plugin-autosidebar-toc
         version: link:../vitepress-plugin-blogs/packages/vitepress-plugin-autosidebar-toc
       '@knewbeing/vitepress-plugin-index':
-        specifier: link:../vitepress-plugin-blogs/packages/vitepress-plugin-index
+        specifier: link:G:\code\vPress\vitepress-plugin-blogs\packages\vitepress-plugin-index
         version: link:../vitepress-plugin-blogs/packages/vitepress-plugin-index
       '@knewbeing/vitepress-plugin-meta':
-        specifier: link:../vitepress-plugin-blogs/packages/vitepress-plugin-meta
+        specifier: link:G:\code\vPress\vitepress-plugin-blogs\packages\vitepress-plugin-meta
         version: link:../vitepress-plugin-blogs/packages/vitepress-plugin-meta
       '@knewbeing/vitepress-plugin-nolebase':
-        specifier: link:../vitepress-plugin-blogs/packages/vitepress-plugin-nolebase
+        specifier: link:G:\code\vPress\vitepress-plugin-blogs\packages\vitepress-plugin-nolebase
         version: link:../vitepress-plugin-blogs/packages/vitepress-plugin-nolebase
       '@knewbeing/vitepress-plugin-page-properties':
-        specifier: link:../vitepress-plugin-blogs/packages/vitepress-plugin-page-properties
+        specifier: link:G:\code\vPress\vitepress-plugin-blogs\packages\vitepress-plugin-page-properties
         version: link:../vitepress-plugin-blogs/packages/vitepress-plugin-page-properties
       '@knewbeing/vitepress-plugin-remove-sidebar':
-        specifier: link:../vitepress-plugin-blogs/packages/vitepress-plugin-remove-sidebar
+        specifier: link:G:\code\vPress\vitepress-plugin-blogs\packages\vitepress-plugin-remove-sidebar
         version: link:../vitepress-plugin-blogs/packages/vitepress-plugin-remove-sidebar
       '@netlify/functions':
         specifier: ^5.1.5
