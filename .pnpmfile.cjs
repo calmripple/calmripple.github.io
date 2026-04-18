@@ -51,7 +51,6 @@ function scanLocalPackages(root) {
 }
 
 const LOCAL_MAP = scanLocalPackages(PLUGINS_ROOT)
-console.log("🚀 ~ LOCAL_MAP:", LOCAL_MAP)
 
 /**
  * @param {Record<string, string> | undefined} deps
@@ -60,8 +59,10 @@ function rewrite(deps) {
   if (!deps)
     return
   for (const [name, dir] of Object.entries(LOCAL_MAP)) {
-    if (deps[name])
+    if (deps[name]) {
       deps[name] = `link:${dir}`
+      console.log(`  ↪  将依赖 ${name} 改写为本地路径: ${dir}`)
+    }
   }
 }
 
