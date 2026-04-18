@@ -1,12 +1,14 @@
 import type { Theme } from 'vitepress'
 
-import { presetClient } from '@nolebase/integrations/vitepress/client'
+import { presetClient } from '@knewbeing/vitepress-plugin-nolebase/vitepress/client'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import DocFooter from '@/theme/components/DocFooter.vue'
 import Share from '@/theme/components/Share.vue'
 import SidebarArticleList from '@knewbeing/vitepress-plugin-autosidebar-toc/client/SidebarArticleList.vue'
 import '@knewbeing/vitepress-plugin-autosidebar-toc/client/style.css'
+import PageProperties from '@knewbeing/vitepress-plugin-page-properties/client/PageProperties.vue'
+import PagePropertiesEditor from '@knewbeing/vitepress-plugin-page-properties/client/PagePropertiesEditor.vue'
 import IndexAutoToc from '@/theme/components/IndexAutoToc.vue'
 import IndexTagsAside from '@/theme/components/IndexTagsAside.vue'
 import 'virtual:uno.css'
@@ -64,7 +66,10 @@ const ExtendedTheme: Theme = {
     })
   },
   async enhanceApp(ctx) {
-    await nolebase?.enhanceApp?.(ctx)
+    await nolebase?.enhanceApp?.(ctx as any)
+    // 注册自有页面属性组件（替代 @nolebase/vitepress-plugin-page-properties）
+    ctx.app.component('KnewbeingPageProperties', PageProperties)
+    ctx.app.component('KnewbeingPagePropertiesEditor', PagePropertiesEditor)
   },
 }
 

@@ -48,6 +48,8 @@
   "exclude": [
     "**/node_modules/**",
     "**/dist",
+    "vitepress-plugin-blogs/**",
+    "tmp_nolebase_src/**",
     ".github/skills/**",
     ".github/instructions/**",
     ".github/agents/**"
@@ -56,6 +58,7 @@
     "excludeDirectories": [
       "**/node_modules",
       "**/dist",
+      "vitepress-plugin-blogs",
       ".github/skills",
       ".github/instructions",
       ".github/agents"

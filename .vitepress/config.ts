@@ -2,77 +2,22 @@ import { Buffer } from 'node:buffer'
 import { resolve } from 'node:path'
 import process from 'node:process'
 import { createTocSidebarComponentResolver, createTocSidebarVitePlugin, type TocSidebarBuildOptions } from '@knewbeing/vitepress-plugin-autosidebar-toc'
-import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
-import { presetVite } from '@nolebase/integrations/vitepress/vite'
-import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
+import { createPagePropertiesPlugin } from '@knewbeing/vitepress-plugin-page-properties'
+import { createRemoveSidebarPlugin } from '@knewbeing/vitepress-plugin-remove-sidebar'
+import { presetMarkdownIt } from '@knewbeing/vitepress-plugin-nolebase/vitepress/markdown-it'
+import { presetVite } from '@knewbeing/vitepress-plugin-nolebase/vitepress/vite'
+import { transformHeadMeta } from '@knewbeing/vitepress-plugin-meta/vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Inspect from 'vite-plugin-inspect'
-import type { Plugin as VitePlugin } from 'vite'
 import { defineConfig } from 'vitepress'
 import { creators, githubRepoLink, mastodonLink, siteDescription, siteName } from '../metadata'
 import head from './head'
 
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress';
-
-// 最小补丁：修复上游 PageProperties 插件在 dev 模式下虚拟模块首次加载时为空的问题。
-// 根本原因：上游 transform(pre) 已正确地把字数统计写入内存，但虚拟模块在 md 文件 transform
-// 之前就被 Vite 缓存为空对象 {}，且缺少 HMR 推送给浏览器。
-// 此补丁在每个 md transform 后，先使虚拟模块缓存失效，再通过 server.reloadModule() 向浏览器
-// 推送 HMR 更新，让客户端 hot.accept 回调拿到最新字数数据并触发 UI 刷新。
-function createPagePropertiesDevPatch(): VitePlugin {
-  const VIRTUAL_ID = '\0virtual:nolebase-page-properties'
-  let server: import('vite').ViteDevServer | undefined
-  return {
-    name: 'nolebase:page-properties-dev-patch',
-    enforce: 'post',
-    apply: 'serve',
-    configureServer(s) {
-      server = s
-    },
-    transform: async (_code: string, id: string) => {
-      if (!id.endsWith('.md') || !server) return null
-      const mod = server.moduleGraph.getModuleById(VIRTUAL_ID)
-      if (mod) {
-        // reloadModule = invalidateModule + 向浏览器推送 HMR 通知
-        // 浏览器收到通知后重新请求虚拟模块，此时 upstream load() 返回已填充的数据
-        await server.reloadModule(mod)
-      }
-      return null
-    },
-  }
-}
-
-// 最小补丁：将 autosidebar-toc 插件注入的 sidebar 条目替换为空占位组，
-// 使 VitePress 仍然渲染侧边栏面板（sidebar-nav-after slot 才能挂载），
-// 但不显示任何原始导航项。占位组通过 CSS 隐藏。
-function createRemoveSidebarPlugin(): VitePlugin {
-  return {
-    name: 'remove-vitepress-sidebar',
-    enforce: 'post',
-    config(config) {
-      const site = (config as any).vitepress?.site
-      if (!site) return
-
-      const replaceWithPlaceholder = (sidebar: Record<string, any> | undefined) => {
-        if (!sidebar) return
-        for (const key of Object.keys(sidebar)) {
-          sidebar[key] = [{ text: '', items: [] }]
-        }
-      }
-
-      replaceWithPlaceholder(site.themeConfig?.sidebar)
-      if (site.locales) {
-        for (const localeKey of Object.keys(site.locales)) {
-          replaceWithPlaceholder(site.locales[localeKey].themeConfig?.sidebar)
-        }
-      }
-    },
-  }
-}
 
 const mastodonIcon = {
   svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.193 7.88c0-5.207-3.411-6.733-3.411-6.733C18.062.36 15.108.025 12.041 0h-.074c-3.067.026-6.02.36-7.74 1.147 0 0-3.411 1.526-3.411 6.733 0 1.191-.023 2.618.014 4.108.122 5.025.919 9.98 5.573 11.196 2.146.561 3.987.679 5.475.597 2.7-.147 4.219-.949 4.219-.949l-.092-2.047s-1.93.608-4.102.537c-2.151-.074-4.423-.234-4.771-2.892a5.567 5.567 0 0 1-.048-.745s2.11.515 4.784.638c1.636.075 3.17-.096 4.735-.285 3.005-.36 5.626-2.216 5.955-3.914.518-2.676.475-6.53.475-6.53zm-3.966 6.739h-2.474V8.615c0-1.266-.533-1.91-1.6-1.91-1.179 0-1.77.773-1.77 2.298v3.288h-2.46V9.003c0-1.525-.59-2.298-1.77-2.298-1.066 0-1.6.644-1.6 1.91v6.004H5.08V8.431c0-1.266.325-2.273.974-3.021.669-.748 1.543-1.132 2.621-1.132 1.247 0 2.19.479 2.817 1.436l.608 1.01.608-1.01c.627-.957 1.57-1.436 2.817-1.436 1.078 0 1.952.384 2.62 1.132.65.748.975 1.755.975 3.021v6.188z"/></svg>',
@@ -100,7 +45,6 @@ const nolebase = presetMarkdownIt({
 })
 
 const nolebaseVite = presetVite({
-  thumbnailHashImages: false,
   gitChangelog: {
     options: {
       gitChangelog: {
@@ -115,18 +59,7 @@ const nolebaseVite = presetVite({
       },
     },
   },
-  pageProperties: {
-    options: {
-      markdownSection: {
-        excludes: [
-          tocFilePath,
-          indexFilePath,
-        ],
-        exclude: (id: string) => id.endsWith('index.md'),
-      },
-    },
-  },
-})
+}) as any
 const relativeUrl = process.env.RELATIVE_URL ?? ''
 
 const tocSidebarOptions: TocSidebarBuildOptions = {
@@ -183,13 +116,19 @@ export default defineConfig({
         'virtual:nolebase-git-changelog',
       ],
     },
+    ssr: {
+      // 让 Vite 处理这些包含 .vue 文件的 @knewbeing 包，而非 Node.js 直接加载
+      noExternal: [
+        /^@knewbeing\//,
+      ],
+    },
     build: {
       chunkSizeWarningLimit: 800,
     },
     plugins: [
       createTocSidebarVitePlugin(tocSidebarOptions),
       createRemoveSidebarPlugin(),
-      createPagePropertiesDevPatch(),
+      ...createPagePropertiesPlugin(),
       Inspect(),
       AutoImport({
         include: [
@@ -217,6 +156,7 @@ export default defineConfig({
       UnoCSS(),
       nolebaseVite,
       ...nolebaseVite.plugins(),
+      // eslint-disable-next-line ts/no-explicit-any
     ],
   },
   vue: {
@@ -374,7 +314,7 @@ export default defineConfig({
   async transformHead(context) {
     let head = [...context.head]
 
-    const returnedHead = await transformHeadMeta()(head, context)
+    const returnedHead = await transformHeadMeta()(head, context as any)
     if (typeof returnedHead !== 'undefined')
       head = returnedHead
 
