@@ -19,7 +19,7 @@ overrides:
   minimatch@>=9.0.0 <9.0.7: 9.0.7
   rollup: '>=4.59.0'
 
-pnpmfileChecksum: sha256-ZyG+CHdMHmG9S3XLC+NxCjsTjIvf16sZc/I55kKTzfc=
+pnpmfileChecksum: sha256-q2/WybVfhSG0hlu/G97NVu4ma4ocRM+1iN8kZpwc+5Y=
 
 importers:
 

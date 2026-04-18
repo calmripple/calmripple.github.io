@@ -10,6 +10,7 @@
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "preserveSymlinks": true,
     "allowImportingTsExtensions": true,
     "rewriteRelativeImportExtensions": true,
     "paths": {

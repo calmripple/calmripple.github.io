@@ -12,6 +12,7 @@ const { resolve, join } = require('node:path')
 // vitepress-plugin-blogs 是与本仓库同级的独立 git 库
 const PLUGINS_ROOT = resolve(__dirname, '..', 'vitepress-plugin-blogs', 'packages')
 
+
 /**
  * @param {string} root
  * @returns {Record<string, string>}
@@ -50,6 +51,7 @@ function scanLocalPackages(root) {
 }
 
 const LOCAL_MAP = scanLocalPackages(PLUGINS_ROOT)
+console.log("🚀 ~ LOCAL_MAP:", LOCAL_MAP)
 
 /**
  * @param {Record<string, string> | undefined} deps
