@@ -1,6 +1,6 @@
 ---
 title: 文章目录
-nolebase:
+knewbeing:
   gitChangelog: false
   pageProperties: false
 ---

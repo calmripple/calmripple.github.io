@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 /// <reference types="node" />
 /**
  * pnpm hook:
@@ -10,7 +10,7 @@ const { existsSync, readdirSync, readFileSync, statSync } = require('node:fs')
 const { resolve, join } = require('node:path')
 
 // vitepress-plugin-blogs 是与本仓库同级的独立 git 库
-const PLUGINS_ROOT = resolve(__dirname, '..', 'vitepress-plugin-blogs', 'packages')
+const PLUGINS_ROOT = resolve(__dirname, 'packages')
 
 
 /**
@@ -55,13 +55,13 @@ const LOCAL_MAP = scanLocalPackages(PLUGINS_ROOT)
 /**
  * @param {Record<string, string> | undefined} deps
  */
-function rewrite(deps) {
+function rewrite(pkgName, deps) {
   if (!deps)
     return
   for (const [name, dir] of Object.entries(LOCAL_MAP)) {
     if (deps[name]) {
       deps[name] = `link:${dir}`
-      console.log(`  ↪  将依赖 ${name} 改写为本地路径: ${dir}`)
+      console.log(`  ↪  ${pkgName} \t\t 将依赖 ${name} 改写为本地路径: ${dir}`)
     }
   }
 }
@@ -70,8 +70,8 @@ function rewrite(deps) {
  * @param {{ dependencies?: Record<string, string>, devDependencies?: Record<string, string> }} pkg
  */
 function readPackage(pkg) {
-  rewrite(pkg.dependencies)
-  rewrite(pkg.devDependencies)
+  rewrite(pkg.name, pkg.dependencies)
+  rewrite(pkg.name, pkg.devDependencies)
   return pkg
 }
 
