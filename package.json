@@ -25,6 +25,7 @@
     "workspace:dev": "pnpm -r --filter \"@knewbeing/*\" --parallel --if-present run dev",
     "workspace:build": "pnpm -r --filter \"@knewbeing/*\" --if-present run build",
     "workspace:publish": "pnpm -r --filter \"@knewbeing/*\" --if-present publish --access public --no-git-checks",
+    "predev": "pnpm run build:linked-packages",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "build-linkedpackages": "pnpm run workspace:build",
