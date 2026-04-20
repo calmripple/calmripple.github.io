@@ -23,7 +23,7 @@
   },
   "files": ["dist", "package.json"],
   "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
-  "devDependencies": { "typescript": "catalog:", "vue-tsc": "catalog:", "@rollup/plugin-yaml": "catalog:" },
+  "devDependencies": { "typescript": "catalog:", "vue-tsc": "catalog:", "@rollup/plugin-yaml": "catalog:", "unbuild": "catalog:" },
   "peerDependencies": { "vue": "catalog:", "vitepress": "catalog:" },
   "dependencies": { "@knewbeing/ui": "workspace:*", "@vueuse/core": "catalog:" }
 }

@@ -21,9 +21,14 @@
     "vitepress-doc"
   ],
   "scripts": {
-
+    "workspace:install": "pnpm install",
+    "workspace:dev": "pnpm -r --filter \"@knewbeing/*\" --parallel --if-present run dev",
+    "workspace:build": "pnpm -r --filter \"@knewbeing/*\" --if-present run build",
+    "workspace:publish": "pnpm -r --filter \"@knewbeing/*\" --if-present publish --access public --no-git-checks",
     "dev": "vitepress dev",
     "build": "vitepress build",
+    "build-linkedpackages": "pnpm run workspace:build",
+    "build:linked-packages": "pnpm run build-linkedpackages",
     "serve": "vitepress serve",
     "build:test": "pnpm run build:linked-packages && tsx scripts/test-build.ts",
     "prepare": "husky"
@@ -38,9 +43,9 @@
     "@iconify-json/octicon": "^1.2.22",
     "@iconify-json/svg-spinners": "^1.2.4",
     "@knewbeing/vitepress-plugin-autosidebar-toc": "^1.0.3",
-    "@knewbeing/vitepress-plugin-nolebase": "^1.0.1",
-    "@knewbeing/vitepress-plugin-meta": "^1.0.1",
     "@knewbeing/vitepress-plugin-index": "^1.0.1",
+    "@knewbeing/vitepress-plugin-meta": "^1.0.1",
+    "@knewbeing/vitepress-plugin-nolebase": "^1.0.1",
     "@knewbeing/vitepress-plugin-page-properties": "^1.0.3",
     "@knewbeing/vitepress-plugin-remove-sidebar": "^1.0.2",
     "@netlify/functions": "^5.1.5",

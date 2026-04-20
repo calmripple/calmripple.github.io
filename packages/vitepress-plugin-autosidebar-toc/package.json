@@ -40,6 +40,7 @@
     "@types/sanitize-html": "catalog:",
     "unplugin-vue-components": "catalog:",
     "typescript": "catalog:",
+    "unbuild": "catalog:",
     "vue-tsc": "catalog:",
     "vite": "catalog:",
     "vitepress": "catalog:",

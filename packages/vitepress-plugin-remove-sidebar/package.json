@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
+    "unbuild": "catalog:",
     "vue-tsc": "catalog:",
     "vite": "catalog:",
     "vitepress": "catalog:"

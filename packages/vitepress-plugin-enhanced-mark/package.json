@@ -10,6 +10,7 @@
   "scripts": {
     "build": "unbuild"
   },
+  "devDependencies": { "unbuild": "catalog:" },
   "exports": {
     "./client/style.css": "./dist/client/style.css"
   },

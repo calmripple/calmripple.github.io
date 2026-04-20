@@ -34,6 +34,7 @@
   "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
   "devDependencies": {
     "typescript": "catalog:",
+    "unbuild": "catalog:",
     "vue-tsc": "catalog:"
   },
   "peerDependencies": {

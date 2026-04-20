@@ -116,5 +116,6 @@
   "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
   "js/ts.tsdk.path": "node_modules/typescript/lib",
   "python.languageServer": "Pylance",
-  "python.createEnvironment.contentButton": "show"
+  "python.createEnvironment.contentButton": "show",
+  "chat.requestQueuing.defaultAction": "queue"
 }

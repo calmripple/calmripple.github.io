@@ -21,7 +21,7 @@
   },
   "files": ["dist", "package.json"],
   "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
-  "devDependencies": { "vue-tsc": "catalog:", "vitest": "catalog:" },
+  "devDependencies": { "vue-tsc": "catalog:", "vitest": "catalog:", "unbuild": "catalog:" },
   "peerDependencies": { "vitepress": "catalog:" },
   "dependencies": {
     "defu": "catalog:",

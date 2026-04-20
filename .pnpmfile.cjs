@@ -7,7 +7,7 @@
  * 3. 若本地目录不存在（例如未拉取子模块），跳过改写，保持原 npm 版本
  */
 const { existsSync, readdirSync, readFileSync, statSync } = require('node:fs')
-const { resolve, join } = require('node:path')
+const { resolve, join, relative } = require('node:path')
 
 // vitepress-plugin-blogs 是与本仓库同级的独立 git 库
 const PLUGINS_ROOT = resolve(__dirname, 'packages')
@@ -61,7 +61,8 @@ function rewrite(pkgName, deps) {
   for (const [name, dir] of Object.entries(LOCAL_MAP)) {
     if (deps[name]) {
       deps[name] = `link:${dir}`
-      console.log(`  ↪  ${pkgName} \t\t 将依赖 ${name} 改写为本地路径: ${dir}`)
+      const relativeDir = relative(__dirname, dir) || '.'
+      console.log(`  ↪  ${pkgName} \t\t 将依赖 ${name} 改写为本地路径: ${relativeDir}`)
     }
   }
 }
