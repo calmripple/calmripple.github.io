@@ -25,13 +25,12 @@
     "workspace:dev": "pnpm -r --filter \"@knewbeing/*\" --parallel --if-present run dev",
     "workspace:build": "pnpm -r --filter \"@knewbeing/*\" --if-present run build",
     "workspace:publish": "pnpm -r --filter \"@knewbeing/*\" --if-present publish --access public --no-git-checks",
-    "predev": "pnpm run build:linked-packages",
+    "predev": "pnpm run workspace:dev",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "build-linkedpackages": "pnpm run workspace:build",
-    "build:linked-packages": "pnpm run build-linkedpackages",
+    "prebuild": "pnpm run workspace:build",
     "serve": "vitepress serve",
-    "build:test": "pnpm run build:linked-packages && tsx scripts/test-build.ts",
+    "build:test": "pnpm run workspace:build && tsx scripts/test-build.ts",
     "prepare": "husky"
   },
   "devDependencies": {
