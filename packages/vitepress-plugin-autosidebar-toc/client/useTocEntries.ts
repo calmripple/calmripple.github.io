@@ -1,4 +1,3 @@
-// Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
 import { shallowRef, watch } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import type {

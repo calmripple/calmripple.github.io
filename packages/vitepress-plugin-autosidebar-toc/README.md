@@ -5,6 +5,8 @@
 
 > All-in-one VitePress plugin: auto-generate sidebar, navigation, and blog components from your Markdown files.
 
+Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
+
 自动生成 VitePress 侧边栏、导航栏和文章列表的一站式插件。支持自动扫描 Markdown 文档、生成目录树、创建侧边栏配置、提取元数据，并提供开箱即用的 AutoToc 组件。
 
 ---

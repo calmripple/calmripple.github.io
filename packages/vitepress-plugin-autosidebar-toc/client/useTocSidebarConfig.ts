@@ -1,4 +1,3 @@
-// Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
 import { computed, effectScope, type ComputedRef } from 'vue'
 import { useData } from 'vitepress'
 

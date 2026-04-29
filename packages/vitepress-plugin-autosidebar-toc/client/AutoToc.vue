@@ -1,4 +1,3 @@
-// Copyright (c) 2024-present Neko Ayaka. MIT License.
 <script setup lang="ts">
 import { computed, ref, watch } from "vue";
 import { useRouter, useData, useRoute } from "vitepress";

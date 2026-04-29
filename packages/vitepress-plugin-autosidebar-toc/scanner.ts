@@ -1,4 +1,3 @@
-// Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
 import { readdir } from 'node:fs/promises'
 import { extname, join, relative } from 'node:path'
 import fg from 'fast-glob'

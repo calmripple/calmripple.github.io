@@ -1,12 +1,26 @@
 {
   "name": "@knewbeing/vitepress-plugin-nolebase",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Vendored nolebase integrations for VitePress -?enhanced-readabilities, git-changelog, inline-link-preview, highlight-targeted-heading, index, and more. .",
-  "keywords": ["vitepress", "nolebase", "enhanced-readabilities", "git-changelog", "inline-link-preview", "vite-plugin", "typescript"],
+  "keywords": [
+    "vitepress",
+    "nolebase",
+    "enhanced-readabilities",
+    "git-changelog",
+    "inline-link-preview",
+    "vite-plugin",
+    "typescript"
+  ],
   "license": "MIT",
-  "author": { "name": "知在", "email": "zz@dmsrs.org", "url": "https://www.dmsrs.org" },
+  "author": {
+    "name": "知在",
+    "email": "zz@dmsrs.org",
+    "url": "https://www.dmsrs.org"
+  },
   "type": "module",
-  "sideEffects": ["**/*.css"],
+  "sideEffects": [
+    "**/*.css"
+  ],
   "scripts": {
     "stub": "unbuild --stub",
     "dev": "unbuild --stub",
@@ -15,9 +29,12 @@
   },
   "exports": {
     "./vitepress/client": {
-      "types": "./dist/client/index.ts",
-      "import": "./dist/client/index.ts",
-      "require": "./dist/client/index.ts"
+      "types": "./dist/client/index.d.ts",
+      "import": {
+        "development": "./src/vitepress/client/index.ts",
+        "default": "./dist/client/index.mjs"
+      },
+      "require": "./dist/client/index.js"
     },
     "./vitepress/vite": {
       "types": "./dist/vitepress/vite/index.d.ts",
@@ -30,8 +47,14 @@
       "require": "./dist/vitepress/markdown-it/index.cjs"
     }
   },
-  "files": ["dist", "package.json"],
-  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "typescript": "catalog:",
     "unbuild": "catalog:",

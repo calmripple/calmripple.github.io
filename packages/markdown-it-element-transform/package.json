@@ -1,11 +1,19 @@
 {
   "name": "@knewbeing/markdown-it-element-transform",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "license": "MIT",
-  "author": { "name": "知在", "email": "zz@dmsrs.org", "url": "https://www.dmsrs.org" },
+  "author": {
+    "name": "知在",
+    "email": "zz@dmsrs.org",
+    "url": "https://www.dmsrs.org"
+  },
   "type": "module",
-  "repository": { "type": "git", "url": "https://github.com/VitepressAwesome/vitepress-plugin-blogs.git", "directory": "packages/markdown-it-element-transform" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VitepressAwesome/vitepress-plugin-blogs.git",
+    "directory": "packages/markdown-it-element-transform"
+  },
   "scripts": {
     "stub": "unbuild --stub",
     "dev": "unbuild --stub",
@@ -19,8 +27,19 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "package.json"],
-  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
-  "devDependencies": { "vue-tsc": "catalog:", "unbuild": "catalog:" },
-  "peerDependencies": { "markdown-it": "catalog:" }
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "vue-tsc": "catalog:",
+    "unbuild": "catalog:"
+  },
+  "peerDependencies": {
+    "markdown-it": "catalog:"
+  }
 }

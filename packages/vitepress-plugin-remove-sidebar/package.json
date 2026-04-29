@@ -1,17 +1,28 @@
 {
   "name": "@knewbeing/vitepress-plugin-remove-sidebar",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Vite plugin for VitePress that replaces auto-generated sidebar entries with empty placeholders, keeping the sidebar panel visible for custom slot components.",
-  "keywords": ["vitepress", "sidebar", "vite-plugin", "typescript"],
+  "keywords": [
+    "vitepress",
+    "sidebar",
+    "vite-plugin",
+    "typescript"
+  ],
   "license": "MIT",
-  "author": { "name": "知在", "email": "zz@dmsrs.org", "url": "https://www.dmsrs.org" },
+  "author": {
+    "name": "知在",
+    "email": "zz@dmsrs.org",
+    "url": "https://www.dmsrs.org"
+  },
   "homepage": "https://github.com/VitepressAwesome/vitepress-plugin-blogs#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VitepressAwesome/vitepress-plugin-blogs.git",
     "directory": "packages/vitepress-plugin-remove-sidebar"
   },
-  "bugs": { "url": "https://github.com/VitepressAwesome/vitepress-plugin-blogs/issues" },
+  "bugs": {
+    "url": "https://github.com/VitepressAwesome/vitepress-plugin-blogs/issues"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -23,8 +34,14 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "package.json"],
-  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "stub": "unbuild --stub",
     "dev": "unbuild --stub",
@@ -43,4 +60,3 @@
     "vitepress": "catalog:"
   }
 }
-

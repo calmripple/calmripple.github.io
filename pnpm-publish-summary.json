@@ -1,0 +1,64 @@
+{
+	"publishedPackages": [
+		{
+			"name": "@knewbeing/markdown-it-bi-directional-links",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/markdown-it-element-transform",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/markdown-it-unlazy-img",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/ui",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-autosidebar-toc",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-enhanced-mark",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-highlight-targeted-heading",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-meta",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-page-properties",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-remove-sidebar",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-enhanced-readabilities",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-git-changelog",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-index",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-inline-link-preview",
+			"version": "1.1.0"
+		},
+		{
+			"name": "@knewbeing/vitepress-plugin-nolebase",
+			"version": "1.1.0"
+		}
+	]
+}

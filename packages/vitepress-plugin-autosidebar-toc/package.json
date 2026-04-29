@@ -1,23 +1,44 @@
 {
   "name": "@knewbeing/vitepress-plugin-autosidebar-toc",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Auto-generate sidebar, navigation, and blog components for VitePress. Provides Markdown scanning, metadata extraction, and ready-to-use components (AutoToc, SidebarArticleList).",
-  "keywords": ["vitepress", "sidebar", "navigation", "blog", "markdown", "documentation", "vite-plugin", "vue3", "typescript"],
+  "keywords": [
+    "vitepress",
+    "sidebar",
+    "navigation",
+    "blog",
+    "markdown",
+    "documentation",
+    "vite-plugin",
+    "vue3",
+    "typescript"
+  ],
   "license": "MIT",
-  "author": { "name": "知在", "email": "zz@dmsrs.org", "url": "https://www.dmsrs.org" },
+  "author": {
+    "name": "知在",
+    "email": "zz@dmsrs.org",
+    "url": "https://www.dmsrs.org"
+  },
   "homepage": "https://github.com/VitepressAwesome/vitepress-plugin-blogs#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VitepressAwesome/vitepress-plugin-blogs.git",
     "directory": "packages/vitepress-plugin-autosidebar-toc"
   },
-  "bugs": { "url": "https://github.com/VitepressAwesome/vitepress-plugin-blogs/issues" },
+  "bugs": {
+    "url": "https://github.com/VitepressAwesome/vitepress-plugin-blogs/issues"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "sideEffects": ["**/*.css"],
-  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "dist",
     "globals.d.ts",
@@ -53,7 +74,9 @@
     "vue": "catalog:"
   },
   "peerDependenciesMeta": {
-    "sharp": { "optional": true }
+    "sharp": {
+      "optional": true
+    }
   },
   "exports": {
     ".": {
@@ -64,24 +87,39 @@
     "./client/AutoToc.vue": "./dist/client/AutoToc.vue",
     "./client/SidebarArticleList.vue": "./dist/client/SidebarArticleList.vue",
     "./client/useTocEntries": {
-      "import": "./dist/client/useTocEntries.ts",
-      "require": "./dist/client/useTocEntries.ts"
+      "types": "./dist/client/useTocEntries.d.ts",
+      "import": {
+        "development": "./client/useTocEntries.ts",
+        "default": "./dist/client/useTocEntries.mjs"
+      },
+      "require": "./dist/client/useTocEntries.js"
     },
     "./client/useBlogHome": {
-      "import": "./dist/client/useBlogHome.ts",
-      "require": "./dist/client/useBlogHome.ts"
+      "types": "./dist/client/useBlogHome.d.ts",
+      "import": {
+        "development": "./client/useBlogHome.ts",
+        "default": "./dist/client/useBlogHome.mjs"
+      },
+      "require": "./dist/client/useBlogHome.js"
     },
     "./client/useIndexTagsStore": {
-      "import": "./dist/client/useIndexTagsStore.ts",
-      "require": "./dist/client/useIndexTagsStore.ts"
+      "types": "./dist/client/useIndexTagsStore.d.ts",
+      "import": {
+        "development": "./client/useIndexTagsStore.ts",
+        "default": "./dist/client/useIndexTagsStore.mjs"
+      },
+      "require": "./dist/client/useIndexTagsStore.js"
     },
     "./client/useTocSidebarConfig": {
-      "import": "./dist/client/useTocSidebarConfig.ts",
-      "require": "./dist/client/useTocSidebarConfig.ts"
+      "types": "./dist/client/useTocSidebarConfig.d.ts",
+      "import": {
+        "development": "./client/useTocSidebarConfig.ts",
+        "default": "./dist/client/useTocSidebarConfig.mjs"
+      },
+      "require": "./dist/client/useTocSidebarConfig.js"
     },
     "./client/TagsCloud.vue": "./dist/client/TagsCloud.vue",
     "./client/ThumbHashImage.vue": "./dist/client/ThumbHashImage.vue",
     "./client/style.css": "./dist/client/style.css"
   }
 }
-

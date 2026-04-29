@@ -5,6 +5,8 @@
 
 > Vite plugin for VitePress that replaces auto-generated sidebar entries with empty placeholders, keeping the sidebar panel visible for custom slot components.
 
+Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
+
 将 VitePress 自动生成的侧边栏条目替换为空占位组，让侧边栏面板保持可见，同时允许自定义 slot 组件完全接管导航内容。
 
 ---

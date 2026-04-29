@@ -7,7 +7,6 @@ following open-source project:
   Project:    nolebase/integrations
   Repository: https://github.com/nolebase/integrations
   License:    MIT
-  Copyright:  Copyright (c) 2023 Nólëbase Contributors
 
 The following packages were vendored from the nolebase/integrations monorepo:
   - @nolebase/integrations

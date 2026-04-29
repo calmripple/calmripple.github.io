@@ -1,4 +1,3 @@
-// Build configuration. Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
