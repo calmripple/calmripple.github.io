@@ -7,6 +7,17 @@
 
 Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
 
+---
+
+## 版权声明 / Copyright
+
+本包为 [knewbeing](https://www.dmsrs.org)（知在，zz@dmsrs.org）的**原创作品**，独立设计与实现，遵循 MIT 许可证。
+
+Copyright (c) 2024-present knewbeing（知在，zz@dmsrs.org）. All rights reserved.  
+This is an **original work** created and published independently by [knewbeing](https://www.dmsrs.org) (zz@dmsrs.org) under MIT License.
+
+---
+
 自动生成 VitePress 侧边栏、导航栏和文章列表的一站式插件。支持自动扫描 Markdown 文档、生成目录树、创建侧边栏配置、提取元数据，并提供开箱即用的 AutoToc 组件。
 
 ---

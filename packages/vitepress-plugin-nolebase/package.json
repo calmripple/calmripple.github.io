@@ -1,6 +1,6 @@
 {
   "name": "@knewbeing/vitepress-plugin-nolebase",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Vendored nolebase integrations for VitePress -?enhanced-readabilities, git-changelog, inline-link-preview, highlight-targeted-heading, index, and more. .",
   "keywords": [
     "vitepress",

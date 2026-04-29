@@ -11,6 +11,15 @@ Copyright (c) 2024-present 知在 (zz@dmsrs.org). MIT License.
 
 ---
 
+## 版权声明 / Copyright
+
+本包为 [knewbeing](https://www.dmsrs.org)（知在，zz@dmsrs.org）的**原创作品**，独立设计与实现，遵循 MIT 许可证。
+
+Copyright (c) 2024-present knewbeing（知在，zz@dmsrs.org）. All rights reserved.
+This is an **original work** created and published independently by [knewbeing](https://www.dmsrs.org) (zz@dmsrs.org) under MIT License.
+
+---
+
 ## 背景 / Background
 
 `@knewbeing/vitepress-plugin-autosidebar-toc` 在 `config` 阶段会把扫描到的目录树写入 VitePress 的 `themeConfig.sidebar`。
@@ -113,3 +122,4 @@ export default defineConfig({
 - [npm](https://www.npmjs.com/package/@knewbeing/vitepress-plugin-remove-sidebar)
 - [源码仓库](https://github.com/VitepressAwesome/vitepress-plugin-blogs)
 - [问题反馈](https://github.com/VitepressAwesome/vitepress-plugin-blogs/issues)
+
