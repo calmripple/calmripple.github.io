@@ -64,20 +64,20 @@
     "./client/AutoToc.vue": "./dist/client/AutoToc.vue",
     "./client/SidebarArticleList.vue": "./dist/client/SidebarArticleList.vue",
     "./client/useTocEntries": {
-      "import": "./dist/client/useTocEntries.mjs",
-      "require": "./dist/client/useTocEntries.js"
+      "import": "./dist/client/useTocEntries.ts",
+      "require": "./dist/client/useTocEntries.ts"
     },
     "./client/useBlogHome": {
-      "import": "./dist/client/useBlogHome.mjs",
-      "require": "./dist/client/useBlogHome.js"
+      "import": "./dist/client/useBlogHome.ts",
+      "require": "./dist/client/useBlogHome.ts"
     },
     "./client/useIndexTagsStore": {
-      "import": "./dist/client/useIndexTagsStore.mjs",
-      "require": "./dist/client/useIndexTagsStore.js"
+      "import": "./dist/client/useIndexTagsStore.ts",
+      "require": "./dist/client/useIndexTagsStore.ts"
     },
     "./client/useTocSidebarConfig": {
-      "import": "./dist/client/useTocSidebarConfig.mjs",
-      "require": "./dist/client/useTocSidebarConfig.js"
+      "import": "./dist/client/useTocSidebarConfig.ts",
+      "require": "./dist/client/useTocSidebarConfig.ts"
     },
     "./client/TagsCloud.vue": "./dist/client/TagsCloud.vue",
     "./client/ThumbHashImage.vue": "./dist/client/ThumbHashImage.vue",

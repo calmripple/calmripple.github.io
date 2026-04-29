@@ -35,7 +35,7 @@ const {
 } = useBlogHome();
 
 const { fileItems: fileEntries } = useTocEntries({ rootKeyStrategy: "currentDir" });
-const { selectedTag } = useIndexTagsStore();
+const { selectedTags, toggleTag, clearTags } = useIndexTagsStore();
 
 const TAG_COLORS_LIGHT = [
   { bg: "#fff0f0", color: "#c9362a", border: "#f5c4c0" },
@@ -80,8 +80,10 @@ function tagStyle(name: string, isActive = false) {
 }
 
 const filteredEntries = computed(() => {
-  if (!selectedTag.value) return fileEntries.value;
-  return fileEntries.value.filter((item) => item.tags.includes(selectedTag.value!));
+  if (selectedTags.value.size === 0) return fileEntries.value;
+  return fileEntries.value.filter((item) =>
+    [...selectedTags.value].every((tag) => item.tags.includes(tag)),
+  );
 });
 
 const dirCurrentPage = ref(1);
@@ -99,7 +101,6 @@ const dirCurrentItems = computed(() =>
 watch(
   fileEntries,
   (items) => {
-    selectedTag.value = null;
     const activeIdx = items.findIndex((item) => item.active);
     dirCurrentPage.value = activeIdx !== -1
       ? Math.floor(activeIdx / PAGE_SIZE.value) + 1
@@ -108,7 +109,11 @@ watch(
   { immediate: true },
 );
 
-watch(selectedTag, () => { dirCurrentPage.value = 1; });
+watch(() => route.path, () => {
+  clearTags();
+});
+
+watch(selectedTags, () => { dirCurrentPage.value = 1; });
 
 function getPaginationRange(
   current: number,
@@ -311,7 +316,7 @@ const jsonLdString = computed(() => {
     <header class="article-list__header">
       <h2 class="article-list__title" itemprop="name">Articles</h2>
       <span class="article-list__count" role="status">
-        <template v-if="selectedTag">{{ filteredEntries.length }} / {{ fileEntries.length }}</template>
+        <template v-if="selectedTags.size > 0">{{ filteredEntries.length }} / {{ fileEntries.length }}</template>
         <template v-else>{{ fileEntries.length }}</template>
       </span>
     </header>
@@ -349,12 +354,12 @@ const jsonLdString = computed(() => {
                 :key="tag"
                 class="article-card__tag"
                 :style="tagStyle(tag)"
-                :class="{ 'is-active': selectedTag === tag }"
+                :class="{ 'is-active': selectedTags.has(tag) }"
                 role="listitem"
                 tabindex="0"
-                :aria-pressed="selectedTag === tag"
-                @click="selectedTag = selectedTag === tag ? null : tag"
-                @keydown.enter="selectedTag = selectedTag === tag ? null : tag"
+                :aria-pressed="selectedTags.has(tag)"
+                @click="toggleTag(tag)"
+                @keydown.enter="toggleTag(tag)"
               >#{{ tag }}</span>
             </span>
           </div>

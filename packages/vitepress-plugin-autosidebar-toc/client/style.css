@@ -3,7 +3,7 @@
   display: none;
 }
 
-/* ── IndexTagsAside: hide outline on index pages, replaced by TagsCloud ── */
-body.is-index-page .VPDocAsideOutline {
-  display: none;
+/* ── IndexTagsAside: hide outline on pages where TagsCloud is shown ── */
+body.is-tags-aside-page .VPDocAsideOutline {
+  display: none !important;
 }

@@ -15,9 +15,9 @@
   },
   "exports": {
     "./vitepress/client": {
-      "types": "./dist/client/index.d.ts",
-      "import": "./dist/client/index.mjs",
-      "require": "./dist/client/index.js"
+      "types": "./dist/client/index.ts",
+      "import": "./dist/client/index.ts",
+      "require": "./dist/client/index.ts"
     },
     "./vitepress/vite": {
       "types": "./dist/vitepress/vite/index.d.ts",
