@@ -21,6 +21,8 @@ const isHomePage = computed(() => {
 const PAGE_SIZE = computed(() => cfg.value.tocPageSize ?? 10);
 const MAX_PAGE_BUTTONS = computed(() => cfg.value.tocMaxPageButtons ?? 9);
 const TAG_SHOW_LIMIT = 20;
+const RECENT_UPDATES_LIMIT = 6;
+const JSON_LD_MAX_ITEMS = 120;
 
 const {
   articles,
@@ -138,6 +140,10 @@ const homePaginationRange = computed(() =>
   getPaginationRange(homeCurrentPage.value, homeTotalPages.value, MAX_PAGE_BUTTONS.value),
 );
 
+const recentUpdates = computed(() =>
+  articles.value.slice(0, RECENT_UPDATES_LIMIT),
+);
+
 function handleClick(e: MouseEvent, link: string) {
   e.preventDefault();
   router.go(link);
@@ -159,14 +165,24 @@ function absoluteUrl(link: string): string {
   return `${base}${pathStr}`;
 }
 
+const canonicalHref = computed(() => {
+  const normalizedPath = route.path
+    .replace(/\/index\.html$/, "/")
+    .replace(/\/index$/, "/");
+  return absoluteUrl(normalizedPath);
+});
+
+const ogType = computed(() => (isHomePage.value ? "website" : "article"));
+
 const jsonLdString = computed(() => {
   if (isHomePage.value) {
+    const topPosts = pagedArticles.value.slice(0, JSON_LD_MAX_ITEMS);
     return toSafeJsonLd({
       "@context": "https://schema.org",
       "@type": "Blog",
       name: site.value.title ?? "",
       url: absoluteUrl("/"),
-      blogPost: pagedArticles.value.slice(0, 20).map((a, i) => ({
+      blogPost: topPosts.map((a, i) => ({
         "@type": "BlogPosting",
         position: i + 1,
         headline: a.title,
@@ -175,13 +191,14 @@ const jsonLdString = computed(() => {
       })),
     });
   }
+  const itemList = filteredEntries.value.slice(0, JSON_LD_MAX_ITEMS);
   return toSafeJsonLd({
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: page.value.title ?? "",
     url: absoluteUrl(route.path),
     numberOfItems: filteredEntries.value.length,
-    itemListElement: filteredEntries.value.map((item, i) => ({
+    itemListElement: itemList.map((item, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: item.text,
@@ -193,6 +210,9 @@ const jsonLdString = computed(() => {
 
 <template>
   <Teleport to="head">
+    <component :is="'link'" rel="canonical" :href="canonicalHref" />
+    <component :is="'meta'" property="og:type" :content="ogType" />
+    <component :is="'meta'" property="og:url" :content="canonicalHref" />
     <!-- eslint-disable-next-line vue/no-v-html -->
     <component :is="'script'" type="application/ld+json" v-html="jsonLdString" />
   </Teleport>
@@ -210,24 +230,24 @@ const jsonLdString = computed(() => {
         <div v-if="homeTags.size > 0" class="filter-bar" role="status" aria-live="polite">
           <div class="filter-bar__tags">
             <span class="filter-bar__label">Filter</span>
-            <span
+            <button
               v-for="tag in homeTags"
               :key="tag"
               class="filter-bar__chip"
-              role="button"
-              tabindex="0"
+              type="button"
               @click="homeSelectTag(tag)"
               @keydown.enter="homeSelectTag(tag)"
+              @keydown.space.prevent="homeSelectTag(tag)"
             >
               {{ tag }}
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
                 <line x1="18" y1="6" x2="6" y2="18" />
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
-            </span>
+            </button>
           </div>
           <span class="filter-bar__count">{{ articles.length }} articles</span>
-          <button class="filter-bar__clear" @click="homeSelectTag(null)">Clear all</button>
+          <button class="filter-bar__clear" type="button" @click="homeSelectTag(null)">Clear all</button>
         </div>
 
         <article
@@ -252,18 +272,18 @@ const jsonLdString = computed(() => {
                 {{ item.date }}
               </time>
               <span v-if="item.tags.length" class="article-card__tags" role="list">
-                <span
+                <button
                   v-for="tag in item.tags"
                   :key="tag"
                   class="article-card__tag"
                   :style="tagStyle(tag, homeTags.has(tag))"
                   :class="{ 'is-active': homeTags.has(tag) }"
-                  role="listitem"
-                  tabindex="0"
+                  type="button"
                   :aria-pressed="homeTags.has(tag)"
                   @click="homeSelectTag(tag)"
                   @keydown.enter="homeSelectTag(tag)"
-                >#{{ tag }}</span>
+                  @keydown.space.prevent="homeSelectTag(tag)"
+                >#{{ tag }}</button>
               </span>
             </div>
             <p v-if="item.description" class="article-card__desc" itemprop="description">{{ item.description }}</p>
@@ -276,12 +296,12 @@ const jsonLdString = computed(() => {
         <div v-if="!pagedArticles.length" class="article-list__empty" role="status">No articles found</div>
 
         <nav v-if="homeTotalPages > 1" class="article-list__pagination" aria-label="Article pages">
-          <button class="page-btn page-btn--nav" :disabled="homeCurrentPage <= 1" aria-label="Previous" @click="homeGoToPage(homeCurrentPage - 1)">&lsaquo;</button>
+          <button class="page-btn page-btn--nav" type="button" :disabled="homeCurrentPage <= 1" aria-label="Previous" @click="homeGoToPage(homeCurrentPage - 1)">&lsaquo;</button>
           <template v-for="p in homePaginationRange" :key="p">
             <span v-if="p === '...'" class="page-ellipsis" aria-hidden="true">&hellip;</span>
-            <button v-else :class="['page-btn', { 'is-active': p === homeCurrentPage }]" :aria-current="p === homeCurrentPage ? 'page' : undefined" @click="homeGoToPage(Number(p))">{{ p }}</button>
+            <button v-else :class="['page-btn', { 'is-active': p === homeCurrentPage }]" type="button" :aria-current="p === homeCurrentPage ? 'page' : undefined" @click="homeGoToPage(Number(p))">{{ p }}</button>
           </template>
-          <button class="page-btn page-btn--nav" :disabled="homeCurrentPage >= homeTotalPages" aria-label="Next" @click="homeGoToPage(homeCurrentPage + 1)">&rsaquo;</button>
+          <button class="page-btn page-btn--nav" type="button" :disabled="homeCurrentPage >= homeTotalPages" aria-label="Next" @click="homeGoToPage(homeCurrentPage + 1)">&rsaquo;</button>
         </nav>
       </div>
     </div>
@@ -298,6 +318,15 @@ const jsonLdString = computed(() => {
             <span class="stat-item__label">Tags</span>
           </div>
         </div>
+      </div>
+      <div v-if="recentUpdates.length" class="sidebar-card">
+        <h3 class="sidebar-card__title">最近更新</h3>
+        <ul class="recent-updates" role="list">
+          <li v-for="item in recentUpdates" :key="item.link" class="recent-updates__item">
+            <a class="recent-updates__link" :href="item.link" @click="(e) => handleClick(e, item.link)">{{ item.title }}</a>
+            <time v-if="item.date" class="recent-updates__date" :datetime="item.date">{{ item.date }}</time>
+          </li>
+        </ul>
       </div>
       <div v-if="allTags.length" class="sidebar-card">
         <TagsCloud :tags="allTags" :selected="homeTags" :limit="TAG_SHOW_LIMIT" title="Tags" @select="homeSelectTag" />
@@ -348,18 +377,18 @@ const jsonLdString = computed(() => {
               {{ item.date }}
             </time>
             <span v-if="item.tags.length" class="article-card__tags" role="list">
-              <span
+              <button
                 v-for="tag in item.tags"
                 :key="tag"
                 class="article-card__tag"
                 :style="tagStyle(tag)"
                 :class="{ 'is-active': selectedTags.has(tag) }"
-                role="listitem"
-                tabindex="0"
+                type="button"
                 :aria-pressed="selectedTags.has(tag)"
                 @click="toggleTag(tag)"
                 @keydown.enter="toggleTag(tag)"
-              >#{{ tag }}</span>
+                @keydown.space.prevent="toggleTag(tag)"
+              >#{{ tag }}</button>
             </span>
           </div>
           <p v-if="item.description" class="article-card__desc">{{ item.description }}</p>
@@ -373,12 +402,12 @@ const jsonLdString = computed(() => {
     </div>
 
     <nav v-if="dirTotalPages > 1" class="article-list__pagination" aria-label="Article pages">
-      <button class="page-btn page-btn--nav" :disabled="dirCurrentPage <= 1" aria-label="Previous" @click="dirCurrentPage--">&lsaquo;</button>
+      <button class="page-btn page-btn--nav" type="button" :disabled="dirCurrentPage <= 1" aria-label="Previous" @click="dirCurrentPage--">&lsaquo;</button>
       <template v-for="p in dirPaginationRange" :key="p">
         <span v-if="p === '...'" class="page-ellipsis" aria-hidden="true">&hellip;</span>
-        <button v-else :class="['page-btn', { 'is-active': p === dirCurrentPage }]" :aria-current="p === dirCurrentPage ? 'page' : undefined" @click="dirCurrentPage = Number(p)">{{ p }}</button>
+        <button v-else :class="['page-btn', { 'is-active': p === dirCurrentPage }]" type="button" :aria-current="p === dirCurrentPage ? 'page' : undefined" @click="dirCurrentPage = Number(p)">{{ p }}</button>
       </template>
-      <button class="page-btn page-btn--nav" :disabled="dirCurrentPage >= dirTotalPages" aria-label="Next" @click="dirCurrentPage++">&rsaquo;</button>
+      <button class="page-btn page-btn--nav" type="button" :disabled="dirCurrentPage >= dirTotalPages" aria-label="Next" @click="dirCurrentPage++">&rsaquo;</button>
     </nav>
   </nav>
 </template>
@@ -474,6 +503,7 @@ const jsonLdString = computed(() => {
   background: color-mix(in srgb, var(--vp-c-brand-soft) 40%, transparent);
   border-radius: 12px;
   cursor: pointer;
+  border: 0;
   transition: all 0.2s;
 }
 
@@ -514,6 +544,8 @@ const jsonLdString = computed(() => {
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   transition: all 0.3s ease;
+  content-visibility: auto;
+  contain-intrinsic-size: 240px;
 }
 
 .article-card:hover {
@@ -571,6 +603,7 @@ const jsonLdString = computed(() => {
 .article-card__tag {
   padding: 1px 8px;
   font-size: 11px;
+  font-family: inherit;
   color: var(--tag-color, var(--vp-c-brand-1));
   background: var(--tag-bg, color-mix(in srgb, var(--vp-c-brand-soft) 25%, transparent));
   border: 1px solid var(--tag-border, transparent);
@@ -580,6 +613,14 @@ const jsonLdString = computed(() => {
 }
 
 .article-card__tag:hover { filter: brightness(0.93); }
+
+.article-card__tag:focus-visible,
+.filter-bar__chip:focus-visible,
+.page-btn:focus-visible,
+.filter-bar__clear:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
 
 .article-card__tag.is-active {
   color: #fff;
@@ -669,10 +710,48 @@ const jsonLdString = computed(() => {
   border-radius: 12px;
 }
 
+.sidebar-card__title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
 .sidebar-card__stats {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+
+.recent-updates {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recent-updates__item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.recent-updates__link {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.recent-updates__link:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.recent-updates__date {
+  font-size: 12px;
+  color: var(--vp-c-text-3);
 }
 
 .stat-item { display: flex; flex-direction: column; gap: 4px; }
@@ -686,6 +765,17 @@ const jsonLdString = computed(() => {
 .stat-item__label {
   font-size: 12px;
   color: var(--vp-c-text-3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .article-card,
+  .article-card__title a,
+  .article-card__tag,
+  .filter-bar__chip,
+  .page-btn,
+  .filter-bar__clear {
+    transition: none;
+  }
 }
 
 @media (max-width: 960px) {

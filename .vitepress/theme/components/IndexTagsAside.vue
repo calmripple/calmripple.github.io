@@ -49,6 +49,7 @@ const tagsStore = useIndexTagsStore() as any;
 const selectedTags = tagsStore.selectedTags;
 const toggleTag = tagsStore.toggleTag as (tag: string) => void;
 const syncingFromUrl = ref(false);
+const RECENT_UPDATES_LIMIT = 6;
 
 function readTagsFromUrl(): Set<string> {
   if (typeof window === "undefined") return new Set();
@@ -113,14 +114,29 @@ const allTags = computed(() => {
   );
 });
 
+const recentUpdates = computed(() =>
+  fileEntries.value.slice(0, RECENT_UPDATES_LIMIT),
+);
+
 function handleTagSelect(tag: string) {
   toggleTag(tag);
 }
 </script>
 
 <template>
-  <div v-if="shouldShowTagsAside && allTags.length" class="index-tags-aside">
+  <div v-if="shouldShowTagsAside && (recentUpdates.length || allTags.length)" class="index-tags-aside">
+    <section v-if="recentUpdates.length" class="recent-updates-panel" aria-label="最近更新">
+      <h3 class="recent-updates-panel__title">最近更新</h3>
+      <ul class="recent-updates-panel__list">
+        <li v-for="item in recentUpdates" :key="item.link" class="recent-updates-panel__item">
+          <a :href="item.link" class="recent-updates-panel__link">{{ item.text }}</a>
+          <time v-if="item.date" :datetime="item.date" class="recent-updates-panel__date">{{ item.date }}</time>
+        </li>
+      </ul>
+    </section>
+
     <TagsCloud
+      v-if="allTags.length"
       :tags="allTags"
       :selected="selectedTags"
       title="🏷️ 标签"
@@ -132,6 +148,52 @@ function handleTagSelect(tag: string) {
 <style scoped>
 .index-tags-aside {
   padding-bottom: 8px;
+}
+
+.recent-updates-panel {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+
+.recent-updates-panel__title {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.recent-updates-panel__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recent-updates-panel__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.recent-updates-panel__link {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.recent-updates-panel__link:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.recent-updates-panel__date {
+  font-size: 11px;
+  color: var(--vp-c-text-3);
 }
 
 :global(body.is-tags-aside-page .VPDocAsideOutline) {
