@@ -3,12 +3,14 @@ import type { Plugin } from 'vue'
 import type { Locale, Options } from './types'
 
 import NolebaseGraphView from './components/NolebaseGraphView.vue'
+import NolebaseGraphView3D from './components/NolebaseGraphView3D.vue'
 
 import { InjectionKey } from './constants'
 
 export {
   InjectionKey,
   NolebaseGraphView,
+  NolebaseGraphView3D,
 }
 
 export type {
@@ -18,6 +20,7 @@ export type {
 
 const components = {
   NolebaseGraphView,
+  NolebaseGraphView3D,
 }
 
 export const NolebaseGraphViewPlugin: Plugin<Options[], Options[]> = {

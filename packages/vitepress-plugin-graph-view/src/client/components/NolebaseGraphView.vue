@@ -19,12 +19,15 @@ interface PositionedNode extends GraphViewNode {
   vx: number
   vy: number
   degree: number
+  radius: number
+  labelOffsetY: number
   fixed?: boolean
 }
 
 const options = inject(InjectionKey, defaultOptions)
 const { t } = useI18n()
 
+const searchInput = ref('')
 const search = ref('')
 const hoveredNodeId = ref<string>()
 const selectedNodeId = ref<string>()
@@ -38,6 +41,7 @@ const graphHeight = 620
 const graphPadding = 64
 const graphCenterX = graphWidth / 2
 const graphCenterY = graphHeight / 2
+const initialGraphScale = 0.62
 
 const viewport = reactive({
   x: 0,
@@ -64,6 +68,7 @@ const interaction = reactive<{
 })
 
 let animationFrame: number | undefined
+let searchDebounceTimer: ReturnType<typeof window.setTimeout> | undefined
 
 const heightStyle = computed(() => {
   const height = props.height || options.height || defaultOptions.height
@@ -76,6 +81,14 @@ const maxNodes = computed(() => {
   const value = props.maxNodes ?? options.maxNodes ?? defaultOptions.maxNodes
   return value > 0 ? value : defaultOptions.maxNodes
 })
+
+function radiusForDegree(degree: number): number {
+  return Math.min(18, 4 + degree * 1.1)
+}
+
+function labelOffsetForRadius(radius: number): number {
+  return Math.min(34, radius + 13)
+}
 
 const filteredNodeIds = computed(() => {
   const keyword = search.value.trim().toLowerCase()
@@ -121,8 +134,36 @@ const visibleEdges = computed(() => {
   return props.data.edges.filter(edge => visibleNodeIds.value.has(edge.source) && visibleNodeIds.value.has(edge.target))
 })
 
+const labelVisibleNodeIds = computed(() => {
+  const top = [...visibleNodes.value]
+    .sort((a, b) => {
+      return radiusForDegree((degreeByNodeId.value.get(b.id) || 0)) - radiusForDegree((degreeByNodeId.value.get(a.id) || 0))
+    })
+    .slice(0, 20)
+
+  return new Set(top.map(node => node.id))
+})
+
 const positionedNodeById = computed(() => {
   return new Map(positionedNodes.value.map(node => [node.id, node]))
+})
+
+const renderedEdges = computed(() => {
+  return visibleEdges.value.flatMap((edge) => {
+    const source = positionedNodeById.value.get(edge.source)
+    const target = positionedNodeById.value.get(edge.target)
+    if (!source || !target)
+      return []
+
+    return [{
+      key: `${edge.source}-${edge.target}-${edge.type}`,
+      x1: source.x,
+      y1: source.y,
+      x2: target.x,
+      y2: target.y,
+      active: isEdgeActive(edge),
+    }]
+  })
 })
 
 const graphTransform = computed(() => {
@@ -145,11 +186,13 @@ function buildInitialNodes() {
         vy: oldNode.vy,
         fixed: oldNode.fixed,
         degree: degreeByNodeId.value.get(node.id) || 0,
+        radius: radiusForDegree(degreeByNodeId.value.get(node.id) || 0),
+        labelOffsetY: labelOffsetForRadius(radiusForDegree(degreeByNodeId.value.get(node.id) || 0)),
       }
     }
 
     const angle = (Math.PI * 2 * index) / Math.max(visibleNodes.value.length, 1)
-    const radius = Math.min(graphWidth, graphHeight) * 0.34
+    const radius = Math.min(graphWidth, graphHeight) * 0.42
 
     return {
       ...node,
@@ -158,6 +201,8 @@ function buildInitialNodes() {
       vx: 0,
       vy: 0,
       degree: degreeByNodeId.value.get(node.id) || 0,
+      radius: radiusForDegree(degreeByNodeId.value.get(node.id) || 0),
+      labelOffsetY: labelOffsetForRadius(radiusForDegree(degreeByNodeId.value.get(node.id) || 0)),
     }
   })
 
@@ -172,9 +217,11 @@ function tickSimulation() {
   const nodes = positionedNodes.value
   const nodeById = positionedNodeById.value
   const alpha = simulationAlpha.value
-  const repulsionStrength = 820 * alpha
-  const linkStrength = 0.018 * alpha
-  const centerStrength = 0.004 * alpha
+  const repulsionStrength = 240 * alpha
+  const linkStrength = 0.028 * alpha
+  const centerStrength = 0.006 * alpha
+  const repulsionDistance = alpha > 0.45 ? 9999 : 320
+  const repulsionDistanceSquared = repulsionDistance * repulsionDistance
 
   for (let sourceIndex = 0; sourceIndex < nodes.length; sourceIndex += 1) {
     for (let targetIndex = sourceIndex + 1; targetIndex < nodes.length; targetIndex += 1) {
@@ -182,7 +229,11 @@ function tickSimulation() {
       const targetNode = nodes[targetIndex]
       const deltaX = sourceNode.x - targetNode.x || 0.1
       const deltaY = sourceNode.y - targetNode.y || 0.1
-      const distance = Math.max(Math.sqrt(deltaX * deltaX + deltaY * deltaY), 12)
+      const distanceSquared = deltaX * deltaX + deltaY * deltaY
+      if (distanceSquared > repulsionDistanceSquared)
+        continue
+
+      const distance = Math.max(Math.sqrt(distanceSquared), 12)
       const force = repulsionStrength / (distance * distance)
       const moveX = (deltaX / distance) * force
       const moveY = (deltaY / distance) * force
@@ -207,7 +258,7 @@ function tickSimulation() {
     const deltaX = targetNode.x - sourceNode.x
     const deltaY = targetNode.y - sourceNode.y
     const distance = Math.max(Math.sqrt(deltaX * deltaX + deltaY * deltaY), 1)
-    const desiredDistance = 132 + Math.min(80, sourceNode.degree + targetNode.degree)
+    const desiredDistance = 180 + Math.min(120, (sourceNode.degree + targetNode.degree) * 2.4)
     const force = (distance - desiredDistance) * linkStrength
     const moveX = (deltaX / distance) * force
     const moveY = (deltaY / distance) * force
@@ -397,9 +448,9 @@ function handlePointerUp() {
 }
 
 function resetView() {
-  viewport.x = 0
-  viewport.y = 0
-  viewport.scale = 1
+  viewport.scale = initialGraphScale
+  viewport.x = (graphWidth - graphWidth * initialGraphScale) / 2
+  viewport.y = (graphHeight - graphHeight * initialGraphScale) / 2
 }
 
 function zoomBy(multiplier: number) {
@@ -416,6 +467,20 @@ function openNode(node: GraphViewNode) {
   window.location.href = node.url
 }
 
+watch(searchInput, (value) => {
+  if (typeof window === 'undefined') {
+    search.value = value
+    return
+  }
+
+  if (searchDebounceTimer)
+    window.clearTimeout(searchDebounceTimer)
+
+  searchDebounceTimer = window.setTimeout(() => {
+    search.value = value
+  }, 120)
+})
+
 watch([visibleNodes, visibleEdges], () => {
   buildInitialNodes()
 }, { immediate: true })
@@ -424,12 +489,15 @@ onMounted(async () => {
   window.addEventListener('pointermove', handlePointerMove)
   window.addEventListener('pointerup', handlePointerUp)
   await nextTick()
+  resetView()
   restartSimulation()
 })
 
 onBeforeUnmount(() => {
   window.removeEventListener('pointermove', handlePointerMove)
   window.removeEventListener('pointerup', handlePointerUp)
+  if (searchDebounceTimer)
+    window.clearTimeout(searchDebounceTimer)
   if (animationFrame)
     window.cancelAnimationFrame(animationFrame)
 })
@@ -444,7 +512,7 @@ onBeforeUnmount(() => {
       </div>
       <div class="VPNolebaseGraphViewToolbarActions">
         <input
-          v-model="search"
+          v-model="searchInput"
           type="search"
           :placeholder="t('graphView.searchPlaceholder')"
           class="VPNolebaseGraphViewSearch"
@@ -483,14 +551,13 @@ onBeforeUnmount(() => {
         <g class="VPNolebaseGraphViewViewport" :transform="graphTransform">
           <rect class="VPNolebaseGraphViewHitArea" :width="graphWidth" :height="graphHeight" />
           <g class="VPNolebaseGraphViewEdges">
-          <template v-for="edge of visibleEdges" :key="`${edge.source}-${edge.target}-${edge.type}`">
+          <template v-for="edge of renderedEdges" :key="edge.key">
             <line
-              v-if="positionedNodeById.get(edge.source) && positionedNodeById.get(edge.target)"
-              :x1="positionedNodeById.get(edge.source)?.x"
-              :y1="positionedNodeById.get(edge.source)?.y"
-              :x2="positionedNodeById.get(edge.target)?.x"
-              :y2="positionedNodeById.get(edge.target)?.y"
-              :class="{ active: isEdgeActive(edge) }"
+              :x1="edge.x1"
+              :y1="edge.y1"
+              :x2="edge.x2"
+              :y2="edge.y2"
+              :class="{ active: edge.active }"
             />
           </template>
           </g>
@@ -506,8 +573,14 @@ onBeforeUnmount(() => {
             @click.stop.prevent="selectNode(node)"
             @dblclick.stop.prevent="openNode(node)"
           >
-            <circle :cx="node.x" :cy="node.y" :r="Math.min(22, 7 + node.degree * 1.8)" />
-            <text :x="node.x" :y="node.y + Math.min(34, 20 + node.degree * 1.8)">{{ labelOf(node) }}</text>
+            <circle :cx="node.x" :cy="node.y" :r="node.radius" />
+            <text
+              v-if="labelVisibleNodeIds.has(node.id)"
+              :x="node.x"
+              :y="node.y + node.labelOffsetY"
+            >
+              {{ labelOf(node) }}
+            </text>
           </g>
           </g>
         </g>
@@ -533,33 +606,46 @@ onBeforeUnmount(() => {
 <style scoped>
 .VPNolebaseGraphView {
   position: relative;
-  margin: 24px 0;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg);
+  margin: 0;
+  border: 1px solid rgb(255 255 255 / 6%);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 20% 16%, rgb(120 150 255 / 10%), transparent 24%),
+    radial-gradient(circle at 80% 18%, rgb(120 255 214 / 8%), transparent 22%),
+    linear-gradient(180deg, #10141c 0%, #0c1017 100%);
+  box-shadow: 0 18px 48px rgb(0 0 0 / 28%);
   overflow: hidden;
 }
 
 .VPNolebaseGraphViewToolbar {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  z-index: 3;
   display: flex;
   gap: 16px;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg-soft);
+  padding: 10px 12px;
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 12px;
+  background: rgb(11 14 20 / 62%);
+  backdrop-filter: blur(14px);
 }
 
 .VPNolebaseGraphViewToolbar h2 {
   margin: 0;
-  font-size: 16px;
+  color: rgb(236 240 246 / 92%);
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1.4;
 }
 
 .VPNolebaseGraphViewToolbar p {
   margin: 2px 0 0;
-  color: var(--vp-c-text-2);
-  font-size: 13px;
+  color: rgb(180 188 203 / 74%);
+  font-size: 12px;
 }
 
 .VPNolebaseGraphViewToolbarActions {
@@ -574,11 +660,15 @@ onBeforeUnmount(() => {
   min-width: 180px;
   max-width: 260px;
   width: min(260px, 100%);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 10px;
   padding: 7px 10px;
-  background: var(--vp-c-bg);
-  color: var(--vp-c-text-1);
+  background: rgb(255 255 255 / 4%);
+  color: rgb(236 240 246 / 92%);
+}
+
+.VPNolebaseGraphViewSearch::placeholder {
+  color: rgb(180 188 203 / 54%);
 }
 
 .VPNolebaseGraphViewControls {
@@ -586,9 +676,9 @@ onBeforeUnmount(() => {
   flex: none;
   align-items: center;
   overflow: hidden;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  background: var(--vp-c-bg);
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 10px;
+  background: rgb(255 255 255 / 4%);
 }
 
 .VPNolebaseGraphViewControls button,
@@ -598,9 +688,9 @@ onBeforeUnmount(() => {
   height: 34px;
   place-items: center;
   border: 0;
-  border-right: 1px solid var(--vp-c-divider);
+  border-right: 1px solid rgb(255 255 255 / 8%);
   background: transparent;
-  color: var(--vp-c-text-2);
+  color: rgb(204 212 225 / 82%);
   font: inherit;
   font-size: 13px;
 }
@@ -610,13 +700,13 @@ onBeforeUnmount(() => {
 }
 
 .VPNolebaseGraphViewControls button:hover {
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
+  background: rgb(255 255 255 / 7%);
+  color: rgb(245 247 250 / 96%);
 }
 
 .VPNolebaseGraphViewControls span {
   min-width: 48px;
-  color: var(--vp-c-text-2);
+  color: rgb(180 188 203 / 72%);
 }
 
 .VPNolebaseGraphViewControls :last-child {
@@ -627,6 +717,11 @@ onBeforeUnmount(() => {
   position: relative;
   min-height: 360px;
   user-select: none;
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.03) 1px, transparent 1px);
+  background-position: center center;
+  background-size: 32px 32px;
 }
 
 .VPNolebaseGraphViewCanvas svg {
@@ -647,18 +742,20 @@ onBeforeUnmount(() => {
 }
 
 .VPNolebaseGraphViewEdges line {
-  stroke: var(--vp-nolebase-graph-edge);
-  stroke-width: 1.4;
+  stroke: rgb(140 154 183 / 26%);
+  stroke-width: 0.9;
+  opacity: 0.42;
   transition: stroke 0.2s ease, stroke-width 0.2s ease, opacity 0.2s ease;
 }
 
 .VPNolebaseGraphViewEdges line.active {
-  stroke: var(--vp-nolebase-graph-edge-active);
-  stroke-width: 2.4;
+  stroke: rgb(151 196 255 / 92%);
+  stroke-width: 1.5;
+  opacity: 0.92;
 }
 
 .VPNolebaseGraphViewNodes g {
-  color: var(--vp-c-text-2);
+  color: rgb(160 170 188 / 52%);
   cursor: grab;
   outline: none;
 }
@@ -668,58 +765,63 @@ onBeforeUnmount(() => {
 }
 
 .VPNolebaseGraphViewNodes circle {
-  fill: var(--vp-nolebase-graph-node);
-  stroke: var(--vp-c-bg);
-  stroke-width: 3;
-  transition: fill 0.2s ease, r 0.2s ease, opacity 0.2s ease;
+  fill: rgb(132 153 192 / 84%);
+  stroke: rgb(16 20 28 / 92%);
+  stroke-width: 2;
+  filter: drop-shadow(0 0 10px rgb(118 147 194 / 18%));
+  transition: fill 0.2s ease, r 0.2s ease, opacity 0.2s ease, filter 0.2s ease;
 }
 
 .VPNolebaseGraphViewNodes text {
   pointer-events: none;
   text-anchor: middle;
   fill: currentColor;
-  font-size: 13px;
+  font-size: 11px;
+  font-weight: 500;
   paint-order: stroke;
-  stroke: var(--vp-c-bg);
-  stroke-width: 4px;
+  stroke: rgb(12 16 23 / 92%);
+  stroke-width: 5px;
   stroke-linejoin: round;
 }
 
 .VPNolebaseGraphViewNodes g.active,
 .VPNolebaseGraphViewNodes g.selected {
-  color: var(--vp-c-text-1);
+  color: rgb(238 242 249 / 96%);
 }
 
 .VPNolebaseGraphViewNodes g.active circle,
 .VPNolebaseGraphViewNodes g.selected circle {
-  fill: var(--vp-nolebase-graph-node-active);
+  fill: rgb(114 177 255 / 98%);
+  filter: drop-shadow(0 0 18px rgb(114 177 255 / 36%));
 }
 
 .VPNolebaseGraphViewNodes g.external circle {
-  fill: var(--vp-c-warning-1);
+  fill: rgb(247 187 95 / 96%);
 }
 
 .VPNolebaseGraphViewPanel {
   position: absolute;
   right: 16px;
   bottom: 16px;
+  z-index: 2;
   width: min(320px, calc(100% - 32px));
   padding: 14px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--vp-c-bg) 94%, transparent);
-  box-shadow: var(--vp-shadow-3);
-  backdrop-filter: blur(8px);
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 12px;
+  background: rgb(10 13 19 / 82%);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 30%);
+  backdrop-filter: blur(14px);
 }
 
 .VPNolebaseGraphViewPanel h3 {
   margin: 0;
   font-size: 15px;
+  color: rgb(244 247 250 / 96%);
 }
 
 .VPNolebaseGraphViewPanel p {
   margin: 6px 0 10px;
-  color: var(--vp-c-text-2);
+  color: rgb(174 183 198 / 72%);
   font-size: 12px;
   overflow-wrap: anywhere;
 }
@@ -727,7 +829,7 @@ onBeforeUnmount(() => {
 .VPNolebaseGraphViewOpen {
   display: inline-flex;
   margin-bottom: 10px;
-  color: var(--vp-c-brand-1);
+  color: rgb(144 190 255 / 96%);
   font-size: 13px;
   font-weight: 600;
 }
@@ -739,7 +841,7 @@ onBeforeUnmount(() => {
 }
 
 .VPNolebaseGraphViewRelated strong {
-  color: var(--vp-c-text-2);
+  color: rgb(174 183 198 / 72%);
   font-size: 12px;
 }
 
@@ -747,7 +849,7 @@ onBeforeUnmount(() => {
   display: grid;
   min-height: 260px;
   place-items: center;
-  color: var(--vp-c-text-2);
+  color: rgb(174 183 198 / 72%);
 }
 
 @media (max-width: 767px) {

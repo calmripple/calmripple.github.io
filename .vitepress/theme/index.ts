@@ -10,6 +10,7 @@ import SidebarArticleList from '@knewbeing/vitepress-plugin-autosidebar-toc/clie
 import '@knewbeing/vitepress-plugin-autosidebar-toc/client/style.css'
 import PageProperties from '@knewbeing/vitepress-plugin-page-properties/client/PageProperties.vue'
 import PagePropertiesEditor from '@knewbeing/vitepress-plugin-page-properties/client/PagePropertiesEditor.vue'
+import { NolebaseGraphView3D } from '@knewbeing/vitepress-plugin-graph-view/client'
 import IndexAutoToc from '@/theme/components/IndexAutoToc.vue'
 import IndexTagsAside from '@/theme/components/IndexTagsAside.vue'
 import 'virtual:uno.css'
@@ -72,6 +73,7 @@ const ExtendedTheme: Theme = {
     // 注册自有页面属性组件（替代 @nolebase/vitepress-plugin-page-properties）
     ctx.app.component('KnewbeingPageProperties', PageProperties)
     ctx.app.component('KnewbeingPagePropertiesEditor', PagePropertiesEditor)
+    ctx.app.component('NolebaseGraphView3D', NolebaseGraphView3D)
   },
 }
 

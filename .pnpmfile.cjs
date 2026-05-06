@@ -71,6 +71,7 @@ function rewrite(pkgName, deps) {
  * @param {{ dependencies?: Record<string, string>, devDependencies?: Record<string, string> }} pkg
  */
 function readPackage(pkg) {
+  return pkg
   rewrite(pkg.name, pkg.dependencies)
   rewrite(pkg.name, pkg.devDependencies)
   return pkg
