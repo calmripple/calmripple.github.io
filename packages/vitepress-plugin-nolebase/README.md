@@ -30,6 +30,7 @@ See [NOTICE.md](./NOTICE.md) for full attribution details.
 | `enhanced-readabilities/*` | `@nolebase/vitepress-plugin-enhanced-readabilities` |
 | `highlight-targeted-heading/*` | `@nolebase/vitepress-plugin-highlight-targeted-heading` |
 | `git-changelog/*` | `@nolebase/vitepress-plugin-git-changelog` |
+| `graph-view/*` | `@nolebase/vitepress-plugin-graph-view` |
 | `inline-link-preview/*` | `@nolebase/vitepress-plugin-inline-link-preview` |
 | `index-plugin/*` | `@nolebase/vitepress-plugin-index` |
 | `enhanced-mark/*` | `@nolebase/vitepress-plugin-enhanced-mark` |
@@ -37,7 +38,7 @@ See [NOTICE.md](./NOTICE.md) for full attribution details.
 
 ## 功能特性 / Features
 
-- 📦 **一站式封装** — 单包涵盖 enhanced-readabilities、git-changelog、inline-link-preview、highlight-targeted-heading、index、enhanced-mark 等全部插件
+- 📦 **一站式封装** — 单包涵盖 enhanced-readabilities、git-changelog、graph-view、inline-link-preview、highlight-targeted-heading、index、enhanced-mark 等全部插件
 - 🔧 **本地化跨包引用** — 将所有 @nolebase 包内部 import 改写为本地路径，消除外部依赖冲突
 - 🚀 **三行接入** — `presetVite` / `presetClient` / `presetMarkdownIt` 三个预设函数，极简配置
 - 🌐 **多语言支持** — 继承所有子插件的 i18n 能力
@@ -50,6 +51,7 @@ See [NOTICE.md](./NOTICE.md) for full attribution details.
 npm install @knewbeing/vitepress-plugin-nolebase
 # or
 pnpm add @knewbeing/vitepress-plugin-nolebase
+
 ```
 
 ---
@@ -72,6 +74,7 @@ export default defineConfig({
     return await transformHeadMeta()(ctx)
   },
 })
+
 ```
 
 ```ts
@@ -86,6 +89,7 @@ export default {
     presetClient(app)
   },
 } satisfies Theme
+
 ```
 
 ```ts
@@ -99,6 +103,7 @@ export default defineConfig({
     },
   },
 })
+
 ```
 
 ---

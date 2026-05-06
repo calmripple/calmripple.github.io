@@ -1,0 +1,6 @@
+.VPNolebaseGraphView {
+  --vp-nolebase-graph-node: var(--vp-c-brand-1);
+  --vp-nolebase-graph-node-active: var(--vp-c-brand-2);
+  --vp-nolebase-graph-edge: color-mix(in srgb, var(--vp-c-text-2) 32%, transparent);
+  --vp-nolebase-graph-edge-active: var(--vp-c-brand-1);
+}

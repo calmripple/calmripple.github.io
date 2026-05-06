@@ -38,6 +38,7 @@ export function presetClient<PagePropertiesObject extends object = any>(options?
         commitsRelativeTime: true,
       },
     },
+    graphView: true,
     highlightTargetedHeading: true as any,
     index: true as any,
     inlineLinkPreview: true as any,
@@ -85,6 +86,14 @@ export function presetClient<PagePropertiesObject extends object = any>(options?
 
         const gitChangelogOptions = opts.gitChangelog?.options ? [opts.gitChangelog.options] : []
         app.use(NolebaseGitChangelogPlugin, ...gitChangelogOptions)
+      }
+
+      if (opts.graphView) {
+        const { NolebaseGraphViewPlugin } = await import('@knewbeing/vitepress-plugin-graph-view/client')
+        await import('@knewbeing/vitepress-plugin-graph-view/client/style.css')
+
+        const graphViewOptions = typeof opts.graphView === 'object' && opts.graphView.options ? [opts.graphView.options] : []
+        app.use(NolebaseGraphViewPlugin, ...graphViewOptions)
       }
 
       if (opts.enhancedMark)

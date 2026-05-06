@@ -1,12 +1,13 @@
 {
   "name": "@knewbeing/vitepress-plugin-nolebase",
   "version": "1.1.1",
-  "description": "Vendored nolebase integrations for VitePress -?enhanced-readabilities, git-changelog, inline-link-preview, highlight-targeted-heading, index, and more. .",
+  "description": "Vendored nolebase integrations for VitePress - enhanced-readabilities, git-changelog, graph-view, inline-link-preview, highlight-targeted-heading, index, and more.",
   "keywords": [
     "vitepress",
     "nolebase",
     "enhanced-readabilities",
     "git-changelog",
+    "graph-view",
     "inline-link-preview",
     "vite-plugin",
     "typescript"
@@ -74,6 +75,7 @@
     "@knewbeing/vitepress-plugin-enhanced-mark": "workspace:*",
     "@knewbeing/vitepress-plugin-enhanced-readabilities": "workspace:*",
     "@knewbeing/vitepress-plugin-git-changelog": "workspace:*",
+    "@knewbeing/vitepress-plugin-graph-view": "workspace:*",
     "@knewbeing/vitepress-plugin-highlight-targeted-heading": "workspace:*",
     "@knewbeing/vitepress-plugin-index": "workspace:*",
     "@knewbeing/vitepress-plugin-inline-link-preview": "workspace:*",

@@ -43,6 +43,7 @@
     "@iconify-json/octicon": "^1.2.22",
     "@iconify-json/svg-spinners": "^1.2.4",
     "@knewbeing/vitepress-plugin-autosidebar-toc": "workspace:*",
+    "@knewbeing/vitepress-plugin-graph-view": "workspace:*",
     "@knewbeing/vitepress-plugin-index": "workspace:*",
     "@knewbeing/vitepress-plugin-meta": "workspace:*",
     "@knewbeing/vitepress-plugin-nolebase": "workspace:*",

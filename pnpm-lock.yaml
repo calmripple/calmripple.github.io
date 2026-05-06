@@ -158,22 +158,25 @@ importers:
         specifier: ^1.2.4
         version: 1.2.4
       '@knewbeing/vitepress-plugin-autosidebar-toc':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-autosidebar-toc
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-autosidebar-toc
         version: link:packages/vitepress-plugin-autosidebar-toc
+      '@knewbeing/vitepress-plugin-graph-view':
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-graph-view
+        version: link:packages/vitepress-plugin-graph-view
       '@knewbeing/vitepress-plugin-index':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-index
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-index
         version: link:packages/vitepress-plugin-index
       '@knewbeing/vitepress-plugin-meta':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-meta
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-meta
         version: link:packages/vitepress-plugin-meta
       '@knewbeing/vitepress-plugin-nolebase':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-nolebase
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-nolebase
         version: link:packages/vitepress-plugin-nolebase
       '@knewbeing/vitepress-plugin-page-properties':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-page-properties
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-page-properties
         version: link:packages/vitepress-plugin-page-properties
       '@knewbeing/vitepress-plugin-remove-sidebar':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-remove-sidebar
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-remove-sidebar
         version: link:packages/vitepress-plugin-remove-sidebar
       '@netlify/functions':
         specifier: ^5.1.5
@@ -430,7 +433,7 @@ importers:
   packages/vitepress-plugin-enhanced-readabilities:
     dependencies:
       '@knewbeing/ui':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\ui
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\ui
         version: link:../ui
       '@vueuse/core':
         specifier: 'catalog:'
@@ -458,7 +461,7 @@ importers:
   packages/vitepress-plugin-git-changelog:
     dependencies:
       '@knewbeing/ui':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\ui
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\ui
         version: link:../ui
       colorette:
         specifier: 'catalog:'
@@ -513,6 +516,43 @@ importers:
         specifier: 'catalog:'
         version: 3.2.7(typescript@6.0.2)
 
+  packages/vitepress-plugin-graph-view:
+    dependencies:
+      '@knewbeing/ui':
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\ui
+        version: link:../ui
+      defu:
+        specifier: 'catalog:'
+        version: 6.1.7
+      gray-matter:
+        specifier: 'catalog:'
+        version: 4.0.3
+      tinyglobby:
+        specifier: 'catalog:'
+        version: 0.2.16
+      vitepress:
+        specifier: 'catalog:'
+        version: 2.0.0-alpha.15(@types/node@25.5.2)(change-case@5.4.4)(jiti@2.6.1)(jwt-decode@4.0.0)(less@4.6.4)(markdown-it-mathjax3@4.3.2)(postcss@8.5.9)(tsx@4.21.0)(typescript@6.0.2)(yaml@2.8.3)
+      vue:
+        specifier: 'catalog:'
+        version: 3.5.32(typescript@6.0.2)
+    devDependencies:
+      '@rollup/plugin-yaml':
+        specifier: 'catalog:'
+        version: 4.1.2(rollup@4.60.1)
+      typescript:
+        specifier: 'catalog:'
+        version: 6.0.2
+      unbuild:
+        specifier: 'catalog:'
+        version: 3.5.0(typescript@6.0.2)(vue-tsc@3.2.7(typescript@6.0.2))(vue@3.5.32(typescript@6.0.2))
+      vitest:
+        specifier: 'catalog:'
+        version: 3.2.4(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(less@4.6.4)(tsx@4.21.0)(yaml@2.8.3)
+      vue-tsc:
+        specifier: 'catalog:'
+        version: 3.2.7(typescript@6.0.2)
+
   packages/vitepress-plugin-highlight-targeted-heading:
     dependencies:
       vitepress:
@@ -535,7 +575,7 @@ importers:
   packages/vitepress-plugin-index:
     dependencies:
       '@knewbeing/ui':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\ui
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\ui
         version: link:../ui
       defu:
         specifier: 'catalog:'
@@ -575,10 +615,10 @@ importers:
   packages/vitepress-plugin-inline-link-preview:
     dependencies:
       '@knewbeing/markdown-it-element-transform':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\markdown-it-element-transform
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\markdown-it-element-transform
         version: link:../markdown-it-element-transform
       '@knewbeing/ui':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\ui
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\ui
         version: link:../ui
       markdown-it:
         specifier: 'catalog:'
@@ -652,37 +692,40 @@ importers:
   packages/vitepress-plugin-nolebase:
     dependencies:
       '@knewbeing/markdown-it-bi-directional-links':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\markdown-it-bi-directional-links
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\markdown-it-bi-directional-links
         version: link:../markdown-it-bi-directional-links
       '@knewbeing/markdown-it-element-transform':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\markdown-it-element-transform
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\markdown-it-element-transform
         version: link:../markdown-it-element-transform
       '@knewbeing/markdown-it-unlazy-img':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\markdown-it-unlazy-img
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\markdown-it-unlazy-img
         version: link:../markdown-it-unlazy-img
       '@knewbeing/ui':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\ui
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\ui
         version: link:../ui
       '@knewbeing/vitepress-plugin-enhanced-mark':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-enhanced-mark
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-enhanced-mark
         version: link:../vitepress-plugin-enhanced-mark
       '@knewbeing/vitepress-plugin-enhanced-readabilities':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-enhanced-readabilities
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-enhanced-readabilities
         version: link:../vitepress-plugin-enhanced-readabilities
       '@knewbeing/vitepress-plugin-git-changelog':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-git-changelog
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-git-changelog
         version: link:../vitepress-plugin-git-changelog
+      '@knewbeing/vitepress-plugin-graph-view':
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-graph-view
+        version: link:../vitepress-plugin-graph-view
       '@knewbeing/vitepress-plugin-highlight-targeted-heading':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-highlight-targeted-heading
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-highlight-targeted-heading
         version: link:../vitepress-plugin-highlight-targeted-heading
       '@knewbeing/vitepress-plugin-index':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-index
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-index
         version: link:../vitepress-plugin-index
       '@knewbeing/vitepress-plugin-inline-link-preview':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-inline-link-preview
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-inline-link-preview
         version: link:../vitepress-plugin-inline-link-preview
       '@knewbeing/vitepress-plugin-meta':
-        specifier: link:G:\code\vPress\calmripple.github.io\packages\vitepress-plugin-meta
+        specifier: link:C:\AppData\code\vPress\calmripple.github.io\packages\vitepress-plugin-meta
         version: link:../vitepress-plugin-meta
       defu:
         specifier: 'catalog:'
@@ -4454,10 +4497,6 @@ packages:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.3:
-    resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
-    engines: {node: '>=12'}
-
   picomatch@4.0.4:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
@@ -5007,10 +5046,6 @@ packages:
   tinyexec@1.1.1:
     resolution: {integrity: sha512-VKS/ZaQhhkKFMANmAOhhXVoIfBXblQxGX1myCQ2faQrfmobMftXeJPcZGp0gS07ocvGJWDLZGyOZDadDBqYIJg==}
     engines: {node: '>=18'}
-
-  tinyglobby@0.2.15:
-    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
-    engines: {node: '>=12.0.0'}
 
   tinyglobby@0.2.16:
     resolution: {integrity: sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==}
@@ -8223,10 +8258,6 @@ snapshots:
     dependencies:
       format: 0.2.2
 
-  fdir@6.5.0(picomatch@4.0.3):
-    optionalDependencies:
-      picomatch: 4.0.3
-
   fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
       picomatch: 4.0.4
@@ -9318,8 +9349,6 @@ snapshots:
 
   picomatch@2.3.2: {}
 
-  picomatch@4.0.3: {}
-
   picomatch@4.0.4: {}
 
   pify@4.0.1:
@@ -9915,11 +9944,6 @@ snapshots:
 
   tinyexec@1.1.1: {}
 
-  tinyglobby@0.2.15:
-    dependencies:
-      fdir: 6.5.0(picomatch@4.0.3)
-      picomatch: 4.0.3
-
   tinyglobby@0.2.16:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.4)
@@ -9988,7 +10012,7 @@ snapshots:
       source-map: 0.7.6
       sucrase: 3.35.1
       tinyexec: 0.3.2
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       tree-kill: 1.2.2
     optionalDependencies:
       postcss: 8.5.9

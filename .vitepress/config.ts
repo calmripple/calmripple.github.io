@@ -72,7 +72,13 @@ const tocSidebarOptions: TocSidebarBuildOptions = {
     insertMode: 'replace',
     navBuilder: [
       { text: '🏠 主页', link: '/' },
-      { text: '📑 目录', link: '/toc' },
+      {
+        text: '🧭 探索',
+        items: [
+          { text: '文章目录', link: '/toc.html' },
+          { text: '知识图谱', link: '/graph-view.html' },
+        ],
+      },
       { navDir: '笔记', level: 2, subMenuIncludeGlobs: ['**/*.md'], subMenuExcludeGlobs: [] },
       { navDir: '编目 Catalog', level: 2, subMenuIncludeGlobs: ['**/*.md'], subMenuExcludeGlobs: [] },
       { text: '👤 关于我', link: '/aboutme.md' },

@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d60d9813f66a1cce",
+        "id": "a26be56f2789788d",
         "type": "tabs",
         "children": [
           {
-            "id": "8b8974485c5430a1",
+            "id": "0fa8935e9db7cb6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zh-CN/笔记/🛠️ 开发/为 DuckDB WASM 制作 Drizzle ORM Driver.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "为 DuckDB WASM 制作 Drizzle ORM Driver"
-            }
-          },
-          {
-            "id": "ea65bc0da501beda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zh-CN/笔记/🛠️ 开发/为 DuckDB WASM 制作 Drizzle ORM Driver.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "为 DuckDB WASM 制作 Drizzle ORM Driver"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -67,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "基础设施 AWS",
+                "query": "tag:#JavaScript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,8 +66,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -104,11 +86,12 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,8 +175,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           },
           {
@@ -202,8 +185,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           }
         ],
@@ -270,43 +253,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "ea65bc0da501beda",
+  "active": "0fa8935e9db7cb6a",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名.base",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/changeArr.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/currying.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/delete.md",
+    "zh-CN/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/closure.md",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/markdown-it/index.d.ts",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/vite/index.d.ts",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/vite/index.d.mts",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/markdown-it/index.d.mts",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/vite/index.d.cts",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/markdown-it/index.d.cts",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/markdown-it/index.mjs.map",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/vite/index.mjs",
+    "packages/vitepress-plugin-nolebase/dist/vitepress/vite/index.mjs.map",
+    "zh-CN/graph-view.md",
+    "packages/vitepress-plugin-graph-view/README.md",
+    "public/_redirects.md",
+    "2026-05-06.md",
+    "未命名 1.canvas",
+    "zh-CN/笔记/🛠 工程实践/调试技巧/chrome-debug1.md",
+    "packages/markdown-it-unlazy-img/README.md",
+    "zh-CN/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.md",
     "zh-CN/笔记/🧱 基础设施/容器既没有 netstat 和 lsof 也不是 root 时如何排查网络？手动解析 procfs！.md",
     "zh-CN/笔记/🛠️ 开发/为 DuckDB WASM 制作 Drizzle ORM Driver.md",
     "zh-CN/笔记/🛠️ 开发/在容器内如何列出正在被监听的端口或者打开的文件？.md",
     "zh-CN/笔记/📟 终端/软件/容器化/列出 Docker CLI 当前登录的域名.md",
     "zh-CN/笔记/🛠️ 开发/🗂 数据库/关系型数据库 Relational DB/🐣 DuckDB/各种语句.md",
     "zh-CN/笔记/🤖 AI 人工智能/Neuro/AI VTuber.md",
-    "zh-CN/笔记/🛠️ 开发/🗂 数据库/关系型数据库 Relational DB/🐣 DuckDB",
-    "zh-CN/笔记/🤖 AI 人工智能/Neuro/Archive.zip",
     "笔记/🧩 开源贡献/Kubernetes/CNCF Traval Funding.md",
-    "笔记/🤖 AI 人工智能/配置 CUDA 的一万种方法.md",
-    "笔记/🛠️ 开发/用 CSS 画一本好看的可以交互的 3D 书.md",
-    "node_modules/@vueuse",
-    "node_modules/@antfu",
-    "vite.config.ts.timestamp-1728465284690-0e28b7c319039.mjs",
-    "vite.config.ts.timestamp-1728464096252-aa8904c364146.mjs",
-    "pnpm-lock.yaml.2653060370",
-    "node_modules/@types",
-    "node_modules/@nolebase",
-    "node_modules/@netlify",
-    "笔记/🛠️ 开发/JS Framework Benchmark 命令速查.md",
-    "笔记/🛠️ 开发/Another Custom Directive API in Vue and Vapor.md",
-    "笔记/🛠️ 开发/因为 dayjs 不能轻松导入全部的 i18n 语言而换用了 date-fns.md",
-    "笔记/🛠️ 开发/用兼容性更好，体积更小的 Rive 渲染和播放 Lottie 动画.md",
-    "笔记/📦 收集箱/🐙 GitHub 项目/maplibre/index.md",
-    "编目 Catalog/文章/理解什么是 CRDT.md",
-    "笔记/🪄 Vtuber/在 macOS 上不同的 VTuber 直播方案.md",
     "笔记/🪄 Vtuber/assets/Pasted image 20231212122507.png",
     "笔记/🪄 Vtuber/assets/Pasted image 20231212122502.png",
     "笔记/🪄 Vtuber/assets/Pasted image 20231209163759.png",
@@ -316,17 +310,6 @@
     "笔记/🪄 Vtuber/assets/Pasted image 20231208233938.png",
     "笔记/🪄 Vtuber/assets/Pasted image 20231208233927.png",
     "笔记/🪄 Vtuber/assets/Pasted image 20231208233632.png",
-    "笔记/🧱 基础设施/🛜 OpenWRT/assets/Pasted image 20240520003337.png",
-    "笔记/🧱 基础设施/🛜 OpenWRT/从 openclash 迁移到 sing-box.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/开发一个 Kubernetes Controller.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/将 TrueNAS 共享存储连接到 K8s 集群.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/kubectl 速查表.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/Pod 错误排查之.md",
-    "笔记/🧱 基础设施/云上集群的 GPU.md",
-    "笔记/🧮 数学/空洞的想法.md",
-    "笔记/🧩 开源贡献/Kubernetes/开始之前.md",
-    "笔记/🤖 AI 人工智能/领域/音频/配置和运行 ChatTTS.md",
-    "笔记/🤖 AI 人工智能/领域/音频/在 macOS 上配置 GPT-SoVITS-WebUI.md",
-    "未命名.canvas"
+    "笔记/🧱 基础设施/🛜 OpenWRT/assets/Pasted image 20240520003337.png"
   ]
 }

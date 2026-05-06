@@ -1,0 +1,79 @@
+{
+  "name": "@knewbeing/vitepress-plugin-graph-view",
+  "version": "1.1.1",
+  "description": "Knowledge graph view for VitePress markdown content.",
+  "license": "MIT",
+  "author": {
+    "name": "知在",
+    "email": "zz@dmsrs.org",
+    "url": "https://www.dmsrs.org"
+  },
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VitepressAwesome/vitepress-plugin-graph-view.git",
+    "directory": "packages/vitepress-plugin-graph-view"
+  },
+  "scripts": {
+    "stub": "unbuild --stub",
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run"
+  },
+  "exports": {
+    "./client": {
+      "types": "./dist/client/index.d.ts",
+      "import": {
+        "development": "./src/client/index.ts",
+        "default": "./dist/client/index.mjs"
+      },
+      "require": "./dist/client/index.js"
+    },
+    "./client/style.css": "./dist/client/style.css",
+    "./locales": {
+      "types": "./dist/locales/index.d.ts",
+      "import": {
+        "development": "./src/locales/index.ts",
+        "default": "./dist/locales/index.mjs"
+      },
+      "require": "./dist/locales/index.cjs"
+    },
+    "./vitepress": {
+      "types": "./dist/vitepress/index.d.ts",
+      "import": {
+        "development": "./src/vitepress/index.ts",
+        "default": "./dist/vitepress/index.mjs"
+      },
+      "require": "./dist/vitepress/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "catalog:",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "vue-tsc": "catalog:",
+    "vitest": "catalog:"
+  },
+  "peerDependencies": {
+    "vue": "catalog:",
+    "vitepress": "catalog:"
+  },
+  "dependencies": {
+    "@knewbeing/ui": "workspace:*",
+    "defu": "catalog:",
+    "gray-matter": "catalog:",
+    "tinyglobby": "catalog:"
+  }
+}
