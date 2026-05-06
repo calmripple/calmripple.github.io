@@ -76,7 +76,7 @@ const tocSidebarOptions: TocSidebarBuildOptions = {
         text: '🧭 探索',
         items: [
           { text: '文章目录', link: '/toc.html' },
-          { text: '知识图谱', link: '/graph-view.html' },
+          { text: '知识图谱', link: '/graph-view/' },
         ],
       },
       { navDir: '笔记', level: 2, subMenuIncludeGlobs: ['**/*.md'], subMenuExcludeGlobs: [] },

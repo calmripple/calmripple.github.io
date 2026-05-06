@@ -4,6 +4,7 @@ import { presetClient } from '@knewbeing/vitepress-plugin-nolebase/vitepress/cli
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import DocFooter from '@/theme/components/DocFooter.vue'
+import PageGraphAside from '@/theme/components/PageGraphAside.vue'
 import Share from '@/theme/components/Share.vue'
 import SidebarArticleList from '@knewbeing/vitepress-plugin-autosidebar-toc/client/SidebarArticleList.vue'
 import '@knewbeing/vitepress-plugin-autosidebar-toc/client/style.css'
@@ -44,6 +45,7 @@ const ExtendedTheme: Theme = {
         ...slots['doc-top'].map(slot => slot()),
       ],
       'aside-outline-before': () => [
+        h(PageGraphAside),
         h(IndexTagsAside),
       ],
       'doc-before': () => [
