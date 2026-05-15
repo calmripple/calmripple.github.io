@@ -164,14 +164,15 @@ async function initGraph() {
     return
 
   // dynamic import avoids SSR issues
-  const ForceGraph3D = (await import('3d-force-graph')).default
-  const THREE = (await import('three'))
+  const { default: ForceGraph3D } = await import('3d-force-graph')
+  const THREE = await import('three')
 
   const el = containerEl.value
   const width = el.clientWidth || 960
   const heightPx = el.clientHeight || 620
 
-  graphInstance = ForceGraph3D({ antialias: true, alpha: true })(el)
+  // @ts-ignore - 3d-force-graph type mismatch
+  graphInstance = (ForceGraph3D as any)()(el)
     .width(width)
     .height(heightPx)
     .backgroundColor('rgba(0,0,0,0)')
@@ -450,6 +451,7 @@ const relatedNodes = computed(() => {
   border-radius: 12px;
   background: color-mix(in srgb, var(--vp-c-bg) 84%, transparent);
   backdrop-filter: blur(14px);
+  transition: all 0.2s ease;
 }
 
 :global(.dark) .VPGraph3DToolbar {
@@ -515,13 +517,15 @@ const relatedNodes = computed(() => {
 
 /* ── right-click hint ─────────────────────────────────────────────────────── */
 .VPGraph3DCanvas::after {
-  content: '右键双击节点打开页面';
+  content: '右键双击节点打开页面 · 滚动缩放 · 拖拽移动';
   position: absolute;
   right: 14px;
   bottom: 14px;
   color: color-mix(in srgb, var(--vp-c-text-2) 62%, transparent);
   font-size: 11px;
   pointer-events: none;
+  text-align: right;
+  line-height: 1.5;
 }
 
 /* ── selected panel ─────────────────────────────────────────────────────────  */
@@ -537,6 +541,18 @@ const relatedNodes = computed(() => {
   background: color-mix(in srgb, var(--vp-c-bg) 86%, transparent);
   box-shadow: 0 18px 48px color-mix(in srgb, #000 26%, transparent);
   backdrop-filter: blur(14px);
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 :global(.dark) .VPGraph3DPanel {
@@ -549,6 +565,7 @@ const relatedNodes = computed(() => {
   margin: 0 0 6px;
   color: var(--vp-c-text-1);
   font-size: 15px;
+  font-weight: 600;
 }
 
 .VPGraph3DPanel p {
@@ -556,6 +573,7 @@ const relatedNodes = computed(() => {
   color: var(--vp-c-text-2);
   font-size: 12px;
   overflow-wrap: anywhere;
+  line-height: 1.5;
 }
 
 .VPGraph3DOpen {
@@ -565,6 +583,11 @@ const relatedNodes = computed(() => {
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.VPGraph3DOpen:hover {
+  opacity: 0.8;
 }
 
 .VPGraph3DRelated {
@@ -576,11 +599,13 @@ const relatedNodes = computed(() => {
 .VPGraph3DRelated strong {
   color: var(--vp-c-text-2);
   font-size: 12px;
+  font-weight: 600;
 }
 
 .VPGraph3DRelated a {
   color: var(--vp-c-text-1);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .VPGraph3DRelated a:hover {
@@ -598,6 +623,18 @@ const relatedNodes = computed(() => {
   .VPGraph3DSearch {
     max-width: none;
     width: 100%;
+  }
+
+  .VPGraph3DCanvas::after {
+    font-size: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .VPGraph3DPanel {
+    right: 10px;
+    bottom: 10px;
+    width: min(280px, calc(100% - 20px));
   }
 }
 </style>

@@ -61,6 +61,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "catalog:",
+    "@types/three": "^0.184.1",
     "typescript": "catalog:",
     "unbuild": "catalog:",
     "vitest": "catalog:",

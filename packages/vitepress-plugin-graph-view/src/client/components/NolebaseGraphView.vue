@@ -68,7 +68,7 @@ const interaction = reactive<{
 })
 
 let animationFrame: number | undefined
-let searchDebounceTimer: ReturnType<typeof window.setTimeout> | undefined
+let searchDebounceTimer: number | undefined
 
 const heightStyle = computed(() => {
   const height = props.height || options.height || defaultOptions.height
@@ -478,7 +478,7 @@ watch(searchInput, (value) => {
 
   searchDebounceTimer = window.setTimeout(() => {
     search.value = value
-  }, 120)
+  }, 120) as number
 })
 
 watch([visibleNodes, visibleEdges], () => {
@@ -604,6 +604,7 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+/* ========== 深色主题 (默认) ========== */
 .VPNolebaseGraphView {
   position: relative;
   margin: 0;
@@ -665,10 +666,17 @@ onBeforeUnmount(() => {
   padding: 7px 10px;
   background: rgb(255 255 255 / 4%);
   color: rgb(236 240 246 / 92%);
+  transition: all 0.2s ease;
 }
 
 .VPNolebaseGraphViewSearch::placeholder {
   color: rgb(180 188 203 / 54%);
+}
+
+.VPNolebaseGraphViewSearch:focus {
+  border-color: rgb(114 177 255 / 52%);
+  background: rgb(255 255 255 / 6%);
+  outline: none;
 }
 
 .VPNolebaseGraphViewControls {
@@ -693,6 +701,7 @@ onBeforeUnmount(() => {
   color: rgb(204 212 225 / 82%);
   font: inherit;
   font-size: 13px;
+  transition: all 0.2s ease;
 }
 
 .VPNolebaseGraphViewControls button {
@@ -850,6 +859,136 @@ onBeforeUnmount(() => {
   min-height: 260px;
   place-items: center;
   color: rgb(174 183 198 / 72%);
+}
+
+/* ========== 浅色主题 ========== */
+:global(.light) .VPNolebaseGraphView {
+  border-color: rgb(0 0 0 / 12%);
+  background:
+    radial-gradient(circle at 20% 16%, rgb(59 130 246 / 8%), transparent 24%),
+    radial-gradient(circle at 80% 18%, rgb(34 197 94 / 6%), transparent 22%),
+    linear-gradient(180deg, #f8f9fa 0%, #f5f5f7 100%);
+  box-shadow: 0 18px 48px rgb(0 0 0 / 8%);
+}
+
+:global(.light) .VPNolebaseGraphViewToolbar {
+  border-color: rgb(0 0 0 / 8%);
+  background: rgb(255 255 255 / 82%);
+}
+
+:global(.light) .VPNolebaseGraphViewToolbar h2 {
+  color: rgb(26 32 44 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewToolbar p {
+  color: rgb(74 85 104 / 80%);
+}
+
+:global(.light) .VPNolebaseGraphViewSearch {
+  border-color: rgb(0 0 0 / 10%);
+  background: rgb(0 0 0 / 4%);
+  color: rgb(26 32 44 / 92%);
+}
+
+:global(.light) .VPNolebaseGraphViewSearch::placeholder {
+  color: rgb(100 116 139 / 60%);
+}
+
+:global(.light) .VPNolebaseGraphViewSearch:focus {
+  border-color: rgb(59 130 246 / 60%);
+  background: rgb(0 0 0 / 6%);
+}
+
+:global(.light) .VPNolebaseGraphViewControls {
+  border-color: rgb(0 0 0 / 10%);
+  background: rgb(0 0 0 / 4%);
+}
+
+:global(.light) .VPNolebaseGraphViewControls button,
+:global(.light) .VPNolebaseGraphViewControls span {
+  border-right-color: rgb(0 0 0 / 10%);
+  color: rgb(64 74 88 / 88%);
+}
+
+:global(.light) .VPNolebaseGraphViewControls button:hover {
+  background: rgb(0 0 0 / 6%);
+  color: rgb(26 32 44 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewControls span {
+  color: rgb(100 116 139 / 76%);
+}
+
+:global(.light) .VPNolebaseGraphViewCanvas {
+  background-image:
+    linear-gradient(rgb(0 0 0 / 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(0 0 0 / 0.05) 1px, transparent 1px);
+}
+
+:global(.light) .VPNolebaseGraphViewEdges line {
+  stroke: rgb(59 130 246 / 28%);
+  opacity: 0.48;
+}
+
+:global(.light) .VPNolebaseGraphViewEdges line.active {
+  stroke: rgb(59 130 246 / 96%);
+  stroke-width: 1.6;
+  opacity: 0.88;
+}
+
+:global(.light) .VPNolebaseGraphViewNodes g {
+  color: rgb(74 85 104 / 60%);
+}
+
+:global(.light) .VPNolebaseGraphViewNodes circle {
+  fill: rgb(100 116 200 / 80%);
+  stroke: rgb(245 247 250 / 92%);
+  filter: drop-shadow(0 0 8px rgb(59 130 246 / 16%));
+}
+
+:global(.light) .VPNolebaseGraphViewNodes text {
+  stroke: rgb(245 247 250 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewNodes g.active,
+:global(.light) .VPNolebaseGraphViewNodes g.selected {
+  color: rgb(26 32 44 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewNodes g.active circle,
+:global(.light) .VPNolebaseGraphViewNodes g.selected circle {
+  fill: rgb(59 130 246 / 96%);
+  filter: drop-shadow(0 0 16px rgb(59 130 246 / 28%));
+}
+
+:global(.light) .VPNolebaseGraphViewNodes g.external circle {
+  fill: rgb(217 119 6 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewPanel {
+  border-color: rgb(0 0 0 / 10%);
+  background: rgb(255 255 255 / 88%);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 12%);
+}
+
+:global(.light) .VPNolebaseGraphViewPanel h3 {
+  color: rgb(26 32 44 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewPanel p {
+  color: rgb(74 85 104 / 76%);
+}
+
+:global(.light) .VPNolebaseGraphViewOpen {
+  color: rgb(59 130 246 / 96%);
+}
+
+:global(.light) .VPNolebaseGraphViewRelated strong {
+  color: rgb(74 85 104 / 76%);
+}
+
+:global(.light) .VPNolebaseGraphViewEmpty {
+  color: rgb(74 85 104 / 76%);
 }
 
 @media (max-width: 767px) {
