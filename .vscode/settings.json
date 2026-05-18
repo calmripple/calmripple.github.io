@@ -119,4 +119,17 @@
   "python.createEnvironment.contentButton": "show",
   "chat.requestQueuing.defaultAction": "queue",
     "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "mcp": {
+    "servers": {
+      "hermes": {
+        "command": "wsl.exe",
+        "args": [
+          "-e",
+          "bash",
+          "-lc",
+          "source ~/.bashrc >/dev/null 2>&1; hermes mcp serve"
+        ]
+      }
+    }
+  }
 }

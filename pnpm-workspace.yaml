@@ -2,6 +2,11 @@ packages:
   - packages/*
   - '!**/dist/**'
 
+allowBuilds:
+  babylonjs: true
+  esbuild: true
+  sharp: true
+
 catalog:
   '@rollup/plugin-yaml': ^4.1.2
   '@types/debug': ^4.1.12
@@ -30,7 +35,7 @@ catalog:
   'sanitize-html': ^2.17.3
   'thumbhash': ^0.1.1
   'tinyglobby': ^0.2.16
-  'typescript': ^6.0.2
+  'typescript': ~5.8.3
   'unbuild': ^3.3.1
   'uncrypto': ^0.1.3
   'unified': ^11.0.5

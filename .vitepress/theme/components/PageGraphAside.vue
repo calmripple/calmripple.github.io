@@ -83,11 +83,12 @@ const shouldShow = computed(() => {
 
 <template>
   <div v-if="shouldShow" class="page-graph-aside">
-    <NolebaseGraphView
+    <NolebaseGraphView3D
       :data="subGraph"
+      :current-node-id="currentNode?.id"
       title="当前页关联图谱"
-      :height="300"
-      :max-nodes="24"
+      :height="280"
+      :max-nodes="30"
     />
   </div>
 </template>
@@ -97,19 +98,28 @@ const shouldShow = computed(() => {
   margin-bottom: 12px;
 }
 
-.page-graph-aside :deep(.VPNolebaseGraphView) {
+.page-graph-aside :deep(.VPNolebaseGraphView3D) {
   margin: 0;
+  border-radius: 10px;
 }
 
-.page-graph-aside :deep(.VPNolebaseGraphViewToolbar h2) {
-  font-size: 14px;
+.page-graph-aside :deep(.VPGraph3DToolbar) {
+  padding: 7px 10px;
 }
 
-.page-graph-aside :deep(.VPNolebaseGraphViewToolbar p) {
-  font-size: 12px;
+.page-graph-aside :deep(.VPGraph3DTitle) {
+  font-size: 13px;
 }
 
-.page-graph-aside :deep(.VPNolebaseGraphViewPanel) {
+.page-graph-aside :deep(.VPGraph3DStats) {
+  font-size: 11px;
+}
+
+.page-graph-aside :deep(.VPGraph3DSearch) {
+  display: none;
+}
+
+.page-graph-aside :deep(.VPGraph3DPanel) {
   display: none;
 }
 </style>

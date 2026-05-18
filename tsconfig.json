@@ -49,6 +49,7 @@
   "exclude": [
     "**/node_modules/**",
     "**/dist",
+    "packages/**",
     "vitepress-plugin-blogs/**",
     "tmp_nolebase_src/**",
     ".github/skills/**",

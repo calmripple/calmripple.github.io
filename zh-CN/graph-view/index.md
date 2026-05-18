@@ -19,7 +19,6 @@ import { data as graphData } from '../../.vitepress/graph.data'
 <div class="graph-view-home-wrap">
   <NolebaseGraphView3D
     :data="graphData"
-    title="知识图谱"
     :height="'100%'"
     :max-nodes="200"
   />

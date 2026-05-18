@@ -74,7 +74,10 @@
   "dependencies": {
     "3d-force-graph": "^1.80.0",
     "@knewbeing/ui": "workspace:*",
+    "babylonjs": "^9.7.0",
     "defu": "catalog:",
+    "echarts": "^6.0.0",
+    "echarts-gl": "^2.0.9",
     "gray-matter": "catalog:",
     "tinyglobby": "catalog:"
   }
