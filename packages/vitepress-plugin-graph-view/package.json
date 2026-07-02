@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "catalog:",
-    "@types/three": "^0.184.1",
+    "@types/three": "^0.185.0",
     "typescript": "catalog:",
     "unbuild": "catalog:",
     "vitest": "catalog:",
@@ -74,10 +74,10 @@
   "dependencies": {
     "3d-force-graph": "^1.80.0",
     "@knewbeing/ui": "workspace:*",
-    "babylonjs": "^9.7.0",
+    "babylonjs": "^9.15.0",
     "defu": "catalog:",
-    "echarts": "^6.0.0",
-    "echarts-gl": "^2.0.9",
+    "echarts": "^6.1.0",
+    "echarts-gl": "^2.1.0",
     "gray-matter": "catalog:",
     "tinyglobby": "catalog:"
   }

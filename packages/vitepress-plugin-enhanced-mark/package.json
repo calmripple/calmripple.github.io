@@ -21,6 +21,7 @@
     "build": "unbuild"
   },
   "devDependencies": {
+    "typescript": "catalog:",
     "unbuild": "catalog:"
   },
   "exports": {

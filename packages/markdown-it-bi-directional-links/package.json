@@ -39,6 +39,7 @@
     "vue-tsc": "catalog:",
     "vitest": "catalog:",
     "@types/debug": "catalog:",
+    "typescript": "catalog:",
     "unbuild": "catalog:"
   },
   "peerDependencies": {

@@ -1,6 +1,6 @@
 ---
-title: 知识图谱
-description: 以动态图谱浏览站内文章之间的链接关系。
+title: 引力矩阵图谱
+description: 以矩阵引力图谱浏览站内文章之间的链接关系。
 layout: home
 sidebar: false
 aside: false
@@ -14,13 +14,13 @@ knewbeing:
 import { data as graphData } from '../../.vitepress/graph.data'
 </script>
 
-这里展示站点文档之间的链接关系。你可以拖动节点、平移画布、滚轮缩放，并通过搜索快速定位页面。
+站点文档被映射到矩阵引力场中，节点规模表示连接强度，连线表示文章之间的引用关系。
 
 <div class="graph-view-home-wrap">
   <NolebaseGraphView3D
     :data="graphData"
     :height="'100%'"
-    :max-nodes="200"
+    :max-nodes="240"
   />
 </div>
 
