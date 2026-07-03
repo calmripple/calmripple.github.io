@@ -59,13 +59,13 @@
   "devDependencies": {
     "@types/node": "catalog:",
     "@types/sanitize-html": "catalog:",
-    "unplugin-vue-components": "catalog:",
-    "typescript": "catalog:",
+    "typescript": "6.0.3",
     "unbuild": "catalog:",
-    "vue-tsc": "catalog:",
+    "unplugin-vue-components": "catalog:",
     "vite": "catalog:",
     "vitepress": "catalog:",
-    "vue": "catalog:"
+    "vue": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
     "sharp": ">=0.32.0",

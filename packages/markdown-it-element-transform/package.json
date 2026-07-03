@@ -36,9 +36,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "vue-tsc": "catalog:",
-    "typescript": "catalog:",
-    "unbuild": "catalog:"
+    "typescript": "6.0.3",
+    "unbuild": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
     "markdown-it": "catalog:"

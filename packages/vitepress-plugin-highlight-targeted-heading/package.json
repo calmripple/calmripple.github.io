@@ -43,12 +43,12 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "typescript": "catalog:",
-    "vue-tsc": "catalog:",
-    "unbuild": "catalog:"
+    "typescript": "6.0.3",
+    "unbuild": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
-    "vue": "catalog:",
-    "vitepress": "catalog:"
+    "vitepress": "catalog:",
+    "vue": "catalog:"
   }
 }

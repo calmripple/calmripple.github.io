@@ -62,7 +62,7 @@
   "devDependencies": {
     "@rollup/plugin-yaml": "catalog:",
     "@types/three": "^0.185.0",
-    "typescript": "catalog:",
+    "typescript": "6.0.3",
     "unbuild": "catalog:",
     "vitest": "catalog:",
     "vue-tsc": "catalog:"

@@ -62,12 +62,12 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
-    "typescript": "catalog:",
+    "typescript": "6.0.3",
     "unbuild": "catalog:",
-    "vue-tsc": "catalog:",
     "vite": "catalog:",
     "vitepress": "catalog:",
-    "vue": "catalog:"
+    "vue": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
     "vite": "catalog:",

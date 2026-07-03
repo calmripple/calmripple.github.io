@@ -36,21 +36,21 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "vue-tsc": "catalog:",
+    "typescript": "6.0.3",
+    "unbuild": "catalog:",
     "vitest": "catalog:",
-    "typescript": "catalog:",
-    "unbuild": "catalog:"
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
     "vitepress": "catalog:"
   },
   "dependencies": {
     "defu": "catalog:",
-    "unified": "catalog:",
-    "rehype-parse": "catalog:",
     "hast-util-select": "catalog:",
     "hast-util-to-text": "catalog:",
+    "rehype-parse": "catalog:",
     "retext-stringify": "catalog:",
+    "unified": "catalog:",
     "unist-util-remove": "catalog:",
     "unist-util-remove-position": "catalog:"
   }

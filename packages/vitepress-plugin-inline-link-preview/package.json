@@ -54,19 +54,19 @@
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "catalog:",
-    "typescript": "catalog:",
+    "markdown-it-attrs": "catalog:",
+    "typescript": "6.0.3",
     "unbuild": "catalog:",
-    "vue-tsc": "catalog:",
     "vitest": "catalog:",
-    "markdown-it-attrs": "catalog:"
+    "vue-tsc": "catalog:"
   },
   "peerDependencies": {
-    "vue": "catalog:",
+    "markdown-it": "catalog:",
     "vitepress": "catalog:",
-    "markdown-it": "catalog:"
+    "vue": "catalog:"
   },
   "dependencies": {
-    "@knewbeing/ui": "workspace:*",
-    "@knewbeing/markdown-it-element-transform": "workspace:*"
+    "@knewbeing/markdown-it-element-transform": "workspace:*",
+    "@knewbeing/ui": "workspace:*"
   }
 }

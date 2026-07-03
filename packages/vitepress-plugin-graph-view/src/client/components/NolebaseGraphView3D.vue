@@ -29,6 +29,9 @@ const props = defineProps<{
   data: GraphViewData
   height?: number | string
   maxNodes?: number
+  title?: string
+  description?: string
+  currentNodeId?: string
 }>()
 
 const containerEl = ref<HTMLDivElement>()
@@ -115,7 +118,7 @@ const graphData = computed(() => {
         url: n.url,
         degree,
         val: Math.min(15, 2.4 + degree * 0.92),
-        color: n.external ? "#f5b642" : degree > 8 ? "#61e0a9" : "#6db7ff",
+        color: props.currentNodeId === n.id ? "#f8d66d" : n.external ? "#f5b642" : degree > 8 ? "#61e0a9" : "#6db7ff",
         matrixX: coordinate.x,
         matrixY: coordinate.y,
         matrixZ: coordinate.z,
@@ -130,6 +133,14 @@ const graphData = computed(() => {
   }
 })
 
+const graphStats = computed(() => {
+  return {
+    nodes: graphData.value.nodes.length,
+    links: graphData.value.links.length,
+    totalNodes: props.data.nodes.length,
+  }
+})
+
 function configureForces() {
   if (!graphInstance)
     return
@@ -137,16 +148,16 @@ function configureForces() {
   graphInstance.d3Force("matrix", createMatrixGravityForce())
 
   const chargeForce = graphInstance.d3Force("charge")
-  chargeForce?.strength?.((node: MatrixGraphNode) => -18 - Math.min(56, node.degree * 4.4))
-  chargeForce?.distanceMax?.(170)
+  chargeForce?.strength?.((node: MatrixGraphNode) => -22 - Math.min(68, node.degree * 4.8))
+  chargeForce?.distanceMax?.(210)
 
   const linkForce = graphInstance.d3Force("link")
   linkForce?.distance?.((link: any) => {
     const sourceDegree = typeof link.source === "object" ? link.source.degree || 0 : 0
     const targetDegree = typeof link.target === "object" ? link.target.degree || 0 : 0
-    return 32 + Math.min(86, (sourceDegree + targetDegree) * 2.3)
+    return 38 + Math.min(96, (sourceDegree + targetDegree) * 2.6)
   })
-  linkForce?.strength?.(0.052)
+  linkForce?.strength?.(0.058)
 }
 
 async function initGraph() {
@@ -161,24 +172,34 @@ async function initGraph() {
     .nodeLabel((node: any) => node.name)
     .nodeVal((node: any) => node.val)
     .nodeColor((node: any) => node.color)
-    .nodeOpacity(0.94)
-    .nodeResolution(12)
-    .nodeRelSize(3.3)
-    .linkColor(() => "rgba(148, 190, 184, 0.42)")
-    .linkOpacity(0.38)
+    .nodeOpacity(0.98)
+    .nodeResolution(18)
+    .nodeRelSize(3.8)
+    .linkColor((link: any) => {
+      const sourceId = typeof link.source === "object" ? link.source.id : link.source
+      const targetId = typeof link.target === "object" ? link.target.id : link.target
+      return props.currentNodeId && (sourceId === props.currentNodeId || targetId === props.currentNodeId)
+        ? "rgba(248, 214, 109, 0.78)"
+        : "rgba(122, 190, 181, 0.46)"
+    })
+    .linkOpacity(0.46)
     .linkWidth((link: any) => {
       const sourceDegree = typeof link.source === "object" ? link.source.degree || 0 : 0
       const targetDegree = typeof link.target === "object" ? link.target.degree || 0 : 0
-      return 0.45 + Math.min(1.3, (sourceDegree + targetDegree) * 0.025)
+      return 0.55 + Math.min(1.55, (sourceDegree + targetDegree) * 0.028)
     })
-    .linkDirectionalParticles(1)
-    .linkDirectionalParticleSpeed(0.006)
-    .linkDirectionalParticleWidth(1.15)
-    .linkDirectionalParticleColor(() => "rgba(245, 182, 66, 0.78)")
-    .warmupTicks(80)
-    .cooldownTicks(220)
-    .d3AlphaDecay(0.018)
-    .d3VelocityDecay(0.62)
+    .linkDirectionalParticles((link: any) => {
+      const sourceId = typeof link.source === "object" ? link.source.id : link.source
+      const targetId = typeof link.target === "object" ? link.target.id : link.target
+      return props.currentNodeId && (sourceId === props.currentNodeId || targetId === props.currentNodeId) ? 3 : 1
+    })
+    .linkDirectionalParticleSpeed(0.007)
+    .linkDirectionalParticleWidth(1.35)
+    .linkDirectionalParticleColor(() => "rgba(248, 214, 109, 0.82)")
+    .warmupTicks(110)
+    .cooldownTicks(260)
+    .d3AlphaDecay(0.016)
+    .d3VelocityDecay(0.58)
     .onNodeClick((node: any) => {
       if (node?.url)
         window.location.href = node.url
@@ -218,7 +239,33 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="VPNolebaseGraphView3D" :style="{ minHeight: heightStyle }">
+    <div class="VPGraph3DToolbar">
+      <div>
+        <p class="VPGraph3DEyebrow">
+          Matrix gravity field
+        </p>
+        <h2 class="VPGraph3DTitle">
+          {{ props.title || '引力矩阵图谱' }}
+        </h2>
+        <p v-if="props.description" class="VPGraph3DDescription">
+          {{ props.description }}
+        </p>
+      </div>
+      <div class="VPGraph3DStats" aria-label="图谱统计">
+        <span><strong>{{ graphStats.nodes }}</strong> 节点</span>
+        <span><strong>{{ graphStats.links }}</strong> 连线</span>
+        <span v-if="graphStats.totalNodes > graphStats.nodes"><strong>{{ graphStats.totalNodes - graphStats.nodes }}</strong> 已收束</span>
+      </div>
+    </div>
+
     <div ref="containerEl" class="VPGraph3DCanvas" :style="{ height: heightStyle }" />
+
+    <div class="VPGraph3DPanel" aria-label="图例">
+      <span><i class="hub" />高连接节点</span>
+      <span><i class="page" />站内文章</span>
+      <span><i class="external" />外部引用</span>
+      <span v-if="props.currentNodeId"><i class="current" />当前页面</span>
+    </div>
   </div>
 </template>
 
@@ -227,13 +274,16 @@ onBeforeUnmount(() => {
   position: relative;
   width: 100%;
   height: 100%;
-  border: 1px solid rgb(180 255 216 / 14%);
-  border-radius: 8px;
+  border: 1px solid rgb(190 255 226 / 18%);
+  border-radius: 12px;
   background:
-    repeating-linear-gradient(0deg, rgb(97 224 169 / 9%) 0 1px, transparent 1px 44px),
+    radial-gradient(circle at 50% 42%, rgb(97 224 169 / 17%), transparent 0 24%, transparent 48%),
+    radial-gradient(circle at 22% 24%, rgb(109 183 255 / 14%), transparent 0 28%, transparent 42%),
+    repeating-linear-gradient(0deg, rgb(97 224 169 / 10%) 0 1px, transparent 1px 44px),
     repeating-linear-gradient(90deg, rgb(97 224 169 / 9%) 0 1px, transparent 1px 44px),
-    linear-gradient(135deg, rgb(7 10 9) 0%, rgb(19 20 15) 48%, rgb(10 15 17) 100%);
-  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 4%), 0 24px 60px rgb(0 0 0 / 30%);
+    linear-gradient(135deg, rgb(5 9 10) 0%, rgb(17 20 15) 48%, rgb(7 14 17) 100%);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 5%), 0 28px 72px rgb(0 0 0 / 34%);
+  color: rgb(235 255 247);
   overflow: hidden;
 }
 
@@ -250,9 +300,159 @@ onBeforeUnmount(() => {
   opacity: 0.68;
 }
 
+.VPNolebaseGraphView3D::after {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  content: "";
+  background:
+    linear-gradient(180deg, rgb(0 0 0 / 46%) 0%, transparent 22%, transparent 70%, rgb(0 0 0 / 50%) 100%),
+    radial-gradient(circle at 50% 50%, transparent 0 48%, rgb(0 0 0 / 38%) 100%);
+}
+
+.VPGraph3DToolbar {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  left: 18px;
+  z-index: 4;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.VPGraph3DEyebrow {
+  margin: 0 0 6px;
+  color: rgb(148 244 207 / 78%);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.VPGraph3DTitle {
+  margin: 0;
+  max-width: 560px;
+  color: rgb(247 255 251);
+  font-size: clamp(24px, 3vw, 42px);
+  line-height: 1.05;
+  letter-spacing: 0;
+  text-shadow: 0 10px 32px rgb(0 0 0 / 52%);
+}
+
+.VPGraph3DDescription {
+  margin: 12px 0 0;
+  max-width: 580px;
+  color: rgb(219 246 236 / 76%);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.VPGraph3DStats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  max-width: 360px;
+}
+
+.VPGraph3DStats span,
+.VPGraph3DPanel span {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 10px;
+  border: 1px solid rgb(190 255 226 / 14%);
+  border-radius: 999px;
+  background: rgb(5 11 12 / 58%);
+  color: rgb(225 251 241 / 82%);
+  font-size: 12px;
+  line-height: 1;
+  box-shadow: 0 12px 28px rgb(0 0 0 / 18%);
+  backdrop-filter: blur(12px);
+}
+
+.VPGraph3DStats strong {
+  color: rgb(248 214 109);
+  font-size: 14px;
+}
+
 .VPGraph3DCanvas {
   position: relative;
   z-index: 1;
   width: 100%;
+}
+
+.VPGraph3DPanel {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  left: 18px;
+  z-index: 4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  pointer-events: none;
+}
+
+.VPGraph3DPanel i {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  box-shadow: 0 0 16px currentcolor;
+}
+
+.VPGraph3DPanel .hub {
+  color: #61e0a9;
+  background: #61e0a9;
+}
+
+.VPGraph3DPanel .page {
+  color: #6db7ff;
+  background: #6db7ff;
+}
+
+.VPGraph3DPanel .external {
+  color: #f5b642;
+  background: #f5b642;
+}
+
+.VPGraph3DPanel .current {
+  color: #f8d66d;
+  background: #f8d66d;
+}
+
+@media (max-width: 720px) {
+  .VPGraph3DToolbar {
+    top: 12px;
+    right: 12px;
+    left: 12px;
+    display: block;
+  }
+
+  .VPGraph3DTitle {
+    font-size: 24px;
+  }
+
+  .VPGraph3DDescription {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+
+  .VPGraph3DStats {
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+
+  .VPGraph3DPanel {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+  }
 }
 </style>
