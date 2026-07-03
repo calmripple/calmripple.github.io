@@ -1,0 +1,3784 @@
+{
+  "version": 1,
+  "generatedAt": 1783046701819,
+  "id": "bridge-005",
+  "nodes": [],
+  "edges": [
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2538,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2537,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0707,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
+      "type": "related",
+      "weight": 0.2537,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0137,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.2531,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0184,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
+      "type": "related",
+      "weight": 0.2524,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/safe.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
+      "type": "related",
+      "weight": 0.2522,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1222,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.252,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0254,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/array-buffer.html",
+      "type": "related",
+      "weight": 0.2519,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0082,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.0067
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2519,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0869,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.005
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2518,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0118,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "type": "related",
+      "weight": 0.2513,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1772,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.0291
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.2503,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1762,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.0291
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
+      "type": "related",
+      "weight": 0.2502,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "type": "related",
+      "weight": 0.2501,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0101,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.25,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.019,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2497,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0097,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.2492,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0264,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "type": "related",
+      "weight": 0.2488,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0118,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
+      "type": "related",
+      "weight": 0.2488,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0088,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2484,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0174,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
+      "type": "related",
+      "weight": 0.2484,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0175,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2483,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
+      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
+      "type": "related",
+      "weight": 0.2483,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0155,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2467,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0157,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.2465,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0065,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.2464,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0094,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2464,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.2462,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2458,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0058,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2454,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0054,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2453,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0143,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2452,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0172,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2449,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0734,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/jpg-compress.html",
+      "type": "related",
+      "weight": 0.2447,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0077,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/png-compress.html",
+      "type": "related",
+      "weight": 0.2447,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0077,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
+      "type": "related",
+      "weight": 0.2447,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1247,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
+      "type": "related",
+      "weight": 0.2446,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0136,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2441,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0041,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.2439,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/ssr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
+      "type": "related",
+      "weight": 0.2438,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1058,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.2435,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0125,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "type": "related",
+      "weight": 0.2433,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0123,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "type": "related",
+      "weight": 0.2432,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0122,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2426,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0116,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
+      "type": "related",
+      "weight": 0.2423,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0495,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.2423,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
+      "type": "related",
+      "weight": 0.2423,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.2423,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "type": "related",
+      "weight": 0.2421,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0051,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.2421,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0111,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.242,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1338,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.0152
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "type": "related",
+      "weight": 0.2413,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0043,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.2412,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.2408,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0098,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.2408,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0179,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2405,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0705,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2393,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0793,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.2387,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0077,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.2385,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0555,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "type": "related",
+      "weight": 0.2384,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.238,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "type": "related",
+      "weight": 0.2373,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0063,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.237,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.042,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/ssr.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2369,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0859,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "type": "related",
+      "weight": 0.2369,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0059,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
+      "type": "related",
+      "weight": 0.2364,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0314,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2363,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1576,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.0337
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/eventloop.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "type": "related",
+      "weight": 0.236,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0734,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "type": "related",
+      "weight": 0.2357,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0047,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.2338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0028,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
+      "type": "related",
+      "weight": 0.233,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0234,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
+      "type": "related",
+      "weight": 0.2316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.022,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.2315,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1066,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.0168
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2309,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0595,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
+      "type": "related",
+      "weight": 0.2302,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0589,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0213
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2301,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0501,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.02
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.2297,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0917,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/jpg-compress.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
+      "type": "related",
+      "weight": 0.2294,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0636,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0278
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2293,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0463,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
+      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "type": "related",
+      "weight": 0.2291,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1055,
+        "tag-overlap": 0.0686,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/es6.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.229,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1594,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/eventloop.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.228,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0777,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
+      "type": "related",
+      "weight": 0.2278,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0572,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/HTML 与语义化/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "type": "related",
+      "weight": 0.2268,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0172,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0267
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "type": "related",
+      "weight": 0.2268,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0142,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0059
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2268,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0554,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.2267,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0891,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2266,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0436,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🤖 AI 与智能/AI 工具与平台/postgresql_wsl_solution.html",
+      "type": "related",
+      "weight": 0.2266,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1478,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.0188
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.2265,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0558,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2258,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0428,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/ssr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.2253,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0873,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2248,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0048,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2242,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0042,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2236,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0036,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.2232,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0939,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.0213
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2226,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🤖 AI 与智能/AI 工具与平台/harness-windows-installation.html",
+      "type": "related",
+      "weight": 0.2211,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1496,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2193,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0363,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/eventloop.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
+      "type": "related",
+      "weight": 0.2191,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0688,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2164,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0464,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/storage.html",
+      "type": "related",
+      "weight": 0.2159,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0329,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "type": "related",
+      "weight": 0.2157,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1707,
+        "directory-neighbor": 0.045
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2152,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0322,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
+      "type": "related",
+      "weight": 0.2147,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.044,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/es6.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2145,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0519,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2137,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0307,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.2136,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0186,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.2133,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0183,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "type": "related",
+      "weight": 0.2131,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0301,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.213,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.018,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/inherit.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2128,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0348,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.2117,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0131,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0036
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "type": "related",
+      "weight": 0.2107,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0277,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "type": "related",
+      "weight": 0.2107,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0318,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2105,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0275,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "type": "related",
+      "weight": 0.2098,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0537,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "type": "related",
+      "weight": 0.2097,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0267,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2091,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0261,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.2089,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.04,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/communicate.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2086,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.2084,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0498,
+        "tag-overlap": 0.0686,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
+      "type": "related",
+      "weight": 0.208,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.025,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2073,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0243,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2066,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0366,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2062,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0232,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.206,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.023,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.2054,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0104,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
+      "type": "related",
+      "weight": 0.2047,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0567,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.204,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.021,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "type": "related",
+      "weight": 0.2039,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1389,
+        "directory-neighbor": 0.045,
+        "title-overlap": 0.02
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.2033,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0203,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2033,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0203,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.2032,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0202,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/开源项目/node-cli.html",
+      "type": "related",
+      "weight": 0.2032,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0471,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/Internet.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.2028,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0357,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.0291
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2028,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0328,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.2026,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0196,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2025,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0195,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
+      "type": "related",
+      "weight": 0.2024,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
+      "type": "related",
+      "weight": 0.2024,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.2018,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0188,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.2016,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0186,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🤖 AI 与智能/AI 工具与平台/harness-faq.html",
+      "type": "related",
+      "weight": 0.2015,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1335,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "type": "related",
+      "weight": 0.2013,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.047,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/index.html",
+      "type": "related",
+      "weight": 0.2012,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0062,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/deadlock.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2012,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0182,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.2004,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0174,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/difprothr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.2004,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0174,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.2003,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.2001,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0171,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.1997,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0167,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1996,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0166,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "type": "related",
+      "weight": 0.1996,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0396,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "type": "related",
+      "weight": 0.1991,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0067,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
+      "type": "related",
+      "weight": 0.199,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.069,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "type": "related",
+      "weight": 0.199,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.0533,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/index.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
+      "type": "related",
+      "weight": 0.1988,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0388,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "type": "related",
+      "weight": 0.1977,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0121,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0356
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
+      "type": "related",
+      "weight": 0.1971,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0141,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.1971,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0141,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
+      "type": "related",
+      "weight": 0.1969,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0019,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
+      "type": "related",
+      "weight": 0.1964,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0134,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
+      "type": "related",
+      "weight": 0.1962,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0212,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.1962,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0132,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.1959,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "type": "related",
+      "weight": 0.1958,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.1955,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0125,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
+      "type": "related",
+      "weight": 0.1955,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0125,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.1955,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0412,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.1947,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0117,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1946,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0116,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1945,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0115,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.1944,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "type": "related",
+      "weight": 0.1944,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.1939,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0109,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.1938,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0108,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.1936,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1929,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0099,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1925,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0095,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1919,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0089,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
+      "type": "related",
+      "weight": 0.1912,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
+      "type": "related",
+      "weight": 0.1911,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0471,
+        "tag-overlap": 0.024,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "type": "related",
+      "weight": 0.1909,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0079,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/headSort.html",
+      "type": "related",
+      "weight": 0.1906,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0263,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.1906,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0076,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "type": "related",
+      "weight": 0.1905,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0075,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/changeArr.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/headSort.html",
+      "type": "related",
+      "weight": 0.1903,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.066,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "type": "related",
+      "weight": 0.1903,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0073,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.1903,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0073,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.1902,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.19,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
+      "type": "related",
+      "weight": 0.19,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0342,
+        "tag-overlap": 0.024,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0119
+      }
+    },
+    {
+      "source": "/笔记/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "type": "related",
+      "weight": 0.1899,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1239,
+        "directory-neighbor": 0.06,
+        "title-overlap": 0.0059
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.1894,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/mergeSort.html",
+      "type": "related",
+      "weight": 0.1893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.025,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.09,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
+      "type": "related",
+      "weight": 0.1893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0063,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "type": "related",
+      "weight": 0.1893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0063,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1892,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0062,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.189,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.006,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "type": "related",
+      "weight": 0.1877,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0047,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.1871,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0271,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "type": "related",
+      "weight": 0.187,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.027,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1868,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0038,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "type": "related",
+      "weight": 0.1864,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0321,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
+      "type": "related",
+      "weight": 0.1863,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0033,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/index copy.html",
+      "type": "related",
+      "weight": 0.1861,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0361,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/linkReserve.html",
+      "type": "related",
+      "weight": 0.186,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.016,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.1853,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0253,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.1853,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.1849,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0249,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/开源项目/node-cli.html",
+      "type": "related",
+      "weight": 0.1845,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0245,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
+      "type": "related",
+      "weight": 0.1843,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0303,
+        "tag-overlap": 0.024,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/开源项目/escheck.html",
+      "type": "related",
+      "weight": 0.1833,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0233,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.1827,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.028,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "type": "related",
+      "weight": 0.1826,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0446,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.1822,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0222,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.1821,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
+      "type": "related",
+      "weight": 0.1817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0067,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "type": "related",
+      "weight": 0.1817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0217,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.1809,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo1.html",
+      "type": "related",
+      "weight": 0.1806,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0056,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
+      "type": "related",
+      "weight": 0.1806,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
+      "type": "related",
+      "weight": 0.1805,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0338,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.1802,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0069,
+        "tag-overlap": 0.0533,
+        "directory-neighbor": 0.12
+      }
+    }
+  ]
+}

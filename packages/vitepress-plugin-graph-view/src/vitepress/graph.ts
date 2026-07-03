@@ -16,16 +16,60 @@ export interface GraphViewNode {
   external?: boolean
 }
 
+export type GraphViewEdgeType = 'markdown' | 'wikilink' | 'html' | 'external' | 'related'
+
 export interface GraphViewEdge {
   source: string
   target: string
-  type: 'markdown' | 'wikilink' | 'html' | 'external'
+  type: GraphViewEdgeType
+  weight?: number
+  relationTypes?: string[]
+  scoreBreakdown?: Record<string, number>
 }
 
 export interface GraphViewData {
   nodes: GraphViewNode[]
   edges: GraphViewEdge[]
   generatedAt: number
+}
+
+export interface GravityMatrixNode extends GraphViewNode {
+  chunkId?: string
+  degree?: number
+}
+
+export interface GravityMatrixEdge extends GraphViewEdge {
+  weight: number
+  relationTypes: string[]
+  scoreBreakdown: Record<string, number>
+}
+
+export interface GravityMatrixChunkInfo {
+  id: string
+  path: string
+  nodeCount: number
+  edgeCount: number
+  categories: string[]
+}
+
+export interface GravityMatrixManifest {
+  version: number
+  generatedAt: number
+  totalNodes: number
+  totalEdges: number
+  chunkSizeTarget: number
+  chunks: GravityMatrixChunkInfo[]
+  bridgesPath?: string
+  bridgePaths?: string[]
+  nodeIndex: Array<Pick<GravityMatrixNode, 'id' | 'title' | 'url' | 'filePath' | 'category' | 'chunkId' | 'degree'>>
+}
+
+export interface GravityMatrixChunk {
+  version: number
+  generatedAt: number
+  id: string
+  nodes: GravityMatrixNode[]
+  edges: GravityMatrixEdge[]
 }
 
 export interface GraphViewLoaderOptions {

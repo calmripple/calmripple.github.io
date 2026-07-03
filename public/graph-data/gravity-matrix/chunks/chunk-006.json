@@ -1,0 +1,5045 @@
+{
+  "version": 1,
+  "generatedAt": 1783046701819,
+  "id": "chunk-006",
+  "nodes": [
+    {
+      "id": "/笔记/💼 职业成长/index.html",
+      "title": "💼 职业成长",
+      "url": "/笔记/💼 职业成长/index.html",
+      "filePath": "笔记/💼 职业成长/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "title": "⚔️ 剑指 Offer",
+      "url": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/index.md",
+      "category": "💼 职业成长",
+      "degree": 17,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "title": "面试题50第一个只出现一次的字符",
+      "url": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/p50.md",
+      "category": "💼 职业成长",
+      "degree": 27,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "title": "面试题53-.0～n-1中缺失的数字",
+      "url": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/p53-2.md",
+      "category": "💼 职业成长",
+      "degree": 27,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "title": "面试题54.二叉搜索树的第k大节点",
+      "url": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/p54.md",
+      "category": "💼 职业成长",
+      "degree": 26,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "title": "面试题55-.二叉树的深度",
+      "url": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/p55-1.md",
+      "category": "💼 职业成长",
+      "degree": 28,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "title": "面试题55-.平衡二叉树",
+      "url": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/p55.md",
+      "category": "💼 职业成长",
+      "degree": 27,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "title": "面试题58-.左旋转字符串",
+      "url": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "filePath": "笔记/💼 职业成长/剑指 Offer/p58.md",
+      "category": "💼 职业成长",
+      "degree": 26,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "title": "与传统移动web的异同",
+      "url": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/differentweb.md",
+      "category": "💼 职业成长",
+      "degree": 21,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "title": "小程序特点",
+      "url": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/feature.md",
+      "category": "💼 职业成长",
+      "degree": 19,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/index.html",
+      "title": "📱 小程序面试",
+      "url": "/笔记/💼 职业成长/小程序面试/index.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "title": "小程序的原理?",
+      "url": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/principle.md",
+      "category": "💼 职业成长",
+      "degree": 21,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "title": "如何加快首屏渲染?",
+      "url": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "filePath": "笔记/💼 职业成长/性能优化面试/firstScreenRender.md",
+      "category": "💼 职业成长",
+      "degree": 23,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "title": "⚡ 性能优化面试",
+      "url": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "filePath": "笔记/💼 职业成长/性能优化面试/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "title": "防抖与节流实现",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/debounce-throttle.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "title": "🧩 算法与代码面试题",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "title": "模式串匹配",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/kmp.md",
+      "category": "💼 职业成长",
+      "degree": 25,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "title": "居中",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/middle-center.md",
+      "category": "💼 职业成长",
+      "degree": 23,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "title": "定时器实现",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/myClock.md",
+      "category": "💼 职业成长",
+      "degree": 26,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "title": "任意进制转换",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/transfer.md",
+      "category": "💼 职业成长",
+      "degree": 26,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "title": "二叉树的遍历",
+      "url": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "filePath": "笔记/💼 职业成长/算法与代码面试题/treeTraverse.md",
+      "category": "💼 职业成长",
+      "degree": 24,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "title": "前端工程化",
+      "url": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/engineering.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/index.html",
+      "title": "📝 综合面试题",
+      "url": "/笔记/💼 职业成长/综合面试题/index.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "title": "在浏览器中输入URL到页面渲染的整个过程",
+      "url": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/inputurl.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "title": "typeof是否能正确判断类型？instanceof能正确判断对象的原理是什么？",
+      "url": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/judgeType.md",
+      "category": "💼 职业成长",
+      "degree": 21,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/object.html",
+      "title": "对象类型和原始类型的不同之处？函数参数是对象会发生什么问题？",
+      "url": "/笔记/💼 职业成长/综合面试题/object.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/object.md",
+      "category": "💼 职业成长",
+      "degree": 21,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "title": "什么是提升？什么是暂时性死区？var、let及const区别？",
+      "url": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/promote.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "title": "如何理解原型？如何理解原型链？",
+      "url": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "filePath": "笔记/💼 职业成长/综合面试题/prototype.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    }
+  ],
+  "edges": [
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "type": "related",
+      "weight": 0.8189,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2869,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.112
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "type": "related",
+      "weight": 0.6915,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1988,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0727
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "type": "related",
+      "weight": 0.6459,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1678,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0582
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "type": "related",
+      "weight": 0.6321,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1588,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0533
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.6309,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1527,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0582
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.6155,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1422,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0533
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.6149,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1457,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0492
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.5965,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1908,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0457
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.5885,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1439,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "type": "related",
+      "weight": 0.5849,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.128,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "type": "related",
+      "weight": 0.583,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.123,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.5819,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1183,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0436
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "type": "related",
+      "weight": 0.5769,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1199,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "type": "related",
+      "weight": 0.5761,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1191,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.5707,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1507,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "type": "related",
+      "weight": 0.5704,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1104,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.5698,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1061,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0436
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "type": "related",
+      "weight": 0.5646,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1077,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "type": "related",
+      "weight": 0.562,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.202,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.5418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1818,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.5328,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1328,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.5319,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1399,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.5308,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1708,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.5221,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1621,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.5168,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1248,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.5139,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0939,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.4955,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1355,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.4951,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0566,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0185
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.4939,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.111,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.4923,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0723,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.4872,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1043,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.487,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.067,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.4859,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0659,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.4774,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2134,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.048
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.4726,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0526,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.4717,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0517,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.4679,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0479,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/object.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.4502,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0241,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0062
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.4487,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0203,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/object.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.4398,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0598,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.436,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1834,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.4334,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0734,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.4326,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.4317,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0597,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.4307,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0587,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.4307,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0107,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.429,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.069,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.4275,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0075,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.4268,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0468,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.4264,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0544,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.426,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0715,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.4255,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0655,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.424,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.004,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.4238,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0038,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.4233,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0033,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.4214,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0014,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.4148,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0548,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.4147,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0427,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.4114,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1634,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.3928,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.3875,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0075,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.3857,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1177,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.3847,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0047,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.3744,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1294,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0291
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.3676,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0276,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.3655,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0255,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.3627,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0227,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.36,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.02,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.3247,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0967,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2907,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0624,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2902,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0502,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0493,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.287,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.047,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2867,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0467,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2862,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0462,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2861,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0121,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2859,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0459,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2857,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0457,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2856,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0456,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2849,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0449,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2848,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0448,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2842,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0442,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2828,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0428,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2826,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0426,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2822,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0422,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2815,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0415,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2815,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0415,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2809,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0409,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2802,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2798,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0158,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2784,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0384,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2759,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0359,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2736,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0336,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2734,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0334,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2726,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0326,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2721,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0321,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2702,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0302,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2666,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0266,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2656,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2652,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0252,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.265,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.025,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2648,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0248,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2642,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0242,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2638,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0238,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2633,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0233,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2624,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0224,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2583,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0183,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "type": "related",
+      "weight": 0.2564,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0164,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.2556,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "type": "related",
+      "weight": 0.2554,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "type": "related",
+      "weight": 0.2553,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0153,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "type": "related",
+      "weight": 0.2549,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0149,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.2547,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0147,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.254,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.014,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2539,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0379,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2539,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0379,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "type": "related",
+      "weight": 0.2538,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0138,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2537,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0137,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.253,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.037,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2527,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0127,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2524,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0364,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.25,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.01,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2488,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0168,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2488,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0208,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.248,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.008,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2479,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0319,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2477,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0157,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2469,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0164,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2464,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0135,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0168
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.245,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2447,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0141,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2437,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0277,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2435,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.2406,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0246,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.2404,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0244,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.2388,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.2387,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0227,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.2381,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.2365,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0205,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2359,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0199,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2359,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0199,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2347,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0187,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2346,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0066,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2345,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0185,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2341,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0181,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2341,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0181,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.234,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.006,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0178,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2329,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0169,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2328,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0168,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2328,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0168,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.2327,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0167,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2324,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0164,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2322,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2322,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.232,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.004,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.2318,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0158,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.2316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.2316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0036,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.2315,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0155,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2314,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.2313,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0153,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2312,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.2311,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0151,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.231,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.051,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.2303,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0143,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.2302,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0142,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2301,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0501,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "type": "related",
+      "weight": 0.23,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.014,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.2299,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.2298,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0098,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.2297,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0137,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "type": "related",
+      "weight": 0.2289,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2288,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0125,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2281,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0121,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.228,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2276,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0116,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2274,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0274,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2274,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2273,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2273,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2272,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0112,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.227,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.227,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2269,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0109,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2269,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0109,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2264,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0464,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2264,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0104,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2262,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2262,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2262,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.226,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.01,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2257,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0097,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2253,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0093,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2251,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0091,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.2251,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0091,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2246,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0086,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2245,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/综合面试题/index.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2245,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0045,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2243,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2242,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0082,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.224,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.008,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.224,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.008,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2238,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0078,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.2234,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/综合面试题/judgeType.html",
+      "type": "related",
+      "weight": 0.2233,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0073,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.223,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.223,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.223,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2228,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0068,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2227,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0067,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2226,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0066,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2226,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0066,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2225,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0065,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2225,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0125,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2224,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2223,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0063,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2222,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0062,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2222,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0062,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/综合面试题/engineering.html",
+      "type": "related",
+      "weight": 0.2221,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0061,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/综合面试题/inputurl.html",
+      "type": "related",
+      "weight": 0.2219,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0059,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2218,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0058,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2215,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0055,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "type": "related",
+      "weight": 0.2209,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0049,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "type": "related",
+      "weight": 0.2207,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0407,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2191,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0191,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "type": "related",
+      "weight": 0.2181,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0381,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "type": "related",
+      "weight": 0.2179,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0379,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2179,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0179,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2178,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0178,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2171,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0171,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "type": "related",
+      "weight": 0.2169,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0369,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "type": "related",
+      "weight": 0.2164,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0364,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.2164,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0364,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2161,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0161,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "type": "related",
+      "weight": 0.2142,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0342,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2136,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0136,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2128,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2127,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0127,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2124,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2122,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0122,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "type": "related",
+      "weight": 0.212,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.012,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2115,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0115,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2094,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0414,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2093,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0093,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.209,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.009,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2085,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2077,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0077,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/综合面试题/prototype.html",
+      "type": "related",
+      "weight": 0.2076,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0076,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2074,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.08,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.2052,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0252,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.2006,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0206,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.2003,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0203,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.1988,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0188,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.1985,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0185,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.1982,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0182,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "type": "related",
+      "weight": 0.1974,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0174,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "type": "related",
+      "weight": 0.1971,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0171,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.1969,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0169,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/myClock.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.1965,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0165,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.1963,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0163,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "type": "related",
+      "weight": 0.1959,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0159,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.1951,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0151,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.1948,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0148,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.1947,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0147,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.1939,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.1939,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.1938,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0138,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.1934,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0134,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.1932,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0132,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.1932,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0132,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.1932,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0132,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.193,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.013,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.1929,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.1926,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "type": "related",
+      "weight": 0.1925,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0125,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/小程序面试/index.html",
+      "type": "related",
+      "weight": 0.1924,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.1924,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.1924,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.1923,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0123,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/综合面试题/index.html",
+      "type": "related",
+      "weight": 0.192,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.012,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "type": "related",
+      "weight": 0.1917,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0117,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/index.html",
+      "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "type": "related",
+      "weight": 0.191,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.023,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.191,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.1903,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0103,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.1903,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0103,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "type": "related",
+      "weight": 0.1902,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p50.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.19,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.01,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p58.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.1899,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0099,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p54.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.1893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0093,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.1868,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0068,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.1847,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0167,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.1821,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0141,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    }
+  ]
+}

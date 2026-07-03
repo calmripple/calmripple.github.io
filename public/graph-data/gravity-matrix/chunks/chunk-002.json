@@ -1,0 +1,4405 @@
+{
+  "version": 1,
+  "generatedAt": 1783046701819,
+  "id": "chunk-002",
+  "nodes": [
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "title": "实现instanceOf",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.md",
+      "category": "🏺 远古技术",
+      "degree": 29,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "title": "instanceof能正确判断对象的原因是什么",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.md",
+      "category": "🏺 远古技术",
+      "degree": 33,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "title": "向页面注入js实现为图片和文字元素添加透明蒙层",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.md",
+      "category": "🏺 远古技术",
+      "degree": 31,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "title": "实践：使用jsencrypt配合axios实现非对称加密传输的数据",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "title": "如何判断数组",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.md",
+      "category": "🏺 远古技术",
+      "degree": 24,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "title": "判断两个时间是否在同一周",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.md",
+      "category": "🏺 远古技术",
+      "degree": 25,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "title": "如何判断变量类型是对象",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.md",
+      "category": "🏺 远古技术",
+      "degree": 36,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "title": "类数组与arguments",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.md",
+      "category": "🏺 远古技术",
+      "degree": 27,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "title": "场景题-请求合并",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.md",
+      "category": "🏺 远古技术",
+      "degree": 47,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "title": "马上中秋了，把鼠标指针变为小玉兔",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.md",
+      "category": "🏺 远古技术",
+      "degree": 24,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "title": "小程序中使用 lottie 动画 | 踩坑经验分享",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "title": "为什么要使用模块化？有哪几种方式可以实现模块化，各有什么特点？",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.md",
+      "category": "🏺 远古技术",
+      "degree": 28,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "title": "实现apply",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.md",
+      "category": "🏺 远古技术",
+      "degree": 35,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "title": "实现bind",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.md",
+      "category": "🏺 远古技术",
+      "degree": 32,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "title": "实现call",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.md",
+      "category": "🏺 远古技术",
+      "degree": 35,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "title": "实现一下new",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.md",
+      "category": "🏺 远古技术",
+      "degree": 42,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "title": "null是对象吗",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "title": "为什么0.1+0.2!=0.3",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "title": "对象类型和原始类型的不同之处",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.md",
+      "category": "🏺 远古技术",
+      "degree": 33,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "title": "函数参数是对象会发生什么问题",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.md",
+      "category": "🏺 远古技术",
+      "degree": 50,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "title": "window.onload与document.ready执行顺序",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.md",
+      "category": "🏺 远古技术",
+      "degree": 24,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "title": "学习过程中学到的一些取巧之法",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "title": "js获取某年某月的天数",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "title": "日期格式化",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.md",
+      "category": "🏺 远古技术",
+      "degree": 28,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "title": "数组扁平化的多种方案",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.md",
+      "category": "🏺 远古技术",
+      "degree": 28,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "title": "判断数据类型的方案",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.md",
+      "category": "🏺 远古技术",
+      "degree": 49,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "title": "文件上传下载",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "title": "原始类型有哪些",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.md",
+      "category": "🏺 远古技术",
+      "degree": 24,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "title": "Promise的特点是什么，分别有什么优缺点？什么是Promise链？Promise构造函数执行和then函数执行有什么区别？",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "title": "Promise",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "title": "实现promiseAll",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "title": "原型与原型链",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "title": "执行上下文",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.md",
+      "category": "🏺 远古技术",
+      "degree": 32,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "title": "执行上下文栈",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.md",
+      "category": "🏺 远古技术",
+      "degree": 28,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "title": "作用域",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.md",
+      "category": "🏺 远古技术",
+      "degree": 25,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "title": "作用域链",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.md",
+      "category": "🏺 远古技术",
+      "degree": 22,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "title": "Symbol的用法",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.md",
+      "category": "🏺 远古技术",
+      "degree": 32,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "title": "如何正确判断this？箭头函数的this是什么？",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.md",
+      "category": "🏺 远古技术",
+      "degree": 35,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "title": "节流与防抖",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.md",
+      "category": "🏺 远古技术",
+      "degree": 25,
+      "chunkId": "chunk-002"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "title": "工具方法汇总",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.md",
+      "category": "🏺 远古技术",
+      "degree": 24,
+      "chunkId": "chunk-002"
+    }
+  ],
+  "edges": [
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "markdown",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "markdown",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "markdown": 1,
+        "content-similarity": 0.0959,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "type": "wikilink",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "wikilink"
+      ],
+      "scoreBreakdown": {
+        "wikilink": 1,
+        "content-similarity": 0.1052,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "markdown",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "markdown",
+        "tag-overlap",
+        "title-overlap",
+        "wikilink"
+      ],
+      "scoreBreakdown": {
+        "markdown": 1,
+        "wikilink": 1,
+        "content-similarity": 0.1494,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.8517,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3117,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.7389,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1989,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "type": "related",
+      "weight": 0.7092,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1692,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.672,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1658,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0862
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.6669,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1758,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0711
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "type": "related",
+      "weight": 0.657,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1837,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0533
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.6543,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2823,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "type": "related",
+      "weight": 0.6331,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2008,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.6119,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.155,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.574,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.154,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.5642,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1073,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.5604,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1337,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0067
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.5565,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1118,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.5565,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0565,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.08
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "type": "related",
+      "weight": 0.5435,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1768,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0427
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.5422,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1702,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "type": "related",
+      "weight": 0.5413,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0843,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.5391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1191,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.5371,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0925,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.5316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1116,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.5268,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0945,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "type": "related",
+      "weight": 0.5253,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0875,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "type": "related",
+      "weight": 0.5245,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0911,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "type": "related",
+      "weight": 0.5233,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0786,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.521,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0887,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.5185,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1287,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.5183,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0983,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "type": "related",
+      "weight": 0.5163,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0717,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.5108,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0908,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "type": "related",
+      "weight": 0.5089,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.052,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.5078,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1358,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.5075,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0506,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0369
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.5074,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0628,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.5063,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0685,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4934,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0734,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4907,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0707,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4874,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0674,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "type": "related",
+      "weight": 0.4871,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0271,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "type": "related",
+      "weight": 0.4868,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0668,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.4862,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0262,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4861,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0394,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0267
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "type": "related",
+      "weight": 0.4857,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0302,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0356
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "type": "related",
+      "weight": 0.485,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.025,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "type": "related",
+      "weight": 0.4818,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0389,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0494,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0371,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0617,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.4815,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1095,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4811,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0611,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "type": "related",
+      "weight": 0.4804,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0604,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4804,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0604,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "type": "related",
+      "weight": 0.4799,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0421,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.4789,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0589,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4787,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0267,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "type": "related",
+      "weight": 0.4772,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0572,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.477,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0447,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "type": "related",
+      "weight": 0.4749,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0549,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.473,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0407,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "type": "related",
+      "weight": 0.4724,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0257,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0267
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4705,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0382,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4699,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0366,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4698,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0353,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.468,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.048,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4665,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0465,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4647,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0447,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "type": "related",
+      "weight": 0.4643,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0443,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "type": "related",
+      "weight": 0.4639,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0287,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0152
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "type": "related",
+      "weight": 0.4636,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0436,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4622,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0422,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "type": "related",
+      "weight": 0.4621,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0421,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.462,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.042,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "type": "related",
+      "weight": 0.4607,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0407,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "type": "related",
+      "weight": 0.4605,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0405,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.4596,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0273,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4594,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0394,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4593,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0393,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4588,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0265,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4587,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0302,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4581,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0381,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.4581,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0861,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "type": "related",
+      "weight": 0.4579,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.4569,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0369,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4566,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0366,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.4557,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0357,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.4552,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0352,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4541,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0341,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.4537,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0817,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4535,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0335,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4531,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0331,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4526,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0326,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4525,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0325,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.452,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.032,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "type": "related",
+      "weight": 0.4519,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0319,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4517,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0317,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4514,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0314,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4511,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0311,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4509,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0309,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4502,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0222,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.4496,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0296,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "type": "related",
+      "weight": 0.4492,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0212,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "type": "related",
+      "weight": 0.4481,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0281,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4479,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0279,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "type": "related",
+      "weight": 0.4478,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0278,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "type": "related",
+      "weight": 0.4478,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0278,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4474,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0274,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4471,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0271,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "type": "related",
+      "weight": 0.4463,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0263,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "type": "related",
+      "weight": 0.4461,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0261,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "type": "related",
+      "weight": 0.4458,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0174,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "type": "related",
+      "weight": 0.4456,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0111,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "type": "related",
+      "weight": 0.4454,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.017,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "type": "related",
+      "weight": 0.4453,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0169,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4451,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0251,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.445,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.017,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "type": "related",
+      "weight": 0.4441,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0241,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4432,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0232,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4427,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0147,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4427,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0227,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4424,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0224,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.4422,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0222,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "type": "related",
+      "weight": 0.4421,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "type": "related",
+      "weight": 0.4421,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "type": "related",
+      "weight": 0.442,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.022,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "type": "related",
+      "weight": 0.4418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0138,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4415,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0215,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "type": "related",
+      "weight": 0.441,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4405,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0205,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.4403,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0203,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4401,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0201,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4397,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4397,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0197,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "type": "related",
+      "weight": 0.4397,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0197,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "type": "related",
+      "weight": 0.4396,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0116,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.4394,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4393,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0193,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "type": "related",
+      "weight": 0.4387,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0187,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "type": "related",
+      "weight": 0.4386,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0186,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4385,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0185,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "type": "related",
+      "weight": 0.4383,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0183,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "type": "related",
+      "weight": 0.4382,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0182,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4378,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0178,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4378,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0178,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4362,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4361,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0161,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "type": "related",
+      "weight": 0.4359,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0079,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "type": "related",
+      "weight": 0.4357,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0157,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.4357,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0637,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4356,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "type": "related",
+      "weight": 0.4355,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0155,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "type": "related",
+      "weight": 0.4353,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0153,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "type": "related",
+      "weight": 0.4352,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4352,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "type": "related",
+      "weight": 0.435,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.015,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4346,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0146,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4343,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0143,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4342,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0142,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4339,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4339,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0138,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "type": "related",
+      "weight": 0.4338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0138,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0133,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0133,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "type": "related",
+      "weight": 0.4331,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0131,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4327,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0127,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.4326,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4324,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "type": "related",
+      "weight": 0.4323,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0123,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4322,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0122,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4321,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0121,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4317,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0117,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4314,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4314,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "type": "related",
+      "weight": 0.4312,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0112,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "type": "related",
+      "weight": 0.4311,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0111,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.4304,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0104,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4302,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.4298,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0098,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4295,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0095,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.4295,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0095,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "type": "related",
+      "weight": 0.429,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.009,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.4289,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0089,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.4285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "type": "related",
+      "weight": 0.4282,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0082,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "type": "related",
+      "weight": 0.4282,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0082,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
+      "type": "related",
+      "weight": 0.4282,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0082,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "type": "related",
+      "weight": 0.4279,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0079,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/js-cover.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "type": "related",
+      "weight": 0.4274,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "type": "related",
+      "weight": 0.4274,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "type": "related",
+      "weight": 0.4272,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "type": "related",
+      "weight": 0.4271,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0071,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
+      "type": "related",
+      "weight": 0.427,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.4266,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0066,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "type": "related",
+      "weight": 0.4253,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0053,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeArr.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.4243,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0523,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.4197,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0477,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "type": "related",
+      "weight": 0.4183,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0583,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.02
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.4166,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0446,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.4158,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0358,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.4137,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0417,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.4136,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0336,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.4135,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0335,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeObj.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.412,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.04,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.409,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.037,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "type": "related",
+      "weight": 0.4075,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0355,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.4045,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0325,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.404,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.048,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.4034,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0234,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "type": "related",
+      "weight": 0.4013,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0293,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
+      "type": "related",
+      "weight": 0.401,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.029,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "type": "related",
+      "weight": 0.3956,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0489,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0067
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.39,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.034,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.3897,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0337,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.3893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0333,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "type": "related",
+      "weight": 0.3876,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0476,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "type": "related",
+      "weight": 0.3876,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0343,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.3855,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0455,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.3849,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0289,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
+      "type": "related",
+      "weight": 0.3834,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0368,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0067
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.3826,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0266,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.3819,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0241,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
+      "type": "related",
+      "weight": 0.3792,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0392,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "type": "related",
+      "weight": 0.3787,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0387,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
+      "type": "related",
+      "weight": 0.3775,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0308,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0067
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.3767,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0367,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/instanceof.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
+      "type": "related",
+      "weight": 0.376,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0227,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.3754,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0176,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myApply.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.375,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0172,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.3722,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0145,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.371,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.031,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.3695,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0295,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/likearray.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
+      "type": "related",
+      "weight": 0.3594,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0194,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/module.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
+      "type": "related",
+      "weight": 0.3563,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
+      "type": "related",
+      "weight": 0.3542,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0149,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0152
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/jsencrypt.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "type": "related",
+      "weight": 0.3516,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0276,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mergeRequest.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "type": "related",
+      "weight": 0.3501,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0261,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mini-lottie.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
+      "type": "related",
+      "weight": 0.3493,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0177,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/mid-autumn-festival.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
+      "type": "related",
+      "weight": 0.3461,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/judgeDate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
+      "type": "related",
+      "weight": 0.3451,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0211,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    }
+  ]
+}

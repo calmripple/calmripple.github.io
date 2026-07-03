@@ -1,0 +1,4019 @@
+{
+  "version": 1,
+  "generatedAt": 1783046701819,
+  "id": "chunk-003",
+  "nodes": [
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeConvert.html",
+      "title": "JavaScript中的类型转换规则",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeConvert.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeConvert.md",
+      "category": "🏺 远古技术",
+      "degree": 27,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeof.html",
+      "title": "typeof能否正常判断类型",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeof.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeof.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "title": "为什么'\\x1B'.length===1？\\x与\\u知识延伸",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/v8garbage.html",
+      "title": "V8下的垃圾回收机制是怎么样的？",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/v8garbage.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/v8garbage.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.html",
+      "title": "参数按值传递",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.md",
+      "category": "🏺 远古技术",
+      "degree": 29,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "title": "变量对象",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.md",
+      "category": "🏺 远古技术",
+      "degree": 47,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "title": "解决Vite-React项目中js使用jsx语法报错的问题",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "title": "优雅的处理挂载window上的函数可能不存在的情况",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.md",
+      "category": "🏺 远古技术",
+      "degree": 25,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "title": "Mac上抓包秒通关羊了个羊",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "title": "开源协议选择指南（含 Mermaid 决策图）",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "title": "译：使用 Bun 执行 Shell 脚本",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "title": "Node侧实现内容压缩(gzip/br/deflate)介绍与实践",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "title": "nuget 修改 package存储位置",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "title": "🟢 Node.js 与后端",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "title": "30行代码实现合并指定目录下的所有文件的内容",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.md",
+      "category": "🏺 远古技术",
+      "degree": 26,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "title": "使用TS封装操作MongoDB数据库的工具方法",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "title": "Node中require与fs.readFile读取JSON文件的对比",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.md",
+      "category": "🏺 远古技术",
+      "degree": 26,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "title": "【免费】Node.js 入门教程",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.md",
+      "category": "🏺 远古技术",
+      "degree": 28,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "title": "安装nvm后终端启动变慢,更快的Node版本管理工具推荐",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "title": "使用Node.js从终端读入内容",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "title": "实现一个幽灵依赖扫描工具",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "title": "译：使用现代的 Node.js 构建简单的CLI工具",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "title": "前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.md",
+      "category": "🏺 远古技术",
+      "degree": 24,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "title": "组件通信",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "title": "编译template的过程",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "title": "computed与watch",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "title": "响应式系统的依赖收集追踪原理",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "title": "数据状态更新时的差异diff及patch机制",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "title": "extendAP",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "title": "生命周期钩子",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.html",
+      "title": "💚 Vue 框架",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "title": "keep-alive",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "title": "运行机制概述",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "title": "mixin与mixins",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "title": "响应式的基本原理",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.md",
+      "category": "🏺 远古技术",
+      "degree": 22,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "title": "路由原理",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "title": "v-show与v-if",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.md",
+      "category": "🏺 远古技术",
+      "degree": 21,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "title": "实现VNode节点",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.md",
+      "category": "🏺 远古技术",
+      "degree": 22,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "title": "CDN的缓存与回源机制",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-003"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.html",
+      "title": "DNS预解析",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-003"
+    }
+  ],
+  "edges": [
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.6065,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1598,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0267
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.5668,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1468,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.5606,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1406,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.5272,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0805,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0267
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeConvert.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeof.html",
+      "type": "related",
+      "weight": 0.5246,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0939,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.5195,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0995,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.5176,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0976,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.5117,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0597,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.507,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0764,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "type": "related",
+      "weight": 0.5031,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0831,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.4988,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0579,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0209
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.492,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.072,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.4893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0505,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0188
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4886,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0562,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4822,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0622,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4789,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0456,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "type": "related",
+      "weight": 0.4748,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0548,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4748,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0548,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4739,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0539,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.4721,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0397,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.4692,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0398,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.4636,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0436,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4618,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0418,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4608,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0408,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.4606,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0406,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.4585,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0197,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0188
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4585,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0385,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.457,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.037,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.4557,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0357,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4555,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0355,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4547,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0347,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/v8garbage.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "type": "related",
+      "weight": 0.4543,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0343,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.4539,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0339,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4539,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0339,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeConvert.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.html",
+      "type": "related",
+      "weight": 0.4531,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0331,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.453,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.033,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.4525,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0904,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4522,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0322,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.452,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.032,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "type": "related",
+      "weight": 0.4449,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4442,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0242,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4436,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0236,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4434,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0234,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.443,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.023,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "type": "related",
+      "weight": 0.4428,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.442,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.022,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4413,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0213,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.441,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.021,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4404,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0204,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.44,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.02,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4397,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0197,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.4396,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0196,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4393,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0193,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0191,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4386,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0186,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4382,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0182,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.4377,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.081,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0053
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.4372,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0172,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4372,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0172,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.4369,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0169,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.4368,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0168,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4363,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0163,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/v8garbage.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.html",
+      "type": "related",
+      "weight": 0.4357,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0157,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4357,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0157,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.html",
+      "type": "related",
+      "weight": 0.4354,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.4346,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0146,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4341,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0141,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.434,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.014,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.4339,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "type": "related",
+      "weight": 0.4336,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0136,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.4332,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0711,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "type": "related",
+      "weight": 0.433,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.013,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4328,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4327,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0127,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.4323,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0123,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.4322,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0122,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.4321,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0121,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4319,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0119,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "type": "related",
+      "weight": 0.4318,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0118,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "type": "related",
+      "weight": 0.4318,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0118,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4314,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0114,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.4313,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.086,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0213
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4308,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0108,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4306,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0106,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "type": "related",
+      "weight": 0.4305,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0105,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4302,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0102,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4301,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0101,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4301,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0101,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4299,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0099,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "type": "related",
+      "weight": 0.4298,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0098,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.4296,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0765,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0291
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "type": "related",
+      "weight": 0.4296,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0096,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4294,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0094,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "type": "related",
+      "weight": 0.429,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.009,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "type": "related",
+      "weight": 0.4285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "type": "related",
+      "weight": 0.4285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4283,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.428,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.008,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4279,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0079,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "type": "related",
+      "weight": 0.4276,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0076,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4276,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0076,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.427,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.007,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4267,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0067,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4266,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0066,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.4265,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0065,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4265,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0065,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "type": "related",
+      "weight": 0.4264,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4264,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "type": "related",
+      "weight": 0.4263,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0063,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
+      "type": "related",
+      "weight": 0.4262,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0062,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4261,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0061,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.4252,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0052,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.4252,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0052,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.4249,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0049,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "type": "related",
+      "weight": 0.4246,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0046,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "type": "related",
+      "weight": 0.4245,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0045,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "type": "related",
+      "weight": 0.4237,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0037,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.4165,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0169,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.4138,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0913,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0053
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.4089,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0521,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0053
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.html",
+      "type": "related",
+      "weight": 0.4062,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0312,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "type": "related",
+      "weight": 0.4052,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0232,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.4041,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0447,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.4028,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0354,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "type": "related",
+      "weight": 0.4007,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0187,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.3982,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.395,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.02,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.3916,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0582,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.3906,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0412,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.3896,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0146,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.3893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0272,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.3887,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0617,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.3887,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0524,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.3879,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1141,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0457
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.3852,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0424,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0188
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.382,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0473,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "type": "related",
+      "weight": 0.3814,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0223,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.381,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0431,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0139
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.3798,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0048,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.3789,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0039,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "type": "related",
+      "weight": 0.3785,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0157,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "type": "related",
+      "weight": 0.3785,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0336,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0209
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.3782,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0268,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "type": "related",
+      "weight": 0.3777,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0027,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.3776,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0181,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.3767,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0253,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.3756,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0446,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.3743,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0465,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "type": "related",
+      "weight": 0.3721,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0207,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.3715,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0405,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.3683,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0443,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "type": "related",
+      "weight": 0.3668,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.3625,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0131,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.3625,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0385,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.3622,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0127,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "type": "related",
+      "weight": 0.3618,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0259,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.3614,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0304,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.3592,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0245,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.3573,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.356,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0381,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "type": "related",
+      "weight": 0.3549,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0133,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.3544,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0274,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
+      "type": "related",
+      "weight": 0.353,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0153,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.3509,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0026,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0213
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.3506,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0266,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
+      "type": "related",
+      "weight": 0.3504,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0234,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/v8garbage.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "type": "related",
+      "weight": 0.3492,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0134,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.3492,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0222,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "type": "related",
+      "weight": 0.3481,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0081,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "type": "related",
+      "weight": 0.3469,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0199,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "type": "related",
+      "weight": 0.3468,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0198,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
+      "type": "related",
+      "weight": 0.3451,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0181,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "type": "related",
+      "weight": 0.3442,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0142,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/typeConvert.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
+      "type": "related",
+      "weight": 0.3436,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0166,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/valuePass.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
+      "type": "related",
+      "weight": 0.3436,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0166,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
+      "type": "related",
+      "weight": 0.3434,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0164,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "type": "related",
+      "weight": 0.3428,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.3417,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0846,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0291
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.3406,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
+      "type": "related",
+      "weight": 0.3383,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "type": "related",
+      "weight": 0.3381,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "type": "related",
+      "weight": 0.3334,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "type": "related",
+      "weight": 0.3333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0543,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ux.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "type": "related",
+      "weight": 0.3312,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0012,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.33,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.3286,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0115,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "type": "related",
+      "weight": 0.3283,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0239,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "type": "related",
+      "weight": 0.3208,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0418,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "type": "related",
+      "weight": 0.3103,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0179,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.3099,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0903,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0053
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
+      "type": "related",
+      "weight": 0.3061,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.034,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "type": "related",
+      "weight": 0.3059,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0209,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
+      "type": "related",
+      "weight": 0.3053,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
+      "type": "related",
+      "weight": 0.3034,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0232,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.3023,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.html",
+      "type": "related",
+      "weight": 0.3023,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
+      "type": "related",
+      "weight": 0.3022,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.3021,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0193,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "type": "related",
+      "weight": 0.3009,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.018,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/yanglegeyang.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.2973,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0252,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.2969,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0119,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.html",
+      "type": "related",
+      "weight": 0.2949,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0669,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.2935,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0214,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/vite-react-js.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.2927,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0205,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/window-var.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.2875,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
+      "type": "related",
+      "weight": 0.2825,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0545,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/前端接口神器之 json-server 详细使用指南 - MegaSu - 博客园.html",
+      "type": "related",
+      "weight": 0.2726,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0446,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
+      "type": "related",
+      "weight": 0.2717,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0437,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
+      "type": "related",
+      "weight": 0.2608,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0292,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0036
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/bun-shell.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.2551,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0316,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0036
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
+      "type": "related",
+      "weight": 0.2427,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0111,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0036
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
+      "type": "related",
+      "weight": 0.2411,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0011,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
+      "type": "related",
+      "weight": 0.2391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0111,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/compress-response.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.2348,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0068,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
+      "type": "related",
+      "weight": 0.234,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.006,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
+      "type": "related",
+      "weight": 0.2319,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0039,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
+      "type": "related",
+      "weight": 0.2222,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0079,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
+      "type": "related",
+      "weight": 0.2199,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0056,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/variableObject.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/dotnetViaVscode.html",
+      "type": "related",
+      "weight": 0.2148,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0036
+      }
+    }
+  ]
+}

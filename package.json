@@ -25,12 +25,13 @@
     "workspace:dev": "pnpm -r --filter \"@knewbeing/*\" --parallel --if-present run dev",
     "workspace:build": "pnpm -r --filter \"@knewbeing/*\" --if-present run build",
     "workspace:publish": "pnpm -r --filter \"@knewbeing/*\" --if-present publish --access public --no-git-checks",
+    "graph:matrix": "tsx scripts/generate-gravity-matrix.ts",
     "predev": "pnpm run workspace:dev",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "prebuild": "pnpm run workspace:build",
+    "prebuild": "pnpm run workspace:build && pnpm run graph:matrix",
     "serve": "vitepress serve",
-    "build:test": "pnpm run workspace:build && tsx scripts/test-build.ts",
+    "build:test": "pnpm run workspace:build && pnpm run graph:matrix && tsx scripts/test-build.ts",
     "prepare": "husky"
   },
   "devDependencies": {

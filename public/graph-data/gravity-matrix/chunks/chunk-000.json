@@ -1,0 +1,1892 @@
+{
+  "version": 1,
+  "generatedAt": 1783046701819,
+  "id": "chunk-000",
+  "nodes": [
+    {
+      "id": "/笔记/🌱 生活与思考/index.html",
+      "title": "🌱 生活与思考",
+      "url": "/笔记/🌱 生活与思考/index.html",
+      "filePath": "笔记/🌱 生活与思考/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "title": "在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用",
+      "url": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "filePath": "笔记/🌱 生活与思考/工具软件/deepin-wemeet.md",
+      "category": "🌱 生活与思考",
+      "degree": 23,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "title": "🔧 工具软件",
+      "url": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "filePath": "笔记/🌱 生活与思考/工具软件/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "title": "⚙️ 开发环境",
+      "url": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "filePath": "笔记/🌱 生活与思考/开发环境/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "title": "解决 VS Code 不能在只读卷上更新",
+      "url": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "filePath": "笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.md",
+      "category": "🌱 生活与思考",
+      "degree": 11,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "title": "🔎 搜索技巧",
+      "url": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "filePath": "笔记/🌱 生活与思考/搜索技巧/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "title": "如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？",
+      "url": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "filePath": "笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.md",
+      "category": "🌱 生活与思考",
+      "degree": 11,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "title": "📚 知识库建设",
+      "url": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "filePath": "笔记/🌱 生活与思考/知识库建设/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "title": "Nolebase 集成",
+      "url": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "filePath": "笔记/🌱 生活与思考/知识库建设/Nolebase 集成.md",
+      "category": "🌱 生活与思考",
+      "degree": 9,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "title": "知在",
+      "url": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "filePath": "笔记/🌱 生活与思考/知识库建设/Nolebase.md",
+      "category": "🌱 生活与思考",
+      "degree": 8,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "title": "📝 笔记与知识管理",
+      "url": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 14,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "title": "Notion",
+      "url": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/Notion.md",
+      "category": "🌱 生活与思考",
+      "degree": 12,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "title": "Obsidian 插件收藏",
+      "url": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.md",
+      "category": "🌱 生活与思考",
+      "degree": 6,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "title": "Obsidian",
+      "url": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/Obsidian.md",
+      "category": "🌱 生活与思考",
+      "degree": 12,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "title": "笔记软件",
+      "url": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/笔记软件.md",
+      "category": "🌱 生活与思考",
+      "degree": 11,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "title": "BFC",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "title": "盒模型",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "title": "弹性布局",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "title": "FC",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
+      "title": "🎨 CSS 与布局",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "title": "CSS层级关系",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "title": "CSS伪元素before与after",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "title": "表格斑马纹",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-000"
+    }
+  ],
+  "edges": [
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "type": "wikilink",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap",
+        "wikilink"
+      ],
+      "scoreBreakdown": {
+        "wikilink": 1,
+        "content-similarity": 0.188,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "type": "related",
+      "weight": 0.7546,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3946,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "type": "related",
+      "weight": 0.7546,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3946,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "type": "related",
+      "weight": 0.7546,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3946,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "type": "related",
+      "weight": 0.6713,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3113,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "type": "related",
+      "weight": 0.6713,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3113,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "type": "related",
+      "weight": 0.6713,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3113,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.6631,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3031,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.6234,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2634,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.5992,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2392,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.5992,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2392,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.5992,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2392,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.5837,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1971,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0267
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.5679,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2079,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.5679,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2079,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.5679,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2079,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.5386,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1186,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.5193,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0833,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.5031,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0831,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "type": "related",
+      "weight": 0.4935,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0735,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.4891,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0691,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "type": "related",
+      "weight": 0.4789,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0482,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "type": "related",
+      "weight": 0.4673,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0473,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "type": "related",
+      "weight": 0.458,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.038,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "type": "related",
+      "weight": 0.4561,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0254,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.4481,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0281,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "type": "related",
+      "weight": 0.4437,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0237,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "type": "related",
+      "weight": 0.4405,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0605,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "type": "related",
+      "weight": 0.4368,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0168,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "type": "related",
+      "weight": 0.4351,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0151,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "type": "related",
+      "weight": 0.4126,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0326,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "type": "related",
+      "weight": 0.4038,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0238,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "type": "related",
+      "weight": 0.4033,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0233,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "type": "related",
+      "weight": 0.4028,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "type": "related",
+      "weight": 0.4016,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0216,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "type": "related",
+      "weight": 0.3985,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0185,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "type": "related",
+      "weight": 0.3971,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0171,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "type": "related",
+      "weight": 0.3965,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0165,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "type": "related",
+      "weight": 0.3956,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "type": "related",
+      "weight": 0.3952,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "type": "related",
+      "weight": 0.3948,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0148,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
+      "type": "related",
+      "weight": 0.3944,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0144,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "type": "related",
+      "weight": 0.394,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.014,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "type": "related",
+      "weight": 0.3695,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0615,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.08
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.3024,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0744,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2904,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0762,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "type": "related",
+      "weight": 0.2867,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0067,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.2841,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0698,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.2804,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0232,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "type": "related",
+      "weight": 0.2794,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0394,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2786,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0214,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2761,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0189,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.2725,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.2701,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.2696,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.2666,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0523,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.266,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.038,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2627,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1085,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "type": "related",
+      "weight": 0.2611,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.004,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "type": "related",
+      "weight": 0.2603,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0031,
+        "tag-overlap": 0.1371,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "type": "related",
+      "weight": 0.2508,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "type": "related",
+      "weight": 0.2506,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0306,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2399,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0856,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2399,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0856,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.2399,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0856,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "type": "related",
+      "weight": 0.2306,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0626,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "type": "related",
+      "weight": 0.2299,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0499,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.2287,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0744,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "type": "related",
+      "weight": 0.22,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0658,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "type": "related",
+      "weight": 0.2194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0394,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "type": "related",
+      "weight": 0.2194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0394,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "type": "related",
+      "weight": 0.2174,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0494,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "type": "related",
+      "weight": 0.2174,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0494,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "type": "related",
+      "weight": 0.2174,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0494,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.2155,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0475,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian 插件收藏.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.2143,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.2137,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0594,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.213,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0587,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.213,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0587,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.213,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0587,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.2103,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0303,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.2063,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0263,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.2011,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0469,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.2011,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0469,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.2011,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0469,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "type": "related",
+      "weight": 0.201,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.033,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.201,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.033,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.1994,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0451,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "type": "related",
+      "weight": 0.1988,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0388,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.1987,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0444,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "type": "related",
+      "weight": 0.1969,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0289,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "type": "related",
+      "weight": 0.194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.026,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "type": "related",
+      "weight": 0.194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.026,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "type": "related",
+      "weight": 0.194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.026,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Notion.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.037,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "type": "related",
+      "weight": 0.1908,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "type": "related",
+      "weight": 0.1908,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "target": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "type": "related",
+      "weight": 0.1906,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0306,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "type": "related",
+      "weight": 0.1906,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0306,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.1855,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0175,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "type": "related",
+      "weight": 0.1835,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0235,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.1832,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
+      "type": "related",
+      "weight": 0.1818,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0276,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "type": "related",
+      "weight": 0.1804,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0204,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    }
+  ]
+}

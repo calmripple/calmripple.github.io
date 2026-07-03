@@ -1,0 +1,2390 @@
+{
+  "version": 1,
+  "generatedAt": 1783046701819,
+  "id": "chunk-008",
+  "nodes": [
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "title": "1范数 2范数 无穷范数的通俗理解",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.md",
+      "category": "🤖 AI 与智能",
+      "degree": 20,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "title": "📐 机器学习基础",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/index.md",
+      "category": "🤖 AI 与智能",
+      "degree": 18,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "title": "PyTorch Lightning 恢复训练进度",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.md",
+      "category": "🤖 AI 与智能",
+      "degree": 28,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "title": "SVD奇异值分解及其意义",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "title": "从头构建一个自己的 GPT 吧",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "title": "分布式训练",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/分布式训练.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "title": "反向传播算法",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/反向传播算法.md",
+      "category": "🤖 AI 与智能",
+      "degree": 31,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "title": "向量范数和矩阵范数",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.md",
+      "category": "🤖 AI 与智能",
+      "degree": 20,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "title": "基本名词",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/基本名词.md",
+      "category": "🤖 AI 与智能",
+      "degree": 29,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "title": "学习和使用 PyTorch",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "title": "材料化学相关的 Python 计算库",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.md",
+      "category": "🤖 AI 与智能",
+      "degree": 29,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "title": "用 PyTorch Lightning 监控和串流 PyTorch 的训练进度",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.md",
+      "category": "🤖 AI 与智能",
+      "degree": 28,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "title": "监控和串流机器学习的进度，损失和正样本校验数值",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.md",
+      "category": "🤖 AI 与智能",
+      "degree": 27,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "title": "神经网络基础",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/神经网络基础.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "title": "调研结果和资料整理",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.md",
+      "category": "🤖 AI 与智能",
+      "degree": 18,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "title": "选择自己想训练的模型方向 - 机器学习的应用场景",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.md",
+      "category": "🤖 AI 与智能",
+      "degree": 20,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "title": "阅读清单",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/阅读清单.md",
+      "category": "🤖 AI 与智能",
+      "degree": 22,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "title": "☁️ DevOps 与云原生",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/index.md",
+      "category": "🛠 工程实践",
+      "degree": 10,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "title": "wsl中安装docker 1panel k8s",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.md",
+      "category": "🛠 工程实践",
+      "degree": 7,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "title": "Serverless",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/serverless.md",
+      "category": "🛠 工程实践",
+      "degree": 16,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "title": "zsh和oh-my-zsh美化",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.md",
+      "category": "🛠 工程实践",
+      "degree": 10,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "title": "Git常用的一些基本操作",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/git-base.md",
+      "category": "🛠 工程实践",
+      "degree": 29,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "title": "git如何清除历史版本",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.md",
+      "category": "🛠 工程实践",
+      "degree": 8,
+      "chunkId": "chunk-008"
+    }
+  ],
+  "edges": [
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "type": "markdown",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "markdown",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "markdown": 1,
+        "content-similarity": 0.0797,
+        "tag-overlap": 0.1527,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.7445,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.3112,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.6873,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2057,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0615
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.6391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2191,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.5771,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1805,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0246
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.5658,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1458,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.5618,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1418,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.5578,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1378,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.5541,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1341,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.5075,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0875,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.5054,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0854,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.5053,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0769,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.5028,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0828,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.5008,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0808,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4984,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0784,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4941,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0741,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.4925,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0725,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.4834,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1032,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0082
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.4829,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0629,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.4811,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0611,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4785,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0585,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4771,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0487,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4753,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0553,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.4683,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0963,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.468,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.048,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.4631,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0911,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4604,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0404,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.4504,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0784,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4473,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0273,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4452,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0252,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "type": "related",
+      "weight": 0.4418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0218,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.4387,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0667,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.4333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.091,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.431,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.4285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0757,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4237,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0433,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.4206,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0783,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4198,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0478,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.046,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.4159,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0631,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.4079,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0997,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0082
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.3926,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0626,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3921,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0201,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0525,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.3892,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0592,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3888,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0504,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3882,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3842,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0542,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0653,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0164
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3813,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0513,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3786,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0025,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0041
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3773,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0053,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.377,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.005,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3758,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0038,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "type": "related",
+      "weight": 0.3755,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0035,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3754,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.375,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.003,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "type": "related",
+      "weight": 0.3748,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0028,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3746,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0026,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3744,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0024,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3734,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0014,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.373,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1377,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0253
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.372,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3695,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0395,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3628,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0328,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3557,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0557,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3544,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0544,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.353,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.013,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3527,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0527,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3507,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0507,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3497,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0025
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3496,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0096,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3494,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0419,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0075
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "type": "related",
+      "weight": 0.3494,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1018,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0276
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3493,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0093,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3479,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0479,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3458,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0158,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3455,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0055,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3445,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0145,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3442,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.3429,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3424,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.3422,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0122,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0018,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3413,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.3407,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0107,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3406,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0006,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.3391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0091,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3385,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0016,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3381,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0081,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3374,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0374,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3371,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0071,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.337,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.3364,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3357,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0057,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3343,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0043,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.3342,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0042,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3341,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0041,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.334,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.092,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0338,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0333,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3329,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0029,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.3316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0016,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.33,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.33,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.33,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3276,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0276,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "type": "related",
+      "weight": 0.326,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.026,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3239,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0239,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3202,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0202,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3189,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0189,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3145,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0145,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3092,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0332,
+        "tag-overlap": 0.096,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3072,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3072,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3066,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0041,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0025
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "type": "related",
+      "weight": 0.3054,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0054,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3047,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0047,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3043,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0043,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3034,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3022,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0022,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "type": "related",
+      "weight": 0.3007,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0007,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3004,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0481,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "type": "related",
+      "weight": 0.2917,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.005,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.2761,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0661,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.2737,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0317,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.2731,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0331,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.2725,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0625,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "type": "related",
+      "weight": 0.2709,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0036,
+        "tag-overlap": 0.0873,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "type": "related",
+      "weight": 0.22,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "type": "related",
+      "weight": 0.21,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "type": "related",
+      "weight": 0.2018,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.0218,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "type": "related",
+      "weight": 0.1839,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0317,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0055
+      }
+    }
+  ]
+}

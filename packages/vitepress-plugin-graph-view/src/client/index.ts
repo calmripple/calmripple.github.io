@@ -6,9 +6,11 @@ import NolebaseGraphView from './components/NolebaseGraphView.vue'
 import NolebaseGraphView3D from './components/NolebaseGraphView3D.vue'
 
 import { InjectionKey } from './constants'
+import { loadGravityMatrixGraph } from './loaders/gravityMatrix'
 
 export {
   InjectionKey,
+  loadGravityMatrixGraph,
   NolebaseGraphView,
   NolebaseGraphView3D,
 }

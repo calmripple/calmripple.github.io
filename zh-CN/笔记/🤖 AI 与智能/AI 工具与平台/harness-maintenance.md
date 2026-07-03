@@ -175,7 +175,7 @@ connectors:
 
 #### OPA 策略引擎（企业版）
 
-```rego
+```text
 # 示例：禁止在生产部署中使用 latest 标签
 package pipeline
 
