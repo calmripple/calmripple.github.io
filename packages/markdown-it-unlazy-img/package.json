@@ -36,16 +36,16 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "typescript": "6.0.3",
-    "unbuild": "catalog:",
-    "vue-tsc": "catalog:"
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1",
+    "vue-tsc": "^3.3.6"
   },
   "peerDependencies": {
-    "markdown-it": "catalog:",
-    "vite": "catalog:"
+    "markdown-it": "^14.3.0",
+    "vite": "8.1.2"
   },
   "dependencies": {
-    "colorette": "catalog:",
-    "tinyglobby": "catalog:"
+    "colorette": "^2.0.20",
+    "tinyglobby": "^0.2.17"
   }
 }

@@ -53,27 +53,27 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "catalog:",
-    "typescript": "6.0.3",
-    "unbuild": "catalog:",
-    "vitest": "catalog:",
-    "vue-tsc": "catalog:"
+    "@rollup/plugin-yaml": "^5.0.0",
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1",
+    "vitest": "^4.1.9",
+    "vue-tsc": "^3.3.6"
   },
   "peerDependencies": {
-    "vite": "catalog:",
-    "vitepress": "catalog:",
-    "vue": "catalog:"
+    "vite": "8.1.2",
+    "vitepress": "2.0.0-alpha.15",
+    "vue": "^3.5.39"
   },
   "dependencies": {
     "@knewbeing/ui": "workspace:*",
-    "colorette": "catalog:",
-    "date-fns": "catalog:",
-    "debug": "catalog:",
-    "defu": "catalog:",
-    "es-toolkit": "catalog:",
-    "execa": "catalog:",
-    "globby": "catalog:",
-    "gray-matter": "catalog:",
-    "uncrypto": "catalog:"
+    "colorette": "^2.0.20",
+    "date-fns": "^4.4.0",
+    "debug": "^4.4.0",
+    "defu": "^6.1.7",
+    "es-toolkit": "^1.49.0",
+    "execa": "^9.6.1",
+    "globby": "^16.2.0",
+    "gray-matter": "^4.0.3",
+    "uncrypto": "^0.1.3"
   }
 }

@@ -49,15 +49,15 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "catalog:",
-    "typescript": "6.0.3",
-    "unbuild": "catalog:",
-    "vite": "catalog:",
-    "vitepress": "catalog:",
-    "vue-tsc": "catalog:"
+    "@types/node": "^26.1.0",
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1",
+    "vite": "8.1.2",
+    "vitepress": "2.0.0-alpha.15",
+    "vue-tsc": "^3.3.6"
   },
   "peerDependencies": {
-    "vite": "catalog:",
-    "vitepress": "catalog:"
+    "vite": "8.1.2",
+    "vitepress": "2.0.0-alpha.15"
   }
 }

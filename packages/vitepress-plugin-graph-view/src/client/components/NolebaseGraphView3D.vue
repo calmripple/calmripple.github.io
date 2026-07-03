@@ -49,6 +49,7 @@ const focusedNodeId = ref<string>()
 const draggedNodeId = ref<string>()
 
 let graphInstance: any
+let SpriteTextCtor: any
 
 const relationTypeLabels: Record<string, string> = {
   markdown: "显式链接",
@@ -372,6 +373,25 @@ function nodeLabel(node: MatrixGraphNode): string {
   return `<div class="VPGraph3DNodeTooltip${isPrimaryNode(node) ? " primary" : ""}"><strong>${title}</strong><span>${escapeHtml(relationText)}${weightText}</span></div>`
 }
 
+function nodeTitleObject(node: MatrixGraphNode) {
+  if (!SpriteTextCtor || !activeNodeId.value || !isFocusedNode(node))
+    return false
+
+  const sprite = new SpriteTextCtor(node.name)
+  sprite.color = isPrimaryNode(node) ? "#fff1a8" : node.baseColor
+  sprite.backgroundColor = isPrimaryNode(node) ? "rgba(35, 28, 6, 0.74)" : "rgba(5, 11, 12, 0.68)"
+  sprite.borderColor = isPrimaryNode(node) ? "rgba(248, 214, 109, 0.44)" : "rgba(190, 255, 226, 0.18)"
+  sprite.borderWidth = 0.8
+  sprite.borderRadius = 4
+  sprite.padding = 3
+  sprite.textHeight = isPrimaryNode(node) ? 6.8 : 5.2
+  sprite.center.set(0.5, -0.72)
+  sprite.material.depthWrite = false
+  sprite.material.depthTest = false
+  sprite.renderOrder = isPrimaryNode(node) ? 12 : 10
+  return sprite
+}
+
 function applyFocusStyles() {
   if (!graphInstance)
     return
@@ -380,6 +400,8 @@ function applyFocusStyles() {
     .nodeColor((node: MatrixGraphNode) => nodeColor(node))
     .nodeVisibility((node: MatrixGraphNode) => nodeVisibility(node))
     .nodeLabel((node: MatrixGraphNode) => nodeLabel(node))
+    .nodeThreeObject((node: MatrixGraphNode) => nodeTitleObject(node))
+    .nodeThreeObjectExtend(true)
     .linkColor((link: any) => linkColor(link))
     .linkVisibility((link: any) => linkVisibility(link))
     .linkWidth((link: any) => linkWidth(link))
@@ -387,11 +409,31 @@ function applyFocusStyles() {
     .linkDirectionalParticleWidth((link: any) => activeNodeId.value && isFocusedLink(link) ? 1.8 : 0.7 + linkWeight(link) * 1.1)
 }
 
+function syncGraphDataToInstance(fit = true) {
+  if (!graphInstance)
+    return
+
+  if (!graphData.value.nodes.length) {
+    graphInstance.pauseAnimation?.()
+    return
+  }
+
+  graphInstance.graphData(graphData.value)
+  configureForces()
+  applyFocusStyles()
+  graphInstance.d3ReheatSimulation?.()
+  graphInstance.resumeAnimation?.()
+  if (fit)
+    graphInstance.zoomToFit(450, 36)
+}
+
 async function initGraph() {
   if (!containerEl.value)
     return
 
   const { default: ForceGraph3D } = await import("3d-force-graph")
+  const { default: SpriteText } = await import("three-spritetext")
+  SpriteTextCtor = SpriteText
 
   graphInstance = (ForceGraph3D as any)()(containerEl.value)
     .backgroundColor("rgba(0,0,0,0)")
@@ -400,6 +442,8 @@ async function initGraph() {
     .nodeVal((node: any) => node.val)
     .nodeColor((node: MatrixGraphNode) => nodeColor(node))
     .nodeVisibility((node: MatrixGraphNode) => nodeVisibility(node))
+    .nodeThreeObject((node: MatrixGraphNode) => nodeTitleObject(node))
+    .nodeThreeObjectExtend(true)
     .nodeOpacity(0.98)
     .nodeResolution(18)
     .nodeRelSize(3.8)
@@ -437,10 +481,9 @@ async function initGraph() {
         window.location.href = node.url
     })
 
-  configureForces()
   updateSize()
-  graphInstance.graphData(graphData.value)
-  graphInstance.zoomToFit(500, 36)
+  graphInstance.pauseAnimation?.()
+  syncGraphDataToInstance(true)
 
   window.addEventListener("resize", updateSize)
 }
@@ -454,9 +497,7 @@ function updateSize() {
 }
 
 watch(graphData, () => {
-  graphInstance?.graphData(graphData.value)
-  graphInstance?.d3ReheatSimulation?.()
-  graphInstance?.zoomToFit(450, 36)
+  syncGraphDataToInstance(true)
 })
 
 watch(activeNodeId, () => {

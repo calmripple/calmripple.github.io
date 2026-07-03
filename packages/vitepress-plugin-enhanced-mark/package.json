@@ -21,8 +21,8 @@
     "build": "unbuild"
   },
   "devDependencies": {
-    "typescript": "6.0.3",
-    "unbuild": "catalog:"
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1"
   },
   "exports": {
     "./client/style.css": "./dist/client/style.css"

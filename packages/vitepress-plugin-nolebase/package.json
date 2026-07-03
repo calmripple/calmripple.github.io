@@ -57,14 +57,14 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "typescript": "6.0.3",
-    "unbuild": "catalog:",
-    "vue-tsc": "catalog:"
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1",
+    "vue-tsc": "^3.3.6"
   },
   "peerDependencies": {
-    "vite": "catalog:",
-    "vitepress": "catalog:",
-    "vue": "catalog:"
+    "vite": "8.1.2",
+    "vitepress": "2.0.0-alpha.15",
+    "vue": "^3.5.39"
   },
   "dependencies": {
     "@knewbeing/markdown-it-bi-directional-links": "workspace:*",
@@ -79,6 +79,6 @@
     "@knewbeing/vitepress-plugin-index": "workspace:*",
     "@knewbeing/vitepress-plugin-inline-link-preview": "workspace:*",
     "@knewbeing/vitepress-plugin-meta": "workspace:*",
-    "defu": "catalog:"
+    "defu": "^6.1.7"
   }
 }

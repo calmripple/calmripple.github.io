@@ -43,17 +43,17 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "catalog:",
-    "typescript": "6.0.3",
-    "unbuild": "catalog:",
-    "vue-tsc": "catalog:"
+    "@rollup/plugin-yaml": "^5.0.0",
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1",
+    "vue-tsc": "^3.3.6"
   },
   "peerDependencies": {
-    "vitepress": "catalog:",
-    "vue": "catalog:"
+    "vitepress": "2.0.0-alpha.15",
+    "vue": "^3.5.39"
   },
   "dependencies": {
     "@knewbeing/ui": "workspace:*",
-    "@vueuse/core": "catalog:"
+    "@vueuse/core": "^14.3.0"
   }
 }

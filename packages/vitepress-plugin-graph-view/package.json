@@ -22,7 +22,7 @@
     "dev": "unbuild --stub",
     "build": "unbuild",
     "typecheck": "vue-tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run src/vitepress/graph.test.ts src/client/loaders/gravityMatrix.test.ts"
   },
   "exports": {
     "./client": {
@@ -60,25 +60,27 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "catalog:",
+    "@rollup/plugin-yaml": "^5.0.0",
     "@types/three": "^0.185.0",
-    "typescript": "6.0.3",
-    "unbuild": "catalog:",
-    "vitest": "catalog:",
-    "vue-tsc": "catalog:"
+    "typescript": "5.9.3",
+    "unbuild": "^3.6.1",
+    "vitest": "^4.1.9",
+    "vue-sfc-transformer": "^0.1.17",
+    "vue-tsc": "^3.3.6"
   },
   "peerDependencies": {
-    "vitepress": "catalog:",
-    "vue": "catalog:"
+    "vitepress": "2.0.0-alpha.15",
+    "vue": "^3.5.39"
   },
   "dependencies": {
     "3d-force-graph": "^1.80.0",
     "@knewbeing/ui": "workspace:*",
-    "babylonjs": "^9.15.0",
-    "defu": "catalog:",
+    "babylonjs": "9.14.0",
+    "defu": "^6.1.7",
     "echarts": "^6.1.0",
     "echarts-gl": "^2.1.0",
-    "gray-matter": "catalog:",
-    "tinyglobby": "catalog:"
+    "gray-matter": "^4.0.3",
+    "three-spritetext": "^1.10.0",
+    "tinyglobby": "^0.2.17"
   }
 }

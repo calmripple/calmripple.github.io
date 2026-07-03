@@ -195,7 +195,8 @@ public/graph-data/gravity-matrix/
 - `relationTypes` 用于区分语义关联和显式链接的颜色。
 - `loading` 和 `progressLabel` 用于展示分片加载进度。
 - `onNodeHover` 和 `onNodeDrag` 用于维护图谱焦点：悬停或拖动节点时，非相关节点和非相关边隐藏，相关节点、相关边和当前拖动节点突出显示。
-- 聚焦状态下通过 `3d-force-graph` 的 `nodeLabel` HTML tooltip 显示当前节点和直接相关节点的标题与关系，避免直接依赖 Three examples 中的 CSS2D renderer 模块。
+- 聚焦状态下通过 `nodeThreeObject` 扩展节点对象：当前节点和每个直接相关节点会在各自节点位置显示标题贴标，而不是只在鼠标 tooltip 或侧边面板中显示标题。
+- `nodeLabel` 仍保留为辅助 HTML tooltip，用于显示当前节点或相关节点的关系类型与连接强度。
 - 关系说明面板会根据当前聚焦节点展示强关联边、边权重和关系类型，帮助读者理解为什么节点被连接。
 
 ### Three examples import 修复记录
@@ -206,7 +207,7 @@ public/graph-data/gravity-matrix/
 Failed to resolve the Three examples CSS2D renderer import
 ```
 
-最终修复方式：移除对 `three/examples` 的直接导入，改用 `3d-force-graph` 原生 `nodeLabel` 回调返回 HTML 字符串。这样不新增 `three` 直接依赖，也不依赖 `3d-force-graph` 内部依赖的包路径，同时仍能在鼠标聚焦时显示相关节点标题和关系说明。
+最终修复方式：移除对 `three/examples` 的直接导入，使用 `three-spritetext` 生成贴在节点上的文字 Sprite，并配合 `3d-force-graph` 原生 `nodeLabel` 回调返回 HTML 字符串作为辅助 tooltip。这样不依赖 Three examples 的内部包路径，同时能在鼠标聚焦时把相关节点标题分别显示在各自节点上。
 
 页面文案已从“站点文档”调整为“站点笔记”，更贴合当前输入范围。
 
@@ -230,13 +231,18 @@ pnpm graph:matrix
 ```bash
 pnpm graph:matrix
 pnpm --filter @knewbeing/vitepress-plugin-graph-view test
+node_modules/.bin/vitepress build
 ```
 
 测试结果：
 
-- 图谱插件测试文件：3 个通过
-- 测试用例：9 个通过
+- 图谱插件源码测试文件：2 个通过
+- 测试用例：7 个通过
 - 目标实现文件编辑器诊断：无错误
+- VitePress 站点构建通过；构建中仍有 UnoCSS 图标加载和 Rolldown pure annotation 警告，但不阻塞产物生成。
+- 已通过静态构建预览 `http://127.0.0.1:5180/graph-view/` 做 Playwright 页面验收：图谱组件和 canvas 正常加载，悬停节点后出现关系面板和节点 tooltip，关系面板展示相关节点标题、关系类型和连接强度。
+- 页面验收时未出现运行时错误；反复刷新 3D canvas 时浏览器可能打印 WebGL context lost 警告，属于调试刷新导致的上下文释放，不影响图谱交互。
+- 图谱页已移除图谱容器外的贡献者、页面历史和残留 heading anchor 文本，避免干扰引力矩阵首屏体验。
 
 已校验生成数据：
 
@@ -247,25 +253,8 @@ pnpm --filter @knewbeing/vitepress-plugin-graph-view test
 
 ## 当前限制
 
-当前浏览器中的 `5173` dev server 曾出现旧进程状态：新生成的 public JSON 路径被 VitePress fallback 返回 HTML。代码和文件系统侧已经生成正确数据，但页面端需要重启 VitePress dev server 后再验证运行时加载效果。
-
-建议验证步骤：
-
-```bash
-pnpm dev
-```
-
-然后访问：
-
-```text
-http://127.0.0.1:5173/graph-view/
-```
-
-并确认以下静态资源返回 JSON：
-
-```text
-http://127.0.0.1:5173/graph-data/gravity-matrix/manifest.json
-```
+- `node_modules/.bin/vitepress build` 可以稳定生成站点产物；当前环境中 `pnpm exec vitepress dev/serve` 曾出现无输出且未监听端口的情况，因此本轮页面验收改用 `.vitepress/dist` 加 Python 静态服务预览。
+- 站点构建仍会打印若干非阻塞警告，包括 UnoCSS 图标加载失败、`@vueuse/core` pure annotation 位置警告和 chunk size 警告；这些警告不影响本轮引力矩阵图谱页面验收。
 
 ## 后续计划
 

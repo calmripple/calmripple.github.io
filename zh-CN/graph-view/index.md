@@ -14,7 +14,7 @@ knewbeing:
 import type { GraphViewData } from '@knewbeing/vitepress-plugin-graph-view/vitepress'
 
 import { loadGravityMatrixGraph } from '@knewbeing/vitepress-plugin-graph-view/client'
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useData } from 'vitepress'
 
 const { site } = useData()
@@ -36,8 +36,24 @@ const progressLabel = computed(() => {
   return `正在加载引力矩阵 ${loadedChunks.value}/${totalChunks.value} · ${loadedNodes.value} 节点 · ${loadedEdges.value} 连线`
 })
 
+function hideAuxiliaryContent() {
+  const wrap = document.querySelector('.graph-view-home-wrap')
+  const parent = wrap?.parentElement
+  if (!wrap || !parent)
+    return
+
+  for (const node of Array.from(parent.childNodes)) {
+    if (node === wrap)
+      continue
+
+    node.remove()
+  }
+}
+
 onMounted(async () => {
   abortController = new AbortController()
+  await nextTick()
+  hideAuxiliaryContent()
   try {
     const result = await loadGravityMatrixGraph({
       base: site.value.base,
@@ -61,6 +77,8 @@ onMounted(async () => {
   finally {
     if (!abortController.signal.aborted)
       loading.value = false
+    await nextTick()
+    hideAuxiliaryContent()
   }
 })
 
@@ -106,6 +124,25 @@ onBeforeUnmount(() => {
 
 .graph-view-home .vp-doc.container > div > :not(.graph-view-home-wrap) {
   display: none;
+}
+
+.graph-view-home .vp-doc.container > div {
+  font-size: 0;
+}
+
+.graph-view-home .graph-view-home-wrap {
+  font-size: initial;
+}
+
+.graph-view-home-wrap ~ * {
+  display: none !important;
+}
+
+.graph-view-home .header-anchor,
+.graph-view-home .VPDocFooter,
+.graph-view-home .VPLastUpdated,
+.graph-view-home [class*='NolebaseGit'] {
+  display: none !important;
 }
 
 .graph-view-home-wrap {
