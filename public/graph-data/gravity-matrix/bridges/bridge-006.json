@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "generatedAt": 1783301023552,
+  "id": "bridge-006",
+  "nodes": [],
+  "edges": [
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "type": "related",
+      "weight": 0.184,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.009,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/开源项目/escheck.html",
+      "type": "related",
+      "weight": 0.1833,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0233,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/index.html",
+      "target": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "type": "related",
+      "weight": 0.1828,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.1827,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.028,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.1822,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0222,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.1821,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/mergeSort.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
+      "type": "related",
+      "weight": 0.182,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0127,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "type": "related",
+      "weight": 0.1817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0217,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "type": "related",
+      "weight": 0.1817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0217,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/index.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "type": "related",
+      "weight": 0.1817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0217,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo1.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "type": "related",
+      "weight": 0.1806,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0056,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
+      "type": "related",
+      "weight": 0.1805,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0338,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.1802,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0069,
+        "tag-overlap": 0.0533,
+        "directory-neighbor": 0.12
+      }
+    }
+  ]
+}

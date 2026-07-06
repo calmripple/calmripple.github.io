@@ -1,159 +1,168 @@
 {
   "version": 1,
-  "generatedAt": 1783051966351,
+  "generatedAt": 1783301023552,
   "id": "chunk-009",
   "nodes": [
     {
-      "id": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
-      "title": "🔀 Git 与版本管理",
-      "url": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
-      "filePath": "笔记/🛠 工程实践/Git 与版本管理/index.md",
+      "id": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "title": "分享封装的一些七牛云OSS操作方法",
+      "url": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "filePath": "笔记/🛠 工程实践/部署与运维/qiniu-oss.md",
       "category": "🛠 工程实践",
-      "degree": 14,
+      "degree": 33,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
-      "title": "SourceTree SSH密钥缓存问题解决",
-      "url": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
-      "filePath": "笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.md",
+      "id": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "title": "配置SSH免密登录服务器",
+      "url": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "filePath": "笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.md",
       "category": "🛠 工程实践",
-      "degree": 7,
+      "degree": 22,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/index.html",
-      "title": "🛠 工程实践",
-      "url": "/笔记/🛠 工程实践/index.html",
-      "filePath": "笔记/🛠 工程实践/index.md",
+      "id": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "title": "腾讯云Serverless实践-Node.js服务部署",
+      "url": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "filePath": "笔记/🛠 工程实践/部署与运维/tx-serverless-node.md",
       "category": "🛠 工程实践",
-      "degree": 12,
+      "degree": 38,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "title": "组装个支持记笔记的CodePen",
-      "url": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/codeNote.md",
+      "id": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "title": "腾讯云Serverless实践-静态网站托管",
+      "url": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "filePath": "笔记/🛠 工程实践/部署与运维/tx-serverless-static.md",
       "category": "🛠 工程实践",
-      "degree": 18,
+      "degree": 36,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "title": "ESCheck工具原理解析及增强实现",
-      "url": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/escheck.md",
+      "id": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "title": "使用又拍云极速搭建图床",
+      "url": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "filePath": "笔记/🛠 工程实践/部署与运维/upyun.md",
       "category": "🛠 工程实践",
-      "degree": 19,
+      "degree": 31,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "title": "一款检测代码中TODO的eslint插件",
-      "url": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.md",
-      "category": "🛠 工程实践",
-      "degree": 18,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "title": "实现一个Web UI检测(视觉走查)工具ing",
-      "url": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/ewuit.md",
-      "category": "🛠 工程实践",
-      "degree": 18,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "title": "从0-1实现文件下载CLI工具",
-      "url": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/fs-cli.md",
-      "category": "🛠 工程实践",
-      "degree": 20,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "title": "内联JS处理(ES语法降级&内容压缩)",
-      "url": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/html-inline-js-transform.md",
-      "category": "🛠 工程实践",
-      "degree": 19,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/开源项目/index.html",
-      "title": "🌟 开源项目",
-      "url": "/笔记/🛠 工程实践/开源项目/index.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/index.md",
-      "category": "🛠 工程实践",
-      "degree": 18,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "title": "NodeCLI工具原理解析",
-      "url": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/node-cli.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "title": "Chrome调试技巧-基础",
+      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug1.md",
       "category": "🛠 工程实践",
       "degree": 21,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "title": "我打造的在线简历生成应用",
-      "url": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/online-resume.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
+      "title": "Chrome调试技巧-Console",
+      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug2.md",
       "category": "🛠 工程实践",
       "degree": 18,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "title": "助你轻松编写与分享snippet的VsCode插件",
-      "url": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/share-snippets.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "title": "Chrome调试技巧-Network",
+      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug3.md",
       "category": "🛠 工程实践",
-      "degree": 20,
+      "degree": 18,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "title": "SourceMap解析CLI工具实现",
-      "url": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/sm-cli.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "title": "Chrome调试技巧-Elements",
+      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug4.md",
       "category": "🛠 工程实践",
       "degree": 19,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "title": "一个通过NPM包共(分)享代码块的解决方案",
-      "url": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/snippets.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "title": "Chrome调试技巧-Drawer",
+      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug5.md",
+      "category": "🛠 工程实践",
+      "degree": 19,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
+      "title": "Chrome调试技巧-workspace",
+      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug6.md",
+      "category": "🛠 工程实践",
+      "degree": 20,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "title": "设计模式-设计原则",
+      "url": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/design-patterns0.md",
+      "category": "🛠 工程实践",
+      "degree": 19,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "title": "设计模式-创建型模式",
+      "url": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/design-patterns1.md",
+      "category": "🛠 工程实践",
+      "degree": 22,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "title": "设计模式-结构型模式",
+      "url": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/design-patterns2.md",
+      "category": "🛠 工程实践",
+      "degree": 19,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "title": "使用http-proxy-agent出现ECONNRESET error",
+      "url": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/http-proxy-fail.md",
+      "category": "🛠 工程实践",
+      "degree": 20,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "title": "🐛 调试技巧",
+      "url": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/index.md",
       "category": "🛠 工程实践",
       "degree": 18,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "title": "一个简约风的vitepress博客主题",
-      "url": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/theme.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "title": "nvm ls-remote 只有iojs列表",
+      "url": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/nvm-ls-remote.md",
       "category": "🛠 工程实践",
       "degree": 18,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "title": "使用Pagefind为VitePress文档添加离线全文搜索能力",
-      "url": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "filePath": "笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.md",
+      "id": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "title": "学习笔记：TypeScript装饰器",
+      "url": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "filePath": "笔记/🛠 工程实践/调试技巧/ts-decorators.md",
       "category": "🛠 工程实践",
-      "degree": 18,
+      "degree": 19,
       "chunkId": "chunk-009"
     },
     {
@@ -274,113 +283,106 @@
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
-      "title": "Chrome调试技巧-基础",
-      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug1.md",
+      "id": "/笔记/🛠 工程实践/开源项目/codeNote.html",
+      "title": "组装个支持记笔记的CodePen",
+      "url": "/笔记/🛠 工程实践/开源项目/codeNote.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/codeNote.md",
+      "category": "🛠 工程实践",
+      "degree": 18,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/escheck.html",
+      "title": "ESCheck工具原理解析及增强实现",
+      "url": "/笔记/🛠 工程实践/开源项目/escheck.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/escheck.md",
+      "category": "🛠 工程实践",
+      "degree": 19,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
+      "title": "一款检测代码中TODO的eslint插件",
+      "url": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.md",
+      "category": "🛠 工程实践",
+      "degree": 18,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "title": "实现一个Web UI检测(视觉走查)工具ing",
+      "url": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/ewuit.md",
+      "category": "🛠 工程实践",
+      "degree": 18,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "title": "从0-1实现文件下载CLI工具",
+      "url": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/fs-cli.md",
+      "category": "🛠 工程实践",
+      "degree": 20,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
+      "title": "内联JS处理(ES语法降级&内容压缩)",
+      "url": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/html-inline-js-transform.md",
+      "category": "🛠 工程实践",
+      "degree": 19,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/index.html",
+      "title": "🌟 开源项目",
+      "url": "/笔记/🛠 工程实践/开源项目/index.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/index.md",
+      "category": "🛠 工程实践",
+      "degree": 18,
+      "chunkId": "chunk-009"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/开源项目/node-cli.html",
+      "title": "NodeCLI工具原理解析",
+      "url": "/笔记/🛠 工程实践/开源项目/node-cli.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/node-cli.md",
       "category": "🛠 工程实践",
       "degree": 21,
       "chunkId": "chunk-009"
     },
     {
-      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
-      "title": "Chrome调试技巧-Console",
-      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug2.md",
+      "id": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "title": "我打造的在线简历生成应用",
+      "url": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/online-resume.md",
       "category": "🛠 工程实践",
       "degree": 18,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
-      "title": "Chrome调试技巧-Network",
-      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug3.md",
-      "category": "🛠 工程实践",
-      "degree": 18,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
-      "title": "Chrome调试技巧-Elements",
-      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug4.md",
-      "category": "🛠 工程实践",
-      "degree": 19,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
-      "title": "Chrome调试技巧-Drawer",
-      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug5.md",
-      "category": "🛠 工程实践",
-      "degree": 19,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
-      "title": "Chrome调试技巧-workspace",
-      "url": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/chrome-debug6.md",
-      "category": "🛠 工程实践",
-      "degree": 20,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
-      "title": "设计模式-设计原则",
-      "url": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/design-patterns0.md",
-      "category": "🛠 工程实践",
-      "degree": 19,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
-      "title": "设计模式-创建型模式",
-      "url": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/design-patterns1.md",
-      "category": "🛠 工程实践",
-      "degree": 22,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
-      "title": "设计模式-结构型模式",
-      "url": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/design-patterns2.md",
-      "category": "🛠 工程实践",
-      "degree": 19,
-      "chunkId": "chunk-009"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
-      "title": "使用http-proxy-agent出现ECONNRESET error",
-      "url": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/http-proxy-fail.md",
-      "category": "🛠 工程实践",
-      "degree": 20,
       "chunkId": "chunk-009"
     }
   ],
   "edges": [
     {
-      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
       "type": "markdown",
       "weight": 1,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "markdown",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
         "markdown": 1,
-        "content-similarity": 0.0798,
-        "tag-overlap": 0.03,
-        "directory-neighbor": 0.12
+        "content-similarity": 0.2163,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.08
       }
     },
     {
@@ -444,6 +446,42 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "type": "markdown",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "markdown",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "markdown": 1,
+        "content-similarity": 0.0798,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.9338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.4753,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0727
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
       "target": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
       "type": "related",
@@ -477,40 +515,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.08
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/index.html",
-      "target": "/笔记/🛠 工程实践/构建工具/index.html",
-      "type": "related",
-      "weight": 0.6275,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.2675,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.6143,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1715,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0229
       }
     },
     {
@@ -586,24 +590,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.5689,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1189,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.03
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
       "type": "related",
@@ -619,22 +605,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.03
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/index.html",
-      "type": "related",
-      "weight": 0.5594,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1994,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
       }
     },
     {
@@ -689,24 +659,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.032
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.5532,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1232,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.01
       }
     },
     {
@@ -782,24 +734,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.5428,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1121,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
       "type": "related",
@@ -815,24 +749,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.02
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.5359,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0999,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.016
       }
     },
     {
@@ -998,24 +914,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "target": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "type": "related",
-      "weight": 0.5134,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0828,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
       "type": "related",
@@ -1031,6 +929,24 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.02
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
+      "target": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
+      "type": "related",
+      "weight": 0.5134,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0828,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
       }
     },
     {
@@ -1140,24 +1056,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.5023,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0716,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
       "type": "related",
@@ -1212,6 +1110,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/index.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.4907,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1307,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
       "type": "related",
@@ -1227,22 +1141,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.02
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
-      "target": "/笔记/🛠 工程实践/index.html",
-      "type": "related",
-      "weight": 0.4889,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1289,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
       }
     },
     {
@@ -1282,78 +1180,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4865,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0565,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.01
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.4836,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1007,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0229
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4821,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0515,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4809,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0559,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.005
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
       "target": "/笔记/🛠 工程实践/开源项目/escheck.html",
       "type": "related",
@@ -1369,24 +1195,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.4797,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0483,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
       }
     },
     {
@@ -1409,24 +1217,6 @@
     },
     {
       "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4744,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0437,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
       "target": "/笔记/🛠 工程实践/开源项目/ewuit.html",
       "type": "related",
       "weight": 0.4742,
@@ -1441,24 +1231,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.4732,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0425,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
       }
     },
     {
@@ -1498,24 +1270,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4705,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0398,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
       "target": "/笔记/🛠 工程实践/开源项目/node-cli.html",
       "type": "related",
@@ -1552,24 +1306,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.4675,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0368,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/开源项目/index.html",
       "target": "/笔记/🛠 工程实践/构建工具/index.html",
       "type": "related",
@@ -1583,24 +1319,6 @@
         "content-similarity": 0.1067,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.4662,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0348,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
       }
     },
     {
@@ -1619,42 +1337,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0133
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.4649,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0349,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.01
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4633,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.031,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0123
       }
     },
     {
@@ -1730,21 +1412,19 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "source": "/笔记/🛠 工程实践/开源项目/index.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
       "type": "related",
-      "weight": 0.4596,
+      "weight": 0.4574,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
+        "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0282,
+        "content-similarity": 0.0974,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -1766,60 +1446,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.456,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0246,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.4554,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.024,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.4553,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0303,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.005
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
       "target": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
       "type": "related",
@@ -1835,94 +1461,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0062
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4536,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0229,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4534,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0227,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4529,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0229,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.01
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4514,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0191,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.4498,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0298,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
       }
     },
     {
@@ -1944,10 +1482,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
       "type": "related",
-      "weight": 0.4479,
+      "weight": 0.4453,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1955,28 +1493,10 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0666,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0213
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4475,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0152,
+        "content-similarity": 0.0164,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0123
+        "title-overlap": 0.0089
       }
     },
     {
@@ -1998,24 +1518,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4447,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0133,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
       "target": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
       "type": "related",
@@ -2031,22 +1533,6 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.005
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.4427,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0227,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
       }
     },
     {
@@ -2082,10 +1568,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
       "type": "related",
-      "weight": 0.4404,
+      "weight": 0.44,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -2093,35 +1579,33 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0097,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.052,
+        "tag-overlap": 0.2,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
+        "title-overlap": 0.008
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
       "type": "related",
-      "weight": 0.4391,
+      "weight": 0.4383,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
+        "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0076,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
+        "content-similarity": 0.0526,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
       "type": "related",
-      "weight": 0.4378,
+      "weight": 0.4382,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -2129,28 +1613,10 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0128,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.0493,
+        "tag-overlap": 0.2,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.005
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4375,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0607,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0168
+        "title-overlap": 0.0089
       }
     },
     {
@@ -2169,24 +1635,6 @@
         "tag-overlap": 0.1714,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0343
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.4363,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0049,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
       }
     },
     {
@@ -2299,40 +1747,6 @@
         "content-similarity": 0.0132,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "type": "related",
-      "weight": 0.4326,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0126,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4324,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.064,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
       }
     },
     {
@@ -2468,22 +1882,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
-      "target": "/笔记/🛠 工程实践/构建工具/index.html",
-      "type": "related",
-      "weight": 0.4289,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0689,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
       "target": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
       "type": "related",
@@ -2548,24 +1946,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4269,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0585,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
       "target": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
       "type": "related",
@@ -2613,42 +1993,6 @@
         "content-similarity": 0.0062,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4261,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0577,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4258,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0608,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.005
       }
     },
     {
@@ -2704,75 +2048,19 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "source": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
       "type": "related",
-      "weight": 0.4239,
+      "weight": 0.4193,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
+        "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0555,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4212,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0444,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0168
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.4197,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0463,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0133
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4173,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0489,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
+        "content-similarity": 0.0678,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -2794,24 +2082,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.4146,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0462,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
       "target": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
       "type": "related",
@@ -2825,24 +2095,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0544,
         "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "type": "related",
-      "weight": 0.414,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0455,
-        "tag-overlap": 0.18,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0084
       }
@@ -2884,22 +2136,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/index.html",
-      "type": "related",
-      "weight": 0.4114,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0514,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
       "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
       "type": "related",
@@ -2936,10 +2172,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
       "type": "related",
-      "weight": 0.4092,
+      "weight": 0.4108,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -2947,10 +2183,26 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0408,
-        "tag-overlap": 0.18,
+        "content-similarity": 0.0228,
+        "tag-overlap": 0.2,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0084
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.4095,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0238,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -2969,6 +2221,24 @@
         "tag-overlap": 0.18,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0133
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.4072,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0158,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0114
       }
     },
     {
@@ -3019,6 +2289,22 @@
         "tag-overlap": 0.1714,
         "directory-neighbor": 0.18,
         "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.4042,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0185,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -3146,6 +2432,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3996,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0482,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
       "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
       "type": "related",
@@ -3180,6 +2482,42 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.3991,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1646,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3989,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0402,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0073
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
       "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
       "type": "related",
@@ -3198,6 +2536,24 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3984,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0322,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0062
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
       "target": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
       "type": "related",
@@ -3210,6 +2566,38 @@
       "scoreBreakdown": {
         "content-similarity": 0.0381,
         "tag-overlap": 0.18,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.3977,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.012,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3968,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0301,
+        "tag-overlap": 0.1867,
         "directory-neighbor": 0.18
       }
     },
@@ -3232,6 +2620,54 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.3944,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0087,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.3939,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0082,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.3935,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0078,
+        "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
       "target": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
       "type": "related",
@@ -3244,6 +2680,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.042,
         "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.3928,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0071,
+        "tag-overlap": 0.2057,
         "directory-neighbor": 0.18
       }
     },
@@ -3277,6 +2729,22 @@
         "content-similarity": 0.0307,
         "tag-overlap": 0.18,
         "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3902,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0987,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -3316,10 +2784,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
       "type": "related",
-      "weight": 0.3868,
+      "weight": 0.3867,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -3327,26 +2795,64 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0145,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0123
+        "content-similarity": 0.0178,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0089
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
       "type": "related",
-      "weight": 0.3859,
+      "weight": 0.3862,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0259,
-        "tag-overlap": 0.18,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0182,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3834,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0154,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3832,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0138,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0094
       }
     },
     {
@@ -3466,6 +2972,24 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3784,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0522,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0062
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
       "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
       "type": "related",
@@ -3516,6 +3040,58 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3764,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0769,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3763,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1312,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0185
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3751,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0836,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
       "target": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
       "type": "related",
@@ -3544,6 +3120,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0124,
         "tag-overlap": 0.18,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3723,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0209,
+        "tag-overlap": 0.1714,
         "directory-neighbor": 0.18
       }
     },
@@ -3580,6 +3172,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.371,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.18,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
       "target": "/笔记/🛠 工程实践/构建工具/esm-require.html",
       "type": "related",
@@ -3612,6 +3220,214 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3694,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0094,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3673,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0273,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3673,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0759,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3641,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0241,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3615,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0215,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3612,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0212,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3609,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0695,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3539,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3529,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3529,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0329,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3518,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0118,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3516,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0602,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.35,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.01,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
       "target": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
       "type": "related",
@@ -3628,10 +3444,90 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
       "type": "related",
-      "weight": 0.3383,
+      "weight": 0.3496,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0096,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.3487,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0087,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3472,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0272,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3463,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0549,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3459,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0259,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3451,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -3639,10 +3535,216 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1115,
-        "tag-overlap": 0.09,
+        "content-similarity": 0.0447,
+        "tag-overlap": 0.1714,
         "directory-neighbor": 0.12,
-        "title-overlap": 0.0168
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3446,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0246,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3441,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0241,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.344,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0525,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3435,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0406,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.3423,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1123,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3423,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0429,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3409,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0109,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3408,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0119,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3376,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0176,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3331,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0303,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3328,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0128,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3319,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0321,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0084
       }
     },
     {
@@ -3678,10 +3780,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
       "type": "related",
-      "weight": 0.3194,
+      "weight": 0.3284,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -3689,10 +3791,330 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1009,
-        "tag-overlap": 0.09,
+        "content-similarity": 0.0255,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3284,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.029,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3259,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0261,
+        "tag-overlap": 0.1714,
         "directory-neighbor": 0.12,
         "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.325,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.065,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.3246,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0252,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.3235,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0875,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3227,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0313,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3223,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0131,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3211,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0297,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3205,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0291,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3203,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0289,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3197,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0283,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3178,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0175,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.3162,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0248,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3148,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0234,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3141,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0227,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug4.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.3137,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0837,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.3137,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0223,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.3134,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.022,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3124,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0209,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -3711,6 +4133,38 @@
         "tag-overlap": 0.12,
         "directory-neighbor": 0.12,
         "title-overlap": 0.0492
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.31,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.046,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.307,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0156,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -3746,6 +4200,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3054,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0139,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
       "target": "/笔记/🛠 工程实践/构建工具/cnnc.html",
       "type": "related",
@@ -3778,6 +4248,38 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/copy-branch.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3006,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0092,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "type": "related",
+      "weight": 0.3005,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0091,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
       "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
       "type": "related",
@@ -3794,18 +4296,18 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
+      "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
       "type": "related",
-      "weight": 0.2993,
+      "weight": 0.2999,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0893,
-        "tag-overlap": 0.09,
+        "content-similarity": 0.0085,
+        "tag-overlap": 0.1714,
         "directory-neighbor": 0.12
       }
     },
@@ -3858,10 +4360,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
       "type": "related",
-      "weight": 0.2933,
+      "weight": 0.2923,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -3869,10 +4371,10 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1276,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
+        "content-similarity": 0.0403,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
       }
     },
     {
@@ -3894,22 +4396,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
-      "type": "related",
-      "weight": 0.2895,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0795,
-        "tag-overlap": 0.09,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
       "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
       "type": "related",
@@ -3923,6 +4409,22 @@
         "content-similarity": 0.004,
         "tag-overlap": 0.1029,
         "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.2857,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0217,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -3944,10 +4446,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
       "type": "related",
-      "weight": 0.2797,
+      "weight": 0.2808,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -3955,10 +4457,110 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0529,
-        "tag-overlap": 0.09,
+        "content-similarity": 0.0319,
+        "tag-overlap": 0.12,
         "directory-neighbor": 0.12,
-        "title-overlap": 0.0168
+        "title-overlap": 0.0089
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2794,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1194,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2735,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2722,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0322,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2713,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0233,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2693,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0293,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2689,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0289,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -4082,6 +4684,56 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2604,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0204,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2596,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.025,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2595,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0328,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/2024-blog-perf.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug3.html",
       "type": "related",
@@ -4130,24 +4782,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
-      "type": "related",
-      "weight": 0.2569,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0858,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0168
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
       "target": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
       "type": "related",
@@ -4164,10 +4798,26 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
       "type": "related",
-      "weight": 0.2562,
+      "weight": 0.2555,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0155,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/node-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2555,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -4175,10 +4825,10 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0905,
-        "tag-overlap": 0.0343,
+        "content-similarity": 0.0855,
+        "tag-overlap": 0.04,
         "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
+        "title-overlap": 0.01
       }
     },
     {
@@ -4234,6 +4884,24 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/构建工具/esm-require.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.2531,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0184,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.008
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug2.html",
       "type": "related",
@@ -4246,6 +4914,56 @@
       "scoreBreakdown": {
         "content-similarity": 0.0303,
         "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
+      "type": "related",
+      "weight": 0.252,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0254,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2519,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0869,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.005
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2518,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0118,
+        "tag-overlap": 0.12,
         "directory-neighbor": 0.12
       }
     },
@@ -4280,6 +4998,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0095,
         "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "type": "related",
+      "weight": 0.2492,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0264,
+        "tag-overlap": 0.1029,
         "directory-neighbor": 0.12
       }
     },
@@ -4382,6 +5116,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "type": "related",
+      "weight": 0.2464,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
       "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
       "type": "related",
@@ -4398,19 +5148,37 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug1.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
       "type": "related",
-      "weight": 0.2451,
+      "weight": 0.2458,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0851,
-        "tag-overlap": 0.04,
+        "content-similarity": 0.0058,
+        "tag-overlap": 0.12,
         "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/online-resume.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2449,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0734,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0114
       }
     },
     {
@@ -4446,21 +5214,35 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
+      "source": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
       "type": "related",
-      "weight": 0.2405,
+      "weight": 0.2408,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
+        "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0633,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0229
+        "content-similarity": 0.0179,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "type": "related",
+      "weight": 0.2404,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0175,
+        "tag-overlap": 0.1029,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -4479,6 +5261,22 @@
         "tag-overlap": 0.0343,
         "directory-neighbor": 0.12,
         "title-overlap": 0.015
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/fs-cli.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "type": "related",
+      "weight": 0.2393,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0793,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -4550,24 +5348,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
-      "type": "related",
-      "weight": 0.2333,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0577,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0213
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/构建工具/index.html",
       "target": "/笔记/🛠 工程实践/构建工具/loadEnv.html",
       "type": "related",
@@ -4581,42 +5361,6 @@
         "content-similarity": 0.0052,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
-      "type": "related",
-      "weight": 0.2331,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0445,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0343
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
-      "type": "related",
-      "weight": 0.2326,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0615,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0168
       }
     },
     {
@@ -4654,42 +5398,8 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
-      "type": "related",
-      "weight": 0.2316,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.065,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor1.html",
-      "type": "related",
-      "weight": 0.2315,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0772,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vitepress-plugin-rss.html",
+      "source": "/笔记/🛠 工程实践/开源项目/html-inline-js-transform.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
       "type": "related",
       "weight": 0.2309,
       "relationTypes": [
@@ -4699,10 +5409,10 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0598,
-        "tag-overlap": 0.0343,
+        "content-similarity": 0.0595,
+        "tag-overlap": 0.04,
         "directory-neighbor": 0.12,
-        "title-overlap": 0.0168
+        "title-overlap": 0.0114
       }
     },
     {
@@ -4802,56 +5512,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
-      "type": "related",
-      "weight": 0.2275,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0732,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor3.html",
-      "type": "related",
-      "weight": 0.2267,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.061,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "type": "related",
-      "weight": 0.2258,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0058,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
       "target": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
       "type": "related",
@@ -4888,6 +5548,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2248,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0048,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/构建工具/cnnc.html",
       "target": "/笔记/🛠 工程实践/构建工具/index.html",
       "type": "related",
@@ -4899,6 +5575,22 @@
       ],
       "scoreBreakdown": {
         "content-similarity": 0.0043,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns0.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2242,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0042,
         "tag-overlap": 0.04,
         "directory-neighbor": 0.18
       }
@@ -4922,6 +5614,22 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/调试技巧/design-patterns2.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "type": "related",
+      "weight": 0.2236,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0036,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/开源项目/escheck.html",
       "target": "/笔记/🛠 工程实践/构建工具/cnnc.html",
       "type": "related",
@@ -4940,53 +5648,19 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/http-proxy-fail.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/index.html",
       "type": "related",
-      "weight": 0.2224,
+      "weight": 0.2226,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0024,
-        "tag-overlap": 0.04,
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.03,
         "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
-      "type": "related",
-      "weight": 0.2221,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0563,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
-      "target": "/笔记/🛠 工程实践/构建工具/eslint-plugin.html",
-      "type": "related",
-      "weight": 0.2212,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0669,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12
       }
     },
     {
@@ -5074,34 +5748,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
-      "type": "related",
-      "weight": 0.22,
-      "relationTypes": [
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
-      "type": "related",
-      "weight": 0.22,
-      "relationTypes": [
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/开源项目/eslint-plugin-todo-ddl.html",
       "target": "/笔记/🛠 工程实践/构建工具/webapck2vite.html",
       "type": "related",
@@ -5120,18 +5766,18 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
-      "target": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "source": "/笔记/🛠 工程实践/调试技巧/index.html",
+      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
       "type": "related",
-      "weight": 0.2147,
+      "weight": 0.218,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.008,
-        "tag-overlap": 0.0267,
+        "content-similarity": 0.0037,
+        "tag-overlap": 0.0343,
         "directory-neighbor": 0.18
       }
     },
@@ -5161,6 +5807,24 @@
       "scoreBreakdown": {
         "tag-overlap": 0.0343,
         "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/codeNote.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "type": "related",
+      "weight": 0.2089,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.04,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0089
       }
     },
     {
@@ -5200,55 +5864,19 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "target": "/笔记/🛠 工程实践/构建工具/webapck2vite2.html",
+      "source": "/笔记/🛠 工程实践/开源项目/ewuit.html",
+      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
       "type": "related",
-      "weight": 0.1956,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.029,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/index.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug6.html",
-      "type": "related",
-      "weight": 0.1919,
+      "weight": 0.1849,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0319,
+        "content-similarity": 0.0249,
         "tag-overlap": 0.04,
         "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
-      "target": "/笔记/🛠 工程实践/构建工具/vite-plugin-monitor2.html",
-      "type": "related",
-      "weight": 0.1876,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0219,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
       }
     },
     {
@@ -5263,54 +5891,6 @@
       ],
       "scoreBreakdown": {
         "content-similarity": 0.0234,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/index.html",
-      "target": "/笔记/🛠 工程实践/开源项目/ewuit.html",
-      "type": "related",
-      "weight": 0.1828,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0228,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/design-patterns1.html",
-      "type": "related",
-      "weight": 0.1817,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0217,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/index.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/chrome-debug5.html",
-      "type": "related",
-      "weight": 0.1817,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0217,
         "tag-overlap": 0.04,
         "directory-neighbor": 0.12
       }

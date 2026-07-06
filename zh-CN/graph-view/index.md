@@ -1,5 +1,5 @@
 ---
-title: 引力矩阵图谱
+title: 知识图谱
 description: 以矩阵引力图谱浏览站内文章之间的链接关系。
 layout: home
 sidebar: false
@@ -90,7 +90,7 @@ onBeforeUnmount(() => {
 <div class="graph-view-home-wrap">
   <NolebaseGraphView3D
     :data="graphData"
-    title="引力矩阵图谱"
+    title="知识图谱"
     description="站点笔记被映射到分片加载的知识引力场中，节点规模表示连接强度，连线粗细表示知识相关性。拖拽旋转星群，点击节点进入对应文章。"
     :height="'100%'"
     :loading="loading"

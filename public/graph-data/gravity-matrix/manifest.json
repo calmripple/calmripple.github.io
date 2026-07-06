@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1783051966351,
+  "generatedAt": 1783301023552,
   "totalNodes": 367,
   "totalEdges": 4099,
   "chunkSizeTarget": 40,
@@ -9,7 +9,7 @@
       "id": "chunk-000",
       "path": "chunks/chunk-000.json",
       "nodeCount": 23,
-      "edgeCount": 104,
+      "edgeCount": 105,
       "categories": [
         "🌱 生活与思考",
         "🏺 远古技术"
@@ -19,7 +19,7 @@
       "id": "chunk-001",
       "path": "chunks/chunk-001.json",
       "nodeCount": 40,
-      "edgeCount": 184,
+      "edgeCount": 182,
       "categories": [
         "🏺 远古技术"
       ]
@@ -28,7 +28,7 @@
       "id": "chunk-002",
       "path": "chunks/chunk-002.json",
       "nodeCount": 40,
-      "edgeCount": 241,
+      "edgeCount": 229,
       "categories": [
         "🏺 远古技术"
       ]
@@ -37,7 +37,7 @@
       "id": "chunk-003",
       "path": "chunks/chunk-003.json",
       "nodeCount": 40,
-      "edgeCount": 220,
+      "edgeCount": 196,
       "categories": [
         "🏺 远古技术"
       ]
@@ -46,7 +46,7 @@
       "id": "chunk-004",
       "path": "chunks/chunk-004.json",
       "nodeCount": 40,
-      "edgeCount": 202,
+      "edgeCount": 243,
       "categories": [
         "🏺 远古技术"
       ]
@@ -55,7 +55,7 @@
       "id": "chunk-005",
       "path": "chunks/chunk-005.json",
       "nodeCount": 32,
-      "edgeCount": 228,
+      "edgeCount": 229,
       "categories": [
         "🏺 远古技术"
       ]
@@ -73,7 +73,7 @@
       "id": "chunk-007",
       "path": "chunks/chunk-007.json",
       "nodeCount": 40,
-      "edgeCount": 363,
+      "edgeCount": 322,
       "categories": [
         "🤖 AI 与智能"
       ]
@@ -82,7 +82,7 @@
       "id": "chunk-008",
       "path": "chunks/chunk-008.json",
       "nodeCount": 23,
-      "edgeCount": 133,
+      "edgeCount": 101,
       "categories": [
         "🤖 AI 与智能",
         "🛠 工程实践"
@@ -92,7 +92,7 @@
       "id": "chunk-009",
       "path": "chunks/chunk-009.json",
       "nodeCount": 40,
-      "edgeCount": 289,
+      "edgeCount": 327,
       "categories": [
         "🛠 工程实践"
       ]
@@ -101,7 +101,7 @@
       "id": "chunk-010",
       "path": "chunks/chunk-010.json",
       "nodeCount": 21,
-      "edgeCount": 111,
+      "edgeCount": 58,
       "categories": [
         "🛠 工程实践",
         "笔记"
@@ -114,7 +114,8 @@
     "bridges/bridge-002.json",
     "bridges/bridge-003.json",
     "bridges/bridge-004.json",
-    "bridges/bridge-005.json"
+    "bridges/bridge-005.json",
+    "bridges/bridge-006.json"
   ],
   "nodeIndex": [
     {
@@ -276,7 +277,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -285,7 +286,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 19
     },
     {
@@ -294,7 +295,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -303,7 +304,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -312,7 +313,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -321,7 +322,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -330,7 +331,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -339,7 +340,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-000",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -456,7 +457,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/changeArr.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/changeArr.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 29
     },
     {
@@ -465,7 +466,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/clock.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/clock.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 26
     },
     {
@@ -474,7 +475,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/closure.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/closure.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 25
     },
     {
@@ -483,7 +484,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/closureUse.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/closureUse.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 18
     },
     {
@@ -492,7 +493,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/copy.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/copy.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 26
     },
     {
@@ -501,7 +502,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/currying.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/currying.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 29
     },
     {
@@ -510,7 +511,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/deepClone.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/deepClone.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 51
     },
     {
@@ -519,7 +520,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/delete.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/delete.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 31
     },
     {
@@ -528,7 +529,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/diff-for-in-of.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/diff-for-in-of.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 25
     },
     {
@@ -537,7 +538,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/duplicate.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/duplicate.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 34
     },
     {
@@ -546,7 +547,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ecmathis.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/ecmathis.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 26
     },
     {
@@ -555,7 +556,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/equal.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/equal.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 30
     },
     {
@@ -564,7 +565,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/equalA.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/equalA.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 27
     },
     {
@@ -573,7 +574,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/es6+.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/es6+.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 37
     },
     {
@@ -582,7 +583,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/es6.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/es6.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 30
     },
     {
@@ -591,7 +592,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/event.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/event.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 30
     },
     {
@@ -600,7 +601,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/eventloop.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/eventloop.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 37
     },
     {
@@ -609,7 +610,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/fixed-page.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/fixed-page.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 22
     },
     {
@@ -618,7 +619,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/float.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/float.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 21
     },
     {
@@ -627,7 +628,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/forof-idx.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/forof-idx.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 20
     },
     {
@@ -636,7 +637,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/garbage.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/garbage.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 32
     },
     {
@@ -645,7 +646,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/getBool.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/getBool.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 18
     },
     {
@@ -654,7 +655,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/getElement.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/getElement.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 33
     },
     {
@@ -663,7 +664,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/immed-setInterval.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/immed-setInterval.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 34
     },
     {
@@ -672,7 +673,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/index copy.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/index copy.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 45
     },
     {
@@ -681,7 +682,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 18
     },
     {
@@ -690,7 +691,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/inherit.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/inherit.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-001",
+      "chunkId": "chunk-002",
       "degree": 20
     },
     {
@@ -816,7 +817,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myBind.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 32
     },
     {
@@ -825,7 +826,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myCall.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 35
     },
     {
@@ -834,7 +835,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/myNew.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 42
     },
     {
@@ -843,7 +844,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/nullobj.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 23
     },
     {
@@ -852,7 +853,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/numNotEqual.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 20
     },
     {
@@ -861,7 +862,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objDiffPrim.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 33
     },
     {
@@ -870,7 +871,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/objparam.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 50
     },
     {
@@ -879,7 +880,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/onload-ready.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 24
     },
     {
@@ -888,7 +889,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p0.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 21
     },
     {
@@ -897,7 +898,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p1.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 23
     },
     {
@@ -906,7 +907,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p2.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 28
     },
     {
@@ -915,7 +916,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p3.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 28
     },
     {
@@ -924,7 +925,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p4.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 49
     },
     {
@@ -933,7 +934,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/p5.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 23
     },
     {
@@ -942,7 +943,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/primitiveType.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 24
     },
     {
@@ -951,7 +952,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise copy.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 20
     },
     {
@@ -960,7 +961,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promise.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 18
     },
     {
@@ -969,7 +970,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/promiseAll.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 18
     },
     {
@@ -978,7 +979,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/prototype.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 19
     },
     {
@@ -987,7 +988,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runStack.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 28
     },
     {
@@ -996,7 +997,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/runcontext.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 32
     },
     {
@@ -1005,7 +1006,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scope.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 25
     },
     {
@@ -1014,7 +1015,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/scopeLink.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 22
     },
     {
@@ -1023,7 +1024,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/symbol.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 32
     },
     {
@@ -1032,7 +1033,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/this.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 35
     },
     {
@@ -1041,7 +1042,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/throttling.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 25
     },
     {
@@ -1050,7 +1051,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/tool-methods.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-002",
+      "chunkId": "chunk-003",
       "degree": 24
     },
     {
@@ -1140,7 +1141,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/JavaScript 核心/开源协议选择指南.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-001",
       "degree": 19
     },
     {
@@ -1176,7 +1177,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 20
     },
     {
@@ -1185,7 +1186,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mergefile.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 26
     },
     {
@@ -1194,7 +1195,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/mongoDb.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -1203,7 +1204,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/node-require-json.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 26
     },
     {
@@ -1212,7 +1213,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nodejs-getting-started.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 28
     },
     {
@@ -1221,7 +1222,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/nvm-iterm.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -1230,7 +1231,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/p1.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 23
     },
     {
@@ -1239,7 +1240,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/phantom-dep-cli.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 23
     },
     {
@@ -1248,7 +1249,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Node.js 与后端/standard-node-cli.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 21
     },
     {
@@ -1266,7 +1267,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/communicate.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 18
     },
     {
@@ -1275,7 +1276,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/compile.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -1284,7 +1285,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/computed.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 20
     },
     {
@@ -1293,7 +1294,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/dep.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -1302,7 +1303,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/diff.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 20
     },
     {
@@ -1311,7 +1312,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/extend.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -1320,7 +1321,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/hook.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 23
     },
     {
@@ -1329,7 +1330,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 18
     },
     {
@@ -1338,7 +1339,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/keep-alive.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 20
     },
     {
@@ -1347,7 +1348,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/mechanism.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 23
     },
     {
@@ -1356,7 +1357,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/mixin.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 18
     },
     {
@@ -1365,7 +1366,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/responsive.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 22
     },
     {
@@ -1374,7 +1375,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/routing.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 21
     },
     {
@@ -1383,7 +1384,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/showif.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 21
     },
     {
@@ -1392,7 +1393,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/Vue 框架/vnode.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-004",
       "degree": 22
     },
     {
@@ -1410,7 +1411,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/Internet.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/Internet.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 21
     },
     {
@@ -1419,7 +1420,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/cdn.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-001",
       "degree": 20
     },
     {
@@ -1428,7 +1429,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/dnsPre.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-003",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1437,7 +1438,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/image.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/image.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 19
     },
     {
@@ -1446,7 +1447,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1455,7 +1456,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/jpg-compress.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/jpg-compress.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 30
     },
     {
@@ -1464,7 +1465,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/lazyLoad.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/lazyLoad.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1473,7 +1474,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/monitor.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/monitor.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 20
     },
     {
@@ -1482,7 +1483,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/png-compress.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/png-compress.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 27
     },
     {
@@ -1491,7 +1492,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/preLoad.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/preLoad.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1500,7 +1501,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/preRender.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/preRender.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1509,7 +1510,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/ssr.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/ssr.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 24
     },
     {
@@ -1518,7 +1519,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/前端性能优化/throttling.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/前端性能优化/throttling.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1527,7 +1528,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/正则表达式/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/正则表达式/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 18
     },
     {
@@ -1536,7 +1537,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/正则表达式/p1.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/正则表达式/p1.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 22
     },
     {
@@ -1545,7 +1546,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 28
     },
     {
@@ -1554,7 +1555,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 20
     },
     {
@@ -1563,7 +1564,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 20
     },
     {
@@ -1572,7 +1573,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 20
     },
     {
@@ -1581,7 +1582,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 19
     },
     {
@@ -1590,7 +1591,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 21
     },
     {
@@ -1599,7 +1600,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 20
     },
     {
@@ -1608,7 +1609,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-000",
       "degree": 20
     },
     {
@@ -1617,7 +1618,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/render.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/render.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 23
     },
     {
@@ -1626,7 +1627,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/safe.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/safe.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 19
     },
     {
@@ -1635,7 +1636,7 @@
       "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/storage.html",
       "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/storage.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-001",
       "degree": 22
     },
     {
@@ -1644,7 +1645,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/index.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1653,7 +1654,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 27
     },
     {
@@ -1662,7 +1663,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 19
     },
     {
@@ -1671,7 +1672,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 20
     },
     {
@@ -1680,7 +1681,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1689,7 +1690,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1698,7 +1699,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 19
     },
     {
@@ -1707,7 +1708,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 19
     },
     {
@@ -1716,7 +1717,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1725,7 +1726,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1734,7 +1735,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1743,7 +1744,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 19
     },
     {
@@ -1752,7 +1753,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-004",
+      "chunkId": "chunk-005",
       "degree": 18
     },
     {
@@ -1788,7 +1789,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/操作系统/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 24
     },
     {
@@ -1797,7 +1798,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/操作系统/process.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -1806,7 +1807,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/操作系统/thread.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 28
     },
     {
@@ -1977,7 +1978,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 25
     },
     {
@@ -1986,7 +1987,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/http.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 21
     },
     {
@@ -1995,7 +1996,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 42
     },
     {
@@ -2004,7 +2005,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 24
     },
     {
@@ -2013,7 +2014,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -2022,7 +2023,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -2031,7 +2032,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 18
     },
     {
@@ -2040,7 +2041,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/factory.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 23
     },
     {
@@ -2049,7 +2050,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/index.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 19
     },
     {
@@ -2058,7 +2059,7 @@
       "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
       "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/single.md",
       "category": "🏺 远古技术",
-      "chunkId": "chunk-005",
+      "chunkId": "chunk-004",
       "degree": 21
     },
     {
@@ -2319,7 +2320,7 @@
       "url": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
       "filePath": "笔记/🛠 工程实践/DevOps 与云原生/index.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-010",
       "degree": 10
     },
     {
@@ -2328,7 +2329,7 @@
       "url": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
       "filePath": "笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-010",
       "degree": 7
     },
     {
@@ -2337,7 +2338,7 @@
       "url": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
       "filePath": "笔记/🛠 工程实践/DevOps 与云原生/serverless.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-010",
       "degree": 16
     },
     {
@@ -2346,7 +2347,7 @@
       "url": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
       "filePath": "笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-010",
       "degree": 10
     },
     {
@@ -2355,7 +2356,7 @@
       "url": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
       "filePath": "笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-010",
       "degree": 8
     },
     {
@@ -2364,7 +2365,7 @@
       "url": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
       "filePath": "笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 7
     },
     {
@@ -2373,7 +2374,7 @@
       "url": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
       "filePath": "笔记/🛠 工程实践/Git 与版本管理/git-base.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-010",
       "degree": 29
     },
     {
@@ -2382,7 +2383,7 @@
       "url": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
       "filePath": "笔记/🛠 工程实践/Git 与版本管理/index.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 14
     },
     {
@@ -2391,7 +2392,7 @@
       "url": "/笔记/🛠 工程实践/index.html",
       "filePath": "笔记/🛠 工程实践/index.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 12
     },
     {
@@ -2481,7 +2482,7 @@
       "url": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
       "filePath": "笔记/🛠 工程实践/开源项目/share-snippets.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 20
     },
     {
@@ -2490,7 +2491,7 @@
       "url": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
       "filePath": "笔记/🛠 工程实践/开源项目/sm-cli.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 19
     },
     {
@@ -2499,7 +2500,7 @@
       "url": "/笔记/🛠 工程实践/开源项目/snippets.html",
       "filePath": "笔记/🛠 工程实践/开源项目/snippets.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 18
     },
     {
@@ -2508,7 +2509,7 @@
       "url": "/笔记/🛠 工程实践/开源项目/theme.html",
       "filePath": "笔记/🛠 工程实践/开源项目/theme.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 18
     },
     {
@@ -2517,7 +2518,7 @@
       "url": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
       "filePath": "笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-009",
+      "chunkId": "chunk-010",
       "degree": 18
     },
     {
@@ -2733,7 +2734,7 @@
       "url": "/笔记/🛠 工程实践/调试技巧/index.html",
       "filePath": "笔记/🛠 工程实践/调试技巧/index.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 18
     },
     {
@@ -2742,7 +2743,7 @@
       "url": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
       "filePath": "笔记/🛠 工程实践/调试技巧/nvm-ls-remote.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 18
     },
     {
@@ -2751,7 +2752,7 @@
       "url": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
       "filePath": "笔记/🛠 工程实践/调试技巧/ts-decorators.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 19
     },
     {
@@ -2760,7 +2761,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/deploy-preview-pr.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-008",
       "degree": 20
     },
     {
@@ -2769,7 +2770,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/ep2-docker.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-008",
       "degree": 22
     },
     {
@@ -2778,7 +2779,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/faas.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/faas.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-008",
       "degree": 35
     },
     {
@@ -2787,7 +2788,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/index.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/index.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-008",
       "degree": 17
     },
     {
@@ -2796,7 +2797,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-008",
       "degree": 22
     },
     {
@@ -2805,7 +2806,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/qiniu-imgbed.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-008",
       "degree": 30
     },
     {
@@ -2814,7 +2815,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/qiniu-oss.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 33
     },
     {
@@ -2823,7 +2824,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 22
     },
     {
@@ -2832,7 +2833,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/tx-serverless-node.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 38
     },
     {
@@ -2841,7 +2842,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/tx-serverless-static.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 36
     },
     {
@@ -2850,7 +2851,7 @@
       "url": "/笔记/🛠 工程实践/部署与运维/upyun.html",
       "filePath": "笔记/🛠 工程实践/部署与运维/upyun.md",
       "category": "🛠 工程实践",
-      "chunkId": "chunk-010",
+      "chunkId": "chunk-009",
       "degree": 31
     },
     {
@@ -3030,7 +3031,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
       "filePath": "笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 32
     },
     {
@@ -3039,7 +3040,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
       "filePath": "笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 35
     },
     {
@@ -3048,7 +3049,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 应用/index.html",
       "filePath": "笔记/🤖 AI 与智能/AI 应用/index.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 18
     },
     {
@@ -3057,7 +3058,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
       "filePath": "笔记/🤖 AI 与智能/AI 应用/mac-install.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 19
     },
     {
@@ -3066,7 +3067,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
       "filePath": "笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 18
     },
     {
@@ -3075,7 +3076,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
       "filePath": "笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 25
     },
     {
@@ -3084,7 +3085,7 @@
       "url": "/笔记/🤖 AI 与智能/AI 生态/index.html",
       "filePath": "笔记/🤖 AI 与智能/AI 生态/index.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 18
     },
     {
@@ -3093,7 +3094,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 26
     },
     {
@@ -3102,7 +3103,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 24
     },
     {
@@ -3111,7 +3112,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 24
     },
     {
@@ -3120,7 +3121,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/index.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 18
     },
     {
@@ -3129,7 +3130,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/各种资源.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 20
     },
     {
@@ -3138,7 +3139,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 18
     },
     {
@@ -3147,7 +3148,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 21
     },
     {
@@ -3156,7 +3157,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 25
     },
     {
@@ -3165,7 +3166,7 @@
       "url": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
       "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 28
     },
     {
@@ -3174,7 +3175,7 @@
       "url": "/笔记/🤖 AI 与智能/index.html",
       "filePath": "笔记/🤖 AI 与智能/index.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-007",
+      "chunkId": "chunk-008",
       "degree": 18
     },
     {
@@ -3273,7 +3274,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 20
     },
     {
@@ -3282,7 +3283,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 28
     },
     {
@@ -3291,7 +3292,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 19
     },
     {
@@ -3300,7 +3301,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/index.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 18
     },
     {
@@ -3309,7 +3310,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 19
     },
     {
@@ -3318,7 +3319,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/分布式训练.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 19
     },
     {
@@ -3327,7 +3328,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/反向传播算法.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 31
     },
     {
@@ -3336,7 +3337,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 20
     },
     {
@@ -3345,7 +3346,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/基本名词.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 29
     },
     {
@@ -3354,7 +3355,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 19
     },
     {
@@ -3363,7 +3364,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 29
     },
     {
@@ -3372,7 +3373,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 28
     },
     {
@@ -3381,7 +3382,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 27
     },
     {
@@ -3390,7 +3391,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/神经网络基础.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 19
     },
     {
@@ -3399,7 +3400,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 18
     },
     {
@@ -3408,7 +3409,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 20
     },
     {
@@ -3417,7 +3418,7 @@
       "url": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
       "filePath": "笔记/🤖 AI 与智能/机器学习基础/阅读清单.md",
       "category": "🤖 AI 与智能",
-      "chunkId": "chunk-008",
+      "chunkId": "chunk-007",
       "degree": 22
     }
   ]

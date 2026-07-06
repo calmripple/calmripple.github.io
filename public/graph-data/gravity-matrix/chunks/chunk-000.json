@@ -1,96 +1,15 @@
 {
   "version": 1,
-  "generatedAt": 1783051966351,
+  "generatedAt": 1783301023552,
   "id": "chunk-000",
   "nodes": [
     {
-      "id": "/笔记/🌱 生活与思考/index.html",
-      "title": "🌱 生活与思考",
-      "url": "/笔记/🌱 生活与思考/index.html",
-      "filePath": "笔记/🌱 生活与思考/index.md",
-      "category": "🌱 生活与思考",
-      "degree": 13,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
-      "title": "在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用",
-      "url": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
-      "filePath": "笔记/🌱 生活与思考/工具软件/deepin-wemeet.md",
-      "category": "🌱 生活与思考",
-      "degree": 23,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/工具软件/index.html",
-      "title": "🔧 工具软件",
-      "url": "/笔记/🌱 生活与思考/工具软件/index.html",
-      "filePath": "笔记/🌱 生活与思考/工具软件/index.md",
-      "category": "🌱 生活与思考",
-      "degree": 13,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/开发环境/index.html",
-      "title": "⚙️ 开发环境",
-      "url": "/笔记/🌱 生活与思考/开发环境/index.html",
-      "filePath": "笔记/🌱 生活与思考/开发环境/index.md",
-      "category": "🌱 生活与思考",
-      "degree": 13,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
-      "title": "解决 VS Code 不能在只读卷上更新",
-      "url": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
-      "filePath": "笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.md",
+      "id": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "title": "笔记软件",
+      "url": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
+      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/笔记软件.md",
       "category": "🌱 生活与思考",
       "degree": 11,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/搜索技巧/index.html",
-      "title": "🔎 搜索技巧",
-      "url": "/笔记/🌱 生活与思考/搜索技巧/index.html",
-      "filePath": "笔记/🌱 生活与思考/搜索技巧/index.md",
-      "category": "🌱 生活与思考",
-      "degree": 13,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
-      "title": "如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？",
-      "url": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
-      "filePath": "笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.md",
-      "category": "🌱 生活与思考",
-      "degree": 11,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/知识库建设/index.html",
-      "title": "📚 知识库建设",
-      "url": "/笔记/🌱 生活与思考/知识库建设/index.html",
-      "filePath": "笔记/🌱 生活与思考/知识库建设/index.md",
-      "category": "🌱 生活与思考",
-      "degree": 13,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
-      "title": "Nolebase 集成",
-      "url": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
-      "filePath": "笔记/🌱 生活与思考/知识库建设/Nolebase 集成.md",
-      "category": "🌱 生活与思考",
-      "degree": 9,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
-      "title": "知在",
-      "url": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
-      "filePath": "笔记/🌱 生活与思考/知识库建设/Nolebase.md",
-      "category": "🌱 生活与思考",
-      "degree": 8,
       "chunkId": "chunk-000"
     },
     {
@@ -130,84 +49,165 @@
       "chunkId": "chunk-000"
     },
     {
-      "id": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
-      "title": "笔记软件",
-      "url": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
-      "filePath": "笔记/🌱 生活与思考/笔记与知识管理/笔记软件.md",
+      "id": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "title": "在linux-deepin上使用deepin-wine5完美运行腾讯会议/QQ/微信等此类应用",
+      "url": "/笔记/🌱 生活与思考/工具软件/deepin-wemeet.html",
+      "filePath": "笔记/🌱 生活与思考/工具软件/deepin-wemeet.md",
+      "category": "🌱 生活与思考",
+      "degree": 23,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "title": "🔧 工具软件",
+      "url": "/笔记/🌱 生活与思考/工具软件/index.html",
+      "filePath": "笔记/🌱 生活与思考/工具软件/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "title": "解决 VS Code 不能在只读卷上更新",
+      "url": "/笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.html",
+      "filePath": "笔记/🌱 生活与思考/开发环境/解决 VS Code 不能在只读卷上更新.md",
       "category": "🌱 生活与思考",
       "degree": 11,
       "chunkId": "chunk-000"
     },
     {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "title": "BFC",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.md",
-      "category": "🏺 远古技术",
-      "degree": 18,
+      "id": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "title": "⚙️ 开发环境",
+      "url": "/笔记/🌱 生活与思考/开发环境/index.html",
+      "filePath": "笔记/🌱 生活与思考/开发环境/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
       "chunkId": "chunk-000"
     },
     {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "title": "盒模型",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.md",
+      "id": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "title": "如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？",
+      "url": "/笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.html",
+      "filePath": "笔记/🌱 生活与思考/搜索技巧/如何在进行 Google 搜索的时候排除一个子域名或者避免搜索子域名？.md",
+      "category": "🌱 生活与思考",
+      "degree": 11,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "title": "🔎 搜索技巧",
+      "url": "/笔记/🌱 生活与思考/搜索技巧/index.html",
+      "filePath": "笔记/🌱 生活与思考/搜索技巧/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "title": "📚 知识库建设",
+      "url": "/笔记/🌱 生活与思考/知识库建设/index.html",
+      "filePath": "笔记/🌱 生活与思考/知识库建设/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "title": "Nolebase 集成",
+      "url": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "filePath": "笔记/🌱 生活与思考/知识库建设/Nolebase 集成.md",
+      "category": "🌱 生活与思考",
+      "degree": 9,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "title": "知在",
+      "url": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "filePath": "笔记/🌱 生活与思考/知识库建设/Nolebase.md",
+      "category": "🌱 生活与思考",
+      "degree": 8,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🌱 生活与思考/index.html",
+      "title": "🌱 生活与思考",
+      "url": "/笔记/🌱 生活与思考/index.html",
+      "filePath": "笔记/🌱 生活与思考/index.md",
+      "category": "🌱 生活与思考",
+      "degree": 13,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "title": "浏览器-阻塞",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.md",
+      "category": "🏺 远古技术",
+      "degree": 28,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "title": "浏览器-缓存机制",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "title": "分享小册《Chrome-DevTools的使用技巧》中的精华",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
+      "title": "浏览器-内核",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.md",
+      "category": "🏺 远古技术",
+      "degree": 20,
+      "chunkId": "chunk-000"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "title": "浏览器-跨域与跨站",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.md",
       "category": "🏺 远古技术",
       "degree": 19,
       "chunkId": "chunk-000"
     },
     {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "title": "弹性布局",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.md",
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "title": "浏览器-事件循环机制",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.md",
       "category": "🏺 远古技术",
-      "degree": 18,
+      "degree": 21,
       "chunkId": "chunk-000"
     },
     {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "title": "FC",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.md",
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
+      "title": "🌍 浏览器原理",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.md",
       "category": "🏺 远古技术",
-      "degree": 18,
+      "degree": 20,
       "chunkId": "chunk-000"
     },
     {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
-      "title": "🎨 CSS 与布局",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.md",
+      "id": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
+      "title": "浏览器-常见面试题",
+      "url": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
+      "filePath": "笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.md",
       "category": "🏺 远古技术",
-      "degree": 18,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "title": "CSS层级关系",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.md",
-      "category": "🏺 远古技术",
-      "degree": 18,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "title": "CSS伪元素before与after",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.md",
-      "category": "🏺 远古技术",
-      "degree": 18,
-      "chunkId": "chunk-000"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
-      "title": "表格斑马纹",
-      "url": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
-      "filePath": "笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.md",
-      "category": "🏺 远古技术",
-      "degree": 18,
+      "degree": 20,
       "chunkId": "chunk-000"
     }
   ],
@@ -475,6 +475,24 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
+      "type": "related",
+      "weight": 0.5663,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1402,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0062
+      }
+    },
+    {
       "source": "/笔记/🌱 生活与思考/笔记与知识管理/Obsidian.html",
       "target": "/笔记/🌱 生活与思考/笔记与知识管理/笔记软件.html",
       "type": "related",
@@ -525,19 +543,39 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
       "type": "related",
-      "weight": 0.4935,
+      "weight": 0.5009,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0735,
+        "content-similarity": 0.0649,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.016
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
+      "type": "related",
+      "weight": 0.4893,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.057,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
       }
     },
     {
@@ -557,10 +595,10 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
       "type": "related",
-      "weight": 0.4789,
+      "weight": 0.4766,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -568,49 +606,17 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0482,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.0738,
+        "tag-overlap": 0.2,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
+        "title-overlap": 0.0229
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
       "type": "related",
-      "weight": 0.4673,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0473,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "type": "related",
-      "weight": 0.458,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.038,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
-      "type": "related",
-      "weight": 0.4561,
+      "weight": 0.4617,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -618,10 +624,26 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0254,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.1133,
+        "tag-overlap": 0.15,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0107
+        "title-overlap": 0.0185
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
+      "type": "related",
+      "weight": 0.4571,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0371,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -641,35 +663,37 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
       "type": "related",
-      "weight": 0.4437,
+      "weight": 0.4384,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0237,
+        "content-similarity": 0.0184,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
       "type": "related",
-      "weight": 0.4405,
+      "weight": 0.4371,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0605,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0376,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.048
       }
     },
     {
@@ -689,234 +713,26 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
       "type": "related",
-      "weight": 0.4351,
+      "weight": 0.4329,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0151,
+        "content-similarity": 0.0129,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
       "type": "related",
-      "weight": 0.4126,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0326,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "type": "related",
-      "weight": 0.4038,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0238,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
-      "type": "related",
-      "weight": 0.4033,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0233,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "type": "related",
-      "weight": 0.4028,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0228,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "type": "related",
-      "weight": 0.4016,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0216,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "type": "related",
-      "weight": 0.3985,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0185,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p1.html",
-      "type": "related",
-      "weight": 0.3971,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0171,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "type": "related",
-      "weight": 0.3965,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0165,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
-      "type": "related",
-      "weight": 0.3956,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0156,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "type": "related",
-      "weight": 0.3952,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0152,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/bfc.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/p2.html",
-      "type": "related",
-      "weight": 0.3948,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0148,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/flex.html",
-      "type": "related",
-      "weight": 0.3944,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0144,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/box.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/ifc.html",
-      "type": "related",
-      "weight": 0.394,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.014,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/index.html",
-      "target": "/笔记/🏺 远古技术/💻 编程技术/CSS 与布局/level.html",
-      "type": "related",
-      "weight": 0.3695,
+      "weight": 0.4224,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -924,10 +740,222 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0615,
+        "content-similarity": 0.0363,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0062
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/problem.html",
+      "type": "related",
+      "weight": 0.4194,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0618,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0062
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "type": "related",
+      "weight": 0.4173,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0297,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "type": "related",
+      "weight": 0.4141,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0426,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.02
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "type": "related",
+      "weight": 0.4115,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0715,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "type": "related",
+      "weight": 0.4069,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0193,
+        "tag-overlap": 0.2,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "type": "related",
+      "weight": 0.3939,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0197,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "type": "related",
+      "weight": 0.3742,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0342,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "type": "related",
+      "weight": 0.3739,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0225,
+        "tag-overlap": 0.1714,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/block.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "type": "related",
+      "weight": 0.3654,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0254,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/chrome-devtools-study.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "type": "related",
+      "weight": 0.3622,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0322,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cors.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/eventloop.html",
+      "type": "related",
+      "weight": 0.3547,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0171,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0076
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/core.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
+      "type": "related",
+      "weight": 0.3496,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0896,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.08
+        "title-overlap": 0.032
       }
     },
     {
@@ -944,6 +972,24 @@
         "content-similarity": 0.0744,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/cache.html",
+      "target": "/笔记/🏺 远古技术/💻 编程技术/浏览器原理/index.html",
+      "type": "related",
+      "weight": 0.2993,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.045,
+        "tag-overlap": 0.0343,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
       }
     },
     {
@@ -1585,8 +1631,8 @@
       }
     },
     {
-      "source": "/笔记/🌱 生活与思考/index.html",
-      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
+      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
+      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
       "type": "related",
       "weight": 0.201,
       "relationTypes": [
@@ -1601,8 +1647,8 @@
       }
     },
     {
-      "source": "/笔记/🌱 生活与思考/知识库建设/Nolebase 集成.html",
-      "target": "/笔记/🌱 生活与思考/笔记与知识管理/index.html",
+      "source": "/笔记/🌱 生活与思考/index.html",
+      "target": "/笔记/🌱 生活与思考/知识库建设/Nolebase.html",
       "type": "related",
       "weight": 0.201,
       "relationTypes": [

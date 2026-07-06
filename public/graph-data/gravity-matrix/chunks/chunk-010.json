@@ -1,132 +1,51 @@
 {
   "version": 1,
-  "generatedAt": 1783051966351,
+  "generatedAt": 1783301023552,
   "id": "chunk-010",
   "nodes": [
     {
-      "id": "/笔记/🛠 工程实践/调试技巧/index.html",
-      "title": "🐛 调试技巧",
-      "url": "/笔记/🛠 工程实践/调试技巧/index.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/index.md",
-      "category": "🛠 工程实践",
-      "degree": 18,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "title": "nvm ls-remote 只有iojs列表",
-      "url": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/nvm-ls-remote.md",
-      "category": "🛠 工程实践",
-      "degree": 18,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
-      "title": "学习笔记：TypeScript装饰器",
-      "url": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
-      "filePath": "笔记/🛠 工程实践/调试技巧/ts-decorators.md",
-      "category": "🛠 工程实践",
-      "degree": 19,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "title": "在提交pr请求后自动部署preview github pages",
-      "url": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/deploy-preview-pr.md",
+      "id": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "title": "助你轻松编写与分享snippet的VsCode插件",
+      "url": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/share-snippets.md",
       "category": "🛠 工程实践",
       "degree": 20,
       "chunkId": "chunk-010"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "title": "🚧 搭建 easypicker2 docker 镜像实践",
-      "url": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/ep2-docker.md",
+      "id": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "title": "SourceMap解析CLI工具实现",
+      "url": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/sm-cli.md",
       "category": "🛠 工程实践",
-      "degree": 22,
+      "degree": 19,
       "chunkId": "chunk-010"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "title": "ServerLess之云函数实践-天气API",
-      "url": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/faas.md",
+      "id": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "title": "一个通过NPM包共(分)享代码块的解决方案",
+      "url": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/snippets.md",
       "category": "🛠 工程实践",
-      "degree": 35,
+      "degree": 18,
       "chunkId": "chunk-010"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "title": "🖥️ 部署与运维",
-      "url": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/index.md",
+      "id": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "title": "一个简约风的vitepress博客主题",
+      "url": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/theme.md",
       "category": "🛠 工程实践",
-      "degree": 17,
+      "degree": 18,
       "chunkId": "chunk-010"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "title": "pnpm install 在github actions中运行的问题",
-      "url": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.md",
+      "id": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "title": "使用Pagefind为VitePress文档添加离线全文搜索能力",
+      "url": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "filePath": "笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.md",
       "category": "🛠 工程实践",
-      "degree": 22,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "title": "3分钟使用OSS搭建个人的在线图床",
-      "url": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/qiniu-imgbed.md",
-      "category": "🛠 工程实践",
-      "degree": 30,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "title": "分享封装的一些七牛云OSS操作方法",
-      "url": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/qiniu-oss.md",
-      "category": "🛠 工程实践",
-      "degree": 33,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "title": "配置SSH免密登录服务器",
-      "url": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.md",
-      "category": "🛠 工程实践",
-      "degree": 22,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "title": "腾讯云Serverless实践-Node.js服务部署",
-      "url": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/tx-serverless-node.md",
-      "category": "🛠 工程实践",
-      "degree": 38,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "title": "腾讯云Serverless实践-静态网站托管",
-      "url": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/tx-serverless-static.md",
-      "category": "🛠 工程实践",
-      "degree": 36,
-      "chunkId": "chunk-010"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "title": "使用又拍云极速搭建图床",
-      "url": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/upyun.md",
-      "category": "🛠 工程实践",
-      "degree": 31,
+      "degree": 18,
       "chunkId": "chunk-010"
     },
     {
@@ -184,6 +103,87 @@
       "chunkId": "chunk-010"
     },
     {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "title": "☁️ DevOps 与云原生",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/index.md",
+      "category": "🛠 工程实践",
+      "degree": 10,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "title": "wsl中安装docker 1panel k8s",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.md",
+      "category": "🛠 工程实践",
+      "degree": 7,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "title": "Serverless",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/serverless.md",
+      "category": "🛠 工程实践",
+      "degree": 16,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "title": "zsh和oh-my-zsh美化",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.md",
+      "category": "🛠 工程实践",
+      "degree": 10,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "title": "Git常用的一些基本操作",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/git-base.md",
+      "category": "🛠 工程实践",
+      "degree": 29,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "title": "git如何清除历史版本",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.md",
+      "category": "🛠 工程实践",
+      "degree": 8,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "title": "🔀 Git 与版本管理",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/index.md",
+      "category": "🛠 工程实践",
+      "degree": 14,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "title": "SourceTree SSH密钥缓存问题解决",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.md",
+      "category": "🛠 工程实践",
+      "degree": 7,
+      "chunkId": "chunk-010"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/index.html",
+      "title": "🛠 工程实践",
+      "url": "/笔记/🛠 工程实践/index.html",
+      "filePath": "笔记/🛠 工程实践/index.md",
+      "category": "🛠 工程实践",
+      "degree": 12,
+      "chunkId": "chunk-010"
+    },
+    {
       "id": "/笔记/index.html",
       "title": "📒 笔记",
       "url": "/笔记/index.html",
@@ -194,26 +194,6 @@
     }
   ],
   "edges": [
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "markdown",
-      "weight": 1,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "markdown",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "markdown": 1,
-        "content-similarity": 0.2163,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.08
-      }
-    },
     {
       "source": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
       "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
@@ -272,6 +252,42 @@
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
         "title-overlap": 0.1387
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "type": "markdown",
+      "weight": 1,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "markdown",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "markdown": 1,
+        "content-similarity": 0.0797,
+        "tag-overlap": 0.1527,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/index.html",
+      "type": "related",
+      "weight": 0.5992,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2392,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -347,6 +363,24 @@
       }
     },
     {
+      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "type": "related",
+      "weight": 0.5428,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1121,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
       "source": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
       "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
       "type": "related",
@@ -365,21 +399,19 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/index.html",
       "type": "related",
-      "weight": 0.5078,
+      "weight": 0.5114,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
+        "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.115,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0128
+        "content-similarity": 0.1514,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
       }
     },
     {
@@ -401,24 +433,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "type": "related",
-      "weight": 0.5047,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0607,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.024
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
       "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
       "type": "related",
@@ -437,44 +451,26 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/index.html",
       "type": "related",
-      "weight": 0.4888,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0624,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/index.html",
-      "target": "/笔记/🛠 工程实践/项目模板/index.html",
-      "type": "related",
-      "weight": 0.4769,
+      "weight": 0.4889,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1169,
+        "content-similarity": 0.1289,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.12
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "target": "/笔记/🛠 工程实践/开源项目/snippets.html",
       "type": "related",
-      "weight": 0.4746,
+      "weight": 0.4705,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -482,17 +478,17 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0386,
+        "content-similarity": 0.0398,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.016
+        "title-overlap": 0.0107
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "target": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
       "type": "related",
-      "weight": 0.4611,
+      "weight": 0.4554,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -500,307 +496,17 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0683,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0128
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.4458,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0258,
+        "content-similarity": 0.024,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.4453,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0164,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0089
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "type": "related",
-      "weight": 0.4443,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0179,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.44,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.052,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.4382,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0493,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0089
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "type": "related",
-      "weight": 0.4235,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0635,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/项目模板/index.html",
-      "type": "related",
-      "weight": 0.4222,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0622,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.4207,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0407,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.4202,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0491,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0711
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.4193,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0678,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "type": "related",
-      "weight": 0.4189,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0675,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "related",
-      "weight": 0.4181,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0381,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.4174,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0286,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0089
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.4108,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0228,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "related",
-      "weight": 0.4108,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0228,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.4072,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0158,
-        "tag-overlap": 0.2,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0114
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
       "type": "related",
-      "weight": 0.3996,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0482,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.3989,
+      "weight": 0.4475,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -808,313 +514,189 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0402,
-        "tag-overlap": 0.1714,
+        "content-similarity": 0.0152,
+        "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0073
+        "title-overlap": 0.0123
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
+      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
       "type": "related",
-      "weight": 0.3835,
+      "weight": 0.4404,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0097,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0107
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "target": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "type": "related",
+      "weight": 0.4391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0076,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0114
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "type": "related",
+      "weight": 0.4375,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0607,
+        "tag-overlap": 0.18,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0168
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/index.html",
+      "type": "related",
+      "weight": 0.4324,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0035,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0724,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
+      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
       "type": "related",
-      "weight": 0.3804,
+      "weight": 0.4269,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0585,
+        "tag-overlap": 0.18,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/index.html",
+      "type": "related",
+      "weight": 0.4216,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0004,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0616,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
       "type": "related",
-      "weight": 0.38,
+      "weight": 0.4212,
       "relationTypes": [
+        "content-similarity",
         "directory-neighbor",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0444,
+        "tag-overlap": 0.18,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0168
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "target": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
       "type": "related",
-      "weight": 0.38,
+      "weight": 0.4173,
       "relationTypes": [
+        "content-similarity",
         "directory-neighbor",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0489,
+        "tag-overlap": 0.18,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
       "type": "related",
-      "weight": 0.3723,
+      "weight": 0.399,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0209,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.039,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.12
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
       "type": "related",
-      "weight": 0.36,
+      "weight": 0.3596,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0085,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "related",
-      "weight": 0.3576,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0276,
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "type": "related",
-      "weight": 0.3558,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0044,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
-      "type": "related",
-      "weight": 0.35,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.01,
+        "content-similarity": 0.0196,
         "tag-overlap": 0.16,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
       "type": "related",
-      "weight": 0.3402,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0102,
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.337,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.007,
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "type": "related",
-      "weight": 0.3353,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0053,
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.3336,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0036,
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "type": "related",
-      "weight": 0.3311,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0011,
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "type": "related",
-      "weight": 0.33,
-      "relationTypes": [
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "type": "related",
-      "weight": 0.33,
-      "relationTypes": [
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "tag-overlap": 0.15,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "related",
-      "weight": 0.3281,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0281,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.3259,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0259,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.3251,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0251,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
-      "type": "related",
-      "weight": 0.3219,
+      "weight": 0.3494,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1122,17 +704,17 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0739,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.008
+        "content-similarity": 0.1018,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0276
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
       "type": "related",
-      "weight": 0.3214,
+      "weight": 0.3292,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1140,506 +722,26 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0474,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.01
+        "content-similarity": 0.0981,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.011
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
       "type": "related",
-      "weight": 0.32,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0382,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0178
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
-      "type": "related",
-      "weight": 0.3169,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0352,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0178
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "type": "related",
-      "weight": 0.3107,
+      "weight": 0.2917,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0107,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.3103,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0286,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0178
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.309,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.009,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
-      "type": "related",
-      "weight": 0.3089,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0089,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
-      "type": "related",
-      "weight": 0.3068,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0668,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.3059,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0059,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.3058,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0354,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.3049,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0049,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
-      "type": "related",
-      "weight": 0.3032,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0526,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
-      "type": "related",
-      "weight": 0.2991,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0271,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.299,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0181,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0168
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.2926,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0526,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.2899,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0179,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.2895,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0175,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.2893,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0493,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
-      "type": "related",
-      "weight": 0.2891,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0491,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.289,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0384,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.2881,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0134,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.2875,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0171,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
-      "type": "related",
-      "weight": 0.2875,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0475,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.2856,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0372,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0084
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.2849,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0449,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
-      "type": "related",
-      "weight": 0.2847,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.01,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0107
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
-      "type": "related",
-      "weight": 0.2842,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0442,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
-      "type": "related",
-      "weight": 0.2834,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.013,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.2816,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0549,
+        "content-similarity": 0.005,
         "tag-overlap": 0.1067,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
-      "type": "related",
-      "weight": 0.2803,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0079,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0084
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -1655,6 +757,54 @@
       "scoreBreakdown": {
         "content-similarity": 0.0478,
         "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.274,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.01,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.2718,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0078,
+        "tag-overlap": 0.144,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "type": "related",
+      "weight": 0.2709,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0036,
+        "tag-overlap": 0.0873,
         "directory-neighbor": 0.18
       }
     },
@@ -1675,24 +825,6 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.2663,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0163,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.01
-      }
-    },
-    {
       "source": "/笔记/🛠 工程实践/项目模板/index.html",
       "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
       "type": "related",
@@ -1709,123 +841,57 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
+      "source": "/笔记/🛠 工程实践/开源项目/vitepress-plugin-pagefind.html",
+      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
       "type": "related",
-      "weight": 0.2627,
+      "weight": 0.2624,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
-        "tag-overlap"
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0427,
+        "content-similarity": 0.044,
+        "tag-overlap": 0.09,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "type": "related",
+      "weight": 0.2615,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0271,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0064
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/开源项目/sm-cli.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.2543,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0843,
         "tag-overlap": 0.04,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "type": "related",
-      "weight": 0.2619,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0326,
-        "tag-overlap": 0.1029,
         "directory-neighbor": 0.12,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
-      "type": "related",
-      "weight": 0.2613,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.032,
-        "tag-overlap": 0.1029,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0064
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "related",
-      "weight": 0.2596,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.025,
-        "tag-overlap": 0.1067,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/nvm-ls-remote.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.2595,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0328,
-        "tag-overlap": 0.1067,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
-      "type": "related",
-      "weight": 0.2542,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0313,
-        "tag-overlap": 0.1029,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
-      "type": "related",
-      "weight": 0.2541,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0134,
-        "tag-overlap": 0.1029,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0178
+        "title-overlap": 0.01
       }
     },
     {
@@ -1841,22 +907,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0393,
         "tag-overlap": 0.0343,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
-      "type": "related",
-      "weight": 0.2511,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0311,
-        "tag-overlap": 0.04,
         "directory-neighbor": 0.18
       }
     },
@@ -1877,106 +927,10 @@
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
-      "target": "/笔记/🛠 工程实践/项目模板/vite-vue3-template.html",
+      "source": "/笔记/🛠 工程实践/开源项目/snippets.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
       "type": "related",
-      "weight": 0.2448,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0219,
-        "tag-overlap": 0.1029,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.2432,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0152,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/upyun.html",
-      "type": "related",
-      "weight": 0.2412,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0132,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-node.html",
-      "type": "related",
-      "weight": 0.2404,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0175,
-        "tag-overlap": 0.1029,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "type": "related",
-      "weight": 0.2352,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0072,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-oss.html",
-      "type": "related",
-      "weight": 0.2306,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0026,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "type": "related",
-      "weight": 0.2305,
+      "weight": 0.2278,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1984,88 +938,252 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0117,
-        "tag-overlap": 0.03,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0089
+        "content-similarity": 0.0572,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0107
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
       "type": "related",
-      "weight": 0.2301,
+      "weight": 0.2268,
       "relationTypes": [
         "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0142,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0059
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "type": "related",
+      "weight": 0.22,
+      "relationTypes": [
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0101,
         "tag-overlap": 0.04,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ssh-no-pwd-login.html",
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
       "type": "related",
-      "weight": 0.2245,
+      "weight": 0.2147,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0102,
-        "tag-overlap": 0.0343,
+        "content-similarity": 0.008,
+        "tag-overlap": 0.0267,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/调试技巧/index.html",
-      "target": "/笔记/🛠 工程实践/调试技巧/ts-decorators.html",
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
       "type": "related",
-      "weight": 0.218,
+      "weight": 0.21,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0037,
-        "tag-overlap": 0.0343,
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.0267,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
+      "source": "/笔记/🛠 工程实践/开源项目/theme.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
       "type": "related",
-      "weight": 0.2077,
+      "weight": 0.2028,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0328,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "type": "related",
+      "weight": 0.2018,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.0218,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/开源项目/share-snippets.html",
+      "type": "related",
+      "weight": 0.1996,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0037,
-        "tag-overlap": 0.024,
-        "directory-neighbor": 0.18
+        "content-similarity": 0.0396,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
       }
     },
     {
-      "source": "/笔记/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/tx-serverless-static.html",
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/SourceTree SSH密钥缓存问题解决.html",
       "type": "related",
-      "weight": 0.1842,
+      "weight": 0.199,
       "relationTypes": [
         "content-similarity",
-        "directory-neighbor"
+        "directory-neighbor",
+        "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1242,
-        "directory-neighbor": 0.06
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.0533,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.1936,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0256,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_1.html",
+      "type": "related",
+      "weight": 0.1871,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0271,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/项目模板/web-sdk-tpl.html",
+      "type": "related",
+      "weight": 0.1853,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0253,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.1853,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0173,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "type": "related",
+      "weight": 0.1839,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0317,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0055
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_3.html",
+      "type": "related",
+      "weight": 0.1809,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/index.html",
+      "target": "/笔记/🛠 工程实践/项目模板/uni-vue3-cli_2.html",
+      "type": "related",
+      "weight": 0.1806,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0126,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
       }
     }
   ]

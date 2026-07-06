@@ -50,6 +50,8 @@ const draggedNodeId = ref<string>()
 
 let graphInstance: any
 let SpriteTextCtor: any
+let isDestroyed = false
+let resumeRaf: number | undefined
 
 const relationTypeLabels: Record<string, string> = {
   markdown: "显式链接",
@@ -410,7 +412,7 @@ function applyFocusStyles() {
 }
 
 function syncGraphDataToInstance(fit = true) {
-  if (!graphInstance)
+  if (!graphInstance || isDestroyed)
     return
 
   if (!graphData.value.nodes.length) {
@@ -422,13 +424,27 @@ function syncGraphDataToInstance(fit = true) {
   configureForces()
   applyFocusStyles()
   graphInstance.d3ReheatSimulation?.()
-  graphInstance.resumeAnimation?.()
+
+  // Delay animation resume to next frame so internal force-layout is ready.
+  if (resumeRaf)
+    cancelAnimationFrame(resumeRaf)
+  resumeRaf = requestAnimationFrame(() => {
+    if (!graphInstance || isDestroyed)
+      return
+    try {
+      graphInstance.resumeAnimation?.()
+    }
+    catch {
+      // Ignore transient layout init race; next data sync will retry.
+    }
+  })
+
   if (fit)
     graphInstance.zoomToFit(450, 36)
 }
 
 async function initGraph() {
-  if (!containerEl.value)
+  if (!containerEl.value || isDestroyed)
     return
 
   const { default: ForceGraph3D } = await import("3d-force-graph")
@@ -489,7 +505,7 @@ async function initGraph() {
 }
 
 function updateSize() {
-  if (!containerEl.value || !graphInstance)
+  if (!containerEl.value || !graphInstance || isDestroyed)
     return
 
   graphInstance.width(containerEl.value.clientWidth)
@@ -507,10 +523,14 @@ watch(activeNodeId, () => {
 onMounted(initGraph)
 
 onBeforeUnmount(() => {
+  isDestroyed = true
+  if (resumeRaf) {
+    cancelAnimationFrame(resumeRaf)
+    resumeRaf = undefined
+  }
   window.removeEventListener("resize", updateSize)
   graphInstance?._destructor?.()
-  if (containerEl.value)
-    containerEl.value.innerHTML = ""
+  graphInstance = undefined
 })
 </script>
 
@@ -522,7 +542,7 @@ onBeforeUnmount(() => {
           Matrix gravity field
         </p>
         <h2 class="VPGraph3DTitle">
-          {{ props.title || '引力矩阵图谱' }}
+          {{ props.title || '知识图谱' }}
         </h2>
         <p v-if="props.description" class="VPGraph3DDescription">
           {{ props.description }}

@@ -30,7 +30,9 @@ export const NolebaseGraphViewPlugin: Plugin<Options[], Options[]> = {
     if (typeof options !== 'undefined' && typeof options === 'object')
       app.provide(InjectionKey, options)
 
-    for (const key of Object.keys(components))
-      app.component(key, components[key as keyof typeof components])
+    for (const key of Object.keys(components)) {
+      if (!app.component(key))
+        app.component(key, components[key as keyof typeof components])
+    }
   },
 }

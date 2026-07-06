@@ -1,98 +1,8 @@
 {
   "version": 1,
-  "generatedAt": 1783051966351,
+  "generatedAt": 1783301023552,
   "id": "chunk-005",
   "nodes": [
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "title": "🖥️ 操作系统",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/操作系统/index.md",
-      "category": "🏺 远古技术",
-      "degree": 24,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "title": "进程",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/操作系统/process.md",
-      "category": "🏺 远古技术",
-      "degree": 19,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "title": "线程",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/操作系统/thread.md",
-      "category": "🏺 远古技术",
-      "degree": 28,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
-      "title": "优秀装饰器源码学习（一）：time",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.md",
-      "category": "🏺 远古技术",
-      "degree": 19,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
-      "title": "优秀装饰器源码学习（二）",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.md",
-      "category": "🏺 远古技术",
-      "degree": 19,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
-      "title": "优秀装饰器源码学习（三）",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.md",
-      "category": "🏺 远古技术",
-      "degree": 18,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
-      "title": "FileSaver.js源码学习，纯前端实现文件下载，防止浏览器直接打开预览",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.md",
-      "category": "🏺 远古技术",
-      "degree": 19,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
-      "title": "🔍 源码分析",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/index.md",
-      "category": "🏺 远古技术",
-      "degree": 23,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
-      "title": "源码学习：MongoDB-Objectd生成原理",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.md",
-      "category": "🏺 远古技术",
-      "degree": 23,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
-      "title": "源码学习：Vite中加载环境变量（loadEnv）的实现",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.md",
-      "category": "🏺 远古技术",
-      "degree": 18,
-      "chunkId": "chunk-005"
-    },
     {
       "id": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
       "title": "大数相加&数字字符串相加",
@@ -193,93 +103,183 @@
       "chunkId": "chunk-005"
     },
     {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "title": "Content-Length",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.md",
-      "category": "🏺 远古技术",
-      "degree": 25,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "title": "http协议",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/http.md",
-      "category": "🏺 远古技术",
-      "degree": 21,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "title": "🌐 计算机网络",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/index.md",
-      "category": "🏺 远古技术",
-      "degree": 42,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "title": "TCP与UDP的区别",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.md",
-      "category": "🏺 远古技术",
-      "degree": 24,
-      "chunkId": "chunk-005"
-    },
-    {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "title": "TCP协议",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.md",
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "title": "↗️ 向量长度",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.md",
       "category": "🏺 远古技术",
       "degree": 19,
       "chunkId": "chunk-005"
     },
     {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "title": "UDP协议",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.md",
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "title": "▶️ 三角函数",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.md",
       "category": "🏺 远古技术",
-      "degree": 19,
+      "degree": 20,
       "chunkId": "chunk-005"
     },
     {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "title": "抽象工厂模式",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.md",
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "title": "✖️ 叉乘",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.md",
       "category": "🏺 远古技术",
       "degree": 18,
       "chunkId": "chunk-005"
     },
     {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "title": "简单工厂模式",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/factory.md",
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "title": "🌐 齐次坐标",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.md",
       "category": "🏺 远古技术",
-      "degree": 23,
+      "degree": 18,
       "chunkId": "chunk-005"
     },
     {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
-      "title": "🏗️ 设计模式",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/index.md",
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "title": "📐 向量之间的夹角",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "title": "🔘 点乘",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "title": "🔢 标量、向量、张量",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.md",
       "category": "🏺 远古技术",
       "degree": 19,
       "chunkId": "chunk-005"
     },
     {
-      "id": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "title": "单例模式",
-      "url": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "filePath": "笔记/🏺 远古技术/📚 基础理论/设计模式/single.md",
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "title": "🔢 矩阵乘法",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.md",
       "category": "🏺 远古技术",
-      "degree": 21,
+      "degree": 18,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "title": "单位向量",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "title": "复平面和四元数",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "title": "学习图形学",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "title": "🎮 图形学",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/图形学/index.md",
+      "category": "🏺 远古技术",
+      "degree": 27,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
+      "title": "优秀装饰器源码学习（一）：time",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
+      "title": "优秀装饰器源码学习（二）",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
+      "title": "优秀装饰器源码学习（三）",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
+      "title": "FileSaver.js源码学习，纯前端实现文件下载，防止浏览器直接打开预览",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.md",
+      "category": "🏺 远古技术",
+      "degree": 19,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
+      "title": "🔍 源码分析",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/index.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "title": "源码学习：MongoDB-Objectd生成原理",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.md",
+      "category": "🏺 远古技术",
+      "degree": 23,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
+      "title": "源码学习：Vite中加载环境变量（loadEnv）的实现",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
+      "chunkId": "chunk-005"
+    },
+    {
+      "id": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "title": "📚 基础理论",
+      "url": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "filePath": "笔记/🏺 远古技术/📚 基础理论/index.md",
+      "category": "🏺 远古技术",
+      "degree": 18,
       "chunkId": "chunk-005"
     },
     {
@@ -372,42 +372,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.7597,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.3197,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.02
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "type": "related",
-      "weight": 0.6605,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.2259,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0145
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/judgeSymmetryTree.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/treeLevelTraverse.html",
       "type": "related",
@@ -426,55 +390,19 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
       "type": "related",
-      "weight": 0.626,
+      "weight": 0.6445,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.206,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.2725,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "type": "related",
-      "weight": 0.6252,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1906,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0145
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.6234,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1743,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0291
       }
     },
     {
@@ -514,35 +442,97 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
       "type": "related",
-      "weight": 0.5953,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1283,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0471
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.5683,
+      "weight": 0.6041,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1483,
+        "content-similarity": 0.2321,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "type": "related",
+      "weight": 0.5983,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2263,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "type": "related",
+      "weight": 0.5813,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1613,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "type": "related",
+      "weight": 0.5729,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2009,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.5677,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1477,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.554,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.134,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
       }
@@ -564,10 +554,26 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
       "type": "related",
-      "weight": 0.5497,
+      "weight": 0.5382,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1182,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.5347,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -575,10 +581,10 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1097,
+        "content-similarity": 0.0881,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.02
+        "title-overlap": 0.0267
       }
     },
     {
@@ -598,19 +604,133 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
       "type": "related",
-      "weight": 0.4877,
+      "weight": 0.518,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1577,
+        "content-similarity": 0.098,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "type": "related",
+      "weight": 0.5153,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1433,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.507,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.135,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.5033,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0833,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "type": "related",
+      "weight": 0.5033,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1733,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.09
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "type": "related",
+      "weight": 0.5024,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0904,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.04
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "type": "related",
+      "weight": 0.4992,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1272,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "type": "related",
+      "weight": 0.496,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.124,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -631,49 +751,33 @@
     },
     {
       "source": "/笔记/🏺 远古技术/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/index.html",
       "type": "related",
-      "weight": 0.4877,
+      "weight": 0.485,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1577,
+        "content-similarity": 0.125,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.09
+        "directory-neighbor": 0.12
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
       "type": "related",
-      "weight": 0.4822,
+      "weight": 0.4748,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0622,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.4809,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0609,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.1028,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -714,6 +818,70 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "type": "related",
+      "weight": 0.4698,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2418,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "type": "related",
+      "weight": 0.4696,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0976,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "type": "related",
+      "weight": 0.4683,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0963,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.4673,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0953,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/mergeSort.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
       "type": "related",
@@ -730,18 +898,18 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
       "type": "related",
-      "weight": 0.4625,
+      "weight": 0.4622,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0425,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.0902,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -764,34 +932,18 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
       "type": "related",
-      "weight": 0.4556,
+      "weight": 0.4587,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0356,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "type": "related",
-      "weight": 0.455,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.035,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.0867,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -812,56 +964,184 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
       "type": "related",
-      "weight": 0.4468,
+      "weight": 0.4539,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0268,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.0819,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
       "type": "related",
-      "weight": 0.4445,
+      "weight": 0.4521,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0695,
+        "content-similarity": 0.0801,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.452,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.08,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.4513,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0763,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "type": "related",
+      "weight": 0.4507,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0787,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.4502,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0782,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.4495,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0775,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.4493,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0773,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.4483,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0763,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.4476,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0756,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.4456,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0736,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
-      "type": "related",
-      "weight": 0.4445,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0695,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
       "type": "related",
       "weight": 0.4445,
       "relationTypes": [
@@ -908,6 +1188,38 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.443,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.071,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "type": "related",
+      "weight": 0.4427,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.2147,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
       "type": "related",
@@ -920,6 +1232,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0214,
         "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.4412,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0692,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -940,19 +1268,19 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
       "type": "related",
-      "weight": 0.4388,
+      "weight": 0.4381,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1088,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.09
+        "content-similarity": 0.0661,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -1004,6 +1332,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "type": "related",
+      "weight": 0.4361,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0641,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/treeLevelTraverse.html",
       "type": "related",
@@ -1016,6 +1360,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0152,
         "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.4344,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0624,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -1052,6 +1412,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.4316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0596,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/linkReserve.html",
       "type": "related",
@@ -1084,6 +1460,38 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.4301,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0551,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
+      "type": "related",
+      "weight": 0.4297,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0547,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
       "type": "related",
@@ -1096,6 +1504,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0093,
         "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "type": "related",
+      "weight": 0.4279,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0559,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -1148,67 +1572,179 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.4263,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0543,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "type": "related",
+      "weight": 0.4224,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0504,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "type": "related",
+      "weight": 0.4212,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0492,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "type": "related",
+      "weight": 0.4206,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0486,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.4206,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0486,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "type": "related",
+      "weight": 0.4196,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0476,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "type": "related",
+      "weight": 0.4187,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0467,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "type": "related",
+      "weight": 0.4183,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0433,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/index.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
       "type": "related",
-      "weight": 0.4247,
+      "weight": 0.4144,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0497,
+        "content-similarity": 0.0394,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
       "type": "related",
-      "weight": 0.4247,
+      "weight": 0.4142,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0497,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
+        "content-similarity": 0.0422,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
       "type": "related",
-      "weight": 0.4247,
+      "weight": 0.4127,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0497,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "type": "related",
-      "weight": 0.4229,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0479,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
+        "content-similarity": 0.0407,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -1244,6 +1780,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "type": "related",
+      "weight": 0.4113,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0393,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/headSort.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/treeLevelTraverse.html",
       "type": "related",
@@ -1260,51 +1812,35 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
       "type": "related",
-      "weight": 0.4093,
+      "weight": 0.4101,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0343,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
+        "content-similarity": 0.0381,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
       "type": "related",
-      "weight": 0.4093,
+      "weight": 0.41,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0343,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
-      "type": "related",
-      "weight": 0.4093,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0343,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.135
+        "content-similarity": 0.038,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -1434,6 +1970,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0172,
         "tag-overlap": 0.2057,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "type": "related",
+      "weight": 0.4021,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0301,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -1568,6 +2120,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "type": "related",
+      "weight": 0.3985,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0265,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/headSort.html",
       "type": "related",
@@ -1600,6 +2168,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "type": "related",
+      "weight": 0.3969,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0249,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/quickSort.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
       "type": "related",
@@ -1616,18 +2200,18 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
       "type": "related",
-      "weight": 0.3932,
+      "weight": 0.3941,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1652,
-        "tag-overlap": 0.048,
+        "content-similarity": 0.0221,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18
       }
     },
@@ -1686,6 +2270,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "type": "related",
+      "weight": 0.3675,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1275,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
       "type": "related",
@@ -1701,6 +2301,22 @@
         "tag-overlap": 0.048,
         "directory-neighbor": 0.18,
         "title-overlap": 0.0178
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "type": "related",
+      "weight": 0.3605,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1325,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -1735,22 +2351,6 @@
         "tag-overlap": 0.12,
         "directory-neighbor": 0.18,
         "title-overlap": 0.01
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "type": "related",
-      "weight": 0.32,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.092,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
       }
     },
     {
@@ -1804,38 +2404,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
-      "type": "related",
-      "weight": 0.3137,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0857,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.3135,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0855,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/linkReserve.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
       "type": "related",
@@ -1848,6 +2416,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.013,
         "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/单位向量.html",
+      "type": "related",
+      "weight": 0.3111,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0831,
+        "tag-overlap": 0.048,
         "directory-neighbor": 0.18
       }
     },
@@ -1868,33 +2452,49 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
       "type": "related",
-      "weight": 0.3064,
+      "weight": 0.3048,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0784,
+        "content-similarity": 0.0768,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
       "type": "related",
-      "weight": 0.287,
+      "weight": 0.3019,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.059,
+        "content-similarity": 0.0739,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "type": "related",
+      "weight": 0.2986,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0706,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.18
       }
@@ -1980,22 +2580,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "type": "related",
-      "weight": 0.2731,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0421,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/file-saver-source.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
       "type": "related",
@@ -2009,22 +2593,6 @@
         "content-similarity": 0.0316,
         "tag-overlap": 0.06,
         "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2702,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0392,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
       }
     },
     {
@@ -2044,6 +2612,22 @@
       }
     },
     {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "type": "related",
+      "weight": 0.2693,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0413,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/treeLevelTraverse.html",
       "type": "related",
@@ -2056,6 +2640,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0488,
         "tag-overlap": 0.04,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "type": "related",
+      "weight": 0.2669,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0389,
+        "tag-overlap": 0.048,
         "directory-neighbor": 0.18
       }
     },
@@ -2140,38 +2740,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "type": "related",
-      "weight": 0.2627,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0347,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2623,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0313,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/vite-loadEnv.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
       "type": "related",
@@ -2248,22 +2816,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0058,
         "tag-overlap": 0.12,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.2608,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0298,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -2376,22 +2928,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0044,
         "tag-overlap": 0.12,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "type": "related",
-      "weight": 0.2594,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0284,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -2524,22 +3060,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.258,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.027,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/linkReserve.html",
       "type": "related",
@@ -2553,22 +3073,6 @@
         "content-similarity": 0.0029,
         "tag-overlap": 0.12,
         "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/index.html",
-      "type": "related",
-      "weight": 0.2579,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0299,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
       }
     },
     {
@@ -2780,38 +3284,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2558,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0248,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.2553,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0243,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/treeLevelTraverse.html",
       "type": "related",
@@ -2822,70 +3294,6 @@
       ],
       "scoreBreakdown": {
         "tag-overlap": 0.12,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "type": "related",
-      "weight": 0.2545,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0265,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.2541,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0231,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "type": "related",
-      "weight": 0.2537,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0227,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2535,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0225,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -2922,51 +3330,19 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
       "type": "related",
-      "weight": 0.2513,
+      "weight": 0.2503,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0203,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2511,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0201,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2506,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0196,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
+        "content-similarity": 0.0223,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.18
       }
     },
     {
@@ -2988,22 +3364,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "type": "related",
-      "weight": 0.2486,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0176,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/quickSort.html",
       "type": "related",
@@ -3020,22 +3380,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "type": "related",
-      "weight": 0.247,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.019,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/headSort.html",
       "type": "related",
@@ -3048,22 +3392,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0088,
         "tag-overlap": 0.1029,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2466,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0156,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -3084,54 +3412,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.2458,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0148,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "type": "related",
-      "weight": 0.2457,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0147,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2457,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0147,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/headSort.html",
       "type": "related",
@@ -3144,102 +3424,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0078,
         "tag-overlap": 0.1029,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.2455,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0145,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "type": "related",
-      "weight": 0.2453,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0143,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "type": "related",
-      "weight": 0.2451,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0141,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2448,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0138,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "type": "related",
-      "weight": 0.2447,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0137,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "type": "related",
-      "weight": 0.2442,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0132,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -3272,38 +3456,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0061,
         "tag-overlap": 0.1029,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "type": "related",
-      "weight": 0.2439,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0129,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "type": "related",
-      "weight": 0.2436,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0126,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -3404,38 +3556,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "type": "related",
-      "weight": 0.2425,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0115,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.2422,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0112,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/mergeSort.html",
       "type": "related",
@@ -3468,22 +3588,6 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2417,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0107,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
       "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
       "target": "/笔记/🏺 远古技术/📚 基础理论/算法/quickSort.html",
       "type": "related",
@@ -3496,22 +3600,6 @@
       "scoreBreakdown": {
         "content-similarity": 0.0034,
         "tag-overlap": 0.1029,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "type": "related",
-      "weight": 0.2412,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0102,
-        "tag-overlap": 0.096,
         "directory-neighbor": 0.135
       }
     },
@@ -3548,90 +3636,304 @@
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
       "type": "related",
-      "weight": 0.2394,
+      "weight": 0.2385,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0084,
-        "tag-overlap": 0.096,
+        "content-similarity": 0.0555,
+        "tag-overlap": 0.048,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
       "type": "related",
-      "weight": 0.2391,
+      "weight": 0.2364,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0314,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.01
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-3.html",
+      "type": "related",
+      "weight": 0.233,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0234,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
+      "type": "related",
+      "weight": 0.2316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.022,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135,
+        "title-overlap": 0.0145
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.2054,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0081,
-        "tag-overlap": 0.096,
+        "content-similarity": 0.0104,
+        "tag-overlap": 0.06,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
       "type": "related",
-      "weight": 0.2386,
+      "weight": 0.2033,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0076,
-        "tag-overlap": 0.096,
+        "content-similarity": 0.0203,
+        "tag-overlap": 0.048,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
       "type": "related",
-      "weight": 0.2381,
+      "weight": 0.2026,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0071,
-        "tag-overlap": 0.096,
+        "content-similarity": 0.0196,
+        "tag-overlap": 0.048,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/index.html",
       "type": "related",
-      "weight": 0.2378,
+      "weight": 0.2024,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0068,
-        "tag-overlap": 0.096,
+        "content-similarity": 0.0074,
+        "tag-overlap": 0.06,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/学习图形学.html",
       "type": "related",
-      "weight": 0.237,
+      "weight": 0.2009,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0059,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/复平面和四元数.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.2004,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0174,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
+      "type": "related",
+      "weight": 0.1969,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0019,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
+      "type": "related",
+      "weight": 0.1962,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0212,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 矩阵乘法.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1919,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0089,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/✖️ 叉乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1913,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0083,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔘 点乘.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
+      "type": "related",
+      "weight": 0.1912,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.04,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "type": "related",
+      "weight": 0.1909,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0079,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
+      "type": "related",
+      "weight": 0.1892,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0062,
+        "tag-overlap": 0.048,
+        "directory-neighbor": 0.135
+      }
+    },
+    {
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/📐 向量之间的夹角.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
+      "type": "related",
+      "weight": 0.189,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -3639,349 +3941,61 @@
       ],
       "scoreBreakdown": {
         "content-similarity": 0.006,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2367,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0057,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "type": "related",
-      "weight": 0.2366,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0056,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2366,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0056,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "type": "related",
-      "weight": 0.2342,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0512,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🌐 齐次坐标.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/sort.html",
       "type": "related",
-      "weight": 0.2328,
+      "weight": 0.1868,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0018,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/factory.html",
-      "type": "related",
-      "weight": 0.2307,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0477,
+        "content-similarity": 0.0038,
         "tag-overlap": 0.048,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
+      "source": "/笔记/🏺 远古技术/index.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/图形学/▶️ 三角函数.html",
       "type": "related",
-      "weight": 0.2214,
+      "weight": 0.1826,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0384,
+        "content-similarity": 0.0446,
         "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
+        "directory-neighbor": 0.09
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/🔢 标量、向量、张量.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
       "type": "related",
-      "weight": 0.2158,
+      "weight": 0.1817,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0328,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.212,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.029,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-2.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
-      "type": "related",
-      "weight": 0.2073,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0243,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/thread.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
-      "type": "related",
-      "weight": 0.2066,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0236,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/core-decorators-1.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "type": "related",
-      "weight": 0.206,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.011,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/操作系统/process.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "type": "related",
-      "weight": 0.2023,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0193,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/judgeSymmetryTree.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/http.html",
-      "type": "related",
-      "weight": 0.2018,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0268,
+        "content-similarity": 0.0067,
         "tag-overlap": 0.04,
         "directory-neighbor": 0.135
       }
     },
     {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.2002,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0172,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "type": "related",
-      "weight": 0.1996,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0166,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/addString.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/clength.html",
-      "type": "related",
-      "weight": 0.1983,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0233,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/源码分析/objectId.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/abstractfactory.html",
-      "type": "related",
-      "weight": 0.1979,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0149,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/index.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/udp.html",
-      "type": "related",
-      "weight": 0.1939,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0109,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo2.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/index.html",
-      "type": "related",
-      "weight": 0.184,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.009,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/mergeSort.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/计算机网络/tcp-udp.html",
-      "type": "related",
-      "weight": 0.182,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0127,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.135
-      }
-    },
-    {
-      "source": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo1.html",
-      "target": "/笔记/🏺 远古技术/📚 基础理论/设计模式/single.html",
+      "source": "/笔记/🏺 远古技术/📚 基础理论/图形学/↗️ 向量长度.html",
+      "target": "/笔记/🏺 远古技术/📚 基础理论/算法/feibo1.html",
       "type": "related",
       "weight": 0.1806,
       "relationTypes": [

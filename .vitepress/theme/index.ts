@@ -71,9 +71,14 @@ const ExtendedTheme: Theme = {
   async enhanceApp(ctx) {
     await nolebase?.enhanceApp?.(ctx as any)
     // 注册自有页面属性组件（替代 @nolebase/vitepress-plugin-page-properties）
-    ctx.app.component('KnewbeingPageProperties', PageProperties)
-    ctx.app.component('KnewbeingPagePropertiesEditor', PagePropertiesEditor)
-    ctx.app.component('NolebaseGraphView3D', NolebaseGraphView3D)
+    if (!ctx.app.component('KnewbeingPageProperties'))
+      ctx.app.component('KnewbeingPageProperties', PageProperties)
+
+    if (!ctx.app.component('KnewbeingPagePropertiesEditor'))
+      ctx.app.component('KnewbeingPagePropertiesEditor', PagePropertiesEditor)
+
+    if (!ctx.app.component('NolebaseGraphView3D'))
+      ctx.app.component('NolebaseGraphView3D', NolebaseGraphView3D)
   },
 }
 
