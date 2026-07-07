@@ -55,10 +55,10 @@
   "unocss.root": [
     "."
   ],
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
-  "typescript.disableAutomaticTypeAcquisition": true,
-  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+  "js/ts.tsserver.automaticTypeAcquisition.enabled": false,
+  "js/ts.tsserver.experimental.enableProjectDiagnostics": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -114,7 +114,6 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.tabs.title": "${profile}",
   "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
-  "js/ts.tsdk.path": "node_modules/typescript/lib",
   "python.languageServer": "Pylance",
   "python.createEnvironment.contentButton": "show",
   "chat.requestQueuing.defaultAction": "queue",

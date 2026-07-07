@@ -1,240 +1,242 @@
 {
   "version": 1,
-  "generatedAt": 1783301023552,
+  "generatedAt": 1783392107060,
   "id": "chunk-008",
   "nodes": [
     {
-      "id": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "title": "🌐 AI 生态",
-      "url": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 生态/index.md",
-      "category": "🤖 AI 与智能",
-      "degree": 18,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "title": "Rust 社区的 AI 生态",
-      "url": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.md",
-      "category": "🤖 AI 与智能",
-      "degree": 25,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "title": "在 macOS 上运行 fish-speech 以进行少量样本语音合成",
-      "url": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.md",
-      "category": "🤖 AI 与智能",
-      "degree": 18,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "title": "AI 绘画工作流工具和相关 SOTA",
-      "url": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.md",
-      "category": "🤖 AI 与智能",
-      "degree": 32,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "title": "AI 视频工作流工具和相关 SOTA",
-      "url": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.md",
-      "category": "🤖 AI 与智能",
-      "degree": 35,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "title": "💡 AI 应用",
-      "url": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 应用/index.md",
-      "category": "🤖 AI 与智能",
-      "degree": 18,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
-      "title": "Mac 安装 stable-diffusion",
-      "url": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
-      "filePath": "笔记/🤖 AI 与智能/AI 应用/mac-install.md",
-      "category": "🤖 AI 与智能",
-      "degree": 19,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/index.html",
-      "title": "🤖 AI 与智能",
-      "url": "/笔记/🤖 AI 与智能/index.html",
-      "filePath": "笔记/🤖 AI 与智能/index.md",
-      "category": "🤖 AI 与智能",
-      "degree": 18,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "title": "各种资源",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/各种资源.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "title": "1范数 2范数 无穷范数的通俗理解",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.md",
       "category": "🤖 AI 与智能",
       "degree": 20,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "title": "如何让 AI 玩 Minecraft？Voyager 论文笔记",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "title": "📐 机器学习基础",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/index.md",
       "category": "🤖 AI 与智能",
-      "degree": 21,
+      "degree": 18,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "title": "申请 Llama 3",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "title": "PyTorch Lightning 恢复训练进度",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.md",
       "category": "🤖 AI 与智能",
       "degree": 28,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "title": "用 Megatron-LM 训练一个 GPT-2",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "title": "SVD奇异值分解及其意义",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.md",
       "category": "🤖 AI 与智能",
-      "degree": 25,
+      "degree": 19,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "title": "在 macOS 上配置 GPT-SoVITS-WebUI",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "title": "从头构建一个自己的 GPT 吧",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.md",
       "category": "🤖 AI 与智能",
-      "degree": 18,
+      "degree": 19,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "title": "🧠 LLM 与大模型",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/index.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "title": "分布式训练",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/分布式训练.md",
       "category": "🤖 AI 与智能",
-      "degree": 18,
+      "degree": 19,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "title": "LLM 社区",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "title": "反向传播算法",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/反向传播算法.md",
       "category": "🤖 AI 与智能",
-      "degree": 24,
+      "degree": 31,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "title": "LLM 是如何工作的？",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.md",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "title": "向量范数和矩阵范数",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.md",
       "category": "🤖 AI 与智能",
-      "degree": 24,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "title": "LLM 天梯榜",
-      "url": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "filePath": "笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.md",
-      "category": "🤖 AI 与智能",
-      "degree": 26,
-      "chunkId": "chunk-008"
-    },
-    {
-      "id": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "title": "在提交pr请求后自动部署preview github pages",
-      "url": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/deploy-preview-pr.md",
-      "category": "🛠 工程实践",
       "degree": 20,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "title": "🚧 搭建 easypicker2 docker 镜像实践",
-      "url": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/ep2-docker.md",
-      "category": "🛠 工程实践",
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "title": "基本名词",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/基本名词.md",
+      "category": "🤖 AI 与智能",
+      "degree": 29,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "title": "学习和使用 PyTorch",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "title": "材料化学相关的 Python 计算库",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.md",
+      "category": "🤖 AI 与智能",
+      "degree": 29,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "title": "用 PyTorch Lightning 监控和串流 PyTorch 的训练进度",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.md",
+      "category": "🤖 AI 与智能",
+      "degree": 28,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "title": "监控和串流机器学习的进度，损失和正样本校验数值",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.md",
+      "category": "🤖 AI 与智能",
+      "degree": 27,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "title": "神经网络基础",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/神经网络基础.md",
+      "category": "🤖 AI 与智能",
+      "degree": 19,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "title": "调研结果和资料整理",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.md",
+      "category": "🤖 AI 与智能",
+      "degree": 18,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "title": "选择自己想训练的模型方向 - 机器学习的应用场景",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.md",
+      "category": "🤖 AI 与智能",
+      "degree": 20,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "title": "阅读清单",
+      "url": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "filePath": "笔记/🤖 AI 与智能/机器学习基础/阅读清单.md",
+      "category": "🤖 AI 与智能",
       "degree": 22,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "title": "ServerLess之云函数实践-天气API",
-      "url": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/faas.md",
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "title": "☁️ DevOps 与云原生",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/index.md",
       "category": "🛠 工程实践",
-      "degree": 35,
+      "degree": 10,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "title": "🖥️ 部署与运维",
-      "url": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/index.md",
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "title": "wsl中安装docker 1panel k8s",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.md",
       "category": "🛠 工程实践",
-      "degree": 17,
+      "degree": 7,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "title": "pnpm install 在github actions中运行的问题",
-      "url": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.md",
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "title": "Serverless",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/serverless.md",
       "category": "🛠 工程实践",
-      "degree": 22,
+      "degree": 16,
       "chunkId": "chunk-008"
     },
     {
-      "id": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "title": "3分钟使用OSS搭建个人的在线图床",
-      "url": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "filePath": "笔记/🛠 工程实践/部署与运维/qiniu-imgbed.md",
+      "id": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "title": "zsh和oh-my-zsh美化",
+      "url": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "filePath": "笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.md",
       "category": "🛠 工程实践",
-      "degree": 30,
+      "degree": 10,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "title": "Git常用的一些基本操作",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/git-base.md",
+      "category": "🛠 工程实践",
+      "degree": 29,
+      "chunkId": "chunk-008"
+    },
+    {
+      "id": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "title": "git如何清除历史版本",
+      "url": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "filePath": "笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.md",
+      "category": "🛠 工程实践",
+      "degree": 8,
       "chunkId": "chunk-008"
     }
   ],
   "edges": [
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
-      "type": "related",
-      "weight": 0.8654,
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "type": "markdown",
+      "weight": 1,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
+        "markdown",
         "tag-overlap",
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.4254,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.08
+        "markdown": 1,
+        "content-similarity": 0.0797,
+        "tag-overlap": 0.1527,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0094
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
       "type": "related",
-      "weight": 0.8172,
+      "weight": 0.7445,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -242,53 +244,17 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.3772,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.08
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "type": "related",
-      "weight": 0.7967,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.3567,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.08
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "type": "related",
-      "weight": 0.7452,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.2452,
+        "content-similarity": 0.3112,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.08
+        "title-overlap": 0.0133
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
       "type": "related",
-      "weight": 0.7286,
+      "weight": 0.6873,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -299,30 +265,30 @@
         "content-similarity": 0.2057,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.1029
+        "title-overlap": 0.0615
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
       "type": "related",
-      "weight": 0.5984,
+      "weight": 0.6391,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.2384,
+        "content-similarity": 0.2191,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
       "type": "related",
-      "weight": 0.5979,
+      "weight": 0.5771,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -330,33 +296,113 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1601,
-        "tag-overlap": 0.24,
+        "content-similarity": 0.1805,
+        "tag-overlap": 0.192,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0178
+        "title-overlap": 0.0246
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
       "type": "related",
-      "weight": 0.5742,
+      "weight": 0.5658,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1542,
+        "content-similarity": 0.1458,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
       "type": "related",
-      "weight": 0.5707,
+      "weight": 0.5618,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1418,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.5578,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1378,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.5541,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1341,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.5075,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0875,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.5054,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0854,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.5053,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -364,501 +410,1053 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.133,
+        "content-similarity": 0.0769,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0178
+        "title-overlap": 0.0084
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
       "type": "related",
-      "weight": 0.5703,
+      "weight": 0.5028,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1503,
+        "content-similarity": 0.0828,
         "tag-overlap": 0.24,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
       "type": "related",
-      "weight": 0.5629,
+      "weight": 0.5008,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.2029,
+        "content-similarity": 0.0808,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
       "type": "related",
-      "weight": 0.5399,
+      "weight": 0.4984,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1799,
+        "content-similarity": 0.0784,
         "tag-overlap": 0.24,
-        "directory-neighbor": 0.12
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
       "type": "related",
-      "weight": 0.5218,
+      "weight": 0.4941,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0741,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.4925,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0725,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.4834,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1032,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0082
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.4829,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0629,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.4811,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0611,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4785,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0585,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4771,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0487,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4753,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0553,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.4683,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0963,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.468,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.048,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.4631,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0911,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4604,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0404,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.4504,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0784,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4473,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0273,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4452,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0252,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "type": "related",
+      "weight": 0.4418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0218,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.4387,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0667,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.4333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.091,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.431,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.24,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.4285,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0757,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.4237,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0433,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.4206,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0783,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.4198,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0478,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.046,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.4159,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0631,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0229
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.4079,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0997,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0082
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.3926,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0626,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3921,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0201,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0525,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.3892,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0592,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3888,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0504,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0084
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3882,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0162,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3842,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0542,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3817,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0653,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0164
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3813,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0513,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3786,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0025,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0041
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3773,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0053,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.377,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.005,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3758,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0038,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "type": "related",
+      "weight": 0.3755,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0035,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3754,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.375,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.003,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "type": "related",
+      "weight": 0.3748,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0028,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3746,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0026,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3744,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0024,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "type": "related",
+      "weight": 0.3734,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0014,
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.373,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.1377,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0253
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.372,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.192,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3695,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0395,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3628,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0328,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3557,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0557,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3544,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0544,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.353,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.013,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3527,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0527,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3507,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0507,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3497,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0025
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3496,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0096,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3494,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0419,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0075
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/git-base.html",
+      "type": "related",
+      "weight": 0.3494,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
       ],
       "scoreBreakdown": {
         "content-similarity": 0.1018,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "type": "related",
-      "weight": 0.4938,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1938,
         "tag-overlap": 0.04,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.08
+        "title-overlap": 0.0276
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
       "type": "related",
-      "weight": 0.4889,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1889,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.08
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.4458,
+      "weight": 0.3493,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0258,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "type": "related",
-      "weight": 0.4325,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0925,
+        "content-similarity": 0.0093,
         "tag-overlap": 0.16,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "type": "related",
-      "weight": 0.4293,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1436,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0457
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "type": "related",
-      "weight": 0.4217,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0817,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "type": "related",
-      "weight": 0.4216,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1097,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0119
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.4202,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0491,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0711
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "type": "related",
-      "weight": 0.4184,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1004,
-        "tag-overlap": 0.192,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0059
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "type": "related",
-      "weight": 0.4141,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0418,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "type": "related",
-      "weight": 0.4127,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0413,
-        "tag-overlap": 0.24,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.4108,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0228,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.008
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "type": "related",
-      "weight": 0.4107,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0707,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3988,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0474,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "type": "related",
-      "weight": 0.3927,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1404,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "type": "related",
-      "weight": 0.3901,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1387,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.3874,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0474,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "type": "related",
-      "weight": 0.3804,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0004,
-        "tag-overlap": 0.2,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "type": "related",
-      "weight": 0.3645,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0474,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.3623,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0109,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3621,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0106,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3618,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0104,
-        "tag-overlap": 0.1714,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "type": "related",
-      "weight": 0.3583,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0411,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "type": "related",
-      "weight": 0.3547,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0376,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3481,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0241,
-        "tag-overlap": 0.144,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
       "type": "related",
       "weight": 0.3479,
       "relationTypes": [
@@ -867,30 +1465,242 @@
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0308,
-        "tag-overlap": 0.1371,
+        "content-similarity": 0.0479,
+        "tag-overlap": 0.12,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
       "type": "related",
-      "weight": 0.3419,
+      "weight": 0.3458,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0419,
-        "tag-overlap": 0.12,
+        "content-similarity": 0.0158,
+        "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3455,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0055,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3445,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0145,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3442,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.3429,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0129,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3424,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0124,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.3422,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0122,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3418,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0018,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3413,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0113,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.3407,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0107,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3406,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0006,
+        "tag-overlap": 0.16,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.3391,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0091,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3385,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0016,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3381,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0081,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
       "type": "related",
       "weight": 0.3374,
       "relationTypes": [
@@ -899,30 +1709,14 @@
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0203,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.3372,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0372,
+        "content-similarity": 0.0374,
         "tag-overlap": 0.12,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
       "type": "related",
       "weight": 0.3371,
       "relationTypes": [
@@ -931,46 +1725,46 @@
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0371,
-        "tag-overlap": 0.12,
+        "content-similarity": 0.0071,
+        "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
       "type": "related",
-      "weight": 0.3367,
+      "weight": 0.337,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.007
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "type": "related",
+      "weight": 0.3364,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0367,
-        "tag-overlap": 0.12,
+        "content-similarity": 0.0064,
+        "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "type": "related",
-      "weight": 0.3361,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0361,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
       "type": "related",
       "weight": 0.3357,
       "relationTypes": [
@@ -979,160 +1773,64 @@
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0357,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "type": "related",
-      "weight": 0.3353,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0053,
+        "content-similarity": 0.0057,
         "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
       "type": "related",
-      "weight": 0.3337,
+      "weight": 0.3343,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0537,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.3336,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0036,
+        "content-similarity": 0.0043,
         "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
       "type": "related",
-      "weight": 0.3335,
+      "weight": 0.3342,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.1135,
-        "tag-overlap": 0.04,
+        "content-similarity": 0.0042,
+        "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
       "type": "related",
-      "weight": 0.333,
+      "weight": 0.3341,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.053,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
+        "content-similarity": 0.0041,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
       "type": "related",
-      "weight": 0.3324,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0524,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "type": "related",
-      "weight": 0.3317,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0517,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "type": "related",
-      "weight": 0.331,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.051,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "type": "related",
-      "weight": 0.3304,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0504,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3301,
+      "weight": 0.334,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1140,15 +1838,79 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0545,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0356
+        "content-similarity": 0.092,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3338,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0338,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3333,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0333,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3329,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0029,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "type": "related",
+      "weight": 0.3316,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0016,
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
       "type": "related",
       "weight": 0.33,
       "relationTypes": [
@@ -1161,676 +1923,150 @@
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
       "type": "related",
-      "weight": 0.3299,
+      "weight": 0.33,
       "relationTypes": [
-        "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0727,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "type": "related",
-      "weight": 0.3279,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0519,
-        "tag-overlap": 0.096,
+        "tag-overlap": 0.15,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
       "type": "related",
-      "weight": 0.3264,
+      "weight": 0.33,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.15,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3276,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0264,
+        "content-similarity": 0.0276,
         "tag-overlap": 0.12,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/PyTorch Lightning 恢复训练进度.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
       "type": "related",
-      "weight": 0.3261,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0338,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3261,
+      "weight": 0.326,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.009,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
-      "type": "related",
-      "weight": 0.3255,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1332,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "type": "related",
-      "weight": 0.3255,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0255,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.3251,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0251,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.3246,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0074,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
-      "type": "related",
-      "weight": 0.3229,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1315,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "type": "related",
-      "weight": 0.3221,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0192,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0229
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 社区.html",
-      "type": "related",
-      "weight": 0.3218,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0418,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "type": "related",
-      "weight": 0.3198,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0284,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "type": "related",
-      "weight": 0.3183,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
       ],
       "scoreBreakdown": {
         "content-similarity": 0.026,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "type": "related",
-      "weight": 0.3179,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0265,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.3171,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0371,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "type": "related",
-      "weight": 0.3168,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1245,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0123
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "type": "related",
-      "weight": 0.3161,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0361,
-        "tag-overlap": 0.16,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "type": "related",
-      "weight": 0.3144,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.123,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0114
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.309,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.009,
         "tag-overlap": 0.12,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 是如何工作的？.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/用 PyTorch Lightning 监控和串流 PyTorch 的训练进度.html",
       "type": "related",
-      "weight": 0.306,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0682,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.18,
-        "title-overlap": 0.0178
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
-      "type": "related",
-      "weight": 0.3049,
+      "weight": 0.3239,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0049,
+        "content-similarity": 0.0239,
         "tag-overlap": 0.12,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
       "type": "related",
-      "weight": 0.3018,
+      "weight": 0.3202,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0447,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.12
+        "content-similarity": 0.0202,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
       "type": "related",
-      "weight": 0.3017,
+      "weight": 0.3189,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0257,
+        "content-similarity": 0.0189,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.3145,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0145,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.3092,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0332,
         "tag-overlap": 0.096,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "target": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/分布式训练.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
       "type": "related",
-      "weight": 0.2998,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0969,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0229
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/用 Megatron-LM 训练一个 GPT-2.html",
-      "type": "related",
-      "weight": 0.2963,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0375,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0188
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/如何让 AI 玩 Minecraft？Voyager 论文笔记.html",
-      "type": "related",
-      "weight": 0.2963,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0763,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/Rust 社区的 AI 生态.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
-      "type": "related",
-      "weight": 0.2948,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap",
-        "title-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0919,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12,
-        "title-overlap": 0.0229
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 绘画工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "type": "related",
-      "weight": 0.2933,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0361,
-        "tag-overlap": 0.1371,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "target": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "type": "related",
-      "weight": 0.2913,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0813,
-        "tag-overlap": 0.03,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/mac-install.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/在 macOS 上配置 GPT-SoVITS-WebUI.html",
-      "type": "related",
-      "weight": 0.2858,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0698,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
-      "type": "related",
-      "weight": 0.2788,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1188,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.2779,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1179,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "target": "/笔记/🤖 AI 与智能/index.html",
-      "type": "related",
-      "weight": 0.2757,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1157,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.2736,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0336,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/在 macOS 上运行 fish-speech 以进行少量样本语音合成.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/LLM 天梯榜.html",
-      "type": "related",
-      "weight": 0.2727,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0327,
-        "tag-overlap": 0.12,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 生态/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/申请 Llama 3.html",
-      "type": "related",
-      "weight": 0.2646,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.1046,
-        "tag-overlap": 0.04,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/各种资源.html",
-      "type": "related",
-      "weight": 0.2525,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0382,
-        "tag-overlap": 0.0343,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🤖 AI 与智能/AI 应用/AI 视频工作流工具和相关 SOTA.html",
-      "target": "/笔记/🤖 AI 与智能/LLM 与大模型/index.html",
-      "type": "related",
-      "weight": 0.2435,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0635,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/qiniu-imgbed.html",
-      "type": "related",
-      "weight": 0.2432,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0152,
-        "tag-overlap": 0.048,
-        "directory-neighbor": 0.18
-      }
-    },
-    {
-      "source": "/笔记/🛠 工程实践/部署与运维/faas.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "type": "related",
-      "weight": 0.2352,
+      "weight": 0.3072,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1838,15 +2074,31 @@
       ],
       "scoreBreakdown": {
         "content-similarity": 0.0072,
-        "tag-overlap": 0.048,
+        "tag-overlap": 0.12,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/deploy-preview-pr.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
       "type": "related",
-      "weight": 0.2305,
+      "weight": 0.3072,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0072,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/选择自己想训练的模型方向 - 机器学习的应用场景.html",
+      "type": "related",
+      "weight": 0.3066,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
@@ -1854,42 +2106,284 @@
         "title-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0117,
-        "tag-overlap": 0.03,
+        "content-similarity": 0.0041,
+        "tag-overlap": 0.12,
         "directory-neighbor": 0.18,
-        "title-overlap": 0.0089
+        "title-overlap": 0.0025
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/ep2-docker.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/index.html",
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/1范数 2范数 无穷范数的通俗理解.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
       "type": "related",
-      "weight": 0.2301,
+      "weight": 0.3054,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0101,
+        "content-similarity": 0.0054,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/向量范数和矩阵范数.html",
+      "type": "related",
+      "weight": 0.3047,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0047,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3043,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0043,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/阅读清单.html",
+      "type": "related",
+      "weight": 0.3034,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/学习和使用 PyTorch.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/调研结果和资料整理.html",
+      "type": "related",
+      "weight": 0.3022,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0022,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/SVD奇异值分解及其意义.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/从头构建一个自己的 GPT 吧.html",
+      "type": "related",
+      "weight": 0.3007,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0007,
+        "tag-overlap": 0.12,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/监控和串流机器学习的进度，损失和正样本校验数值.html",
+      "type": "related",
+      "weight": 0.3004,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0481,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.0123
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "type": "related",
+      "weight": 0.2917,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.005,
+        "tag-overlap": 0.1067,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/反向传播算法.html",
+      "type": "related",
+      "weight": 0.2761,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0661,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/神经网络基础.html",
+      "type": "related",
+      "weight": 0.2737,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0317,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18,
+        "title-overlap": 0.032
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/材料化学相关的 Python 计算库.html",
+      "type": "related",
+      "weight": 0.2731,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0331,
+        "tag-overlap": 0.06,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🤖 AI 与智能/机器学习基础/index.html",
+      "target": "/笔记/🤖 AI 与智能/机器学习基础/基本名词.html",
+      "type": "related",
+      "weight": 0.2725,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0625,
+        "tag-overlap": 0.03,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "type": "related",
+      "weight": 0.2709,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0036,
+        "tag-overlap": 0.0873,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/serverless.html",
+      "type": "related",
+      "weight": 0.22,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
         "tag-overlap": 0.04,
         "directory-neighbor": 0.18
       }
     },
     {
-      "source": "/笔记/🛠 工程实践/部署与运维/index.html",
-      "target": "/笔记/🛠 工程实践/部署与运维/pnpm-issue-githubactions.html",
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
       "type": "related",
-      "weight": 0.2077,
+      "weight": 0.21,
       "relationTypes": [
         "content-similarity",
         "directory-neighbor",
         "tag-overlap"
       ],
       "scoreBreakdown": {
-        "content-similarity": 0.0037,
-        "tag-overlap": 0.024,
+        "content-similarity": 0.0034,
+        "tag-overlap": 0.0267,
         "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/index.html",
+      "target": "/笔记/🛠 工程实践/DevOps 与云原生/install docker k8s 1panel in WSL.html",
+      "type": "related",
+      "weight": 0.2018,
+      "relationTypes": [
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "tag-overlap": 0.0218,
+        "directory-neighbor": 0.18
+      }
+    },
+    {
+      "source": "/笔记/🛠 工程实践/DevOps 与云原生/zsh和oh-my-zsh美化.html",
+      "target": "/笔记/🛠 工程实践/Git 与版本管理/Git删除当前分支下的所有历史版本与log并同步至GitHub_git如何清除历史版本.html",
+      "type": "related",
+      "weight": 0.1839,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap",
+        "title-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0317,
+        "tag-overlap": 0.0267,
+        "directory-neighbor": 0.12,
+        "title-overlap": 0.0055
       }
     }
   ]

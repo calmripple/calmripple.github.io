@@ -2,6 +2,7 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { basename, dirname, extname, join, relative, sep } from 'node:path'
 import { sep as posixSep } from 'node:path/posix'
 import process from 'node:process'
+import { fileURLToPath } from 'node:url'
 
 import fg from 'fast-glob'
 import grayMatter from 'gray-matter'
@@ -34,7 +35,7 @@ interface EdgeAccumulator {
   rawScore: number
 }
 
-const rootDir = process.cwd()
+const rootDir = dirname(dirname(fileURLToPath(import.meta.url)))
 const contentDir = join(rootDir, 'zh-CN')
 const outputDir = join(rootDir, 'public', 'graph-data', 'gravity-matrix')
 const chunkDir = join(outputDir, 'chunks')
@@ -364,6 +365,9 @@ async function readNotes(): Promise<NoteEntry[]> {
     cwd: rootDir,
     ignore: ['**/node_modules/**', '**/assets/**', '**/data/**'],
   })
+
+  if (!files.length)
+    throw new Error(`No markdown notes found under ${normalizePath(relative(rootDir, contentDir))}/笔记/**/*.md`)
 
   return await Promise.all(files.sort().map(async (file) => {
     const markdown = await readFile(file, 'utf-8')

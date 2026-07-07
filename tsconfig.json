@@ -6,7 +6,6 @@
       "DOM",
       "ESNext"
     ],
-    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "Bundler",

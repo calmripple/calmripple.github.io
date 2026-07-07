@@ -1,8 +1,17 @@
 {
   "version": 1,
-  "generatedAt": 1783301023552,
+  "generatedAt": 1783392107060,
   "id": "chunk-006",
   "nodes": [
+    {
+      "id": "/笔记/💼 职业成长/index.html",
+      "title": "💼 职业成长",
+      "url": "/笔记/💼 职业成长/index.html",
+      "filePath": "笔记/💼 职业成长/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
     {
       "id": "/笔记/💼 职业成长/剑指 Offer/index.html",
       "title": "⚔️ 剑指 Offer",
@@ -64,6 +73,60 @@
       "filePath": "笔记/💼 职业成长/剑指 Offer/p58.md",
       "category": "💼 职业成长",
       "degree": 26,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "title": "与传统移动web的异同",
+      "url": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/differentweb.md",
+      "category": "💼 职业成长",
+      "degree": 21,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "title": "小程序特点",
+      "url": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/feature.md",
+      "category": "💼 职业成长",
+      "degree": 19,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/index.html",
+      "title": "📱 小程序面试",
+      "url": "/笔记/💼 职业成长/小程序面试/index.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "title": "小程序的原理?",
+      "url": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "filePath": "笔记/💼 职业成长/小程序面试/principle.md",
+      "category": "💼 职业成长",
+      "degree": 21,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "title": "如何加快首屏渲染?",
+      "url": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
+      "filePath": "笔记/💼 职业成长/性能优化面试/firstScreenRender.md",
+      "category": "💼 职业成长",
+      "degree": 23,
+      "chunkId": "chunk-006"
+    },
+    {
+      "id": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "title": "⚡ 性能优化面试",
+      "url": "/笔记/💼 职业成长/性能优化面试/index.html",
+      "filePath": "笔记/💼 职业成长/性能优化面试/index.md",
+      "category": "💼 职业成长",
+      "degree": 18,
       "chunkId": "chunk-006"
     },
     {
@@ -130,60 +193,6 @@
       "chunkId": "chunk-006"
     },
     {
-      "id": "/笔记/💼 职业成长/小程序面试/differentweb.html",
-      "title": "与传统移动web的异同",
-      "url": "/笔记/💼 职业成长/小程序面试/differentweb.html",
-      "filePath": "笔记/💼 职业成长/小程序面试/differentweb.md",
-      "category": "💼 职业成长",
-      "degree": 21,
-      "chunkId": "chunk-006"
-    },
-    {
-      "id": "/笔记/💼 职业成长/小程序面试/feature.html",
-      "title": "小程序特点",
-      "url": "/笔记/💼 职业成长/小程序面试/feature.html",
-      "filePath": "笔记/💼 职业成长/小程序面试/feature.md",
-      "category": "💼 职业成长",
-      "degree": 19,
-      "chunkId": "chunk-006"
-    },
-    {
-      "id": "/笔记/💼 职业成长/小程序面试/index.html",
-      "title": "📱 小程序面试",
-      "url": "/笔记/💼 职业成长/小程序面试/index.html",
-      "filePath": "笔记/💼 职业成长/小程序面试/index.md",
-      "category": "💼 职业成长",
-      "degree": 18,
-      "chunkId": "chunk-006"
-    },
-    {
-      "id": "/笔记/💼 职业成长/小程序面试/principle.html",
-      "title": "小程序的原理?",
-      "url": "/笔记/💼 职业成长/小程序面试/principle.html",
-      "filePath": "笔记/💼 职业成长/小程序面试/principle.md",
-      "category": "💼 职业成长",
-      "degree": 21,
-      "chunkId": "chunk-006"
-    },
-    {
-      "id": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
-      "title": "如何加快首屏渲染?",
-      "url": "/笔记/💼 职业成长/性能优化面试/firstScreenRender.html",
-      "filePath": "笔记/💼 职业成长/性能优化面试/firstScreenRender.md",
-      "category": "💼 职业成长",
-      "degree": 23,
-      "chunkId": "chunk-006"
-    },
-    {
-      "id": "/笔记/💼 职业成长/性能优化面试/index.html",
-      "title": "⚡ 性能优化面试",
-      "url": "/笔记/💼 职业成长/性能优化面试/index.html",
-      "filePath": "笔记/💼 职业成长/性能优化面试/index.md",
-      "category": "💼 职业成长",
-      "degree": 18,
-      "chunkId": "chunk-006"
-    },
-    {
       "id": "/笔记/💼 职业成长/综合面试题/engineering.html",
       "title": "前端工程化",
       "url": "/笔记/💼 职业成长/综合面试题/engineering.html",
@@ -242,15 +251,6 @@
       "title": "如何理解原型？如何理解原型链？",
       "url": "/笔记/💼 职业成长/综合面试题/prototype.html",
       "filePath": "笔记/💼 职业成长/综合面试题/prototype.md",
-      "category": "💼 职业成长",
-      "degree": 18,
-      "chunkId": "chunk-006"
-    },
-    {
-      "id": "/笔记/💼 职业成长/index.html",
-      "title": "💼 职业成长",
-      "url": "/笔记/💼 职业成长/index.html",
-      "filePath": "笔记/💼 职业成长/index.md",
       "category": "💼 职业成长",
       "degree": 18,
       "chunkId": "chunk-006"
@@ -3328,22 +3328,6 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
-      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
-      "type": "related",
-      "weight": 0.2264,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0104,
-        "tag-overlap": 0.096,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
       "source": "/笔记/💼 职业成长/index.html",
       "target": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
       "type": "related",
@@ -3356,6 +3340,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0464,
         "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "type": "related",
+      "weight": 0.2264,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0104,
+        "tag-overlap": 0.096,
         "directory-neighbor": 0.12
       }
     },
@@ -3456,8 +3456,8 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
-      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
       "type": "related",
       "weight": 0.2251,
       "relationTypes": [
@@ -3472,8 +3472,8 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/小程序面试/differentweb.html",
-      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "source": "/笔记/💼 职业成长/算法与代码面试题/treeTraverse.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
       "type": "related",
       "weight": 0.2251,
       "relationTypes": [
@@ -3568,8 +3568,8 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
-      "target": "/笔记/💼 职业成长/综合面试题/object.html",
+      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
       "type": "related",
       "weight": 0.224,
       "relationTypes": [
@@ -3584,8 +3584,8 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/小程序面试/principle.html",
-      "target": "/笔记/💼 职业成长/算法与代码面试题/transfer.html",
+      "source": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "target": "/笔记/💼 职业成长/综合面试题/object.html",
       "type": "related",
       "weight": 0.224,
       "relationTypes": [
@@ -3826,8 +3826,8 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
-      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
+      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
       "type": "related",
       "weight": 0.2222,
       "relationTypes": [
@@ -3842,8 +3842,8 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/小程序面试/feature.html",
-      "target": "/笔记/💼 职业成长/算法与代码面试题/middle-center.html",
+      "source": "/笔记/💼 职业成长/算法与代码面试题/kmp.html",
+      "target": "/笔记/💼 职业成长/综合面试题/promote.html",
       "type": "related",
       "weight": 0.2222,
       "relationTypes": [
@@ -3986,22 +3986,6 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
-      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
-      "type": "related",
-      "weight": 0.2179,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.0179,
-        "tag-overlap": 0.08,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
       "source": "/笔记/💼 职业成长/index.html",
       "target": "/笔记/💼 职业成长/剑指 Offer/p53-2.html",
       "type": "related",
@@ -4014,6 +3998,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.0379,
         "tag-overlap": 0.06,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55-1.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/debounce-throttle.html",
+      "type": "related",
+      "weight": 0.2179,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.0179,
+        "tag-overlap": 0.08,
         "directory-neighbor": 0.12
       }
     },
@@ -4866,22 +4866,6 @@
       }
     },
     {
-      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
-      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
-      "type": "related",
-      "weight": 0.191,
-      "relationTypes": [
-        "content-similarity",
-        "directory-neighbor",
-        "tag-overlap"
-      ],
-      "scoreBreakdown": {
-        "content-similarity": 0.011,
-        "tag-overlap": 0.06,
-        "directory-neighbor": 0.12
-      }
-    },
-    {
       "source": "/笔记/💼 职业成长/index.html",
       "target": "/笔记/💼 职业成长/小程序面试/differentweb.html",
       "type": "related",
@@ -4894,6 +4878,22 @@
       "scoreBreakdown": {
         "content-similarity": 0.023,
         "tag-overlap": 0.048,
+        "directory-neighbor": 0.12
+      }
+    },
+    {
+      "source": "/笔记/💼 职业成长/剑指 Offer/p55.html",
+      "target": "/笔记/💼 职业成长/算法与代码面试题/index.html",
+      "type": "related",
+      "weight": 0.191,
+      "relationTypes": [
+        "content-similarity",
+        "directory-neighbor",
+        "tag-overlap"
+      ],
+      "scoreBreakdown": {
+        "content-similarity": 0.011,
+        "tag-overlap": 0.06,
         "directory-neighbor": 0.12
       }
     },
